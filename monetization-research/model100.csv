@@ -1,0 +1,101 @@
+report_rank,id,opportunity,paid_unit,price_eur,base_units,down_units,up_units,launch_cash_eur,annual_fixed_cash_eur,variable_cash_per_unit,setup_founder_hours,annual_fixed_founder_hours,founder_hours_per_unit,fit,demand,speed,scale,moat_now,moat_potential,source_ids
+1,SPRINT,Enterprise AI Shipping Sprint,company sprint,18000,8,2,14,4000,6000,4500,35,105,12,5,4,4,4,3,4,S01;S05;S09;S13
+2,ACTIVATION,Developer activation retainers,incremental vendor-quarter,9000,12,4,20,3000,6000,2500,25,55,6,5,4,4,4,3,4,S02;S17;S18
+3,TEAMLABS,AI Shipping Labs employer team plan,team-month,750,100,25,220,4000,8000,175,35,55,0.35,5,4,4,5,2,3,S06;S19;S20
+4,HIRING,AI hiring-loop design and calibration,employer package,8000,10,2,18,3000,6000,1000,30,50,10,5,4,4,4,2,4,S08;S15;S16
+5,RETENTION,Labs activation and retention program,incremental paid member-month,60,900,200,1800,2000,7000,10,30,60,0.02,5,4,5,4,2,3,S06;S19
+6,ACADEMY,Vendor academy licensing,vendor license package,25000,4,1,8,6000,6000,8000,40,35,18,5,4,3,4,3,4,S10;S17;S18
+7,AUDIT,RAG and agent reliability audit,bounded audit,12000,8,2,14,4000,4000,2500,30,40,16,5,4,5,3,2,3,S09;S14;S23
+8,TRAINER,Authorized instructor delivery licenses,partner-year,15000,6,1,12,8000,10000,2500,60,60,8,5,3,2,5,2,4,S05;S13;S27
+9,CODING,AI-assisted engineering adoption sprint,team sprint,14000,6,1,11,4000,5000,3500,35,65,14,5,4,4,3,2,3,S10;S13;S23
+10,COUNCIL,Fractional AI architecture council,client-month,3000,30,9,54,2000,4000,500,15,35,6,5,4,5,2,2,3,S01;S09
+11,PANEL,Paid hands-on developer research studies,research study,18000,4,1,8,3000,4000,6000,30,40,12,5,3,3,4,2,4,S02;S21;S22
+12,ONBOARD,Employer AI-engineer onboarding licenses,employer package,12000,6,1,11,6000,7000,3000,45,60,8,5,3,3,4,2,4,S05;S08;S20
+13,VENDORBADGE,Vendor hands-on certification lab design,vendor assessment project,18000,4,1,8,5000,6000,5000,40,60,16,5,3,3,4,2,4,S10;S16;S18
+14,JOBBOARD,Premium employer job listings,job campaign,600,60,18,108,2000,4000,50,20,40,0.5,5,3,5,4,2,2,S02;S08
+15,MOCKPANEL,Senior AI interview simulation clinic,candidate package,450,120,36,216,2000,5000,140,20,45,0.35,5,3,5,3,2,3,S06;S08;S16
+16,SKILLSCAN,Employer team-skills diagnostic,team assessment,9000,6,1,11,5000,6000,2500,35,55,10,5,3,4,4,2,4,S08;S16;S20
+17,CLOUDAUDIT,Data-platform cost and reliability audit,platform audit,16000,5,1,9,4000,5000,4000,25,55,18,5,3,4,3,3,3,S01;S09
+18,DEMOSTUDIO,Technical launch-demo studio,launch asset package,12000,6,1,11,3000,5000,4000,25,50,12,5,3,4,3,2,3,S10;S17
+19,FIELDPAID,Premium field-guide workbook,digital workbook,59,700,210,1260,2000,3000,8,65,65,0.025,5,3,4,5,1,2,S06;S08;S16
+20,SIMLICENSE,Original hiring simulation licenses,employer-year,6000,10,3,18,10000,8000,800,75,75,4,5,3,2,5,2,4,S08;S15;S16
+21,INTERVIEWS,Human AI interviews as a service,candidate interview,650,120,36,216,5000,10000,250,40,70,0.4,5,3,3,4,2,4,S08;S15;S16
+22,RECRUIT,Opt-in specialist recruiting partnership,successful placement,12000,6,1,12,5000,8000,4000,35,80,10,5,3,3,4,2,4,S02;S08;S15
+23,DOCSCARE,Developer documentation maintenance retainers,vendor-month,2500,30,9,54,3000,6000,1200,25,60,2,5,3,4,4,2,3,S10;S17
+24,EVALCARE,Managed evaluation maintenance,application-month,1800,36,10,65,5000,6000,650,40,50,2,5,3,3,4,2,4,S09;S14;S23
+25,CAPSTONE,Employer-funded capstone challenges,sponsored challenge,15000,4,1,8,4000,6000,6000,30,65,15,5,3,3,4,2,4,S02;S08;S18
+26,HIRINGCOUNCIL,AI hiring managers' council,member-year,3000,20,6,36,3000,8000,300,30,75,2,4,3,3,4,2,4,S03;S08;S15
+27,TALKS,Paid corporate technical talks,company talk,4000,12,3,22,1000,3000,300,15,45,5,5,3,5,2,2,2,S01;S10
+28,DEBRIDGE,Data-engineer to AI-engineer bridge cohort,learner seat,1000,80,24,144,8000,10000,220,75,95,0.5,5,3,3,4,2,3,S05;S06;S08;S19
+29,DATAREADY,RAG data-readiness diagnostic,data diagnostic,7000,8,2,15,2000,4000,1500,20,50,12,5,3,4,3,2,3,S01;S09;S23
+30,TRAINOPS,Automation service for training businesses,operator project,10000,6,1,11,3000,5000,3000,25,55,18,5,3,4,3,2,3,S06;S11;S12
+31,AFFILIATE,Disclosed developer-tool affiliate portfolio,net attributable commission,60,300,90,540,1000,3000,5,25,65,0.04,5,3,5,5,1,1,S02;S10
+32,DUPSEARCH,Marketplace duplicate and search sprint,marketplace project,20000,4,1,8,6000,5000,6000,40,50,20,4,3,3,3,3,4,S01;S11
+33,BENCHSPON,Independent sponsored tooling benchmark,sponsored study,20000,3,0,6,7000,8000,6000,50,80,22,5,3,3,4,2,4,S02;S21;S23
+34,REVIEWS,Bounded portfolio review marketplace,project review,220,180,54,324,3000,5000,100,25,60,0.2,5,3,4,4,2,3,S06;S08
+35,REFERRAL,Disclosed cloud or tooling implementation referrals,qualified referral fee,3000,10,3,18,1000,3000,400,15,50,3,4,3,5,4,1,2,S09;S10
+36,JDDESIGN,AI role and job-description design,role-design package,1800,20,6,36,1000,3000,200,15,40,4,5,3,5,2,1,2,S08;S16
+37,PROCURE,Vendor-neutral AI tool selection advisory,buyer decision package,10000,5,1,9,4000,6000,2000,30,70,16,4,3,4,3,2,4,S10;S21;S23
+38,APPRENTICE,Paid AI apprenticeship placement program,employer-sponsored placement,18000,6,1,11,12000,10000,9000,60,100,15,5,3,2,4,2,4,S02;S08;S15
+39,OFFSITE,Executive AI investment-prioritization offsite,leadership offsite,14000,4,1,8,4000,4000,2000,30,60,15,4,3,4,2,2,3,S01;S09;S23
+40,DINNERS,Sponsored technical hiring dinners,sponsored dinner,5000,8,2,15,2000,3000,2000,20,45,8,5,3,4,3,2,3,S02;S03
+41,CASELIB,Production case-study enterprise library,team-year,2000,25,7,45,7000,9000,200,65,110,2,5,2,3,5,2,3,S06;S20;S23
+42,OFFICE,Maintainer-led technical office hours,attendee session,100,240,72,432,2000,4000,45,20,55,0.08,5,3,5,3,2,2,S06;S10
+43,JOBINTEL,AI hiring intelligence subscription,organization-month,500,96,28,173,10000,8000,60,90,100,0.25,5,2,2,5,2,4,S08;S21
+44,ADS,Incremental YouTube advertising revenue,"1,000 monetized views",5,1000,300,1800,1000,2000,0.5,15,80,0.025,5,3,5,5,1,1,S02
+45,DILIGENCE,AI technical due-diligence reviews,diligence assignment,15000,5,1,9,5000,5000,3000,30,65,22,4,3,3,3,2,4,S01;S09
+46,MIGRATE,LLM provider migration service,migration engagement,14000,4,1,8,3000,4000,4000,30,50,20,4,3,4,3,2,3,S09;S23
+47,SUMMIT,Paid online production-AI summit,paid pass,100,600,180,1080,10000,8000,15,70,100,0.08,5,2,3,4,2,2,S02;S06
+48,MENTORNET,Paid alumni mentor network,net platform fee per package,120,200,60,360,6000,8000,25,50,90,0.15,5,3,3,4,2,4,S02;S06
+49,BOOK,New practical technical book,net paid copy,35,1200,360,2160,8000,3000,8,260,90,0.01,5,3,2,5,2,3,S01;S11;S12
+50,LABHOST,Managed course lab environments,learner-month,25,2400,720,4320,30000,18000,8,160,160,0.025,5,3,2,5,1,3,S11;S18
+51,KNOWLEDGE,Private knowledge systems for consultancies,implementation,25000,3,0,6,7000,6000,10000,50,65,25,4,3,3,3,2,3,S09;S11;S23
+52,STAFF,Staff-level AI engineering leadership cohort,learner seat,1600,40,12,72,7000,9000,350,70,95,1,4,3,3,3,2,3,S01;S09
+53,CONF,Annual practical AI conference,ticket-equivalent revenue unit,500,350,105,630,45000,20000,150,140,220,0.25,5,3,2,3,2,3,S02;S18
+54,OFFLINE,Offline enterprise AI lab bundles,deployment license,18000,3,0,6,10000,8000,6000,70,80,18,4,3,2,4,2,4,S01;S18;S20
+55,COURSETEST,Course code and content freshness monitor,operator-month,200,180,54,324,12000,8000,40,85,85,0.3,5,2,3,5,1,3,S05;S11;S17
+56,QUOTA,Quse-style AI tool quota dashboard for teams,team-month,200,120,36,216,15000,10000,30,100,95,0.5,5,2,3,5,1,3,S12;S24
+57,POCKET,PocketShell paid remote-agent team features,team-month,250,96,28,173,18000,12000,50,110,100,0.6,5,2,3,5,1,3,S12;S24;S25
+58,DUPAPI,Duplicate-image detection API,customer-month,800,60,18,108,40000,20000,200,190,140,1,5,2,2,5,2,4,S01;S11
+59,DONATE,Voluntary community patronage,patron-month,10,1200,360,2160,1000,2000,1.5,15,60,0.02,5,2,5,4,2,2,S02
+60,UNIVERSITY,University production-AI lab licenses,institution-year,8000,6,1,11,8000,8000,2000,60,95,10,5,2,2,4,2,3,S01;S05;S27
+61,BADGE,Employer-recognized project verification,verified submission,180,250,75,450,7000,8000,65,50,65,0.3,5,2,3,4,1,4,S08;S16;S27
+62,EVALDATA,Original domain evaluation-set licensing,dataset license,5000,10,3,18,12000,8000,1000,80,100,8,4,2,2,5,1,4,S09;S21;S23
+63,SECURITY,Authorized agent-security assessment,partner-led assessment,18000,4,1,8,7000,7000,7000,45,55,18,3,3,3,3,1,4,S09;S23
+64,PUBLISHER,Publisher exercise-companion licensing,publisher contract,15000,3,0,6,3000,4000,4000,25,70,20,4,2,2,4,2,3,S01;S11
+65,ASSOCIATION,Trade-association AI academy partnership,association contract,20000,3,0,6,5000,8000,7000,40,90,16,4,3,2,4,2,3,S01;S05;S27
+66,OSSCARE,Open-source corporate support contracts,company-year,8000,4,1,8,5000,7000,1500,45,75,14,5,2,3,3,2,3,S11;S24
+67,COMMUNITYBOT,Community FAQ and moderation software,community-month,100,240,72,432,12000,10000,25,100,110,0.25,5,2,3,5,1,2,S11;S12
+68,COURSEOPS,Enrollment-to-support workflow software,operator-month,250,120,36,216,20000,12000,50,130,100,0.5,5,2,2,5,1,3,S06;S11;S12
+69,GRADE,AI-assisted assignment review software,course-month,300,100,30,180,20000,15000,80,140,120,0.5,5,2,2,5,1,3,S08;S11;S16
+70,CATALOG,E-commerce catalog enrichment service,catalog project,12000,5,1,9,5000,6000,4000,40,80,20,4,3,3,3,2,3,S01;S11
+71,DEVRELHIRE,Developer-relations recruiting partner,successful placement fee share,10000,4,1,8,4000,6000,2500,30,90,15,4,3,3,3,2,3,S02;S10;S17
+72,LABEL,Human evaluation operations agency,project,20000,5,1,9,8000,10000,12000,45,90,16,4,3,3,3,2,3,S02;S21;S23
+73,UDEMY,New low-price marketplace ML course,net course receipt,15,2000,600,3600,6000,4000,3,170,100,0.02,5,2,3,5,1,1,S01;S05
+74,AGENTSDK,Commercial support for a lightweight agent SDK,organization-year,4000,6,1,11,20000,12000,1000,130,110,12,5,2,2,5,1,2,S11;S23
+75,MINHOST,Hosted minsearch service,customer-month,99,240,72,432,25000,15000,25,160,120,0.4,5,2,2,5,1,2,S11;S24
+76,SKILLDATA,Consented employer skills benchmark,employer-year,8000,6,1,11,15000,12000,2000,100,100,8,4,2,2,5,1,4,S08;S16;S21
+77,PMPROGRAM,Technical AI decisions for product managers,learner seat,900,60,18,108,6000,8000,180,65,90,0.7,3,3,3,4,1,2,S13;S20;S23
+78,RETRIEVALDATA,Rights-cleared retrieval benchmark kits,commercial benchmark license,2500,12,3,22,8000,6000,400,65,80,5,4,2,2,5,1,3,S01;S11;S23
+79,PAIDNEWS,General paid AI newsletter,subscriber-month,12,1500,450,2700,3000,6000,2,60,150,0.02,4,2,4,5,1,1,S06;S07
+80,CERT,Standalone AI engineering certification exam,candidate exam,250,250,75,450,20000,15000,75,120,130,0.25,4,2,2,5,1,3,S08;S16;S27
+81,EXGEN,Original GitHub exercise generator,team-month,80,180,54,324,12000,8000,20,95,85,0.3,4,2,3,5,1,2,S08;S11;S12
+82,COMPLETE,Learner-completion analytics add-on,operator-month,150,180,54,324,15000,10000,35,110,110,0.3,4,2,2,5,1,3,S06;S11;S20
+83,TALENTCRM,Cohort-to-employer talent CRM,operator-month,300,96,28,173,25000,15000,60,150,120,0.6,4,2,2,5,1,3,S08;S15;S16
+84,RETREAT,Small AI builder retreat,attendee ticket,1400,30,9,54,8000,8000,550,60,110,1,4,3,2,3,2,3,S02;S06;S27
+85,RESUMEAPP,AI resume and portfolio generator,subscriber-month,15,1800,540,3240,15000,12000,3,120,100,0.03,4,2,3,5,1,1,S06;S08
+86,MATCHSAAS,Mentor-matching software for communities,operator-month,100,180,54,324,18000,10000,20,120,110,0.25,4,2,2,5,1,2,S06;S11
+87,ACQUIRE,Acquire a small developer-tool business,customer-month,100,1200,600,1800,100000,18000,20,100,180,0.3,4,2,1,5,2,3,S01;S11
+88,MERCH,Community merchandise,net sale before fulfillment,35,500,150,900,3000,2000,23,25,65,0.08,4,2,4,4,1,1,S02
+89,SPINOUT,Separate sponsored specialist newsletter,sponsored issue,1000,20,6,36,3000,4000,150,55,100,3,4,2,3,4,1,2,S02;S07
+90,NEGOTIATE,Technical offer-negotiation coaching,coaching package,600,40,12,72,2000,3000,100,20,60,2,3,3,4,2,1,2,S08
+91,GENRAG,Generic hosted RAG chatbot SaaS,customer-month,99,360,108,648,35000,20000,25,180,160,0.5,4,2,2,5,1,1,S09;S11;S23
+92,AUDIO,Audio companion and code walkthrough bundle,bundle purchase,45,400,120,720,4000,2000,8,75,55,0.02,3,2,3,5,1,2,S01;S11
+93,VOICE,Paid voice-to-draft writing assistant,subscriber-month,15,1200,360,2160,10000,10000,4,100,95,0.035,3,2,3,5,1,2,S11;S12
+94,REDACT,Training-data redaction gateway,team-month,500,72,21,130,30000,18000,100,160,120,1,3,2,2,5,1,3,S18;S23
+95,PAYDATA,Consented technical compensation research,employer report,4000,8,2,15,7000,8000,1000,60,100,8,3,2,2,4,1,3,S03;S08;S21
+96,CODEEXPLAIN,Standalone code-explanation SaaS,subscriber-month,20,900,270,1620,20000,12000,6,160,120,0.05,4,1,2,5,1,1,S12
+97,ANGEL,Angel investing in audience-adjacent startups,cash distribution,0,1,0,1,50000,3000,0,15,60,0,3,2,1,5,1,2,S01
+98,EQUITY,Consulting primarily for startup equity,cash-equivalent receipt,0,3,0,3,2000,3000,1000,20,45,70,4,2,2,2,1,2,S01;S09
+99,HORROR,AI-generated horror or entertainment channel,"1,000 monetized views",3,1000,300,1800,8000,8000,1,100,130,0.1,2,1,3,5,1,1,S11;S12
+100,FITNESS,Consumer AI fitness application,subscriber-month,10,1500,450,2700,25000,18000,3,170,150,0.06,2,1,2,5,1,1,S11;S12
