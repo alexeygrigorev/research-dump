@@ -4,6 +4,7 @@ Dump of my research.
 
 ## Documents
 
+- [Astra Challenge: 100 Ideas and Problem Validation](astra-challenge-research/README.md) — 100 reranked ideas, evidence cards, 85 public sources with caveats, CSV ranking, and prototype recommendations; research archived on September 12, 2026
 - [Berlin Meetup and Workshop Venues](berlin-meetup-workshop-venues/README.md) — budget-friendly rooms for up to 50 people in central Berlin, meetup and workshop pricing, cancellation terms, booking lead times, source links, and a venue enquiry template
 - [Hobby Project Launch Course](hobby-project-launch-course/README.md) — a ten-module self-study course in Russian for validating and launching an indie game, 39 open learning-resource entries, 13 practical worksheets, and archived Hobby Cohort research with 40 sources
 - [100 Monetization Opportunities for Alexey Grigorev](monetization-research/README.md) — ranked ideas, unit economics, scalability and moat, competitive context, and a 90-day validation plan
