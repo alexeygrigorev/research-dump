@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ThreadScout · Мой ответ</title>
+<style>
+body{font:16px system-ui,sans-serif;max-width:700px;margin:20px auto;padding:0 16px;background:var(--tg-theme-bg-color,#fff);color:var(--tg-theme-text-color,#222)}
+h1{font-size:22px}h2{font-size:17px}textarea{box-sizing:border-box;width:100%;min-height:230px;padding:12px;font:inherit}button,a{padding:12px;display:inline-block;margin:8px 4px 0 0}pre{white-space:pre-wrap;word-break:break-word;font:inherit;border:1px solid #aaa;padding:12px}.note{font-size:14px;line-height:1.5}
+</style>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<h1 id="title">ThreadScout</h1>
+<p class="note">Приватная подготовка. Для HN пиши самостоятельно: не копируй и не перефразируй AI-текст. Здесь нет отправки на Reddit/HN.</p>
+<h2>Оригинал обсуждения</h2><pre id="original"></pre>
+<details><summary>Контекст и приватная справка</summary><pre id="context"></pre></details>
+<h2>Мой ответ — написанный мной</h2><textarea id="draft" maxlength="3500" placeholder="Твой текст. Справка сюда автоматически не переносится."></textarea>
+<button id="save">Сохранить</button><button id="copy">Скопировать мой ответ</button><a id="open" target="_blank" rel="noopener noreferrer">Открыть обсуждение</a>
+<p id="status" role="status"></p>
+<script>
+'use strict';
+const tg=window.Telegram?.WebApp;
+const key=new URLSearchParams(location.search).get('item')||'';
+let version=0;
+const status=document.getElementById('status');
+async function call(path,extra={}){
+ const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({init_data:tg?.initData||'',key,...extra})});
+ const data=await r.json(); if(!r.ok)throw new Error(data.error); return data;
+}
+async function init(){
+ if(!tg?.initData)throw new Error('Открой редактор кнопкой бота внутри Telegram.');
+ tg.ready();tg.expand(); const d=await call('/api/item');
+ document.getElementById('title').textContent=d.title;
+ document.getElementById('original').textContent=d.original||'Текст не загружен.';
+ document.getElementById('context').textContent=d.context+'\n\n'+Object.values(d.brief).filter(x=>typeof x==='string').join('\n\n');
+ document.getElementById('draft').value=d.draft.human; version=d.draft.version;
+ const a=document.getElementById('open');
+ if(d.url && /^https:\/\/(news\.ycombinator\.com|www\.reddit\.com)\//.test(d.url))a.href=d.url; else a.hidden=true;
+}
+document.getElementById('save').onclick=async()=>{try{const d=await call('/api/save',{text:document.getElementById('draft').value,version});version=d.version;status.textContent='Сохранено. Ничего не опубликовано.';}catch(e){status.textContent=e.message;}};
+document.getElementById('copy').onclick=async()=>{const t=document.getElementById('draft');try{await navigator.clipboard.writeText(t.value);status.textContent='Твой ответ скопирован. Сохранение — отдельной кнопкой.';}catch(e){t.focus();t.select();status.textContent='Буфер недоступен: текст выделен, скопируй через меню телефона.';}};
+init().catch(e=>status.textContent=e.message);
+</script></html>
