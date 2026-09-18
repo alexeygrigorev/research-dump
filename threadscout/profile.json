@@ -1,0 +1,227 @@
+{
+  "name": "Alexey Grigorev",
+  "verified_at": "2026-09-18",
+  "scope": "Public professional information only. No invented personal experience, numbers, employment or endorsements.",
+  "facts": [
+    {
+      "claim": "Founder of DataTalks.Club and creator/organizer of project-based Zoomcamp courses.",
+      "source": "https://alexeygrigorev.com/"
+    },
+    {
+      "claim": "Works on practical AI projects and AI Shipping Labs.",
+      "source": "https://aishippinglabs.com/"
+    },
+    {
+      "claim": "Has publicly described a local Telegram writing assistant that turns input into Markdown through a coding agent.",
+      "source": "https://aishippinglabs.com/blog/telegram-writing-assistant"
+    },
+    {
+      "claim": "Published SQLiteSearch, a lightweight Python text/vector-search library; also created minsearch.",
+      "source": "https://aishippinglabs.com/blog/sqlitesearch"
+    },
+    {
+      "claim": "Publishes AI engineering interview resources and open-source projects.",
+      "source": "https://alexeygrigorev.com/projects.html"
+    }
+  ],
+  "mentions": [
+    "Alexey Grigorev",
+    "DataTalks.Club",
+    "DataTalks",
+    "Zoomcamp",
+    "AI Shipping Labs",
+    "SQLiteSearch",
+    "minsearch"
+  ],
+  "topics": [
+    {
+      "id": "learning",
+      "terms": [
+        "machine learning course",
+        "data engineering course",
+        "learn machine learning",
+        "project-based",
+        "zoomcamp",
+        "mlops course",
+        "LLM course"
+      ],
+      "reason": "Есть собственные проектные курсы и опыт DataTalks.Club."
+    },
+    {
+      "id": "retrieval",
+      "terms": [
+        "RAG",
+        "retrieval",
+        "vector search",
+        "text search",
+        "SQLite",
+        "minsearch",
+        "SQLiteSearch",
+        "RAG evaluation"
+      ],
+      "reason": "Есть minsearch, SQLiteSearch и материалы по практической работе с LLM."
+    },
+    {
+      "id": "data-engineering",
+      "terms": [
+        "data engineering",
+        "data pipeline",
+        "ETL",
+        "orchestration",
+        "MLOps"
+      ],
+      "reason": "Подходит опыт и бесплатные материалы Data Engineering/MLOps Zoomcamp."
+    },
+    {
+      "id": "interviews",
+      "terms": [
+        "AI engineering interview",
+        "AI engineer interview",
+        "take-home",
+        "hiring manager interview",
+        "ML interview"
+      ],
+      "reason": "Есть собственный AI Engineering Field Guide и интервью-материалы."
+    },
+    {
+      "id": "agent-workflows",
+      "terms": [
+        "coding agent",
+        "codex",
+        "Claude Code",
+        "Telegram bot",
+        "Telegram assistant",
+        "agent workflow"
+      ],
+      "reason": "Ты уже описал локальный Telegram writing assistant и работу с coding agents."
+    },
+    {
+      "id": "shipping",
+      "terms": [
+        "finish my project",
+        "finish projects",
+        "ship a project",
+        "accountability",
+        "AI side project",
+        "project sprint"
+      ],
+      "reason": "AI Shipping Labs посвящён практическим проектам и их завершению; это коммерческая аффилиация."
+    }
+  ],
+  "assets": [
+    {
+      "id": "ml-zoomcamp",
+      "title": "Machine Learning Zoomcamp",
+      "url": "https://github.com/DataTalksClub/machine-learning-zoomcamp",
+      "source": "https://alexeygrigorev.com/",
+      "access": "free public course",
+      "topics": [
+        "learning"
+      ],
+      "use_when": "Спрашивают о проектном изучении ML. Не обещать трудоустройство и не превращать ответ в рекламу курса."
+    },
+    {
+      "id": "de-zoomcamp",
+      "title": "Data Engineering Zoomcamp",
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "source": "https://alexeygrigorev.com/",
+      "access": "free public course",
+      "topics": [
+        "data-engineering",
+        "learning"
+      ],
+      "use_when": "Нужна структура обучения data engineering или пример учебного проекта."
+    },
+    {
+      "id": "sqlitesearch",
+      "title": "SQLiteSearch: Lightweight Text and Vector Search Library in Python",
+      "url": "https://aishippinglabs.com/blog/sqlitesearch",
+      "source": "https://aishippinglabs.com/blog/sqlitesearch",
+      "access": "public article; inspected",
+      "topics": [
+        "retrieval"
+      ],
+      "use_when": "Маленький Python/RAG-проект, поиск без отдельного сервера. Не утверждать превосходство по производительности без измерений."
+    },
+    {
+      "id": "minsearch",
+      "title": "minsearch",
+      "url": "https://github.com/alexeygrigorev/minsearch",
+      "source": "https://alexeygrigorev.com/projects.html",
+      "access": "public open-source project",
+      "topics": [
+        "retrieval"
+      ],
+      "use_when": "Нужен простой учебный или небольшой in-memory поиск; не выдавать его за универсальную production-базу."
+    },
+    {
+      "id": "telegram-writing",
+      "title": "Telegram Writing Assistant: Claude Code Turns Voice Notes Into Markdown",
+      "url": "https://aishippinglabs.com/blog/telegram-writing-assistant",
+      "source": "https://aishippinglabs.com/blog/telegram-writing-assistant",
+      "access": "public article; inspected",
+      "topics": [
+        "agent-workflows"
+      ],
+      "use_when": "Спрашивают про управление локальными агентами с телефона, Telegram или Markdown. Не заявлять, что там используется Codex вместо Claude."
+    },
+    {
+      "id": "field-guide",
+      "title": "AI Engineering Field Guide",
+      "url": "https://github.com/alexeygrigorev/ai-engineering-field-guide",
+      "source": "https://alexeygrigorev.com/projects.html",
+      "access": "public open-source resource; individual tasks not inspected",
+      "topics": [
+        "interviews"
+      ],
+      "use_when": "Нужны практические AI engineering задания или подготовка к интервью."
+    },
+    {
+      "id": "hiring-manager",
+      "title": "What to Expect in an AI Engineering Hiring Manager Interview",
+      "url": "https://aishippinglabs.com/blog/ai-engineering-hiring-manager-interview",
+      "source": "https://aishippinglabs.com/blog/ai-engineering-hiring-manager-interview",
+      "access": "free with sign-in; full text NOT inspected",
+      "topics": [
+        "interviews"
+      ],
+      "use_when": "Тема hiring-manager interview; сначала проверить полный текст и предупредить о sign-in."
+    },
+    {
+      "id": "shipping-labs",
+      "title": "AI Shipping Labs",
+      "url": "https://aishippinglabs.com/",
+      "source": "https://aishippinglabs.com/",
+      "access": "commercial community; paid memberships and some free resources",
+      "topics": [
+        "shipping"
+      ],
+      "use_when": "Явно ищут совместную работу над AI-проектами или accountability. Раскрыть свою аффилиацию; по умолчанию ссылку не вставлять."
+    },
+    {
+      "id": "blog",
+      "title": "Personal blog linked from Alexey’s homepage",
+      "url": "https://aishippingblog.com",
+      "source": "https://alexeygrigorev.com/",
+      "access": "blog; check each article and any sign-in individually",
+      "topics": [
+        "agent-workflows",
+        "shipping"
+      ],
+      "use_when": "Найти конкретную подходящую статью; главная страница не заменяет содержательный ответ."
+    }
+  ],
+  "community_hypotheses": [
+    "r/dataengineering",
+    "r/learnmachinelearning",
+    "r/MLOps",
+    "r/LocalLLaMA",
+    "r/AI_Agents"
+  ],
+  "community_rules_verified": false,
+  "privacy_rules": [
+    "Do not use private email, messages, student records or employer/customer details.",
+    "Treat community participants as people asking a question, not as inferred individual sales profiles."
+  ],
+  "link_policy": "Default no link. Topic match is not permission. Human verifies current community rules and discloses own affiliation."
+}
