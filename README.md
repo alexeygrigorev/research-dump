@@ -4,6 +4,7 @@ Dump of my research.
 
 ## Documents
 
+- [Solo + AI Berlin — Founding Peer Group](solo-ai-berlin/README.md) — positioning, selection criteria, upfront-payment/refund model, November 10/24 pilot plan, venue and cost research, potential contacts, English launch copy, landing source, optional Stripe backend, tests and deployment instructions; archived September 19, 2026
 - [DataTalks.Club — YouTube Growth to 500,000 Subscribers](datatalks-club-youtube-growth/README.md) — Russian-language strategy through December 31, 2027: standalone engineering videos, livestream repurposing, topic discovery, sponsor outcomes, 90-day experiments, milestones, source links and evidence caveats; includes [weekly content radar setup and prompt](datatalks-club-youtube-growth/weekly-radar.md); archived September 18, 2026
 - [AI Shipping Blog — Organic Growth to 100,000 Subscribers](ai-shipping-blog-growth/README.md) — Russian-language content audit, Substack growth case studies, organic acquisition strategy, eight-week editorial calendar, 90-day action plan, metrics, email-import and consent considerations, and source links; target September 1, 2027; analysis archived September 18, 2026
 - [Product Shipping with AI — Course and Maven Launch](product-shipping/README.md) — the November 2026–January 2027 course plan, marketing calendar, ten webinar ideas and four lesson briefs, two lead magnets, twelve guest-expert candidates with sources, interview playbook, ready-to-paste English Maven copy, setup checklist, and competitor research; prepared September 18, 2026
