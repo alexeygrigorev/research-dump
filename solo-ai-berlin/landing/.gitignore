@@ -1,0 +1,6 @@
+.env
+private-data/
+*.sqlite3*
+*.jsonl
+__pycache__/
+.venv/

@@ -16,6 +16,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 | [strategy/ai-native-company](strategy/ai-native-company/README.md) | AI-native one-founder operating model + 200-episode podcast library + people to follow | Archived Sep 5, 2026 |
 | [strategy/astra-challenge](strategy/astra-challenge/README.md) | 100 prototype ideas reranked by problem evidence, with 85 sources | Archived Sep 12, 2026 |
 | [events/berlin-venues](events/berlin-venues/README.md) | Budget Berlin meetup/workshop rooms for ~50 people, prices and cancellation terms | Archived Sep 10, 2026 — recheck prices before booking |
+| [solo-ai-berlin](solo-ai-berlin/README.md) | Berlin solopreneur peer group: positioning, payment/refund model, Nov 10 & 24 pilot plan, venue research, launch copy, and landing page with tests | Archived Sep 19, 2026 — pilot dates Nov 10 & 24, 2026 |
 
 **Active** = ongoing work. **Ready to use / Reference** = finished, maintained as-is. **Archived** = snapshot of a past analysis, sources not re-verified at save time; each area README states its own caveats.
 
@@ -25,7 +26,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 - **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
 - **Interviews & podcasts:** [podcast/](podcast/README.md) for the reusable methods; applied guest research lives in [courses/product-shipping/guest-research-by-module](courses/product-shipping/guest-research-by-module/README.md) and [strategy/ai-native-company](strategy/ai-native-company/README.md).
-- **Events:** [events/](events/) — Berlin venue research.
+- **Events & ventures:** [events/](events/) — Berlin venue research — and [solo-ai-berlin/](solo-ai-berlin/) — the Berlin solopreneur peer group pilot.
 - **Learning:** [learning/](learning/) — book action checklists.
 
 ## Start here
