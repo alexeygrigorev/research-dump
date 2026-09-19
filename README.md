@@ -1,13 +1,12 @@
 # research-dump
 
-Research, course workspaces, and tools for Alexey Grigorev, organized by purpose. Every folder is self-contained with its own README; this file is the map.
+Research, course workspaces, and methods for Alexey Grigorev, organized by purpose. Every folder is self-contained with its own README; this file is the map.
 
 ## Status at a glance
 
 | Area | What it is | Status |
 |---|---|---|
 | [courses/product-shipping](courses/product-shipping/README.md) | Maven course "Product Shipping with AI": course plan, marketing calendar, Maven copy, lead magnets, guest research, interview playbook | **Active** — course runs Nov 2, 2026 – Jan 24, 2027 |
-| [tools/threadscout](tools/threadscout/README.md) | Personal Reddit/HN discussion radar that drafts reply cards into Telegram (Python, SQLite) | **Active** — v1 works, 54 local tests pass; Reddit adapter and publishing not enabled yet |
 | [courses/hobby-project-launch](courses/hobby-project-launch/README.md) | Russian self-study course: validate and launch an indie game, 39 resources + workbook | Ready to use (version Sep 7, 2026) |
 | [learning/book-action-checklists](learning/book-action-checklists/README.md) | Source-linked action checklists for 11 business and product books | Growing library |
 | [podcast](podcast/README.md) | Reusable guest-research and interview-extraction methods (skill + two method docs) | Reference methods |
@@ -26,7 +25,6 @@ Research, course workspaces, and tools for Alexey Grigorev, organized by purpose
 - **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
 - **Interviews & podcasts:** [podcast/](podcast/README.md) for the reusable methods; applied guest research lives in [courses/product-shipping/guest-research-by-module](courses/product-shipping/guest-research-by-module/README.md) and [strategy/ai-native-company](strategy/ai-native-company/README.md).
-- **Tools:** [tools/](tools/) — ThreadScout.
 - **Events:** [events/](events/) — Berlin venue research.
 - **Learning:** [learning/](learning/) — book action checklists.
 
