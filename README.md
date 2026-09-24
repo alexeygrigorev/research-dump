@@ -16,6 +16,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 | [strategy/ai-native-company](strategy/ai-native-company/README.md) | AI-native one-founder operating model + 200-episode podcast library + people to follow | Archived Sep 5, 2026 |
 | [strategy/astra-challenge](strategy/astra-challenge/README.md) | 100 prototype ideas reranked by problem evidence, with 85 sources | Archived Sep 12, 2026 |
 | [events/berlin-venues](events/berlin-venues/README.md) | Budget Berlin meetup/workshop rooms for ~50 people, prices and cancellation terms | Archived Sep 10, 2026 — recheck prices before booking |
+| [events/ai-conferences-2026-2027](events/ai-conferences-2026-2027/README.md) | 14 AI conference series in Berlin and Germany: CFPs, speaking priorities, three talk concepts, consulting/upskilling strategy + original Excel | Archived Sep 24, 2026 — recheck CFPs and event dates before applying |
 | [solo-ai-berlin](solo-ai-berlin/README.md) | Berlin solopreneur peer group — moved to its own repo and site | Live at [aiberlin.dtcdev.click](https://aiberlin.dtcdev.click) · [github.com/alexeygrigorev/solo-ai-berlin](https://github.com/alexeygrigorev/solo-ai-berlin) |
 
 **Active** = ongoing work. **Ready to use / Reference** = finished, maintained as-is. **Archived** = snapshot of a past analysis, sources not re-verified at save time; each area README states its own caveats.
@@ -26,7 +27,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 - **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
 - **Interviews & podcasts:** [podcast/](podcast/README.md) for the reusable methods; applied guest research lives in [courses/product-shipping/guest-research-by-module](courses/product-shipping/guest-research-by-module/README.md) and [strategy/ai-native-company](strategy/ai-native-company/README.md).
-- **Events & ventures:** [events/](events/) — Berlin venue research — and [Solo + AI Berlin](https://aiberlin.dtcdev.click) ([repo](https://github.com/alexeygrigorev/solo-ai-berlin)).
+- **Events & ventures:** [events/](events/) — Berlin venue research and [AI conference speaking opportunities](events/ai-conferences-2026-2027/README.md) — and [Solo + AI Berlin](https://aiberlin.dtcdev.click) ([repo](https://github.com/alexeygrigorev/solo-ai-berlin)).
 - **Learning:** [learning/](learning/) — book action checklists.
 
 ## Start here
@@ -34,3 +35,4 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 - Preparing the Maven course → [courses/product-shipping](courses/product-shipping/README.md)
 - Researching a podcast guest → [podcast/guest-research-system.md](podcast/guest-research-system.md)
 - Picking what to build or sell next → [strategy/monetization](strategy/monetization/README.md) and [strategy/astra-challenge](strategy/astra-challenge/README.md)
+- Finding AI conference speaking opportunities → [events/ai-conferences-2026-2027](events/ai-conferences-2026-2027/README.md)
