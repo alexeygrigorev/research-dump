@@ -10,6 +10,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 | [courses/hobby-project-launch](courses/hobby-project-launch/README.md) | Russian self-study course: validate and launch an indie game, 39 resources + workbook | Ready to use (version Sep 7, 2026) |
 | [learning/book-action-checklists](learning/book-action-checklists/README.md) | Source-linked action checklists for 11 business and product books | Growing library |
 | [podcast](podcast/README.md) | Reusable guest-research and interview-extraction methods (skill + two method docs) | Reference methods |
+| [tools/codex-headless-browser](tools/codex-headless-browser/README.md) | Tested command for browser interaction from non-interactive Codex with YOLO, prerequisites, and navigation workaround | Reference — tested Oct 2, 2026 |
 | [growth/datatalks-club-youtube](growth/datatalks-club-youtube/README.md) | DataTalks.Club YouTube growth strategy to Dec 2027, plus weekly topic radar setup | Archived Sep 18, 2026 |
 | [growth/ai-shipping-blog](growth/ai-shipping-blog/README.md) | AIShippingBlog.com organic growth plan to 100k subscribers by Sep 2027 | Archived Sep 18, 2026 |
 | [strategy/monetization](strategy/monetization/README.md) | 100 ranked monetization opportunities with unit economics and a 90-day validation plan | Archived Sep 7, 2026 |
@@ -24,6 +25,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 
 ## By theme
 
+- **Tools:** [Headless Codex browser access](tools/codex-headless-browser/README.md) — tested CLI command and observed Chrome integration behavior.
 - **Teaching:** [courses/](courses/) — the Maven course in production and the self-study game-launch course.
 - **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
