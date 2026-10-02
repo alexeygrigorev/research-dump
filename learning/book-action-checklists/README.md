@@ -9,6 +9,7 @@ Source-linked, summary-based action checklists — one file per book. Tasks use 
 | The Lean Product Playbook — Dan Olsen | [the-lean-product-playbook.md](the-lean-product-playbook.md) | Product-market fit process |
 | Obviously Awesome — April Dunford | [obviously-awesome.md](obviously-awesome.md) | Positioning |
 | Superfans — Pat Flynn | [superfans.md](superfans.md) | Deepening audience loyalty |
+| Oversubscribed — Daniel Priestley | [oversubscribed.md](oversubscribed.md) | Demand-building campaigns and capacity-aware launches |
 | The Minimalist Entrepreneur — Sahil Lavingia | [the-minimalist-entrepreneur.md](the-minimalist-entrepreneur.md) | Community-first bootstrapping |
 | Company of One — Paul Jarvis | [company-of-one.md](company-of-one.md) | Deliberately staying small |
 | The SaaS Playbook — Rob Walling | [the-saas-playbook.md](the-saas-playbook.md) | Bootstrapped SaaS growth stages |
