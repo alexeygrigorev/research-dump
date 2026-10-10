@@ -1,5 +1,7 @@
 # Product Shipping with AI — курс, запуск и материалы для Maven
 
+> **Current launch revision — October 10, 2026:** start with [the course-specific Oversubscribed launch plan](oversubscribed-launch-plan.md). It separates new product-decision case studies from archive-based downloadables, maps actions to all twelve book checklists, and covers the launch plus continued content during delivery. It uses the supplied Maven snapshot's **November 16, 2026–February 7, 2027** dates; the live page could not be refreshed during that revision. **The September promotional dates and status statements below are historical, not the current launch instructions.** Existing curriculum and source documents are preserved; reconcile the actual published schedule and enrollment settings before execution.
+
 Подготовлено **18 сентября 2026** для Alexey Grigorev. Здесь собраны решения из обсуждения курса, маркетинговый план, готовая английская копия для Maven и исследование экспертов для практических интервью.
 
 **Рабочее название:** Product Shipping with AI: From Idea to Real Users.
@@ -20,6 +22,7 @@
 
 | Документ | Что внутри |
 |---|---|
+| [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) | Current October 10 launch revision: new course-specific case studies, archive-based lead magnets, evidence gates, pre-launch and in-course calendars, admissions, metrics, and a twelve-book action map |
 | [course-plan.md](course-plan.md) | Исходная программа и изменение с 8 до 10 недель, полный календарь, пересечения, улучшения, personal review и peer review |
 | [marketing-plan.md](marketing-plan.md) | Переход от AI Dev Tools, кампания с 28 сентября, открытие набора 8 октября, письма и посты, метрики, дополнительная серия интервью |
 | [lightning-lessons.md](lightning-lessons.md) | Десять идей, четыре выбранные даты, подробные сценарии и готовые английские страницы уроков |
