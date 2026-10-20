@@ -76,3 +76,7 @@ Older September pack text assumed **November 2, 2026 – January 24, 2027** and 
 | 2026-10-20 | Consolidated TWA sources under `sources/from-twa/`; added CURRENT.md; rewrote this README as SSoT index; rebased course-plan / maven-landing-copy / marketing-plan from Nov 2–Jan 24 → Nov 16–Feb 7; noted Maven page published at $1,599 |
 | 2026-10-10 | Added oversubscribed-launch-plan.md (Nov 16–Feb 7 planning basis) |
 | 2026-09-18 | Original pack prepared (Nov 2–Jan 24; Maven unpublished) |
+
+## Duplicate cleanup (2026-10-20)
+
+Full copies of the TWA sources listed in [sources/INDEX.md](sources/INDEX.md) were archived under `sources/from-twa/`. The matching article paths in [telegram-writing-assistant](https://github.com/alexeygrigorev/telegram-writing-assistant) were replaced with short stubs pointing here. Do not re-expand those stubs; edit the pack (or `sources/from-twa/`) instead. `articles/ai-shipping-labs/content/courses.md` was only excerpted — that file remains intact in TWA.
