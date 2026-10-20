@@ -20,7 +20,7 @@ This plan uses the relevant files in `research-dump` and `telegram-writing-assis
 
 The public archive was checked October 10. It lists the October 7 Kubernetes article and October 2 Aplexer article as recent publications, while the repository's Substack index is dated September 15. Therefore the old index alone is not a complete current publication inventory. Check the archive again before commissioning a supposedly new piece. [S1][S2]
 
-The supplied Maven snapshot lists **November 16, 2026–February 7, 2027**, ten teaching weeks, Tuesday sessions at 18:00 Europe/Berlin, and a December 21–January 3 break. A fresh fetch of the course page failed during this revision. These dates are the supplied planning basis, not a newly verified live-page state. The September repository files contain an older November 2 start; do not copy their dates into the new campaign. [S3][S4]
+The Maven cohort is **November 16, 2026–February 7, 2027**, ten teaching weeks / live sessions, Tuesday timing (Module 1 **Tue Nov 17, 17:00–18:00 UTC**; Module 2 **Tue Nov 24**), and a December 21–January 3 break — **verified on the live page 2026-10-20** in [CURRENT.md](CURRENT.md) (price shown $1,599). This Oct 10 plan’s earlier “snapshot could not be refreshed” note is superseded by that verification. The September repository files contain an older November 2 start; do not copy those dates into the campaign. [S3][S4]
 
 Operational availability: **no live promotional events October 19–November 1**. Prepare asynchronous material beforehand. Two public webinars per available week, one article per week, and three to five social posts are a capacity ceiling, not a reason to create unnecessary work. No personal calendar details or participant identities are included here.
 

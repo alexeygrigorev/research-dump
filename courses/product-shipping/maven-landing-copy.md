@@ -1,8 +1,14 @@
 # Product Shipping — готовая копия для Maven
 
-Подготовлено 18 сентября 2026. Английский текст для нового лендинга; редакторские инструкции на русском. Использована структура публичных страниц [AI-Native Business Operating System](https://maven.com/alexey-grigorev/ai-native-business-operating-system) и [AI Engineering Buildcamp](https://maven.com/alexey-grigorev/from-rag-to-agents): hero → overview → outcomes → instructor → audience → prerequisites → included → syllabus → schedule → FAQ.
+## Changelog
 
-Это новая копия для Product Shipping, а не перенос обещаний, цены или отзывов другого курса. Страница на Maven не создана. До публикации утвердить цену, точные live-слоты, поддерживаемый стек, лимит группы и правила доступа к записям. Ниже точные времена намеренно не выдуманы. Гости не подтверждены. Планируемые два личных разбора на участника необходимо обеспечить расписанием office hours.
+**2026-10-20:** Cohort dates and syllabus weeks updated to live Maven **November 16, 2026 – February 7, 2027** (was November 2 – January 24). Holiday **December 21 – January 3** unchanged. Syllabus follows 5 teaching weeks before the break (Modules 1–3 + midterm) and 5 after (Modules 4–6 + final). Maven page is published; price shown $1,599 — do not invent other prices here. Guests still unconfirmed.
+
+---
+
+Подготовлено 18 сентября 2026; **даты обновлены 20 октября 2026** под живую страницу [Product Shipping on Maven](https://maven.com/alexey-grigorev/product-shipping). Английский текст для лендинга; редакторские инструкции на русском. Структура как у публичных страниц [AI-Native Business Operating System](https://maven.com/alexey-grigorev/ai-native-business-operating-system) и [AI Engineering Buildcamp](https://maven.com/alexey-grigorev/from-rag-to-agents): hero → overview → outcomes → instructor → audience → prerequisites → included → syllabus → schedule → FAQ.
+
+Это копия для Product Shipping, а не перенос обещаний или отзывов другого курса. Страница на Maven **опубликована**; на странице указана цена **$1,599**. Live-слоты Module 1/2: вт 17 и 24 ноября, 17:00–18:00 UTC (см. [CURRENT.md](CURRENT.md)). Гости не подтверждены. Планируемые два личных разбора на участника необходимо обеспечить расписанием office hours.
 
 ---
 
@@ -22,7 +28,7 @@ Build, deploy, improve, and launch your own product with AI—supported by perso
 
 ## 4. Cohort dates
 
-November 2, 2026 – January 24, 2027
+November 16, 2026 – February 7, 2027
 
 10 teaching weeks across 12 calendar weeks. Holiday break: December 21 – January 3, with no required sessions, reviews, or deadlines.
 
@@ -154,7 +160,9 @@ I’m planning additional sessions with practitioners working on AI-assisted dev
 
 ### Module 1 — Find the problem and scope the first version
 
-**November 2–8**
+**November 16–22**
+
+Live session: **Tuesday, November 17, 17:00–18:00 UTC**.
 
 Choose the user and the job you want to help them do. Research the problem, identify relevant communities, and define the smallest useful product. Turn the idea into a short specification your coding assistant can work from.
 
@@ -164,7 +172,9 @@ Topics: problem evidence; user job; one core flow; in-scope and out-of-scope dec
 
 ### Module 2 — Build and deploy a thin end-to-end product
 
-**November 9–15**
+**November 23–29**
+
+Live session: **Tuesday, November 24, 17:00–18:00 UTC**.
 
 Use AI to implement a small working slice. Connect the parts needed for your main workflow, check the output, and deploy early rather than leaving infrastructure until the end.
 
@@ -174,7 +184,7 @@ Topics: small implementation tasks; project context; frontend and backend bounda
 
 ### Module 3 — Make the MVP ready for other people
 
-**November 16–22**
+**November 30–December 6**
 
 Improve clarity, navigation, and reliability. Remove unfinished distractions, explain the product, and give reviewers a straightforward way to test it.
 
@@ -184,15 +194,21 @@ Topics: first-use experience; loading and error states; free reviewer access; RE
 
 ### Midterm project — Submit, test, and review
 
-**November 23–December 6**
+**December 7–20**
 
-Submit your deployed MVP by November 29. Review three peer projects during the review window ending December 6. Receive a personal project review from Alexey and turn the feedback into a focused improvement plan.
+Submit your deployed MVP by December 13. Review three peer projects during the review window ending December 20. Receive a personal project review from Alexey and turn the feedback into a focused improvement plan.
 
 **Deliverable:** A tested MVP, review notes, and a prioritized backlog.
 
+### Holiday break
+
+**December 21–January 3**
+
+There are no required live sessions, project submissions, or peer reviews during the break. You may work on your product or catch up, but the course does not depend on working through the holidays. Teaching resumes the week of January 4; next live session **January 5**.
+
 ### Module 4 — Improve the product based on feedback
 
-**December 7–13**
+**January 4–10**
 
 Group the feedback, identify the important problems, and make a deliberate next iteration. You do not need to implement every suggestion.
 
@@ -202,7 +218,7 @@ Topics: observation versus opinion; bug versus feature request; prioritization; 
 
 ### Module 5 — Measure use and prepare for launch
 
-**December 14–20**
+**January 11–17**
 
 Check the key steps in your user flow and make failures visible. Understand the product’s operating limits and prepare a responsible release.
 
@@ -210,15 +226,9 @@ Topics: basic product events; activation and completion; error monitoring; costs
 
 **Deliverable:** A measurement plan, basic operational checks, and your launch checklist.
 
-### Holiday break
-
-**December 21–January 3**
-
-There are no required live sessions, project submissions, or peer reviews during the break. You may work on your product or catch up, but the course does not depend on working through the holidays.
-
 ### Module 6 — Launch to the people your product is for
 
-**January 4–10**
+**January 18–24**
 
 Share your product through selected relevant channels. Write clear messages, ask people to try it, and record what you learn.
 
@@ -228,9 +238,9 @@ Topics: audience-specific distribution; community rules; direct outreach; produc
 
 ### Final project — Review the product and decide what comes next
 
-**January 11–24**
+**January 25–February 7**
 
-Submit your final product and report by January 17. Review three final peer projects, receive personal feedback from Alexey, and share your work in the final showcase.
+Submit your final product and report by January 31. Review three final peer projects, receive personal feedback from Alexey, and share your work in the final showcase.
 
 Your report should explain what you built, what changed after feedback, how you tried to reach users, and what the results suggest you should do next.
 
@@ -238,13 +248,13 @@ Your report should explain what you built, what changed after feedback, how you 
 
 ## 13. Schedule and workload
 
-The cohort runs from November 2, 2026 to January 24, 2027: ten teaching weeks with a two-week holiday break.
+The cohort runs from November 16, 2026 to February 7, 2027: ten teaching weeks with a two-week holiday break.
 
 The format combines practical lessons, independent project work, and group office hours for project reviews. Project submission and peer-review windows are separate so that you can receive feedback before the next iteration.
 
 Allow regular weekly time for building, testing, and reviewing. A small project scope will make the course much more manageable. Project weeks focus on delivery and feedback rather than adding another large batch of lessons.
 
-Редакторская заметка — не вставлять: до публикации заполнить конкретные live-слоты и time commitment в интерфейсе Maven. Рабочая оценка для проверки преподавателем: 5–8 часов общей учебной работы в неделю, а не установленный факт; нагрузка зависит от проекта и подготовки. Предварительно основные встречи по средам с 4 ноября, но часы и дополнительные office hours ещё не утверждены. Не показывать эту оценку как гарантию.
+Редакторская заметка — не вставлять: до публикации заполнить конкретные live-слоты и time commitment в интерфейсе Maven. Рабочая оценка для проверки преподавателем: 5–8 часов общей учебной работы в неделю, а не установленный факт; нагрузка зависит от проекта и подготовки. По Maven основные early sessions — вторники (17 и 24 ноября, 17:00–18:00 UTC); дополнительные office hours ещё нужно сверить с операционным календарём. Не показывать эту оценку как гарантию.
 
 ## 14. Frequently asked questions
 
@@ -318,7 +328,7 @@ Join Product Shipping with AI to turn a small idea into a deployed product, get 
 
 You’re on the Product Shipping update list. I’ll share the free practical sessions, course details, and enrollment information here.
 
-The planned cohort starts November 2 and runs through January 24, with a two-week holiday break. In the meantime, start with the free working kit: [RESOURCE_URL].
+The planned cohort starts November 16 and runs through February 7, with a two-week holiday break. In the meantime, start with the free working kit: [RESOURCE_URL].
 
 ## 17. Optional short hero alternative
 

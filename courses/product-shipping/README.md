@@ -1,79 +1,78 @@
-# Product Shipping with AI — курс, запуск и материалы для Maven
+# Product Shipping with AI — single source of truth
 
-> **Current launch revision — October 10, 2026:** start with [the course-specific Oversubscribed launch plan](oversubscribed-launch-plan.md). It separates new product-decision case studies from archive-based downloadables, maps actions to all twelve book checklists, and covers the launch plus continued content during delivery. It uses the supplied Maven snapshot's **November 16, 2026–February 7, 2027** dates; the live page could not be refreshed during that revision. **The September promotional dates and status statements below are historical, not the current launch instructions.** Existing curriculum and source documents are preserved; reconcile the actual published schedule and enrollment settings before execution.
+**As of 2026-10-20**, this folder is the **single source of truth** for Product Shipping with AI launch materials (curriculum, Maven copy, marketing, guests, and archived TWA sources).
 
-Подготовлено **18 сентября 2026** для Alexey Grigorev. Здесь собраны решения из обсуждения курса, маркетинговый план, готовая английская копия для Maven и исследование экспертов для практических интервью.
+## Live Maven cohort (verified 2026-10-20)
 
-**Рабочее название:** Product Shipping with AI: From Idea to Real Users.
-
-**Курс:** 2 ноября 2026 — 24 января 2027. Десять учебных недель по схеме **3 + 2 + 3 + 2**, с отдельным перерывом **21 декабря — 3 января**. Это двенадцать календарных недель, а не десять недель непрерывных занятий.
-
-**Главное обещание:** собственный продукт, личные разборы Алексея в групповых office hours, структурированная обратная связь сообщества и реальная попытка запуска. Гостевые эксперты планируются, но никто пока не подтверждён.
-
-## Начать здесь
-
-Для подготовки лендинга сначала открыть **[maven-landing-copy.md](maven-landing-copy.md)**, затем **[maven-setup-checklist.md](maven-setup-checklist.md)**. Английские блоки можно переносить в редактор Maven; русские редакторские заметки на страницу не вставлять.
-
-До публикации остаётся принять несколько решений: цена, точные live-слоты, поддерживаемый стек, лимит группы, доступ к записям и реальное расписание личных разборов. Они не заполнены выдуманными значениями.
-
-Для подкаст-гостей использовать **[исправленную подборку AI Practitioners 2026](guest-research-by-module/ai-practitioners-2026.md)**. По уточнению Алексея прежний широкий поиск по известным продуктовым авторам заменён конкретными недавними AI-кейсами практиков. По пять вариантов на каждый модуль: **30 позиций, 27 разных людей**. Размер аудитории проверен только для части кандидатов и не выдумывается для остальных.
-
-## Содержание папки
-
-| Документ | Что внутри |
+| | |
 |---|---|
-| [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) | Current October 10 launch revision: new course-specific case studies, archive-based lead magnets, evidence gates, pre-launch and in-course calendars, admissions, metrics, and a twelve-book action map |
-| [course-plan.md](course-plan.md) | Исходная программа и изменение с 8 до 10 недель, полный календарь, пересечения, улучшения, personal review и peer review |
-| [marketing-plan.md](marketing-plan.md) | Переход от AI Dev Tools, кампания с 28 сентября, открытие набора 8 октября, письма и посты, метрики, дополнительная серия интервью |
-| [lightning-lessons.md](lightning-lessons.md) | Десять идей, четыре выбранные даты, подробные сценарии и готовые английские страницы уроков |
-| [lead-magnets.md](lead-magnets.md) | Четыре идеи repurpose, два выбранных набора, тексты подписки и выдачи, редактируемые product brief и review templates |
-| [guest-research-by-module/ai-practitioners-2026.md](guest-research-by-module/ai-practitioners-2026.md) | Действующий список: недавние конкретные AI-процессы, по пять вариантов на модуль, источники, темы интервью и проверенные/неустановленные контакты и аудитория |
-| [guest-research-by-module/README.md](guest-research-by-module/README.md) | Навигация по новой подборке и явно помеченный архив прежнего широкого поиска |
-| [guest-experts.md](guest-experts.md) | Первый список из 12 экспертов; ранее проверенная история интервью, источники и ограничения. Сохранён как дополнительная справка |
-| [interview-playbook.md](interview-playbook.md) | Live и recorded форматы, вопросы, английские приглашения, согласования и переработка интервью в полезные материалы |
-| [maven-landing-copy.md](maven-landing-copy.md) | Полная новая английская копия: hero, overview, outcomes, bio, audience, prerequisites, included, syllabus, schedule, FAQ и CTA |
-| [maven-setup-checklist.md](maven-setup-checklist.md) | Соответствие структуре существующих Maven-курсов, необходимые решения и проверка перед публикацией |
-| [competitor-research.md](competitor-research.md) | Шесть близких предложений Maven, снимок дат и цен, отличия и выводы для программы |
+| **Title** | Product Shipping with AI: From Idea to Real Users |
+| **URL** | https://maven.com/alexey-grigorev/product-shipping |
+| **Dates** | **November 16, 2026 – February 7, 2027** |
+| **Price** | **$1,599** USD (as shown on Maven) |
+| **Shape** | 12 calendar weeks · 10 live sessions / 47 lessons |
+| **Holiday** | December 21 – January 3 (no required work); teaching resumes week of Jan 4; next session **January 5** |
+| **Week 1** | Nov 16–22 · Module 1 live **Tue Nov 17, 17:00–18:00 UTC** |
+| **Week 2** | Nov 23–29 · Module 2 live **Tue Nov 24, 17:00–18:00 UTC** |
 
-## Ключевые даты запуска
+Full live-page snapshot: **[CURRENT.md](CURRENT.md)**.
 
-| Дата | Действие |
+Older September pack text assumed **November 2, 2026 – January 24, 2027** and an unpublished Maven page. Those statements are historical. Curriculum and campaign calendars in this folder were **rebased +14 days** on 2026-10-20 (see changelogs at the top of [course-plan.md](course-plan.md) and [marketing-plan.md](marketing-plan.md)). Holiday break dates are unchanged.
+
+## Status (2026-10-20)
+
+- Maven landing **is published** at the URL above (unlike the Sep 18 pack, which said unpublished).
+- Price shown on Maven: **$1,599**. Do not invent other tier prices into undecided enrollment fields beyond what Maven displays.
+- Lead magnets / Lightning Lessons may still be unpublished — treat their docs as plans unless separately confirmed live.
+- Guest experts: **not confirmed** (Maven FAQ and guest docs agree). Do not name guests as booked in public copy.
+- Source concept material from Telegram Writing Assistant is copied under [sources/from-twa/](sources/from-twa/); see [sources/INDEX.md](sources/INDEX.md).
+
+## Inventory
+
+| Document | Role |
 |---|---|
-| До 27 сентября | Подготовка черновиков; публичный фокус остаётся на нынешнем курсе |
-| 28 сентября | Начать продвижение Product Shipping, объявить четыре эфира, выпустить первый набор |
-| 1 октября, 18:30–19:15 | Turn an Idea into an AI-Ready Spec |
-| 8 октября, 18:30–19:15 | Take Your AI App Beyond Localhost; открыть набор |
-| 12 октября | Выпустить базовую версию набора для проверки продукта |
-| 13 октября, 18:30–19:15 | Make Your App Ready for Real Users |
-| 15 октября, 18:30–19:30 | Get Your AI Project Reviewed Live |
-| До 16 октября | Готовы первые три модуля, onboarding и материалы на конец октября |
-| 20 и 27 октября | Возможные даты публикации заранее записанных интервью, если гости подтвердятся |
-| 2 ноября | Начало курса |
+| [CURRENT.md](CURRENT.md) | **Live Maven facts** as of 2026-10-20 |
+| [README.md](README.md) | This master index |
+| [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) | Oct 10 Oversubscribed launch revision (already on Nov 16–Feb 7 dates; pair with CURRENT.md for live verification) |
+| [course-plan.md](course-plan.md) | Curriculum + teaching calendar (**rebased** to Nov 16 – Feb 7) |
+| [marketing-plan.md](marketing-plan.md) | Launch campaign (**main table rebased +14 days**) |
+| [lightning-lessons.md](lightning-lessons.md) | Free session ideas / scripts (titles kept; check dates against rebased marketing calendar) |
+| [lead-magnets.md](lead-magnets.md) | Downloadable / magnet copy |
+| [maven-landing-copy.md](maven-landing-copy.md) | English Maven page copy (**cohort dates updated**) |
+| [maven-setup-checklist.md](maven-setup-checklist.md) | Pre-publish Maven checklist |
+| [competitor-research.md](competitor-research.md) | Nearby Maven offers snapshot |
+| [interview-playbook.md](interview-playbook.md) | Guest interview formats and invites |
+| [guest-experts.md](guest-experts.md) | Earlier expert shortlist (reference; not confirmations) |
+| [guest-research-by-module/](guest-research-by-module/) | Module-scoped practitioner research (kept as is) |
+| [sources/INDEX.md](sources/INDEX.md) | Provenance for every archived TWA file |
+| [sources/from-twa/](sources/from-twa/) | Frozen copies of Zoomcamp draft, Substack magnet source, ASL notes, inbox draft, interviews, distribution research |
 
-Часы — Europe/Berlin. Это план, а не уже созданные вебинары. Для конца октября учтён период недоступности преподавателя; личные подробности календаря в публичную папку не перенесены. Гостевые интервью не заменяют четыре основных урока и не блокируют запуск при отсутствии подтверждений.
+### `sources/from-twa/` files
 
-## С кого начать приглашения после уточнения критериев
+| File | Original TWA path |
+|---|---|
+| product-shipping-zoomcamp.md | articles/datatalksclub/product-shipping-zoomcamp.md |
+| from-idea-to-production-2026-08-28.md | reference/substack/2026-08-28-from-idea-to-production.md |
+| course-promotion-through-podcast-guests.md | articles/marketing/course-promotion-through-podcast-guests.md |
+| first-10-saas-customers.md | articles/interviews/first-10-saas-customers.md |
+| jonathan-courtney-promoter-blueprint-ai-marketing.md | articles/interviews/jonathan-courtney-promoter-blueprint-ai-marketing.md |
+| distribution-channels-for-education-communities.md | articles/research/distribution-channels-for-education-communities.md |
+| asl-marketing-and-content.md | articles/ai-shipping-labs/marketing-and-content.md |
+| asl-courses-product-shipping-excerpt.md | articles/ai-shipping-labs/content/courses.md (excerpt) |
+| inbox-20260701-product-shipping-draft.md | inbox/used/20260701_130457_AlexeyDTC_msg4650.md |
 
-Текущая первая группа для точечных обращений: **Anik Chatterjee, Piotr Grudzień, Tanguy Crusson, CJ Hess, Grace Clarke и Reid Robinson**. Основание — конкретный AI-процесс и найденный публичный персональный маршрут обращения, а не известность книги или размер работодателя. Подробности, даты, ссылки и ограничения — в [новом документе](guest-research-by-module/ai-practitioners-2026.md).
+## How to use
 
-Для Anik, Piotr и Tanguy публично проверены LinkedIn-счётчики; размер аудитории остальных не установлен. Эти данные не подтверждают свободное время или вероятность ответа. Дополнительные тематические варианты: Else van der Berg для discovery и аналитики, Edoardo Dusi для аналитики через AI, Katie Parrott для переработки контента.
+1. Confirm live facts in [CURRENT.md](CURRENT.md).
+2. For landing text: [maven-landing-copy.md](maven-landing-copy.md) + [maven-setup-checklist.md](maven-setup-checklist.md).
+3. For teaching weeks: [course-plan.md](course-plan.md).
+4. For launch execution: [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) (current recommended campaign), with [marketing-plan.md](marketing-plan.md) as the rebased Sep-origin calendar.
+5. Concept history: [sources/from-twa/product-shipping-zoomcamp.md](sources/from-twa/product-shipping-zoomcamp.md) and related TWA copies — living edits still belong in the [telegram-writing-assistant](https://github.com/alexeygrigorev/telegram-writing-assistant) repo when that is the source of truth for writing.
 
-История существующих связей не потеряна: в [первом списке](guest-experts.md) сохранены подтверждённые интервью с Hugo Bowne-Anderson, Paul Iusztin, Eugene Yan, Ivan Bilan и Vincent Warmerdam. Они не обязаны быть первой волной нового, более узкого поиска. «Бывший гость» не означает «готов участвовать снова».
+## Changelog (folder-level)
 
-Предыдущие рекомендации Teresa Torres, Rob Walling и других известных продуктовых авторов в архивных файлах — **не действующий выбор по уточнённому запросу**. Для новых приглашений ориентироваться на свежую AI-подборку. Все ранние примеры имён в маркетинговом плане и playbook также считать предложениями до этого уточнения, а не подтверждённым составом гостей.
-
-## Статус материалов
-
-- Планы, копия и исправленная подборка гостей сохранены в этом репозитории.
-- Лендинг, уроки и формы на Maven не опубликованы.
-- Приглашения и рекламные письма не отправлены.
-- Цены и условия нового курса не утверждены; имена гостей не обещаны аудитории.
-- Для downloadable подготовлены тексты и шаблоны. Полную исходную последовательность из 28 промптов ещё нужно собрать в файл выдачи и проверить; не считать этот этап выполненным.
-
-## Исходные материалы и принципы
-
-Программа развивает [Product Shipping Zoomcamp из Telegram Writing Assistant](https://github.com/alexeygrigorev/telegram-writing-assistant/blob/master/articles/datatalksclub/product-shipping-zoomcamp.md), а не меняет тот файл. Исходные исследования в других папках Research Dump сохранены.
-
-Основная аудитория — технические участники и читатели AI Dev Tools, которым нужен следующий цикл собственного проекта. Это не обещание пассивного дохода, не гарантированное привлечение клиентов и не утверждение, что бесплатный Zoomcamp учит только промптам.
-
-Внешние факты снабжены ссылками внутри соответствующих файлов. Тексты страниц и данные конкурентов — снимок на дату исследования; перед публикацией перепроверить изменяемые условия. Личная переписка, частные контакты, календарные ссылки и данные участников здесь не хранятся. Публичные профессиональные профили кандидатов явно обозначены как публичные, а неизвестные сведения не заполняются догадками.
+| Date | Change |
+|---|---|
+| 2026-10-20 | Consolidated TWA sources under `sources/from-twa/`; added CURRENT.md; rewrote this README as SSoT index; rebased course-plan / maven-landing-copy / marketing-plan from Nov 2–Jan 24 → Nov 16–Feb 7; noted Maven page published at $1,599 |
+| 2026-10-10 | Added oversubscribed-launch-plan.md (Nov 16–Feb 7 planning basis) |
+| 2026-09-18 | Original pack prepared (Nov 2–Jan 24; Maven unpublished) |

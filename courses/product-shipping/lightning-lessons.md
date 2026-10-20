@@ -1,6 +1,12 @@
 # Lightning Lessons: 10 идей, 4 выбранных эфира
 
-Подготовлено 18 сентября 2026. Это предложения для публикации, не созданные на Maven или в календаре мероприятия. Все времена — Europe/Berlin; на этих датах UTC+2. Основная кампания начинается 28 сентября.
+## Changelog
+
+**Rebased 2026-10-20 from Nov 2 → Nov 16 Maven dates.** Suggested Lightning Lesson dates shifted **+14 days** to match the rebased [marketing-plan.md](marketing-plan.md) campaign table. Lesson *titles* unchanged. Events remain proposals, not booked Maven sessions. Cross-check capacity/blackout notes in [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) before publishing.
+
+---
+
+Подготовлено 18 сентября 2026; **даты эфиров +14 дней 20 октября 2026** под старт Maven 16 ноября. Это предложения для публикации, не созданные на Maven или в календаре мероприятия. Все времена — Europe/Berlin. Основная кампания начинается 12 октября (было 28 сентября).
 
 ## 1. Десять тем
 
@@ -23,12 +29,12 @@
 
 | Дата | Время | Английское название |
 |---|---|---|
-| Четверг, 1 октября 2026 | 18:30–19:15 | Turn an Idea into an AI-Ready Spec |
-| Четверг, 8 октября 2026 | 18:30–19:15 | Take Your AI App Beyond Localhost |
-| Вторник, 13 октября 2026 | 18:30–19:15 | Make Your App Ready for Real Users |
-| Четверг, 15 октября 2026 | 18:30–19:30 | Get Your AI Project Reviewed Live |
+| Четверг, 15 октября 2026 | 18:30–19:15 | Turn an Idea into an AI-Ready Spec |
+| Четверг, 22 октября 2026 | 18:30–19:15 | Take Your AI App Beyond Localhost |
+| Вторник, 27 октября 2026 | 18:30–19:15 | Make Your App Ready for Real Users |
+| Четверг, 29 октября 2026 | 18:30–19:30 | Get Your AI Project Reviewed Live |
 
-Окна 18:15–19:45 ранее проверены в доступных календарях; перед созданием событий перепроверить. Две встречи на последней неделе — компромисс перед периодом недоступности преподавателя, не постоянный ритм. Для первого эфира только три дня продвижения: объявить все четыре даты 28 сентября и ориентировать первый на знакомую аудиторию.
+Окна 18:15–19:45 ранее проверены в доступных календарях; перед созданием событий перепроверить. Две встречи на последней неделе — компромисс перед периодом недоступности преподавателя, не постоянный ритм. Для первого эфира только три дня продвижения: объявить все четыре даты 12 октября и ориентировать первый на знакомую аудиторию.
 
 ## 3. Общие правила
 
@@ -40,7 +46,7 @@ Maven описывает Lightning Lessons как бесплатные коро�
 
 ## 4. Эфир 1 — Turn an Idea into an AI-Ready Spec
 
-**Дата:** 1 октября, 18:30–19:15. **Цель:** привлечь аудиторию AI Dev Tools и дать первый небольшой результат.
+**Дата:** 15 октября, 18:30–19:15. **Цель:** привлечь аудиторию AI Dev Tools и дать первый небольшой результат.
 
 ### Готовая копия для Maven — English
 
@@ -76,7 +82,7 @@ You’ll leave with a reusable one-page template and a worked example. Bring a s
 
 ## 5. Эфир 2 — Take Your AI App Beyond Localhost
 
-**Дата:** 8 октября, 18:30–19:15. **Цель:** показать доступный результат и открыть набор.
+**Дата:** 22 октября, 18:30–19:15. **Цель:** показать доступный результат и открыть набор.
 
 ### Готовая копия для Maven — English
 
@@ -110,11 +116,11 @@ This is a focused walkthrough, not a promise to build an entire full-stack produ
 
 Не вводить production-секреты на общем экране. Не обещать одинаковый деплой на всех платформах. Не превращать инфраструктуру в главную тему курса.
 
-**После эфира:** дополнить набор №1, открыть форму подачи проектов на 15 октября, отправить письмо об открытии набора с точными датами курса и каникул.
+**После эфира:** дополнить набор №1, открыть форму подачи проектов на 29 октября, отправить письмо об открытии набора с точными датами курса и каникул.
 
 ## 6. Эфир 3 — Make Your App Ready for Real Users
 
-**Дата:** 13 октября, 18:30–19:15. **Цель:** перейти от кода к понятности и реальной проверке.
+**Дата:** 27 октября, 18:30–19:15. **Цель:** перейти от кода к понятности и реальной проверке.
 
 ### Готовая копия для Maven — English
 
@@ -148,11 +154,11 @@ I’ll demonstrate a short first-use test, separate observations from assumption
 
 Нужен тестировщик, заранее согласившийся на запись, но не отрепетировавший ответы. В резерве допустима запись реального теста, явно обозначенная как запись. Не инсценировать её как первое использование.
 
-**После эфира:** отправить набор №2, напомнить о дедлайне подачи 14 октября. Объяснить, что личные разборы всех представленных проектов предусмотрены на платном курсе, а бесплатный эфир ограничен выбранными примерами.
+**После эфира:** отправить набор №2, напомнить о дедлайне подачи 28 октября. Объяснить, что личные разборы всех представленных проектов предусмотрены на платном курсе, а бесплатный эфир ограничен выбранными примерами.
 
 ## 7. Эфир 4 — Get Your AI Project Reviewed Live
 
-**Дата:** 15 октября, 18:30–19:30. **Цель:** показать работу Алексея с конкретными продуктами и сообществом.
+**Дата:** 29 октября, 18:30–19:30. **Цель:** показать работу Алексея с конкретными продуктами и сообществом.
 
 ### Готовая копия для Maven — English
 
@@ -174,7 +180,7 @@ You can learn from the reviews even without submitting a project. We’ll use th
 - Separate essential fixes from attractive but unnecessary features.
 - Turn product feedback into a focused next iteration.
 
-**Project submissions:** Submit a working demo link and a short description by October 14. We will select a small number of projects for this free session. Submitting does not guarantee a live review. Only submit work you have permission to show publicly.
+**Project submissions:** Submit a working demo link and a short description by October 28. We will select a small number of projects for this free session. Submitting does not guarantee a live review. Only submit work you have permission to show publicly.
 
 **Takeaway:** A reusable review worksheet and worked examples from the session.
 

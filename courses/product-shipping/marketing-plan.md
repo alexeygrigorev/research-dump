@@ -1,6 +1,12 @@
 # Маркетинговый план Product Shipping with AI
 
-Подготовлено 18 сентября 2026. Рабочие даты и предложения, не созданные мероприятия и не запущенные рассылки. Основной курс: 2 ноября 2026 — 24 января 2027. Полный учебный календарь: [course-plan.md](course-plan.md).
+## Changelog
+
+**Rebased 2026-10-20 from Nov 2 → Nov 16 Maven dates.** Every dated campaign row that was relative to the old November 2 open was shifted **+14 days**. Lightning Lesson *titles* unchanged; suggested dates +14 days. Holiday break still December 21 – January 3. Cohort end January 24 → **February 7**. Original Sep 18 proposal assumed announce ~Sep 28 / enrollment ~Oct 8 / start Nov 2 — those calendar cells below are the rebased equivalents (announce ~Oct 12, enrollment open ~Oct 22, start Nov 16). Cross-check live execution against [CURRENT.md](CURRENT.md) and [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md).
+
+---
+
+Подготовлено 18 сентября 2026; **календарь кампании перебазирован +14 дней 20 октября 2026** под Maven **16 ноября 2026 — 7 февраля 2027**. Рабочие даты и предложения, не созданные мероприятия и не запущенные рассылки. Полный учебный календарь: [course-plan.md](course-plan.md).
 
 ## 1. Позиционирование: продолжение AI Dev Tools, а не резкий поворот в indie hacking
 
@@ -22,28 +28,28 @@ AI Dev Tools уже включает спецификации, разработ�
 
 Один адрес email — один человек, даже если он посещает все четыре урока. Не создавать четыре независимые повторяющиеся продающие цепочки. При выдаче материалов можно задать необязательный вопрос: «На какой стадии твой проект: идея, работает локально или уже опубликован?» Это помогает выбрать релевантный следующий материал.
 
-До 8 октября главный призыв — забрать рабочий набор, прийти на следующую сессию или получить обновления курса. **С 8 октября — запись на курс**, а не бесконечный waitlist. До 28 сентября новый курс публично не продвигаем: сохраняем фокус на текущем Buildcamp.
+До 22 октября главный призыв — забрать рабочий набор, прийти на следующую сессию или получить обновления курса. **С 22 октября — запись на курс**, а не бесконечный waitlist. До 12 октября новый курс публично не продвигаем: сохраняем фокус на текущем Buildcamp. (Исторически: до 8 окт. / с 8 окт. / до 28 сен. в версии от 18 сентября.)
 
 ## 3. Календарь кампании
 
-Все часы ниже — Europe/Berlin. Октябрьские эфиры до 25 октября проходят в CEST, UTC+2. Даты предложены и ранее проверены на отсутствие отмеченных конфликтов, но события не созданы; перед публикацией проверить ещё раз.
+Все часы ниже — Europe/Berlin. Даты ниже — **ребейз +14 дней** от календаря 18 сентября; события не созданы; перед публикацией проверить конфликты снова (в т.ч. относительно operational blackout в [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md)).
 
 | Период | Основная работа | Основной призыв |
 |---|---|---|
-| До 27 сентября | Подготовить черновик Maven, материалы, страницы уроков, форму подачи проектов. Публично продолжать продвижение нынешнего курса | Нынешний курс |
-| 28 сентября | Объявить сразу четыре даты и выпустить первый рабочий набор | Download / register |
-| 1 октября, 18:30–19:15 | Turn an Idea into an AI-Ready Spec | Применить шаблон; следующий урок |
-| 5–7 октября | Показать, что было исключено из MVP и почему; один короткий фрагмент первого урока | Урок о деплое |
-| 8 октября, 18:30–19:15 | Take Your AI App Beyond Localhost; открыть набор | Страница Product Shipping |
-| 9–11 октября | Запись и checklist; открыть форму проектов для живого разбора | Подать проект / записаться |
-| 12 октября | Выпустить второй набор: готовность к пользователям и ревью | Скачать и проверить свой продукт |
-| 13 октября, 18:30–19:15 | Make Your App Ready for Real Users | Применить проверку; прийти на разбор |
-| 14 октября | Завершить приём проектов для бесплатного разбора, выбрать 2–3 с согласиями на показ | Участие в эфире |
-| 15 октября, 18:30–19:30 | Get Your AI Project Reviewed Live | Увидеть личный разбор и записаться |
-| 16 октября | Обновить второй набор заполненным примером; подготовить оставшиеся письма и onboarding | Программа и условия |
-| 19–25 октября | Подготовленные записи, фрагменты и кейс «проблема → отзыв → исправление»; без новых live | Посмотреть разбор / записаться |
-| 26 октября — 1 ноября | FAQ, требования, праздники, объём поддержки, напоминание о старте; подготовка записавшихся | Записаться до реального установленного срока |
-| 2 ноября | Начало курса | Выбрать продукт и начать работу |
+| До 11 октября | Подготовить черновик Maven, материалы, страницы уроков, форму подачи проектов. Публично продолжать продвижение нынешнего курса | Нынешний курс |
+| 12 октября | Объявить сразу четыре даты и выпустить первый рабочий набор | Download / register |
+| 15 октября, 18:30–19:15 | Turn an Idea into an AI-Ready Spec | Применить шаблон; следующий урок |
+| 19–21 октября | Показать, что было исключено из MVP и почему; один короткий фрагмент первого урока | Урок о деплое |
+| 22 октября, 18:30–19:15 | Take Your AI App Beyond Localhost; открыть набор | Страница Product Shipping |
+| 23–25 октября | Запись и checklist; открыть форму проектов для живого разбора | Подать проект / записаться |
+| 26 октября | Выпустить второй набор: готовность к пользователям и ревью | Скачать и проверить свой продукт |
+| 27 октября, 18:30–19:15 | Make Your App Ready for Real Users | Применить проверку; прийти на разбор |
+| 28 октября | Завершить приём проектов для бесплатного разбора, выбрать 2–3 с согласиями на показ | Участие в эфире |
+| 29 октября, 18:30–19:30 | Get Your AI Project Reviewed Live | Увидеть личный разбор и записаться |
+| 30 октября | Обновить второй набор заполненным примером; подготовить оставшиеся письма и onboarding | Программа и условия |
+| 2–8 ноября | Подготовленные записи, фрагменты и кейс «проблема → отзыв → исправление»; без новых live | Посмотреть разбор / записаться |
+| 9–15 ноября | FAQ, требования, праздники, объём поддержки, напоминание о старте; подготовка записавшихся | Записаться до реального установленного срока |
+| 16 ноября | Начало курса | Выбрать продукт и начать работу |
 
 На первый урок после объявления остаются только три дня. Рассчитывать прежде всего на существующую аудиторию. Не закладывать значительный органический трафик Maven как гарантированный источник набора.
 
@@ -53,11 +59,11 @@ AI Dev Tools уже включает спецификации, разработ�
 
 Материалы между эфирами:
 
-- Неделя 28 сентября: «Что я убрал из первой версии» и «Три признака плохого задания coding agent».
-- Неделя 5 октября: скриншот рабочего сквозного сценария и короткая история ошибки после деплоя.
-- Неделя 12 октября: наблюдение из пользовательского теста и фрагмент личного разбора с разрешения автора.
-- Неделя 19 октября: что изменилось после обратной связи; чему нельзя научиться, только повторяя готовый tutorial.
-- Неделя 26 октября: кому курс подходит, какие проекты слишком велики, как устроены личные разборы и январская часть.
+- Неделя 12 октября: «Что я убрал из первой версии» и «Три признака плохого задания coding agent».
+- Неделя 19 октября: скриншот рабочего сквозного сценария и короткая история ошибки после деплоя.
+- Неделя 26 октября: наблюдение из пользовательского теста и фрагмент личного разбора с разрешения автора.
+- Неделя 2 ноября: что изменилось после обратной связи; чему нельзя научиться, только повторяя готовый tutorial.
+- Неделя 9 ноября: кому курс подходит, какие проекты слишком велики, как устроены личные разборы и январская часть.
 
 Шесть невыбранных тем вебинаров использовать именно для этих постов. Не превращать запуск в десять живых событий.
 
@@ -65,9 +71,9 @@ AI Dev Tools уже включает спецификации, разработ�
 
 Интервью расширяют исходный план, а не заменяют четыре собственных урока и не становятся обязательным условием запуска.
 
-Рекомендуемая нагрузка: договориться об одном техническом и одном контентно-маркетинговом интервью. Записать до 16 октября при подтверждённых свободных слотах. Возможные даты публикации записей — **20 и 27 октября**. Это редакционные предложения, не договорённости с гостями. Материал называть записью, не live Lightning Lesson.
+Рекомендуемая нагрузка: договориться об одном техническом и одном контентно-маркетинговом интервью. Записать до 30 октября при подтверждённых свободных слотах. Возможные даты публикации записей — **3 и 10 ноября**. Это редакционные предложения, не договорённости с гостями. Материал называть записью, не live Lightning Lesson.
 
-Для настоящего гостевого Lightning Lesson согласовать отдельный живой слот до 16 октября либо после старта курса. Нельзя объявлять дату до подтверждения гостя и повторной проверки календаря. Обычный разговор без практической части лучше публиковать как интервью; Lightning Lesson должен давать конкретный рабочий приём или артефакт.
+Для настоящего гостевого Lightning Lesson согласовать отдельный живой слот до 30 октября либо после старта курса. Нельзя объявлять дату до подтверждения гостя и повторной проверки календаря. Обычный разговор без практической части лучше публиковать как интервью; Lightning Lesson должен давать конкретный рабочий приём или артефакт.
 
 Первый набор приглашений: Hugo Bowne-Anderson / Eugene Yan для AI-разработки; Paul Iusztin / Katie Parrott для контентного процесса; Kieran Klaassen для доработки продукта. Подробные основания и история контакта — [guest-experts.md](guest-experts.md). Доступность и согласие всех неизвестны.
 
@@ -75,29 +81,29 @@ AI Dev Tools уже включает спецификации, разработ�
 
 ## 6. Готовые короткие тексты кампании — English
 
-### 28 September: announcement
+### 12 October: announcement
 
 **Subject:** From AI dev tools to a product other people can use
 
 In AI Dev Tools Zoomcamp, we work with coding agents, specifications, testing, and deployment. I want to continue that work with the part that is easy to postpone: finishing your own project, putting it in front of someone else, and deciding what to improve.
 
-In October, I’m running four free practical sessions. We’ll start with an AI-ready specification, take an app beyond localhost, test the first-use experience, and finish with live project reviews.
+Over the next weeks I’m running four free practical sessions. We’ll start with an AI-ready specification, take an app beyond localhost, test the first-use experience, and finish with live project reviews.
 
 You do not need to be starting a company. A useful tool for your work or community is a good project too.
 
 **CTA:** See the free session series → [SERIES_URL]
 
-### 8 October: enrollment opens
+### 22 October: enrollment opens
 
 **Subject:** Product Shipping with AI is open for enrollment
 
 Today we took an app beyond localhost. The next question is not just whether it runs, but whether someone else can understand it and use it.
 
-Product Shipping with AI starts on November 2. Over ten teaching weeks, you’ll work on one product of your own: scope it, build and deploy it, get feedback, improve it, and try to reach the people it is for.
+Product Shipping with AI starts on November 16. Over ten teaching weeks, you’ll work on one product of your own: scope it, build and deploy it, get feedback, improve it, and try to reach the people it is for.
 
 I’ll personally review every submitted project in group office hours. You’ll also test other participants’ products and receive structured feedback from the community. Guest expert sessions are planned; I’ll announce the guests once confirmed.
 
-The cohort runs until January 24, with no required sessions or deadlines from December 21 to January 3.
+The cohort runs until February 7, with no required sessions or deadlines from December 21 to January 3.
 
 **CTA:** See the program and join the cohort → [COURSE_URL]
 
@@ -117,13 +123,13 @@ Editorial rule: fill the brackets only with an actual observed example, with the
 
 ### Final start reminder
 
-**Subject:** We start Product Shipping on November 2
+**Subject:** We start Product Shipping on November 16
 
 The cohort starts on Monday. This is a project-based course for people who can already work with code and want to finish something of their own with AI assistance.
 
 You’ll need a small project, time to build and review, and a willingness to show your work. We’ll help narrow the idea during the first module. Personal project reviews and community feedback are part of the course, not optional prizes.
 
-There is a two-week holiday break, followed by launch and final reviews in January. Check the schedule and prerequisites before joining.
+There is a two-week holiday break, followed by launch and final reviews in January–February. Check the schedule and prerequisites before joining.
 
 **CTA:** Review the details and enroll → [COURSE_URL]
 
@@ -155,6 +161,6 @@ No numerical sales forecast is supplied: list size, historical conversion, deliv
 
 ## 9. Delivery constraints
 
-By 16 October, prepare the first three course modules, the rest of the curriculum outline, rubrics, payment flow, onboarding, FAQ and end-of-October messages. Do not depend on sales calls or immediate personal support while Alexey is unavailable. Either arrange organizational help or make the response window explicit.
+By 30 October, prepare the first three course modules, the rest of the curriculum outline, rubrics, payment flow, onboarding, FAQ and pre-start messages. Do not depend on sales calls or immediate personal support while Alexey is unavailable. Either arrange organizational help or make the response window explicit.
 
 The core campaign must work even if no guest accepts. The strongest promise remains: **your own product, with personal feedback from Alexey and the community**.
