@@ -13,7 +13,7 @@
 | Delivery preference | Online first, target April 2027, complement existing business, aim to finish new work by 16:00 | Confirmed direction; actual capacity still to be demonstrated |
 | Future staffing | Select suitable graduates for paid TA work after the first cohort, then gradually delegate | Future option; no employment or job guarantee now |
 | Latest clarification, 9 November | Keep beginners and career changers in demand research despite potentially higher support needs | Confirmed; segment by skill rather than exclude |
-| Latest financial priority, 9 November | Put useful, lawfully eligible expenses into 2026 where possible | Confirmed objective; EÜR/Bilanz and each contract remain to be checked |
+| Latest financial priority, 9 November | Put useful, lawfully eligible expenses into 2026 where possible | Confirmed objective; **Bilanzierung explicitly confirmed by owner**. Evaluate 2026 performance/acquisition, not merely 2026 advance payments |
 | Archive request, 9 November | Save all substantive school research and updated expense planning in Research Dump | This folder and the repository index implement the request |
 
 ## Proposed, not yet decided
@@ -29,7 +29,7 @@
 
 ## Tax clarification added in this revision
 
-The planning rule is **not** “every service must be completed in 2026.” If EÜR applies, genuine 2026 advances for ordinary 2027 business services can potentially be recognised in 2026. Bilanz and capital assets can produce different results. An invoice date, a reserve or a capital contribution is not sufficient by itself. See [the sourced expense plan](2026-expense-plan.md).
+**New explicit fact: the business uses Bilanzierung.** The owner wants to pay in 2026, but also wants a deduction in 2026. Prepayment and deduction must be distinguished. A December payment for a service wholly performed in 2027 usually remains an asset (advance payment) or an active Rechnungsabgrenzungsposten at 31 December 2026; an invoice alone cannot change this. A separately identifiable service actually performed in 2026 can ordinarily be a 2026 expense even if paid in 2027, unless it creates/acquires an asset that must be capitalized. For eligible small transitory RAP amounts, §5(5) EStG provides a consistent-election waiver up to the §6(2) threshold (€800); it does **not** apply to every advance. §7g IAB is a distinct possibility for qualified future movable depreciable assets if the conditions are met. Revisit tax timing only with the accountant and real service scopes. Historical EÜR advice was conditional and is no longer the controlling scenario. See [the sourced expense plan](2026-expense-plan.md).
 
 ## Open questions and next evidence
 
@@ -41,7 +41,7 @@ The planning rule is **not** “every service must be completed in 2026.” If E
 | Can the funded programme run without a permanent second employee? | Written FKS acceptance of the operating and absence-cover arrangement |
 | What approvals apply to this exact online format? | AZAV scoping and legal/ZFU review of live, recorded and independent components |
 | What can be charged? | Appropriate category, justified course costing, VAT decision and approval pathway |
-| Which payments belong to 2026? | Confirmed accounting method and reviewed service/advance/asset classification |
+| Which costs belong to 2026? | Bilanz confirmed; evidence of economic performance in 2026, asset/RAP classification, IAB conditions and accountant review |
 | Can teaching later be delegated profitably? | First-cohort results and a full paid TA/lead-instructor model |
 
 ## Execution status

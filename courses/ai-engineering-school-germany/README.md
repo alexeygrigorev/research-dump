@@ -12,7 +12,7 @@ The first iteration is to be taught and run by Alexey himself. **No employee or 
 
 **Beginners and career changers remain in the research.** Career change does not imply no programming experience. Segment by demonstrated capability as well as goals, availability and funding route. Greater support needs affect the delivery model; they do not establish that demand should be ignored.
 
-The latest priority is to identify useful project expenditure that can lawfully reduce **2026** taxable profit. The accounting method is not yet confirmed. Under EÜR, genuine advances for ordinary business services in 2027 can potentially be deductible when paid in 2026. Bilanz, capital assets, security deposits and other exceptions require different treatment. The detailed [2026 expense plan](2026-expense-plan.md) is the place to make payment decisions.
+The latest priority is to identify useful project expenditure that can lawfully reduce **2026** taxable profit. **The accounting method is confirmed as Bilanzierung (9 November 2026).** The founder wishes to prepay genuine school-startup costs in 2026 and, if legally possible, recognize them in the **2026 tax result**. Under Bilanzierung the payment date alone is normally insufficient: prepayments for unperformed 2027 services are generally assets or prepaid expenses, not 2026 operating expense. Work performed and economically attributable to 2026 can ordinarily be booked in 2026 even if invoiced or paid in 2027, subject to asset/capitalization rules. §5(5) EStG has a narrow waiver for qualifying small transitory prepaid amounts (generally at or below €800), and §7g EStG offers a separate potential 2026 deduction for planned qualifying movable depreciable business assets—not services or shares. The detailed [2026 expense plan](2026-expense-plan.md) now prioritizes Bilanzierung. The detailed [2026 expense plan](2026-expense-plan.md) is the place to make payment decisions.
 
 ## What is decided and what remains a hypothesis
 
@@ -25,7 +25,7 @@ The latest priority is to identify useful project expenditure that can lawfully 
 | Include beginner and career-change demand | Monday–Thursday, 09:00–12:15 Berlin time |
 | Complement existing business; aim to finish new work by 16:00 | Whether 20–23 founder hours per teaching week can actually be freed |
 | Consider paid graduate TAs after the first cohort | Certification pathway, price, funding eligibility and VAT treatment |
-| Prefer legitimate recognition of useful costs in 2026 | EÜR/Bilanz, treatment of each contract and exact spending envelope |
+| Prefer legitimate recognition of useful costs in 2026 | Bilanz confirmed; exact treatment of each contract, any RAP waiver, IAB eligibility and spending envelope |
 
 None of the tentative duration, price, group size or dates is an approved course offer. The old staffed model is retained separately for future comparison.
 
@@ -55,7 +55,7 @@ These are prepared materials, **not evidence that a campaign has run**. No surve
 
 ## First actions
 
-1. Confirm the 2026 accounting method, VAT position and project owner with the accountant.
+1. Confirm with the accountant that Bilanzierung applies to the relevant 2026 business and clarify VAT, year-end date, which useful work can be completed in 2026, any RAP election, and IAB eligibility.
 2. Build the survey in the existing tool, add the actual privacy notice and test it on a phone.
 3. Publish the research invitation through existing channels; conduct the first four interviews.
 4. By 27 November, choose a leading concept from evidence or continue research without major commitments.

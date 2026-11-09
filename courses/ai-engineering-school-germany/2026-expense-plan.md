@@ -2,17 +2,44 @@
 
 **Research date:** 9 November 2026  
 **Scope:** A German sole proprietor preparing a new education programme as an addition to an existing business.  
-**Status:** Planning guidance for review with a Steuerberater; the accounting method, VAT treatment and individual contracts have not been established.
+**Status (updated 9 November 2026):** Owner explicitly confirmed **Bilanzierung**, not EÜR. VAT treatment, balance-sheet year-end details and contracts are not yet established. This is planning guidance for review with a Steuerberater.
 
 ## Decision in one paragraph
 
-Validate demand before making substantial commitments. If the business uses **Einnahmenüberschussrechnung (EÜR)**, genuine payments for ordinary business services can generally be deductible in the year of payment, including genuine advances paid in 2026 for services to be delivered in 2027. Services do **not** universally have to be completed by 31 December 2026. However, equipment, acquired assets, security deposits, certain recurring payments and long-term prepayments have different treatment. If the business uses **Bilanz**, paying early usually does not move a future-period service expense into 2026. Confirm the accounting method and classify the proposed purchases before using payment timing as part of the plan. [S1–S4]
+**Confirmed Bilanzierung:** Paying in December 2026 for a supplier's services to be carried out in 2027 generally does **not** make the payment an expense of 2026. Depending on the actual contract it is normally a **geleistete Anzahlung** (asset) or **aktiver Rechnungsabgrenzungsposten** (aRAP). To recognize ordinary operating expenses in 2026, prioritize actual, economically attributable 2026 professional work (e.g., legal assessment, completed curriculum editing, real certification preparation steps, market research) with evidence of the work. A 2026 service normally does not require cash payment before year-end to belong in that year's Bilanz result. Assets requiring capitalization are a separate question. A narrow §5(5) EStG tax-balance-sheet waiver for qualifying individual transitory amounts up to **€800** and a possible **§7g IAB** for qualifying future movable depreciable business assets must be assessed separately; neither makes arbitrary 2027 service prepayments a 2026 expense. Demand validation should still precede irreversible expenditure. [S1–S4]
 
 The aim is to obtain useful work and a viable programme while making appropriate use of the applicable timing rules. Spending the entire available budget is not a success criterion.
 
-## 1. Establish the accounting method first
 
-Being an Einzelunternehmer does not, by itself, establish that the business uses EÜR. Ask the accountant which method actually applies to the 2026 profit calculation.
+## Confirmed approach: Bilanz, payment versus expense (9 November 2026)
+
+The owner has confirmed **Bilanzierung** and expressly wishes to **pay providers before 31 December 2026**. This is possible commercially, but the tax timing is not controlled merely by the payment date. Preserve the ability to prepay while recognising that the deduction may fall in 2027. Do not promise a 2026 reduction from payments for services still wholly outstanding on the balance-sheet date.
+
+| Actual 2026 transaction | Usually shown at 31 December 2026 | Effect on 2026 profit |
+|---|---|---|
+| Legal specialist completes a scoped assessment in December; invoiced/paid in December or January | Operating expense and payment or liability | Generally expense in 2026, subject to any requirement to capitalize a resulting asset |
+| Scoped curriculum review/translation or market research is performed and delivered in December | Operating expense and payment or liability | Generally expense in 2026 if an ordinary service rather than acquisition/creation of a capitalizable asset |
+| Pay a €6,000 advance in December for an AZAV audit or service wholly to be performed in February | Geleistete Anzahlung or other asset, depending on agreement | Generally **no 2026 expense** merely from the payment |
+| Pay a 2027 annual subscription in December | Usually active Rechnungsabgrenzungsposten (aRAP) for 2027 | Generally **2027** expense; examine the narrow small-item tax waiver below |
+| Buy a needed, qualifying computer and actually acquire it in December | Business asset; depreciation assessed under the applicable computer guidance | Potential full 2026 acquisition-year depreciation where conditions are met |
+| Pay an advance in December for equipment first acquired in February | Advance asset until acquisition | No 2026 depreciation from payment alone; assess §7g IAB separately |
+| Transfer money to a future GmbH or label a reserve “school development” | Financial asset or cash allocation | No ordinary 2026 operating expense |
+
+### Narrow tax-election exception for small aRAP items
+
+Under **§5(5) sentence 2 EStG**, a separate item that otherwise qualifies for a transitory accrual item may be left without that item **if its amount does not exceed the threshold in §6(2) sentence 1 EStG (currently €800)**. The election must be made consistently for all corresponding amounts. This applies to qualifying **Rechnungsabgrenzungsposten**, **not** automatically to a supplier's unfinished-work advance or security deposit; nor should it be used by artificially splitting one obligation into multiple small invoices. The Handelsbilanz and tax-balance-sheet effects may differ; have the Steuerberater check the actual accounts, contracts and election. [S4, S12, S13]
+
+### Separate option: IAB under §7g
+
+§7g explicitly permits the **Bilanz** and **EÜR** methods, subject to the legal conditions. If the appropriate 2026 business profit does not exceed €200,000 and there is a genuine plan for eligible **movable depreciable fixed assets** with near-exclusive business use (or qualifying rental), a deduction of up to **50% of the expected acquisition cost** may be available for 2026 **without paying for those assets in 2026**. Subsequent acquisition and adjustment/reversal requirements apply. This is **not** a budget for AZAV fees, marketing, rent, SaaS services, course licences or startup shares. Verify future purchase dates and §7g eligibility with the adviser before claiming an amount. [S8]
+
+### Year-end instruction for the accountant
+
+For each planned supplier, distinguish the value **actually received by 31 December** from the cash sent in December and the remaining future service obligation. Ask: “Is there a 2026 operating expense, a capitalizable asset, a geleistete Anzahlung or an aRAP; is there a defensible §5(5) election; and is there separately eligible §7g equipment?” Keep acceptance records, work products and actual service dates. The internal preferred payment cutoff of 18 December is **not** an accounting deadline.
+
+## 1. Accounting-method comparison (Bilanz confirmed; EÜR retained only as background)
+
+**Confirmed:** the business uses Bilanzierung. The following EÜR column is kept only to explain why the earlier cash-payment advice no longer controls this project. Confirm the year-end date and whether any specific expense belongs to a different legal recipient.
 
 | Question | If the business uses EÜR | If the business uses Bilanz |
 |---|---|---|
@@ -106,10 +133,10 @@ These are operational planning dates. **18 December is a preferred internal paym
 
 | Dates | Action | Concrete output |
 |---|---|---|
-| 9–20 November | Confirm accounting method, current VAT position and intended project owner | Accountant's answers and a short classification checklist |
+| 9–20 November | Confirm 2026 Bilanz year-end, VAT position, real service outputs, potential §5(5) aRAP waiver and §7g eligibility | Accountant's answers and a short classification checklist |
 | 9–27 November | Conduct the demand-validation work in the main launch plan | Evidence of demand, audience constraints and a decision on the first programme |
 | 30 November–4 December | Request specific offers for necessary professional/certification services | Written scopes, prices, terms and a list of genuine next milestones |
-| 7–18 December | Commission useful work and make agreed payments/advances where appropriate | Real work products, booked services and documented cash outflows |
+| 7–18 December | Have justified preparatory services completed where feasible; make commercial advances only when useful and correctly treated | Dated deliverables, evidence of service completion, correctly classified liabilities/payments; do **not** assume a future-work advance is a 2026 expense |
 | By 18 December | Aim to complete the principal year-end payments | Time to fix incorrect invoices and allow for bank processing and holiday availability |
 | Before 31 December | Reconcile payments, acquisition dates and supporting evidence | An expense pack for the 2026 accounts, with uncertain items flagged |
 | Early January 2027 | Check recurring items around the year boundary with the accountant | Correct allocation of the small set of items affected by the exception |
@@ -152,14 +179,14 @@ For illustration only: at a hypothetical 40% marginal tax rate, a fully deductib
 
 ## 8. Questions for the Steuerberater
 
-1. Does the business actually use EÜR or Bilanz for 2026, and what year-end applies?
-2. Which proposed ordinary-service advances paid in 2026 for 2027 audits, advice and subscriptions are deductible in 2026?
+1. Bilanzierung has been confirmed: what is the relevant 2026 year-end and the exact tax-versus-commercial balance-sheet treatment for the proposed transactions?
+2. Which ordinary services can be **performed and attributed to 2026**, and which paid 2026 advances for 2027 services must be recognized as assets or aRAP?
 3. Which items are acquired assets, capital costs, prepaid balance-sheet items or security deposits instead?
 4. Do the proposed contracts correctly belong to the existing sole proprietorship if no GmbH is being established for the first iteration?
 5. What would change if a GmbH were formed later and received the programme or its intellectual property?
 6. What is the new programme's VAT treatment, and how should input VAT on preparation and shared expenses be allocated?
 7. Which actual equipment items qualify for the computer guidance, GWG or, if relevant, IAB?
-8. Which year-end recurring payments need special allocation, including VAT advance payments?
+8. Which year-end recurring payments need special allocation; is the uniform §5(5) election for eligible individual aRAP items up to €800 useful and valid here?
 9. What payment evidence and asset records should be retained for the chosen treatment?
 10. What tax and working-capital reserve should remain after any discretionary spending?
 
@@ -180,5 +207,7 @@ Primary legislation and official administrative/judicial sources were checked fo
 | S9 | [BFH, 13 December 2022, VIII R 1/20](https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE202350016/) | Both payment and due date for the year-end ten-day exception |
 | S10 | [UStG §15](https://www.gesetze-im-internet.de/ustg_1980/__15.html) | Input VAT, advances and restrictions for exempt outputs |
 | S11 | [AO §42](https://www.gesetze-im-internet.de/ao_1977/__42.html) | Statutory limit on abusive arrangements |
+| S12 | [Hessian fiscal court 4 K 2033/17](https://www.rv.hessenrecht.hessen.de/bshe/?query=DOKNR%3ALARE190035717&source=PermaLink) | Future unperformed service advances remain balance-sheet assets, even where aRAP does not apply |
+| S13 | [Haufe: tax balance-sheet treatment of small RAP items](https://www.haufe.de/id/beitrag/rechnungsabgrenzung-bzw-periodenabgrenzung-6-abweichungen-in-der-steuerbilanz-HI14033747.html) | Consistent small-item waiver under §5(5) EStG and its tax-balance-sheet limits |
 
 Some official handbook mirrors intermittently returned access errors during research. The substantive BMF advance-payment wording was available through the official search result and the official handbook address supplied above; statutes and the cited BFH judgment were separately checked. The security-deposit row is deliberately a classification flag for the accountant rather than a conclusion about an unseen contract.
