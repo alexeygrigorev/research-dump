@@ -6,6 +6,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 
 | Area | What it is | Status |
 |---|---|---|
+| [courses/ai-engineering-school-germany](courses/ai-engineering-school-germany/README.md) | Solo online AI education programme: demand research, curriculum options, AZAV, economics and 2026 expense planning | **Active research** — April 2027 target; demand and approvals not yet established |
 | [courses/product-shipping](courses/product-shipping/README.md) | Maven course "Product Shipping with AI": course plan, marketing calendar, Maven copy, lead magnets, guest research, interview playbook | **Active** — course runs Nov 2, 2026 – Jan 24, 2027 |
 | [courses/hobby-project-launch](courses/hobby-project-launch/README.md) | Russian self-study course: validate and launch an indie game, 39 resources + workbook | Ready to use (version Sep 7, 2026) |
 | [learning/book-action-checklists](learning/book-action-checklists/README.md) | Source-linked action checklists for 11 business and product books | Growing library |
@@ -27,7 +28,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 ## By theme
 
 - **Tools:** [Headless Codex browser access](tools/codex-headless-browser/README.md) — tested CLI command and observed Chrome integration behavior.
-- **Teaching:** [courses/](courses/) — the Maven course in production and the self-study game-launch course.
+- **Teaching:** [courses/](courses/) — the Maven course, the self-study game-launch course, and [research for a German AI education programme](courses/ai-engineering-school-germany/README.md).
 - **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
 - **Interviews & podcasts:** [podcast/](podcast/README.md) for the reusable methods; applied guest research lives in [courses/product-shipping/guest-research-by-module](courses/product-shipping/guest-research-by-module/README.md) and [strategy/ai-native-company](strategy/ai-native-company/README.md).
@@ -37,8 +38,10 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 
 ## Start here
 
+- Planning the German AI education programme and legitimate 2026 expenses → [courses/ai-engineering-school-germany](courses/ai-engineering-school-germany/README.md)
 - Preparing the Maven course → [courses/product-shipping](courses/product-shipping/README.md)
 - Researching a podcast guest → [podcast/guest-research-system.md](podcast/guest-research-system.md)
 - Picking what to build or sell next → [strategy/monetization](strategy/monetization/README.md) and [strategy/astra-challenge](strategy/astra-challenge/README.md)
 - Finding AI conference speaking opportunities → [events/ai-conferences-2026-2027](events/ai-conferences-2026-2027/README.md)
 - Planning conference demand before committing to a venue or opening ticket sales → [events/oversubscribed-conference-demand](events/oversubscribed-conference-demand/README.md)
+
