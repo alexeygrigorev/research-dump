@@ -1,13 +1,13 @@
-# Survey draft: practical AI and software development programmes
+# Survey draft: intensive AI and software development bootcamp
 
-Updated: 2026-11-09. **Draft only; no form has been published and no responses are recorded in this repository.**
+Updated: 2026-11-12. **Draft only; no form has been published and no responses are recorded in this repository.**
 
 ## Form setup
 
-- Aim for about five minutes. Work situation, free text, German level, budget and contact details should be optional.
-- Show learning needs before asking about funding.
-- Ask for one first-choice topic. Allow an optional second choice and “None / another topic.”
-- Give the three cards comparable prominence. Rotate A and B if the form supports it without extra work.
+- Test the complete form on a phone and check that it takes about five minutes. Work situation, free text and contact details should be optional.
+- Make the learning topic the first question. Show the funding and price information in the introduction.
+- Ask for one first-choice topic. Keep the “Another topic” field for other learning needs.
+- Give both tracks comparable prominence. Rotate A and B if the form supports it without extra work.
 - Only show the relevant funding follow-ups.
 - Insert the real privacy notice and contact method before publication. Consent choices must start unchecked.
 - Record the distribution channel through a link parameter or an optional source question.
@@ -15,21 +15,130 @@ Updated: 2026-11-09. **Draft only; no form has been published and no responses a
 
 ## Introduction
 
-I’m researching a small live-online programme for people in Germany, with a first cohort tentatively planned for April 2027.
+I’m planning an intensive, multi-month bootcamp in AI and software development, with live instruction and hands-on projects. It’s for people in Germany who want practical skills for their next job or a career change.
 
-Your answers will help decide the topic, prerequisites and schedule. Accreditation and public funding are not yet approved. This is research, not an enrolment form.
+**Funding through a Bildungsgutschein.** I plan to apply for approval so the Agentur für Arbeit can cover tuition for participants with a voucher that matches the course. This is especially relevant if you’re out of work or at risk of losing your job and the training would help you find or keep a job. The Agentur für Arbeit decides eligibility individually.
 
-You do not need to share your employment situation publicly. Questions about your work situation and contact details are optional.
+The bootcamp still needs approval. [How the Bildungsgutschein works](https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein)
 
-## 1. Where would you attend from?
+**Self-pay tuition will be €9,000–€10,000 for the full bootcamp.**
 
-Select one:
+The first cohort could start in April 2027:
 
-- Berlin
-- Elsewhere in Germany
-- Outside Germany
+- **live online from Germany** or
+- **in person in Berlin (Prenzlauer Berg, near S+U Schönhauser Allee)**
 
-## 2. Which role best describes your background?
+All teaching will be in English.
+
+Before I submit an application for approval, I want to know what you actually want to learn and what would help you at work or in your job search.
+
+## 1. What do you most want to learn?
+
+Choose the track that would help you most. If you have something else in mind, tell me what it is.
+
+Both tracks assume some programming experience.
+
+### A. Agentic engineering
+
+Learn to use coding agents to build, test and ship software.
+
+- Turn a product idea into a spec and a set of small tasks.
+- Build a full-stack feature across the interface, API and database.
+- Practise working in an existing codebase, debugging and reviewing agent-generated changes.
+- Automate tests and releases with CI/CD.
+- Deploy your application and use logs and metrics to investigate failures.
+- Connect agents to tools through MCP and create reusable workflows for implementation and code review.
+- Set up and configure an agentic software factory
+
+**Final project.** Ship a working web application for a real user task. Have people try it, improve it from their feedback, and show how you tested and released the changes.
+
+### B. AI engineering
+
+Learn to build and run applications that use language models to answer questions or take actions.
+
+- Build an assistant in Python using an LLM API
+- Use retrieval-augmented generation (RAG)
+- Give the assistant tools to look up information or call an API
+- Define what it can do on its own and when it needs human approval
+- Use realistic questions and tasks to evaluate answers and tool use. Compare prompts, models and retrieval methods and check for regressions
+- Deploy the application and trace its model and tool calls
+- Track quality, latency and cost, and handle failures safely
+
+**Final project.** Build and deploy an AI assistant for a concrete use case, such as answering questions from technical documentation and drafting support replies. Show where it works, where it fails and how you measured that.
+
+**Select your first choice.**
+
+- A. Agentic engineering
+- B. AI engineering
+- Another topic: [short answer]
+
+## 2. Which format would you realistically attend in April 2027?
+
+Assume the topic and price work for you. Select one.
+
+- Live online from Germany
+- I prefer live online from Germany and could also attend in person in Berlin.
+- Either format would work equally well.
+- I prefer in person in Berlin and could also attend live online.
+- In person in Berlin
+
+For all answers that include in-person attendance, ask this follow-up:
+
+**How long would your typical one-way trip to S+U Schönhauser Allee take?**
+
+- Up to 30 minutes
+- 31-45 minutes
+- 46-60 minutes
+- More than 60 minutes
+
+## 3. When could you realistically start?
+
+Select all that apply:
+
+- January 2027
+- April 2027
+- September 2027
+- later
+
+## 4. Would you prefer full-time or part-time?
+
+I’m planning the first cohort as a full-time bootcamp. But I'm also considering a part-time option:
+
+- **Full-time:** 12 teaching weeks, Monday to Friday, 09:00 to 16:00 Berlin time, including breaks.
+- **Part-time:** 24 weeks, 09:00 to 12:30 Berlin time.
+
+**Which pace would you prefer?**
+
+- Full-time only
+- I prefer full-time and could also attend part-time.
+- Either pace would work for me.
+- I prefer part-time and could also attend full-time.
+- Part-time only
+
+
+Optional: **What days or hours would you need for this to work?** [Short answer]
+
+## 6. Can you take the bootcamp in English?
+
+Could you follow technical instruction, ask questions and work on projects with others in English?
+
+- Yes
+- No
+- Unsure
+
+
+## 11. What is your current work situation?
+
+Optional. Select the answer that best describes your situation.
+
+- Employed
+- Self-employed
+- Looking for work, including after a layoff
+- Employment ending or notice period
+- Studying or changing career
+- Prefer not to say
+
+## 8. Which role best describes your background?
 
 Select one:
 
@@ -41,27 +150,7 @@ Select one:
 - Student
 - Other: [short answer]
 
-## 3. Which statement best describes what you can do today?
-
-Select one:
-
-- I build and debug applications using Git and tests.
-- I write scripts, SQL or notebooks.
-- I complete guided tutorials but struggle to build independently.
-- I have little or no coding experience.
-
-## 4. What is your current work situation?
-
-Optional; select the most relevant answer:
-
-- Employed
-- Self-employed
-- Looking for work, including after a layoff
-- Employment ending or notice period
-- Studying or changing career
-- Prefer not to say
-
-## 5. What is your main goal for the next six to twelve months?
+## 9. What is your main goal for the next six to twelve months?
 
 Select one:
 
@@ -72,105 +161,20 @@ Select one:
 - Ship my own product
 - Other: [short answer]
 
-## 6. What real task or job requirement are you currently struggling with?
+## 10. What real task or job requirement are you currently struggling with?
 
 Optional: one sentence about a recent example.
 
 [Short answer]
 
-## 7. Which programme would you seriously consider?
-
-Read the three descriptions, then choose your first priority.
-
-### A. AI-assisted software engineering / agentic development
-
-For people who already write code. Use coding agents to work in an existing repository: turn a task into a specification, supply context, implement a small change, test, debug and review the result. Practise explaining and taking responsibility for the code you ship.
-
-### B. AI application engineering
-
-For people who already write code. Build applications using LLMs, retrieval and tools. Evaluate their quality, handle failure cases, manage cost and security, and deploy a working application with documented results.
-
-### C. Programming foundations with AI
-
-For people who need a stronger coding base. Learn one language, Git, APIs, debugging and tests. Use AI while developing the ability to understand and check the code. Build a small application and demonstrate the foundations needed for further study.
-
-**First choice — select one:**
-
-- A. AI-assisted software engineering / agentic development
-- B. AI application engineering
-- C. Programming foundations with AI
-- None of these
-- Another topic: [short answer]
-
-**Optional second choice:** A / B / C / None.
-
-## 8. When could you realistically start?
-
-Select one:
-
-- I need to start before April, in January–March 2027.
-- April 2027
-- May–June 2027
-- September 2027 or later
-- I do not have a date yet.
-
-## 9. Would this possible schedule work for you?
-
-For a programme aimed at people who already code, one format being tested is:
-
-- Twelve teaching weeks.
-- Monday–Thursday, 09:00–12:15 Berlin time, including a break.
-- Approximately twelve live learning hours and eight hours of independent practice per week.
-
-Could you make that commitment?
-
-- Yes
-- Yes, if I change something
-- No
-- Unsure
-
-Optional: **What would need to change for this to be realistic?**
-
-[Short answer]
-
-A beginner programme may need a different structure. This timetable is a research hypothesis, not a promise that all three programmes will follow it.
-
-## 10. Which other time windows or formats would work for you?
-
-Select all that apply:
-
-- Weekday mornings, approximately 09:00–12:15
-- Weekday afternoons ending by 16:00
-- Evenings
-- Weekends
-- I can only use recordings.
-- I would only attend in person.
-
-These answers describe your constraints; they do not mean that every option will be offered.
-
-## 11. Which teaching language would work for you?
-
-Select one:
-
-- English works well.
-- English works with occasional German clarification.
-- German is required.
-- Other: [short answer]
-
-Optional: **How would you describe your German level for work?**
-
-- None or basic
-- Intermediate
-- B2 or higher
-- Prefer not to say
 
 ## 12. How might you finance a course?
 
 Select any relevant route:
 
-- Bildungsgutschein or other public funding
+- Bildungsgutschein
 - Employer funding
-- Self-funded
+- I would pay the full tuition myself.
 - Unsure
 
 ### Follow-up if public funding is selected
@@ -185,19 +189,6 @@ Which stage are you at?
 
 Your answer does not establish eligibility. Please do not upload benefit documents, voucher numbers or other personal financial records to this research form.
 
-### Follow-up if self-funded is selected
-
-Optional: what budget would be realistic for you?
-
-- Under €500
-- €500–1,499
-- €1,500–2,999
-- €3,000–4,999
-- €5,000 or more
-- Undecided
-
-These are research ranges, not tuition offers.
-
 ## 13. What next step could you take in the next two weeks?
 
 Select any that apply:
@@ -208,16 +199,20 @@ Select any that apply:
 - Course updates only
 - Nothing yet
 
-## 14. May I contact you?
+## 14. Would you be okay with me following up by email about your answers?
 
-Optional email:
+- Yes
+- No
 
-[Email field]
+**Optional course updates**
 
-Choose separately; both choices should start unchecked:
+- [ ] I’d like to receive updates about the bootcamp.
 
-- [ ] You may contact me about this research or pilot.
-- [ ] You may send me future course announcements.
+If the respondent answers Yes or opts in to course updates, show this field.
+
+**What’s your email address?**
+
+[Optional email field]
 
 Before publication, insert the actual notice explaining who receives responses, their intended use, retention and how to withdraw or request deletion:
 
@@ -225,28 +220,15 @@ Before publication, insert the actual notice explaining who receives responses, 
 
 [Contact method]
 
-## Optional source question
-
-Show this only if a source parameter is not already captured:
-
-Where did you hear about the survey?
-
-- LinkedIn
-- Berlin Meetup group
-- DataTalks.Club newsletter or community
-- AI Shipping Labs
-- A friend or colleague
-- Other
-
 ## Thank-you screen
 
-Thank you. Your answers will help choose a useful learning outcome and a realistic format. If you opted in to an interview or pilot, I may contact you about a suitable next step.
+Thank you. Your answers will help choose a useful learning outcome and a realistic format. If you said I could follow up and left your email, I may contact you about your answers or a research activity you selected.
 
 This survey does not reserve a place, confirm public funding or guarantee that a particular programme will launch.
 
 ## Research interpretation notes
 
-- Keep first-choice topic, demonstrated readiness, timing and schedule fit separate.
+- Compare attendance format, pace preference and confirmed availability for the proposed full-time schedule within each topic. Report respondents open to both formats once in the combined total. Travel time gives context; ability to make the trip on the actual schedule determines fit.
 - Retain beginner responses even if the first advanced cohort needs prior coding skills.
 - “Career changer” does not mean “no programming experience.”
 - Public-funding readiness is not the same as self-pay willingness.

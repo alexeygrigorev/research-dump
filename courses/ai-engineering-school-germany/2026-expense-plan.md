@@ -134,8 +134,8 @@ These are operational planning dates. **18 December is a preferred internal paym
 | Dates | Action | Concrete output |
 |---|---|---|
 | 9–20 November | Confirm 2026 Bilanz year-end, VAT position, real service outputs, potential §5(5) aRAP waiver and §7g eligibility | Accountant's answers and a short classification checklist |
-| 9–27 November | Conduct the demand-validation work in the main launch plan | Evidence of demand, audience constraints and a decision on the first programme |
-| 30 November–4 December | Request specific offers for necessary professional/certification services | Written scopes, prices, terms and a list of genuine next milestones |
+| 12–27 November | Run demand validation and start FKS scoping in parallel | Evidence by topic and format, room terms and an initial approval timeline |
+| 30 November–4 December | Refine initial offers for the chosen topic and format | Written scopes, prices, terms and a list of genuine next milestones |
 | 7–18 December | Have justified preparatory services completed where feasible; make commercial advances only when useful and correctly treated | Dated deliverables, evidence of service completion, correctly classified liabilities/payments; do **not** assume a future-work advance is a 2026 expense |
 | By 18 December | Aim to complete the principal year-end payments | Time to fix incorrect invoices and allow for bank processing and holiday availability |
 | Before 31 December | Reconcile payments, acquisition dates and supporting evidence | An expense pack for the 2026 accounts, with uncertain items flagged |

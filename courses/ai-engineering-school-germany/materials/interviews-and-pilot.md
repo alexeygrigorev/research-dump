@@ -1,6 +1,6 @@
 # Research interviews and practical pilot
 
-Updated: 2026-11-09.
+Updated: 2026-11-12.
 
 **Prepared protocol, not completed research.** No participants have been interviewed, no pilot has been booked or delivered through this work, and no outcomes are claimed. The first research cycle uses existing channels and materials; it does not require hiring.
 
@@ -8,9 +8,9 @@ Updated: 2026-11-09.
 
 | Period | Proposed work | Founder-time hypothesis |
 | --- | --- | ---: |
-| 9–13 November 2026 | Publish the form and first post; conduct four interviews | About 4.5 hours |
-| 16–20 November | Conduct six more interviews, send one reminder, select a pilot topic and prepare the exercise | About 4.5 hours |
-| 24–27 November | Deliver one pilot, conduct two final interviews, review work and write a decision | About 5 hours |
+| 12–16 November 2026 | Test and publish the form and first post, start recruiting interviewees | About 4.5 hours |
+| 17–23 November | Start interviews, send one reminder, select a pilot topic and format, prepare the exercise | About 4.5 hours |
+| 24–27 November | Deliver one pilot, finish interviews, review work and write a decision | About 5 hours |
 
 The twelve conversations mean **ten prospective learners and two hiring managers or technical leads**, not twelve learners plus unlimited extra employer calls. If conversations or preparation take longer, reduce scope or explicitly revise the time budget.
 
@@ -26,7 +26,7 @@ Invite participants who opted in through the [survey](survey.en.md). Include:
 - Adjacent technical workers who write scripts or notebooks.
 - Beginners and people starting a career transition.
 
-A possible ten-person interview mix is four experienced developers, three adjacent technical workers and three beginners. This is a sampling proposal, not an observed sample or a statistical design. Adjust it to the responses and make any gaps explicit.
+A possible ten-person interview mix is six developers and four adjacent technical workers or career changers with some coding experience. This is a sampling proposal, not an observed sample or a statistical design. Adjust it to the responses and make any gaps explicit.
 
 Include some people reached through forwarded local contacts rather than only the most active existing community members. The sample still will not represent the whole German market.
 
@@ -39,8 +39,8 @@ Do not require participants to disclose layoffs publicly or provide employer nam
 | 0–3 | What is your current role or technical background? What role or practical result do you want next? | Starting point and desired outcome |
 | 3–7 | Describe a recent task, interview or job requirement where you lacked a skill. What happened? What did you try? | A specific problem rather than generic enthusiasm |
 | 7–10 | What have you already used: tools, courses, colleagues, self-study? What was still missing? | Alternatives and unmet support needs |
-| 10–13 | Read the three course cards. Choose the most useful and one that is not suitable. Why? What should you be able to show afterwards? | First-choice outcome and reason |
-| 13–16 | Could you actually commit to the proposed mornings and total workload? What would you move or stop? Is April early enough? | Real availability, urgency and trade-offs |
+| 10–13 | Read the two course cards. Choose the most useful and one that is not suitable. Why? What should you be able to show afterwards? | First-choice outcome and reason |
+| 13–16 | Could you actually commit to the proposed full-time schedule? If part-time is a better fit, what days and hours could you attend? For which format? If in person, how would you get to S+U Schönhauser Allee by 09:00 on five days a week? What would you move or stop? Is April early enough? | Real availability, urgency and trade-offs |
 | 16–18 | Which funding/payment route are you considering? What have you already discussed? | Current stage without adjudicating eligibility |
 | 18–20 | Would you take a short practical task or attend a specific pilot? Agree one next step if useful. | A concrete action and permission to follow up |
 
@@ -149,7 +149,7 @@ These are management hypotheses for a small first cohort, **not observed results
 
 Smaller but coherent evidence may still be informative. Do not chase response counts at the expense of understanding fit. If fewer than ten matched prospects emerge after two substantive outreach attempts, investigate the bottleneck before substantial spending.
 
-If interest is strongest among beginners, retain that finding and evaluate a suitable foundation programme. If interest mainly requires evenings or recordings, record a format mismatch rather than counting those responses as demand for four mornings.
+Record demand from beginners as a possible future offering. If interest mainly requires evenings or recordings, record a format mismatch rather than counting those responses as demand for the full-time cohort.
 
 ## Minimal private research tracker
 

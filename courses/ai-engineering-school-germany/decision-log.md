@@ -10,19 +10,24 @@
 | Earlier operating proposal | Experienced lead instructor and coordination support; 560 UE; provisional €8,900 price | Superseded for the first iteration; [historical model retained](archive/staffed-scenario.md) |
 | User correction | First iteration should be conducted personally; no hire now; validate demand before significant investment | Confirmed direction |
 | Topic expansion | Compare AI-assisted software engineering/agentic development, AI application engineering and foundations | Research all three; no winner established |
-| Delivery preference | Online first, target April 2027, complement existing business, aim to finish new work by 16:00 | Confirmed direction; actual capacity still to be demonstrated |
+| Delivery preference | Online first, target April 2027, complement existing business, aim to finish new work by 16:00 | Delivery preference superseded on 12 November; April target and founder capacity constraint carry forward |
 | Future staffing | Select suitable graduates for paid TA work after the first cohort, then gradually delegate | Future option; no employment or job guarantee now |
 | Latest clarification, 9 November | Keep beginners and career changers in demand research despite potentially higher support needs | Confirmed; segment by skill rather than exclude |
 | Latest financial priority, 9 November | Put useful, lawfully eligible expenses into 2026 where possible | Confirmed objective; **Bilanzierung explicitly confirmed by owner**. Evaluate 2026 performance/acquisition, not merely 2026 advance payments |
 | Archive request, 9 November | Save all substantive school research and updated expense planning in Research Dump | This folder and the repository index implement the request |
 
+## Delivery decision, 12 November 2026
+
+Test **live online from Germany** and **in person in Berlin**, in Prenzlauer Berg (Pankow) near **S+U Schönhauser Allee**. A rental option is available for investigation. The earlier online-first direction in the table is superseded. Begin certification scoping while the survey is running. Position the offering as an intensive, multi-month bootcamp. The exact number of weeks remains a scheduling hypothesis. Plan the April cohort as full-time, taught in English, and ask about part-time demand in the survey. The current survey compares Agentic Engineering and AI Engineering. Programming foundations was an earlier concept.
+
 ## Proposed, not yet decided
 
 - Agentic software engineering as the first course.
+- One cohort in one format in April. Choose using qualified demand, approval timing, founder capacity and economics.
 - Eight participants of a reasonably similar prerequisite level.
-- Twelve teaching weeks, 192 synchronous UE, approximately 96 independent clock hours.
-- Monday–Thursday 09:00–12:15, provisional start 12 April and finish 6 July 2027.
-- Approximately 20–23 founder hours per teaching week.
+- Twelve teaching weeks and an illustrative 480 synchronous UE, subject to the final split between supervised and independent work.
+- Monday to Friday, 09:00 to 16:00 Berlin time, with a provisional start on 12 April and finish on 6 July 2027.
+- Approximately 38–41 active founder hours per teaching week, plus breaks and venue logistics.
 - €0–300 research cap, optional bounded advisory work and a conditional year-end spending envelope.
 - Evidence thresholds of 15 matching prospects, eight concrete actions, six pilot attendees and at least four successful explanations.
 - Exact occupational category, tuition, certification supplier and legal treatment of the online format.
@@ -37,7 +42,7 @@
 |---|---|
 | Which audience and topic should be first? | Segmented survey, interviews and observed pilot work |
 | Are beginners a viable solo programme? | Narrow foundation outcome, observed support time and feasible group size |
-| Is an April morning format realistic? | Actual candidate availability and an explicit founder capacity budget |
+| Which April format is viable? | Topic-by-format demand, actual morning availability, repeatable commute near Schönhauser Allee, venue economics and founder capacity |
 | Can the funded programme run without a permanent second employee? | Written FKS acceptance of the operating and absence-cover arrangement |
 | What approvals apply to this exact online format? | AZAV scoping and legal/ZFU review of live, recorded and independent components |
 | What can be charged? | Appropriate category, justified course costing, VAT decision and approval pathway |

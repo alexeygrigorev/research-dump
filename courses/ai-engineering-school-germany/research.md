@@ -2,13 +2,13 @@
 
 Updated: 2026-11-09.
 
-This file preserves the desk research behind a proposed first live-online cohort in Germany. Demand has **not** yet been validated: no survey responses, interviews, pilot outcomes or funded enrolments are reported here. Course duration, price, group size and timetable remain hypotheses.
+This file preserves the desk research behind a proposed April cohort, with live online from Germany and in person in Berlin-Prenzlauer Berg near S+U Schönhauser Allee both in scope. Demand has **not** yet been validated: no survey responses, interviews, pilot outcomes or funded enrolments are reported here. Course duration, price, group size and timetable remain hypotheses.
 
 ## Current direction
 
 The first iteration would be taught by Alexey personally, within the existing education and community business. Hiring is deferred until after the first cohort. April 2027 is the target month, conditional on demand, capacity, necessary approvals and participant funding.
 
-The immediate research compares three outcomes:
+The original desk research compared three outcomes. The current survey tests the first two:
 
 1. **AI-assisted software engineering / agentic development:** using coding agents to develop and maintain software.
 2. **AI application engineering:** building applications with LLMs, retrieval and agents.
@@ -113,7 +113,7 @@ The proposed thresholds and survey sample sizes are management hypotheses. They 
 - Which offer receives the strongest *matched* interest?
 - Which applicants can demonstrate the prerequisites for a coherent first group?
 - Do beginners want foundations, a longer career transition, or an existing product-building format?
-- Can people commit to the proposed mornings and total workload from April?
+- Can people commit to the proposed full-time schedule or a part-time schedule from April in their preferred format? For in-person learners, can they reliably reach Schönhauser Allee by 09:00?
 - Is April too late for people seeking training now?
 - What support would make this programme meaningfully useful alongside existing free materials?
 - Can the founder allocate the full delivery workload while maintaining the existing business?

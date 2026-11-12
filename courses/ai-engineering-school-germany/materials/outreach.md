@@ -1,24 +1,23 @@
 # Outreach drafts and initial distribution plan
 
-Updated: 2026-11-09.
+Updated: 2026-11-12.
 
 **Drafts only. These messages have not been published or sent through this work.** Replace placeholders with a tested survey link before use. The purpose is to research demand, not to announce an approved course or reserve funded places.
 
 ## Main English post
 
-I’m researching a new live-online programme for people in Berlin and across Germany, with a first cohort tentatively planned for April 2027.
+I’m planning an intensive, multi-month bootcamp in AI and software development. I’m exploring two formats for a possible April 2027 start: live online from Germany and in person in Berlin, near S+U Schönhauser Allee in Prenzlauer Berg.
 
 I’d like to understand which learning need would be most useful:
 
 - **AI-assisted software engineering / agentic development:** using coding agents to implement, debug, test and review real software.
 - **AI application engineering:** building and evaluating applications with LLMs, RAG and agents.
-- **Programming foundations with AI:** developing the coding skills needed before moving into either of those areas.
 
 If you’re looking for your next role, changing career, or updating your skills, I’d love your input. You don’t need to share your employment situation publicly.
 
-The initial format I’m exploring is live online, on weekday mornings, with practical project work. I’m also exploring Bildungsgutschein funding; accreditation and funding are not yet approved.
+I’m planning to teach in English. The survey asks whether you could attend full-time or would prefer a part-time option. I’m also exploring Bildungsgutschein funding; accreditation and funding are not yet approved.
 
-This five-minute survey will help me choose the topic, prerequisites and schedule:
+This five-minute survey will help me choose the topic, format, prerequisites and schedule:
 
 [Survey link]
 
@@ -28,9 +27,9 @@ Please share this with someone in Germany for whom it could be relevant.
 
 ## Short German forwarding text
 
-Alexey Grigorev (DataTalks.Club / AI Shipping Labs) prüft ein neues Live-Online-Kursangebot für Teilnehmende in Deutschland, mit einem ersten Durchgang voraussichtlich im April 2027.
+Alexey Grigorev (DataTalks.Club / AI Shipping Labs) plant ein intensives, mehrmonatiges Bootcamp für KI und Softwareentwicklung mit einem möglichen Start im April 2027. Zur Wahl stehen Live-Unterricht online für Teilnehmende in Deutschland und Präsenzunterricht in Berlin-Prenzlauer Berg nahe S+U Schönhauser Allee.
 
-Zur Auswahl stehen KI-gestützte Softwareentwicklung mit Coding-Agenten, die Entwicklung von KI-Anwendungen und Programmiergrundlagen mit KI. Gesucht werden Rückmeldungen von Entwickler:innen, technisch Interessierten und Menschen in beruflicher Neuorientierung.
+Zur Auswahl stehen KI-gestützte Softwareentwicklung mit Coding-Agenten und die Entwicklung von KI-Anwendungen. Gesucht werden Rückmeldungen von Entwickler:innen, technisch Interessierten und Menschen in beruflicher Neuorientierung.
 
 Die erste Umfrage dauert etwa fünf Minuten:
 
@@ -40,13 +39,13 @@ Eine Förderung über Bildungsgutschein wird geprüft; Zulassung und Förderung 
 
 ## Short newsletter or community announcement
 
-### Help shape a practical AI/software course for Germany
+### Help shape an intensive AI and software development bootcamp
 
-I’m exploring a live-online programme starting around April 2027 and would like input from people in Berlin and across Germany.
+I’m planning an intensive, multi-month bootcamp that could start in April 2027, either live online from Germany or in person in Berlin near S+U Schönhauser Allee.
 
-Which would help you most: using coding agents in software development, building AI applications, or strengthening your programming foundations?
+Which would help you most: using coding agents in software development or building AI applications?
 
-The survey also asks about prerequisites, timing and funding options. Public funding is being explored and is not yet approved.
+The survey also asks which format and schedule you could commit to, and how you might fund the course. Public funding is being explored and is not yet approved.
 
 [Take the five-minute survey]
 
@@ -74,11 +73,11 @@ Alexey
 
 Use a real observation from the responses if one exists. Do not fill this template with invented numbers or findings.
 
-I’m still collecting input on a possible live-online programme for people in Germany, tentatively starting in April 2027.
+I’m still collecting input on an intensive, multi-month bootcamp that could start in April 2027, live online from Germany or in person in Berlin near S+U Schönhauser Allee.
 
 [One genuine observation or open question from the research.]
 
-The survey compares three needs: AI-assisted software development, building AI applications and programming foundations. It also asks what schedule would actually work for you.
+The survey compares two tracks, software development with coding agents and building AI applications. It also asks which format and schedule would actually work for you.
 
 If this is relevant to you, I’d appreciate five minutes of your input:
 
@@ -114,7 +113,7 @@ After the relevant approvals, provide accurate course facts for discussions with
 
 - The survey link works on a phone.
 - The form contains the actual privacy notice and separate contact choices.
-- Beginner and career-change responses remain welcome.
+- Career changers can indicate their current coding experience.
 - Topic, date and timetable are described as tentative where unresolved.
 - Funding status matches the actual status.
 - There is no guaranteed employment, admission or public-funding claim.

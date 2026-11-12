@@ -14,8 +14,9 @@ Use legislation and official guidance for requirements, provider pages for adver
 | [SGB III §179](https://www.gesetze-im-internet.de/sgb_3/__179.html) | Course suitability, necessary costs and BA agreement above the specified B-DKS threshold | Law; cross-check 9 November; apply to the actual proposal |
 | [SGB III §181](https://www.gesetze-im-internet.de/sgb_3/__181.html) | Provider/measure approval procedure and certificate scope | Law; cross-check 9 November |
 | [AZAV §2](https://www.gesetze-im-internet.de/azav/__2.html) | Provider evidence, natural-person providers and quality arrangements | Law; cross-check 9 November; does not approve this particular solo setup |
-| [AZAV §3](https://www.gesetze-im-internet.de/azav/__3.html) | Course approval and standard twelve-person cost calculation | Law; cross-check 9 November; ask FKS about the eight-person first cohort |
-| [Beirat recommendations, 17 June 2026](https://www.arbeitsagentur.de/datei/dok_ba014848.pdf) | FB4 absence-cover arrangements on p.34; subcontracting constraints on p.33 | Official recommendations, rechecked 9 November; obtain FKS interpretation of the actual arrangement |
+| [AZAV §3](https://www.gesetze-im-internet.de/azav/__3.html) | Course approval, required authorizations and standard twelve-person cost calculation | Rechecked 12 November; ask FKS about the eight-person first cohort and any ZFU dependency |
+| [AZAV §5](https://www.gesetze-im-internet.de/azav/__5.html) | Site-based review and notification of changes to site and delivery | Rechecked 12 November; confirm what is needed for the rented Berlin room |
+| [Beirat recommendations, 17 June 2026](https://www.arbeitsagentur.de/datei/dok_ba014848.pdf) | Delivery forms and ZFU interaction on pp. 21–23, FB4 absence-cover arrangements on p. 34 and subcontracting on p. 33 | Official recommendations, rechecked 9 November; obtain FKS interpretation of the actual arrangement |
 | [BA Umsetzungshinweis 1/2026](https://www.arbeitsagentur.de/datei/umsetzungshinweis-01-2026_ba055638.pdf) | 45-minute synchronous UE, 60-minute asynchronous hours and synchronous cost denominator | Official implementation note; rechecked 9 November |
 | [B-DKS table effective 1 July 2026](https://www.arbeitsagentur.de/datei/tabelle-der-kosten-fuer-massnahmen-der-beruflichen-weiterbildung-2024_ba049411.pdf) | Example software-development/programming reference rates | Inspected document is dated July 2026 despite “2024” in URL; check current version/category before pricing |
 | [BA measure questionnaire](https://www.arbeitsagentur.de/datei/fragebogen-massnahme_ba025870.pdf) | Registration information, direct-payment terms and monthly arrears | June 2026 form; rechecked 9 November; not a payment commitment to this project |
@@ -38,7 +39,7 @@ Use legislation and official guidance for requirements, provider pages for adver
 
 ## 3. Tax timing and expenditure
 
-These primary sources were checked for the 9 November tax addition. See [the expense plan](2026-expense-plan.md) for the complete conditional analysis. EÜR versus Bilanz is unknown.
+These primary sources were checked for the 9 November tax addition. See [the expense plan](2026-expense-plan.md) for the complete conditional analysis. Bilanzierung was confirmed by the owner on 9 November 2026.
 
 | Source | What it supports |
 |---|---|

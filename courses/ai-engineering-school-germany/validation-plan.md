@@ -1,14 +1,14 @@
 # Demand validation and initial marketing plan
 
-**Planning snapshot: 9 November 2026.** No responses have been collected yet. Numbers below are proposed decision rules, not findings or market forecasts. See the [survey](materials/survey.en.md), [interview and pilot materials](materials/interviews-and-pilot.md) and [outreach drafts](materials/outreach.md).
+**Planning snapshot: 12 November 2026.** No responses have been collected yet. Numbers below are proposed decision rules, not findings or market forecasts. See the [survey](materials/survey.en.md), [interview and pilot materials](materials/interviews-and-pilot.md) and [outreach drafts](materials/outreach.md).
 
 ## The question to answer
 
-Which identifiable group in Germany has a concrete learning need, sufficient prerequisites, realistic time and a plausible way to finance a course that Alexey can deliver alongside his existing business?
+Which identifiable group in Germany has a concrete learning need, sufficient prerequisites, realistic time and a plausible way to finance a course that Alexey can deliver alongside his existing business? For each topic, compare live online from Germany with in-person attendance in Berlin-Prenzlauer Berg near S+U Schönhauser Allee.
 
-Test A: AI-assisted software engineering, B: AI application engineering and C: programming foundations. Avoid collapsing them into one broad “AI course.” A preference for a fashionable topic does not demonstrate readiness to attend or pay.
+Test two tracks: Agentic Engineering and AI Engineering. Avoid collapsing them into one broad “AI course.” A preference for a fashionable topic does not demonstrate readiness to attend or pay.
 
-Segment career changers by current skills. Someone moving from data science to application engineering may already meet A/B prerequisites; someone starting from zero belongs in C. People recently laid off may need a course before April, so the form explicitly includes January–March availability. Their needs can inform an earlier small commercial experiment without implying that an April funded cohort is already approved.
+Segment career changers by current skills. Someone moving from data science to application engineering may already meet the prerequisites. Record other learning needs from the open response.
 
 ## November sprint
 
@@ -16,16 +16,16 @@ Use the existing audience, platform and meeting tools. Suggested research spendi
 
 | Dates, 2026 | Action | Tangible result | Founder time estimate |
 |---|---|---|---:|
-| 9–13 November | Assemble the form and three balanced programme cards; test the form; publish one main invitation; conduct four interviews | Working form, first segmented responses and interview notes | 4.5 h |
-| 16–20 November | Six further interviews; one reminder through existing channels; choose one pilot topic; prepare a small exercise | Leading hypothesis, observed skill gaps and usable pilot | 4.5 h |
-| 24–27 November | Run one 90-minute pilot; two final interviews; review work and make a decision | Evidence summary and a one-page decision memo | 5 h |
+| 12–16 November | Assemble and phone-test the form, publish one main invitation and start recruiting interviewees | Working form and first segmented responses | 4.5 h |
+| 17–23 November | Start interviews, send one reminder about a week after publication, select a pilot topic and format, prepare the exercise | Leading hypothesis, observed constraints and usable pilot | 4.5 h |
+| 24–27 November | Run one 90-minute pilot, finish interviews and decide which topic and format to develop | Evidence summary and a one-page decision memo | 5 h |
 
 Aim for **ten prospective-learner interviews and two employer/technical-leader interviews** within the twelve total. A possible pilot slot is **24 November, 14:00–15:30 Europe/Berlin**, subject to availability; it is not booked. Keep it an interactive research workshop with a narrow exercise, not an unreviewed full distance-course offer. The legal classification of any later pilot product depends on its actual format, not merely whether it is free; see [operations](operations-and-azav.md).
 
 ## Channels and sequence
 
-1. **LinkedIn:** one post describing the three learning needs and linking to the survey. Ask for relevant introductions, not public disclosures of redundancy or benefit status.
-2. **Berlin Meetup audience:** reuse an existing suitable communication or event slot, subject to the group's normal permissions. Do not rent a venue to research an online cohort.
+1. **LinkedIn:** one post describing the two tracks and linking to the survey. Ask for relevant introductions, not public disclosures of redundancy or benefit status.
+2. **Berlin Meetup audience:** reuse an existing suitable communication or event slot, subject to the group's normal permissions. Ask people in Berlin and nearby Brandenburg to assess the real trip to S+U Schönhauser Allee. Use a cancellable room or an existing slot if a local pilot would resolve a material uncertainty.
 3. **Existing newsletter and community channels:** include the same invitation with a consistent survey link, rather than launch separate funnels and duplicate follow-ups.
 4. **AI Shipping Labs / DataTalks.Club events:** mention the research briefly in a relevant existing event. Keep the optional research invitation separate from any promise about a funded course.
 5. **One reminder:** describe what remains uncertain and the closing date. Send individual follow-ups only to people who opted in or otherwise have an appropriate existing communication basis.
@@ -36,7 +36,7 @@ Suggested measurement: use a simple source field or non-identifying campaign par
 
 | Signal | Working threshold for one concept | Interpretation |
 |---|---:|---|
-| Correct geography, prerequisites, goal, realistic start and schedule | 15 matching prospects | Enough reason to investigate one programme more deeply |
+| Correct geography, prerequisites, goal, April start and repeatable schedule in that format | 15 matching prospects per viable topic and format | Enough reason to investigate one programme more deeply |
 | Completed a concrete next action | 8 people | Stronger than clicking “interested”; count an actual interview, task or pilot action |
 | Attended a practical pilot | 6 people | Some evidence that the tested time and format are workable |
 | Completed and explained the exercise | At least 4 | Initial evidence that the prerequisite and delivery design are plausible |
@@ -46,36 +46,30 @@ These thresholds are management choices for a small first cohort. They are not a
 
 ## How to evaluate the responses
 
-Create one anonymous row per respondent in the analysis, with: channel, Germany/Berlin/other, current skill band, current role, goal, first-choice concept, acceptable alternative, start window, schedule fit, teaching language, potential funding route, funding stage, completed next action and pilot observations. Do not store identifying responses in this public repository.
+Create one anonymous row per respondent in the analysis, with: channel, Berlin/commutable Brandenburg/other Germany/outside/unsure, first format preference and acceptable alternative, estimated one-way commute, pace preference and full-time availability by format, current skill band, current role, goal, first-choice concept, acceptable alternative, start window, schedule fit, teaching language, potential funding route, funding stage, completed next action and pilot observations. Do not store identifying responses in this public repository.
 
-Report at least these four views:
+Report these four views:
 
 - Topic preferences **within each skill band**. Do not rank programmes from overall likes alone.
-- April and morning availability within each preferred concept.
+- For each topic, count people who can start in April and can attend the five-day full-time schedule in each format. Show online-only, in-person-only and open-to-both counts, plus the preferred format among those open to both. Count each respondent once in the combined total. Break down results by recruitment source, commute and schedule barriers. Report part-time interest and available hours as well.
 - Funding interest versus concrete funding progress; a current voucher still needs a matching objective, validity and approved course.
 - Actual effort: interviews attended, tasks attempted and pilot work explained.
 
 Keep “career changer” and “beginner” as separate dimensions. Record why someone cannot attend: timing, language, prerequisites, workload or finance. Those reasons determine whether to change the product or simply retain the contact for a later offering.
 
-## If foundations wins
-
-Treat strong C demand as a real result. Do not recruit beginners into A/B merely to fill eight seats. Run a separate small introductory test before designing a full programme: how many people can install the environment, explain a simple function, use Git and correct a failing test with guided help?
-
-Measure support minutes per learner and recurring obstacles. If the required support cannot fit a solo model, options include a narrower outcome, smaller group, longer period or a later programme with properly budgeted support. A twelve-week introduction must not be marketed as a guaranteed career transition into professional software engineering.
-
 ## Decision on 27 November
 
 Use a one-page memo containing:
 
-1. Chosen concept and precise learner group; or a decision to keep researching.
+1. Chosen concept, precise learner group and April format. If evidence is thin, record which question still needs testing and when to decide.
 2. Aggregate counts at each stage, with missing or ambiguous evidence shown.
 3. Repeated learner pain points and employer feedback, paraphrased without identification.
 4. Pilot outcomes and actual support time.
-5. Proposed prerequisites, language, hours and schedule.
+5. Proposed prerequisites, English-language fit, hours and schedule.
 6. Founder capacity and rough economics.
 7. The next expense that resolves a specific uncertainty, its ceiling and its expected deliverable.
 
-Possible outcomes: proceed to FKS/legal scoping for one funded programme; run a smaller commercial experiment first; investigate the foundations audience further; or pause. A pause with clear evidence is a useful outcome and preserves money for better opportunities.
+Use the FKS and legal scoping already underway to decide whether to submit one funded programme. If timing or economics are weak, consider a legally reviewed smaller commercial experiment or a revised start. A pause with clear evidence is a useful outcome and preserves money for better opportunities.
 
 ## December to March marketing
 

@@ -1,6 +1,6 @@
 # Operations and the AZAV route
 
-**Planning snapshot: 9 November 2026.** The current model is an existing Berlin Einzelunternehmen, a first cohort taught by Alexey, and live online delivery. No employee is to be hired for this iteration. The provisional course has 192 synchronous Unterrichtseinheiten (UE), with additional independent project work. These are design hypotheses, not an approved measure.
+**Planning snapshot: 12 November 2026.** The current model is an existing Berlin Einzelunternehmen, a first cohort taught by Alexey, and two delivery options under review: live online from Germany and in person near S+U Schönhauser Allee in Berlin-Prenzlauer Berg. No employee is to be hired for this iteration. The April course is planned as full-time and taught in English. The current schedule models 480 synchronous Unterrichtseinheiten (UE), including supervised project work. These are design hypotheses, not an approved measure.
 
 This file records the operational work still needed. It does not claim that certification, individual funding, a course price, a classroom, or a launch date has been approved. See [curriculum options](curriculum-options.md), [economics](economics.md), [schedule and capacity](schedule-and-capacity.md), and the [German FKS inquiry](materials/fks-inquiry.de.md).
 
@@ -23,6 +23,12 @@ Use the existing company, content, teaching platform and community for demand re
 A GmbH, a permanent classroom and a full-time coordinator are not assumed launch purchases. AZAV expressly accommodates natural persons as providers; the application still needs an appropriate organization, financial reliability and evidence for the actual delivery model. Confirm the existing business registration and tax classification with the adviser. For a home administrative office, ask the FKS to confirm the address, access and audit arrangement before assuming it is acceptable. [AZAV §2](https://www.gesetze-im-internet.de/azav/__2.html).
 
 For an entirely online first cohort, the budget does not include classroom rent. Document instead the actual learning environment: video platform, LMS, equipment requirements, participant access, technical support, fallback connectivity and access control. Decide how participants without suitable hardware will be supported before advertising a complete package; do not reveal unexpected mandatory equipment or software purchases after enrolment. Suitability of the spatial, staffing and technical arrangements is part of course approval. [SGB III §179](https://www.gesetze-im-internet.de/sgb_3/__179.html).
+
+### Delivery format and the Berlin site
+
+Start Trägerzulassung preparation and FKS scoping while the survey is running. Ask the FKS which common documents can be prepared once, what requires a separate or amended Maßnahmezulassung, and how an additional location or delivery format changes the price and lead time. The Beirat distinguishes digital, in-person and combined measures, and the approved delivery form is documented on the measure certificate. Location changes are relevant to approval under §5 AZAV. [Beirat recommendations, pp. 21–23](https://www.arbeitsagentur.de/datei/dok_ba014848.pdf) · [AZAV §5](https://www.gesetze-im-internet.de/azav/__5.html).
+
+For the room near S+U Schönhauser Allee, request the address, capacity, floor plan, availability and evidence of the right to use it for teaching. Ask when the FKS needs each item and whether it can review the room before a binding lease. See the [room checklist](schedule-and-capacity.md#berlin-room-checklist).
 
 ## 3. A small working quality system
 
@@ -68,17 +74,17 @@ No permanent hire is proposed now. If the FKS requires a qualified external subs
 
 ## 5. Teaching hours, projects and shared community events
 
-The working model is 48 mornings × 4 UE = **192 synchronous UE**, equivalent to **144 clock hours**. Independent work is currently estimated at about eight clock hours per teaching week and shown separately.
+The [working model](schedule-and-capacity.md#proposed-teaching-day) is 60 days × 8 UE = **480 synchronous UE**, equivalent to **360 clock hours**. It includes actively supervised projects. Describe any separately planned asynchronous components and submit the actual breakdown to the FKS.
 
 The BA implementation note fixes a teaching UE at 45 minutes and asynchronous components at 60-minute hours. Relevant asynchronous costs may enter the overall calculation, but the denominator for the cost per teaching UE is the number of **synchronous** UE. An exercise completed alone cannot simply be relabelled a funded live lesson. [BA Umsetzungshinweis 1/2026](https://www.arbeitsagentur.de/datei/umsetzungshinweis-01-2026_ba055638.pdf).
 
-For the first iteration, shared AI Shipping Labs events are proposed as optional extracurricular activities outside the 192 mandatory UE. Reusing preparation and examples is useful. If shared events later become mandatory teaching, agree their educational purpose, access, instructor supervision, attendance and cost treatment with the FKS. The founder cannot simultaneously host a podcast and teach the same scheduled live course hours.
+For the first iteration, shared AI Shipping Labs events are proposed as optional extracurricular activities outside the mandatory teaching hours. Reusing preparation and examples is useful. If shared events later become mandatory teaching, agree their educational purpose, access, instructor supervision, attendance and cost treatment with the FKS. The founder cannot simultaneously host a podcast and teach the same scheduled live course hours.
 
 ## 6. ZFU/FernUSG review is a separate task
 
 Assess the exact mix of live interaction, recordings, independent work, assignments, feedback and contractual rights. ZFU distinguishes interactive synchronous teaching from asynchronous study; recordings that make attendance unnecessary can affect the assessment. The proposed independent project hours mean that the complete design must be reviewed, rather than relying on the word “live”. Some free vocational distance courses can also be covered. The ZFU FAQ states that the reform proposal has not yet changed the applicable law. [ZFU FAQ](https://zfu.de/veranstaltende/faq).
 
-Before contracts or a regulated course offer, obtain a written classification and, if needed, pursue ZFU approval. Coordinate this with the FKS; AZAV approval does not itself resolve the FernUSG question. Recheck the law before launch. The output should be a decision on the actual programme, its permitted marketing/contract sequence, additional cost and lead time—not a generic statement about all online courses.
+Before contracts or a regulated course offer, obtain a written classification and, if needed, pursue ZFU approval. Coordinate this with the FKS. If ZFU approval is required, the authorization must be presented to the FKS for measure approval. Ask for the resulting lead time immediately. [AZAV §3(7)](https://www.gesetze-im-internet.de/azav/__3.html) · [Beirat recommendations, p. 22](https://www.arbeitsagentur.de/datei/dok_ba014848.pdf). Recheck the law before launch. The output should be a decision on the actual programme, its permitted marketing/contract sequence, additional cost and lead time—not a generic statement about all online courses.
 
 ## 7. Cost approval and group size
 
@@ -86,7 +92,7 @@ There is no single maximum euro price for every Bildungsgutschein course. The FK
 
 The standard group-cost calculation under AZAV starts from **12 participants**. The business planning hypothesis of eight actual students does not silently override that basis. Ask the FKS how the concept and calculation should document the smaller first group and any permitted departure. Eight is a management threshold in this plan, not a statutory minimum. [AZAV §3](https://www.gesetze-im-internet.de/azav/__3.html).
 
-Get a complete written FKS quote: provider approval, one course, audit, surveillance, corrections, changes, travel, VAT, payment milestones and possible additional cost-approval work. Keep the 192-UE economics separate from the [historical staffed 560-UE scenario](archive/staffed-scenario.md). The tax treatment of any genuine 2026 prepayments is addressed in the [expense plan](2026-expense-plan.md).
+Get a complete written FKS quote: provider approval, one course, audit, surveillance, corrections, changes, travel, VAT, payment milestones and possible additional cost-approval work. Keep the current full-time economics separate from the [historical staffed 560-UE scenario](archive/staffed-scenario.md). The tax treatment of any genuine 2026 prepayments is addressed in the [expense plan](2026-expense-plan.md).
 
 ## 8. From approval to a funded participant
 
@@ -107,7 +113,7 @@ For direct payment, the BA form specifies monthly instalments paid **in arrears*
 
 Hiring a TA does not by itself require a GmbH. Before graduates teach, assess technical ability and teaching skill, define a paid role, provide supervision and check employment/tax treatment. Update the approved staffing and quality documents as required. Graduation alone is not evidence of lead-instructor competence.
 
-If a GmbH, in-person location or different programme is introduced later, check the effect on approvals, contracts and payment arrangements before implementation. Do not assume an approval follows the founder automatically to a new legal entity. Applications and approvals are provider-, measure- and potentially location-specific. [SGB III §181](https://www.gesetze-im-internet.de/sgb_3/__181.html).
+If a GmbH, a second delivery format, another location or a different programme is introduced later, check the effect on approvals, contracts and payment arrangements before implementation. Do not assume an approval follows the founder automatically to a new legal entity. Applications and approvals are provider-, measure- and potentially location-specific. [SGB III §181](https://www.gesetze-im-internet.de/sgb_3/__181.html).
 
 A partnership with an existing provider deserves separate research if the own-provider route is too slow. It is not simply a certificate rental: the Beirat rule limits ordinary subcontracting to an unapproved provider in Fachbereich 4 to a minor portion, generally at most 10%, while the approved provider remains responsible. The contractual and staffing model must be assessed with the partner's FKS. [Beirat recommendations, p. 33](https://www.arbeitsagentur.de/datei/dok_ba014848.pdf).
 
@@ -118,6 +124,7 @@ Before confirming April, obtain evidence that the following are true:
 - The actual programme and provider have the necessary approvals, and the ZFU question has a documented answer.
 - The price, VAT treatment, course hours and participant conditions are consistent across the contract, certificate, marketing and cash forecast.
 - The illness arrangement is accepted and can actually be used.
+- For Berlin, the approved site and actual rental, access, equipment and backup arrangements cover the teaching calendar.
 - The founder has freed the required teaching, preparation, assessment and administration hours.
 - Enough suitable participants have real paid or funded places under the approved model.
 - The registration and participant paperwork can be completed in time, and liquidity covers delayed receipts.
