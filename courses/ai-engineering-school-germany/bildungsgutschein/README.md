@@ -1,69 +1,93 @@
-# Bildungsgutschein programme: course descriptions, syllabi and a price above €10,000
+# Bildungsgutschein programme: research, course descriptions and syllabi
 
-**Draft · 12 November 2026.** Nothing here has been submitted to a certifier (fachkundige Stelle, FKS), published as an offer or sent to anyone. Figures marked *(estimate)* are my own arithmetic. Figures with a link come from that source. Anything not confirmed is marked **unknown**.
+**12 November 2026.** Nothing here has been submitted to a certifier (fachkundige Stelle, FKS), published as an offer or sent to anyone. *(computed)* marks my own arithmetic. **Unknown** marks what no source settled.
 
 | File | Content |
 |---|---|
+| [research.md](research.md) | Sources and findings: Alexey's own material, comparable programmes in Germany and abroad, what practitioners write, how to plan a curriculum, price and duration |
 | [variante-a-agentic-engineering.md](variante-a-agentic-engineering.md) | Course description and syllabus, track **A. Agentic engineering** |
 | [variante-b-ai-engineering.md](variante-b-ai-engineering.md) | Course description and syllabus, track **B. AI engineering** |
-| [appendix.md](appendix.md) | Comparable approved courses above €10k (sources), AZAV checklist, open decisions |
+| [research-notes/](research-notes/) | Detailed source catalogues behind research.md, one entry per source with URL and fetch status |
+
+## What replaced what
+
+This set replaces the first draft from commit `e1cbab0`.
+
+- `variante-a-agentic-engineering.md` and `variante-b-ai-engineering.md` were rewritten in place. The first draft of variant A left out the AI Dev Tools Zoomcamp and the Substack articles; the new one is built on them.
+- `appendix.md` was deleted. Its comparables table moved into [research.md](research.md#72-courses-priced-at-12000-or-more) with more programmes, and its checklist and open decisions are below.
+- This README replaces the earlier pricing README. The pricing analysis was kept and extended in [research.md](research.md#7-price-and-duration), with two corrections: the highest rate an FKS can approve alone is €19.32, not €19.33, and the note about holiday rules for courses over six months could not be verified.
+- The 12-week drafts in [../curriculum-options.md](../curriculum-options.md) are older and are kept only as history.
 
 ## Where A and B come from
 
-Variants A and B are the two tracks in question 1 of the survey, [materials/survey.en.md](../materials/survey.en.md), "What do you most want to learn?". The learning bullets and final projects in the variant files are copied from there. Programme facts used in both variants also come from the survey:
+The two tracks are question 1 of the survey, [../materials/survey.en.md](../materials/survey.en.md). The learning goals and final projects in the variant files are the survey's wording. Programme facts also come from the survey: live teaching, first cohort April 2027, online from Germany or in Berlin, English, some programming experience assumed.
 
-- an intensive, multi-month bootcamp with live instruction and hands-on projects
-- first cohort April 2027, live online from Germany or in person in Berlin (Prenzlauer Berg, near S+U Schönhauser Allee)
-- teaching in English
-- both tracks assume some programming experience
-- self-pay tuition €9,000–€10,000
+| | A. Agentic engineering | B. AI engineering |
+|---|---|---|
+| Alexey's definition | "agents help you build the product" | "AI is part of the product" |
+| Based on | AI Dev Tools Zoomcamp and his Substack articles | LLM Zoomcamp and the Maven course AI Engineering Buildcamp |
+| Audience | Developers who write code and have tried AI only a little | Developers and technical professionals who program, preferably in Python |
+| Starts with | Overview of the tools and setup, as in the first AI Dev Tools cohort | A Python service on an LLM API |
+| Base tool | Claude Code | Python, one agent framework |
+| Final project | A web application shipped to real users, improved from their feedback | A deployed assistant with measured strengths and failures |
 
-The survey's pace question gives full-time as 12 teaching weeks, Monday to Friday 09:00–16:00, and part-time as 24 weeks, 09:00–12:30. The [teaching day](../schedule-and-capacity.md#proposed-teaching-day) turns that into 8 UE per day, 40 UE per week and 480 UE.
+All teaching is by Alexey. No subcontractors.
 
-Content rule: every syllabus row uses survey topics plus Alexey's own material. That means LLM Zoomcamp, AI Engineering Buildcamp (Maven), Product Shipping with AI (Maven / [../../product-shipping](../../product-shipping)) and the earlier [curriculum options](../curriculum-options.md). Where a survey topic has no existing material, the row says **"material to write"**. All teaching is by Alexey, as the [README](../README.md) plans for the first iteration. No subcontractors.
+## Price and duration in short
 
-## Price above €10,000: options
+Full analysis with sources: [research.md](research.md#7-price-and-duration).
 
-Rules, as already summarised in [economics.md](../economics.md#b-dks-references-not-an-automatic-maximum):
+- The Agentur für Arbeit has no absolute cap. The reference rate for this course is **€15.46 per UE** (occupation line 43414, software development, expert level, table valid from 1 July 2026).
+- An FKS can approve up to 25% more on its own, so up to **€19.32**, but only for named and evidenced special costs. Above that the BA has to consent.
+- The premium programmes found (€12,000–14,658) reach their price through length: 22–30 weeks at €13.50–14.40 per UE. No premium surcharge and no rate above €19 was found. No course of 16 weeks or less at €12,000 or more could be verified.
+- **Minimum duration without BA consent: 16 weeks (640 UE) for €12,000, 17 weeks (680 UE) for €13,000,** both at the full 25% surcharge.
 
-- BDKS 2026 (valid from 1 July 2026): **43414 Softwareentwicklung – Experte €15.46/UE**. Other IT lines in the [BA table](https://www.arbeitsagentur.de/datei/tabelle-der-kosten-fuer-massnahmen-der-beruflichen-weiterbildung-2024_ba049411.pdf) are similar: 43104 Informatik Experte €15.35, 43114 Wirtschaftsinformatik Experte €15.60, 43224 IT-Anwendungsberatung Experte €15.32. The highest IT line is 43154 Medieninformatik Experte at €15.98.
-- Costs above BDKS need justification. More than 25% above also needs BA agreement ([§179 SGB III](https://www.gesetze-im-internet.de/sgb_3/__179.html), [§3 AZAV](https://www.gesetze-im-internet.de/azav/__3.html)).
-- Calculation basis: 12 participants. The level has to follow the learning goal, not the higher rate (economics.md).
+Both syllabi are therefore a **16-week core of 640 UE** with four defined extension weeks:
 
-At 480 UE, €10,000 needs **€20.84/UE**, which is **34.8% above 43414**. A different occupation line cannot close that gap: the best IT line gives €7,670.40.
+| Version | UE | Weeks | Rate | Price per participant *(computed)* | Risk |
+|---|---:|---:|---|---:|---|
+| Core at the ceiling | 640 | 16 | €19.32 | €12,364.80 | Best case; no verified precedent |
+| Core + 1 week | 680 | 17 | €19.32 | €13,137.60 | Same |
+| Core + 2 weeks | 720 | 18 | €17.00 | €12,240.00 | Moderate |
+| Core + 4 weeks | 800 | 20 | €15.46 | €12,368.00 | Lowest; how comparables price |
+| Core, no surcharge | 640 | 16 | €15.46 | €9,894.40 | Fallback |
 
-| # | UE | Weeks full-time / part-time | Line and rate | Price per participant | What it takes |
-|---|---:|---|---|---:|---|
-| 0 | 480 | 12 / 24 | 43414, €15.46 | €7,420.80 | Survey plan *(estimate)* |
-| 1 | 480 | 12 / 24 | 43154, €15.98 | €7,670.40 | Wrong occupation for this content; does not reach €10k *(estimate)* |
-| 2 | 480 | 12 / 24 | 43414 +25%, €19.33 | €9,276.00 | Justified special costs; still below €10k *(estimate)* |
-| 3 | 480 | 12 / 24 | 43414 +34.8%, €20.84 | €10,003.20 | FKS **plus BA agreement**; high risk *(estimate)* |
-| 4 | 560 | 14 / 28 | 43414 +25%, €19.33 | €10,822.00 | Justify the full 25% with costs *(estimate)* |
-| **5** | **640** | **16 / 32** | **43414 +6.7%, €16.50** | **€10,560.00** | **Recommended.** Small, cost-based surcharge within the FKS's own authority *(estimate)* |
-| 6 | 640 | 16 / 32 | 43414, €15.46 | €9,894.40 | Fallback if the surcharge is refused; just under €10k *(estimate)* |
-| 7 | 680 | 17 / 34 | 43414, €15.46 | €10,512.80 | No surcharge, one more week *(estimate)* |
-| 8 | 720 | 18 / 36 | 43414, €15.46 | €11,131.20 | No surcharge, six more weeks of solo teaching *(estimate)* |
+My recommendation: take the 16-week concept and a real costing to an FKS, and let the surcharge it accepts decide the version. On the evidence, 18–20 weeks is the likely outcome for €12,000. The surcharge has to rest on costs the rules recognise: a justified group below 12, per-participant agent, LLM and cloud usage, and an expert-level teacher. Those amounts are **unknown** until there are quotes.
 
-### Recommendation: option 5
+Costs of a longer version: about 38–41 founder hours per teaching week ([../economics.md](../economics.md#solo-cohort-illustration)), so 20 weeks is roughly 760–820 hours *(computed)*. A 12 April start ends on 30 July at 16 weeks and on 27 August at 20 weeks if no week is lost to holidays or breaks *(computed)*.
 
-**640 UE, 16 teaching weeks full-time (40 UE/week, 09:00–16:00) or 32 weeks part-time (20 UE/week, 09:00–12:30). KldB 43414 at €16.50/UE (+6.7%). €10,560 per participant, about €126,720 per cohort at the 12-participant basis *(estimate)*.**
+## How the syllabi stay current
 
-Why:
+Both variant files separate a stable core from fast-moving tools. Outcomes are worded without tool names. Tools and versions sit in a dated annex that is reviewed before every cohort, and two late modules hold 4 UE each for what changed. Rules, triggers and change classes: [research.md](research.md#8-staying-current-what-is-stable-and-what-moves).
 
-- **Real approved courses get above €10k through volume, not rate.** The comparables in the [appendix](appendix.md) run 720–1,050 UE at €13.86–€14.65/UE, all below €15.46.
-- **The 4 extra weeks are needed for the survey's final projects, not added for price.** Track A's final project has to show people trying the app, improvements from their feedback, and how changes were tested and released. Track B's has to show where the assistant works, where it fails and how that was measured. The 12-week drafts in [curriculum-options.md](../curriculum-options.md) leave no time for a midterm feedback cycle or a measured second iteration. The 16-week syllabi add both. [economics.md](../economics.md) says: "More live hours should be justified by learning needs, never added solely to reach a desired funded price." The variant files give the reason week by week.
-- **The +6.7% is a cost argument the FKS can approve alone.** Per participant, the provider has to cover LLM API, coding-agent and cloud usage. Product Shipping tells self-payers to budget US$20–500/month for this (see [maven.com/alexey-grigorev/product-shipping](https://maven.com/alexey-grigorev/product-shipping), FAQ). For Bildungsgutschein participants it belongs in the costing. For in-person cohorts, room rent adds to it. The amount per participant is **unknown** until quotes exist. If it does not hold up, option 7 (680 UE, 17 weeks, no surcharge) reaches €10,512.80.
+## AZAV checklist
 
-### Costs of this choice
+Full analysis: [../operations-and-azav.md](../operations-and-azav.md).
 
-- Founder time: [economics.md](../economics.md#solo-cohort-illustration) estimates 38–41 h per teaching week. 16 weeks gives about 608–656 h instead of 456–492 h *(estimate)*.
-- A 12 April start ends around late July instead of 6 July (holidays not counted) *(estimate)*.
-- Part-time at 32 weeks is longer than six months, so holiday rules apply. Ask the FKS.
-- The survey quotes self-pay €9,000–€10,000. Ask the FKS whether a higher approved voucher fee next to a lower self-pay price is a problem. **Unknown**: I found no rule on it.
+| Requirement | Status |
+|---|---|
+| Provider approval including a quality-management system | Missing |
+| Course approval | Missing; the variant files are the starting point for the concept |
+| Course concept: goal, target group, content | Drafted for A and B in English; a formal German concept is needed |
+| Entry requirements and how they are tested | Proposed: practical exercise and documented conversation; the exercise still has to be written |
+| UE per module and a reason for the duration | Drafted; each extension week has its own reason |
+| Measurable outcomes per module | Drafted |
+| Teaching concept: live delivery, interaction in project blocks, attendance | Weekly structure drafted; full concept missing |
+| Learning checks and documentation | Assessment forms drafted; rubrics missing |
+| Certificate | Missing |
+| Teacher qualification and absence cover | Alexey only; illness cover needed |
+| Absence policy and learner support | Missing |
+| Labour-market need | Bitkom data in [research.md](research.md#3-comparable-programmes-in-germany); BA data in [../research.md](../research.md) |
+| Cost calculation | Options above; full costing missing |
+| Rooms, equipment, platform, data protection | Berlin room terms pending |
+| Distance-learning classification of the online format | Open, see operations-and-azav.md |
 
-### What the FKS would need
+## Open decisions
 
-1. Curriculum with UE per module adding up to 640 (variant files), plus a written reason for the duration (above).
-2. The occupation line, 43414, justified from the learning goal and the audience (programmers working at expert level).
-3. A full costing at the 12-participant basis, with the per-participant LLM/agent/cloud costs and any room costs that justify €16.50/UE.
-4. The rest of the evidence listed in [operations-and-azav.md](../operations-and-azav.md) and the [appendix checklist](appendix.md#azav-checklist-short).
+1. Which track goes first (survey, interviews and pilot, per the [project README](../README.md)).
+2. Which version to submit: 16, 17, 18 or 20 weeks. This follows from the FKS answers listed in [research.md](research.md#74-what-this-means-for-the-plan).
+3. The certified group size (8 to 12) and the costing that supports a surcharge.
+4. Founder capacity for 16 to 20 teaching weeks, and illness cover.
+5. Whether replacing a tool under an unchanged outcome has to be reported to the FKS. No source settles it.
+6. The survey quotes self-pay tuition of €9,000–10,000. Whether a higher approved fee next to a lower self-pay price is a problem is **unknown**; ask the FKS.
+7. Material to write: listed at the end of each variant file.

@@ -2,6 +2,8 @@
 
 Updated: 2026-11-09.
 
+> **Superseded on 12 November 2026** by the syllabi in [bildungsgutschein/](bildungsgutschein/README.md). The 12-week tables below are kept as history.
+
 These are proposed learning outcomes and structures for audience research. No course, price, timetable or accreditation is represented as approved. The first iteration would be taught by Alexey personally. Both tracks assume some programming experience. Assess career changers by their current skills.
 
 ## Two tracks
