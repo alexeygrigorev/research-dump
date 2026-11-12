@@ -41,6 +41,7 @@ None of the tentative duration, price, group size or dates is an approved course
 | [Schedule and capacity](schedule-and-capacity.md) | April launch plan, venue checklist, founder workload and teaching calendar |
 | [Economics](economics.md) | Current solo model, B-DKS calculations, pricing and cash requirements |
 | [2026 expense plan](2026-expense-plan.md) | EÜR/Bilanz, genuine prepayments, assets, year-end sequence and accountant questions |
+| [Bildungsgutschein drafts](bildungsgutschein/README.md) | Course descriptions and 640-UE syllabi for tracks A and B, options for a voucher price above €10,000, approved comparables |
 | [Decision log](decision-log.md) | User decisions, working assumptions, changes and unresolved questions |
 | [Sources](sources.md) | Primary sources, market observations and their limitations |
 | [Historical staffed scenario](archive/staffed-scenario.md) | Superseded first-iteration proposal: 560 UE and provisional €8,900 fee |
