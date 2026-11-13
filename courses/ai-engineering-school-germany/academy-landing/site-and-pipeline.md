@@ -1,6 +1,6 @@
 # The site and the signup pipeline
 
-**13 November 2026.** How academy.datatalks.club is built, where signups go, and how it connects to the existing survey form. Request: t3290u.
+**13 November 2026, updated after the [Carbon](reviews/carbon-review.md) and [Astra](reviews/astra-review.md) reviews.** How academy.datatalks.club is built, where signups go, and how it connects to the existing survey form. Request: t3290u.
 
 ## What exists
 
@@ -67,8 +67,18 @@ To delete one person's data, see the README in `main/academy`.
 
 ## Open points
 
+Points 6 to 13 come from the two independent reviews. They are listed, not fixed: each needs either Alexey's decision or an infrastructure change that should not be rushed in on launch day.
+
 1. **Double opt-in before the first mailing.** The site stores a signup when the form is submitted, with the consent text version and the time. German practice expects a confirmation email (double opt-in) as proof of consent before marketing mail ([research, legal notes](landing-page-research.md#4-legal-notes-for-germany)). Relay supports this. Before the first email to the shortlist: import the signups into a Relay audience with the track as a tag and send Relay's confirmation email, then mail only confirmed addresses. This needs a Relay client and key for the academy, which an operator has to create.
 2. **The survey form's email question** is still optional (see above).
 3. **The Hub repository registry** does not list DataTalksClub/academy yet. The worker credential of this session is not allowed to edit the registry.
 4. **Photo and proof.** The instructor photo is the one from datatalks.club. A photo of the actual room, once it is confirmed, would be a stronger image for the page and the ads.
 5. **German version.** The pages are in English because the teaching is in English. A German page for advisers and for search ads on German keywords is a possible second step.
+6. **Confirmation email right after signup.** Both reviewers advise sending the confirmation (double opt-in) immediately, not as a batch weeks later: people still remember signing up, stuffed third-party addresses never get counted, and the consent proof is made at the time. This should be in place before paid traffic starts. It needs the Relay client and key from point 1.
+7. **Abuse protection for the public API.** The endpoint has no per-client rate limit, accepts requests without an `Origin` header, and runs with a concurrency cap of 5, so a burst can block real visitors and anyone can add fake signups or page views. In a test where 20 to 30 signups decide, that matters. Proposed: reject writes without an allowed origin, put a rate limit in front (CloudFront with a WAF rate rule), raise the concurrency cap, and count only confirmed addresses.
+8. **Page view counter and attribution.** The counter does not store `utm_medium`. The campaign plan works around this by putting the ad arm into `utm_content` on every paid link. Cleaner: add the medium to the counter key. The "first touch" fields are stored per field, so a signup that first came without tags and later with tags gets the later tags as first touch. Store first and last touch as whole snapshots, and export `last_utm_*`, `lang` and `consent_version`.
+9. **Export.** Add a first-choice view (agentic only, AI only, both) to `export_signups.py`, and escape cells that start with `=`, `+`, `-` or `@` so a crafted email address cannot become a spreadsheet formula.
+10. **Retention.** The privacy notice promises deletion after 24 months at most. Nothing deletes automatically yet. Add a DynamoDB TTL (`expires_at`) or put a dated task in the calendar.
+11. **Email length.** The API cuts strings to 200 characters before it validates the email, so a valid address longer than 200 characters would be stored cut off. Validate first, never cut an address.
+12. **Impressum and controller name.** Both legal pages name "DataTalks.Club, represented by Alexey Grigorev". For a sole proprietorship the provider should be the person ("Alexey Grigorev, DataTalks.Club"), without "represented by"; for a company, legal form and register number are missing. Reviewers also note that German case law expects a second fast contact channel besides email (a phone number or a contact form). Alexey has to say which legal identity is correct; I did not change it.
+13. **The survey form itself** (only Alexey can edit it): it says "12 teaching weeks" while the site says 12 to 16; track A has 7 bullets and track B has 8; it names a Gmail address for deletion requests while the site names alexey@datatalks.club; its text says "leave your email only if you agreed to a follow-up", which conflicts with both the prefilled email and making the email required. When making the email required, reword that note: the email links the survey answer to the shortlist signup, and the follow-up questions control contact.
