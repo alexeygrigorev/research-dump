@@ -1,0 +1,363 @@
+{
+ "by_city_month": {
+  "berlin/202507": {
+   "cc": 5,
+   "listing": 0,
+   "union": 5,
+   "wayback": 5
+  },
+  "berlin/202508": {
+   "cc": 1,
+   "listing": 0,
+   "union": 2,
+   "wayback": 2
+  },
+  "berlin/202509": {
+   "cc": 11,
+   "listing": 1,
+   "union": 13,
+   "wayback": 12
+  },
+  "berlin/202510": {
+   "cc": 10,
+   "listing": 2,
+   "union": 12,
+   "wayback": 10
+  },
+  "berlin/202511": {
+   "cc": 9,
+   "listing": 0,
+   "union": 9,
+   "wayback": 9
+  },
+  "berlin/202512": {
+   "cc": 4,
+   "listing": 0,
+   "union": 4,
+   "wayback": 4
+  },
+  "berlin/202601": {
+   "cc": 2,
+   "listing": 0,
+   "union": 2,
+   "wayback": 2
+  },
+  "berlin/202602": {
+   "cc": 4,
+   "listing": 0,
+   "union": 4,
+   "wayback": 4
+  },
+  "berlin/202603": {
+   "cc": 6,
+   "listing": 0,
+   "union": 6,
+   "wayback": 6
+  },
+  "berlin/202604": {
+   "cc": 5,
+   "listing": 0,
+   "union": 5,
+   "wayback": 5
+  },
+  "berlin/202605": {
+   "cc": 3,
+   "listing": 0,
+   "union": 3,
+   "wayback": 3
+  },
+  "berlin/202606": {
+   "cc": 1,
+   "listing": 0,
+   "union": 1,
+   "wayback": 1
+  },
+  "berlin/202607": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "berlin/202608": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "berlin/202609": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "berlin/202610": {
+   "cc": 4,
+   "listing": 0,
+   "union": 4,
+   "wayback": 0
+  },
+  "berlin/202611": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "london/202507": {
+   "cc": 20,
+   "listing": 0,
+   "union": 21,
+   "wayback": 21
+  },
+  "london/202508": {
+   "cc": 21,
+   "listing": 0,
+   "union": 24,
+   "wayback": 24
+  },
+  "london/202509": {
+   "cc": 17,
+   "listing": 0,
+   "union": 21,
+   "wayback": 21
+  },
+  "london/202510": {
+   "cc": 13,
+   "listing": 3,
+   "union": 17,
+   "wayback": 14
+  },
+  "london/202511": {
+   "cc": 17,
+   "listing": 4,
+   "union": 22,
+   "wayback": 18
+  },
+  "london/202512": {
+   "cc": 15,
+   "listing": 2,
+   "union": 19,
+   "wayback": 17
+  },
+  "london/202601": {
+   "cc": 18,
+   "listing": 0,
+   "union": 19,
+   "wayback": 19
+  },
+  "london/202602": {
+   "cc": 20,
+   "listing": 9,
+   "union": 40,
+   "wayback": 31
+  },
+  "london/202603": {
+   "cc": 29,
+   "listing": 1,
+   "union": 39,
+   "wayback": 38
+  },
+  "london/202604": {
+   "cc": 24,
+   "listing": 0,
+   "union": 27,
+   "wayback": 27
+  },
+  "london/202605": {
+   "cc": 26,
+   "listing": 5,
+   "union": 31,
+   "wayback": 27
+  },
+  "london/202606": {
+   "cc": 19,
+   "listing": 0,
+   "union": 20,
+   "wayback": 20
+  },
+  "london/202607": {
+   "cc": 0,
+   "listing": 0,
+   "union": 2,
+   "wayback": 2
+  },
+  "london/202608": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "london/202609": {
+   "cc": 1,
+   "listing": 0,
+   "union": 1,
+   "wayback": 0
+  },
+  "london/202610": {
+   "cc": 13,
+   "listing": 0,
+   "union": 14,
+   "wayback": 1
+  },
+  "london/202611": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  },
+  "newyork/202507": {
+   "cc": 45,
+   "listing": 0,
+   "union": 50,
+   "wayback": 50
+  },
+  "newyork/202508": {
+   "cc": 40,
+   "listing": 0,
+   "union": 73,
+   "wayback": 73
+  },
+  "newyork/202509": {
+   "cc": 60,
+   "listing": 1,
+   "union": 85,
+   "wayback": 84
+  },
+  "newyork/202510": {
+   "cc": 78,
+   "listing": 6,
+   "union": 95,
+   "wayback": 89
+  },
+  "newyork/202511": {
+   "cc": 84,
+   "listing": 11,
+   "union": 110,
+   "wayback": 99
+  },
+  "newyork/202512": {
+   "cc": 57,
+   "listing": 7,
+   "union": 74,
+   "wayback": 69
+  },
+  "newyork/202601": {
+   "cc": 56,
+   "listing": 6,
+   "union": 64,
+   "wayback": 60
+  },
+  "newyork/202602": {
+   "cc": 61,
+   "listing": 12,
+   "union": 83,
+   "wayback": 71
+  },
+  "newyork/202603": {
+   "cc": 39,
+   "listing": 2,
+   "union": 49,
+   "wayback": 47
+  },
+  "newyork/202604": {
+   "cc": 48,
+   "listing": 5,
+   "union": 59,
+   "wayback": 54
+  },
+  "newyork/202605": {
+   "cc": 48,
+   "listing": 8,
+   "union": 61,
+   "wayback": 54
+  },
+  "newyork/202606": {
+   "cc": 48,
+   "listing": 2,
+   "union": 51,
+   "wayback": 49
+  },
+  "newyork/202607": {
+   "cc": 3,
+   "listing": 1,
+   "union": 5,
+   "wayback": 3
+  },
+  "newyork/202608": {
+   "cc": 3,
+   "listing": 0,
+   "union": 3,
+   "wayback": 3
+  },
+  "newyork/202609": {
+   "cc": 5,
+   "listing": 0,
+   "union": 6,
+   "wayback": 1
+  },
+  "newyork/202610": {
+   "cc": 67,
+   "listing": 0,
+   "union": 67,
+   "wayback": 1
+  },
+  "newyork/202611": {
+   "cc": 0,
+   "listing": 0,
+   "union": 0,
+   "wayback": 0
+  }
+ },
+ "unresolved_in_scope_links": {
+  "202507": {
+   "wayback": 613
+  },
+  "202508": {
+   "wayback": 409
+  },
+  "202509": {
+   "wayback": 350
+  },
+  "202510": {
+   "wayback": 175
+  },
+  "202511": {
+   "wayback": 299
+  },
+  "202512": {
+   "wayback": 216
+  },
+  "202601": {
+   "wayback": 270
+  },
+  "202602": {
+   "wayback": 586
+  },
+  "202603": {
+   "wayback": 301
+  },
+  "202604": {
+   "wayback": 69
+  },
+  "202605": {
+   "wayback": 111
+  },
+  "202606": {
+   "wayback": 88
+  },
+  "202607": {
+   "wayback": 114
+  },
+  "202608": {
+   "wayback": 103
+  },
+  "202609": {
+   "wayback": 131
+  },
+  "202610": {
+   "wayback": 196
+  },
+  "202611": {
+   "wayback": 84
+  }
+ }
+}

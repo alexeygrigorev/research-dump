@@ -1,0 +1,95 @@
+{
+ "dedup": "a job_id/canonical URL appears in at most one sample across all cities and months",
+ "samples": {
+  "london/2025-11.jsonl.gz": {
+   "built_at": "2026-11-13T20:56:29+00:00",
+   "city": "london",
+   "count": 17,
+   "found_via": {
+    "detail_capture": 17
+   },
+   "month": "2025-11",
+   "roles": {
+    "backend": 3,
+    "engineering_manager": 2,
+    "frontend": 1,
+    "full_stack": 3,
+    "software_engineer": 8
+   },
+   "seed": 20261113,
+   "sources": {
+    "common_crawl": 17
+   },
+   "stats": {
+    "fetched": 70,
+    "kept": 17,
+    "known_other_city": 1,
+    "no_capture_in_month": 3,
+    "no_jsonld": 46,
+    "pool_detail": 1382,
+    "pool_listing": 4,
+    "title_out_of_scope": 1
+   },
+   "target": 100
+  },
+  "london/2025-12.jsonl.gz": {
+   "built_at": "2026-11-13T21:00:04+00:00",
+   "city": "london",
+   "count": 15,
+   "found_via": {
+    "detail_capture": 15
+   },
+   "month": "2025-12",
+   "roles": {
+    "backend": 4,
+    "frontend": 2,
+    "full_stack": 2,
+    "software_developer": 1,
+    "software_engineer": 6
+   },
+   "seed": 20261113,
+   "sources": {
+    "common_crawl": 15
+   },
+   "stats": {
+    "fetched": 70,
+    "kept": 15,
+    "no_capture_in_month": 2,
+    "no_jsonld": 51,
+    "other_city": 2,
+    "pool_detail": 1124,
+    "pool_listing": 2
+   },
+   "target": 100
+  },
+  "london/2026-01.jsonl.gz": {
+   "built_at": "2026-11-13T21:03:11+00:00",
+   "city": "london",
+   "count": 18,
+   "found_via": {
+    "detail_capture": 18
+   },
+   "month": "2026-01",
+   "roles": {
+    "backend": 4,
+    "engineering_manager": 1,
+    "frontend": 1,
+    "full_stack": 2,
+    "software_engineer": 10
+   },
+   "seed": 20261113,
+   "sources": {
+    "common_crawl": 18
+   },
+   "stats": {
+    "fetched": 70,
+    "kept": 18,
+    "no_jsonld": 50,
+    "pool_detail": 1048,
+    "pool_listing": 0
+   },
+   "target": 100
+  }
+ },
+ "schema": "field-guide data_raw fields (job_id, title, company, location, locations, remote, work_type, level, skills, company_size, compensation, description, benefits, industries, posted_date, url, source) + role, snapshot_month, city, archive_source, archive_timestamp, archive_ref, found_via"
+}
