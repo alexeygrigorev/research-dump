@@ -1,0 +1,1500 @@
+{
+ "criterion": {
+  "n_min": 300,
+  "tvd_max": 0.1,
+  "noise_multiple": 2.0
+ },
+ "regions": {
+  "UK": {
+   "weights": {
+    "builtin": 0.529,
+    "reed": 0.186,
+    "workday": 0.253,
+    "wttj": 0.031
+   },
+   "months": [
+    {
+     "month": "202507",
+     "n": 65,
+     "sources": {
+      "builtin": 21,
+      "reed": 24,
+      "workday": 19,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.323,
+      "reed": 0.369,
+      "workday": 0.292,
+      "wttj": 0.015
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.538,
+      "software_developer": 0.077,
+      "backend": 0.015,
+      "frontend": 0.108,
+      "full_stack": 0.138,
+      "engineering_manager": 0.123
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.623,
+      "software_developer": 0.062,
+      "backend": 0.025,
+      "frontend": 0.112,
+      "full_stack": 0.075,
+      "engineering_manager": 0.102
+     },
+     "tvd_prev": null,
+     "tvd_noise": 0.119,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202508",
+     "n": 56,
+     "sources": {
+      "builtin": 23,
+      "reed": 11,
+      "workday": 17,
+      "wttj": 5
+     },
+     "source_share": {
+      "builtin": 0.411,
+      "reed": 0.196,
+      "workday": 0.304,
+      "wttj": 0.089
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.482,
+      "software_developer": 0.054,
+      "backend": 0.071,
+      "frontend": 0.089,
+      "full_stack": 0.161,
+      "engineering_manager": 0.143
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.481,
+      "software_developer": 0.051,
+      "backend": 0.092,
+      "frontend": 0.084,
+      "full_stack": 0.158,
+      "engineering_manager": 0.133
+     },
+     "tvd_prev": 0.181,
+     "tvd_noise": 0.149,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202509",
+     "n": 46,
+     "sources": {
+      "builtin": 19,
+      "reed": 8,
+      "workday": 16,
+      "wttj": 3
+     },
+     "source_share": {
+      "builtin": 0.413,
+      "reed": 0.174,
+      "workday": 0.348,
+      "wttj": 0.065
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.326,
+      "software_developer": 0.043,
+      "backend": 0.109,
+      "frontend": 0.174,
+      "full_stack": 0.13,
+      "engineering_manager": 0.217
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.317,
+      "software_developer": 0.047,
+      "backend": 0.086,
+      "frontend": 0.206,
+      "full_stack": 0.129,
+      "engineering_manager": 0.216
+     },
+     "tvd_prev": 0.205,
+     "tvd_noise": 0.173,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202510",
+     "n": 48,
+     "sources": {
+      "builtin": 12,
+      "reed": 8,
+      "workday": 24,
+      "wttj": 4
+     },
+     "source_share": {
+      "builtin": 0.25,
+      "reed": 0.167,
+      "workday": 0.5,
+      "wttj": 0.083
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.646,
+      "software_developer": 0.0,
+      "backend": 0.083,
+      "frontend": 0.125,
+      "full_stack": 0.083,
+      "engineering_manager": 0.062
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.633,
+      "software_developer": 0.0,
+      "backend": 0.076,
+      "frontend": 0.104,
+      "full_stack": 0.055,
+      "engineering_manager": 0.132
+     },
+     "tvd_prev": 0.316,
+     "tvd_noise": 0.132,
+     "crawl_shift_flags": [
+      "builtin share 0.25 vs avg 0.53"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202511",
+     "n": 46,
+     "sources": {
+      "builtin": 16,
+      "reed": 14,
+      "workday": 15,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.348,
+      "reed": 0.304,
+      "workday": 0.326,
+      "wttj": 0.022
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.609,
+      "software_developer": 0.043,
+      "backend": 0.109,
+      "frontend": 0.022,
+      "full_stack": 0.087,
+      "engineering_manager": 0.13
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.608,
+      "software_developer": 0.03,
+      "backend": 0.129,
+      "frontend": 0.033,
+      "full_stack": 0.077,
+      "engineering_manager": 0.123
+     },
+     "tvd_prev": 0.105,
+     "tvd_noise": 0.144,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202512",
+     "n": 67,
+     "sources": {
+      "builtin": 17,
+      "reed": 19,
+      "workday": 30,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.254,
+      "reed": 0.284,
+      "workday": 0.448,
+      "wttj": 0.015
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.448,
+      "software_developer": 0.104,
+      "backend": 0.06,
+      "frontend": 0.045,
+      "full_stack": 0.179,
+      "engineering_manager": 0.164
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.444,
+      "software_developer": 0.084,
+      "backend": 0.102,
+      "frontend": 0.049,
+      "full_stack": 0.171,
+      "engineering_manager": 0.149
+     },
+     "tvd_prev": 0.191,
+     "tvd_noise": 0.135,
+     "crawl_shift_flags": [
+      "builtin share 0.25 vs avg 0.53"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202601",
+     "n": 23,
+     "sources": {
+      "builtin": 18,
+      "reed": 5
+     },
+     "source_share": {
+      "builtin": 0.783,
+      "reed": 0.217
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.565,
+      "software_developer": 0.043,
+      "backend": 0.13,
+      "frontend": 0.043,
+      "full_stack": 0.087,
+      "engineering_manager": 0.13
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.556,
+      "software_developer": 0.052,
+      "backend": 0.123,
+      "frontend": 0.041,
+      "full_stack": 0.082,
+      "engineering_manager": 0.145
+     },
+     "tvd_prev": 0.133,
+     "tvd_noise": 0.218,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202602",
+     "n": 26,
+     "sources": {
+      "builtin": 26
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.808,
+      "software_developer": 0.0,
+      "backend": 0.077,
+      "frontend": 0.038,
+      "full_stack": 0.0,
+      "engineering_manager": 0.077
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.808,
+      "software_developer": 0.0,
+      "backend": 0.077,
+      "frontend": 0.038,
+      "full_stack": 0.0,
+      "engineering_manager": 0.077
+     },
+     "tvd_prev": 0.252,
+     "tvd_noise": 0.113,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202603",
+     "n": 27,
+     "sources": {
+      "builtin": 27
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.556,
+      "software_developer": 0.0,
+      "backend": 0.148,
+      "frontend": 0.074,
+      "full_stack": 0.148,
+      "engineering_manager": 0.074
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.556,
+      "software_developer": 0.0,
+      "backend": 0.148,
+      "frontend": 0.074,
+      "full_stack": 0.148,
+      "engineering_manager": 0.074
+     },
+     "tvd_prev": 0.255,
+     "tvd_noise": 0.186,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202604",
+     "n": 20,
+     "sources": {
+      "builtin": 20
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.85,
+      "software_developer": 0.0,
+      "backend": 0.05,
+      "frontend": 0.05,
+      "full_stack": 0.0,
+      "engineering_manager": 0.05
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.85,
+      "software_developer": 0.0,
+      "backend": 0.05,
+      "frontend": 0.05,
+      "full_stack": 0.0,
+      "engineering_manager": 0.05
+     },
+     "tvd_prev": 0.294,
+     "tvd_noise": 0.123,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202605",
+     "n": 22,
+     "sources": {
+      "builtin": 22
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.636,
+      "software_developer": 0.0,
+      "backend": 0.045,
+      "frontend": 0.0,
+      "full_stack": 0.182,
+      "engineering_manager": 0.136
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.636,
+      "software_developer": 0.0,
+      "backend": 0.045,
+      "frontend": 0.0,
+      "full_stack": 0.182,
+      "engineering_manager": 0.136
+     },
+     "tvd_prev": 0.268,
+     "tvd_noise": 0.17,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202606",
+     "n": 19,
+     "sources": {
+      "builtin": 19
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.684,
+      "software_developer": 0.0,
+      "backend": 0.158,
+      "frontend": 0.053,
+      "full_stack": 0.053,
+      "engineering_manager": 0.053
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.684,
+      "software_developer": 0.0,
+      "backend": 0.158,
+      "frontend": 0.053,
+      "full_stack": 0.053,
+      "engineering_manager": 0.053
+     },
+     "tvd_prev": 0.213,
+     "tvd_noise": 0.196,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202607",
+     "n": 0,
+     "sources": {},
+     "source_share": {},
+     "role_mix_raw": {
+      "software_engineer": 0,
+      "software_developer": 0,
+      "backend": 0,
+      "frontend": 0,
+      "full_stack": 0,
+      "engineering_manager": 0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0,
+      "software_developer": 0,
+      "backend": 0,
+      "frontend": 0,
+      "full_stack": 0,
+      "engineering_manager": 0
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": null,
+     "crawl_shift_flags": [
+      "builtin share 0.00 vs avg 0.53",
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202609",
+     "n": 0,
+     "sources": {},
+     "source_share": {},
+     "role_mix_raw": {
+      "software_engineer": 0,
+      "software_developer": 0,
+      "backend": 0,
+      "frontend": 0,
+      "full_stack": 0,
+      "engineering_manager": 0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0,
+      "software_developer": 0,
+      "backend": 0,
+      "frontend": 0,
+      "full_stack": 0,
+      "engineering_manager": 0
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": null,
+     "crawl_shift_flags": [
+      "builtin share 0.00 vs avg 0.53",
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202610",
+     "n": 13,
+     "sources": {
+      "builtin": 13
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.385,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.385,
+      "full_stack": 0.154,
+      "engineering_manager": 0.077
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.385,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.385,
+      "full_stack": 0.154,
+      "engineering_manager": 0.077
+     },
+     "tvd_prev": 0.457,
+     "tvd_noise": 0.245,
+     "crawl_shift_flags": [
+      "reed share 0.00 vs avg 0.19",
+      "workday share 0.00 vs avg 0.25"
+     ],
+     "meets_criterion": false
+    }
+   ]
+  },
+  "DE": {
+   "weights": {
+    "builtin": 0.516,
+    "workday": 0.452,
+    "wttj": 0.032
+   },
+   "months": [
+    {
+     "month": "202507",
+     "n": 15,
+     "sources": {
+      "builtin": 6,
+      "workday": 8,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.4,
+      "workday": 0.533,
+      "wttj": 0.067
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.267,
+      "software_developer": 0.067,
+      "backend": 0.267,
+      "frontend": 0.0,
+      "full_stack": 0.2,
+      "engineering_manager": 0.2
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.231,
+      "software_developer": 0.057,
+      "backend": 0.256,
+      "frontend": 0.0,
+      "full_stack": 0.229,
+      "engineering_manager": 0.229
+     },
+     "tvd_prev": null,
+     "tvd_noise": 0.272,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202508",
+     "n": 8,
+     "sources": {
+      "builtin": 2,
+      "workday": 5,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.25,
+      "workday": 0.625,
+      "wttj": 0.125
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.75,
+      "software_developer": 0.125,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.125
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.878,
+      "software_developer": 0.09,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.032
+     },
+     "tvd_prev": 0.681,
+     "tvd_noise": 0.141,
+     "crawl_shift_flags": [
+      "builtin share 0.25 vs avg 0.52"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202509",
+     "n": 24,
+     "sources": {
+      "builtin": 12,
+      "workday": 11,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.5,
+      "workday": 0.458,
+      "wttj": 0.042
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.5,
+      "software_developer": 0.125,
+      "backend": 0.083,
+      "frontend": 0.167,
+      "full_stack": 0.083,
+      "engineering_manager": 0.042
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.497,
+      "software_developer": 0.123,
+      "backend": 0.084,
+      "frontend": 0.168,
+      "full_stack": 0.084,
+      "engineering_manager": 0.043
+     },
+     "tvd_prev": 0.381,
+     "tvd_noise": 0.219,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202510",
+     "n": 22,
+     "sources": {
+      "builtin": 9,
+      "workday": 13
+     },
+     "source_share": {
+      "builtin": 0.409,
+      "workday": 0.591
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.364,
+      "software_developer": 0.0,
+      "backend": 0.091,
+      "frontend": 0.136,
+      "full_stack": 0.045,
+      "engineering_manager": 0.364
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.334,
+      "software_developer": 0.0,
+      "backend": 0.072,
+      "frontend": 0.154,
+      "full_stack": 0.036,
+      "engineering_manager": 0.404
+     },
+     "tvd_prev": 0.361,
+     "tvd_noise": 0.215,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202511",
+     "n": 19,
+     "sources": {
+      "builtin": 9,
+      "workday": 10
+     },
+     "source_share": {
+      "builtin": 0.474,
+      "workday": 0.526
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.316,
+      "software_developer": 0.053,
+      "backend": 0.105,
+      "frontend": 0.105,
+      "full_stack": 0.053,
+      "engineering_manager": 0.368
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.293,
+      "software_developer": 0.047,
+      "backend": 0.106,
+      "frontend": 0.093,
+      "full_stack": 0.047,
+      "engineering_manager": 0.414
+     },
+     "tvd_prev": 0.102,
+     "tvd_noise": 0.252,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202512",
+     "n": 15,
+     "sources": {
+      "builtin": 4,
+      "workday": 10,
+      "wttj": 1
+     },
+     "source_share": {
+      "builtin": 0.267,
+      "workday": 0.667,
+      "wttj": 0.067
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.267,
+      "software_developer": 0.267,
+      "backend": 0.067,
+      "frontend": 0.0,
+      "full_stack": 0.4,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.348,
+      "software_developer": 0.181,
+      "backend": 0.045,
+      "frontend": 0.0,
+      "full_stack": 0.425,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.569,
+     "tvd_noise": 0.22,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202601",
+     "n": 2,
+     "sources": {
+      "builtin": 2
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.5
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.5
+     },
+     "tvd_prev": 0.652,
+     "tvd_noise": 0.367,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202602",
+     "n": 4,
+     "sources": {
+      "builtin": 4
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.25,
+      "full_stack": 0.0,
+      "engineering_manager": 0.25
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.25,
+      "full_stack": 0.0,
+      "engineering_manager": 0.25
+     },
+     "tvd_prev": 0.25,
+     "tvd_noise": 0.362,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202603",
+     "n": 6,
+     "sources": {
+      "builtin": 6
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.333,
+      "software_developer": 0.167,
+      "backend": 0.333,
+      "frontend": 0.0,
+      "full_stack": 0.167,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.333,
+      "software_developer": 0.167,
+      "backend": 0.333,
+      "frontend": 0.0,
+      "full_stack": 0.167,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.667,
+     "tvd_noise": 0.365,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202604",
+     "n": 4,
+     "sources": {
+      "builtin": 4
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.5,
+      "software_developer": 0.25,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.25
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.5,
+      "software_developer": 0.25,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.25
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": 0.362,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202605",
+     "n": 3,
+     "sources": {
+      "builtin": 3
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": 0.0,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202606",
+     "n": 1,
+     "sources": {
+      "builtin": 1
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.0,
+     "tvd_noise": 0.0,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202610",
+     "n": 3,
+     "sources": {
+      "builtin": 3
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.0,
+      "software_developer": 0.333,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.333,
+      "engineering_manager": 0.333
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.0,
+      "software_developer": 0.333,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.333,
+      "engineering_manager": 0.333
+     },
+     "tvd_prev": 1.0,
+     "tvd_noise": 0.427,
+     "crawl_shift_flags": [
+      "workday share 0.00 vs avg 0.45"
+     ],
+     "meets_criterion": false
+    }
+   ]
+  },
+  "US": {
+   "weights": {
+    "builtin": 0.214,
+    "workday": 0.786
+   },
+   "months": [
+    {
+     "month": "202507",
+     "n": 651,
+     "sources": {
+      "builtin": 51,
+      "workday": 600
+     },
+     "source_share": {
+      "builtin": 0.078,
+      "workday": 0.922
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.582,
+      "software_developer": 0.032,
+      "backend": 0.086,
+      "frontend": 0.031,
+      "full_stack": 0.129,
+      "engineering_manager": 0.14
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.583,
+      "software_developer": 0.028,
+      "backend": 0.085,
+      "frontend": 0.035,
+      "full_stack": 0.122,
+      "engineering_manager": 0.148
+     },
+     "tvd_prev": null,
+     "tvd_noise": 0.04,
+     "crawl_shift_flags": [
+      "builtin share 0.08 vs avg 0.21"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202508",
+     "n": 469,
+     "sources": {
+      "builtin": 63,
+      "workday": 406
+     },
+     "source_share": {
+      "builtin": 0.134,
+      "workday": 0.866
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.661,
+      "software_developer": 0.06,
+      "backend": 0.072,
+      "frontend": 0.036,
+      "full_stack": 0.098,
+      "engineering_manager": 0.072
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.65,
+      "software_developer": 0.054,
+      "backend": 0.077,
+      "frontend": 0.04,
+      "full_stack": 0.098,
+      "engineering_manager": 0.08
+     },
+     "tvd_prev": 0.099,
+     "tvd_noise": 0.045,
+     "crawl_shift_flags": [],
+     "meets_criterion": false
+    },
+    {
+     "month": "202509",
+     "n": 456,
+     "sources": {
+      "builtin": 71,
+      "workday": 385
+     },
+     "source_share": {
+      "builtin": 0.156,
+      "workday": 0.844
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.651,
+      "software_developer": 0.046,
+      "backend": 0.055,
+      "frontend": 0.05,
+      "full_stack": 0.09,
+      "engineering_manager": 0.107
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.646,
+      "software_developer": 0.043,
+      "backend": 0.057,
+      "frontend": 0.054,
+      "full_stack": 0.091,
+      "engineering_manager": 0.11
+     },
+     "tvd_prev": 0.043,
+     "tvd_noise": 0.045,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
+    },
+    {
+     "month": "202510",
+     "n": 550,
+     "sources": {
+      "builtin": 75,
+      "workday": 475
+     },
+     "source_share": {
+      "builtin": 0.136,
+      "workday": 0.864
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.656,
+      "software_developer": 0.031,
+      "backend": 0.067,
+      "frontend": 0.045,
+      "full_stack": 0.105,
+      "engineering_manager": 0.095
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.635,
+      "software_developer": 0.028,
+      "backend": 0.077,
+      "frontend": 0.052,
+      "full_stack": 0.11,
+      "engineering_manager": 0.098
+     },
+     "tvd_prev": 0.04,
+     "tvd_noise": 0.042,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
+    },
+    {
+     "month": "202511",
+     "n": 471,
+     "sources": {
+      "builtin": 85,
+      "workday": 386
+     },
+     "source_share": {
+      "builtin": 0.18,
+      "workday": 0.82
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.626,
+      "software_developer": 0.062,
+      "backend": 0.062,
+      "frontend": 0.034,
+      "full_stack": 0.106,
+      "engineering_manager": 0.11
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.622,
+      "software_developer": 0.059,
+      "backend": 0.064,
+      "frontend": 0.035,
+      "full_stack": 0.107,
+      "engineering_manager": 0.113
+     },
+     "tvd_prev": 0.046,
+     "tvd_noise": 0.046,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
+    },
+    {
+     "month": "202512",
+     "n": 491,
+     "sources": {
+      "builtin": 48,
+      "workday": 443
+     },
+     "source_share": {
+      "builtin": 0.098,
+      "workday": 0.902
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.688,
+      "software_developer": 0.051,
+      "backend": 0.031,
+      "frontend": 0.055,
+      "full_stack": 0.084,
+      "engineering_manager": 0.092
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.686,
+      "software_developer": 0.044,
+      "backend": 0.032,
+      "frontend": 0.067,
+      "full_stack": 0.083,
+      "engineering_manager": 0.088
+     },
+     "tvd_prev": 0.095,
+     "tvd_noise": 0.041,
+     "crawl_shift_flags": [
+      "builtin share 0.10 vs avg 0.21"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202601",
+     "n": 49,
+     "sources": {
+      "builtin": 49
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.388,
+      "software_developer": 0.0,
+      "backend": 0.122,
+      "frontend": 0.102,
+      "full_stack": 0.286,
+      "engineering_manager": 0.102
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.388,
+      "software_developer": 0.0,
+      "backend": 0.122,
+      "frontend": 0.102,
+      "full_stack": 0.286,
+      "engineering_manager": 0.102
+     },
+     "tvd_prev": 0.342,
+     "tvd_noise": 0.156,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202602",
+     "n": 62,
+     "sources": {
+      "builtin": 62
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.613,
+      "software_developer": 0.0,
+      "backend": 0.113,
+      "frontend": 0.048,
+      "full_stack": 0.177,
+      "engineering_manager": 0.048
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.613,
+      "software_developer": 0.0,
+      "backend": 0.113,
+      "frontend": 0.048,
+      "full_stack": 0.177,
+      "engineering_manager": 0.048
+     },
+     "tvd_prev": 0.225,
+     "tvd_noise": 0.12,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202603",
+     "n": 41,
+     "sources": {
+      "builtin": 41
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.439,
+      "software_developer": 0.0,
+      "backend": 0.22,
+      "frontend": 0.122,
+      "full_stack": 0.171,
+      "engineering_manager": 0.049
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.439,
+      "software_developer": 0.0,
+      "backend": 0.22,
+      "frontend": 0.122,
+      "full_stack": 0.171,
+      "engineering_manager": 0.049
+     },
+     "tvd_prev": 0.181,
+     "tvd_noise": 0.159,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202604",
+     "n": 49,
+     "sources": {
+      "builtin": 49
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.673,
+      "software_developer": 0.0,
+      "backend": 0.122,
+      "frontend": 0.082,
+      "full_stack": 0.041,
+      "engineering_manager": 0.082
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.673,
+      "software_developer": 0.0,
+      "backend": 0.122,
+      "frontend": 0.082,
+      "full_stack": 0.041,
+      "engineering_manager": 0.082
+     },
+     "tvd_prev": 0.267,
+     "tvd_noise": 0.125,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202605",
+     "n": 43,
+     "sources": {
+      "builtin": 43
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.581,
+      "software_developer": 0.0,
+      "backend": 0.093,
+      "frontend": 0.023,
+      "full_stack": 0.14,
+      "engineering_manager": 0.163
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.581,
+      "software_developer": 0.0,
+      "backend": 0.093,
+      "frontend": 0.023,
+      "full_stack": 0.14,
+      "engineering_manager": 0.163
+     },
+     "tvd_prev": 0.18,
+     "tvd_noise": 0.139,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202606",
+     "n": 40,
+     "sources": {
+      "builtin": 40
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.55,
+      "software_developer": 0.0,
+      "backend": 0.1,
+      "frontend": 0.05,
+      "full_stack": 0.15,
+      "engineering_manager": 0.15
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.55,
+      "software_developer": 0.0,
+      "backend": 0.1,
+      "frontend": 0.05,
+      "full_stack": 0.15,
+      "engineering_manager": 0.15
+     },
+     "tvd_prev": 0.044,
+     "tvd_noise": 0.146,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202607",
+     "n": 1,
+     "sources": {
+      "builtin": 1
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.45,
+     "tvd_noise": 0.0,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202608",
+     "n": 2,
+     "sources": {
+      "builtin": 2
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.5,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.5,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.5,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": 0.367,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202609",
+     "n": 2,
+     "sources": {
+      "builtin": 2
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "role_mix_fixed": {
+      "software_engineer": 1.0,
+      "software_developer": 0.0,
+      "backend": 0.0,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.0
+     },
+     "tvd_prev": 0.5,
+     "tvd_noise": 0.0,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202610",
+     "n": 50,
+     "sources": {
+      "builtin": 50
+     },
+     "source_share": {
+      "builtin": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.88,
+      "software_developer": 0.0,
+      "backend": 0.02,
+      "frontend": 0.0,
+      "full_stack": 0.08,
+      "engineering_manager": 0.02
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.88,
+      "software_developer": 0.0,
+      "backend": 0.02,
+      "frontend": 0.0,
+      "full_stack": 0.08,
+      "engineering_manager": 0.02
+     },
+     "tvd_prev": 0.12,
+     "tvd_noise": 0.071,
+     "crawl_shift_flags": [
+      "builtin share 1.00 vs avg 0.21",
+      "workday share 0.00 vs avg 0.79"
+     ],
+     "meets_criterion": false
+    }
+   ]
+  }
+ }
+}

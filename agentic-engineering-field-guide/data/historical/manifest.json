@@ -2,46 +2,48 @@
  "dedup": "a job_id/canonical URL appears in at most one sample across all cities and months",
  "samples": {
   "london/2025-11.jsonl.gz": {
-   "built_at": "2026-11-13T20:56:29+00:00",
+   "built_at": "2026-11-13T21:12:09+00:00",
+   "city": "london",
+   "count": 19,
+   "found_via": {
+    "detail_capture": 19
+   },
+   "month": "2025-11",
+   "roles": {
+    "backend": 4,
+    "engineering_manager": 2,
+    "frontend": 1,
+    "full_stack": 3,
+    "software_engineer": 9
+   },
+   "seed": 20261113,
+   "sources": {
+    "common_crawl": 17,
+    "wayback": 2
+   },
+   "stats": {
+    "fetched": 120,
+    "kept": 19,
+    "known_other_city": 1,
+    "no_capture_in_month": 3,
+    "other_city": 98,
+    "pool_detail": 1382,
+    "pool_listing": 4,
+    "title_out_of_scope": 3
+   },
+   "target": 100
+  },
+  "london/2025-12.jsonl.gz": {
+   "built_at": "2026-11-13T21:19:18+00:00",
    "city": "london",
    "count": 17,
    "found_via": {
     "detail_capture": 17
    },
-   "month": "2025-11",
-   "roles": {
-    "backend": 3,
-    "engineering_manager": 2,
-    "frontend": 1,
-    "full_stack": 3,
-    "software_engineer": 8
-   },
-   "seed": 20261113,
-   "sources": {
-    "common_crawl": 17
-   },
-   "stats": {
-    "fetched": 70,
-    "kept": 17,
-    "known_other_city": 1,
-    "no_capture_in_month": 3,
-    "no_jsonld": 46,
-    "pool_detail": 1382,
-    "pool_listing": 4,
-    "title_out_of_scope": 1
-   },
-   "target": 100
-  },
-  "london/2025-12.jsonl.gz": {
-   "built_at": "2026-11-13T21:00:04+00:00",
-   "city": "london",
-   "count": 15,
-   "found_via": {
-    "detail_capture": 15
-   },
    "month": "2025-12",
    "roles": {
     "backend": 4,
+    "engineering_manager": 2,
     "frontend": 2,
     "full_stack": 2,
     "software_developer": 1,
@@ -49,29 +51,32 @@
    },
    "seed": 20261113,
    "sources": {
-    "common_crawl": 15
+    "common_crawl": 15,
+    "wayback": 2
    },
    "stats": {
-    "fetched": 70,
-    "kept": 15,
+    "fetch_error": 1,
+    "fetched": 120,
+    "kept": 17,
     "no_capture_in_month": 2,
-    "no_jsonld": 51,
-    "other_city": 2,
+    "no_jsonld": 1,
+    "other_city": 102,
     "pool_detail": 1124,
-    "pool_listing": 2
+    "pool_listing": 2,
+    "title_out_of_scope": 1
    },
    "target": 100
   },
   "london/2026-01.jsonl.gz": {
-   "built_at": "2026-11-13T21:03:11+00:00",
+   "built_at": "2026-11-13T21:25:48+00:00",
    "city": "london",
-   "count": 18,
+   "count": 19,
    "found_via": {
-    "detail_capture": 18
+    "detail_capture": 19
    },
    "month": "2026-01",
    "roles": {
-    "backend": 4,
+    "backend": 5,
     "engineering_manager": 1,
     "frontend": 1,
     "full_stack": 2,
@@ -79,14 +84,16 @@
    },
    "seed": 20261113,
    "sources": {
-    "common_crawl": 18
+    "common_crawl": 18,
+    "wayback": 1
    },
    "stats": {
-    "fetched": 70,
-    "kept": 18,
-    "no_jsonld": 50,
+    "fetched": 120,
+    "kept": 19,
+    "other_city": 98,
     "pool_detail": 1048,
-    "pool_listing": 0
+    "pool_listing": 0,
+    "title_out_of_scope": 3
    },
    "target": 100
   }

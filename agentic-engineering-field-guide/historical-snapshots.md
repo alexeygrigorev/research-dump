@@ -145,24 +145,23 @@ How to control the bias:
 
 ## Pilot: London, three past months
 
-Command: `python stage2_snapshot.py london 202511 202512 202601 --n 100 --max-fetch 70`. Output is in `data/historical/london/`, with stats in `data/historical/manifest.json`.
+Command: `python stage2_snapshot.py london 202511 202512 202601 --n 100 --max-fetch 120`. Output is in `data/historical/london/`, with stats in `data/historical/manifest.json`.
 
 | Month | Postings kept | Source | Roles | Description length (min / median, chars) |
 |---|---|---|---|---|
-| 2025-11 | 17 | Common Crawl 17 | software_engineer 8, full_stack 3, backend 3, engineering_manager 2, frontend 1 | 2271 / 5036 |
-| 2025-12 | 15 | Common Crawl 15 | software_engineer 6, backend 4, frontend 2, full_stack 2, software_developer 1 | 2291 / 4750 |
-| 2026-01 | 18 | Common Crawl 18 | software_engineer 10, backend 4, full_stack 2, engineering_manager 1, frontend 1 | 1911 / 4969 |
+| 2025-11 | 19 | Common Crawl 17, Wayback 2 | software_engineer 9, backend 4, full_stack 3, engineering_manager 2, frontend 1 | 2163 / 4672 |
+| 2025-12 | 17 | Common Crawl 15, Wayback 2 | software_engineer 6, backend 4, engineering_manager 2, frontend 2, full_stack 2, software_developer 1 | 2291 / 4863 |
+| 2026-01 | 19 | Common Crawl 18, Wayback 1 | software_engineer 10, backend 5, full_stack 2, engineering_manager 1, frontend 1 | 1911 / 4857 |
 
-In total there are 50 postings, each with full description text. Dedup check across the three files: 0 duplicate `job_id`s and 0 duplicate URLs.
+In total there are 55 postings, each with full description text. Dedup check across the three files: 0 duplicate `job_id`s and 0 duplicate URLs.
 
 What the pilot found:
 
-- **London is far below the 100-per-month target.** The measured pool is only 19–22 in-scope London jobs a month, and the sample takes almost all of them.
-- **Wayback reads were broken during this run.** Wayback `id_` replays the original `Content-Encoding: gzip` bytes, and `archive_client.get` stored them undecoded. As a result, every Wayback fetch in this run looked like a page without JSON-LD (the `no_jsonld` count in the manifest).
-- **That bug is now fixed,** together with a purge of 223 corrupted cache files. A Wayback fetch now returns the full page with JSON-LD.
-- **Multi-location postings are included.** A posting that lists London among several locations (for example a remote job open in many countries) counts as London. The `locations` field keeps the full list, so the analysis can filter these out.
+- **London is far below the 100-per-month target.** The measured pool is only 19–22 in-scope London jobs a month, and the sample takes almost all of them. The 98–102 `other_city` rejections a month are unresolved Wayback links that turned out to be other cities.
+- **A Wayback bug was found and fixed.** Wayback `id_` replays the original `Content-Encoding: gzip` bytes, and the first run stored them undecoded, so every Wayback page looked empty. `archive_client.get` now decompresses them, and the 223 corrupted cache files were purged.
+- **Multi-location postings are included.** A posting that lists London among several locations counts as London. `locations` keeps the full list, so the analysis can filter these out.
 
-## Rebuilding every month
+## Rebuilding all past months
 
 ```bash
 cd agentic-engineering-field-guide/data/historical/scripts
@@ -187,17 +186,130 @@ Rough time for the full rebuild:
 - Wayback reads: about 1 to 3 hours for the unresolved links.
 - Everything already fetched is cached in `work/html/`, so re-runs are free.
 
-## Adding new months
+## Every month: one command
 
-- When Common Crawl publishes a new crawl (see `https://data.commoncrawl.org/crawl-data/index.html`), run `stage1_cc_zipnum.py <new crawl>`.
-- Re-run `stage1_wayback_dump.py`. It is resumable, but delete the last page so that new captures are picked up.
-- Run `stage1_resolve.py`, `coverage.py`, then `stage2_snapshot.py <city> <new month>`. The dedup set comes from the published samples, so the new month never repeats an earlier posting.
-- From now on, also save the live monthly field-guide-style scrape for these roles. A live scrape gives the full population instead of an archive sample. Archives are only needed for months we did not scrape ourselves.
+Alexey t3381u: «можно будет повторять каждый месяц. это стоит чего-то?»
+
+Yes, it can be repeated every month, and it costs nothing. One command does the whole month:
+
+```bash
+cd agentic-engineering-field-guide/data/historical/scripts
+python monthly.py            # the previous calendar month
+python monthly.py 2026-11    # or a given month; re-running a month rebuilds it
+```
+
+`monthly.py` is incremental. It only adds what is new:
+
+1. **Common Crawl.** It reads `collinfo.json` and dumps the Built In job rows of every crawl that is not on disk yet.
+2. **Wayback job pages.** It runs a CDX query for `builtin.com/job/*` captures, limited to that month (`from=YYYYMM&to=YYYYMM`). The query is resumable per page.
+3. **Wayback listing pages.** It runs the same month-limited query for the London, Berlin and New York listing pages, then reads their job cards.
+4. **City resolution.** It reads the in-scope links captured that month: Common Crawl in parallel, Wayback at one request per 1.5 s. Use `--skip-wb-resolve` to make the run faster.
+5. **Coverage.** It runs `coverage.py`.
+6. **Samples.** It runs `stage2_snapshot.py <city> <month>` for each city, which writes `<city>/<YYYY-MM>.jsonl.gz` and updates `manifest.json`.
+
+Before you commit the new files, check that n in the manifest has not dropped below 30. If it has, treat that month as "not enough data".
+
+**Cost: $0.**
+
+- No paid API, no JobsPipe credits, and no AWS account. Common Crawl is plain HTTPS to `data.commoncrawl.org`, and the Wayback Machine is free.
+- The only cost is runtime, roughly 15 to 60 minutes a month. Most of it is the polite Wayback rate limit.
+- Disk grows by about 20 to 40 MB of cached HTML a month in the git-ignored `work/` folder.
+
+**When to run it.**
+
+- Run it a few days after the month ends, in the same week as the field guide's monthly Built In scrape.
+- Common Crawl publishes a crawl 2 to 4 weeks after it runs. So also re-run the month before: `python monthly.py <previous month>`. That picks up the late crawl and rebuilds the earlier month.
+- A rebuild ignores the month's own old sample, but it still respects postings that other months have claimed. So dedup holds.
+
+**Live scrape.** Starting now, also save a live field-guide-style scrape for these roles each month (the field guide's `scrape_builtin_requests.py` with these search terms and cities). A live scrape covers the whole population instead of an archive sample. Archives are only needed for months we did not scrape ourselves.
+
+## Expanding the sample until it is stable
+
+Alexey asked for two things here:
+
+- t3382u: «расширяй выборку пока не будет достаточно данных - чтобы данные были стабильные из месяца в месяц»
+- t3383u: «надо аккуратно только потому что там могут быть смещения в крауле»
+
+### Stopping criterion
+
+A region-month is good enough to draw conclusions from when all three of these hold. They are checked in `scripts/stability.py`, and the output is in `data/historical/stability.json`.
+
+1. **n ≥ 300** distinct in-scope postings, after dedup across months.
+2. **Role-mix shift.** The total variation distance (TVD) between this month's role mix and last month's is **≤ 0.10**. TVD is half the sum of absolute share differences over the six role buckets: 0.10 means at most 10% of postings would need to change bucket.
+3. **Shift no bigger than noise.** That TVD is **≤ 2× the TVD expected from sampling noise alone** at this n. The noise level comes from a bootstrap of two random samples of size n drawn from the same mix. A shift within noise is not a finding.
+
+Regions are country markets (UK, DE, US). The city (london, berlin, newyork) is kept on every record, so London, Berlin and NYC can still be cut out of a region.
+
+### Sources added
+
+All sources are Common Crawl index rows, read free from ZipNum (`scripts/stage1_cc_boards.py`). The roles and region come from the URL where the URL carries them; otherwise a page has to be read.
+
+| Source | Job pages per crawl | Title in URL | Region in URL | JSON-LD full text (sample read) | Role in the sample |
+|---|---|---|---|---|---|
+| Built In | 4,900–6,600 | yes (slug) | no (resolved from page) | yes | baseline, matches the field guide |
+| Workday (`*.myworkdayjobs.com`) | 30,000–37,600 | yes | yes (location slug) | 2/12 | the main US source: 450–600 in-scope US postings per crawl |
+| Greenhouse (`job-boards.greenhouse.io`) | 16,000–18,400 | no | no | 0/12 (getro redirect wrappers) | large but needs page reads; not used yet |
+| Welcome to the Jungle | 6,400–9,500 | yes | yes (city slug) | 5/12 | mostly France; few UK/DE in-scope |
+| Lever | 5,800–6,500, then **0 from CC-MAIN-2025-47** | no | no | 7/12 | lost when Lever started blocking CCBot |
+| Ashby | **3,000–8,600** | no | no | 9/12 | read sample: 7% in scope, mostly US |
+| Personio (.de/.com) | **290–4,200** | no | DE by host | 3/12 | German titles («Softwareentwickler») need German role terms |
+| reed.co.uk | 500–1,600 job pages | yes | UK | 2/12 | 5–24 in-scope a crawl |
+| SmartRecruiters, Recruitee, Workable | 1,300–3,100 each | partly | no | low | small |
+
+### Crawl bias, measured
+
+`data/historical/source_measurement.json` has, for every crawl and source, the captures, distinct job pages and in-scope counts (from URL). The crawler changes far more than the market does:
+
+- **Personio.de:** 294 job pages in CC-MAIN-2025-30, then 4,058 in the next crawl (14×).
+- **Ashby:** 3,000 → 8,600 → 3,100 across crawls.
+- **Recruitee:** 2,364 → 85 → 1,614.
+- **Lever:** about 6,000 → 0 from Nov 2025.
+- **Built In:** about 5,500, then 128–172 in Jul–Sep 2026, then 4,563.
+
+Raw counts per month are therefore crawler behaviour and must never be read as the market growing or shrinking.
+
+Workday's share of all job pages is the steadiest of the sources, at 0.36–0.43 across crawls.
+
+### How bias is controlled
+
+1. **Only shares are compared** (role mix, and later seniority and skills), never counts.
+2. **Fixed source weights.** The role mix is computed per source, then combined with fixed weights equal to each source's average share over the window. A crawl that over-collects one board therefore cannot shift the mix. `stability.json` has both `role_mix_raw` and `role_mix_fixed`, so the effect of the reweighting is visible.
+3. **Crawl-shift flag.** A month is flagged when any source's share falls outside 0.5× to 2× its average. A flagged month is reported but not used as a trend point.
+4. **Sample design (next step, not implemented yet).** Today, `stage2_snapshot.py` samples Built In only. When it is extended to the new boards, it should draw a fixed quota per source each month (the same weights as above) instead of a draw from whatever the crawl happened to capture.
+5. **Provenance.** `archive_source`, `archive_ref` and the crawl id are kept on every record, so any result can be re-cut per source.
+
+### Result so far (`stability.json`)
+
+| Region | Months that meet the criterion | Typical n per month | Status |
+|---|---|---|---|
+| **US** | 2025-09, 2025-10, 2025-11. Role-mix TVD 0.040–0.046 at a noise level of 0.042–0.046, so the shifts are pure noise | 450–650 (Workday about 85%, Built In about 15%) | **stable.** Jan–Oct 2026 are not measured yet (the Workday dump for those crawls was stopped by the Common Crawl block, see below). Jul 2025 is flagged because Built In's share was low; Dec 2025 is flagged the same way |
+| **UK** | none | 20–67 | **not enough data.** Built In plus reed plus Workday give at most 67 a month |
+| **DE** | none | 2–24 | **not enough data** |
+
+What to conclude, as of 2026-11-13:
+
+- **US:** the archives can already give a stable monthly role mix. The software-engineer share sits at 0.62–0.65 for Sep–Nov 2025.
+- **UK and DE:** under the stopping criterion, these months are "not enough data". Archived pages of these boards cannot support conclusions about them yet.
+
+### Why the expansion stopped, and the next step
+
+While reading Ashby, Personio and Greenhouse pages in parallel with the index dump, `data.commoncrawl.org` started answering **HTTP 403** to this machine, even for single requests. That is Common Crawl's rate limiting. The run was stopped to let it recover.
+
+- The data access rate is set back to 1 request per 0.15 s.
+- The index dump is resumable: run `python stage1_cc_boards.py` again and it skips finished files.
+
+To bring UK and DE to n ≥ 300, the remaining free steps are:
+
+1. Finish the board index dump for CC-MAIN-2026-04 to CC-MAIN-2026-43, at one worker.
+2. Add German role terms to `roles.py`: Softwareentwickler, Software-Entwickler, Backend-/Frontend-/Fullstack-Entwickler, Teamleiter Softwareentwicklung.
+3. Read Personio (DE), Ashby and Greenhouse pages for UK/DE location and title. Greenhouse has no JSON-LD, so take the title and location from `<title>` and the page's embedded JSON.
+4. Re-run `stability.py`. Keep adding sources until UK and DE pass, or report them as not reconstructable.
+
+The other route is the live crawl that Alexey started in parallel (`alexeygrigorev/software-dev-jobs`, t3385u). For months from now on, it gives full populations for UK and DE without archive bias.
 
 ## Recommendation
 
-1. **New York:** Built In archives alone give about 50 to 110 in-scope postings a month for Jul 2025 to Jun 2026. That is close to the 100 target, so build it now.
-2. **London:** about 20 to 40 a month. Build it, and treat it as a sample that has n in the manifest.
-3. **Berlin:** under 15 a month, because Built In has little Berlin content. Built In archives cannot give a Berlin series.
-4. **To reach about 100 a month in London and Berlin for free,** run the same ZipNum method on the Common Crawl index for the ATS boards that host these jobs directly: `job-boards.greenhouse.io`, `jobs.ashbyhq.com`, `jobs.smartrecruiters.com` and `*.workable.com`. All of them publish JSON-LD `JobPosting`. Only `stage1_cc_zipnum.py`'s `PREFIX` and the parser need changing. This was not done in this task. Note that `jobs.lever.co` blocks CCBot.
-5. **Jul–Sep 2026:** both archives are thin. The live field-guide scrapes and JobsPipe (for live postings since Aug 2026) cover this period better.
+1. **US:** use Workday plus Built In from the archives. It meets the stability criterion (n ≈ 450–650 a month, role-mix shifts within sampling noise). Build the snapshots with fixed source quotas.
+2. **London (UK) and Berlin (DE):** the Built In archives give 20–40 and under 15 postings a month, and the measured add-on sources reach at most 67 (UK) and 24 (DE). That is below the criterion. Keep these as samples with their n reported, and expand with Personio, Ashby and Greenhouse reads once Common Crawl unblocks (steps above). Do not draw trend conclusions from them before they pass `stability.py`.
+3. **Always compare shares, never counts,** and drop months that carry a crawl-shift flag. The crawler, not the market, drives the counts.
+4. **Jul–Sep 2026:** the archives are thin (Built In 128–172 pages a crawl). The live crawl covers this period better.

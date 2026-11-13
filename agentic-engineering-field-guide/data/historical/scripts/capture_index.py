@@ -9,7 +9,8 @@ from pathlib import Path
 from roles import role_of, slug_of
 
 W = Path(__file__).resolve().parent.parent / "work"
-WINDOW = ("202507", "202611")
+import datetime
+WINDOW = ("202507", datetime.date.today().strftime("%Y%m"))  # through the current month
 
 
 def load(window=WINDOW):

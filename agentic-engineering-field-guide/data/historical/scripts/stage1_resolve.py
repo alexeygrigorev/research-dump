@@ -6,6 +6,7 @@ the shared cache, so stage 2 reuses them for free.
 
   python stage1_resolve.py cc        # Common Crawl links (range reads, fast)
   python stage1_resolve.py wb        # Wayback links (slow, 1 request / 1.5 s)
+  python stage1_resolve.py wb 202612 # only one month
 
 Output: ../work/resolved_<src>.jsonl, one row per (job_id, month).
 """
@@ -41,6 +42,7 @@ def resolve(task):
 
 def main():
     src = sys.argv[1]
+    only = set(sys.argv[2:])  # optional YYYYMM months; default all
     workers = 8 if src == "cc" else 1
     out_f = W / f"resolved_{src}.jsonl"
     done = set()
@@ -55,7 +57,7 @@ def main():
         if not role_of(refs[0]["slug"]):
             continue
         for month in sorted({r["month"] for r in refs if r["src"] == src}):
-            if (jid, month) in done:
+            if (jid, month) in done or (only and month not in only):
                 continue
             ref = [r for r in refs if r["src"] == src and r["month"] == month][0]
             tasks.append((jid, month, ref))

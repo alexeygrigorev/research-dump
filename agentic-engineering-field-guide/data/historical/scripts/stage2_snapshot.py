@@ -59,7 +59,7 @@ def refs_for_month(refs, month):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("city", choices=CITY)
-    ap.add_argument("months", nargs="+")
+    ap.add_argument("months", nargs="+", help="YYYYMM")
     ap.add_argument("--n", type=int, default=100)
     ap.add_argument("--max-fetch", type=int, default=2500, help="per month fetch budget")
     ap.add_argument("--seed", type=int, default=20261113)
@@ -74,7 +74,10 @@ def main():
     manifest = json.loads(manifest_f.read_text()) if manifest_f.exists() else {"samples": {}}
 
     claimed = set()  # job ids and urls already in any published sample
+    rebuilding = {outdir / f"{m[:4]}-{m[4:]}.jsonl.gz" for m in args.months}
     for f in ROOT.glob("*/*.jsonl.gz"):
+        if f in rebuilding:  # re-running a month replaces its own sample
+            continue
         for l in gzip.open(f, "rt"):
             r = json.loads(l)
             claimed.add(r["job_id"]); claimed.add(r["url"].split("?")[0])

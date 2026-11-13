@@ -46,7 +46,7 @@ def line_at(url, pos, total):
     return start, line
 
 
-def blocks(crawl):
+def blocks(crawl, PREFIX=PREFIX, END=END):
     url = BASE.format(c=crawl) + "cluster.idx"
     total = size(url)
     lo, hi = 0, total
@@ -84,8 +84,9 @@ def blocks(crawl):
         pos = pos + len(data.encode("utf-8")) - len(lines[-1].encode("utf-8"))
 
 
-def rows(crawl):
-    for f in blocks(crawl):
+def rows(crawl, prefix=PREFIX, end=END):
+    PREFIX = prefix
+    for f in blocks(crawl, prefix, end):
         _, fname, off, length = f[0], f[1], int(f[2]), int(f[3])
         raw = rng(BASE.format(c=crawl) + fname, off, off + length - 1)
         for l in gzip.decompress(raw).decode("utf-8", "replace").splitlines():
