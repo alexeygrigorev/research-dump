@@ -6,13 +6,16 @@
 
 Steps (all incremental, everything fetched is cached in ../work/html/):
   1. Common Crawl: dump the builtin.com/job/ index rows of every crawl since
-     CC-MAIN-2025-30 that is not on disk yet (ZipNum range reads, ~1 min/crawl).
+     CC-MAIN-2025-30 that is not on disk yet (ZipNum range reads, ~1 min/crawl),
+     the job-board index rows (stage1_cc_boards.py) and the Greenhouse company-board
+     panel (stage1_gh_listings.py, ~20-40 min per crawl) for those crawls.
   2. Wayback: CDX of builtin.com/job/* captures taken in that month.
   3. Wayback: CDX of the London/Berlin/New York listing pages in that month,
      then read each listing page and keep its job cards.
   4. Resolve the city of in-scope job links captured that month
      (Common Crawl in parallel, Wayback at 1 request / 1.5 s).
-  5. coverage.py -> ../coverage.json
+  5. coverage.py -> ../coverage.json; measure_sources.py (crawl bias per source per crawl);
+     stability.py (stopping criterion per region-month) -> ../stability.json
   6. stage2_snapshot.py <city> <month> for each city -> ../<city>/<YYYY-MM>.jsonl.gz + manifest
 
 Cost: $0. Common Crawl is read over plain HTTPS from data.commoncrawl.org (no AWS
@@ -102,6 +105,15 @@ def main():
     crawls = new_crawls()
     if crawls:
         run("stage1_cc_zipnum.py", *crawls)
+    # multi-source (t3382u): job-board index rows + the Greenhouse company-board panel for any crawl not read yet
+    board_todo = sorted(p.stem for p in (W / "cc_job_cdx").glob("*.jsonl")
+                        if not (W / "cc_boards" / "greenhouse" / p.name).exists())
+    if board_todo:
+        run("stage1_cc_boards.py", *board_todo)
+    gh_todo = sorted(p.stem for p in (W / "cc_boards" / "greenhouse").glob("*.jsonl")
+                     if not (W / "gh_listings" / f"{p.stem}.jsonl.gz").exists())
+    if gh_todo:
+        run("stage1_gh_listings.py", *gh_todo)
     cdx_month(W / "wayback_job_cdx", "month", ym,
               {"url": "builtin.com/job/", "matchType": "prefix",
                "fl": "timestamp,original,statuscode,mimetype,digest"})
@@ -113,6 +125,8 @@ def main():
     if not args.skip_wb_resolve:
         run("stage1_resolve.py", "wb", ym)
     run("coverage.py")
+    run("measure_sources.py")   # captures per source per crawl -> ../source_measurement.json (crawl bias)
+    run("stability.py")         # n, role-mix TVD vs noise, crawl-shift flags -> ../stability.json
     for city in args.cities:
         run("stage2_snapshot.py", city, ym, "--n", str(args.n), "--max-fetch", str(args.max_fetch))
     print("done:", args.month, "->", ", ".join(f"{c}/{args.month}.jsonl.gz" for c in args.cities), flush=True)
