@@ -277,6 +277,16 @@ Details, with one entry per source: [research-notes/practitioner-sources.md](res
 
 **Skills reported as missing:** evaluation and error analysis, control and guardrails for agents, agent security, cost management. One job-board analysis finds agents in 47.3% and RAG in 39.6% of AI-engineer postings, mostly senior (https://interviewstack.io/blog/how-ai-is-changing-ai-engineer-2026; single board, not representative).
 
+### 5.3 AI Engineering Field Guide (9,760 jobs, Feb–Nov 2026)
+
+Alexey's own corpus in `alexeygrigorev/ai-engineering-field-guide` (commit `ab21b128`, 9,760 builtin.com postings across 10 monthly scrapes Feb–Nov 2026; `role/02-skills.md`, `role/03-responsibilities.md`, `role/04-use-cases.md`, `role/07-trends.md`) provides direct empirical grounding for Track B ([variante-b-ai-engineering.md](variante-b-ai-engineering.md)):
+
+- **Applied integrator role, not model research:** 97.4% of postings are applied/production (only 2.6% research). Within AI-First roles (68.9% of the market), the integrator stack (RAG, agents, APIs) rose from 80.0% to **91.7%** (pure-integrator: 50.9% → **66.8%**), while the trainer stack fell from 37.5% to 27.2%. Fine-tuning is a primary responsibility in only **3.2%** of AI-First roles and absent from responsibilities in **86.0%**.
+- **RAG + Agents + MCP + LangChain/LangGraph:** Agents (any) appear in **56.2%** of all jobs (**74.0%** AI-First) and RAG in **40.1%** (**56.0%** AI-First); jobs requiring *both* rose from 33.1% to **51.0%** of AI-First postings. **LangChain** (21.1% overall, 76.8% of framework adopters) and **LangGraph** (14.4%, climbing 37.7% → **71.0%** among adopters) are the #1 co-occurring pair (3.5x lift). **MCP** (15.6%) is the fastest-rising named skill (9.9% → **20.4%**, +0.94 pp/scrape), followed by **Function Calling** (15.1%, 9.6% → **18.5%**).
+- **Evaluation & guardrails:** Evaluation-related skills appear in **61.8%** of AI-First roles, rising to **69.3%** in November ("Evaluation and Testing" in **79.0%** of November responsibilities). **Guardrails** rose from 10.2% to **17.5%** (19.8% AI-First); LLM-native eval/observability (`LangSmith`, `Langfuse`, `Guardrails`, `LLM Evaluation`) rose 26.7% → **34.5%** while classic MLOps (`MLflow`, `Kubeflow`) fell 19.9% → 14.5%.
+- **Full-stack & Ops beyond GenAI (86.9%):** Python (71.6% / **75.9%** AI-First), GenAI + Ops (**71.0%** AI-First: **CI/CD** 36.9%, **Docker** 24.2%, **Kubernetes** 23.6%, **Observability** 20.7%), GenAI + Web (**59.2%**: APIs 2,515, **FastAPI** 928, React 1,373), Vector DBs (2,201), PostgreSQL (1,020), SQL (14.6%, rising 11.1% → 14.9%), and Cloud (**AWS** 39.3% / 41.8% AI-First > Azure 29.7% > GCP 29.1%).
+- **Enterprise use cases:** Automating manual workflows (58.8%), internal operational efficiency (57.5%), agentic systems (49.9%), finding information in company data (43.8%), and document processing (13.3% → 16.0%) lead, while customer-facing Q&A fell **-13.8 pp** (44.7% → 30.9%). Junior/entry-level postings stayed at **0.8%–1.5%**, confirming the target group is working developers rather than beginners.
+
 ## 6. How to plan the curriculum
 
 Details: [research-notes/curriculum-design.md](research-notes/curriculum-design.md).

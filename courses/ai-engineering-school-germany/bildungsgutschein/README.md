@@ -13,7 +13,7 @@
 
 This set replaces the first draft from commit `e1cbab0`.
 
-- `variante-a-agentic-engineering.md` and `variante-b-ai-engineering.md` were rewritten in place. The first draft of variant A left out the AI Dev Tools Zoomcamp and the Substack articles; the new one is built on them.
+- `variante-a-agentic-engineering.md` and `variante-b-ai-engineering.md` were rewritten in place. The first draft of variant A left out the AI Dev Tools Zoomcamp and the Substack articles; the new one is built on them. On 13 November 2026, `variante-b-ai-engineering.md` was rebased on the refreshed **AI Engineering Field Guide** (`alexeygrigorev/ai-engineering-field-guide`, commit `ab21b128`, 9,760 job postings Feb–Nov 2026).
 - `appendix.md` was deleted. Its comparables table moved into [research.md](research.md#72-courses-priced-at-12000-or-more) with more programmes, and its checklist and open decisions are below.
 - This README replaces the earlier pricing README. The pricing analysis was kept and extended in [research.md](research.md#7-price-and-duration), with two corrections: the highest rate an FKS can approve alone is €19.32, not €19.33, and the note about holiday rules for courses over six months could not be verified.
 - The 12-week drafts in [../curriculum-options.md](../curriculum-options.md) are older and are kept only as history.
@@ -25,11 +25,11 @@ The two tracks are question 1 of the survey, [../materials/survey.en.md](../mate
 | | A. Agentic engineering | B. AI engineering |
 |---|---|---|
 | Alexey's definition | "agents help you build the product" | "AI is part of the product" |
-| Based on | AI Dev Tools Zoomcamp and his Substack articles | LLM Zoomcamp and the Maven course AI Engineering Buildcamp |
+| Based on | AI Dev Tools Zoomcamp and his Substack articles | LLM Zoomcamp, AI Engineering Buildcamp, and the AI Engineering Field Guide (`ab21b128`, 9,760 jobs) |
 | Audience | Developers who write code and have tried AI only a little | Developers and technical professionals who program, preferably in Python |
 | Starts with | Overview of the tools and setup, as in the first AI Dev Tools cohort | A Python service on an LLM API |
-| Base tool | Claude Code | Python, one agent framework |
-| Final project | A web application shipped to real users, improved from their feedback | A deployed assistant with measured strengths and failures |
+| Base tool | Claude Code | Python, LangChain + LangGraph (with PydanticAI compared) |
+| Final project | A web application shipped to real users, improved from their feedback | A deployed enterprise/operational assistant with measured strengths and failures |
 
 All teaching is by Alexey. No subcontractors.
 
