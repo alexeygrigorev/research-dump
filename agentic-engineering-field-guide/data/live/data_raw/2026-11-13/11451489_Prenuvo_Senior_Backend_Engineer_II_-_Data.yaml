@@ -1,0 +1,192 @@
+job_id: 11451489
+title: Senior Backend Engineer II - Data
+company: Prenuvo
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 211 Employees
+description: |
+  About Us
+
+  At Prenuvo, we are on a mission to flip the paradigm from
+  reactive “sick-care” to proactive health care. Our award-
+  winning whole body scan is fast (under 1 hour), safe (MRI
+  has no ionizing radiation), and non-invasive (no contrast).
+  Our unique integrated stack of optimized hardware, software,
+  and increasingly AI, coupled with the patient-centric
+  experience across our domestic and global clinics, have
+  allowed us to lead the change against “we caught it too late
+  again".
+
+  We are looking for a Senior Backend Engineer II - Data to
+  design, build, and maintain the data foundation that powers
+  our clinical products and workflows.
+
+  This is a software engineering role at its core. You will
+  play a key role in building and evolving our Medical Data
+  Server, working alongside the existing Medical Data Platform
+  team across its Python services, APIs, database
+  architecture, and production operations. You will also apply
+  industry best practices to design the data models,
+  integrations, and pipelines that make complex clinical
+  information reliable and accessible across Prenuvo products.
+
+  You will work with complex healthcare data, including FHIR
+  and HL7, to build reliable data models, integrations, and
+  pipelines. Your work will make clinical information
+  accessible and trustworthy across clinical applications,
+  reporting, analytics, and AI-enabled workflows.
+
+  This role does not provide visa sponsorship. Applicants must
+  be legally authorized to work in the United States at the
+  time of hire and must not require employer sponsorship for a
+  work visa (current or future).
+
+  Help reshape the world through proactive healthcare while
+  working with cutting-edge technology and high performing
+  teams with deep expertise - join us to make a difference in
+  people’s lives!
+
+  What You’ll Do
+
+  - Build and Evolve the Medical Data Server: Collaborate with
+    engineers across the Clinical Data team to design, build,
+    and operate the Python backend services and RESTful APIs
+    responsible for managing clinical data.
+  - Clinical Data Architecture: Partner closely with the
+    Architecture team and other engineering stakeholders to
+    design and evolve scalable clinical data models using
+    healthcare interoperability standards such as FHIR and
+    HL7. Help establish clear boundaries, ownership, and
+    contracts across clinical data domains.
+  - Data Pipeline Development: Build and maintain reliable batch
+    and event-driven pipelines that ingest, transform,
+    validate, and deliver clinical data across operational
+    systems, data platforms, reporting tools, and downstream
+    applications.
+  - Data Quality and Reliability: Establish automated
+    validation, testing, reconciliation, and monitoring to
+    identify incomplete, inconsistent, duplicated, or
+    incorrectly mapped clinical data before it affects users
+    or downstream systems.
+  - Data Modeling and Transformation: Develop maintainable
+    transformation layers and curated datasets that support
+    clinical reporting, operational analytics, product
+    functionality, and AI use cases.
+  - Data Governance and Lineage: Implement practices for data
+    documentation, lineage, provenance, versioning, retention,
+    and auditability. Help ensure clinical data remains
+    trustworthy and explainable throughout its lifecycle.
+  - Cross-Functional Collaboration: Work closely with clinical,
+    product, application engineering, architecture, data
+    analytics, and AI teams to translate clinical workflows
+    and business needs into durable technical solutions.
+  - Technical Leadership: Lead design discussions, contribute to
+    architectural decisions, review technical implementations,
+    mentor engineers, and help establish engineering standards
+    for clinical data development.
+
+  What You’ll Bring
+
+  - Backend Engineering Experience: 6–8 years of software
+    engineering experience, including ownership of production
+    services and databasesPython Expertise: Strong experience
+    building production Python applications and APIs using
+    frameworks such as FastAPI, Django, or Flask.
+  - Data Engineering: Experience designing and operating
+    scalable ingestion, transformation, and delivery pipelines
+    using batch, streaming, or event-driven patterns.
+  - Healthcare Data: Hands-on experience working with clinical
+    or healthcare data, including a strong understanding of
+    FHIR resources, HL7 standards, terminology, and
+    interoperability challenges.
+  - Data Modeling: Experience designing normalized, dimensional,
+    and domain-oriented data models. You understand how
+    modeling decisions affect data quality, usability, and
+    system performance.
+  - Engineering Ownership: Ability to independently lead complex
+    initiatives, make sound technical decisions, and balance
+    short-term delivery with long-term maintainability.
+
+  Nice to Have
+
+  - Experience working with FHIR servers, clinical data
+    repositories, electronic health record systems, or medical
+    imaging and reporting workflows.
+  - Familiarity with healthcare terminology standards such as
+    SNOMED CT, LOINC, ICD-10, or DICOM.
+  - Experience with cloud infrastructure, data pipelines, and
+    clinical reporting or AI-enabled healthcare products.
+
+  Our Values
+
+  First: we are Pioneers
+
+  - Transforming healthcare requires divergent thinking, bias
+    for action, disciplined experimentation, and consistent
+    grit and determination to maintain momentum. This journey
+    is as challenging as it is rewarding.
+
+  Second: we are Platform-Builders
+
+  - We’re always building foundations that allow us to achieve
+    tomorrow more than we did today. We never lose sight of
+    what’s ahead – in a mindset of ownership and duty to our
+    mission.
+
+  Above all: we are Patients
+
+  - We could all be the next person who walks through our very
+    doors, seeking clarity or peace of mind. We are proud of
+    our impact on our patients’ lives, and we won’t stop till
+    everyone can benefit from our work.
+
+  What We Offer
+
+  - An avenue to make a positive impact on people's lives and
+    their health
+  - We believe in preventative healthcare for everyone,
+    including our team - Prenuvo provides free, whole-body
+    scans to each team member
+  - Growth opportunities are at the heart of our people journey,
+    we’re doing big things with bright minds - there is no
+    single path to success, it can be shaped along the way
+  - Building strong relationships is at the core of everything
+    we do - our team gets together each week to connect,
+    share, and socialize
+  - Recognizing time away to restore is vital to our wellbeing -
+    we have a flexible vacation policy and we will encourage
+    you to use it
+  - Prenuvo offers a 401(k) retirement savings plan to eligible
+    employees, allowing team members to make pre-tax
+    contributions toward their retirement. While Prenuvo
+    facilitates access to the plan, the company does not
+    currently offer matching contributions.
+  - We offer a comprehensive benefits package including health,
+    dental, vision, including Mental Health coverage, to
+    support you and your family
+  - The base salary for this role is $165,000 to $180,000 in
+    local currency, depending on experience and geographic
+    location
+
+  We are an equal-opportunity employer and value diversity at
+  our company. We do not discriminate on the basis of race,
+  religion, color, national origin, gender, sexual
+  orientation, age, marital status, veteran status, or
+  disability status.
+
+  As part of the hiring process, successful candidates will
+  undergo a background check in compliance to applicable
+  federal, provincial, and state rules.
+
+  Please be advised that official communication from our
+  recruitment team will only come from our authorized domain
+  [prenuvo.com]. If you are contacted by a recruiter, please
+  ensure their email address ends with @prenuvo.com. We do not
+  use third-party recruitment services or any other email
+  domains for hiring purposes. If you receive communication
+  that you believe to be fraudulent, please report it
+  immediately to jobs@prenuvo.com.
+posted_date: 2026-09-30
+url: "https://builtin.com/job/senior-backend-engineer-ii-data/11451489"
+source: Built In

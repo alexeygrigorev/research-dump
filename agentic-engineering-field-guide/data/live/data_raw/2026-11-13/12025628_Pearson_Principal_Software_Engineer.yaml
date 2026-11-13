@@ -1,0 +1,178 @@
+job_id: 12025628
+title: Principal Software Engineer
+company: Pearson
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 29,811 Employees
+description: |
+  We are modernizing Pearson's content platform into a set of
+  shared platform services. You will be one of the principal
+  engineers leading that work hands-on. You design the target
+  systems and move content and users onto them safely. Full
+  stack here goes beyond front end and back end: the work
+  spans user interfaces, workflow orchestration, AI, backend
+  services, and cloud infrastructure. You will stay deep in
+  design and implementation while raising the technical
+  judgment and execution of the engineers around you.
+
+  What you will own
+
+  - The technical plan and delivery for several technology
+    tracks, such as consolidations, migrations, and other
+    large-scale initiatives, from target design through
+    launch.
+  - Migrations of large volumes of content and data, such as
+    assessment items or media assets, with verification that
+    nothing is lost or broken for downstream products.
+  - Shared capabilities that should be built once and used
+    everywhere, like media handling, search, rendering, or AI
+    content services, exposed through clean APIs.
+  - An honest, costed view of the technical debt in your systems
+    and what to fix first.
+  - Escalated incidents on your systems: you are the technical
+    point of contact when one has business impact, and you
+    stay on it through root cause and the fix that prevents a
+    repeat.
+  - Security and stability for the applications you own. That
+    covers runtime and framework upgrades, vulnerability and
+    penetration test remediation, secure data handling, and
+    disaster recovery plans that are documented, exercised,
+    and audit ready.
+  - Shared standards across teams for design patterns, tooling,
+    reliability, observability, performance, and evaluation,
+    including how AI-powered workflows are measured, tested,
+    and kept safe.
+  - The long-term technical roadmap for your area, and the
+    subject-matter expertise that comes with it.
+
+  How you will work
+
+  This is a hands-on engineering role, not an architecture
+  role. You will not be embedded in a single team; you will
+  work across the platform on initiatives and technical
+  problems that matter most to leadership. You own the
+  designs, the code on the critical path, and the engineering
+  calls that decide whether an initiative succeeds. You should
+  enjoy defining the problem as much as solving it.
+
+  - Write production code where the risk is highest and review
+    the hardest changes from other engineers.
+  - Unblock hard technical problems that span systems, teams, or
+    domains.
+  - Work with engineering managers, product managers,
+    architects, and quality engineering. When long-term
+    initiatives and current delivery compete for the same
+    people or code, make the tradeoff visible and help decide
+    it.
+  - Work directly with the people who use the platform across
+    Pearson's lines of business, and separate the foundational
+    problems from the incremental ones before the team
+    commits.
+  - Spot opportunities that cut across team and product
+    boundaries, bring stakeholders to a shared direction, and
+    carry the work from exploration through launch and
+    iteration.
+  - Make high-consequence technical decisions under ambiguity,
+    balancing speed and learning against scalability,
+    simplicity, and long-term maintainability. Hold views
+    grounded in evidence, and change them when the evidence
+    changes.
+  - Evaluate frameworks, tools, and vendors, and pilot practices
+    like contract testing, automated regression, and zero-
+    downtime migration before teams adopt them.
+  - Run technical feasibility reviews for new AI capabilities,
+    and work with internal teams and external partners to
+    assess and co-develop them.
+  - Use AI coding tools daily, particularly for large upgrades
+    and refactors, and help teams adopt them with sound review
+    habits.
+  - Act as a technical multiplier: review critical designs,
+    mentor engineers, and improve engineering practices.
+    Success includes the senior engineers around you becoming
+    owners of these systems too.
+
+  Minimum qualifications
+
+  - 12+ years building and operating production software,
+    including 4+ years at staff or principal level, or as
+    technical lead across several teams or a large multi-
+    service system.
+  - Led a re-platforming or legacy migration of a production
+    system with active users and data, through to switching
+    off the old system.
+  - Led the design and delivery of technically complex, user-
+    facing systems.
+  - Upgraded or migrated production systems off an end-of-life
+    runtime or framework.
+  - Full-stack depth in our core stack: Java and Spring Boot,
+    Node.js and TypeScript, and React, with MongoDB and event-
+    driven services (SQS, SNS, Kafka) behind APIs with many
+    consumers.
+  - Production experience on AWS, especially ECS Fargate,
+    Lambda, S3, and API Gateway, with observability (New
+    Relic, CloudWatch), CI/CD (GitHub Actions), and
+    infrastructure as code (Terraform).
+  - Writes clear design documents and migration plans, explains
+    tradeoffs to engineering, product, and executive
+    audiences, and influences without authority, especially
+    when the decision carries real uncertainty. We will ask
+    you to walk us through a document you wrote.
+  - Bachelor's degree in Computer Science or an equivalent
+    combination of education and experience.
+
+  Preferred qualifications
+
+  - Content platform experience: authoring and content
+    management, digital asset management, content
+    transformation pipelines, content delivery, or assessment
+    systems.
+  - Content and learning standards such as EPUB, XML/XSLT, QTI,
+    or LTI.
+  - Built or operated an LLM-backed feature in production, using
+    Python and services such as AWS Bedrock or Azure OpenAI,
+    and understands the problems AI brings: nondeterminism,
+    evaluation, latency, and safety.
+  - Moved a product off a commercial platform, such as a DAM or
+    CMS, onto in-house services.
+  - Search and caching with OpenSearch or Solr and Redis.
+  - Worked with distributed teams and delivery partners across
+    US and India time zones.
+
+  About PSG-CP
+
+  Pearson is the world's lifelong learning company. PSG-CP
+  (Pearson Software Group - Content Platform) builds and runs
+  the platform behind how Pearson creates, delivers, and
+  measures learning content, for every Pearson line of
+  business.
+
+
+
+  Apply now and help shape the future of learning.
+
+
+
+  Compensation at Pearson is influenced by a wide array of
+  factors including but not limited to skill set, level of
+  experience, and specific location. As required by the
+  California, Colorado, Hawaii, Illinois, Maryland, Minnesota,
+  New Jersey, New York State, New York City, Vermont,
+  Washington State, and Washington DC laws, the pay range for
+  this position is as follows:
+
+
+
+  The full-time salary range is between $150,000 - 170,000.
+
+  This position is eligible to participate in an annual
+  incentive program, and information on benefits offered is
+  here.
+
+
+
+  Applications will be accepted through 12th of December. This
+  window may be extended depending on business needs.
+posted_date: 2026-11-03
+url: "https://builtin.com/job/principal-software-engineer/12025628"
+source: Built In

@@ -1,0 +1,127 @@
+job_id: 11539972
+title: Backend Engineer
+company: Coralogix
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 198 Employees
+description: |
+  Description
+
+  Coralogix is a modern, full-stack observability platform
+  transforming how businesses process and understand their
+  data. Our unique architecture powers in-stream analytics
+  without reliance on expensive indexing or hot storage. We
+  specialize in comprehensive monitoring of logs, metrics,
+  trace and security events with features such as APM, RUM,
+  SIEM, Kubernetes monitoring and more, all enhancing
+  operational efficiency and reducing observability spend by
+  up to 70%.
+
+  We are looking for a Backend Engineer to join a growing
+  group! Our Alerting backend powers real-time, streaming-
+  based detection at massive scale, processing millions of
+  events per second with millisecond latency to catch issues
+  as they happen. Built with a distributed, event-driven
+  architecture, it supports complex pattern evaluation,
+  dynamic enrichment, and fault-tolerant delivery for mission-
+  critical observability
+
+  Our Stack
+
+  - Scala(ZIO)
+  - Kafka Streams / Akka Streams
+  - Kafka
+  - ElasticSearch, Redis
+  - Kubernetes
+  - AWS
+
+  ﻿What You'll Do
+
+  - Lead the design, development, and evolution of scalable,
+    high-impact systems.
+  - Own features end-to-end, ensuring predictable production
+    behavior from design through deployment.
+  - Solve complex technical challenges at scale using sound
+    engineering principles and modern stream processing
+    technologies.
+  - Collaborate closely with engineers and product managers to
+    continuously improve the product.
+  - Drive both technical excellence and meaningful user
+    outcomes.
+
+  Requirements
+
+  - 5+ years of software development experience.
+  - 3+ years of development experience with JVM stack - Java /
+    Kotlin / Scala - Advantage.
+  - 3+ years of experience developing and operating distributed
+    systems in production.
+  - Hands-on experience with observability platforms (Coralogix,
+    Grafana, etc.)
+  - Proven experience in building systems that are highly
+    available and reliable through strong architectural
+    practices, monitoring, and proactive incident management.
+  - Hands-on experience with Data Streaming technologies,
+    including Apache Kafka, Spark Streaming, KafkaStreams, or
+    Apache Flink.
+  - Proficiency in data modeling and designing systems to handle
+    large-scale, distributed datasets efficiently.
+  - Strong knowledge of distributed computing paradigms and
+    principles, such as consistency, partitioning, and
+    resilience.
+  - B.Sc. in Computer Science or an equivalent field.
+
+  Advantage
+
+  - Familiarity with gRPC and Protobuf.
+  - Hands-on experience with RocksDB optimizations and tuning
+  - Production experience in a SaaS environment - Metrics,
+    Logging, Troubleshooting production systems
+
+  Cultural Fit
+
+  We’re seeking candidates who are hungry, humble, and smart.
+  Coralogix fosters a culture of innovation and continuous
+  learning, where team members are encouraged to challenge the
+  status quo and contribute to our shared mission. If you
+  thrive in dynamic environments and are eager to shape the
+  future of observability solutions, we’d love to hear from
+  you.
+
+  Coralogix is an equal opportunity employer and encourages
+  applicants from all backgrounds to apply.
+industries:
+  - Machine Learning
+  - Software
+posted_date: 2026-10-07
+url: "https://builtin.com/job/backend-engineer/11539972"
+source: Built In

@@ -1,0 +1,151 @@
+job_id: 10189343
+title: Senior Full Stack Product Software Engineer
+company: Preset
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 67 Employees
+description: |
+  Location: Remote (US / Canada preferred)
+
+  Company: Preset
+
+  Team: Product Engineering
+
+  About Preset
+
+  Preset is the modern analytics platform built on Apache
+  Superset, the world’s leading open-source BI tool. We help
+  companies deliver fast, beautiful, governed analytics at
+  scale — without locking them into proprietary data modeling
+  layers or closed ecosystems.
+
+  We work at the intersection of open source, cloud
+  infrastructure, and product-led analytics, building tools
+  that serve everyone from data analysts to platform
+  engineers.
+
+  The Role
+
+  Preset is looking for a senior full stack engineer to help
+  lead the next generation of our product and platform. This
+  is a high-impact role for someone who thrives in complex
+  systems, cares deeply about user experience, and wants to
+  shape the future of open analytics.
+
+  You will work across the stack — from frontend experiences
+  in Superset to backend services, APIs, and cloud
+  infrastructure — and play a key role in technical direction,
+  mentorship, and execution of major product initiatives.
+
+  This is not a narrow feature-only role: you will be trusted
+  to own ambiguous problems, drive architecture decisions, and
+  help scale both the product and the engineering
+  organization.
+
+  What You’ll DoBuild across the full stack
+
+  - Design and ship end-to-end product features spanning
+    frontend, backend, and infrastructure
+  - Work deeply in the Superset ecosystem (React + Python + SQL
+    + APIs)
+  - Improve performance, scalability, and reliability of user-
+    facing workflows
+
+  Own major technical initiatives
+
+  - Lead large projects such as semantic layer integrations,
+    caching/performance improvements, embedded analytics
+    experiences, or permissions modernization
+  - Drive technical planning, tradeoff discussions, and
+    execution across teams
+
+  Raise engineering standards
+
+  - Set best practices for code quality, testing, observability,
+    and maintainability
+  - Mentor senior and junior engineers and strengthen team
+    execution
+
+  Collaborate cross-functionally
+
+  - Partner with product, design, and customer-facing teams to
+    deliver impactful outcomes
+  - Work closely with open-source contributors and the Apache
+    Superset community
+
+  Shape the future of analytics + AI
+
+  - Build workflows that support AI-assisted analytics, LLM
+    integrations, and next-generation BI experiences
+  - Help define what “modern analytics” looks like in an open
+    ecosystem
+
+  What We’re Looking ForExperience
+
+  - 6+ years of professional software engineering experience (or
+    equivalent)
+  - Strong full stack background: modern frontend + backend +
+    systems thinking
+  - Experience leading major initiatives in complex production
+    environments
+
+  Technical Strength
+
+  - Deep knowledge of:
+    - React + TypeScript (frontend architecture, performance, UX)
+    - Python backend development (APIs, services, async systems)
+    - SQL and data-intensive applications
+  - Comfort working in cloud-native environments (AWS,
+    Kubernetes, Docker)
+
+  Product + Systems Mindset
+
+  - You care about the user experience as much as the backend
+    correctness
+  - You think in systems: reliability, scalability, operability,
+    long-term evolution
+  - You thrive in ambiguity and enjoy turning messy problems
+    into clear solutions
+
+  Leadership
+
+  - Proven ability to mentor engineers and raise the bar across
+    a team
+  - Strong communication and collaboration skills
+  - Ability to drive alignment without heavy process
+
+  Bonus Points
+
+  - Experience with BI tools: Superset, Looker, Tableau,
+    PowerBI, Mode, etc.
+  - Familiarity with semantic layers: dbt, Cube, MetricFlow,
+    etc.
+  - Open source experience (especially Apache ecosystem)
+  - Experience building embedded analytics or multi-tenant SaaS
+    platforms
+  - Interest in AI/LLM-enabled developer and analytics workflows
+
+  Why Preset
+
+  - Work on one of the most widely adopted open-source analytics
+    platforms in the world
+  - Solve challenging problems at the intersection of data,
+    product, and infrastructure
+  - Help define the future of open, composable BI (not closed
+    dashboards)
+  - High autonomy, high trust engineering culture
+  - Opportunity to lead at Staff/Principal scope with real
+    ownership
+
+  Compensation
+
+  The base pay range for this role is $100,000 – $150,000 per
+  year.
+industries:
+  - Software
+  - Database
+  - Analytics
+posted_date: 2026-08-09
+url: "https://builtin.com/job/senior-full-stack-product-software-engineer/10189343"
+source: Built In

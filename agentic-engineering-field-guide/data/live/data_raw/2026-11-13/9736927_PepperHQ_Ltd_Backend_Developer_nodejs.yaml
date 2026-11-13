@@ -1,0 +1,95 @@
+job_id: 9736927
+title: Backend Developer (nodejs)
+company: PepperHQ Ltd.
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - GBR
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  - London, GBR
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  If you've ever used an App to order coffee or food, or pay a
+  bill in a restaurant, you may have been one of the millions
+  of users who use our platform for convenience in ordering,
+  to speed up paying, and to earn rewards. We're a UK based
+  company building the leading mobile hospitality platform,
+  and that means designing and building iOS and Android Apps,
+  management web portals, backend services, e-pos integrations
+  and much more.
+
+  We a vacancy for an experienced developer to join our UK
+  team where you help us design, build and operate Pepper's
+  services in AWS.
+
+  The Role
+
+  We are looking for people who have a passion for coding, who
+  are excited by trying all the latest tools and cloud
+  technologies, and love to build high quality software.
+
+  This is a role highly focused on coding and designing for
+  the cloud. You'll be adding new backend services and
+  features into our multi service platform. That might be to
+  support new user facing features, or to add integrations to
+  other payment gateways and EPOS systems, or to improve
+  performance, monitoring and deployment automation throughout
+  our platform.
+
+  You will be using modern cloud tools and technology - all
+  AWS hosted. Our primary stack is Typescript and Nodejs, with
+  Mongo Atlas, Postgres RDS or Dynamodb for storage.
+
+  We use agile processes pragmatically (no scrum), we try and
+  automate everything including infrastructure, CI/CD and QA.
+
+  Who Should Apply
+
+  We are looking for mid level to senior candidates who have
+  several years experience in a professional development team,
+  and like to collaborate and share ideas. Apply if you like
+  the sound of what we are doing and have experience in the
+  technology we are using.
+
+  In particular you'll need:
+
+  - Expert coding experience in Typescript / Javascript / Nodejs
+    and building cloud services
+  - A university degree in a STEM subject
+  - Excellent A levels or equivalent
+  - Fluent spoken English
+industries:
+  - Mobile
+  - Payments
+  - Software
+  - Hospitality
+posted_date: 2026-10-19
+url: "https://builtin.com/job/backend-developer-nodejs/9736927"
+source: Built In

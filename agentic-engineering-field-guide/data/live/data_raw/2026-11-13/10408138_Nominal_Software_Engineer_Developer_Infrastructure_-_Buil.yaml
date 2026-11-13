@@ -1,0 +1,130 @@
+job_id: 10408138
+title: Software Engineer, Developer Infrastructure - Build Systems
+company: Nominal
+location: Austin, USA
+locations:
+  - Austin, USA
+  - Seattle, USA
+  - New York, USA
+  - Los Angeles, USA
+work_type: FULL_TIME
+company_size: 87 Employees
+description: |
+  About Nominal
+
+  Engineers today are building some of the most ambitious
+  machines humanity has ever seen. They should have AI that’s
+  purpose-built for them.
+
+  Nominal is building the Hardware Intelligence Platform that
+  gives engineers increased visibility into complex physical
+  systems, helps them make better decisions, and ultimately
+  gets their products into the real world faster. It brings
+  together the systems, data, intelligence, and applications
+  hardware engineering requires to meet the AI moment.
+  Hardware engineering teams use Nominal to simulate, test,
+  manufacture, and operate the physical systems that keep the
+  world moving, from spacecraft and autonomous vehicles to
+  next-generation energy systems and robotics.
+
+  Our customers span aerospace, defense, manufacturing,
+  transportation, energy, and robotics. They include Anduril,
+  Shield AI, Wisk Aero, Pratt Miller Motorsports, Antares, and
+  Shinkei Systems, amongst others, alongside programs within
+  the U.S. Air Force and Navy. Our team draws from SpaceX,
+  Palantir, Anduril, Applied Intuition, Tesla, and other
+  leading companies, united by a common mission: giving
+  hardware engineers the tools to build the future with speed,
+  safety, and confidence. We're a fast-moving team that owns
+  problems end-to-end, works across disciplines, and thrives
+  at the intersection of hardware and software.
+
+  Some of the world’s leading technology investors, including
+  Sequoia, Lightspeed, Founders Fund, General Catalyst, Lux
+  Capital, and Insight Partners, are backing Nominal’s
+  ambition to change how machines are built and operated.
+  We’re looking for engineers who want to take on hard
+  problems and help make a new generation of world-changing
+  hardware possible.
+
+  🚀 About the role
+
+  - Build, optimize, and maintain Nominal's large-scale build
+    systems, with Bazel as the highest priority.
+  - Improve CI/CD pipeline performance, release automation, and
+    release reliability.
+  - Own developer infrastructure that enables engineering
+    velocity as our monorepo and engineering organization
+    scale.
+  - Build and maintain observability, telemetry, logging, and
+    metrics infrastructure using tools like Datadog, Grafana,
+    and OpenTelemetry.
+  - Partner closely with product engineering teams to remove
+    developer friction and improve day-to-day engineering
+    productivity.
+
+  ⚡ Skills that accelerate us
+
+  - 4+ years building, optimizing, and maintaining build systems
+    at scale.
+  - Experience with Bazel or similar build systems.
+  - Experience working in and scaling large monorepos.
+  - A track record of improving CI/CD performance, release
+    reliability, and developer productivity using measurable
+    outcomes.
+  - Practical, startup-minded engineering philosophy - You don't
+    let perfect be the enemy of good, but you approach
+    problems from first principles and build solutions that
+    scale.
+  - Comfortable owning developer infrastructure end to end, from
+    build tooling and CI/CD to release automation and
+    engineering productivity.
+
+  ✅ Nice to have:
+
+  - Datadog
+  - Grafana
+  - OpenTelemetry
+  - Audit logging
+  - Kubernetes
+  - Remote build caches
+  - Ephemeral development environments, or other developer
+    platform tooling.
+
+  ✨ Benefits/Perks
+
+  - 🏥 100% coverage of medical, dental, and vision insurance
+  - 🏖️ Unlimited PTO and sick leave
+  - 🍽️ Free lunch, snacks, and coffee
+  - 🚀 Professional Development Stipend
+  - 🛠️ In-office hardware lab with a $250 project stipend
+  - ✈️ Annual company retreat
+  - 👶 12 weeks parental leave
+  - 🌱 Fertility and family planning ($15,000 lifetime)
+  - 💪 Wellness stipend ($100/month)
+  - 🛠️ $500/year hardware sensor stipend
+  - 💼 401(k)
+  - 📈 Employee-friendly equity terms
+  - 🏢 In-office 5 days per week
+
+  All qualified applicants will receive consideration for
+  employment without regard to race, color, religion, sex,
+  sexual orientation, gender identity, or national origin.
+
+  ITAR Requirements
+
+  To conform to U.S. Government export regulations, applicant
+  must be a (i) U.S. citizen or national, (ii) U.S. lawful,
+  permanent resident (aka green card holder), (iii) Refugee
+  under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158,
+  or be eligible to obtain the required authorizations from
+  the U.S. Department of State. Learn more about the ITAR
+  here.
+
+  Compensation
+
+  The base pay range for this role is $179,000 – $250,000 per
+  year.
+posted_date: 2026-08-23
+url: "https://builtin.com/job/software-engineer-developer-infrastructure-build-systems/10408138"
+source: Built In

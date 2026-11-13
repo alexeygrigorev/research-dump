@@ -1,0 +1,137 @@
+job_id: 11809285
+title: Software Developer
+company: Solen Software Group
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 27 Employees
+description: |
+  Job Title: Software Developer Company: SMRTR Location:
+  United States or Canada, Remote Employment Type : Full-time
+
+  About SMRTR
+
+  SMRTR builds software that helps businesses run more
+  efficiently. Together with our sister companies Shea, a
+  SYSPRO ERP partner, and DTEC, a distribution ERP provider,
+  we are part of Solen Software Group. Our customers rely on
+  us every day, and our Subscriptions, Renewals, Collections &
+  Accounting team keeps that relationship healthy, making sure
+  software subscriptions, renewals and services are billed on
+  time and accurately, and that outstanding balances are
+  resolved quickly and professionally.
+
+  The Opportunity
+
+  We are looking for a software developer with 3–5 years of
+  experience to build product features and integrations for NG
+  and SMRTR TRAC. Our stack is Vue, TypeScript, Node.js and
+  PostgreSQL, with services on the JVM (Scala).
+
+  Working with our Director of Software Engineering, you will
+  help deliver our 2027 roadmap: connecting our products to
+  the ERP systems our customers run (starting with SYSPRO),
+  AI-powered document capture, and new NG and TRAC features.
+  You will join a small, experienced team where what you build
+  reaches customers quickly.
+
+  Key Responsibilities
+
+  Product development
+
+  - Build features across the front end (Vue, TypeScript) and
+    back end (Node.js, Scala/JVM) for NG and SMRTR TRAC.
+  - Design and work with PostgreSQL data models and queries (and
+    some MongoDB), with attention to performance.
+  - Fix defects and improve the reliability of the products you
+    work on.
+
+  Integrations and APIs
+
+  - Build and maintain REST APIs and integrations between NG /
+    SMRTR TRAC and ERP systems such as SYSPRO, Microsoft
+    Dynamics 365, VAI and NCR, following the team's
+    integration patterns.
+  - Contribute to AI document capture (classification and data
+    extraction) and the print-to-NG driver.
+
+  Delivery and collaboration
+
+  - Turn requirements from Professional Services, Sales and
+    customers into working software, with guidance from
+    engineering leadership.
+  - Estimate your own tasks and deliver to agreed dates.
+  - Support go-lives and help troubleshoot production issues.
+
+  Engineering practices
+
+  - Write tested, reviewed and secure code in our GitHub-based
+    workflow with CI/CD.
+  - Write clear technical documentation and release notes.
+  - Use AI-assisted development tools to work faster, safely.
+
+  What You Bring
+
+  Required
+
+  - 3–5 years of professional software development experience.
+  - Production experience with Vue.js, TypeScript and Node.js.
+  - PostgreSQL: schema design, SQL and query performance.
+  - JVM experience, preferably Scala.
+  - Experience building REST APIs and integrating with third-
+    party systems.
+  - Git-based workflows, code review and automated testing.
+  - Clear communication with colleagues and, when needed,
+    customers.
+  - Authorized to work in the United States or Canada; set up
+    for remote work.
+
+  Nice to Have
+
+  - MongoDB.
+  - Android or Xamarin.
+  - ERP integration experience (e.g., SYSPRO, Microsoft Dynamics
+    365, VAI, NCR).
+  - Document management, OCR or AI document capture.
+  - Experience with manufacturing, distribution or food &
+    beverage software.
+
+  How Success Is Measured
+
+  - Features and integrations delivered on schedule
+  - Quality: defects and production incidents in your code
+  - Accuracy of estimates on your own work
+  - Growing ownership of product areas over the year
+
+  Compensation and Benefits
+
+  - Base salary of USD 65,000–85,000 (United States) or CAD
+    95,000–110,000 (Canada), depending on experience and
+    location
+  - Benefits according to country of employment (in the US:
+    health, dental and vision insurance and a 401(k) with
+    company match)
+  - Paid time off and company holidays
+  - Fully remote work with a collaborative, experienced team
+
+  Recruitment Disclaimer
+
+  Solen Software Group will never request payment, banking
+  information, or other sensitive personal or financial
+  details during any stage of the recruitment process. All
+  official communication will come from a
+  verified @solensoftwaregroup.com email address. Any outreach
+  outside these standards should be disregarded and reported
+  through our official channels.
+
+  We thank all applicants for their interest in joining Solen
+  Software Group. Only candidates selected for an interview
+  will be contacted.
+industries:
+  - Fintech
+  - Payments
+  - Software
+  - Financial Services
+posted_date: 2026-10-22
+url: "https://builtin.com/job/software-developer/11809285"
+source: Built In

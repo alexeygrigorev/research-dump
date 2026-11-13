@@ -1,0 +1,294 @@
+job_id: 11501799
+title: Principal Full Stack Engineer
+company: Sleek
+location: VNM
+locations:
+  - VNM
+  - IND
+  - PHL
+  - AUS
+  - Singapore, SGP
+remote: true
+work_type: FULL_TIME
+company_size: 405 Employees
+description: |
+  Through proprietary software and AI, along with a focus on
+  customer delight, Sleek makes the back-office easy for micro
+  SMEs.
+
+  We give Entrepreneurs time back to focus on what they love
+  doing - growing their business and being with customers.
+  With a surging number of Entrepreneurs globally, we are
+  innovating in a highly lucrative space.
+
+  We operate 3 business segments:
+
+  Corporate Secretary: Automating the company incorporation,
+  secretarial, filing, Nominee Director, mailroom and
+  immigration processes via custom online robots and
+  SleekSign. We are the market leaders in Singapore with ~5%
+  market share of all new business incorporations
+
+  Accounting & Bookkeeping: Redefining what it means to do
+  Accounting, Bookkeeping, Tax and Payroll thanks to our
+  proprietary SleekBooks ledger, AI tools and exceptional
+  customer service
+
+  FinTech payments: Overcoming a key challenge for
+  Entrepreneurs by offering digital banking services to new
+  businesses
+
+  Sleek launched in 2017 and now has around 17,500 customers
+  across our offices in Singapore, Hong Kong, Australia and
+  the UK. We have around 600 staff with an intact startup
+  mindset.
+
+  We have recently raised Series B financing off the back of
+  >70% compound annual growth in Revenue over the last 5
+  years. Sleek has been recognised by The Financial Times, The
+  Straits Times, Forbes and LinkedIn as one of the fastest
+  growing companies in Asia.
+
+  Backed by world-class investors, we are on track to be one
+  of the few cash flow positive, tech-enabled unicorns based
+  out of Asia Pacific.
+
+  At Sleek, we are on a mission to streamline operations and
+  elevate customer experience through intelligent automation
+  and modern engineering.
+
+  About the Role:
+
+  As a Principal Full Stack Engineer, you will be one of
+  Sleek’s most senior individual contributors, leading the
+  architectural vision and end-to-end delivery of complex web
+  applications and core platform services. You'll operate with
+  a high degree of autonomy, solving ambiguous engineering
+  problems while helping raise the technical standards of the
+  wider engineering organisation.
+
+  Mission:
+
+  In this role you will balance deep technical execution
+  across the full stack—from intuitive user interfaces to
+  scalable distributed backend systems—while championing
+  developer productivity and embedding agentic AI workflows
+  into our products.
+
+  Key Outcomes: 1. Full Stack Architecture & Product Delivery
+
+  Architect, build, and maintain production-grade SaaS
+  applications across the entire stack using modern
+  JavaScript/TypeScript, frontend frameworks (React/Vue), and
+  backend environments (Node.js/NestJS).
+
+  Design resilient APIs, database schemas (Postgres, MongoDB),
+  and cloud-native services capable of scaling with business
+  growth.
+
+  Partner closely with Product, Design, and Engineering
+  leaders to turn complex operational and financial challenges
+  into simple, robust software solutions.
+
+  2. Agentic AI Integration
+
+  Architect and implement agentic AI capabilities and
+  intelligent workflows into production applications (e.g.,
+  document processing, automated classification, and decision-
+  support systems).
+
+  Establish reliability patterns for AI features, including
+  guardrails, evaluation frameworks, fallback strategies, and
+  observability for model behavior.
+
+  3. Harness Engineering & Engineering Productivity
+
+  Build and maintain engineering harnesses, automated
+  workflows, and internal developer tooling that eliminate
+  friction in the engineering lifecycle.
+
+  Introduce modern AI-assisted development tools (such as
+  Cursor, automated test/documentation generators, and
+  debugging aids) to significantly increase productivity
+  across the entire engineering organization.
+
+  4. Platform Performance & Technical Leadership
+
+  Identify and eliminate performance bottlenecks in APIs, data
+  pipelines, and backend microservices.
+
+  Mentor senior and mid-level engineers, lead technical
+  architecture reviews, and raise the bar for code quality,
+  testing, and system design across Sleek.
+
+  Requirements
+
+  Must-Have Requirements:
+
+  - Depth— 8+ years shipping and running production SaaS.
+  - Architecture— scalable distributed systems, APIs, and
+    service boundaries you've had to live with.
+  - TypeScript / Node.js— years in this ecosystem, not a recent
+    port from another language. Relational and document
+    databases both.
+  - Full-stack ownership— you take a feature from schema to API
+    to UI and out to production without handing off the parts
+    you like least. You're strongest somewhere, but you're not
+    helpless anywhere.
+  - Developer platform— you've built internal developer tooling,
+    automation, and paved paths that other engineers depend on
+    daily, and treated them as products with users rather than
+    side projects.
+  - Cloud and operations— you deploy it, monitor it, respond to
+    incidents, and continuously improve it in production.
+    Observability and security are part of the job, not
+    someone else's.
+  - Production AI — You've built and shipped AI-powered product
+    capabilities (agents, intelligent automation, document
+    processing, workflow orchestration, or similar) and
+    understand how to evaluate, monitor, and improve them in
+    production.
+  - Force multiplier— you've raised the people around you
+    through mentoring and standards that outlast you.
+  - Autonomy — You thrive in ambiguous environments, proactively
+    identify problems worth solving, and drive technical
+    outcomes without relying on detailed task management.
+
+  What Success Looks Like
+
+  - You pick up ambiguous problems and come back with a
+    direction to argue about, not just a list of questions.
+  - You use AI tooling aggressively on your own work, and you're
+    honest about where it fails.
+  - You'd rather delete code than add it, and you can tell which
+    is which.
+  - You say when something is a bad idea, including when it's
+    ours.
+  - You leave the codebase and the people around you better than
+    you found them.
+  - You treat production incidents as your problem regardless of
+    who wrote the code.
+
+  Nice-to-Have Experience
+
+  - Our stack— NestJS, React or Vue, Postgres or MySQL, MongoDB,
+    AWS, Kubernetes or Rancher.
+  - Tooling and observability— Cursor, Claude Code, or Copilot;
+    Grafana, Prometheus, OpenTelemetry.
+  - Applied AI—agentic systems, multi-agent workflows, LLM
+    observability, sandboxed agent execution, and AI data
+    pipelines.
+  - Context— async work in globally distributed teams; FinTech,
+    Accounting, Compliance, or RegTech.
+
+  The interview process
+
+  The successful candidate will participate in the below
+  interview stages. We anticipate the process to last no more
+  than 3 weeks from start to finish.
+
+  Whether the interviews are held over video call or in person
+  will depend on your location and the role.
+
+  Talent Acquisition Screen (30 minutes)
+
+  An introductory conversation with a member of our Talent
+  Acquisition team to learn more about your background,
+  motivations, and overall fit for the role.
+
+  Technical Deep Dive (60 minutes)
+
+  A discussion with a member of the Engineering team focused
+  on your recent experience, technical ownership, architecture
+  decisions, AI experience, and engineering approach.
+
+  Technical Panel Interview (90 minutes)
+
+  A live technical interview with a panel of two engineers
+  covering system design, distributed systems, software
+  architecture, AI engineering, production systems,
+  reliability, engineering trade-offs, and developer
+  productivity.
+
+  Engineering Leadership Interview (45–60 minutes)
+
+  A behavioural discussion with Engineering Leadership
+  exploring ownership, communication, technical leadership,
+  decision-making, mentoring, and how you work in ambiguous
+  environments
+
+  Reference Verification
+
+  Prior to final offer confirmation, we will conduct one
+  professional reference check with your recent direct manager
+  or supervisor. To keep the process moving smoothly, this
+  step may be initiated during the final interview stages
+
+  Requirement for background screening
+
+  Please be aware that Sleek is a regulated entity and as such
+  is required to perform different levels of background checks
+  on staff depending on their role.
+
+  This may include using external vendors to verify the below:
+
+  Your education
+
+  Any criminal history
+
+  Any political exposure
+
+  Any bankruptcy or adverse credit history
+
+  We will ask for your consent before conducting these checks.
+  Depending on your role at Sleek, an adverse result on one of
+  these checks may prohibit you from passing probation.
+
+  By submitting a job application, you confirm that you have
+  read and agree to our Data Privacy Statement for Candidates,
+  found at sleek.com.
+
+  Benefits
+
+  Some other great things about working at Sleek…
+
+  Humility and kindness: Humility is a core attribute we hire
+  for, which means we have a culture of not taking ourselves
+  too seriously and being able to laugh. Kindness is also
+  incredibly important. We are committed to creating and
+  nurturing a diverse and inclusive environment.
+
+  Flexibility: You’ll be able to work remotely. If you need to
+  start early or start late to cater to your family or other
+  needs, we don’t mind, so long as you get your work done and
+  proactively communicate. You can also work fully remote from
+  anywhere in the world for 1 month each year
+
+  Financial benefits: We pay competitive market salaries and
+  provide staff with generous paid time off and holiday
+  schedules. Certain staff at Sleek are also eligible for our
+  employee share ownership plan and can share in the upside of
+  our stellar growth trajectory as we work toward listing on a
+  prominent stock exchange in the Asia Pacific region.
+
+  Personal growth: You’ll get a lot of responsibility and
+  autonomy at Sleek - we move at a fast pace so you’ll be
+  making decisions, making mistakes and learning. There’s also
+  a range of internal and external facing training programmes
+  we run. We’re also at the forefront of utilising AI in our
+  space and are developing a regional centre of AI excellence.
+  It is our intention that if you leave Sleek, you leave as a
+  more well-rounded person and professional.
+
+  Sleek is also a proudly certified B Corp.  Since we started
+  our journey in 2017, we’ve been committed to building Sleek
+  as a force for good. In just over 5 years, we’ve joined a
+  community of industry leaders like Patagonia, Ben & Jerry's,
+  and P&G who are building an inclusive, equitable, and a
+  regenerative economy.
+industries:
+  - Fintech
+  - Financial Services
+posted_date: 2026-10-05
+url: "https://builtin.com/job/principal-full-stack-engineer/11501799"
+source: Built In

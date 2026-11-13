@@ -1,0 +1,185 @@
+job_id: 8761061
+title: Full Stack Software Engineer - Canada
+company: Reacher
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 17 Employees
+description: |
+  About Reacher
+
+  Reacher is a YC backed AI SaaS platform building the
+  operating system for TikTok Shop brands and creators. We’re
+  backed by Y Combinator, Pioneer Fund, Rebel Fund, and
+  operators including Steve Huffman (CEO of Reddit), Matteo
+  Franceschetti (CEO of Eight Sleep), Theo Browne (t3.gg),
+  Kulveer Taggar (Zeus Living), and Jake Mintz (Bump). We have
+  years of runway and are scaling fast with some of the
+  biggest brands in the world (UnderArmour, Hanes, Logitech,
+  Goli)
+
+  Our vision is to become the Hubspot for creator marketing,
+  powering brands and creators to connect and grow across all
+  commerce platforms (Youtube Shopping, Instagram Shopping,
+  Shopify, Amazon). We're building key infrastructure for the
+  creator economy and implementing AI with the world's largest
+  brands and creators.
+
+  Your work will directly impact users on day 1 - our user
+  base depends on our product daily.
+
+  We build with AI, not around it. Our engineering team uses
+  Claude Code and agentic coding tools as our primary
+  development environment. If you're spending your days
+  directing AI agents to ship code while you focus on
+  architecture, review, and system design — and you can't
+  imagine working any other way — keep reading.
+
+  What You'll Do
+
+  - Own and lead product features end-to-end: research, design,
+    implement, test, and ship
+  - Lead and shape engineering architecture - set standards for
+    code quality, testing, and development practices across
+    the stack
+  - Mentor and guide other engineers in adopting AI-native
+    workflows, establishing best practices and patterns
+  - Talk directly to customers and translate vague requirements
+    into polished user experiences
+  - Design scalable backend systems (Python, FastAPI,
+    PostgreSQL, GCP)
+  - Build responsive, delightful UIs (React, TypeScript,
+    Tailwind, shadcn/ui)
+  - Write clean, maintainable, and testable code with minimal
+    oversight
+  - Drive architectural decisions and engineering processes that
+    maximize AI-assisted development velocity
+  - Ship fast and learn fast - high urgency environment
+
+  You're a Fit If
+
+  Engineering Foundations:
+
+  - 2–6 years of professional full-stack experience at a
+    product-first company or FAANG-level environment (Senior
+    SDE ownership expected)
+  - Comfortable building features across the entire stack—from
+    schema design and backend APIs to pixel-perfect,
+    accessible frontend
+  - Care deeply about product, design, and user experience—not
+    just code
+  - Have owned something meaningful end-to-end (a product
+    module, infrastructure refactor, major feature launch)
+  - Can set standards for engineering quality and architectural
+    decisions in an AI-native environment
+  - Resourceful and thrive in ambiguous environments—you figure
+    things out independently
+  - Have strong product intuition and can push back on
+    requirements when needed to improve outcomes
+
+  AI-Native Development:
+
+  - AI coding experience is your most important and necessary
+    skill - you have deep understanding of modern coding
+    tools, specifically Claude Code, and are proficient with
+    its various modes (Interactive, Plan, Headless, Agent
+    Teams, Delegate)
+  - You're "AI-pilled" when it comes to problem-solving - you
+    tackle any new problem, skill, or architectural challenge
+    by leveraging AI tools and an AI-driven workflow. This is
+    your default approach, not an experiment
+  - Strong systems thinking and architectural awareness - you
+    direct AI to build while you architect, review, and
+    verify. You know when AI output is correct and when it
+    needs correction
+  - Can demonstrate recent AI-native work - you've shipped
+    meaningful projects in the last 90 days where AI coding
+    tools were your primary development environment
+
+  Technical Skills We Value
+
+  AI and Agentic Development:
+
+  - Claude Code proficiency: understanding of modes, context
+    engineering (CLAUDE.md), custom commands, MCP
+    integrations, and subagent coordination
+  - AI-driven development workflows and effective prompt
+    engineering
+  - Ability to decompose complex engineering work into tasks
+    suitable for AI assistance
+  - Strong judgment for when to leverage AI vs. when to code
+    directly
+  - Experience verifying and reviewing AI-generated code for
+    correctness, security, and maintainability
+
+  Backend:
+
+  - Python, FastAPI, PostgreSQL
+  - System design and scalable architecture
+  - GCP/cloud infrastructure
+  - API design (REST/GraphQL)
+
+  Frontend:
+
+  - React, TypeScript, Next.js
+  - Tailwind CSS, shadcn/ui
+  - State management (Redux, Zustand, React Query)
+  - Frontend performance optimization and accessibility (WCAG)
+
+  General:
+
+  - Testing frameworks (Jest, React Testing Library,
+    Cypress/Playwright)
+  - Code reviews, documentation, and establishing conventions
+  - Product analytics tools (Amplitude, Mixpanel) for data-
+    driven development
+
+  Bonus Points If
+
+  - Experience building autonomous agents with the Claude Agent
+    SDK or similar agentic frameworks—you understand multi-
+    agent orchestration, MCP integrations, and production
+    agent deployment
+  - Experience with AI image/video generation or manipulation -
+    familiarity with tools like Midjourney, Runway, Stable
+    Diffusion, Sora, or integrating generation APIs into
+    product workflows
+  - You've worked at an early-stage startup or been a
+    first/early engineering hire
+  - You've built internal tooling, dashboards, or systems that
+    scaled to thousands of users
+  - You've led technical initiatives or mentored junior
+    engineers
+  - You've built or maintained design systems
+  - You're curious about AI, e-commerce, or automation—we work
+    in that space
+  - You've shipped side projects or contributed to open-source
+  - You've worked directly with designers and can contribute to
+    design discussions
+
+  Why Join Us
+
+  - Post-revenue company solving real problems for real
+    customers
+  - Be a technical leader—define our engineering culture and
+    standards as we scale
+  - High autonomy and visibility—no boring tickets
+  - Your code reaches users within days, not months
+  - Strong engineering-first culture that embraces cutting-edge
+    AI tools
+  - Shape both the product and the company
+
+  When Applying
+
+  Please send a short note about a complex problem you solved
+  or a new skill you mastered specifically using an AI-driven
+  workflow. GitHub/LinkedIn/resume is great, but we care more
+  about how you think, build, and leverage AI. If you have
+  examples of projects where AI coding tools were central to
+  your workflow in the last 90 days, we'd love to see them.
+industries:
+  - Information Technology
+  - Marketing Tech
+posted_date: 2026-08-14
+url: "https://builtin.com/job/full-stack-software-engineer-canada/8761061"
+source: Built In

@@ -1,0 +1,208 @@
+job_id: 11758705
+title: Backend Software Engineer, SDK
+company: LaunchDarkly
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 500 Employees
+description: |
+  About LaunchDarkly Engineering
+
+  LaunchDarkly helps engineering organizations ship software
+  and AI with speed, safety, and control. Our platform gives
+  teams the confidence to release gradually, target
+  experiences to the right audiences, learn through
+  experimentation, understand what is happening in production,
+  and respond quickly when risk appears.
+
+  Our engineers build the systems, services, SDKs, developer
+  tools, cloud infrastructure, and product experiences that
+  make this possible. The work spans high-scale distributed
+  systems, reliable data and event pipelines, intuitive
+  enterprise workflows, and AI-powered capabilities that help
+  teams manage the next generation of software delivery.
+
+  LaunchDarkly’s SDKs are used in systems that perform
+  trillions of feature flag evaluations each day, giving our
+  engineering work a direct connection to the reliability and
+  customer experience of software around the world. As the
+  company grows, we are expanding beyond traditional feature
+  management into experimentation, observability, and
+  AgentControl—helping customers control more of the software
+  and AI lifecycle. That creates an unusually broad set of
+  technical challenges, visible customer impact, and room for
+  engineers to shape what comes next.
+
+  We believe in the power of teams. We work with humility,
+  openness, curiosity, and care; we value clear communication,
+  thoughtful technical judgment, inclusive collaboration, and
+  a strong sense of ownership. We encourage people to apply
+  even when they do not meet every qualification listed below.
+  We are interested in the experience, perspective, and
+  potential you would bring to the role.
+
+  About the Job
+
+  As a Software Engineer on LaunchDarkly’s SDK team, you will
+  build the primary touchpoint that our customers interact
+  with on a daily basis. You’ll work with multiple
+  technologies across our 35+ SDKs while enabling customers of
+  all kinds to feature flag their code. When working on our
+  SDKs, you’d be contributing to much more than thin client
+  wrappers. Our SDKs are feature-rich agents with strong
+  emphases on performance, concurrency, and resiliency -- all
+  while following idiomatic practices for their tech stack.
+
+  LaunchDarkly serves trillions of feature flags daily to
+  customers all around the globe, and every flag is handled by
+  our SDKs. This team has a major impact not only on our
+  company, but on our customers (and their customers). We are
+  growing fast and we need your help writing the next chapter
+  in our story.
+
+  Responsibilities:
+
+  - Contribute to development for SDKs in supported platforms:
+    - Implement new features and improvements to meet customer
+      performance and resiliency requirements
+    - Keep up to date with the latest development practices
+  - Collaborate with our engineering and product teams to drive
+    the implementation and release of major features
+  - Actively maintain our open-source repositories
+  - Identify areas of improvement and advocate for best
+    practices
+  - Have an active voice in shaping both technology and product
+    decisions
+
+  Basic Qualifications:
+
+  - Demonstrable experience building libraries and packages used
+    by other developers
+  - Polyglot background with an ability to context switch
+    between languages quickly
+  - 5+ years experience with at least two of the following:
+    .NET/Go/Ruby/Python/NodeJS/Java
+  - Experience with the following is a plus:
+    - C++/Erlang/Haskell/Lua
+    - AI SDKs
+    - Observability SDKs
+    - Mobile development
+  - Strong computer science fundamentals
+  - Committed to working in a communicative, collaborative
+    environment
+  - Self‐starter and problem solver, willing to solve difficult
+    problems and work independently when necessary
+  - Strong testing background: experience building unit,
+    integration, load tests, and benchmarks
+  - Experience writing production-ready code with emphasis on
+    quality and maintainability
+  - Experience contributing to open-source software
+
+  Logistics:
+
+  - This is a remote role, with opportunities to visit the
+    office in the Bay Area, California, for team offsites
+  - The SDK team is spread between Eastern and Pacific time
+    zones
+
+  Highlights:
+
+  - You will work collaboratively with a team of highly
+    experienced engineers who are amazing at the craft of
+    engineering and building SDKs
+  - Your contributions will be publicly visible as the SDK team
+    develops LaunchDarkly’s open-source SDKs in public
+  - LaunchDarkly uses our own SDKs. You will have opportunities
+    working with the other teams within LaunchDarkly
+  - In this role, you can learn about many programming languages
+    and frameworks
+  - You will have opportunities to strongly influence roadmap
+    and prioritization
+
+  Pay:
+
+  Target pay ranges based on Geographic Zones* for Level 3:
+
+  - Zone 1: San Francisco/Bay Area or NYC Metropolitan Area,
+    Boston, Seattle - $171,200 - $235,400**
+  - Zone 2: Irvine, LA, Monterey, Santa Barbara, Santa Rosa,
+    Austin, Portland, Philadelphia, Chicago - $154,100 -
+    $211,860 **
+  - Zone 3: All other US locations - $145,500 - $200,090 **
+
+  LaunchDarkly operates from a place of high trust and
+  transparency; we are happy to state the pay range for our
+  open roles to best align with your needs. Exact compensation
+  may vary based on skills, experience, and location.
+
+  *Within the United States, our geographic pay zones are
+  defined by counties surrounding major metropolitan areas.
+  **Restricted Stock Units (RSUs), health, vision, and dental
+  insurance, and mental health benefits in addition to salary.
+
+  About LaunchDarkly:
+
+  Modern software delivery was supposed to be the foundation
+  for a thriving digital business but reality has proven
+  otherwise. Slow, inefficient development cycles, costly
+  outages, and fragmented customer experiences are preventing
+  developers from building their best software. The
+  LaunchDarkly platform helps developers innovate on new
+  features faster while protecting them with a safety valve to
+  instantly rewind when things go wrong. Developers can target
+  product experiences to any customer segment and maximize the
+  business impact of every feature. And by gradually rolling
+  out new application components, they escape nightmare "big-
+  bang" technology migrations.
+
+  The LaunchDarkly platform was built to guide engineers to
+  the next frontier of DevOps by:
+
+  - Improving the velocity and stability of software releases,
+    without the fear of end customer outages
+  - Delivering targeted experiences by easily personalizing
+    features to customer cohorts
+  - Maximizing the business impact of every feature through the
+    ability to experiment and optimize
+  - Coordinating the release and optimization of software to
+    provide consistent experiences across mobile platforms and
+    device types
+  - Improving the effectiveness and productivity of engineering
+    teams, by providing insights into engineering cadence and
+    stability
+
+  At LaunchDarkly, we believe in the power of teams. We're
+  building a team that is humble, open, collaborative,
+  respectful and kind. We are an equal opportunity employer
+  and value diversity at our company. We do not discriminate
+  on the basis of race, religion, color, national origin,
+  gender, gender identity, sexual orientation, age, marital
+  status, veteran status, or disability status. LD invites any
+  applicant to review our written Affirmative Action Plan. To
+  do so, contact People Ops at hr@launchdarkly.com.
+
+  Do you need a disability accommodation?
+
+  Fill out this accommodations request form and someone from
+  our People Operations team will contact you for assistance.
+
+  Your safety matters to us. To protect yourself from
+  potential scams, LaunchDarkly recruiters will only contact
+  you from @launchdarkly.com email addresses or via LinkedIn
+  from "Verified Recruiter" accounts. Be cautious of emails
+  from other domains.  Legitimate LaunchDarkly recruiters will
+  never ask for money, fees, or banking information before
+  making a job offer. LaunchDarkly will never make a job offer
+  without conducting a formal interview process. Our interview
+  process does not involve asking detailed questions by email.
+  If you are ever unsure about a communication that you
+  receive, don't click any links—visit Careers | LaunchDarkly
+  directly for confirmed job openings and links to apply.
+  Please notify us of any fraudulent representation by sending
+  an email to careers@launchdarkly.com.
+industries:
+  - Information Technology
+  - Software
+posted_date: 2026-10-19
+url: "https://builtin.com/job/backend-software-engineer-sdk/11758705"
+source: Built In

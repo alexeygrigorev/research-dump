@@ -1,0 +1,106 @@
+job_id: 9721623
+title: Senior Software Engineer
+company: C-Gen.AI
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CAN
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - USA
+  - CZE
+  - Mountain View, USA
+remote: true
+work_type: FULL_TIME
+company_size: 9 Employees
+description: |
+  Company Overview
+
+  C-Gen.AI is at the forefront of technological innovation,
+  dedicated to pushing the boundaries of software engineering
+  and artificial intelligence. Our team is composed of thought
+  leaders and industry experts with proven track records who
+  are passionate about creating cutting-edge solutions that
+  make a real-world impact. We are building AI oriented
+  infrastructure solutions and coming to change the AI Infra
+  landscape.
+
+  Job Description
+
+  We are seeking a highly skilled and experienced Senior
+  Software Engineer to join our dynamic team in Mountain View,
+  CA. This role requires a seasoned professional with a deep
+  understanding of software development and a passion for
+  technology. As a Senior Software Engineer at C-Gen.AI, you
+  will be responsible for developing complex software systems,
+  contributing to our AI initiatives, and optimizing
+  performance through advanced computing techniques. You will
+  be working on the bleeding edge of AI infrastructure and
+  build novel solutions to address AI development problems.
+  You will work on every level of the Linux stack, from low
+  level code optimizations, linux kernel code development to
+  implementation of system services and GPU applications.
+
+  Responsibilities
+
+  - Design, develop, and implement software solutions using C++
+    and Python.
+  - Work with CUDA to accelerate computing tasks and AI model
+    training.
+  - Contribute to the development and maintenance of the Linux
+    kernel modules and system services.
+  - Write robust, efficient, and maintainable code, and mentor
+    junior engineers.
+  - Collaborate with cross-functional teams to integrate AI
+    technologies into products.
+  - Manage Linux systems, ensuring high performance and
+    reliability.
+
+  Qualifications
+
+  - 15-30 years of experience in software engineering.
+  - Expertise in C++ and Python programming languages.
+  - Proven experience with CUDA and AI technologies.
+  - Strong background in Linux system and/or Linux kernel
+    development.
+  - Proficiency in scripting with Bash and Linux administration.
+  - Ability to design and optimize complex software systems.
+  - Excellent problem-solving and analytical skills.
+
+  How to Apply
+
+  If you meet the qualifications and are excited about joining
+  our team, please submit your resume and a cover letter
+  detailing your experience and why you would be a great fit
+  for the role. We look forward to reviewing your application.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Information Technology
+  - Infrastructure as a Service (IaaS)
+posted_date: 2026-10-19
+url: "https://builtin.com/job/senior-software-engineer/9721623"
+source: Built In

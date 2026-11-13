@@ -1,0 +1,183 @@
+job_id: 11462445
+title: Senior Backend Engineer
+company: myTomorrows
+location: Amsterdam, NLD
+work_type: FULL_TIME
+company_size: 127 Employees
+description: |
+  About myTomorrows
+
+  myTomorrows is a global health tech company dedicated to
+  breaking down barriers for patients seeking treatment
+  options.
+
+  We strive to enable earlier and better treatment access by
+  bridging the gap between those searching for
+  possible options, and the companies who develop them. We
+  work closely with patients, healthcare professionals, trial
+  sites, patient advocacy groups, and BioPharma – connecting
+  key stakeholders in the drug development ecosystem.
+
+  We’ve developed a cutting-edge AI-powered technology
+  platform that simplifies and streamlines access to drugs in
+  development. To support our users and clients, we have a
+  range of industry-expert specialized teams ready to help.
+  Our services include clinical trial patient recruitment,
+  Expanded Access Program management and Real-World Data
+  collection.
+
+  With a global footprint spanning 134 countries, to date
+  we’ve supported over 17,000 patients, 3,000 physicians and
+  350 sites, earning the trust of 60+ BioPharma companies. In
+  October 2025, we closed a €25M investment with Avego
+  Healthcare Capital to fuel our global ambitions and scale
+  the business.
+
+  Join us in shaping the future of treatment access - making
+  tomorrow’s therapies accessible for people who need them
+  today.
+
+  The opportunity: Senior Backend Engineer
+
+  As a Senior Backend Engineer, you will be responsible for
+  developing and maintaining the platform infrastructure that
+  powers our products. You will work closely with our Frontend
+  Engineers, DevOps Engineers, and other stakeholders to
+  design and build scalable, reliable, and high-performance
+  products.
+
+  Given that most of our team is located in the Netherlands,
+  we only consider candidates for this position who live
+  within commuting distance to our office in Amsterdam.
+
+  What you'll do in this role:
+
+  - Design and implement scalable and reliable backend systems
+    and infrastructure to support our products
+  - Develop and maintain our micro-services to expose platform
+    functionality to internal and external clients
+  - Collaborate with development and quality assurance teams to
+    ensure high availability, scalability, and security of our
+    systems
+  - Collaborate with DevOps Engineers to ensure the continuous
+    delivery and deployment of software products
+  - Work with software developers to identify and implement
+    improvements to our platform architecture and
+    functionality
+  - Develop and maintain documentation of our systems and
+    processes
+  - Mentor and train junior members of the backend team
+  - Keep up-to-date with the latest trends and technologies
+
+  What you bring to the table:
+
+  - Proficiency in Python programming language
+  - 4+ years of experience in the related field
+  - Experience with relational databases such as MySQL,
+    PostgreSQL, or Oracle
+  - Experience with the cloud platforms (AWS, Azure or GCP)
+  - Experience with containerization technologies such as Docker
+    and Kubernetes
+  - Excellent problem-solving skills and ability to work
+    independently and as part of a team
+  - Strong communication skills and the ability to work with
+    stakeholders across the organization
+  - Excellent English communication skills
+
+  What succes in the first six months looks like:
+
+  - You’ve built trust with Product, Frontend, and DevOps peers
+    and taken clear ownership of 2-3 domain APIs/services,
+    including stewardship of their contracts and SLAs.
+  - You’ve established an API-first workflow: starting from use
+    cases, you propose and socialize OpenAPI specs, align on
+    naming and conventions, then implement in FastAPI with
+    Pydantic models.
+  - You’ve delivered impactful API features end-to-end (design →
+    implementation → tests → docs) that are consumed by
+    internal and external clients without hand-holding.
+  - You’ve raised API robustness: strong request/response
+    validation, consistent error models, pagination and
+    idempotency where appropriate, and backward-compatible
+    versioning enforced via automated contract tests in CI
+    (Ruff, UV, Prek).
+  - You’ve improved the reliability and performance of our
+    service by adding meaningful observability (metrics, logs,
+    tracing) and defining SLIs/SLOs for key endpoints—reducing
+    5xx rates and improving p95 latency.
+  - You’ve made safe database changes in MySQL with SQLAlchemy
+    migrations, optimized critical queries, and contributed to
+    data access patterns involving DynamoDB or Neo4j while
+    keeping API contracts stable.
+  - You’ve strengthened the security of APIs (authN/authZ
+    boundaries, scoped tokens, least-privilege access, secrets
+    management, rate limiting) and documented the approach.
+  - You’ve written clear API documentation and examples (e.g.,
+    snippets/collections), shared knowledge with the team, and
+    mentored junior engineers so others can build on your
+    work.
+
+  Current tech stack:
+
+  We are fully cloud-native, leveraging AWS and adopting a
+  Lean, API-first product development approach driven by
+  modern cloud technologies and thoughtful design practices.
+
+  Our backend applications are built using Python, FastAPI,
+  Pydantic, and SQLAlchemy (MySQL). On the front end, we
+  predominantly develop with Angular. To ensure code quality
+  and a consistent release pipeline, we employ GitHub Actions
+  for CI/CD along with tools like Renovate, Ruff, UV, and
+  Prek.
+
+  We containerize our applications using Docker and Docker
+  Compose. We continue to expand our capabilities in knowledge
+  graphs (Neo4j) and database technologies (MySQL, DynamoDB).
+
+  What we offer:
+
+  - Impactful work that helps patients gain access to
+    potentially lifesaving treatments.
+  - International work environment, scale-up energy and a flat
+    organizational structure that encourages creativity and
+    accountability.
+
+  - Competitive salary, annual performance bonus and an Employee
+    Stock Option Plan.
+
+  - Great career development opportunities in a fast-growing
+    company.
+
+  - Learning and development budget alongside internal knowledge
+    sharing sessions.
+
+  - Attractive pension plan, full premium covered by
+    myTomorrows.
+
+  - Hybrid working model.
+
+  - Policies to support working parents.
+
+  - Healthy lunch at the thriving Amsterdam office.
+
+  - Unlimited access to professional guidance by certified
+    psychologists via OpenUp
+
+  - Enjoy monthly events hosted by our vibrant Culture Club as
+    well as an annual ‘myTomorrowland’ company-wide
+    celebration!
+
+  Equal opportunities
+
+  myTomorrows is an Equal Opportunity Employer and, beyond
+  upholding discrimination-free practices, we are committed to
+  cultivating a workplace where difference and diversity are
+  protected and celebrated. The best work comes from our best
+  selves, and we go to great lengths in supporting our team
+  members to be just that.
+industries:
+  - Healthtech
+  - Software
+posted_date: 2026-10-01
+url: "https://builtin.com/job/senior-backend-engineer/11462445"
+source: Built In

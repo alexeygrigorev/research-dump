@@ -1,0 +1,79 @@
+job_id: 9913301
+title: Full stack Engineer - Dallas, TX
+company: Photon
+location: USA
+locations:
+  - USA
+  - Bengaluru, IND
+remote: true
+work_type: FULL_TIME
+company_size: 5,017 Employees
+description: |
+  We are seeking a java Full Stack Developer to join our
+  dynamic engineering team. In this role, you will be
+  responsible for designing, developing, and maintaining high-
+  quality web applications using a combination of Java/Spring
+  Boot on the backend and Angular on the frontend. You will
+  work closely with cross-functional teams to deliver
+  innovative and user-centric solutions.
+
+  Key Responsibilities:
+
+  - Develop and maintain high-performance, scalable Java
+    applications.
+  - Design, develop, and deploy RESTful APIs using Java and
+    Spring Boot framework. Develop and maintain robust and
+    scalable frontend applications using Angular.
+  - Design and develop microservices using Spring Boot
+    framework.
+  - Ensure system reliability and fault tolerance through
+    Hystrix and circuit breaker patterns.
+  - Implement observability practices, including SLI/SLO
+    metrics.
+  - Develop event-driven architecture solutions using Kafka and
+    other messaging platforms.
+  - Deploy and manage applications on Kubernetes and AWS cloud
+    platform services.
+  - Collaborate with cross-functional teams to define, design,
+    and ship new features.
+  - Provide mentorship and guidance to junior developers.
+  - Communicate effectively with team members and stakeholders.
+
+  Qualifications:
+
+  - Bachelor's degree in Computer Science, Engineering, or a
+    related field.
+  - Proven experience as a Senior Java Developer, with expertise
+    in threading and concurrency implementation.
+  - Strong proficiency in Java, with experience in Java 22 being
+    a plus.
+  - Extensive experience in microservice API implementation
+    using Spring Boot.
+  - Knowledge of failover handling and fault tolerance
+    mechanisms such as Hystrix and circuit breakers.
+  - Experience in observability, including SLI/SLO metrics.
+  - Hands-on experience with event-driven architecture
+    implementation using Kafka, with familiarity with other
+    messaging platforms being a plus.
+  - Proficiency in Kubernetes and AWS cloud platform services.
+  - Excellent communication and interpersonal skills.
+  - Strong problem-solving and analytical abilities.
+
+  Compensation, Benefits and Duration
+
+  Minimum Compensation: USD 39,000 Maximum Compensation: USD
+  137,000 Compensation is based on actual experience and
+  qualifications of the candidate. The above is a reasonable
+  and a good faith estimate for the role. Medical, vision, and
+  dental benefits, 401k retirement plan, variable
+  pay/incentives, paid time off, and paid holidays are
+  available for full time employees. This position is not
+  available for independent contractors No applications will
+  be considered if received more than 120 days after the date
+  of this post
+industries:
+  - Agency
+  - Information Technology
+posted_date: 2026-08-16
+url: "https://builtin.com/job/full-stack-engineer-dallas-tx/9913301"
+source: Built In

@@ -1,0 +1,136 @@
+job_id: 11216804
+title: Manager Site Reliability Engineering
+company: Akamai Technologies
+location: USA
+locations:
+  - USA
+  - Cambridge, USA
+remote: true
+work_type: FULL_TIME
+company_size: 10,285 Employees
+description: |
+  Are you passionate about cutting edge technology?
+
+  Do you enjoy working with a diverse multi-national team of
+  engineering talents?
+
+  Join our highly skilled Site Reliability team
+
+  Our team designs, develops, and manages applications and
+  infrastructure that support Akamai's Compute products and
+  services. We do this while maintaining Akamai's mission at
+  the forefront of what we do: make life better for billions
+  of people, billions of times a day.
+
+  Partner with the best
+
+  In this role, you will lead the engineering of foundational
+  physical and virtual Linux platforms for Akamai Cloud. HIVE
+  builds and maintains the hardware and software platform
+  infrastructure that powers our Compute services. CLP owns
+  the Linux kernels, operating systems, KVM/QEMU
+  virtualization layer, and guest images, while partnering
+  with HIVE hardware teams to bring new platforms into our
+  datacenters.
+
+  As a Manager Site Reliability Engineering, you will be
+  responsible for:
+
+  - Leading, mentoring, and developing a team of technical leads
+    and Linux platform engineers.
+  - Setting technical direction and priorities for the team,
+    balancing platform evolution, reliability, security, and
+    operational needs.
+  - Driving engineering projects from requirements and design
+    through implementation, validation, and deployment.
+  - Partnering with hardware, product, operations, and
+    engineering teams to deliver reliable and scalable Compute
+    platforms.
+  - Improving platform observability, automation, and
+    operational practices to reduce service disruptions and
+    accelerate incident resolution.
+  - Leading the investigation and resolution of complex,
+    service-impacting issues and supporting incident response
+    and on-call operations.
+
+  Do what you love
+
+  To be successful in this role you will:
+
+  - 8+ years of experience and a Bachelor's diploma in Computer
+    Science or its equivalent
+  - Have demonstrated experience leading, mentoring, and
+    developing high-performing engineering teams.
+  - Have extensive experience with Linux internals, operating
+    systems, and systems administration.
+  - Understand computer architecture, server hardware, and the
+    interaction between hardware and operating systems.
+  - Have a track record of improving the reliability,
+    performance, security, and maintainability of production
+    systems at scale.
+  - Communicate effectively and collaborate across teams to
+    drive technical decisions and deliver results.
+
+  About us
+
+  At Akamai, we make life better for billions of people,
+  trillions of times a day. Whether you're streaming live
+  events, scrolling social media, watching your favorite
+  series, or managing your savings, we're the engine behind
+  the scenes. We provide the world's most distributed platform
+  from Cloud to Edge to help the giants of the digital world
+  work faster and stay more secure, making the internet a
+  better experience for everyone. Our focus is simple: Cloud
+  and Edge: Running apps closer to users for instant
+  performance. Security: Neutralizing threats before they ever
+  reach your data. Content Delivery: Scaling the world's
+  biggest moments without a glitch. AI: Enabling our customers
+  to build, secure, and scale AI apps on the world's most
+  distributed cloud platform. At Akamai, we don't just support
+  the internet; we power and protect it, because behind every
+  great digital experience is a massive hidden challenge. And
+  we're the ones who solve it. When millions of people hit
+  play or pay, Akamai ensures it just works.
+
+  Benefits at Akamai: We support your health, well-being,
+  finances, and life beyond work. See our benefits.
+
+  FlexBase adapts to your job's needs
+
+  Akamai's FlexBase program is yet another way we show our
+  commitment to providing employees with an exceptional
+  workplace experience. It's not about telling employees where
+  to work; it's about supporting employees to do their best
+  work. We trust our incredible employees to work in ways that
+  suit them best: at home, in an office, or a combination of
+  both.
+
+  Connect with us on social and see what life at Akamai is
+  like!
+
+  Compensation
+
+  Akamai is committed to fair and equitable compensation
+  practices. For US based candidates only - the base salary
+  for this position ranges from $151,800 - $273,200/year; a
+  candidate’s salary is determined by various factors
+  including, but not limited to, relevant work experience,
+  skills, certifications and location. Compensation for
+  candidates outside the US will vary. The compensation
+  package may also include incentive compensation
+  opportunities in the form of annual bonus or incentives,
+  equity awards and an Employee Stock Purchase Plan (ESPP).
+  Akamai provides industry-leading benefits including
+  healthcare, 401K savings plan, company holidays, vacation
+  (in the form of PTO), sick time, family friendly benefits
+  including parental leave and an employee assistance program
+  including a focus on mental and financial wellness;
+  Eligibility requirements apply.
+industries:
+  - Cloud
+  - Security
+  - Software
+  - Cybersecurity
+posted_date: 2026-11-02
+url: "https://builtin.com/job/senior-ii-site-reliability-engineer-lead/11216804"
+source: Built In

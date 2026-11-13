@@ -1,0 +1,222 @@
+job_id: 11490329
+title: Full Stack Engineer, Product Platform
+company: Nametag
+location: FRA
+remote: true
+work_type: FULL_TIME
+company_size: 10 Employees
+description: |
+  Full Stack Engineer, Product Platform
+
+  Remote, US
+
+  About Nametag
+
+  Nametag helps companies verify the real person behind high-
+  risk workforce actions, from account recovery to identity
+  checks, before attackers can exploit the gap.
+
+  Deepfakes, social engineering, and stolen credentials have
+  made "who is actually on the other side of this request?" a
+  critical infrastructure problem. We are building the
+  identity verification and account protection layer companies
+  use to answer that question quickly, securely, and with less
+  friction for real users.
+
+  The Role
+
+  We are looking for a Full Stack Engineer to own the platform
+  foundations everything else at Nametag is built on.
+
+  Most engineering roles here ship features. This one owns the
+  substrate: the data model, the Postgres layer beneath it,
+  the public APIs our customers build against, the multi-
+  region architecture that lets us serve customers who cannot
+  let data leave their jurisdiction, and the governance
+  machinery that makes our claims about data handling true
+  rather than aspirational.
+
+  That last part is not a compliance footnote. We hold
+  government-issued identity documents, selfies, and biometric
+  signals. Customers ask us exactly where that data lives, who
+  can reach it, how long we keep it, and what happens when
+  they ask us to delete it — and their auditors ask again, in
+  writing. Retention and deletion have to actually execute,
+  including in replicas, derived tables, caches, and backups,
+  which is where most deletion guarantees quietly fail. Tenant
+  isolation has to be enforced by the data layer, not by every
+  query remembering to filter correctly. Building those
+  guarantees into the platform, so that product engineers get
+  them by default instead of having to be careful, is the
+  central work of this role.
+
+  Multi-region is the other structural piece. Serving
+  customers with data residency requirements means region-
+  aware routing, storage, and failover, and a data model that
+  knows which rows are allowed where. It's the kind of
+  architecture that is much cheaper to get right early than to
+  retrofit, and you'll be shaping it.
+
+  You'll also own our public API surface — design, versioning,
+  deprecation, and the discipline of not breaking customers
+  who integrated two years ago and have no plans to change.
+
+  This is a full stack role in the real sense: the center of
+  gravity is backend and data, but you'll build the internal
+  tooling, admin surfaces, and operational dashboards that
+  make the platform legible to the rest of the company. It
+  suits an engineer who finds correctness under constraint
+  more interesting than shipping the next screen.
+
+  What You'll Do
+
+  Own the data layer
+
+  Own Postgres: schema design, migrations, indexing, query
+  performance, connection management, and the operational
+  health of the database under load.
+
+  Design data models that make tenant isolation and data
+  classification structural rather than conventional.
+
+  Run migrations on live systems without downtime or data
+  loss, including the large and awkward ones.
+
+  Build data governance into the platform
+
+  Implement retention, deletion, and minimization as enforced
+  mechanisms, and verify they reach derived data, replicas,
+  caches, and backups.
+
+  Build access control and audit logging that scope and record
+  access to sensitive data as a byproduct of normal operation.
+
+  Produce the evidence that compliance obligations require
+  directly from the systems, rather than reconstructing it by
+  hand.
+
+  Partner with security and GRC to turn contractual and
+  regulatory commitments into technical controls that hold.
+
+  Build for multiple regions
+
+  Design and extend region-aware architecture: routing,
+  storage, replication, and failover.
+
+  Enforce data residency in the platform, so a row that must
+  stay in a region cannot leave it through an ordinary code
+  path.
+
+  Handle the operational reality of multi-region —
+  consistency, latency, deploys, and debugging something that
+  only reproduces in one region.
+
+  Own the API surface
+
+  Design public APIs that are coherent, predictable, and
+  pleasant to integrate against.
+
+  Own versioning, deprecation, and backwards compatibility.
+  Customers do not upgrade on your schedule.
+
+  Build the authentication, authorization, rate limiting, and
+  idempotency behavior that production APIs need.
+
+  Operate and enable
+
+  Operate what you build, and debug complex issues across
+  services, data, and infrastructure.
+
+  Build internal tooling and admin surfaces that give the rest
+  of the company visibility into the platform.
+
+  Improve reliability, observability, testing, and deployment.
+  Review code and raise the technical bar.
+
+  What We're Looking For
+
+  Work authorization required: Applicants must be legally
+  authorized to work in the United States for any employer
+  without current or future need for visa sponsorship.
+
+  You do not need to match every bullet. We care most about
+  breadth, pragmatism, and comfort working against systems you
+  don't control.
+
+  - 5+ years building and operating production backend systems.
+  - Deep PostgreSQL experience — schema design, query
+    optimization, and migrations on live systems with real
+    data.
+  - Strong backend skills in Go, Node.js, Python, Java, or
+    similar, plus enough frontend ability to build internal
+    tooling in React or a comparable framework.
+  - Experience designing and maintaining APIs used by real
+    customers, including the versioning and compatibility
+    discipline that entails.
+  - Hands-on cloud experience, AWS preferred, including storage,
+    IAM, and encryption primitives.
+  - Experience handling sensitive or regulated data where access
+    control, retention, and deletion were hard requirements
+    rather than aspirations.
+  - Judgment about correctness: idempotency, safe retries,
+    failure handling, and the failure modes that only appear
+    under load.
+  - Clear communication and good judgment in a remote, cross-
+    functional team.
+
+  Bonus Points
+
+  - Experience building or operating multi-region or data-
+    residency-constrained systems.
+  - Experience with multi-tenant isolation at the data layer.
+  - Experience with biometric privacy regimes such as BIPA or
+    GDPR, as an implementer.
+  - Experience in a SOC 2, ISO 27001, or similarly audited
+    environment.
+  - Experience with identity, authentication, account recovery,
+    fraud prevention, fintech, or security products.
+  - Strong production incident, observability, or reliability
+    experience.
+
+  What We Value
+
+  - High ownership. You see what needs doing and do it.
+  - Technical judgment. You make systems simpler, safer, and
+    easier to operate.
+  - Speed with care. We move quickly because attackers move
+    quickly, but we do not cut corners on trust or security.
+  - Kindness and integrity. Trust starts with how we work with
+    each other.
+
+  Culture & Perks
+
+  At Nametag, we believe trust starts with how we treat each
+  other. We're a remote-first team that values autonomy,
+  inclusivity, and collaboration, with regular in-person time
+  to stay connected and innovate together.
+
+  - Remote-first: Work from anywhere in the US. Our team spans
+    Seattle, San Francisco, Ann Arbor, Denver, New York City,
+    and beyond.
+  - Off-sites: We bring the team together once per quarter for
+    in-person collaboration, often off-site in new places.
+  - Flexible schedules: Work in your own time zone; we align key
+    meetings across a shared window.
+
+  We Offer
+
+  - Competitive salary at $120,000-$190,000, depending on exp.
+  - Meaningful equity ownership
+  - Comprehensive health benefits (medical, dental, vision)
+  - Flexible paid time off
+  - Quarterly team off-sites and travel support
+  - New computer hardware and equipment
+  - An inclusive environment where your voice has impact and
+    your work drives change
+industries:
+  - Enterprise Web
+  - Information Technology
+  - Mobile
+posted_date: 2026-10-02
+url: "https://builtin.com/job/full-stack-engineer-product-platform/11490329"
+source: Built In

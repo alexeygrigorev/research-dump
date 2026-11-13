@@ -1,0 +1,113 @@
+job_id: 9753228
+title: Backend Software Engineer
+company: Theori, Inc.
+location: CAN
+locations:
+  - CAN
+  - USA
+remote: true
+work_type: FULL_TIME
+company_size: 2200 Employees
+description: |
+  We’re looking for an experienced backend engineer to help
+  build and scale the next generation of AI-driven
+  cybersecurity platforms at Theori. You’ll play a key role in
+  architecting and implementing core backend systems that
+  power Xint, our autonomous penetration testing framework.
+
+
+
+  This is a foundational role in our NA engineering team—ideal
+  for someone who thrives on solving complex systems
+  challenges, enjoys designing for scale and reliability, and
+  wants to help define engineering excellence in a fast-
+  growing, AI-first company.
+
+
+
+  Key Responsibilities
+
+  - Architect, develop, and maintain backend services and APIs
+    that power Theori’s AI security platforms.
+  - Design for performance, scalability, and fault-tolerance
+    across distributed systems.
+  - Collaborate with product and frontend engineers to define
+    and deliver secure, well-structured APIs.
+  - Build and optimize data pipelines supporting LLM agent
+    workflows and real-time scanning.
+  - Establish backend best practices, coding standards, and
+    CI/CD processes for a growing US team.
+  - Write clean, well-tested, and maintainable code in Python
+    and related technologies.
+  - Mentor junior engineers and contribute to a strong,
+    collaborative engineering culture.
+
+
+
+  Requirements
+
+  - 5+ years of professional software engineering experience
+    building production systems.
+  - Strong proficiency in Python, with proven experience
+    developing reliable backend services (FastAPI preferred).
+  - Solid understanding of system design, distributed
+    architectures, and performance optimization.
+  - Experience with Redis, PostgreSQL, and Docker-based
+    environments.
+  - Familiarity with AI/LLM-driven workflows or asynchronous,
+    event-based architectures.
+  - Comfort working in an early-stage environment with evolving
+    requirements.
+  - Self-directed, ownership-oriented, and comfortable driving
+    projects from design to deployment.
+  - Based in US or Canada.
+
+
+
+  Nice to Have
+
+  - Experience with Rust.
+  - Background in cybersecurity, application security, or
+    vulnerability analysis.
+  - Knowledge of message queues, task orchestration, or
+    microservices.
+  - Familiarity with LLM integration, RAG pipelines, or vector
+    databases.
+  - Prior experience in startups or B2B SaaS environments.
+  - Previous involvement in building or scaling distributed
+    systems or engineering teams.
+
+
+
+  What We Offer
+
+  Compensation & Benefits
+
+  - Competitive salary + equity
+  - Health, dental, and vision insurance
+  - Generous PTO policy
+  - Remote work
+  - Laptop + home office stipend
+
+  Engineering Culture
+
+  - Ship features that matter
+  - Modern Python-based stack (FastAPI, Redis, PostgreSQL,
+    Docker)
+  - Strong focus on testing and quality
+  - Clear documentation and processes
+  - Collaborative, low-ego team
+  - Career growth and mentorship
+
+  Work-Life Balance
+
+  - Flexible hours, remote-first culture
+  - Focus on outcomes, not hours
+industries:
+  - Artificial Intelligence
+  - Security
+  - Software
+  - Cybersecurity
+posted_date: 2026-08-06
+url: "https://builtin.com/job/backend-software-engineer/9753228"
+source: Built In

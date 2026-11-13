@@ -1,0 +1,196 @@
+job_id: 11085718
+title: Senior Backend Engineer
+company: Surfe
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 80 Employees
+description: |
+  Who You Are
+
+  We're looking for a Senior Backend Engineer who thrives in
+  high-ownership environments and knows what it takes to
+  build, ship, and operate distributed systems at scale, not
+  just design them.
+
+  You’ll help build and scale a product that relies on
+  reliable, high-throughput backend services and strong
+  operational maturity. This is a hands-on senior role: you
+  will design, code, ship, operate, and continuously improve
+  distributed systems in production.
+
+  You're someone who has seen production fail, learned from
+  it, and built better systems because of it. You care about
+  observability, reliability, and code quality not as
+  checkboxes but as craft. You're comfortable with ambiguity,
+  collaborative by nature, and you raise the bar for the
+  engineers around you.
+
+  What you’ll do
+
+  - Design and implement distributed backend systems: services
+    that are resilient,observable, and scalable (latency,
+    throughput, reliability).
+  - Build event-driven and asynchronous architectures using
+    queues, pub/sub,background workers, and idempotent
+    processing.
+  - Own production reliability: performance tuning, incident
+    response, on-call participation(if applicable), and
+    systematic improvements (SLOs, error budgets, runbooks).
+  - Raise the engineering bar: lead by example in code quality,
+    API design, testingstrategy, and operational best
+    practices.
+  - Deeply instrument services with logs, metrics, and traces;
+    help standardizeobservability patterns across the
+    platform.
+  - Partner with Product and other engineers to define success
+    metrics, measure impact,and iterate quickly based on real
+    usage.
+  - Mentor and guide: review designs and PRs, support other
+    engineers, and shapelong-term technical direction.
+
+  Specifically, we’re looking for
+
+  - Senior experience (typically 8+ years) building and
+    operating backend systems inproduction.
+  - Strong coding skills in Go (production-grade, not
+    scripting).
+  - Distributed systems fundamentals: concurrency, backpressure,
+    retries, idempotency,consistency tradeoffs, schema
+    evolution, failure modes.
+  - Cloud and infrastructure maturity (AWS preferred): designing
+    services with managedcloud components, scaling patterns,
+    cost awareness.
+  - Kubernetes and Docker experience: containerized services,
+    deployments, operationalworkflows.
+  - Observability expertise: traces, metrics, logs, dashboards,
+    alerting, incident analysis(Datadog and/or OpenTelemetry
+    experience is a plus).
+  - Databases: strong PostgreSQL skills (schema design,
+    indexing, query tuning) pluscomfort working with
+    OpenSearch and modern data stores.
+  - Engineering rigor: testing strategies (unit, integration,
+    contract), CI/CD hygiene, saferollout patterns (feature
+    flags, canaries, gradual releases).
+
+  Bonus
+
+  - Experience with queueing and streaming systems (SQS, SNS,
+    Kafka, Kinesis,RabbitMQ, Pub/Sub).
+  - Vector databases and retrieval patterns (pgvector, Pinecone,
+    Weaviate, Milvus, Qdrant,OpenSearch vector).
+  - Redis, MongoDB (only if truly used and not just “resume
+    keywords”).
+  - Terraform (or equivalent IaC), GitHub Actions (or similar
+    CI/CD).
+  - Security basics for backend systems (authn/authz, secrets
+    management, least privilege,threat-aware design).
+
+  What success looks like
+
+  - Services that are easier to operate: clear SLOs, better
+    alerts, faster incident resolution.
+  - Higher throughput and lower latency as usage grows.
+  - Stronger platform foundations: repeatable patterns for async
+    processing, observability,and safe deployments.
+  - A team that levels up through your mentorship and technical
+    leadership.
+
+  Ideally, you are someone that
+
+  - Has previously worked in startups - comfortable navigating
+    some uncertainty and highenergy environments
+  - Enjoys the collaborative process with different roles to
+    design, implement and iterate onpossible ideas and
+    solutions
+  - Is not a perfectionist but has a mindset of continuous,
+    incremental improvementstowards top-quality work
+  - Is great at communicating with engineers, product managers,
+    and other team members
+  - Bonus:
+    - Worked in the SalesTech space
+
+  Our Process
+
+  We want to be mindful of your time while finding the right
+  candidate for our team. No homework to do, only human
+  interactions ! Our typical recruitment timelines looks like
+  this:
+
+  - Screening call with Talent Acquisition (30 minutes) - to
+    know more about you and go deeper about the role
+  - Technical fit call with CTO (30 minutes) - to get to know
+    each other, know about your technical depth.
+  - Virtual Onsite Session:
+    - Coding Session (1 hour): In this hands-on session, you'll
+      pair with our engineers to solve a real-world problem,
+      focusing on clean logic, maintainability, and how you
+      think through edge cases in real-time.
+    - System Design Interview (1 hour): We’ll dive into a
+      whiteboard session to explore how you architect scalable
+      systems, specifically looking at your ability to
+      navigate technical trade-offs and balance performance
+      with simplicity.
+    - Culture and Values Interview (30 minutes): We’ll wrap up by
+      exploring our core values and your working style to
+      ensure our environment is one where you’ll feel
+      energized, supported, and empowered to do your best
+      work.
+    - Manager Interview (30 minutes): This is a two-way
+      conversation with your potential lead to discuss your
+      career trajectory, how you navigate project ownership,
+      and how we can support your growth within the team.
+
+  If all goes well, we’ll then make you an offer !
+
+  What we offer
+
+  - Up to 100K€ package, depending on equity, profile and
+    contract type
+  - Challenging and interesting work
+  - A place in our diverse team
+  - A healthy work environment (few meetings and “low touch”
+    management)
+  - Fully-remote work within EU timezones (GMT +/- 3h)
+  - Stipend to set up your home office
+  - Yearly team events in Paris and offsite
+  - Health insurance and other benefits applicable to your place
+    of residence, if contract of employment in France or
+    elsewhere via Deel Employer of record
+  - Possibility to work as a freelancer
+industries:
+  - Marketing Tech
+  - Productivity
+  - Sales
+  - Software
+posted_date: 2026-10-07
+url: "https://builtin.com/job/senior-backend-engineer/11085718"
+source: Built In

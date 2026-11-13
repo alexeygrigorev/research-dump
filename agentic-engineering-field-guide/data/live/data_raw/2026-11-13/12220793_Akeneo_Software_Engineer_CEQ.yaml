@@ -1,0 +1,170 @@
+job_id: 12220793
+title: Software Engineer (CEQ)
+company: Akeneo
+location: Boston, USA
+work_type: FULL_TIME
+company_size: 400 Employees
+description: |
+  Akeneo is the leading AI-powered Product Data Platform that
+  helps brands, manufacturers, distributors, and retailers
+  unify product data and pricing to power better product
+  experiences, smarter decisions, and business growth in an
+  AI-driven commerce world.
+
+  We're all about experience - from the best-in-class product
+  we build to the inspiring environment we create for our
+  employees. You'll grow in a dynamic environment where your
+  ideas and expertise will make an impact from day one. Our
+  flexible work model empowers you to thrive, balancing
+  professional success with personal fulfilment. At Akeneo,
+  you’ll be part of a supportive and collaborative team that
+  values open communication, shared successes, and meaningful
+  relationships.
+
+  Learn more about our culture and values via our Career page.
+
+  Job description
+
+  Join Akeneo’s Customer Engineering & Quality (CEQ) team,
+  operating at the intersection of software engineering and
+  real-world product usage. This role helps ensure customers
+  experience a reliable, high-performing platform by digging
+  into complex technical issues, resolving root causes, and
+  proactively strengthening our systems.
+
+  What is great about this role and opportunity? This role
+  offers a unique vantage point across the entire Akeneo
+  Product Cloud, where you will see the immediate, tangible
+  impact of your code on the people who rely on it every day.
+  Rather than just clearing a ticket queue, you will trace
+  problems across the full stack from application code and
+  slow queries to background jobs and underlying
+  infrastructure turning customer feedback and production data
+  into lasting gains in performance, scalability, and cost-
+  efficiency. Supported closely by experienced Senior and
+  Staff Engineers, you will grow from shipping individual
+  fixes to owning end-to-end architectural improvements in a
+  collaborative, high-trust environment.
+
+  What you will actually do
+
+  - Investigate and resolve complex customer issues: Reproduce
+    technical problems, trace evidence across application and
+    infrastructure layers to find the root cause, and either
+    ship a validated fix within our PIM scope or collaborate
+    with the owning product team.
+  - Drive proactive platform improvements: Turn customer
+    feedback and production insights into lasting gains in
+    system performance, reliability, observability, and cost-
+    efficiency. Cutting recurring failures and manual work
+    before they cause incidents.
+  - Ship maintainable, production-ready code: Deliver fixes,
+    tooling, and performance upgrades with built-in tests and
+    clear documentation, safely validating every change in
+    production.
+  - Monitor systems and improve observability: Use logs,
+    metrics, and dashboards to track service health, refine
+    instrumentation, and reduce alert noise so real customer-
+    impacting issues stand out.
+  - Participate in collaborative incident response: Join a
+    supported on-call rotation to triage alerts, assess
+    customer impact using existing runbooks, safely mitigate
+    production issues alongside senior engineers, and document
+    learnings to prevent future occurrences.
+
+  What you will bring to the team
+
+  - Solid software engineering fundamentals: Practical
+    experience building maintainable software using strong
+    development principles, automated testing, and data
+    structures, with an eagerness to deepen your system design
+    judgment.
+  - Full-stack adaptability: Hands-on coding ability and
+    willingness to work across TypeScript/React, PHP, and
+    automation tooling (experience with SQL, Linux, GCP,
+    containers, or infrastructure-as-code is helpful, though
+    you do not need to arrive as an operations specialist).
+  - Systematic debugging and analytical mindset: A natural
+    curiosity for how systems behave post-deployment, paired
+    with the ability to test hypotheses, distinguish symptoms
+    from root causes, and navigate ambiguous problems using
+    data and evidence.
+  - Responsible production habits and AI fluency: A thoughtful
+    approach to safe deployments, rollbacks, and customer
+    impact, combined with the ability to leverage modern AI
+    coding tools (like Claude Code) to explore codebases and
+    accelerate learning while maintaining strict data privacy
+    and code ownership.
+  - Clear, empathetic communication: The ability to translate
+    complex technical findings into clear updates for Product
+    Support, cross-functional engineering teams, and
+    teammates, while openly giving and receiving feedback.
+
+  You don't need to tick every box. We strongly encourage
+  candidates from all backgrounds to apply. If you are excited
+  about this opportunity but your experience is slightly
+  different, we still want to hear from you!
+
+  Salary range: This role has a base salary range of 80,000
+  USD to 130,000 USD
+
+  Interview process
+
+  - 30-minute screening call with a member of our Talent
+    Acquisition team
+  - 45-minute technical project walkthrough with the hiring
+    manager.
+  - 90-minute behavioural interview with up to three members of
+    the product line.
+  - 90-minute technical interview with Staff Engineers.
+
+  Life at AkeneoWork Environment
+
+  - Work-Life Balance: Enjoy 25 days of annual leave with
+    flexible working hours, and a hybrid setup allowing 3-4
+    days working from home. Option to Work from Anywhere for
+    up to 30 days per year.
+  - Home Office & Commuting Allowance: Enjoy a $600 budget to
+    enhance your home office and an $80 monthly sustainable
+    transportation allowance for eco-friendly commuting.
+
+  Inclusivity
+
+  - Generous Parental Leave: Benefit from 16 weeks of paid
+    maternity leave, 4 weeks of paid leave for the second
+    parent. A gradual return to work program is also
+    available.
+  - Community & Support: Engage in 2 paid volunteering days
+    annually and join Employee Resource Groups dedicated to
+    promoting diversity and inclusion within the company.
+
+  Growth and Development
+
+  - Professional Development: Access a $1,000 annual budget for
+    personal professional development and take advantage of
+    career paths, internal mobility opportunities, and a
+    "Women in Leadership Programme."
+  - Comprehensive Onboarding: Start on the right foot with a
+    structured company onboarding program.
+
+  Wellbeing
+
+  - Health & Insurance: Receive 100% employer contribution for
+    employees and their dependents for medical, dental, and
+    vision benefits up to the set caps.
+  - Financial Security: Benefit from a 401k with a 4% company
+    match and short as well as long-term disability insurance.
+  - Mental Health Support: Access individual and confidential
+    sessions with a mental health practitioner or coach of
+    your choice.
+
+  For more information about benefits, don’t hesitate to
+  contact our Talent Acquisition team.
+industries:
+  - eCommerce
+  - Information Technology
+  - Marketing Tech
+  - Software
+posted_date: 2026-11-13
+url: "https://builtin.com/job/software-engineer-ceq/12220793"
+source: Built In

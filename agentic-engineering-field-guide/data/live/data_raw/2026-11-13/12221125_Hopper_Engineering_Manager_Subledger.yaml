@@ -1,0 +1,162 @@
+job_id: 12221125
+title: Engineering Manager, Subledger
+company: Hopper
+location: CAN
+locations:
+  - CAN
+  - Toronto, CAN
+remote: true
+work_type: FULL_TIME
+company_size: 800 Employees
+description: |
+  About the Role As Engineering Manager for the Subledger
+  team, you will own the system of record for every financial
+  transaction at Hopper, driving accurate reporting and
+  reconciliation across all money movements in our ecosystem.
+  Every team that processes transactions, for both booking and
+  post-booking, depends on the subledger, so you will shape
+  Hopper's financial platform architecture alongside Finance,
+  Accounting, Payments, and the product engineering teams that
+  rely on it. You will be the primary technical owner of a
+  system where accuracy and full traceability matter most,
+  balancing accounting rigor with the engineering judgment
+  needed to keep it evolving.
+
+  What would your day-to-day look like
+
+  - Own and manage the subledger platform with an outcomes-based
+    mindset, serving as the primary point of contact for
+    technical, accounting, and operational topics related to
+    transaction recording and reconciliation
+  - Lead, grow, and mentor a team of engineers, setting
+    technical direction and championing correctness in a
+    system where every entry must balance
+  - Drive the architecture of the subledger, evolving the
+    current design toward simplicity and scalability through
+    sound abstractions and automation
+  - Ensure all money movements across booking and post-booking
+    flows are accurately accounted for, with full traceability
+    from source event to financial report
+  - Build strong, senior-level relationships with Finance and
+    Accounting, translating accounting requirements into
+    system design and surfacing technical constraints early
+  - Partner with the Payments, Bookings, Post-Booking, and Data
+    teams that integrate with the subledger, aligning on
+    contracts, data models, and migration paths
+  - Identify and act on opportunities to reduce manual
+    reconciliation effort, close reporting gaps, and eliminate
+    classes of discrepancies at the source
+  - Track KPIs such as reconciliation accuracy, unmatched
+    transaction rates, close-cycle timelines, and system
+    reliability, and lead recurring reviews with Finance and
+    engineering leadership
+
+  An ideal candidate has
+
+  - 8+ years of software engineering experience, including 2+
+    years managing engineers, with fintech, payments, or
+    financial systems experience a plus
+  - Experience designing and operating high-volume transactional
+    systems where correctness, idempotency, and auditability
+    are critical
+  - Working knowledge of accounting fundamentals, including
+    double-entry bookkeeping, ledgers and subledgers,
+    reconciliation, and the financial close process, and the
+    ability to apply them to system design
+  - A systems-minded approach to architecture, favoring clear
+    invariants, clean abstractions, and automation over one-
+    off fixes, plus experience leading large refactors or
+    migrations of production financial systems
+  - Clear communication with both accountants and engineers,
+    including the ability to explain technical trade-offs to
+    non-technical stakeholders
+  - Strong organization and self-direction in a high-growth
+    environment
+  - Based in the Eastern or Central time zone, with daily
+    overlap across the Finance, Accounting, and engineering
+    teams you partner with
+
+  Perks and benefits of working with us
+
+  - Well-funded and proven startup with large ambitions,
+    competitive salary and upsides of pre-IPO equity packages
+  - Hopper covers 100% of the premiums for group insurance plan
+  - Hopper offers life, short term and long term disability
+    coverage
+  - HSA that covers eligible medical and dental expenses
+  - All employees and dependents have access to Dialogue's
+    telemedicine services, anytime, anywhere
+  - All employees have access to an RRSP plan with automatic
+    pre-tax withdrawals per pay
+  - Please ask us about our very generous parental leave, much
+    above industry standards!
+  - Unlimited PTO
+  - Carrot Cash travel stipend
+  - Access to co-working space on demand through FlexDesk AND
+    Work-from-home stipend
+  - Entrepreneurial culture where pushing limits and taking
+    risks is everyday business
+  - Open communication with management and company leadership
+  - Small, dynamic teams = massive impact
+
+  About Hopper At Hopper, we're building the leading travel
+  technology platform in the world, and we're doing it by
+  solving real problems for real travelers globally. Our
+  Hopper consumer booking platforms and HTS (Hopper Technology
+  Solutions), our B2B business, work together to give
+  travelers something the industry has never reliably offered:
+  transparency, flexibility, and real savings on every trip.
+  We combine massive amounts of data and AI with proprietary
+  fintech products to make that happen, not just another
+  booking engine, but a fundamentally better way to plan and
+  experience travel for our customers and our partners.
+
+  We turned profitable in 2025, a rare milestone for a travel
+  startup at our scale, and proof that better-for-the-customer
+  and better-for-the-business can be one in the same
+
+  And we're continuing to grow fast! The Hopper app has been
+  downloaded over 120 million times, with 70% of our users
+  being Gen Z and Millennials, next-generation travelers.
+  Today, our biggest opportunity is powering travel fintech,
+  commerce, and loyalty for some of the biggest brands in the
+  industry. Our first HTS partnership with Capital One helped
+  launch a dedicated travel portal for a major financial
+  brand's cardholders, and we've since expanded across some of
+  the biggest names in travel and banking, including Air
+  Canada, Uber, Royal Bank of Canada (RBC), and Nubank,
+  powering everything from a single fintech integration to a
+  full end-to-end travel loyalty portal.
+
+  That's our trajectory: we started as a small, disruptive app
+  within the travel space, and now we're the engine under the
+  hood powering how Travel Tech works.
+
+  What that looks like in practice:
+
+  - Billions of dollars in travel and travel fintech move
+    through Hopper and HTS every year.
+  - Our fintech products, including Cancel for Any Reason and
+    Disruption Assistance for Any Reason, post exceptionally
+    strong customer satisfaction because the terms are clear
+    and resolutions are instant, no questions asked.
+  - Nearly 30% of app customers add a fintech product to their
+    booking, and those customers are 1.6x more likely to book
+    with us again.
+  - HTS now drives more than 90% of the business, proof of how
+    fast B2B has scaled.
+  - Through HTS, any travel provider (airlines, hotels, banks,
+    travel agencies) can plug the company's fintech, commerce
+    and AI solutions into their own channels, whether that's a
+    single integration or a full end-to-end travel portal.
+
+  Come take off with us! #LI-Remote
+
+  At Hopper, we leverage AI-driven tools to assist our team in
+  efficiently reviewing applications. These tools help us
+  assess qualifications fairly and objectively. By submitting
+  your application, you acknowledge the use of these automated
+  screening technologies.
+posted_date: 2026-11-13
+url: "https://builtin.com/job/engineering-manager-subledger/12221125"
+source: Built In

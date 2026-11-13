@@ -1,0 +1,113 @@
+job_id: 12016679
+title: Staff Software Engineer - Backend Networking
+company: Dragos
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 750 Employees
+description: |
+  At Dragos, the mission is personal. The systems we protect
+  deliver the water you drink, power your home, and keep the
+  hospitals your community depends on running. Those critical
+  infrastructure systems that power our civilization around
+  the world are under attack every day by adversaries. When
+  those systems fail, people are immediately at risk. We are
+  the global leader in xOT cybersecurity, combining
+  technology, threat intelligence, and expert services. The
+  people here chose this work because they understand what is
+  at stake. Here, you will find a remote-first mission-driven
+  team across North America, Europe, the Middle East, and APAC
+  built on authenticity, transparency, and trust. If
+  safeguarding the systems that protect your family, friends,
+  and community is the kind of work that matters to you, you
+  are in the right place.
+
+  About the Role:
+
+  The Sensor Platform is the foundation of Dragos's threat
+  detection capability — a high-performance, Linux-based
+  network sensor that captures and processes traffic from
+  operational technology (OT) and industrial control system
+  (ICS) environments in real time. As a Staff Software
+  Engineer on the Sensor team, you'll lead large-scale
+  platform initiatives from design through production, set the
+  technical bar for the Sensor Skill Community, and translate
+  business-level goals — reliability, latency, data fidelity —
+  into durable engineering decisions. This is the role where
+  systems depth, ownership, and cross-functional influence all
+  converge.
+
+  Responsibilities:
+
+  - Lead large-scale Sensor Platform initiatives — high-
+    throughput ingestion improvements, pipeline scalability,
+    continuous capture capability, and queue management
+    reliability — in close collaboration with product,
+    infrastructure, and engineering peers.
+  - Own root cause analysis and postmortems for complex
+    production and canary issues involving the capture
+    pipeline, broker, shutdown behavior, and message broker
+    integration.
+  - Establish and champion standards for documentation, test
+    harnesses, observability, and performance benchmarks
+    across the sensor codebase.
+  - Translate business goals (latency targets, new capture
+    interface support, reliability SLOs) into concrete
+    technical plans and delivery milestones.
+  - Identify and close gaps in observability, reliability, and
+    developer experience — building the tooling that helps the
+    team diagnose production issues faster and ship with more
+    confidence.
+  - Elevate the team through mentorship, design reviews, and
+    code review across all experience levels.
+
+  Qualifications:
+
+  - 8+ years of experience designing, developing, and debugging
+    distributed systems software.
+  - Deep Rust expertise across asynchronous and concurrent
+    programming, ownership discipline, and performance-
+    sensitive systems design.
+  - Demonstrated experience architecting or leading a
+    significant systems initiative end-to-end, from design
+    documentation through production deployment.
+  - Strong grasp of concurrent system design: pipeline
+    topologies, graceful shutdown sequencing, backpressure
+    management, and active queue management.
+  - Experience with high-performance packet capture and Linux
+    systems programming for low-latency workloads.
+  - Proven ability to lead root cause analysis on complex,
+    multi-component failures and drive durable fixes that hold
+    under production load.
+  - Experience with message queuing or broker systems under
+    production load.
+  - Awareness of how sensor reliability and data fidelity
+    directly affect detection quality in ICS/OT network
+    monitoring environments.
+  - Demonstrated experience applying cybersecurity best
+    practices, including secure coding, data protection, and
+    awareness of common threats and vulnerabilities.
+
+  Compensation:
+
+  - Salary: $192,000
+  - Competitive Equity Package
+  - Comprehensive Benefits Plan
+
+
+
+  #LI-JF1 #LI-REMOTE
+
+  Dragos is an Equal Opportunity Employer and considers
+  applicants for employment without regard to race, color,
+  religion, sex, orientation, national origin, age,
+  disability, genetics, or any other basis forbidden under
+  federal, state, or local laws. All new hires must pass a
+  background check as a condition of employment.
+industries:
+  - Information Technology
+  - Security
+  - Cybersecurity
+posted_date: 2026-11-02
+url: "https://builtin.com/job/staff-software-engineer-backend-networking/12016679"
+source: Built In

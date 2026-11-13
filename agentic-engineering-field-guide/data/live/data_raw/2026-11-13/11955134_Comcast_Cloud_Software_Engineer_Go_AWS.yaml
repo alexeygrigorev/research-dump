@@ -1,0 +1,235 @@
+job_id: 11955134
+title: Cloud Software Engineer (Go / AWS)
+company: Comcast
+location: Austin, USA
+work_type: FULL_TIME
+company_size: 115,000 Employees
+description: |
+  Make your mark at Comcast -- a Fortune 30 global media and
+  technology company. From the connectivity and platforms we
+  provide, to the content and experiences we create, we reach
+  hundreds of millions of customers, viewers, and guests
+  worldwide. Become part of our award-winning technology team
+  that turns big ideas into cutting-edge products, platforms,
+  and solutions that our customers love. We create space to
+  innovate, and we recognize, reward, and invest in your
+  ideas, while ensuring you can proudly bring your authentic
+  self to the workplace. Join us. You'll do the best work of
+  your career right here at Comcast. (In most cases, Comcast
+  prefers to have employees on-site collaborating unless the
+  team has been designated as virtual due to the nature of
+  their work. If a position is listed with both office
+  locations and virtual offerings, Comcast may be willing to
+  consider candidates who live greater than 100 miles from the
+  office for the remote option.) Job Summary We are seeking a
+  Cloud Software Engineer to design, develop, and maintain
+  scalable, secure, and highly available cloud-native
+  services. This role focuses on building backend
+  applications, APIs, microservices, and event-driven systems
+  that support critical business capabilities and integrate
+  with internal and external platforms, including cloud-
+  connected devices and IoT ecosystems. As an Engineer, you
+  will work within a collaborative engineering team to deliver
+  reliable, production-quality software using modern cloud
+  technologies and engineering practices. You will contribute
+  to technical design, implement new features, maintain
+  existing services, and participate in the full software
+  development lifecycle, including testing, deployment,
+  monitoring, and production support. The ideal candidate has
+  strong backend software engineering fundamentals, experience
+  with AWS cloud services, and the ability to independently
+  deliver well-designed solutions while collaborating
+  effectively across engineering teams. Experience with IoT
+  platforms or connected devices is beneficial but not
+  required. Job Description Responsibilities
+
+  - Design, develop, test, deploy, and maintain cloud-native
+    backend services, APIs, and microservices using Go
+    (Golang) and AWS technologies.
+  - Build and maintain integrations between internal services,
+    external APIs, and third-party cloud platforms.
+  - Develop scalable, event-driven applications using
+    asynchronous messaging, queues, and distributed processing
+    patterns.
+  - Develop and maintain backend services that support connected
+    devices, including device provisioning, state management,
+    telemetry processing, and cloud-to-device communication.
+  - Collaborate with architects, product owners, and engineering
+    teams to define technical requirements, API contracts,
+    data models, and service integration points.
+  - Translate functional and technical requirements into
+    maintainable, well-tested software solutions.
+  - Design and implement solutions that emphasize scalability,
+    reliability, performance, security, and operational
+    efficiency.
+  - Develop automated unit and integration tests and contribute
+    to CI/CD pipelines that support reliable and frequent
+    deployments.
+  - Implement and maintain observability capabilities, including
+    application metrics, structured logging, distributed
+    tracing, dashboards, and alerting.
+  - Troubleshoot complex issues across distributed systems,
+    identify root causes, and implement sustainable solutions.
+  - Maintain and modernize existing services, including
+    framework upgrades, dependency management, technical debt
+    reduction, and performance optimization.
+  - Apply secure software development practices, including
+    authentication, authorization, encryption, secrets
+    management, and vulnerability remediation.
+  - Participate in technical design discussions, code reviews,
+    and architectural evaluations to improve software quality
+    and engineering practices.
+  - Collaborate with cross-functional teams to ensure seamless
+    integration between services and platforms.
+  - Create and maintain technical documentation covering APIs,
+    service architecture, integration contracts, and
+    operational procedures.
+  - Participate in production support, incident investigation,
+    and continuous improvement of platform reliability.
+  - Demonstrate ownership of assigned features and services,
+    independently driving work from technical design through
+    production deployment.
+  - Consistently exercise independent judgment and discretion in
+    matters of significance.
+  - Regular, consistent, and punctual attendance. Must be able
+    to work nights and weekends, variable schedule(s) as
+    necessary.
+  - Other duties and responsibilities as assigned.
+
+  Required Qualifications
+
+  - 5+ years of professional software engineering experience
+    developing backend applications, services, or distributed
+    systems.
+  - Strong programming skills in Go (Golang) or another modern
+    backend programming language, with the ability to develop
+    and maintain production-quality Go services.
+  - Experience developing and operating cloud-native
+    applications on AWS.
+  - Experience designing and implementing RESTful APIs,
+    microservices, and service-to-service integrations.
+  - Understanding of distributed systems concepts, including
+    asynchronous processing, fault tolerance, scalability, and
+    resiliency.
+  - Experience with AWS services such as Lambda, SQS, SNS,
+    DynamoDB, API Gateway, or similar cloud technologies.
+  - Experience with NoSQL and/or relational databases, including
+    data modeling and query optimization.
+  - Familiarity with automated testing, version control, CI/CD
+    pipelines, and modern software development practices.
+  - Experience troubleshooting and supporting applications in
+    production environments.
+  - Understanding of application security principles and secure
+    software development practices.
+  - Strong analytical and problem-solving skills, with the
+    ability to independently investigate and resolve technical
+    challenges.
+  - Effective communication and collaboration skills, including
+    the ability to work across engineering teams and
+    contribute to technical discussions.
+
+  Preferred Qualifications
+
+  - Professional experience developing backend services using Go
+    (Golang).
+  - Experience with Node.js, particularly maintaining or
+    modernizing existing backend applications.
+  - Hands-on experience with AWS serverless architectures and
+    services such as Lambda, DynamoDB, SNS, SQS, and
+    EventBridge.
+  - Experience designing and implementing event-driven
+    architectures and asynchronous workflows.
+  - Experience integrating with third-party APIs, SaaS
+    platforms, or external cloud services.
+  - Experience with Internet of Things (IoT) platforms,
+    connected devices, or smart home technologies.
+  - Familiarity with IoT device lifecycle management, including
+    device onboarding, provisioning, configuration, state
+    synchronization, and telemetry processing.
+  - Understanding of IoT communication patterns and protocols,
+    such as MQTT, WebSockets, or HTTP-based device
+    integrations.
+  - Experience with Infrastructure as Code (IaC) tools such as
+    Terraform or AWS CloudFormation.
+  - Familiarity with containerization technologies such as
+    Docker and container orchestration platforms.
+  - Experience with monitoring and observability tools such as
+    Grafana, Prometheus, CloudWatch, or Datadog.
+  - Experience with high-volume, highly available distributed
+    systems.
+  - Familiarity with performance optimization, scalability
+    testing, and cloud cost optimization.
+  - Experience working in Agile development environments.
+
+  What Success Looks Like A successful Engineer demonstrates
+  the ability to independently develop and deliver cloud-
+  native services and features while understanding how their
+  work fits into a larger distributed system. They take
+  ownership of their code throughout its lifecycle, including
+  implementation, testing, deployment, monitoring, and ongoing
+  maintenance. They proactively identify technical challenges,
+  contribute to solution design, and collaborate effectively
+  with other engineers to deliver reliable, maintainable
+  software. Beyond implementing individual features, they
+  contribute to improving engineering practices, system
+  reliability, operational efficiency, and overall platform
+  quality. Employees at All Levels Are Expected To
+
+  - Understand our Operating Principles: Make them the
+    guidelines for how you do your job.
+  - Own the customer experience: Think and act in ways that put
+    our customers first, give them seamless digital options at
+    every touchpoint, and make them promoters of our products
+    and services.
+  - Know your stuff: Be enthusiastic learners, users, and
+    advocates of our game-changing technology, products, and
+    services, especially our digital tools and experiences.
+  - Win as a team: Make big things happen by working together
+    and being open to new ideas.
+  - Be an active part of the Net Promoter System: Bring employee
+    and customer feedback into how we work and help identify
+    opportunities for improvement.
+  - Drive results and growth.
+  - Support a culture of inclusion in how you work and lead.
+  - Do what's right for each other, our customers, investors,
+    and our communities.
+
+  Disclaimer This information has been designed to indicate
+  the general nature and level of work performed by employees
+  in this role. It is not designed to contain or be
+  interpreted as a comprehensive inventory of all duties,
+  responsibilities, and qualifications. Comcast is an equal
+  opportunity workplace. We will consider all qualified
+  applicants for employment without regard to race, color,
+  religion, age, sex, sexual orientation, gender identity,
+  national origin, disability, veteran status, genetic
+  information, or any other basis protected by applicable law.
+  Skills: Event Driven Architecture (EDA); Amazon Web Services
+  (AWS); Distributed Systems; Microservices Architecture;
+  RESTful APIs; Go Programming Language Base pay is one part
+  of the Total Rewards that Comcast provides to compensate and
+  recognize employees for their work. Most sales positions are
+  eligible for a Commission under the terms of an applicable
+  plan, while most non-sales positions are eligible for a
+  Bonus. Additionally, Comcast provides best-in-class Benefits
+  to eligible employees. We believe that benefits should
+  connect you to the support you need when it matters most,
+  and should help you care for those who matter most. That's
+  why we provide an array of options, expert guidance and
+  always-on tools, that are personalized to meet the needs of
+  your reality - to help support you physically, financially
+  and emotionally through the big milestones and in your
+  everyday life. Please visit the compensation and benefits
+  summary on our careers site for more details. Education
+  Bachelor's Degree While possessing the stated degree is
+  preferred, Comcast also may consider applicants who hold
+  some combination of coursework and experience, or who have
+  extensive related professional experience. Relevant Work
+  Experience 5-7 Years
+industries:
+  - Digital Media
+  - Information Technology
+  - News + Entertainment
+posted_date: 2026-10-29
+url: "https://builtin.com/job/cloud-software-engineer-go-aws/11955134"
+source: Built In

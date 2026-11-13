@@ -1,0 +1,124 @@
+job_id: 11433060
+title: Frontend Engineer
+company: Omni (omni.co)
+location: Denver, USA
+locations:
+  - Denver, USA
+  - Seattle, USA
+  - Santa Cruz, USA
+  - Philadelphia, USA
+  - San Francisco, USA
+work_type: FULL_TIME
+company_size: 641 Employees
+description: |
+  About Omni
+
+  Omni is the AI analytics platform that turns company data
+  into a trusted source of truth for AI. Built on a semantic
+  model, Omni gives teams a governed context graph, so
+  everyone gets the same trusted answer. Ask in plain English,
+  refine in workbooks, or bring your data into tools like
+  Claude, ChatGPT, Cursor, and Slack. Our team has spent
+  decades building data platforms, and we started Omni to fix
+  problems we saw firsthand. Today, we help customers like
+  Condé Nast, BambooHR, and Synthesia get better answers from
+  their data. We're headquartered in San Francisco and have
+  raised $217M from top investors including ICONIQ, Theory
+  Ventures, and Redpoint Ventures. Our latest $120M Series C
+  valued us at $1.5B. If you like helping people get more from
+  their data, come build with us. We’d love to hear from you.
+
+  The Role
+
+  We're looking for a Frontend Engineer to build the product
+  experiences customers use every day to explore, visualize,
+  and share their data in Omni. You'll own meaningful features
+  from design through delivery, shipping fast, polished, and
+  intuitive interfaces across the product, including the
+  surfaces customers use to embed Omni in their own
+  applications. You'll partner closely with product, design,
+  and engineers across the stack, and work directly with
+  customers to understand how they use Omni. This is a high-
+  autonomy role for someone who can take ownership of large
+  areas of the frontend with minimal oversight.
+
+  Responsibilities
+
+  - Own features across Omni's frontend end-to-end: technical
+    decisions, implementation, and delivery
+  - Partner directly with customers and the product team to
+    scope integration requirements
+  - Design and build the APIs, SDKs, and front-end surfaces that
+    let companies embed Omni in their own products
+  - Move quickly and ship iteratively, refining based on
+    customer feedback
+  - Use AI coding tools (e.g., Claude Code) to maximize velocity
+    and focus on the highest-leverage technical work
+  - Collaborate with engineers across the stack as needed,
+    without requiring day-to-day oversight
+  - Represent Embed customer needs in broader product and
+    engineering planning
+
+  About You
+
+  - 5+ years of software engineering experience, including 2+
+    years operating at a senior level and shipping production
+    software independently
+  - Strong proficiency in JavaScript or TypeScript and HTML or
+    CSS
+  - Proven track record delivering senior-level projects to
+    customers
+  - Experience with data or business intelligence tools or
+    applications (e.g., SQL, Looker, Tableau, Mode, Amplitude,
+    Google Analytics)
+  - Demonstrated bias to action — comfortable making decisions
+    and shipping with limited oversight
+  - Proficiency with AI coding tools and workflows (e.g., Claude
+    Code, Cursor)
+  - Experience building and maintaining APIs or SDKs consumed by
+    external customers
+
+  Nice to Haves
+
+  - Startup experience
+  - Working confidence in Java or Python
+  - Experience building SaaS applications that run in the cloud
+
+  Our Stack
+
+  - TypeScript
+  - React with Remix
+  - Kotlin / Java
+  - AWS
+
+  Location
+
+  This role is based in San Francisco, or remote for
+  candidates based near one of Omni's engineering hubs
+  (Philadelphia, Boulder/Denver, Santa Cruz, or Seattle);
+  final-round interviews are conducted in person.
+
+  Why Join Us
+
+  - Passionate, supportive team with extensive experience in the
+    space (including founders from Looker and Stitch Data) all
+    working together to win as a team
+  - Fully paid medical insurance for employees, plus vision and
+    dental coverage
+  - 401(k) Plan
+  - Flexible PTO
+
+  Omni is an equal opportunity employer. We value diversity
+  and encourage you to apply even if you don’t check every
+  single box. Please, let us know if you need any reasonable
+  accommodations during the interview process.
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Software
+  - Database
+  - Analytics
+  - Business Intelligence
+posted_date: 2026-09-30
+url: "https://builtin.com/job/frontend-engineer/11433060"
+source: Built In

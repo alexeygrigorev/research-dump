@@ -1,0 +1,123 @@
+job_id: 9967268
+title: Staff Software Engineer, Backend (Consumer - Prediction Markets)
+company: Coinbase
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 4,700 Employees
+description: |
+  Ready to do the most impactful work of your career? At
+  Coinbase, we are uncompromising on our mission to increase
+  economic freedom. The bar is high, the environment is
+  intense, and we like it that way. This isn't a place for
+  complacency, it’s a place to be pushed past your perceived
+  limits. If you're ready to build the future of finance
+  alongside people who refuse to settle for "good enough," you
+  belong here. Coinbase is a remote-first, but not remote-only
+  company. Expect to get together quarterly for intense in-
+  person working sessions called “surges.” learn more about
+  working at Coinbase.
+
+  Coinbase is building prediction markets as part of the
+  Everything Exchange, letting millions of users trade on the
+  outcomes of real-world events across sports, politics,
+  crypto, and culture. We're building the full regulated stack
+  in-house: our own exchange, clearing, and settlement
+  infrastructure. As a Staff Software Engineer on the
+  Prediction Markets team, you'll design and own the core
+  backend systems that power market discovery, best-in-class
+  trading experiences, order management, market resolution,
+  and settlement. It's a rare chance to build market
+  infrastructure from the ground up, with the ownership of a
+  startup and the reach of Coinbase.
+
+  What you’ll do:
+
+  - Own the design, development, and reliability of backend
+    systems that power order management, trade matching,
+    settlement, and market resolution for prediction markets
+  - Architect distributed systems that enforce strict
+    correctness guarantees across clearing, payout, and
+    position management workflows
+  - Drive the technical strategy for migrating from third-party
+    venue participation to a fully Coinbase-operated exchange
+    and clearing platform
+  - Lead cross-functional collaboration with Product,
+    Compliance, and Risk teams to ensure the platform meets
+    regulatory requirements and launches with confidence
+  - Shape engineering standards and practices across the
+    Prediction Markets team, setting a high bar for code
+    quality, system design, and operational rigor
+  - Partner with engineers across Consumer & Business to
+    identify shared infrastructure opportunities and reduce
+    duplication across trading surfaces
+
+  Required skills and experience:
+
+  - 8+ years of backend software engineering experience, with
+    demonstrated ownership of high-availability, low-latency
+    distributed systems in production
+  - Proven track record designing systems where financial
+    correctness is non-negotiable, such as order management,
+    settlement, clearing, or ledger systems
+  - Experience leading complex, multi-quarter technical projects
+    as the senior technical decision-maker, including
+    architecture design, trade-off analysis, and cross-team
+    coordination
+  - Deep proficiency in at least one backend language (e.g., Go,
+    Java, or similar) and strong fundamentals in distributed
+    systems, concurrency, and data modeling
+  - Track record of mentoring and elevating engineers across a
+    team, raising standards for design reviews, code quality,
+    and incident response
+  - Utilizes generative AI responsibly, maintaining human
+    oversight to deliver business-ready outputs and drive
+    measurable improvements in workflow efficiency, cost, and
+    quality.
+
+  Position ID:  P77078
+
+  #LI-Remote
+
+  Pay Transparency Notice: Base salary varies by location (see
+  range below). Total compensation may also include equity and
+  bonus eligibility, and benefits (medical, dental, vision,
+  401(k)).
+
+  Annual base salary range (excluding equity and bonus):
+
+  $218,025—$256,500 USD
+
+  - Application Limit: Candidates may submit a maximum of 3
+    applications within a 6-month period.
+  - Equal Opportunity Employer: Coinbase is an Equal Opportunity
+    Employer. All qualified applicants will receive
+    consideration for employment without regard to race,
+    color, religion, sex, sexual orientation, gender identity,
+    national origin, disability, protected veteran status, or
+    genetic information. Applicants with criminal histories
+    will be considered consistent with applicable federal,
+    state, and local laws.
+  - US Applicants: View Employee Rights, Know Your Rights, and
+    E-Verify Notice of Participation.
+  - Accommodations: If you are an individual with a disability
+    who needs a reasonable accommodation, email us your
+    request and contact info at
+    accommodations[at]coinbase.com. Need screen reading
+    technology? Click here to download a free compatible
+    screen reader and view the tutorial.
+  - Data Privacy & Arbitration: By submitting your application,
+    you agree to our Candidate Privacy Notice. US applicants:
+    By submitting your application, you agree to Arbitration
+    of Disputes.
+industries:
+  - Artificial Intelligence
+  - Blockchain
+  - Fintech
+  - Financial Services
+  - Cryptocurrency
+  - NFT
+  - Web3
+posted_date: 2026-08-18
+url: "https://builtin.com/job/staff-software-engineer-backend-consumer-prediction-markets/9967268"
+source: Built In

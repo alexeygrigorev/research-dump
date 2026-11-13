@@ -1,0 +1,123 @@
+job_id: 11303949
+title: Business Systems Software Engineer/Architect
+company: Neat
+location: GBR
+locations:
+  - GBR
+  - ESP
+  - FRA
+  - BEL
+  - CAN
+  - IRL
+  - USA
+  - Detroit, USA
+  - DNK
+  - New York, USA
+  - Stockholm, SWE
+  - Location, USA
+  - Amsterdam, NLD
+  - Bærum, NOR
+  - London, GBR
+  - Cambridge, GBR
+remote: true
+work_type: FULL_TIME
+company_size: 400 Employees
+description: |
+  Business Systems Software Engineer
+
+  Neat's Business Systems team owns the infrastructure behind
+  how the company sells, bills, and supports its customers —
+  Salesforce, NetSuite, and the integrations that connect them
+  — supporting roughly 400 internal users across the business.
+  It's a small team that balances high-volume day-to-day
+  support with the systems work that keeps the business
+  running.
+
+  This role is designed to transform how our business systems
+  team operates, driving a shift toward software-engineering-
+  focused practices and methodology. As an early member of
+  this evolving model, you will directly influence our
+  technical architecture, development operations, and long-
+  term engineering strategy.
+
+  The Opportunity
+
+  You will architect, build, and maintain solutions across
+  Salesforce, NetSuite, and our integrated ecosystem. This
+  position offers a greenfield development opportunity where
+  you will own key technology and architectural choices. Using
+  modern development tools, you’ll drive engineering
+  efficiency while retaining end-to-end ownership—ensuring
+  every solution meets the highest standards for quality,
+  security, and production readiness.
+
+  Your initial focus will involve building the skill-based
+  quoting agent for our next-generation quoting workflow,
+  followed by engineering the subscription and entitlement
+  engine for the Pulse commercial framework. Partnering
+  closely with our Business Systems Product Manager and
+  technical peers, you will translate strategic business
+  requirements into scalable, resilient architecture.
+
+  Responsibilities
+
+  - Architect and deliver production-grade code across Apex,
+    LWC, SuiteScript, and middleware solutions, enforcing
+    rigorous architecture and security standards.
+  - Engineer robust automation pipelines and resilient API
+    integrations spanning Salesforce, NetSuite, and core
+    enterprise systems.
+  - Synthesize complex feedback from key stakeholders into
+    iterative system enhancements and clear product roadmap
+    contributions.
+  - Establish and enforce technical standards, security
+    guardrails, and code reviews, ensuring full production
+    readiness across all deliverables.
+  - Maintain thorough architecture and technical documentation
+    to ensure long-term maintainability, scalability, and
+    knowledge transfer across the organization.
+  - Engineer and own complex subscription and entitlement
+    engines, managing high-stakes logic for proration, true-
+    forward calculations, and co-term renewal cycles across
+    Salesforce, NetSuite, and the Pulse platform.
+  - Translate complex commercial policy into technical logic,
+    partnering with cross-functional stakeholders (Finance,
+    Sales Operations, Customer Success) to ensure the system
+    output aligns with business and financial requirements.
+
+  About You
+
+  - 5 or more years of commercial software development
+    experience, including experience with enterprise
+    architectures like Salesforce or NetSuite.
+  - Deep proficiency in core computer science fundamentals,
+    including system design, data modeling, and security
+    design patterns.
+  - Critical technical judgment to audit AI-generated code
+    rigorously for performance, edge cases, and architectural
+    integrity before deployment.
+  - Proven ability to navigate ambiguity, drive alignment, and
+    deliver scalable technical solutions from high-level
+    operational concepts.
+  - Bachelor's degree in Computer Science, Software Engineering,
+    or equivalent practical industry experience.
+  - Experience designing 'defensive' system
+    architectures—building for error handling, auditability,
+    and observability, specifically for scenarios where manual
+    operational intervention is required.
+  - A collaborative mindset that values the speed of low-code
+    platforms while maintaining the rigor of traditional
+    software engineering. You are comfortable bridging the gap
+    between 'out-of-the-box' configuration and custom code.
+
+  Hiring in the UK, ideally for on-site in Cambridge or on the
+  East Coast US for a remote position.
+
+  Salary range for the US: $120,000-160,000 or up to £100,000
+  for UK.
+industries:
+  - Artificial Intelligence
+  - Hardware
+posted_date: 2026-09-22
+url: "https://builtin.com/job/business-systems-software-engineer-architect/11303949"
+source: Built In

@@ -1,0 +1,169 @@
+job_id: 10620599
+title: Web Developer (Back-End)
+company: Tenna
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 110 Employees
+description: |
+  Position Description:
+
+  We are seeking a Web Developer to own the technical health
+  of our marketing website and focus specifically on the back-
+  end. This person will make sure our site is fast, secure,
+  stable, measurable, healthy and always on, so that our
+  Front-End Designer & Developer can stay focused on how it
+  looks and converts. This position will own the WordPress
+  platform end to end: hosting and environments, plugin
+  architecture and updates, security and backups, performance
+  and uptime, technical SEO, and the tracking and integration
+  layer that connects our website to HubSpot and the rest of
+  the marketing stack. Our Web Developer will be the technical
+  authority on the website inside a marketing organization
+  that moves quickly, and have the autonomy to build the
+  standards, environments, and documentation to keep the site
+  healthy and safe. If you like owning a platform, catching
+  problems before anyone else notices and maintaining
+  functional documentation, this role was made for you.
+
+  NOTE: To be considered for the position, applicants must
+  share work samples that demonstrate technical judgment.
+  Examples include documentation authored, a site you own end
+  to end, or a written walkthrough of a technical problem you
+  diagnosed and solved.
+
+
+
+  Why Tenna?
+
+  At Tenna, we believe the best is right in front of all of
+  us, and that each day holds more potential than the one
+  before. We believe that every new discovery can lead to
+  something better than we thought possible. When we boil it
+  down, the top five qualities that define the Tenna Team are
+  quality-obsessed, gritty, continuous learners, collaborative
+  problem solvers, and just plain awesome. Sound like you?
+  Join us as we empower our customers to control their mixed
+  assets anytime, anywhere, on one comprehensive platform.
+  Apply now!
+
+  Responsibilities
+
+  - Owns the WordPress back end, including custom post types,
+    taxonomies, custom fields, template logic, and custom
+    plugin/theme functionality in PHP, along with the custom
+    functionality marketing programs depend on: gated content,
+    dynamic and personalized content, form logic, and campaign
+    infrastructure.
+  - Maintains a disciplined plugin strategy and a defined
+    upgrade cadence for PHP, WordPress core, themes, and
+    plugins, tested on staging before production release, and
+    maintains Elementor at the platform level, including
+    custom widgets and controlling the performance and markup
+    overhead a page builder introduces.
+  - Maintains local, staging, and production environments with
+    version control and a repeatable, documented deployment
+    process.
+  - Owns site reliability and infrastructure end to end: uptime
+    and error monitoring with automated alerting, server-side
+    performance (caching, CDN, database and query
+    optimization, image delivery), Core Web Vitals (LCP, INP,
+    CLS), hosting/DNS/SSL, and automated backups with a tested
+    disaster recovery plan.
+  - Owns website security end to end: hardening against common
+    attack vectors, vulnerability scanning and patching,
+    least-privilege access with MFA/SSO, and an incident
+    response runbook you lead when something goes wrong.
+  - Maintains web privacy compliance (GDPR, CCPA/CPRA, and
+    consent-mode configuration) and supports accessibility
+    compliance by remediating barriers identified in WCAG 2.2
+    AA audits.
+  - Owns technical SEO execution and site health, including
+    crawlability, sitemaps, schema markup, SEMrush monitoring,
+    backlink remediation, and Google Search Console
+    diagnostics, partnering with Tenna's Content SEO
+    specialist on keyword and content strategy.
+  - Owns the tracking layer, including GA4, Google Tag Manager,
+    HubSpot tracking, and server-side tagging where
+    appropriate, ensuring marketing data is accurate and
+    trusted.
+  - Builds and maintains integrations between WordPress,
+    HubSpot, and other marketing and sales systems via APIs
+    and webhooks, ensuring form submissions, lead routing, UTM
+    and attribution data, and gated content flows work
+    reliably end to end, and troubleshoots discrepancies as
+    they arise.
+  - Documents architecture, integrations, credentials
+    management, processes, and runbooks, and establishes QA
+    standards and pre-release checklists, including automated
+    or visual regression testing where it pays off.
+  - Partners daily with the Front-End Designer & Developer and
+    supports marketing stakeholders with technical scoping,
+    realistic estimates, and plain-language explanations of
+    risk and tradeoffs.
+  - Uses Tenna-approved AI tools to accelerate debugging, code
+    review, log triage, test generation, and documentation,
+    with all AI-assisted code reviewed, tested, and security-
+    checked before it reaches production.
+
+  Requirements
+
+  - 5+ years of professional back-end web development, including
+    substantial WordPress experience.
+  - Bachelor's degree in computer science, information systems,
+    web development, or a related field, or equivalent
+    demonstrated experience.
+  - Experience supporting a B2B SaaS marketing site and a demand
+    generation team is a plus.
+  - Exposure to marketing operations or revenue operations is a
+    plus.
+  - Strong PHP and MySQL, and fluency with WordPress APIs (hooks
+    and filters, the REST API, and WP-CLI); able to read,
+    write, and debug custom plugin code.
+  - Working JavaScript ability, sufficient to debug interactions
+    between front-end and back-end behavior.
+  - Experience working in a version-controlled, staging-to-
+    production workflow. Disciplined change management and
+    rollback capability are required.
+  - Experience with Elementor at a technical level, including
+    its performance and markup implications and how to keep an
+    Elementor-built site fast and stable.
+  - Hands-on SEMrush experience for site health monitoring, Site
+    Audit remediation, backlink auditing and disavows, and
+    technical issue triage.
+  - Demonstrated ownership of website security: hardening,
+    vulnerability management, backups, and incident response.
+  - Experience with managed WordPress hosting (WP Engine), CDNs,
+    caching layers, and DNS management.
+  - Technical SEO fluency: Google Search Console, crawl
+    diagnostics, schema markup, redirect strategy, and site
+    migration integrity.
+  - Hands-on GA4 and Google Tag Manager implementation, plus a
+    working understanding of consent management and web
+    privacy requirements.
+  - API integration experience, ideally including HubSpot or a
+    comparable marketing automation platform.
+  - Familiarity with WCAG 2.2 AA and the technical work required
+    to support compliance.
+  - Fluency with AI-assisted development tools, with sound
+    judgment about reviewing, testing, and securing generated
+    code and dependencies.
+  - Clear written communication: able to explain technical
+    tradeoffs, risk, and timelines to non-technical marketing
+    stakeholders.
+  - Strong documentation habits and repeatable processes.
+
+  Benefits, Perks, & Additional Information:
+
+  As an Equal Opportunity Employer, Tenna is committed to
+  building a diverse team. We welcome different perspectives
+  and opinions to foster innovation, authenticity, and
+  excellence across all parts of our company, and are
+  committed to providing employees with a work environment
+  free of discrimination and harassment.
+industries:
+  - Information Technology
+  - Internet of Things
+posted_date: 2026-10-22
+url: "https://builtin.com/job/web-platform-engineer/10620599"
+source: Built In

@@ -1,0 +1,154 @@
+job_id: 11111380
+title: Senior Software Engineer II, Customer Experience
+company: Kard
+location: FRA
+remote: true
+work_type: FULL_TIME
+company_size: 61 Employees
+description: |
+  Kard is building commerce media infrastructure that connects
+  financial institutions, financial-services platforms, and
+  merchants through data and merchant-funded rewards. As our
+  reach expands, we are building for a step-change in scale,
+  and for opportunities ranging from more relevant rewards and
+  marketer intelligence to new commerce and distribution
+  models.
+
+  About the Role
+
+  The Customer Experience (CX) team owns the systems that
+  power Kard's end-to-end rewards experience: transaction
+  matching and the cellar pipeline, offer ingestion and
+  delivery (including partner integrations like Rewards
+  Network and SEATED), the cell-based routing architecture,
+  and the Support API that keeps our internal and partner-
+  facing tooling running. As a Senior Software Engineer II,
+  you'll operate at the center of this — designing and
+  building the services that ingest, match, and settle
+  transactions at scale, while helping the team raise its bar
+  on operational readiness, testing, and documentation.
+
+  This role reports into the CX engineering team, with a
+  strong focus on our issuer and partner-facing surface area,
+  working alongside Support, Design, and Product through
+  Kard's Shape Up-based pitch cycle. You'll drive pitches end-
+  to-end, participate in on-call, and help the team keep pace
+  with a fast-growing transaction volume and issuer surface.
+
+  Responsibilities
+
+  - Architect and build scalable services across transaction
+    matching, the cellar pipeline, and offer ingestion — new
+    work defaults to Go and Postgres; existing services are a
+    mix of TypeScript and MongoDB.
+  - Own features end-to-end through Kard's Shape Up cycle:
+    discovery, pitch writing, implementation, testing, and
+    production rollout, including a written launch/rollback
+    plan for anything touchingtransaction or offer data.
+  - Actively participate in on-call, incident response, and IOC
+    (interrupt/on-call) triage; drive root-cause fixes rather
+    than one-off patches (e.g., ingestion validation gaps,
+    UID/timestamp mismatches, Datadog alertcoverage).
+  - Strengthen our issuer/client-facing APIs and SDKs —
+    reliability, clarity, and self-service — so partners and
+    Support can resolve more issues independently, reducing
+    engineering escalations.
+  - Lead by example: make decisive technical calls and foster
+    collaboration across Product, Design, and Engineering to
+    keep the team moving toward CX's strategic goals.
+  - Champion enhancements to our tech stack, methodologies, and
+    standards — authentication, rate limiting, deployment,
+    observability, error handling, and test coverage (unit,
+    integration, end-to-end) —with an eye toward resilience,
+    agility, and quality, not just shipping speed.
+  - Mentor engineers, contribute to design and architecture
+    discussions, and help the team consolidate or deprecate
+    legacy/overlapping services rather than letting them
+    accumulate.
+  - Write clear documentation and playbooks (local dev setup,
+    deployment, troubleshooting) so ownership doesn't stay
+    concentrated with one or two people.
+
+  Desired Skills
+
+  - Expert programming skills in Go and/or TypeScript, with
+    experience building scalable, secure, high-performance
+    backend services.
+  - Solid experience with distributed systems, event-driven
+    architectures (SQS, Temporal), and both relational and
+    document databases (Postgres and MongoDB).
+  - Proficiency with AWS and Infrastructure-as-Code (Terraform),
+    including container technologies (Kubernetes/EKS) and
+    serverless components (Lambda).
+  - Experience working on transaction-processing, matching, or
+    ingestion pipelines where correctness and idempotency
+    matter.
+  - Comfort leading a technical project from discovery through
+    production rollout, including writing clear specs and
+    driving cross-team collaboration (e.g., with Support,
+    Data, or partner integration teams).
+  - Skilled with agentic software development — using AI tools
+    (e.g., Claude Code, Codex) to plan and implement complex
+    features, not just autocomplete — while still owning the
+    design and quality of the result.
+  - Commitment to fostering an inclusive, collaborative
+    engineering culture.
+  - U.S. core business hours availability and willingness to
+    travel for company meetings.
+
+  Bonus Points
+
+  - Experience with card-linked offers, loyalty, fintech, or
+    another transaction-intensive marketplace.
+  - Experience with partner data ingestion (file-based or API)
+    and the validation/monitoring needed to run it reliably in
+    production.
+  - Familiarity with Cognito-based auth, API gateway enforcement
+    (e.g., Envoy), or claims-based authorization.
+  - Experience with Databricks or a similar data platform, and
+    with migrating services from a legacy stack (e.g.,
+    Databricks to Postgres/Lakebase) without disrupting
+    production.
+  - Contributions to the tech community or open-source projects.
+  - Past success in startup settings, and a track record of
+    empathy, collaboration, and productivity in remote work.
+
+  Compensation
+
+  - United States: $160,000 - $190,000 USD
+  - Argentina: $120,000 - $140,000 USD
+
+  Why Join:
+
+  Kard recognizes the unique value each of us brings to our
+  collective success. As part of our remote-first team, you'll
+  have the autonomy to influence our trajectory, actively
+  contributing to the growth of our business and the evolution
+  of our company culture. By embodying our core values of
+  Initiative, Openness, and Humility, you will not only
+  witness but directly foster an inclusive and dynamic work
+  environment, from the executive level down.
+
+  Our competitive benefit plan includes:
+
+  - Flexible PTO, with a minimum requirement to take one day off
+    a quarter, ten days a year, promoting mental well-being
+  - Observance of 11 Federal Holidays, plus an additional day
+    each for Black Friday and Christmas Eve (US employees
+    only)
+  - Health, Dental and Vision Insurance
+  - 401k with employer match (US employees only)
+  - Coworking space and WFH setup reimbursement
+  - Company Offsites for planning, team-building, and networking
+
+  Kard is an equal opportunity employer and we actively
+  encourage applicants of all genders, backgrounds, and
+  experiences to apply. We believe that diverse perspectives
+  enrich our workplace and drive our success.
+industries:
+  - AdTech
+  - Fintech
+  - Marketing Tech
+posted_date: 2026-09-10
+url: "https://builtin.com/job/senior-software-engineer-ii-customer-experience/11111380"
+source: Built In

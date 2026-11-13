@@ -1,0 +1,90 @@
+job_id: 11575310
+title: Backend Engineer (Mid/Senior), Marketplace
+company: Wheely
+location: London, GBR
+work_type: FULL_TIME
+company_size: 234 Employees
+description: |
+  About Wheely
+
+  Wheely is redefining premium transportation across major
+  cities in Europe, the US, and the Middle East. We blend
+  cutting-edge technology with the craft of five-star
+  chauffeuring to deliver an experience trusted by more than
+  100,000 active riders and 1,200 corporate accounts.
+
+  We’re a profitable, fast-growing scale-up with $43M raised
+  and over $100M in annual revenue. Having recently launched
+  in New York City, we’re expanding rapidly across the US and
+  EMEA. If you take pride in your craft and want to help shape
+  the next chapter of our growth, we'd love to hear from you.
+
+  About The Role
+
+  Our Marketplace team builds the models and algorithms that
+  balance supply and demand, optimising pricing and matching
+  to ensure chauffeurs earn and passengers aren't left
+  waiting.
+
+  We’re looking for a Mid/Senior Backend Engineer to join a
+  team that keeps frameworks lean and focuses on what matters:
+  clean, maintainable code, shipped fast with TDD, DDD, and
+  continuous integration and delivery.
+
+  We are a Go shop, and while we’re busy migrating away from
+  our Ruby monolith, our stack includes PostgreSQL, MongoDB,
+  RabbitMQ, Redis, gRPC, and Thrift. Everything runs on AWS
+  and Kubernetes, managed via Terraform.
+
+  Our interview process includes a recruiter screen,
+  algorithms and live coding. Senior+ candidates also complete
+  a system design section.
+
+  Responsibilities
+
+  - Write high-quality, performant code primarily in Go.
+  - Implement new microservices while helping us responsibly
+    manage and migrate away from legacy services.
+  - Work closely with product managers, designers, and data
+    scientists to turn abstract requirements into concrete
+    technical designs.
+  - Ensure our systems stay responsive under heavy load,
+    optimising for both latency and reliability.
+
+  Requirements
+
+  - 3+ years of experience (5+ years for seniors) building and
+    maintaining scalable backend services.
+  - We use Go. If you know it, great. If not, we’ll interview
+    you in your strongest language (Python, C++, Ruby).
+  - In-depth knowledge of relational and NoSQL databases
+    (PostgreSQL, MongoDB, Redis) and experience with message
+    brokers like RabbitMQ or Kafka.
+  - Upper-Intermediate (B2) English proficiency or higher. You
+    should be comfortable debating technical trade-offs with
+    your peers.
+
+  What We Offer
+
+  - Office-based role in West London, four days a week with
+    flexible start and finish times, plus one remote day of
+    your choice
+  - Salary starting from £90,000
+  - Employee stock options plan
+  - Private medical and dental insurance
+  - Life and critical illness cover
+  - Latest-generation MacBook Pro and 4k display
+  - Monthly credit towards Wheely journeys
+  - Cycle to Work scheme
+  - Professional development stipend
+  - Relocation support, including visa sponsorship and allowance
+
+  All of your personal information will be collected stored
+  and processed in accordance with Wheely’s Candidate Privacy
+  Notice
+industries:
+  - Mobile
+  - Software
+posted_date: 2026-10-08
+url: "https://builtin.com/job/backend-engineer-mid-senior-marketplace/11575310"
+source: Built In

@@ -1,0 +1,212 @@
+job_id: 9241918
+title: Engineering Manager, Platform
+company: ABCorp (American Banknote Corporation)
+location: Boston, USA
+work_type: FULL_TIME
+company_size: 600 Employees
+description: |
+  From our nation’s earliest days, ABCorp has been a trusted
+  force in security and innovation. In 1795, the federally
+  chartered Bank of the United States entrusted American Bank
+  Note Company with the critical mission of producing
+  counterfeit-resistant currency for the young Republic. This
+  early history established our company, now known as ABCorp,
+  as a pioneer in secure printing, with innovations that
+  served not only American banks but also international
+  clients, a legacy that shaped our evolution into a global
+  leader in secure manufacturing. What began with protecting
+  America’s financial foundation now drives cutting-edge
+  solutions that safeguard organizations worldwide.
+
+  Today, ABCorp sits at the intersection where authentication,
+  payments, and secure access embrace next-gen (including
+  additive 3D) manufacturing to meet the demands of a
+  digitally driven world. We have built 230 Years of Expertise
+  – no one knows secure manufacturing and authentication
+  better, and no one has done it longer. We maintain global
+  reach and compliance with eight locations around the world,
+  and we’ve been trusted by fintechs, financial institutions,
+  healthcare companies, governments, and brands across 120+
+  countries. We deliver end-to-end innovation through high-
+  security, state-of-the-art facilities that are incubators
+  for advancements in payments, secure access, and additive
+  manufacturing.
+
+  The Team
+
+  At ABCorp, we know that our legacy and decades of
+  achievement are powered by an exceptional team that embodies
+  a true startup mindset.
+
+  The Platform Engineering Team at ABCorp owns the full data
+  and integration infrastructure that powers our products and
+  business. We build and operate the pipelines, APIs, and
+  integrations that move critical data across our systems —
+  from ERP and manufacturing to CRM, product analytics, and
+  customer-facing platforms. Our team works closely with
+  Engineering, Product, Analytics, and IT to ensure that every
+  part of the organization has access to reliable, well-
+  modeled, and actionable data. This is a domain with real
+  breadth: operational data, customer data, analytics, and the
+  platform capabilities that tie it all together.
+
+  Learn more about ABCorp's story, products and team at
+  abcorp.com.
+
+  The Role
+
+  ABCorp is seeking an experienced Engineering Manager to lead
+  our Platform Engineering team — a player-coach role with
+  direct responsibility for the people, architecture, and
+  delivery across data, analytics, APIs, and integrations. You
+  will manage a team of 3–5 engineers and own the technical
+  foundation that every product team at ABCorp depends on,
+  spanning operational and customer data flows, cloud data
+  infrastructure, API development, and third-party system
+  integrations.
+
+  The ideal candidate brings both strong technical depth and
+  genuine enthusiasm for building high-performing teams. You
+  are as comfortable reviewing a data pipeline architecture or
+  an API design as you are running a 1:1, managing roadmap
+  trade-offs with Product leadership, or setting engineering
+  standards that raise the bar for the whole team. This is a
+  hands-on management role with meaningful opportunities to
+  shape ABCorp’s technical platform and its engineering
+  culture.
+
+  This is an in-person role with our team based in Boston, MA.
+  Please note there is no Visa Sponsorship for this position.
+
+  How You’ll Make a Difference:
+
+  - Lead and develop a team of 3–5 engineers spanning data
+    platform, analytics engineering, API development, and
+    system integrations — setting direction, removing
+    blockers, and building a culture of ownership, quality,
+    and continuous improvement.
+  - Own the Platform Engineering roadmap — prioritizing
+    initiatives across data pipelines, warehouse
+    infrastructure, API development, integration architecture,
+    and operational data systems in close collaboration with
+    Product, Sales, and Customer Success.
+  - Architect and deliver APIs and integrations that connect
+    ABCorp’s core products to external platforms — including
+    ERP systems, CRM tools, payment networks, and third-party
+    data providers — with a focus on reliability,
+    maintainability, and developer experience.
+  - Ensure the reliability, scalability, and observability of
+    ABCorp’s data platform — including cloud data pipelines,
+    the analytics warehouse, data quality frameworks, and the
+    self-service infrastructure that product and business
+    teams depend on daily.
+  - Own the operational and customer data domain — the models,
+    pipelines, and reporting layers that power product
+    analytics, customer success, sales operations, and
+    executive reporting across ABCorp’s product lines.
+  - Serve as the technical escalation point for your team —
+    reviewing system designs and architecture proposals,
+    unblocking complex cross-team dependencies, and ensuring
+    the platform upholds high standards of reliability and
+    engineering discipline.
+  - Drive engineering best practices across the Platform
+    Engineering team — including code quality standards,
+    testing coverage, documentation habits, and delivery rigor
+    — raising the bar as the team and domain scale.
+  - Partner with Product Management, Sales, and Customer Success
+    to translate business requirements into a coherent
+    platform roadmap — building cross-functional alignment on
+    priorities, trade-offs, and delivery commitments.
+
+  What Excites You
+
+  - Building the enabling layer — the platform infrastructure
+    that every other team depends on — and knowing that the
+    quality of your work is foundational to every product
+    ABCorp ships.
+  - Operating at the intersection of data, integrations, and
+    product engineering — where the technical decisions are
+    genuinely complex, the cross-functional surface is broad,
+    and the business impact is direct and measurable.
+  - Growing a team and a domain together — not just delivering
+    individual projects, but building lasting engineering
+    capability, raising standards, and developing engineers
+    who can take on increasing ownership over time.
+
+  Who You Are
+
+  - Bachelor’s degree in Computer Science, Engineering, Data
+    Science, Mathematics, or a related technical field.
+  - 5+ years of professional software or data engineering
+    experience, with 2+ years in a formal engineering lead or
+    management role overseeing a technical team.
+  - Hands-on technical depth in at least two of the following:
+    data platform engineering (pipelines, warehouse, dbt,
+    Spark), API development (REST, GraphQL, event streaming),
+    system integrations (ETL/ELT, ERP/CRM connectors,
+    webhooks), or analytics engineering.
+  - Demonstrated experience owning a technical domain end-to-end
+    — setting engineering standards, driving code quality,
+    managing architecture decisions, and delivering reliably
+    against a roadmap, ideally across a multi-person team.
+  - Experience with Azure cloud infrastructure relevant to
+    platform engineering — including Azure Data Factory, Azure
+    Synapse Analytics, Azure Databricks, ADLS, Azure API
+    Management, Azure Service Bus, or similar services.
+  - Experience with legacy operational systems — ERPs (SAP,
+    Oracle, Microsoft Dynamics), CRM platforms, or
+    manufacturing systems — and building integrations or data
+    pipelines that bridge legacy and modern cloud
+    infrastructure.
+  - Strong communicator and cross-functional partner — able to
+    represent the Platform Engineering team to Product, Sales,
+    and Executive stakeholders, align on priorities under
+    ambiguity, and translate technical complexity into clear
+    decisions.
+  - Experience growing and developing individual contributors —
+    through 1:1s, feedback, career conversations, and giving
+    engineers opportunities that stretch their abilities and
+    build their confidence.
+  - Familiarity with payments, card issuance, authentication,
+    identity, fintech, or secure manufacturing is a plus — or
+    a genuine curiosity to learn an industry with real
+    technical depth and meaningful real-world impact.
+  - A track record of building high-performing teams where
+    engineers grow, stay, and do their best work.
+  - Ability to work onsite in Boston, MA.
+
+
+
+  Why Join ABCorp?
+
+  Own the full Platform Engineering domain — data, analytics,
+  APIs, and integrations — with the visibility, authority, and
+  resources to build it right.
+
+  Broad technical scope that touches every product team and
+  every critical data flow in the company — this is not a
+  narrowly defined role.
+
+  Direct partnership with Product, Sales, and Engineering
+  leadership — your roadmap priorities will be shaped by and
+  visible to the people driving ABCorp’s growth strategy.
+
+  A high-trust engineering culture where technical managers
+  are expected to lead with conviction, invest in their teams,
+  and shape the company’s engineering direction over time.
+
+  An opportunity to build something lasting — not just execute
+  projects, but create the platform foundation and team
+  culture that ABCorp will scale on for years to come.
+
+  Competitive salary and benefits package.
+
+  Professional growth and development opportunities.
+industries:
+  - 3D Printing
+  - Fintech
+  - Payments
+  - Manufacturing
+posted_date: 2026-09-01
+url: "https://builtin.com/job/engineering-manager-platform/9241918"
+source: Built In

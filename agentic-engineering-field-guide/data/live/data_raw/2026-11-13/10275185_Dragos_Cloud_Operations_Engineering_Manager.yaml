@@ -1,0 +1,132 @@
+job_id: 10275185
+title: Cloud Operations Engineering Manager
+company: Dragos
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 750 Employees
+description: |
+  At Dragos, the mission is personal. The systems we protect
+  deliver the water you drink, power your home, and keep the
+  hospitals your community depends on running. Those critical
+  infrastructure systems that power our civilization around
+  the world are under attack every day by adversaries. When
+  those systems fail, people are immediately at risk. We are
+  the global leader in xOT cybersecurity, combining
+  technology, threat intelligence, and expert services. The
+  people here chose this work because they understand what is
+  at stake. Here, you will find a remote-first mission-driven
+  team across North America, Europe, the Middle East, and APAC
+  built on authenticity, transparency, and trust. If
+  safeguarding the systems that protect your family, friends,
+  and community is the kind of work that matters to you, you
+  are in the right place.
+
+  About the Role
+
+  We are seeking a Cloud Operations Engineering Manager to
+  oversee our Cloud Operations Engineering team. This role
+  owns the people leadership and operational outcomes for the
+  Cloud Operations Engineers who keep the Dragos customer
+  cloud fleet across Azure, AWS, and GCP healthy, secure, and
+  running smoothly. You will manage the team, set priorities
+  across fleet reliability and customer environment work, and
+  represent Cloud Operations to engineering leadership, while
+  maintaining technical edge.
+
+  Responsibilities
+
+  - Manage and grow a team of Cloud Operations Engineers,
+    including hiring, onboarding, performance management, and
+    career development
+  - Own team-level operational outcomes: fleet reliability SLOs,
+    error budgets, incident response quality, and customer
+    environment lifecycle health across Azure, AWS, and GCP
+  - Balance workload and the on-call rotation (PagerDuty) fairly
+    across the team, protecting against burnout while
+    maintaining coverage
+  - Set and communicate team priorities across ad-hoc customer
+    work, planned fleet initiatives, and technical debt
+    reduction
+  - Act as an escalation point and executive sponsor for major
+    incidents affecting the customer cloud fleet
+  - Partner with technical leadership and architects on
+    technical direction, including Terraform standards, multi-
+    tenant isolation, and cloud-to-OT connectivity, without
+    owning hands-on implementation
+  - Own the team's contribution to audit and compliance programs
+    (FedRAMP, SOC2), ensuring evidence collection and controls
+    work gets resourced and prioritized
+  - Manage cloud cost accountability (FinOps) for the team's
+    areas of ownership, partnering with Finance and leadership
+    on budget and optimization
+  - Ensure the team effectively uses core tooling like Datadog
+    and Tailscale for observability and connectivity across
+    the fleet
+  - Represent Cloud Operations in cross-team planning with
+    adjacent teams (Security, Product Engineering, Support)
+    and enforce clean work-intake so requests come through the
+    team lead rather than ad hoc to individual engineers
+  - Build and maintain a healthy team culture, including
+    blameless post-incident reviews
+  - Report on team health, fleet reliability, and risk to
+    engineering leadership
+
+  Qualifications
+
+  - 5+ years of experience managing engineering or cloud
+    operations teams, including experience managing Senior and
+    Staff-level engineers
+  - Strong technical background in cloud operations (Azure, AWS,
+    and/or GCP) sufficient to evaluate architecture and
+    incident decisions; hands-on IaC/Terraform experience is a
+    plus but not a day-to-day requirement
+  - Experience running or overseeing an on-call rotation
+    (PagerDuty or equivalent) and balancing team workload
+    sustainably
+  - Track record in hiring, developing, and retaining senior
+    technical talent
+  - Experience partnering with Security/Compliance teams on
+    audit programs (FedRAMP, SOC2, or similar)
+  - Strong budget and cost accountability experience, with cloud
+    cost/FinOps exposure a plus
+  - Excellent stakeholder management, able to enforce work-
+    intake discipline and protect team focus
+  - Strong communication skills, comfortable reporting up to
+    engineering leadership and across to peer managers
+
+  Preferred Qualifications
+
+  - Prior experience as a Senior or Staff-level IC in cloud
+    operations or SRE before moving into management
+  - Experience managing teams supporting external, regulated
+    customers
+  - Familiarity with multi-tenant cloud architecture and
+    compliance frameworks (FedRAMP, SOC2, NIST CSF)
+  - Experience managing distributed or remote engineering teams
+  - Cybersecurity experience
+
+  Compensation:
+
+  - Salary: $220,000
+  - Competitive Equity Package
+  - Comprehensive Benefits Plan
+
+
+
+
+
+  #LI-NH1 #LI-REMOTE
+
+  Dragos is an Equal Opportunity Employer and considers
+  applicants for employment without regard to race, color,
+  religion, sex, orientation, national origin, age,
+  disability, genetics, or any other basis forbidden under
+  federal, state, or local laws. All new hires must pass a
+  background check as a condition of employment.
+industries:
+  - Security
+  - Cybersecurity
+posted_date: 2026-08-16
+url: "https://builtin.com/job/cloud-operations-engineering-manager/10275185"
+source: Built In

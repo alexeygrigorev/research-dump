@@ -1,0 +1,253 @@
+job_id: 12219824
+title: Principal Software Engineer - XTM One
+company: Filigran
+location: ITA
+locations:
+  - ITA
+  - ESP
+  - FRA
+  - DEU
+  - PRT
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 152 Employees
+description: |
+  🌀 The Company
+
+  Founded in 2022, Filigran is a global cybersecurity company
+  on a mission to empower defense teams to be proactive
+  through open-source solutions that uncover threats and drive
+  action.
+
+  Filigran stands out in the cybersecurity ecosystem through
+  its open-source, AI-powered and threat-informed approach to
+  Continuous Threat Exposure Management (CTEM). Our eXtended
+  Threat Management (XTM) platform brings together threat
+  intelligence, exposure validation and cyber risk reduction,
+  enabling organizations to better understand their threat
+  landscape and take action.
+
+  At the heart of Filigran is our open-source approach. Our
+  vision is to unite defenders into a global community to make
+  security more open, resilient and collaborative.
+
+  As Filigran continues to scale globally, we are building the
+  organization, infrastructure and capabilities needed for our
+  next stage of growth. How we scale matters just as much as
+  how fast we scale: our CORE values: Cohesion, Openness,
+  Responsibility and Equity shape how we work together, make
+  decisions and build for the future.
+
+
+
+  🎯 The Role
+
+  We're looking for a Principal Software Engineer to define
+  and drive the technical direction of XTM One, Filigran's AI
+  platform for threat informed defense and the agentic core of
+  the XTM Suite.
+
+  XTM One creates and runs cybersecurity expert AI agents and
+  dispatches their intelligence across OpenCTI, OpenAEV and
+  OpenGRC. It also hosts the suite's shared commons (unified
+  authentication, consolidated datasets, configuration) and
+  ships both as SaaS and on premises. Every XTM product
+  connects to it, which makes its architecture one of the most
+  structuring technical decisions at Filigran.
+
+  This is not a management role: no headcount, no sprints. You
+  own the technical craft, standards and vision of XTM One,
+  and you carry them into the XTM Foundation, where the
+  engineering principles shared by all products are set for
+  the 60+ engineers at Filigran.
+
+  💼 Your Responsibilities
+
+  Vision & architecture
+
+  - Define and carry the technical vision of XTM One over the
+    long term, with technical and product leadership.
+  - Own the platform architecture: agent runtime and
+    orchestration, tool and MCP integrations, data and context
+    layers, APIs, permission model, shared commons.
+  - Design for SaaS and on premises from day one: multitenancy,
+    isolation, upgrade paths, configuration, operability in
+    customer environments.
+  - Arbitrate key decisions on scalability, resilience,
+    security, maintainability and cost, including LLM latency
+    and inference cost.
+
+  Standards & quality
+
+  - Define the team's technical principles (architecture
+    patterns, code quality, tooling, CI/CD, testing,
+    development with AI assistants) and get them applied
+    through docs, reviews, pairing and example.
+  - Set the bar for observability and reliability of
+    nondeterministic AI workloads: metrics, logs, traces,
+    evaluations, and guardrails that make agent behavior
+    measurable and debuggable in production.
+  - Keep the right balance between features, technical debt and
+    innovation.
+
+  Integration across products & XTM Foundation
+
+  - Define how OpenCTI, OpenAEV, OpenGRC and future products
+    integrate with XTM One: contracts, authentication, data
+    exchange, versioning.
+  - Be a full member of the XTM Foundation: bring the XTM One
+    perspective in, carry its decisions back, and keep
+    coherence with the other Principal and Staff Engineers.
+
+  In the code
+
+  - Write production code, prototype new approaches before the
+    team adopts them, review critical PRs so that feedback
+    teaches, and unblock engineers.
+
+  🤝 Who You'll Work With
+
+  - Reports to: VP of Technology
+  - Key collaborators: XTM One engineering team and its
+    verticals; XTM Foundation (Principal and Staff Engineers
+    across OpenCTI, OpenAEV, OpenGRC); Product leadership;
+    open source contributors.
+  - Working model: embedded in the XTM One team, with regular
+    XTM Foundation work.
+
+  🧬 Profile We're Looking For
+
+  - 10+ years in software engineering, with technical leadership
+    on complex production platforms.
+  - Strong fullstack background, with a backend and architecture
+    focus. You master TypeScript and Python, the core
+    languages of XTM One, and you can take a feature from the
+    data model all the way to the UI.
+  - Strong system design: distributed systems, scalability,
+    performance, security, observability.
+  - A 360° view of software engineering: product need, design,
+    code and tests, CI/CD, packaging and release,
+    infrastructure and deployment, production operations,
+    monitoring, incident response. A container image or an
+    upgrade path is as familiar to you as an API contract.
+  - Built and operated platforms delivered both as SaaS and on
+    premises, including multitenancy and enterprise
+    constraints.
+  - Strong AI affinity. You've been building with LLMs by choice
+    for a year or two, with LLM systems in production: agent
+    frameworks, tool calling, MCP, RAG and vector search,
+    evaluation, and the discipline to make them reliable.
+  - Technical watch is part of the job. You keep up with your
+    craft deliberately (reading, experimenting, prototyping)
+    and turn what you learn into concrete proposals.
+  - You define and carry technical standards: you raise the bar
+    on a team, you don't just follow it.
+  - Excellent written communication in English: design docs,
+    ADRs and review comments that others learn from.
+  - Autonomous and at ease in a remote, asynchronous culture;
+    you drive problems to resolution and enable others instead
+    of becoming a bottleneck.
+  - Bonus: cybersecurity domain knowledge (CTI, CTEM, MITRE
+    ATT&CK, STIX/TAXII); extensible plugin or tool ecosystems;
+    open source contributions or maintainership.
+
+  🛡️ About XTM One
+
+  XTM One is Filigran's AI platform for threat informed
+  defense. It is dedicated to creating and running
+  cybersecurity expert AI agents and dispatching their
+  intelligence across the products of the XTM Suite.
+
+  Every product of the XTM Suite is connected to XTM One to
+  leverage AI agents for a more proactive platform that is
+  easier to use. Within XTM One, agents can use and correlate
+  data across products to make the most meaningful assessments
+  and take the most relevant actions. XTM One also hosts
+  shared commons such as unified authentication and
+  consolidated datasets and configuration.
+
+  🌱 Why Join Filigran? More than just a job.
+
+  We are a fast-growing, global and remote-first company, and
+  we believe the best work combines purpose, impact and
+  innovation. You’ll work alongside talented people across the
+  world who care about what they build, how they build it, and
+  the impact they make on the broader cybersecurity ecosystem.
+
+  ⭐ Be part of something bigger
+
+  We believe we do work that matters. Our open-source approach
+  means that work extends beyond Filigran. You’re contributing
+  to technology and ideas that strengthen a global community
+  of defenders and help make cybersecurity more open and
+  collaborative.
+
+  💻 Work at the edge of what’s next
+
+  We bring together cybersecurity, open source and AI — giving
+  you the opportunity to work with emerging technologies,
+  experiment with new ways of working, and contribute to how
+  they are applied in practice.
+
+  🌍 Global opportunity without borders
+
+  Be part of a fast-growing, truly international team —
+  collaborating across Europe, North America, APJ and beyond,
+  with the flexibility of a remote-first environment. As we
+  grow, you’ll have opportunities to expand your scope, take
+  ownership, learn quickly and grow with us.
+
+  🧭 A culture grounded in CORE
+
+  Cohesion, Openness, Responsibility and Equity define how we
+  work together — with openness, ownership, collaboration and
+  respect. These are the principles that guide how we make
+  decisions, treat people and grow together, especially when
+  no one’s watching.
+
+  💰 What you can expect
+
+  - Competitive compensation + equity — everyone shares in our
+    success
+  - Remote-first flexibility — work from wherever you’re based,
+    with flexibility built into how we operate
+  - 25 days PTO baseline — real time to disconnect, recharge and
+    enjoy life outside work
+  - Volunteer days — paid time to contribute to causes that
+    matter to you
+  - Set up for success — choose the equipment that works for
+    you, with additional support for your remote work and
+    development needs as our programs evolve
+  - Two annual in-person get-togethers — one global company get-
+    together and one team get-together, creating dedicated
+    time to connect, collaborate and strengthen our culture
+    beyond the screen
+
+  🌍 Equal Employment Opportunity
+
+  We enable cybersecurity through inclusion — from code to
+  culture.
+
+  At Filigran, we are proud to be an equal opportunity
+  employer. We believe the diversity of our people makes our
+  products and our team stronger. We welcome talent of every
+  background, identity and lived experience, regardless of
+  race, color, religion, gender, gender identity or
+  expression, sexual orientation, national origin, age,
+  disability or veteran status.
+
+  What matters here is what you bring, not what you look like,
+  where you’re from or how you identify.
+
+  🚀 Ready to Join Us?
+
+  Apply now and help us build the future of the cybersecurity
+  ecosystem, together.
+industries:
+  - Information Technology
+  - Software
+  - Cybersecurity
+posted_date: 2026-11-13
+url: "https://builtin.com/job/principal-software-engineer-xtm-one/12219824"
+source: Built In

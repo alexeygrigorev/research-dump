@@ -1,0 +1,136 @@
+job_id: 11149799
+title: Senior Software Engineer
+company: Entarian
+location: USA
+locations:
+  - USA
+  - New Orleans, USA
+remote: true
+work_type: FULL_TIME
+company_size: 1,176 Employees
+description: |
+  Overview/ Job Responsibilities
+
+  Entarian is seeking a Senior Software Engineer for the
+  Commander, Naval Meteorology and Oceanography Command
+  (CNMOC) Data Dissemination SBIR Information Technology
+  Solutions Project. This role will bring strong systems,
+  software, cloud, and SAFE/Agile experience to provide
+  technical expertise on a mission-critical program whose
+  purpose is to develop, modernize, enhance, operate, and
+  maintain services for CNMOC mission critical systems.
+
+  - You will participate in all aspects of the software
+    development lifecycle of a mission critical product
+    including scope and work estimation, architecture and
+    design, coding and unit testing.
+  - Support all aspects of software development (designing,
+    coding, testing, debugging, and maintaining products).
+  - Translate customer needs into user stories and deliver
+    working capabilities at the conclusion of each sprint.
+  - Mentor other software developers on product team to enhance
+    their skills.
+  - Participate and/or lead sprint demonstrations and facilitate
+    implementation of agreed upon ideas identified at
+    retrospectives.
+  - Work with others on product teams to develop solutions to
+    hard problems that are impeding progress.
+  - Effectively communicate technical challenges, options
+    considered, and the recommended solution to team leads.
+
+  Minimum Qualifications
+
+  - Education & Experience: Bachelor’s degree (Computer Science,
+    Software Engineering, Data Engineering/Data Science, or
+    related) with 6+ years of relevant experience.
+  - Clearance: Active Secret Directive 8570.1/8140 – IAT II:
+    CompTIA Security+ (or ability to obtain within onboarding
+    window).
+  - Programming & Data: Strong Python background with modern
+    data processing libraries (Polars, Pandas, Pydantic);
+    fluency with JSON/XML formats and supporting libraries.
+  - Pipelines & Operations: Proven experience
+    designing/maintaining ETL/ELT pipelines for structured and
+    unstructured datasets in operational environments; mastery
+    of data engineering concepts (velocity, volume, variety,
+    veracity).
+  - Version Control & TDD: Structured programming with
+    Git/Subversion; experience with test‑driven development
+    and Agile lifecycle tools (Jira, Jenkins, JUnit, GitLab).
+  - Databases & Modeling: Strong understanding of data modeling,
+    data integration, and database design; hands-on with
+    PostgreSQL/PostGIS, SQL Server, or Oracle.
+  - Cloud & Containers: Practical experience with AWS and
+    container technologies; familiarity with DevSecOps
+    frameworks.
+  - Geospatial & APIs: Experience integrating geospatial systems
+    and enterprise data platforms/APIs (e.g., ESRI stack,
+    ERDDAP).
+  - Communication: Excellent written and verbal communication
+    skills; ability to self-start and work independently with
+    minimal supervision.
+
+  Desired Qualifications
+
+  - Advanced Pipeline Ops: Experience designing, developing, and
+    maintaining large-scale ingestion, transformation, and
+    analytics workflows; strong background in data
+    orchestration and automation tools.
+  - Data Governance: Applied knowledge of governance policies,
+    metadata/lineage, cataloging (e.g., DataHub/Amundsen), and
+    compliance reporting.
+  - Streaming & Event Data: Experience with streaming platforms
+    (e.g., Kafka, Kinesis) and time-series data stores;
+    optimization for multi-parameter time-based series,
+    preferably in Meteorology/Oceanography domains.
+  - AI/ML Enablement: Experience applying AI to accelerate data
+    processing and analytics workflows.
+  - Geospatial Tooling: Proficiency with ESRI tools and broader
+    ESRI ecosystem.
+  - Security & Compliance: Hands-on with Cybersecurity best
+    practices and DISA STIG checklists; familiarity with
+    DevSecOps pipelines.
+  - Cloud & Containers (Advanced): Experience with container
+    runtimes (e.g., OpenShift, Kubernetes, Podman); IaC
+    (Terraform/CloudFormation); cost/performance optimization
+    in AWS.
+  - Domain Tooling: Experience with IRODS; exposure to Spring
+    MVC, Java/Java Servlet, C++, and front-end (JavaScript,
+    HTML, CSS, TypeScript) for end‑to‑end data application
+    integration.
+  - Test Automation: Familiarity with Selenium/Citrus for
+    automated validation in data-adjacent services.
+  - Customer Engagement: Demonstrated history of direct customer
+    support and structured escalation.
+
+  About Us
+
+  Formed through the strategic union of Sev1Tech and ERT,
+  Entarian is a premier provider of mission-critical
+  engineering and technology solutions. Founded on a legacy of
+  excellence dating back to 1993, Entarian is a product of an
+  evolved and fully diversified engineering and federal
+  technology leader. From deep space to defense and civilian
+  missions, Entarian delivers secure, mission-aligned digital
+  solutions that drive national resilience and operational
+  effectiveness. We don't just support modernization; we
+  define it.
+
+  Join the Mission and Start your Career Journey: Apply
+  Directly via our Careers Portal  Connect, Referrals &
+  Inquiries? Email the team: careers@entarian.com
+
+  Entarian is an Equal Opportunity and Affirmative Action
+  Employer. All qualified applicants will receive
+  consideration for employment without regard to race, color,
+  religion, sex, pregnancy, sexual orientation, gender
+  identity, national origin, age, protected veteran status, or
+  disability status.
+industries:
+  - Aerospace
+  - Information Technology
+  - Cybersecurity
+  - Defense
+posted_date: 2026-09-12
+url: "https://builtin.com/job/senior-software-engineer/11149799"
+source: Built In

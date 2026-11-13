@@ -1,0 +1,241 @@
+job_id: 11775186
+title: "Backend Lead – Python & AWS"
+company: Ness Digital Engineering
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 5,379 Employees
+description: |
+  Attention: This position requires hybrid work (2-3 days per
+  week onsite) in Evansville, Indiana, USA. Unfortunately,
+  remote work is not an option for this role.
+
+  Please apply only if you:
+
+  - Currently live in or near Evansville, IN, or
+  - Are willing and able to relocate to Evansville, IN, and
+  - Can commit to the required hybrid work schedule.
+
+  Candidates who are unable to work onsite in Evansville will
+  not be considered for this opportunity. Thank you for your
+  understanding.
+
+  Experience: 10–14 years of overall IT experience, including
+  3+ years in technical leadership
+
+  Industry: Financial Services
+
+  Position Overview
+
+  Ness is seeking an experienced Backend Lead with strong
+  hands-on expertise in Python development and AWS cloud
+  services to lead the design, development, and deployment of
+  scalable, secure, and high-performance backend applications.
+
+  The ideal candidate will combine deep Python programming
+  skills, cloud-native application development experience, API
+  and microservices architecture expertise, and proven
+  technical leadership. The role involves working closely with
+  solution architects, product managers, DevOps engineers,
+  data teams, and other engineering stakeholders to deliver
+  reliable enterprise solutions in a secure financial services
+  environment.
+
+  Key Responsibilities
+
+  1. Backend Development & Python Engineering
+
+  - Lead the design, development, testing, and deployment of
+    backend services and applications using Python.
+
+  - Develop scalable RESTful APIs and microservices using
+    frameworks such as FastAPI, Flask, or Django.
+
+  - Establish coding standards, design patterns, reusable
+    components, and engineering best practices.
+
+  - Review code, provide technical guidance, and ensure code
+    quality, maintainability, performance, and test coverage.
+
+  - Optimize application performance, concurrency, database
+    access, and resource utilization.
+
+  - Implement robust error handling, logging, validation, and
+    exception management.
+
+  2. AWS Cloud Architecture & Development
+
+  - Design and develop cloud-native backend applications
+    leveraging AWS services.
+
+  - Build and deploy applications using services such as:
+
+  - AWS Lambda and Amazon ECS/EKS
+
+  - Amazon API Gateway
+
+  - Amazon S3
+
+  - Amazon SQS and Amazon SNS
+
+  - Amazon RDS and DynamoDB
+
+  - AWS Step Functions and EventBridge
+
+  - AWS CloudWatch, IAM, and Secrets Manager
+
+  - Implement event-driven architectures, asynchronous
+    processing, and distributed application patterns.
+
+  - Design for scalability, high availability, fault tolerance,
+    disaster recovery, and cost optimization.
+
+  - Collaborate with cloud and infrastructure teams to implement
+    secure and reliable deployment architectures.
+
+  - Experience with MuleSoft and Apollo GraphQL is a Plus
+
+
+
+  3. API & Microservices Architecture
+
+  - Define backend service boundaries, API contracts,
+    integration patterns, and service communication
+    strategies.
+
+  - Develop secure REST APIs and integrate with internal and
+    external enterprise systems.
+
+  - Implement authentication and authorization using OAuth 2.0,
+    JWT, IAM, and other applicable security mechanisms.
+
+  - Design asynchronous workflows using messaging and event-
+    driven integration patterns.
+
+  - Ensure APIs meet requirements for performance, scalability,
+    versioning, observability, and backward compatibility.
+
+  4. Database & Data Management
+
+  - Design efficient data models and optimize queries for
+    relational and NoSQL databases.
+
+  - Work with PostgreSQL, MySQL, Amazon RDS, DynamoDB, or
+    equivalent database technologies.
+
+  - Implement transaction management, connection pooling,
+    indexing, and data consistency controls.
+
+  - Ensure appropriate data validation, integrity, access
+    control, and protection of sensitive information.
+
+  5. Technical Leadership & Team Management
+
+  - Lead a team of backend developers, providing technical
+    direction, mentoring, and code review.
+
+  - Translate business requirements into technical designs,
+    development plans, and deliverable milestones.
+
+  - Collaborate with architects, product owners, QA, DevOps,
+    security, and business stakeholders.
+
+  - Drive technical decisions, resolve complex engineering
+    challenges, and manage technical dependencies.
+
+  - Promote Agile engineering practices, continuous improvement,
+    and shared ownership of production quality.
+
+  - Participate in sprint planning, estimation, technical
+    discussions, and delivery reviews.
+
+  6. DevOps, Quality & Production Support
+
+  - Build and maintain automated testing and CI/CD workflows in
+    collaboration with DevOps teams.
+
+  - Work with Git, Jenkins, GitHub Actions, AWS CodePipeline, or
+    equivalent tools.
+
+  - Implement unit, integration, API, and performance testing
+    using frameworks such as pytest.
+
+  - Support infrastructure automation using Terraform, AWS
+    CloudFormation, or equivalent tools.
+
+  - Monitor application health, diagnose production incidents,
+    conduct root cause analysis, and implement corrective
+    actions.
+
+  - Establish logging, metrics, tracing, alerting, and
+    operational readiness standards.
+
+  7. Security & Financial Services Compliance
+
+  - Implement secure coding practices and follow application
+    security standards.
+
+  - Protect sensitive customer and financial information through
+    encryption, access controls, and secure secrets
+    management.
+
+  - Identify and remediate vulnerabilities in application code,
+    dependencies, APIs, and cloud configurations.
+
+  - Support auditability, traceability, and compliance with
+    applicable financial services security and privacy
+    requirements.
+
+  - Partner with cybersecurity and risk teams to incorporate
+    security controls throughout the software development
+    lifecycle.
+
+  - Security Architecture Experience with MuleSoft and Apollo
+    GraphQL is a Plus
+
+
+
+  Required Technical Skills
+
+  - 10+ years of overall software engineering experience, with
+    strong hands-on Python development expertise.
+
+  - At least 3 years of technical leadership or experience
+    leading backend engineering initiatives.
+
+  - Strong proficiency in Python, object-oriented programming,
+    data structures, algorithms, and software design
+    principles.
+
+  - Experience with FastAPI, Flask, Django, or similar Python
+    frameworks.
+
+  - Strong experience designing and developing RESTful APIs and
+    microservices.
+
+  - Hands-on experience with AWS cloud services and cloud-native
+    application development.
+
+  - Experience with AWS Lambda, API Gateway, S3, SQS/SNS, RDS,
+    DynamoDB, IAM, and CloudWatch, or equivalent relevant
+    services.
+
+  - Strong understanding of relational and NoSQL databases, SQL,
+    schema design, and query optimization.
+
+  - Experience with automated testing, pytest, mocking, and
+    test-driven development practices.
+
+  - Proficiency with Git, CI/CD pipelines, Docker, and
+    application deployment practices.
+
+  - Knowledge of asynchronous programming, concurrency,
+    distributed systems, and event-driven architecture.
+
+  - Strong understanding of application security,
+    authentication, authorization, and secrets management.
+
+  - Excellent problem solving skills
+posted_date: 2026-11-06
+url: "https://builtin.com/job/backend-lead-python-aws/11775186"
+source: Built In

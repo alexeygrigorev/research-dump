@@ -1,0 +1,303 @@
+job_id: 12191790
+title: Staff Software Engineer (Fullstack)
+company: Alaffia Health
+location: New York, USA
+work_type: FULL_TIME
+company_size: 80 Employees
+description: |
+  About Alaffia & Our Mission
+
+  Every year, U.S. health plans lose billions to improper
+  payments and administrative waste. That wasted spending
+  ultimately trickles down across the healthcare ecosystem,
+  driving up costs for plans, providers, and patients alike.
+  We’re here to change that paradigm.
+
+  Alaffia is a new kind of claims operations partner for
+  health plans. Using expert clinicians and transparent AI, we
+  deliver deeper insights, smarter automation, and
+  consistently better outcomes across the entire lifecycle of
+  claims. With Alaffia, health plans can cut wasted spending
+  more effectively than ever, and provide their members the
+  most affordable care.
+
+  We’re a high-growth, venture-backed Series B healthtech
+  startup based in NYC and are actively scaling our company.
+  Join us in helping to build a healthcare system that works
+  better for everyone.
+
+  About the Role
+
+  We’re looking for a Staff Fullstack Engineer to solve
+  complex, cross-team technical challenges, set architectural
+  direction across the stack, and act as a force multiplier
+  across our engineering org. You’ll translate strategic goals
+  into technical roadmaps, lead execution, and champion AI-
+  augmented development practices.
+
+  You’ll help scale our GenAI applications and shape the
+  interfaces our Payment Integrity and Operations teams rely
+  on every day. That means building React-based applications
+  at the center of our platform, backed by strong backend
+  architecture, system design, and cloud infrastructure, and
+  turning complex workflows into fast, intuitive experiences.
+
+  Note on language: this role will work across React and
+  TypeScript on the frontend, and Python or TypeScript on the
+  backend, depending on team need. You don’t need deep
+  experience in every part of the stack. What matters most is
+  strong, transferable engineering fundamentals and the
+  ability to pick up new languages and tooling as needed.
+  We’ll find the right fit for your background on our team.
+
+  What You’ll Do
+
+  - Architect and own delivery of complex, high-impact systems
+    spanning frontend and backend, across multiple teams
+  - Set technical direction and coding and design standards for
+    the org, including frontend architecture, state
+    management, component design, and performance
+  - Design, build, and maintain production-grade React
+    applications that power our core auditing and workflow
+    tools
+  - Design, develop, and deploy data-intensive applications in a
+    production environment
+  - Partner with backend, product, and design to define clean
+    API contracts and ensure smooth end-to-end integration
+  - Improve frontend and backend infrastructure, including build
+    tooling, testing practices, and CI/CD pipelines
+  - Drive AI coding tool adoption (Claude Code), establish best
+    practices, and measure productivity gains
+  - Mentor senior engineers and influence technical decisions
+    without formal authority
+  - Partner cross-functionally with data, DevOps, and AI
+    engineers, as well as product and business teams, to craft
+    a feature-rich, GenAI-powered claim review platform
+  - Improve UI performance, accessibility, and overall user
+    experience across the platform
+  - Own testing strategy, system health, observability, and
+    build-vs-buy decisions for critical infrastructure
+  - Debug and resolve complex, cross-component issues across the
+    stack
+
+  What We’re Looking For
+
+  - 10+ years of software engineering experience, with a track
+    record of leading complex, high-impact projects at scale,
+    including production-level API development and backend
+    data processing
+  - Deep hands-on expertise in React, with a strong command of
+    modern JavaScript and TypeScript, component architecture,
+    and state management patterns
+  - Hands-on experience with relational databases and data model
+    design
+  - Strong system design and cloud infrastructure experience
+    (AWS preferred), including CI/CD, containerization
+    (Docker, Kubernetes), and observability practices such as
+    logging, user activity metrics, and integration with
+    Datadog or similar tooling
+  - Experience building and scaling systems within a growing
+    engineering team
+  - Track record of collaborating cross-functionally with
+    backend, product, and design to ship high-quality
+    features, with a strong eye for UX
+  - Comfortable working through ambiguity and translating
+    operational or business requirements into clean technical
+    solutions
+  - Experience with testing frameworks and CI/CD tooling for
+    both frontend and backend applications
+  - Demonstrated success adopting AI coding assistants to
+    improve team productivity
+  - Excellent communication skills and experience mentoring
+    senior engineers
+
+  Preferred
+
+  - Experience building B2B SaaS products, particularly for
+    operations, clinical, or financial teams, and in
+    healthcare technology or another highly regulated industry
+  - Experience shipping user-facing AI products or AI/ML model
+    deployment, including chat interfaces, agentic workflows,
+    or natural language interactions
+  - Familiarity with design systems and building reusable,
+    scalable component libraries
+  - Experience optimizing performance for data-dense, workflow-
+    heavy applications
+  - Building SDKs or libraries
+  - Experience with vector databases
+  - Experience with data processing orchestrators, such as
+    Airflow or Dagster
+  - Experience with message queue systems, such as AWS SQS,
+    Kinesis, or Kafka
+  - GraphQL and PostgreSQL experience
+  - Open source contributions or technical publications
+
+  Our Culture
+
+  Alaffia was born out of our founders’ personal connection to
+  the inefficiency of the U.S. healthcare system. We are
+  deeply mission-driven, with an abiding belief that
+  technology can help create a better future for everyone, and
+  we’re looking for others who share our passion for change to
+  join the team.
+
+  What Else Do You Get?
+
+  - Competitive compensation package (cash + equity)
+  - Medical, Dental, and Vision benefits
+  - Flexible, paid vacation policy
+  - Work in a flat organizational structure, with direct access
+    to Leadership
+
+  About Alaffia & Our Mission
+
+  Every year, U.S. health plans lose billions to improper
+  payments and administrative waste. That wasted spending
+  ultimately trickles down across the healthcare ecosystem,
+  driving up costs for plans, providers, and patients alike.
+  We’re here to change that paradigm.
+
+  Alaffia is a new kind of claims operations partner for
+  health plans. Using expert clinicians and transparent AI, we
+  deliver deeper insights, smarter automation, and
+  consistently better outcomes across the entire lifecycle of
+  claims. With Alaffia, health plans can cut wasted spending
+  more effectively than ever, and provide their members the
+  most affordable care.
+
+  We’re a high-growth, venture-backed Series B healthtech
+  startup based in NYC and are actively scaling our company.
+  Join us in helping to build a healthcare system that works
+  better for everyone.
+
+  About the Role
+
+  We’re looking for a Staff Fullstack Engineer to solve
+  complex, cross-team technical challenges, set architectural
+  direction across the stack, and act as a force multiplier
+  across our engineering org. You’ll translate strategic goals
+  into technical roadmaps, lead execution, and champion AI-
+  augmented development practices.
+
+  You’ll help scale our GenAI applications and shape the
+  interfaces our Payment Integrity and Operations teams rely
+  on every day. That means building React-based applications
+  at the center of our platform, backed by strong backend
+  architecture, system design, and cloud infrastructure, and
+  turning complex workflows into fast, intuitive experiences.
+
+  Note on language: this role will work across React and
+  TypeScript on the frontend, and Python or TypeScript on the
+  backend, depending on team need. You don’t need deep
+  experience in every part of the stack. What matters most is
+  strong, transferable engineering fundamentals and the
+  ability to pick up new languages and tooling as needed.
+  We’ll find the right fit for your background on our team.
+
+  What You’ll Do
+
+  - Architect and own delivery of complex, high-impact systems
+    spanning frontend and backend, across multiple teams
+  - Set technical direction and coding and design standards for
+    the org, including frontend architecture, state
+    management, component design, and performance
+  - Design, build, and maintain production-grade React
+    applications that power our core auditing and workflow
+    tools
+  - Design, develop, and deploy data-intensive applications in a
+    production environment
+  - Partner with backend, product, and design to define clean
+    API contracts and ensure smooth end-to-end integration
+  - Improve frontend and backend infrastructure, including build
+    tooling, testing practices, and CI/CD pipelines
+  - Drive AI coding tool adoption (Claude Code), establish best
+    practices, and measure productivity gains
+  - Mentor senior engineers and influence technical decisions
+    without formal authority
+  - Partner cross-functionally with data, DevOps, and AI
+    engineers, as well as product and business teams, to craft
+    a feature-rich, GenAI-powered claim review platform
+  - Improve UI performance, accessibility, and overall user
+    experience across the platform
+  - Own testing strategy, system health, observability, and
+    build-vs-buy decisions for critical infrastructure
+  - Debug and resolve complex, cross-component issues across the
+    stack
+
+  What We’re Looking For
+
+  - 10+ years of software engineering experience, with a track
+    record of leading complex, high-impact projects at scale,
+    including production-level API development and backend
+    data processing
+  - Deep hands-on expertise in React, with a strong command of
+    modern JavaScript and TypeScript, component architecture,
+    and state management patterns
+  - Hands-on experience with relational databases and data model
+    design
+  - Strong system design and cloud infrastructure experience
+    (AWS preferred), including CI/CD, containerization
+    (Docker, Kubernetes), and observability practices such as
+    logging, user activity metrics, and integration with
+    Datadog or similar tooling
+  - Experience building and scaling systems within a growing
+    engineering team
+  - Track record of collaborating cross-functionally with
+    backend, product, and design to ship high-quality
+    features, with a strong eye for UX
+  - Comfortable working through ambiguity and translating
+    operational or business requirements into clean technical
+    solutions
+  - Experience with testing frameworks and CI/CD tooling for
+    both frontend and backend applications
+  - Demonstrated success adopting AI coding assistants to
+    improve team productivity
+  - Excellent communication skills and experience mentoring
+    senior engineers
+
+  Preferred
+
+  - Experience building B2B SaaS products, particularly for
+    operations, clinical, or financial teams, and in
+    healthcare technology or another highly regulated industry
+  - Experience shipping user-facing AI products or AI/ML model
+    deployment, including chat interfaces, agentic workflows,
+    or natural language interactions
+  - Familiarity with design systems and building reusable,
+    scalable component libraries
+  - Experience optimizing performance for data-dense, workflow-
+    heavy applications
+  - Building SDKs or libraries
+  - Experience with vector databases
+  - Experience with data processing orchestrators, such as
+    Airflow or Dagster
+  - Experience with message queue systems, such as AWS SQS,
+    Kinesis, or Kafka
+  - GraphQL and PostgreSQL experience
+  - Open source contributions or technical publications
+
+  Our Culture
+
+  Alaffia was born out of our founders’ personal connection to
+  the inefficiency of the U.S. healthcare system. We are
+  deeply mission-driven, with an abiding belief that
+  technology can help create a better future for everyone, and
+  we’re looking for others who share our passion for change to
+  join the team.
+
+  What Else Do You Get?
+
+  - Competitive compensation package (cash + equity)
+  - Medical, Dental, and Vision benefits
+  - Flexible, paid vacation policy
+  - Work in a flat organizational structure, with direct access
+    to Leadership
+industries:
+  - Artificial Intelligence
+  - Healthtech
+  - Insurance
+  - Machine Learning
+  - Payments
+posted_date: 2026-11-12
+url: "https://builtin.com/job/staff-fullstack-engineer/12191790"
+source: Built In

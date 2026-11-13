@@ -1,0 +1,118 @@
+job_id: 11894540
+title: Engineering Manager
+company: Infisical
+location: CAN
+locations:
+  - CAN
+  - USA
+remote: true
+work_type: FULL_TIME
+company_size: 17 Employees
+description: |
+  Infisical is the open source security infrastructure
+  platform that engineers use for secrets management,
+  certificates, and privileged access management. We help
+  developers and organizations securely manage billions of
+  secrets every month including application configuration,
+  database credentials, certificates, and more.
+
+  We’ve raised ~$60M from Y Combinator, Google, and Elad Gil,
+  and our customers include Hugging Face, OpenRouter, LG, and
+  NVIDIA.
+
+  Join us on a mission to make security easier for all
+  developers — starting with secrets management. We’re looking
+  to hire exceptional talent to join us in building the open
+  source security infrastructure stack for the AI era.
+
+  About the role
+
+  We're looking for an exceptional Senior Engineering Manager
+  to lead 10–12 engineers across our Secrets Management and
+  Certificate Management teams. Secrets Management delivers
+  over 10 billion secrets monthly, while Certificate
+  Management supports PKI, certificate lifecycle automation,
+  and signing release artifacts and binaries. Both products
+  support cloud and self-hosted deployments, including on-
+  premises and air-gapped environments.
+
+  You'll be responsible for developing a high-performing
+  engineering team, driving execution across both products,
+  and ensuring our infrastructure remains secure and reliable.
+  You'll work closely with our CTO and Tech Leads, staying
+  deeply technical while empowering engineers to own their
+  work.
+
+  You'll be working closely with our CTO and the rest of the
+  engineering team to:
+
+  - Own engineering delivery: Drive execution across both teams,
+    establish clear commitments, manage competing priorities,
+    and ensure the team consistently delivers high-quality
+    work.
+  - Hire and develop engineers: Own hiring, onboarding,
+    performance management, and career development. Build a
+    high-performing team and develop strong Tech Leads.
+  - Shape engineering priorities: Balance customer needs and
+    product development with investments in security,
+    reliability, and developer velocity.
+  - Own reliability and engineering quality: Establish
+    reliability targets and drive improvements in
+    observability, incident response, and operational quality.
+  - Stay technically involved: Know when to zoom out and when to
+    dive deep. Review code and technical designs, and work
+    with Tech Leads to guide important architectural decisions
+    and resolve difficult engineering challenges.
+  - Work directly with customers: Understand their workflows and
+    technical requirements, and translate those insights into
+    engineering priorities.
+  - Improve how the team operates: Establish lightweight
+    processes that keep execution fast, predictable, and
+    accountable.
+
+  Requirements
+
+  - 6+ years of software engineering experience, including 3+
+    years managing engineers, ideally in developer tooling,
+    infrastructure security, or other high-stakes developer
+    software.
+  - A strong track record of building and developing high-
+    performing teams, including hiring, coaching, performance
+    management, and developing technical leaders.
+  - Experience leading multiple engineering workstreams and
+    driving execution through others.
+  - Strong hands-on engineering background. You're comfortable
+    reviewing production code and technical designs.
+  - Strong engineering fundamentals and sound judgment around
+    system architecture, reliability, and technical tradeoffs.
+  - Excellent communication skills, including the ability to
+    work directly with customers.
+  - A bias toward action, with the ability to make decisions
+    with incomplete information and maintain high standards
+    while moving quickly.
+  - Based in the US or Canada (NYC preferred).
+
+  Nice to have
+
+  - Experience working in security infrastructure or developer
+    tools.
+  - Experience leading teams developing distributed systems.
+  - A track record of using AI tools to increase engineering
+    output while maintaining production security, availability
+    and reliability commitments.
+
+  Team, values & benefits
+
+  Our team brings experience from companies like Figma,
+  Databricks, Wiz, and more. We operate primarily as a remote
+  team, but maintain a strong presence in San Francisco, where
+  we have an office. We also get together in person throughout
+  the year for off-sites, conferences, and team gatherings.
+
+  At Infisical, we offer competitive compensation, including
+  both salary and equity options. Additional benefits, such as
+  a lunch stipend and a work setup budget, are available, with
+  more details on our careers page.
+posted_date: 2026-10-26
+url: "https://builtin.com/job/engineering-manager/11894540"
+source: Built In

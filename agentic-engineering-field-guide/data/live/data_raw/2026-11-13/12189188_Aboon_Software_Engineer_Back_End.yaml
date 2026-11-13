@@ -1,0 +1,132 @@
+job_id: 12189188
+title: Software Engineer (Back End)
+company: Aboon
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 40 Employees
+description: |
+  About Aboon
+
+  Setting up a 401(k) shouldn't be the hardest thing a
+  business ever does. But retirement plan administration is
+  complex, fragmented, and manual, and it slows down both
+  business owners and the financial advisors who serve them.
+  Aboon was founded to change that.
+
+  We're an AI-native platform and third-party administrator
+  that makes it easy for financial advisors to find, win, and
+  grow 401(k)s and other retirement products by pairing
+  streamlined workflows with dedicated human service. Backed
+  by leading investors including Bain Capital and Edward Jones
+  Ventures, we bring decades of experience building for
+  advisors and the retirement industry. We're looking for
+  exceptional, mission-driven people to build it with us.
+
+  About the role
+
+  We're seeking an experienced, senior back-end engineer to
+  help develop the core platform surrounding our Workplace and
+  TPA products. You'll work across our Rails system of record,
+  data connectivity layer, and major feature development — the
+  platform that runs real 401(k) plans for advisors and their
+  business owner clients.
+
+  What makes this role different from most Rails jobs: our
+  platform is operated by both people and AI agents. The same
+  APIs, actions, and workflows serve human users and the
+  agents automating our administration work, so clean
+  contracts, permissions, staging-before-commit patterns, and
+  audit trails are product features, not afterthoughts. You'll
+  build the surfaces agents act through, along with the right
+  guardrails for a complex fiduciary business.
+
+  You'll join a small, tight-knit team in a flat hierarchy
+  inspired by the Shape Up framework, participate fully from
+  shaping through shipping, and report to our Director of
+  Engineering.
+
+  What you’ll do
+
+  - Own major feature development end-to-end across our
+    products, from design doc through deployment and
+    monitoring.
+  - Build the tool surfaces our agents act through: typed,
+    permissioned, logged actions against our system of record,
+    with staging-and-promote patterns so nothing writes to a
+    plan without a gate.
+  - Design and run our data connectivity layer: recordkeeper
+    feeds, payroll providers, payments, and identity.
+  - Make auditability a priority so that every action, human or
+    agent, is traceable, explainable, and regulator-ready.
+  - Lead architectural discussions, write design docs, and
+    mentor through code review.
+
+  Our stack
+
+  - Ruby on Rails / PostgreSQL on AWS ECS
+  - React & TypeScript on the front-end
+  - Redshift + dbt + Metabase; PostHog for analytics
+  - Stripe, WorkOS, HubSpot, Customer.io
+  - Agno, Langfuse, Reducto, and Skyvern on the agent side
+
+  What you bring
+
+  Required
+
+  - 6+ years of professional software development experience.
+  - Deep expertise in Ruby/Rails: domain modeling, background
+    jobs, API design, performance.
+  - Proven track record designing scalable APIs and data models
+    — and strong instincts for permissions, idempotency, and
+    auditability in systems that move real money.
+  - Proficient working with coding agents; we're not hand-
+    rolling boilerplate.
+  - Familiarity with AWS and infrastructure-as-code.
+  - Experience integrating third-party systems (payments,
+    identity, CRM, payroll) and designing for their failure.
+  - Excellent communication skills and a collaborative mindset.
+
+  Nice to have
+
+  - Experience exposing systems to LLM agents (MCP, tool APIs),
+    fintech or retirement domain, React/TypeScript for
+    occasional full-stack work.
+
+  What we offer
+
+  Compensation
+
+  The base salary range for this role is $210,000-$225,000,
+  depending on experience, skills, and location. Total
+  compensation also includes an annual bonus and equity.
+
+  Benefits
+
+  - Comprehensive health, dental, and vision insurance, with
+    additional optional coverage
+  - 401(k) with company match
+  - Flexible paid time off and holidays
+  - 10 weeks paid parental leave
+  - A fully remote work environment, with all the technology and
+    equipment you need
+  - Support for professional development and career growth
+
+  Location
+
+  Remote, though we encourage in-person attendance at 1-2
+  company retreats per year. This role is open to candidates
+  based in the US. Work authorization required; no visa
+  sponsorship.
+
+  Aboon is an Equal Opportunity Employer. We encourage
+  applications from all qualified individuals and do not
+  discriminate based on race, color, religion, sex, sexual
+  orientation, gender identity, national origin, disability,
+  veteran status, or any other protected status.
+industries:
+  - Artificial Intelligence
+  - Fintech
+posted_date: 2026-11-12
+url: "https://builtin.com/job/software-engineer-back-end/12189188"
+source: Built In

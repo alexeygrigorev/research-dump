@@ -1,0 +1,112 @@
+job_id: 12022345
+title: Senior Software Engineer (Runtimes)
+company: HeroDevs Inc.
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 106 Employees
+description: |
+  About the Role We are seeking a Senior Software Engineer to
+  join our Never-Ending Support (NES)  team. This role is
+  specifically focused on developing and proving out new
+  product lines in our runtimes. You will research new
+  potential products to add to our ever expanding product
+  line, produce critical security patches for CVEs in our
+  various runtime products (PHP, Postgres, NGINX, etc.),
+  deliver builds across many operating system distributions,
+  and build the automation systems that make this work scale.
+
+  Key Responsibilities
+
+  - Research and prove out new NES products: assess an end-of-
+    life project's codebase, build system, and CVE history,
+    then stand up a working, supportable build pipeline for it
+  - Maintain the existing NES portfolio by analyzing upstream
+    security fixes and backporting CVE patches in C, C++, and
+    other languages to end-of-life versions
+  - Implement more comprehensive or novel security fixes to end
+    of life technologies
+  - Read, write, and review CVE backports, reasoning about what
+    a patch might break across versions, platforms, and
+    configurations
+  - Build and deliver packages across many Linux distributions
+    (RHEL, Debian, Ubuntu, Alpine, Amazon Linux, and others),
+    and add support for new distributions and releases as they
+    ship
+  - Resurrect and maintain build environments for legacy code:
+    toolchain archaeology, pinning dependencies that no longer
+    resolve, and keeping old compilers and libraries building
+  - Build and utilize AI-assisted automation for triage, patch
+    analysis, backport drafting, and regression verification,
+    to scale the product securing process
+  - Build and maintain test harnesses that validate CVE patch
+    correctness and backwards compatibility
+  - Provide support to customers' engineering teams on
+    compatibility issues and upgrade paths
+
+  Required Qualifications
+
+  - Strong understanding of language runtimes and server
+    software internals, such as Node.js, PHP, NGINX, or
+    PostgreSQL
+  - Demonstrated ability to read and reason about unfamiliar
+    low-level C and C++ code: understanding a security patch
+    well enough to reimplement it against a different code
+    baseline. You enjoy working with completely unfamiliar,
+    but significant open source runtimes.
+  - Experience reviewing security patches for correctness,
+    memory safety, and unintended side effects
+  - Deep knowledge of Linux packaging and build tooling:
+    autotools, CMake, Make, GCC/Clang, RPM and DEB packaging,
+    and distribution build systems (mock, pbuilder, abuild, or
+    similar)
+  - Experience building and shipping software across many Linux
+    distributions and versions, and understanding the
+    toolchain, libc, and dependency differences between them
+    well enough to support new distributions as they are
+    released
+  - Experience with cross-compilation and multiple CPU
+    architectures (x86_64, aarch64, armv7)
+  - Experience building and debugging complex software from
+    source, including toolchain and build-system archaeology
+  - Practical experience using LLMs to automate real engineering
+    work, with judgment about where automation helps and where
+    it can't be trusted
+  - Strong ownership of correctness and quality: rigorous
+    testing, regression coverage, and an instinct for what a
+    patch might break
+  - Comfortable in a small, high-autonomy team where you help
+    shape the process as much as follow it.
+  - Ability to take a new product from research to launch
+  - Comfortable being on support calls with end users of our
+    products, to troubleshoot complex issues that customers
+    have integrating NES into the foundations of their tech
+    stack
+  - Strong communication skills, to communicate results in early
+    product iterations, or solutions in tier-3 support
+    capacities
+
+  Preferred Qualifications
+
+  - Background in security research, vulnerability triage, or
+    product security
+  - Contributions to open source C/C++ projects. High values
+    targets would be PHP, NGINX, PostgreSQL, Node.js, OpenSSL,
+    or the Linux kernel
+  - Strong grasp of security fundamentals: CVEs, CVSS, common
+    vulnerability classes in C (buffer overflows, use-after-
+    free, integer overflows, format strings, DoS via resource
+    exhaustion), and how to assess exploitability
+  - Familiarity with container image hardening, SBOMs, artifact
+    signing, and supply chain security
+  - Experience as either a technical lead or team lead
+  - Experience running production services on AWS, Azure, and
+    Kubernetes
+industries:
+  - Information Technology
+  - Professional Services
+  - Software
+  - Cybersecurity
+posted_date: 2026-11-03
+url: "https://builtin.com/job/senior-software-engineer-runtimes/12022345"
+source: Built In

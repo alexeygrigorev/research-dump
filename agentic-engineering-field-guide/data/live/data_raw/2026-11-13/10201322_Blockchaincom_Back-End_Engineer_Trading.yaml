@@ -1,0 +1,108 @@
+job_id: 10201322
+title: Back-End Engineer, Trading
+company: Blockchain.com
+location: London, GBR
+work_type: FULL_TIME
+company_size: 911 Employees
+description: |
+  Blockchain is connecting the world to the future of finance.
+  As the most trusted and fastest-growing global crypto
+  company, it helps millions of people worldwide safely access
+  cryptocurrency. Since its inception in 2011, Blockchain has
+  earned the trust of over 90 million wallet holders and more
+  than 40 million verified users, facilitating over $1
+  trillion in crypto transactions.
+
+  As a Back-End Engineer on our Cryptocurrency Trading
+  Platform, you will build the backend services that power our
+  internal and external trading products — from order
+  management and market data processing to the REST APIs and
+  WebSocket streams that serve our web and mobile clients.
+  You'll work closely with product, engineering, and trading
+  teams, and contribute to our culture of engineering
+  excellence. The role is based in London and the team is
+  international.
+
+  WHAT YOU WILL DO
+
+  - Design, build, and operate backend services in Kotlin and
+    Python that power our trading products, from core trading
+    workflows to client-facing APIs.
+  - Develop and improve services for order management, market
+    data processing, and trade lifecycle handling in a real-
+    time, high-volume environment.
+  - Build and maintain REST APIs and WebSocket streams that
+    deliver real-time prices, order updates, and account data.
+  - Collaborate with cross-functional teams — product, frontend,
+    trading — to adapt the platform quickly to new features
+    and market conditions.
+  - Ensure high availability, reliability, and scalability of
+    trading services, with a sharp focus on latency,
+    observability, and testing.
+  - Contribute to architecture discussions and technical
+    decisions, writing clean, maintainable code and sharing
+    knowledge across the team.
+
+  WHAT YOU WILL NEED
+
+  - Professional experience building backend services, ideally
+    in Kotlin and/or Python.
+  - Solid experience designing and building backend services and
+    REST APIs; experience with WebSockets or other real-time
+    streaming protocols such as NATS/JETSREAM is a plus.
+  - Working knowledge of SQL and experience integrating with
+    multiple internal or third-party services.
+  - An understanding of performance fundamentals — identifying
+    bottlenecks, managing latency, and building systems that
+    stay responsive under load; experience with real-time or
+    event-driven systems is a plus.
+  - Strong problem-solving skills and clear communication with
+    both technical and non-technical colleagues.
+  - Curiosity and enthusiasm for learning new technologies;
+    interest in financial markets or crypto is a plus, not a
+    requirement.
+  - Familiarity with Docker/Kubernetes and cloud environments
+    (AWS) is a plus.
+
+  COMPENSATION & PERKS
+
+  - Full-time salary based on experience and meaningful equity
+    in an industry-leading company
+  - Role based in our London office, with a mandatory in-office
+    presence four days per week
+  - Work from Anywhere Policy - up to 20 days to work remotely
+  - ClassPass
+  - Budgets for learning & professional development
+  - Unlimited vacation policy; work hard and take time when you
+    need it
+  - Apple equipment
+  - The opportunity to be a key player and build your career at
+    a rapidly expanding, global technology company in an
+    emerging field
+  - Flexible work culture
+
+  Blockchain is committed to diversity and inclusion in the
+  workplace and is proud to be an equal opportunity employer.
+  We prohibit discrimination and harassment of any kind based
+  on race, religion, color, national origin, gender, gender
+  expression, sex, sexual orientation, age, marital status,
+  veteran status, disability status or any other
+  characteristic protected by law. This policy applies to all
+  employment practices within our organization, including
+  hiring, recruiting, promotion, termination, layoff, recall,
+  leave of absence, and apprenticeship. Blockchain makes
+  hiring decisions based solely on qualifications, merit, and
+  business needs at the time.
+
+  The personal data you provide will be used by Blockchain to
+  process your application. To learn more about your rights,
+  see our Applicant Privacy notice.
+industries:
+  - Blockchain
+  - Fintech
+  - Financial Services
+  - Cryptocurrency
+  - Web3
+posted_date: 2026-08-10
+url: "https://builtin.com/job/back-end-engineer-trading/10201322"
+source: Built In

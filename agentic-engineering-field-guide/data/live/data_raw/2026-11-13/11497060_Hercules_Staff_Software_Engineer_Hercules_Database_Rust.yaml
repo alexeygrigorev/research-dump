@@ -1,0 +1,121 @@
+job_id: 11497060
+title: Staff Software Engineer, Hercules Database (Rust)
+company: Hercules
+location: USA
+locations:
+  - USA
+  - San Francisco, USA
+remote: true
+work_type: FULL_TIME
+company_size: 5,116 Employees
+description: |
+  What are we looking for?
+
+  Hercules is looking for a staff level platform engineer to
+  help us build the future infrastructure stack for AI
+  software development
+
+
+
+  What will you do?
+
+  You will lead the Hercules backend-as-a-service
+
+  - Hercules Database: An enterprise-grade data platform with
+    flexible schemas and fine-grained access controls. Similar
+    to force.com (powering Salesforce)
+  - Backend Services: A fast, scalable backend-as-a-service
+    deeply tied to the Hercules Database
+  - APIs & SDKs: Design the interfaces AI agents use to build on
+    the platform
+  - Performance & Scale: Engineer for low latency, high
+    throughput, and efficient resource use
+  - Hosting & Infrastructure: Build and operate the
+    infrastructure that runs customer applications reliably,
+    with strong tenant isolation, observability, and failure
+    resilience
+
+
+
+  What skills do we expect you to have?
+
+  We expect candidates to be incredibly strong across all of
+  the following areas:
+
+  - Software fundamentals: system design, architecture, data
+    modeling, and API design
+  - Code and codebase quality: write clean, maintainable code.
+    Work effectively in monorepos
+  - Rust: build efficient, reliable production systems
+  - Data systems: indexing, query performance, transactions, and
+    consistency, etc
+  - Infrastructure: scale large, data-intensive, multi-tenant,
+    distributed services
+  - Performance: optimize latency, throughput, and resource
+    efficiency
+  - AI: able to truly 10x your workflow by being on the frontier
+    of AI coding
+
+
+
+  What’s Hercules’ stack?
+
+  - Technologies: Typescript, React, AI SDK, Postgres, Redis,
+    Clickhouse, Tailwind, IaC (CDK, Terraform), Docker, Otel,
+    Hono, Drizzle ORM, Temporal
+  - Clouds: Cloudflare, AWS
+  - AI Models: OpenAI, Anthropic, Google
+
+
+
+  What are Hercules’ operating principles?
+
+  Hercules’ operating principles guide how we make decisions
+  every day. We take them very seriously. Most of the
+  principles can be learned on the job, however, we do
+  specifically filter for the following principles in our
+  hiring process:
+
+  - We ship. We ship fast, iterate, and correct mistakes
+    quickly. Our bias for action speeds up our learning and
+    delights our customers.
+  - We strive for excellence. Doing things well is in our DNA.
+    We have good taste. We get the details right. Our outputs
+    are exceptionally simple and self-serve. We’re proud of
+    our work.
+  - We are hungry. We are willing to work hard and break through
+    walls to achieve the outcomes we want. We are willing to
+    operate at any level to get things done.
+
+
+
+  Is Hercules in-office or remote?
+
+  Hercules founding team works in-office in San Francisco
+  (Kearny and Bush). We have a very strong preference for in
+  office. We are open to remote for exceptional candidates who
+  are willing to 1) work in US time zones and 2) travel to the
+  office regularly.
+
+
+
+  What are Hercules’ benefits?
+
+  - Unlimited AI token budget
+  - Take what you need vacation policy
+  - Healthcare, vision, and dental
+  - Daily lunches, dinners and snacks in the office
+  - We guarantee you will do the best work of your career here
+
+
+
+  What’s the compensation?
+
+  $100k-$300k + equity (variable based on seniority, equity,
+  and location)
+industries:
+  - Hardware
+  - Information Technology
+posted_date: 2026-10-05
+url: "https://builtin.com/job/staff-software-engineer-data-platform-rust/11497060"
+source: Built In

@@ -1,0 +1,163 @@
+job_id: 12183514
+title: "Senior Backend Engineer | Feeld"
+company: GT
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 686 Employees
+description: |
+  GT was founded in 2019 by a former Apple, Nest, and Google
+  executive. GT’s mission is to connect the world’s best
+  talent with product careers offered by high-growth companies
+  in the UK, USA, Canada, Germany, and the Netherlands.
+
+  On behalf of Feeld, GT is looking for a Senior Backend
+  Engineer to help them improve their inclusive dating
+  application.
+
+  About the Client
+
+  Founded in 2014 as a dating app, Feeld gathered millions of
+  users in one place to create a safer and more inclusive
+  space online for everyone open to experiencing people and
+  relationships in a new way. Their mission is to elevate the
+  human experience of sexuality and relationships and create a
+  world where everyone is more intimately connected to each
+  other and themselves.
+
+  The technology stack of the project: Node.js, NestJS,
+  GraphQL/REST, TypeScript, AWS, DynamoDB, PostgreSQL, SQS,
+  EventBridge, WebSockets.
+
+  About the Role
+
+  Feeld is building an inclusive, human-centered product and
+  is looking for a Senior Backend Engineer to join their
+  remote team on a contract basis.
+
+  In this role, you'll hit the ground running, taking charge
+  of triaging, investigating, and resolving complex backend
+  issues while optimizing systems for scale, reliability, and
+  data integrity. You'll work in a mobile-first environment
+  where engineers are expected to have a strong understanding
+  of the product and collaborate closely with cross-functional
+  teams.
+
+  We're looking for someone who can step into the team, get up
+  to speed quickly, and contribute to architectural decisions
+  and direction with a high degree of independence.
+
+  Responsibilities:
+
+  - develop and deploy scalable and resilient backend systems
+    utilizing NoSQL and event-driven technologies within
+    cloud-first architectures
+  - take charge of in-depth investigations across backend
+    systems and provide clear pathways to resolution
+  - optimize system performance to ensure reliability and
+    availability
+  - develop real-time features using WebSockets
+  - collaborate with cross-functional teams, including product
+    management and QA, to deliver high-quality features and
+    enhancements
+
+  Essential knowledge, skills & experience:
+
+  - at least 5 years of experience in back-end development using
+    Node.js
+  - demonstrated proficiency in backend development, with
+    expertise in creating self-documented APIs using NestJS
+    with GraphQL or REST
+  - strong understanding of event-driven architectures and NoSQL
+    data storage
+  - strong proficiency in TypeScript
+  - hands-on experience with AWS services, including ECS,
+    DynamoDB, SQS, EventBridge, and PostgreSQL
+  - hands-on experience building real-time features using
+    WebSockets
+  - practical experience with observability and monitoring
+    tools, such as Sentry, DataDog, CloudWatch, and Amplitude
+  - experience writing effective and reliable unit and
+    integration tests
+  - experience working in a mobile-first company, with an
+    understanding of the product from an engineering
+    perspective
+  - full professional proficiency in English
+  - experience working in a collaborative environment, as well
+    as being adaptable to different approaches.
+
+  Nice-to-have
+
+  - experience with Infrastructure as Code using Terraform
+  - experience with specialized services such as Apollo,
+    Firebase Authentication, Stream Chat, Cloudflare, and
+    Snowflake
+  - interest or experience in globally distributed systems and
+    scalability
+  - interest or experience with ML/AI recommendation engines
+  - test-driven mindset with a focus on automation and
+    efficiency
+  - familiarity with mobile development using React Native
+
+  Interview Steps
+
+  - GT interview with Recruiter
+  - GT technical interview
+  - Client technical interview
+  - Final interview
+  - Reference check
+
+  We go beyond usual perks… By working with us, you will get
+
+  - Health insurance.
+  - Wellbeing coverage.
+  - Sport coverage.
+  - Learning budget.
+  - Paid vacations.
+  - Paid sick leaves.
+  - All public holidays are paid days off.
+
+  GT working model
+
+  You will work directly with a client through our Extended
+  Team model. We try to do things differently and put our
+  efforts into integrating you as deeply as possible into the
+  client’s team. You work with the same tools and technologies
+  as they do and are managed directly by the client without
+  any intermediary in between. We help you build relationships
+  and create an environment where you genuinely feel like a
+  member of the client’s team. We also encourage trips to a
+  client and joining teambuilding and after-work activities.
+
+  Our Extended Team model is focused on long-term projects
+  that last over several years.
+posted_date: 2026-11-11
+url: "https://builtin.com/job/senior-backend-engineer-feeld/12183514"
+source: Built In

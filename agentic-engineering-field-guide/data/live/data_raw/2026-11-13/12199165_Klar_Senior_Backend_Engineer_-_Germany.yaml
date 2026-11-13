@@ -1,0 +1,151 @@
+job_id: 12199165
+title: Senior Backend Engineer - Germany
+company: Klar
+location: DEU
+remote: true
+work_type: FULL_TIME
+company_size: 351 Employees
+description: |
+  About Klar
+
+  We're turning one of the world's largest underbanked markets
+  into something fairer, simpler, and more transparent. 7
+  million users served since 2019. Uber's first global credit
+  card, built right here in Mexico and Berlin. Klar
+  Empresarial, a brand-new B2B solution bringing agile credit
+  and smart accounts to SMEs who've been ignored by
+  traditional banks for too long.
+
+  And a full banking license on the horizon, because our
+  customers asked for it and we listened.
+
+  We move fast, we think big, and we go all in, because as our
+  CEO puts it: "Growing doesn't always mean going further.
+  Sometimes it means going deeper."
+
+  Behind all of it is a team of 30+ nationalities, working
+  across Mexico City, Berlin, and Argentina, obsessed with
+  building financial products that are simpler, faster, and
+  fairer than anything that came before.
+
+  This is Klar, and we're seeking the people who'll write the
+  next chapter.
+
+  Our people
+
+  If you join us at Klar, you’ll be welcomed to a team that is
+  rich in many talents and we are very proud! With our head
+  office in Mexico City, and remote tech hubs in Berlin and
+  Argentina, we are always learning something new about
+  another culture or language. With so many people from
+  different backgrounds and walks of life (young
+  professionals, parents, LGBTQ+, neurodivergence), you’ll
+  definitely find your people here!
+
+  Our values
+
+  - Ownership - We own our successes & our failures as a team.
+  - Excellence - We do everything to the best of our ability &
+    always seek to achieve a new level of excellence in our
+    work.
+  - Inclusion - We believe we are stronger together and actively
+    work to promote a safe, diverse, inclusive, and respectful
+    culture.
+  - Customer Obsession - We understand the value Klar can bring
+    to its customers & it’s always at the forefront of our
+    decisions.
+  - Klarity - We communicate clearly & with authenticity. It’s
+    in our name & it’s what we do.
+
+  About the role
+
+  This is a full-time remote opportunity for candidates based
+  in Germany.
+
+  As part of the investment team, you will manage multiple
+  microservices and supporting library projects in our event-
+  driven microservices architecture powered by Kafka. You will
+  be responsible for the full lifecycle of savings accounts,
+  campaigns (rewards), and the entire investment platform,
+  taxation, etc.
+
+  You will work on financial-grade, high-throughput systems
+  that must be correct and auditable, while integrating with a
+  broader ecosystem of microservices managed by other teams.
+
+  Our tech stack
+
+  - Java (21+)/Kotlin, SpringBoot 4, Hibernate, Flyway, Protobuf
+  - Postgres, Kafka, AWS S3, Github Actions, Prometheus, Grafana
+  - JUnit 5, AssertJ, Mockito/MockK, Testcontainers, Karate
+  - Checkstyle/ktlint
+
+  What you can expect:
+
+  - A small and efficient cross-functional team dedicated to
+    high engineering standards. As our project portfolio
+    expands, we offer an engaging work atmosphere packed with
+    continuous learning opportunities.
+  - AI-first development with human oversight and pair
+    development and review.
+  - A continuous delivery environment with its principles and
+    standards.
+
+  What we are looking for:
+
+  Must-have:
+
+  - Solid backend software development experience.
+
+  Strong proficiency in:
+
+  - Java/Spring Boot ecosystem, Hibernate
+  - Microservices, event-driven architectures, REST APIs
+  - Relational databases (PostgreSQL preferred), transactions
+    and concurrency, maintaining large, high-traffic tables.
+  - Continuous delivery with test-driven development (ATDD), or
+    willingness to learn and adapt.
+
+  Nice-to-have:
+
+  - Experience in financial systems
+  - Experience with observability stacks
+
+  Our offer to you:
+
+  - Competitive salary based on performance and experience
+  - Chance of earning Klar stock options
+  - 26 days of paid vacation per year
+  - MacBook Pro
+  - Wellhub subscription to support mental and physical health
+  - Sponsored coaching and therapy sessions via a Mental Health
+    platform
+  - Training budget to upskill your learning
+  - Health insurance & Pension scheme
+  - BVG Corporate ticket
+  - Berlin office if you prefer to work onsite
+  - International work environment with amazing and highly
+    skilled people
+  - A world-class team that helps you evolve in areas you're
+    interested in
+
+  Klar is a safe place for everyone!
+
+  We trust our highly skilled and diverse team and we’re
+  committed to creating a welcoming and inclusive environment
+  for new talents to flourish. We value diversity and welcome
+  all applications regardless of gender, nationality, ethnic
+  and social origin, religion/belief, physical abilities, age,
+  sexual orientation and identity.
+
+  Should you require any accommodations through the
+  recruitment process, please don’t hesitate to let us know
+  how we can help!
+industries:
+  - Fintech
+  - Payments
+  - Software
+  - Financial Services
+posted_date: 2026-11-12
+url: "https://builtin.com/job/senior-backend-engineer-germany/12199165"
+source: Built In

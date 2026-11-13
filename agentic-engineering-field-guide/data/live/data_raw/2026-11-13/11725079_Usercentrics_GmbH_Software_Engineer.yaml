@@ -1,0 +1,138 @@
+job_id: 11725079
+title: Software Engineer
+company: Usercentrics GmbH
+location: Munich, DEU
+locations:
+  - Munich, DEU
+  - Odense, DNK
+  - Prague, CZE
+work_type: FULL_TIME
+company_size: 314 Employees
+description: |
+  Usercentrics is a global leader in data privacy and privacy-
+  led marketing solutions. We believe there is no need for a
+  trade-off between growth and privacy compliance. Our vision
+  is to unlock the potential of data privacy to empower a
+  thriving digital ecosystem. We work with companies to create
+  a healthy balance between data-driven business and privacy-
+  led marketing for every size of enterprise.
+
+  We're hiring a hands-on engineer to build and own production
+  systems across our full stack. You'll ship real features and
+  platform components, hold your work and your team's work to
+  a high quality bar, and grow your technical scope over time.
+
+  How we build has changed. You'll spend less time typing
+  syntax and more time specifying intent, directing AI coding
+  agents, and reviewing what they produce.
+
+  You own the correctness of everything you ship, whoever or
+  whatever wrote the first draft.
+
+  We hire at two levels, Software Engineer and Senior Software
+  Engineer. The level is set during the process based on your
+  experience and the scope you've owned. YOUR TASKS:
+
+  Build, with AI as a core tool
+
+  - Implement features and platform components end-to-end, from
+    design through production.
+  - Specify, generate, review, and validate AI-generated code
+    with the same rigor as your own.
+  - Write tests, refactor, and improve the codebase as you go.
+  - Prototype approaches in real code before committing to them.
+
+  Raise the bar on quality
+
+  - Write maintainable, well-tested, production-grade code.
+  - Give thoughtful code reviews, with extra scrutiny on AI-
+    assisted changes.
+  - Contribute to observability, reliability, security, and
+    CI/CD practices in your team.
+  - Share what works (and what doesn't) with AI-assisted
+    development.
+
+  Design and decide
+
+  - Design services, APIs, and components within your team's
+    domain.
+  - Make pragmatic trade-offs between delivery speed and long-
+    term health, and explain your reasoning.
+
+  Understand the product
+
+  - Connect your work to product outcomes and customer impact.
+  - Give technical input on scope and prioritization instead of
+    just taking tickets.
+  - Work with product and design to keep our data handling
+    compliant and transparent.
+
+  RequirementsWhat we’re looking for
+
+  - 5+ years of professional experience shipping production
+    software.
+  - A track record of owning a system or domain end to end.
+  - Evidence that you’ve raised a team’s engineering standards
+    through mentoring and technical influence.
+  - Strong proficiency in modern full-stack development, for
+    example TypeScript/Node.js, .NET and React.
+  - Deep hands-on experience with AI coding tools, and the
+    judgment to review and stand behind their output.
+  - Solid grasp of API design, distributed systems and cloud-
+    native architecture.
+  - Experience running services in production on a major cloud
+    provider. Containers and Kubernetes are a plus.
+  - The ability to connect technical decisions to business
+    outcomes and reason about cost and value.
+  - Pragmatic judgment and comfort with ambiguity.
+
+  Nice to have
+
+  - Experience in privacy, consent management or another
+    regulated-data domain.
+  - Experience introducing or scaling AI-assisted development
+    practices in a team.
+
+  How we work: AI-native by default
+
+  Usercentrics is pushing AI adoption across engineering, and
+  we expect you to work this way from day one. You’ll direct
+  AI coding agents and hold their output to the same bar as
+  human-written code.
+
+  Benefits
+
+  - Flexible working hours
+  - Hybrid working, up to 3 remote days per week, plus
+    workcation (work from abroad) per policy
+  - Personal development budget, plus job-related language
+    courses -
+   Well-being support: free Headspace subscription, remote
+  meditation and yoga sessions
+  - Your choice of a top-end laptop (MacBook or Windows), plus
+    ergonomic equipment
+  - Health insurance or coverage, form varies by country
+  - Retirement or pension contribution where applicable by
+    location -
+   Paid vacation, 25 to 30 days depending on location, plus
+  parental-leave arrangements where applicable
+  - Regular team events, dinners, team hikes and sport events
+    across our Munich, Copenhagen, Odense, Lisbon, Prague, New
+    York and Buenos Aires offices
+  - Employee referral bonus - Welcome pack of branded
+    Usercentrics merchandise at onboarding
+  - Yearly work-anniversary rewards
+  ABOUT US  We are driven by our values #BeBrave,
+  #BetterTogether, #LeadbyExample, #InnovateWithPurpose,
+  #PassionForPrivacy, #GiveBack and #ComeAsYouAre. We strive
+  to create a diverse, equitable, and inclusive environment
+  where everyone feels valued, respected, and empowered to
+  reach their full potential. We are #BetterTogether.
+industries:
+  - Legal Tech
+  - Marketing Tech
+  - Software
+  - Data Privacy
+posted_date: 2026-11-11
+url: "https://builtin.com/job/software-engineer/11725079"
+source: Built In

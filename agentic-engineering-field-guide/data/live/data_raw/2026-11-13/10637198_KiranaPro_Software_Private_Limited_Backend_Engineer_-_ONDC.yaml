@@ -1,0 +1,70 @@
+job_id: 10637198
+title: Backend Engineer - ONDC
+company: KiranaPro Software Private Limited
+location: USA
+locations:
+  - USA
+  - Bengaluru, IND
+remote: true
+work_type: FULL_TIME
+company_size: 36 Employees
+description: |
+  We are looking for a skilled and self-driven Backend
+  Engineer to lead and implement our ONDC integration efforts.
+  You will work closely with product managers, ONDC protocol
+  teams, and cross-functional engineering groups to develop
+  and maintain reliable APIs and backend infrastructure
+  aligned with ONDC specifications.
+
+  Key Responsibilities
+
+  - Design and implement backend services and APIs to integrate
+    with ONDC protocols.
+  - Work with KiranaPro's product and tech team to ensure
+    compliance with ONDC buyer/seller app standards.
+  - Handle data modeling, performance tuning, and secure API
+    development.
+  - Collaborate with external ONDC interfaces like Beckn
+    protocol and gateway services.
+  - Manage and monitor ONDC transaction flows (discovery,
+    ordering, fulfillment, settlement).
+  - Write clean, scalable, and well-documented code.
+  - Conduct code reviews, write unit and integration tests.
+  - Maintain high availability and reliability for ONDC-related
+    services.
+  - Integrate with logistics, payments, and catalog management
+    systems as part of ONDC flow.
+
+  Requirements
+
+  - 2–6 years of experience in backend development.
+  - Strong proficiency in Node.js, Typescript.
+  - Good experience with REST APIs, WebSockets, and
+    microservices architecture.
+  - Hands-on experience with MongoDB, PostgreSQL, or similar
+    databases.
+  - Understanding of API security, OAuth2, JWT, and related
+    standards.
+  - Experience with Docker, ORM's like Prisma, and CI/CD
+    pipelines is a plus.
+  - Familiarity with ONDC or Beckn protocol is highly preferred.
+  - Solid problem-solving and debugging skills.
+  - Ability to thrive in a fast-paced, startup-like environment.
+
+  Why Join KiranaPro?
+
+  - Be part of the team driving India’s digital commerce
+    revolution.
+  - Work on meaningful, scalable systems impacting thousands of
+    retailers.
+  - Competitive compensation and ESOPs.
+  - Remote-first culture with flexibility.
+  - High ownership and opportunities for rapid career growth.
+industries:
+  - Artificial Intelligence
+  - eCommerce
+  - Food
+  - Retail
+posted_date: 2026-09-25
+url: "https://builtin.com/job/backend-engineer-ondc/10637198"
+source: Built In

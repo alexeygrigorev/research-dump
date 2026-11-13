@@ -1,0 +1,149 @@
+job_id: 11773593
+title: Software Engineer, Workload Orchestration (Distributed Compute))
+company: nTop
+location: DEU
+locations:
+  - DEU
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 122 Employees
+description: |
+  About nTop
+
+  nTop builds computational design software for engineers
+  designing next-generation aircraft, defense systems, and
+  performance vehicles. Our platform uses fundamentally
+  different approaches to geometry representation and
+  computation, enabling designs traditional CAD systems cannot
+  express. Our teams include world-class specialists in
+  computational geometry, meshing, rendering, and simulation.
+  We're looking for an engineer who can work across those
+  domains and help us make the system underneath them faster,
+  more open, and easier to build on.
+
+  The Role
+
+  You'll join our Orchestrate team as a senior engineer
+  working on one of our biggest shifts: turning an installed
+  desktop application into a platform that can run computation
+  in parallel across on-prem and cloud clusters, and opening
+  up how designs are stored.
+
+  You'll start by owning projects end to end. You decide what
+  "done" looks like, break the work into tasks, keep it
+  moving, and pull in the teams you depend on. As you build
+  context, you'll take on open-ended platform problems where
+  nobody yet knows the answer: you'll research the options,
+  recommend a path, and turn it into projects. Sometimes the
+  right recommendation is "not yet," and we want you to say
+  so.
+
+  What You'll Own
+
+  - Projects (1-3 months). Platform work with a clear goal that
+    you scope and drive to done. Examples: extracting a
+    subsystem from our C++/Python monolith behind a clean
+    interface, building a path for submitting and scheduling
+    workloads on cloud or on-prem clusters, or moving part of
+    our file format toward an open, text-based structure.
+  - One open platform problem (1-3 quarters). A question the
+    team knows matters but can't yet answer, such as how to
+    run thousands of parallel simulation jobs reliably across
+    mixed on-prem and cloud GPU environments. You investigate,
+    prototype, compare approaches and trade-offs, and
+    recommend what to build.
+  - Cross-team delivery. Your projects touch our other
+    engineering teams and the domain specialists who built
+    much of the codebase. You keep those dependencies moving
+    and make sure everyone knows how your work connects to
+    theirs.
+  - Quality and speed. Better tests, clearer interfaces, and
+    faster feedback loops in the code you touch, so the next
+    engineer has an easier time.
+
+  What You'll Accomplish
+
+  - First 3 months: Learn the codebase and who depends on it.
+    Deliver a first scoped project with a defined finish line.
+  - By month 6: Own a larger cross-team project from design
+    through deployment, with your plan, status, and trade-offs
+    visible to the people relying on it.
+  - By month 12: Own an open platform problem. Present a
+    researched recommendation, and drive at least one
+    resulting project into production.
+
+  Your impact is measured by how dependably you deliver what
+  you own, and by how much easier you make the work of the
+  engineers around you.
+
+  What You Bring
+
+  Required
+
+  - 6+ years of professional software engineering, with a record
+    of owning projects end to end and delivering across team
+    boundaries.
+  - Strong C++ experience building production systems;
+    comfortable working in Python as well.
+  - Hands-on experience with distributed or parallel systems,
+    such as job scheduling, workload orchestration, cluster or
+    cloud compute, or fault-tolerant services.
+  - Experience improving a large, long-lived codebase step by
+    step: refactoring, API design, or extracting modules
+    without breaking existing users.
+  - Comfort with ambiguity. You can take a fuzzy problem,
+    research it, weigh options, and make a clear
+    recommendation, including "not yet."
+  - Clear written and spoken communication. You earn trust
+    across teams by explaining your reasoning and following
+    through.
+  - A habit of helping teammates grow, through code review,
+    documentation, and pairing.
+
+  Valued
+
+  - High-performance computing, GPU workloads, or scientific
+    computing
+  - File format, serialization, or protocol design
+  - Programming language or domain-specific language tooling;
+    exposure to Rust
+  - CAD/CAM, simulation, or aerospace and manufacturing software
+  - Working with technically sophisticated customers
+
+  You might not be the right fit if
+
+  - You want every task defined for you before you start. Here
+    you scope your own work.
+  - You prefer to stay deep in one narrow specialty rather than
+    work across the platform.
+  - You're looking to set company-wide technical direction for
+    several years from day one. If that's you, let's talk
+    about other roles.
+
+  Why nTop
+
+  Work on hard computational problems in geometry and high-
+  performance computing, with real impact in aerospace and
+  advanced manufacturing. Own meaningful pieces of a platform
+  that is defining a new category, alongside deep specialists
+  who will teach you their domains.
+
+  Compensation
+
+  The base pay range for this role is $165,000 – $215,000 per
+  year.
+
+  Please note that nTop may use AI products to assist in the
+  recruiting process. All resumes are reviewed by, and all
+  employment decisions are made by, nTop's Hiring Team.
+
+  If you require a reasonable accommodation during the
+  interview process, please don't hesitate to email us
+  directly.
+industries:
+  - 3D Printing
+  - Software
+posted_date: 2026-10-20
+url: "https://builtin.com/job/principal-software-engineer-workload-orchestration-distributed-compute/11773593"
+source: Built In

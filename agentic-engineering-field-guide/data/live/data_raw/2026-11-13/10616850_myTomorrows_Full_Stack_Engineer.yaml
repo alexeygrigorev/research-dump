@@ -1,0 +1,190 @@
+job_id: 10616850
+title: Full Stack Engineer
+company: myTomorrows
+location: Amsterdam, NLD
+work_type: FULL_TIME
+company_size: 127 Employees
+description: |
+  About myTomorrows
+
+  myTomorrows is a global health tech company dedicated to
+  breaking down barriers for patients seeking treatment
+  options.
+
+  We strive to enable earlier and better treatment access by
+  bridging the gap between those searching for
+  possible options, and the companies who develop them. We
+  work closely with patients, healthcare professionals, trial
+  sites, patient advocacy groups, and BioPharma – connecting
+  key stakeholders in the drug development ecosystem.
+
+  We’ve developed a cutting-edge AI-powered technology
+  platform that simplifies and streamlines access to drugs in
+  development. To support our users and clients, we have a
+  range of industry-expert specialized teams ready to help.
+  Our services include clinical trial patient recruitment,
+  Expanded Access Program management and Real-World Data
+  collection.
+
+  With a global footprint spanning 134 countries, to date
+  we’ve supported over 17,000 patients, 3,000 physicians and
+  350 sites, earning the trust of 60+ BioPharma companies. In
+  October 2025, we closed a €25M investment with Avego
+  Healthcare Capital to fuel our global ambitions and scale
+  the business.
+
+  Join us in shaping the future of treatment access - making
+  tomorrow’s therapies accessible for people who need them
+  today.
+
+  The opportunity: Full Stack Engineer
+
+  As a Full Stack Engineer, you will take primary ownership of
+  our frontend experience while being capable of making the
+  backend changes needed to unblock yourself and your team.
+  You'll work closely with Backend Engineers, DevOps
+  Engineers, and stakeholders to deliver scalable, reliable,
+  and high-performance products end-to-end, from pixel to API.
+
+  Given that most of our team is located in the Netherlands,
+  we only consider candidates for this position who live
+  within commuting distance of our office in Amsterdam.
+
+  What you'll do in this role
+
+  - Design, develop, and maintain frontend components in Angular
+    (and Lit HTML where applicable), ensuring optimal
+    performance, responsiveness, and usability.
+  - Own the integration layer between frontend and backend:
+    consume and contribute to OpenAPI-defined APIs, handle
+    data contracts, and wire up microservices cleanly.
+  - Make targeted backend changes, new endpoints, tweaks to
+    existing services, minor data model updates, so you can
+    ship features without always depending on a dedicated
+    backend engineer.
+  - Contribute to architectural discussions across the full
+    stack, from UI component structure to API design and data
+    access patterns.
+  - Participate actively in code reviews, providing feedback on
+    both frontend and backend code quality, adherence to
+    standards, and performance.
+  - Mentor and support junior engineers across the stack.
+  - Stay current with evolving frontend and full-stack best
+    practices.
+
+  What you bring to the table
+
+  - 3+ years of experience in frontend or full stack
+    engineering.
+  - Strong proficiency in Angular and experience with component-
+    based frameworks such as Lit HTML.
+  - Solid understanding of responsive design, UX/UI principles,
+    and a keen eye for design detail.
+  - Proven experience integrating with APIs and microservices,
+    you understand HTTP, REST conventions, auth flows, and
+    error handling deeply.
+  - Working proficiency in Python, enough to navigate a FastAPI
+    codebase, add or adjust endpoints, and write Pydantic
+    models and SQLAlchemy queries.
+  - Familiarity with relational databases (MySQL/PostgreSQL) at
+    the query and schema level.
+  - Experience with containerised workflows using Docker.
+  - Excellent problem-solving skills; comfortable working
+    independently and collaboratively.
+  - Strong English communication skills and ability to work
+    across disciplines.
+  - Comfortable using AI-assisted development tools (e.g. Claude
+    Code, Cursor, or similar) as part of daily workflow.
+  - Familiarity with LLM API integration (OpenAI, Anthropic, or
+    similar) and an understanding of the UX patterns specific
+    to AI-powered features.
+
+  What success in the first 6 months looks like
+
+  - You've built trust with Backend, DevOps, and Product peers
+    and taken clear ownership of 2–3 frontend domains,
+    including their design system consistency and API
+    integration contracts.
+  - You've delivered frontend features end-to-end, from UX
+    design discussion through Angular implementation, API
+    wiring, tests, and documentation, without needing hand-
+    holding at either layer.
+  - You've unblocked yourself (and others) by making safe, well-
+    reviewed backend changes: adding an endpoint, adjusting a
+    response model, or optimising a query, rather than waiting
+    in a queue.
+  - You've raised frontend quality: responsive across devices,
+    accessible, consistent with our design system, and
+    validated against real API contracts rather than mocks.
+  - You've contributed to meaningful observability on the
+    frontend, error tracking, performance budgets, and linked
+    them to backend SLIs where relevant.
+  - You've shared knowledge through documentation, code reviews,
+    and mentoring, so the team's frontend capability grows
+    with you.
+
+  Current tech stack
+
+  We're fully cloud-native on AWS, with a lean, API-first
+  product development approach.
+
+  Frontend: Angular · Lit HTML · Headless Wagtail · WordPress
+
+  Backend: Python · FastAPI · Pydantic · SQLAlchemy · MySQL ·
+  Neo4j
+
+  Platform: AWS · Kubernetes · Terraform · Docker · GitHub
+  Actions · ruff · UV · pre-commit · Renovate
+
+  Our platform runs on Kubernetes-managed services and
+  Terraform for infrastructure as code. We continue expanding
+  capabilities in knowledge graphs (Neo4j) and modern data
+  access patterns.
+
+  What we offer:
+
+  - Impactful work that helps patients gain access to
+    potentially lifesaving treatments.
+  - International work environment, scale-up energy and a flat
+    organizational structure that encourages creativity and
+    accountability.
+
+  - Competitive salary, annual performance bonus and an Employee
+    Stock Option Plan.
+
+  - Great career development opportunities in a fast-growing
+    company.
+
+  - Learning and development budget alongside internal knowledge
+    sharing sessions.
+
+  - Attractive pension plan, full premium covered by
+    myTomorrows.
+
+  - Hybrid working model.
+
+  - Policies to support working parents.
+
+  - Healthy lunch at the thriving Amsterdam office.
+
+  - Unlimited access to professional guidance by certified
+    psychologists via OpenUp
+
+  - Enjoy monthly events hosted by our vibrant Culture Club as
+    well as an annual ‘myTomorrowland’ company-wide
+    celebration!
+
+  Equal opportunities
+
+  myTomorrows is an Equal Opportunity Employer and, beyond
+  upholding discrimination-free practices, we are committed to
+  cultivating a workplace where difference and diversity are
+  protected and celebrated. The best work comes from our best
+  selves, and we go to great lengths in supporting our team
+  members to be just that.
+industries:
+  - Healthtech
+  - Software
+posted_date: 2026-10-19
+url: "https://builtin.com/job/full-stack-engineer/10616850"
+source: Built In

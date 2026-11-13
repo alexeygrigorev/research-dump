@@ -1,0 +1,118 @@
+job_id: 11936280
+title: Senior Full-Stack Software Engineer
+company: Exadel
+location: POL
+remote: true
+work_type: FULL_TIME
+company_size: 1,549 Employees
+description: |
+  Why Join Exadel
+
+  We’re an AI-first global tech company with 25+ years of
+  engineering leadership, 2,000+ team members, and 500+ active
+  projects powering Fortune 500 clients, including HBO,
+  Microsoft, Google, and Starbucks.
+
+  From AI platforms to digital transformation, we partner with
+  enterprise leaders to build what’s next.
+
+  What powers it all? Our people are ambitious, collaborative,
+  and constantly evolving.
+
+  What You’ll Do
+
+  - Design, build, and maintain full-stack web applications,
+    ensuring high performance, scalability, and security
+  - Implement new features and enhancements in a well-tested,
+    maintainable, and efficient way
+  - Collaborate with Product managers and UX designers to create
+    intuitive, responsive, and accessible interfaces
+  - Review, analyze, and implement technical solutions to meet
+    business requirements, driving resolution of issues and
+    bugs
+  - Contribute to architectural decisions, API design, and
+    system integrations
+  - Provide technical leadership to the engineering team - guide
+    design discussions, perform code reviews, and support
+    continuous improvement
+  - Participate in task estimation, prioritization, and planning
+    in alignment with engineering processes
+
+  What You Bring
+
+  - Extensive professional expertise in Python/Node.js and
+    proven experience with modern frontend frameworks
+    (React.js, Vue.js, or Next.js)
+  - Background job processing: queues, retries, idempotent jobs,
+    handling a worker that fails mid-task
+  - Hands-on knowledge of cloud services (preferably AWS) and
+    database technologies (SQL/NoSQL)
+  - Experience in contributing to the architecture and design
+    (architecture, design patterns, reliability and scaling)
+    of new and existing systems
+  - Deep understanding of API development, microservices, and
+    system integration
+  - At least one project using LLM APIs with tool calling and
+    streaming. A side project is fine. A simple chat interface
+    on top of an API isn’t enough
+  - At least one product you built from scratch and then
+    maintained in production for a year or more
+
+  Nice to have
+
+  - Temporal, Inngest or another durable execution tool
+  - OpenTelemetry, ClickHouse or other tools for storing large
+    volumes of logs and traces
+  - Building MCP servers or clients
+  - LangGraph, OpenAI Agents SDK or Claude Agent SDK
+  - Protection against prompt injection, sandboxing tool
+    execution
+
+  English Language
+
+  Upper-Intermediate
+
+  Legal & Hiring Information
+
+  - Exadel is proud to be an Equal Opportunity Employer
+    committed to inclusion across minority, gender identity,
+    sexual orientation, disability, age, and more.
+  - Reasonable accommodations are available to enable
+    individuals with disabilities to perform essential
+    functions.
+  - Please note: this job description is not exhaustive. Duties
+    and responsibilities may evolve based on business needs.
+  - Compensation details are shared with candidates at the early
+    stage of the recruitment process.
+  - The offer is not binding until a signed contract is in
+    place.
+
+  Your Benefits at Exadel
+
+  Exadel benefits vary by location and contract type. Your
+  recruiter will fill you in on the details.
+
+  - International projects
+  - In-office, hybrid, or remote flexibility
+  - Medical healthcare
+  - Recognition program
+  - Ongoing learning & reimbursement
+  - Well-being program
+  - Team events & local benefits
+  - Sports compensation
+  - Referral bonuses
+  - Top-tier equipment provision
+
+  Exadel Culture
+
+  We lead with trust, respect, and purpose. We believe in open
+  dialogue, creative freedom, and mentorship that helps you
+  grow, lead, and make a real difference. Ours is a culture
+  where ideas are challenged, voices are heard, and your
+  impact matters.
+industries:
+  - Mobile
+  - Software
+posted_date: 2026-10-28
+url: "https://builtin.com/job/senior-full-stack-software-engineer-python-react/11936280"
+source: Built In

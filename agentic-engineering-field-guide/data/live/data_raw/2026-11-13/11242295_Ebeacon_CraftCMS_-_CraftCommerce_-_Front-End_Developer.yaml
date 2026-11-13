@@ -1,0 +1,59 @@
+job_id: 11242295
+title: CraftCMS - CraftCommerce - Front-End Developer
+company: Ebeacon
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 6 Employees
+description: |
+  We are looking for a Craft front-end developer to augment
+  our in-house staff building Craft and CraftCommerce sites.
+  We specialize in B2B commerce sites for manufacturers. Past
+  experience building large-scale sites including catalogs and
+  commerce (shipping, taxes, payment systems) is a plus.
+
+  We make extensive use of forms (primarily using Formie),
+  custom transactional emails, and provide a wide variety of
+  custom integrations to third-party platforms.
+
+  You'll have demonstrated Craft experience, building
+  responsive and accessible sites using Twig and Tailwind CSS.
+  Designs originate in Figma so past experience converting
+  Figma design and prototypes is required. Javascript usage
+  includes custom code, as well as AlpineJS and Vue.
+
+  You'll work as part of team including back-end developers, a
+  project manager and a strategist/architect to develop,
+  implement, and maintain the site. We rely on Bitbucket repos
+  and local dev (DDEV) with a strict 3-tier testing and
+  release environment so comfort using Git is critical.
+
+  Initially this is a part-time/freelance/contract type role
+  that may evolve in the future.
+
+  Requirements
+
+  - CraftCMS and CraftCommerce site setup and management
+  - Twig
+  - Tailwind CSS
+  - JS including using AlpineJS and Vue
+  - Custom CKEditor elements
+  - Bitbucket (Git) code management
+  - Local DDEV environments
+  - Design translation and implementation from Figma
+  - Good communication skils and experience working as part of
+    development/implementation team
+
+  No recruiters or placement agencies.
+
+  Benefits
+
+  Flexible schedule and remote work. As a contract position,
+  no direct benefits are provided.
+industries:
+  - eCommerce
+  - Marketing Tech
+  - Software
+posted_date: 2026-09-17
+url: "https://builtin.com/job/craftcms-craftcommerce-front-end-developer/11242295"
+source: Built In

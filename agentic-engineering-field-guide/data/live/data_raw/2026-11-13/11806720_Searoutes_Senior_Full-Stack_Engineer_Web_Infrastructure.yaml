@@ -1,0 +1,157 @@
+job_id: 11806720
+title: Senior Full-Stack Engineer (Web + Infrastructure)
+company: Searoutes
+location: FRA
+locations:
+  - FRA
+  - DEU
+remote: true
+work_type: FULL_TIME
+company_size: 20 Employees
+description: |
+  Searoutes makes the emissions data that shippers use to run
+  and reduce their logistics. It is an operational problem
+  before it is an environmental one, and in our hands it is
+  mostly an engineering one.
+
+  We are hiring a senior engineer who works across our web
+  frontend and our infrastructure — the same two codebases, in
+  the same week. Someone who ships a product screen on Monday,
+  changes an identity-provider flow on Wednesday, and
+  considers those the same job.
+
+  We are looking for a broad profile rather than a specialist.
+  The next year is mostly platform work with a user-facing
+  edge — user management, API gateway management, payments,
+  SEO, and a great deal of compliance, GDPR and ISO 27001.
+
+  If you are passionate about the environment, proactive and
+  pragmatic in getting things done, and love to work in a
+  complex but fascinating industry where you learn every day —
+  then this is the place for you.
+
+  The work in front of us
+
+  Some of the items on our tech roadmap for the coming year.
+  Bets are picked a cycle at a time and shared out, so you
+  would take the ones that suit you and grow into the rest.
+
+  - Product and marketing UI in React — multi-brand, WCAG AA,
+    strong ontechnical SEO, fast enough to hold a performance
+    budget.
+  - User management and identity — Keycloak realms, organisation
+    hierarchies,partner brokering, and the entitlement model
+    in the app.
+  - API gateway work in APISIX — routes, plugins and auth policy
+    as code.
+  - Payments and billing.
+  - ISO 27001 and GDPR — access control, change management,
+    audit logging,observability and alerting, consent and
+    retention.
+  - The infrastructure underneath — Pulumi in TypeScript, Docker
+    Swarm onHetzner, Cloudflare at the edge, Tailscale for all
+    engineer and CI access.
+  - Third-party integrations — usually the seam between two
+    systems that werenever designed to meet.
+
+  Nobody arrives fluent in all of that, and we are not
+  expecting it. We want someone strong across a good part of
+  it, comfortable being new to the rest, and used to working
+  things out — with a team and with agents, rather than alone.
+
+  Also in daily use: Postgres and PostGIS, Valkey, ClickHouse;
+  Vite, Tailwind and Radix; Jest and Playwright; GitHub
+  Actions; HAProxy. Most of what we write is TypeScript,
+  strict — though our core API is Java and Spring, and the
+  identity layer has Java in it too, so how far you go into
+  that side is up to you.
+
+  How we work
+
+  LLM-native, in the codebases you would work in. They are
+  built around agent-assisted development rather than merely
+  tolerant of it — the conventions, the tooling and the review
+  gates all assume it. Agents do most of the implementation
+  and much of the review; humans design, verify and approve.
+  What we are really hiring for is judgement over output you
+  did not write by hand: knowing what to specify, what to
+  check, and what to throw away. The bar did not move when the
+  tooling did.
+
+  Shape Up, and you own what you take. Roughly three weeks of
+  building, then a week of cooldown, with bets chosen at a
+  betting table. We are small enough that an area becomes
+  yours quickly — you make the calls inside it and you answer
+  for how it turns out. We hand out problems, not the steps
+  that solve them.
+
+  Remote first, with most of the team in Europe and everyone
+  together in person at least twice a year. Significant
+  technical decisions get written down, and a green build is
+  never on its own enough to merge.
+
+  Requirements
+
+  You'll thrive here if you have…
+
+  - Senior full-stack experience — you have owned features from
+    the browser tothe machine they run on.
+  - A track record of taking something and running with it — a
+    domain, amigration, a subsystem you took on, decided and
+    stayed accountable for.
+  - Taste. You can tell a good design from a merely plausible
+    one, and youwill reject work that functions but is not
+    right — your own, and an agent's.
+  - React beyond the client — server rendering, static
+    generation, dataloading and hydration; you know what runs
+    where and why it matters.
+  - TypeScript at strict — typed boundaries, and an instinct for
+    when typesare carrying real weight.
+  - Infrastructure as code — Pulumi ideally; Terraform if you
+    are ready topick up Pulumi.
+  - Containers and Linux in production — not writing a
+    Dockerfile, butdebugging a service on a machine you have
+    to SSH into.
+  - Postgres beyond queries — backup and restore, migrations,
+    what a schemachange does under load.
+  - Wholehearted LLM-assisted development — you use coding
+    agents daily, haveopinions about steering them, and review
+    their output as critically as acolleague's.
+  - Integration instincts — third-party APIs, webhooks,
+    OAuth/OIDC, andpatience for other people's undocumented
+    edge cases.
+  - A working day that overlaps ours: based within CET ±3.
+  - Fluent in English, our working language.
+
+  Nice to have
+
+  - Identity and API gateways in depth — Keycloak, OIDC, SAML
+    brokering, APISIX.
+  - Compliance from the inside — an ISO 27001 certification
+    lived through, or GDPRbeyond a cookie banner.
+  - Payment systems, billing models, or PSP integrations.
+  - Observability and alerting — Prometheus, Grafana or
+    equivalent.
+  - Experience in the maritime, logistics or freight industry.
+  - Familiarity with emissions accounting frameworks (GHG
+    Protocol, GLEC, EUETS..).
+
+  Benefits
+
+  As part of our team, you will:
+
+  - 🌱 Have a chance to re-shape the future of climate in the
+    logistics.
+  - 👩‍💻 Be empowered to deliver your best work remotely, and get
+    a stipend to setyou up.
+  - 🏄‍♂️ Have a flat hierarchy, where you will have direct
+    access to the foundersand won't be tied up in politics.
+  - 🎓 Have a high degree of learning and ownership in a dynamic
+    environment.
+  - 🏝 Take part in our team-building events.
+industries:
+  - Logistics
+  - Software
+posted_date: 2026-10-22
+url: "https://builtin.com/job/senior-full-stack-engineer-web-infrastructure/11806720"
+source: Built In

@@ -1,0 +1,257 @@
+job_id: 11233431
+title: Senior Software Engineer, Online Giving (General Interest)
+company: GiveCampus
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 77 Employees
+description: |
+  GiveCampus is the world's leading fundraising platform for
+  non-profit educational institutions. Trusted by millions of
+  donors and 1,300+ colleges, universities, and K-12 schools,
+  our mission is to help advance the quality, the
+  affordability, and the accessibility of education. At our
+  current pace, we will facilitate $100 billion in charitable
+  giving over the next decade–enough money to send more than 1
+  million students to college, tuition-free.
+
+  GiveCampus is backed by leading investors including Y
+  Combinator, but we’re also practitioners of Sustainable
+  Growth: we’ve made the Inc. 5000 list of America's fastest-
+  growing private companies each of the last five years and
+  we’ve been profitable nine of the last 10. In 2025, we
+  celebrated a $140 million growth investment that included a
+  major liquidity event for GiveCampus employees–the second in
+  less than three years.
+
+  Our purpose-driven team of 130+ is located in 30+ states
+  across the US: team members work from anywhere they choose.
+  We have a beautiful 12,000sf office in Washington, DC that
+  is available for people to use whenever they want, and we
+  regularly organize team meet-ups, visit partner
+  institutions, and host retreats in various locations.
+
+  While we operate at meaningful scale, we’re still small
+  relative to the commercial and social good opportunities in
+  front of us. Every GiveCampus employee plays a meaningful
+  role in shaping what comes next, and we're growing the team
+  in support of our ambitious plans–including a $100 million
+  investment in AI product development. If you believe in the
+  transformative power of education and want to join a fast-
+  growing, mission-driven company, you’ll fit right in.
+
+  Location: This is a remote-first role based in the U.S.
+  While we embrace flexible, distributed work, we also value
+  in-person connection. Team members are expected to attend
+  multiple company-wide and team-specific onsites throughout
+  the year.
+
+  A note on this posting
+
+  This is a general-interest posting for the Online Giving
+  team. We hire for this team on a rolling basis, so we may
+  not have a seat open the day you apply. We review every
+  application, and when a role opens that matches your
+  experience, we'll reach out. If you're a strong fit for an
+  open role now, we'll move quickly.
+
+  About the team
+
+  Every donation that moves through the GiveCampus platform
+  passes through Online Giving's code. The team owns the
+  giving experience itself—mobile-first Giving Forms and
+  Giving Pages, recurring giving, Memberships, and the
+  campaign tools schools use to run giving days and year-round
+  fundraising—and the payments layer underneath it: card, ACH,
+  and Digital Wallets across Stripe, Spreedly, and PayPal.
+
+  It's full-stack work where correctness genuinely matters.
+  Donations have to balance to the penny, a school's finance
+  office reconciles every deposit, and a conversion
+  improvement on a giving form turns directly into dollars for
+  scholarships, programs, and facilities.
+
+  As our Partner base and giving volume grow, payments is
+  becoming a bigger share of this team's work. We expect to
+  hire engineers who can go deep on payment
+  infrastructure—processing, recurring billing, payouts and
+  deposits, reconciliation, and risk—alongside engineers who
+  focus on the donor and admin experience. This posting covers
+  both.
+
+  Online Giving is one of our cross-functional product teams
+  in Engineering. We run one-week sprints and ship to
+  production multiple times a day.
+
+  What you might work on
+
+  Depending on the team's priorities and your strengths,
+  you'll take on work like:
+
+  Payments and money movement
+
+  - Moving payment flows onto modern processor APIs, including
+    our ACH migration to current Stripe APIs.
+  - Building and hardening one-time, recurring, and membership
+    payments with idempotency, retries, and webhook handling
+    that hold up under giving-day traffic.
+  - Making payouts, deposits, and reconciliation reliable and
+    explainable, so a school's finance team can trace every
+    dollar from donor to bank account.
+  - Reducing failed and declined payments, handling disputes and
+    refunds cleanly, and helping us spot fraud and card
+    testing early.
+  - Keeping our payments footprint secure and compliant as we
+    add processors and payment methods.
+
+  Giving experience and campaign tools
+
+  - Building donor-facing Giving Forms and Giving Pages with a
+    focus on conversion, accessibility, and mobile-first
+    design.
+  - Shipping our new block-based, API-driven campaign builder
+    and growing Memberships.
+  - Bringing personalization like Smart Ask Amounts into the
+    giving flow, so schools can ask each donor for the right
+    amount.
+
+  Across the team
+
+  - Owning projects end to end: architecture, code, automated
+    tests, deployment, and support in production.
+  - Partnering with your pod's Product Manager, Designer, and
+    fellow engineers to turn Partner needs into technical
+    plans you can ship incrementally.
+  - Joining a team-based support rotation and a paired 24/7 on-
+    call rotation, including payment and deposit
+    reconciliation, recurring-gift issues, and Partner
+    configuration requests.
+  - Mentoring engineers earlier in their careers and helping us
+    keep improving how we build and how we hire.
+
+  Successful outcomes
+
+  - Payments you can trust on the busiest day of the year.
+    Giving days spike traffic for hours at a time, and your
+    flows process every gift once, recover from processor
+    hiccups, and alert the team before a Partner notices.
+  - Money that reconciles. Every gift, fee, refund, and payout
+    lines up from the donor's receipt to the school's deposit,
+    and support tickets about missing or mismatched funds go
+    down.
+  - Forms that convert. Changes you ship to giving forms and
+    checkout move completion rates in the right direction, and
+    you can show the numbers.
+  - Systems the team can grow on. You leave payment and giving
+    code better documented, better tested, and easier for the
+    next engineer to change.
+
+  What we're looking for
+
+  Required
+
+  - 6+ years of hands-on, production software development.
+  - Full-stack proficiency: a modern front-end framework (React
+    or Vue.js) plus a backend language and framework (Ruby on
+    Rails, Node.js, Python, or similar).
+  - Strong SQL and data modeling skills, with a real concern for
+    data integrity.
+  - System design experience, with a focus on solutions you can
+    ship incrementally while keeping an eye on scale and
+    resilience.
+  - RESTful API design and experience integrating with third-
+    party services you don't control.
+  - A test-driven mindset and sharp debugging instincts,
+    including in production.
+  - Startup-ready ownership: you're comfortable with ambiguity,
+    set your own direction, and carry work from idea through
+    maintenance.
+  - Clear written communication for a distributed team.
+
+  Strongly preferred
+
+  - Payments experience: Stripe or a comparable processor, ACH,
+    card networks, digital wallets, webhooks, idempotency and
+    retries, disputes and refunds, and reconciliation. This is
+    the single strongest signal for this team.
+  - Experience with Ruby on Rails and RSpec.
+
+  Bonus points
+
+  - Payouts, ledgers, or double-entry accounting systems.
+  - Fraud prevention, risk scoring, or PCI scope reduction.
+  - Running more than one payment processor, or migrating
+    between processor APIs.
+  - High-conversion consumer checkout or donation flows.
+  - Experience on a fundraising, crowdfunding, fintech, or
+    e-commerce product.
+  - Postgres performance tuning, caching, or triaging stability
+    issues at scale.
+  - Experience making coding agents a reliable part of a team's
+    workflow.
+
+  Levels
+
+  We hire for this team at IC4 and IC5. At IC4, you'll own
+  major features and payment flows with design input from the
+  team. At IC5, you'll own the architecture of a system end to
+  end, set technical direction for the pod's roadmap, and
+  mentor others—and there's room to step into a Tech Lead
+  role. If you're not sure which fits, apply and we'll figure
+  it out together.
+
+  Our stack
+
+  - Ruby on Rails and React
+  - Postgres and Redis
+  - Stripe, Spreedly, and PayPal for payment processing
+  - AWS with ArgoCD and Kubernetes for hosting and application
+    management
+
+  How the team works
+
+  - You sweat the details where money is involved, and you'd
+    rather prove a fix with a test than hope it works.
+  - You think about how every decision lands for donors, school
+    administrators, and the finance staff reconciling the
+    books.
+  - You write it down. Design docs, PR descriptions, and
+    incident notes that let a distributed team act without a
+    meeting.
+  - Strong opinions, loosely held. You argue hard for your
+    approach, then commit fully once the team decides.
+
+  GiveCampus is not able to sponsor employment visas for this
+  role.
+
+  Ready to apply?
+
+  Be sure to keep an eye on your spam and promotions boxes in
+  case our emails end up there!
+
+  At GiveCampus, we value diversity and we pledge to foster an
+  environment of support, inclusivity, and learning, both on
+  the job and throughout the application process. In this
+  spirit, we encourage candidates of all backgrounds to apply.
+
+  GiveCampus is an Equal Opportunity Employer. Applicants and
+  employees are not discriminated against because of race,
+  color, creed, sex, sexual orientation, gender identity or
+  expression, age, religion, national origin, citizenship
+  status, disability, ancestry, marital status, veteran
+  status, medical condition or any protected category
+  prohibited by local, state or federal laws.
+
+  If you feel like you don't meet all of the requirements for
+  this role, please apply anyways. We know confidence gaps and
+  imposter syndrome often get in the way of connecting with
+  incredible people, and we don't want them to prevent us from
+  meeting you.
+industries:
+  - Edtech
+  - Fintech
+  - Information Technology
+  - Software
+posted_date: 2026-10-27
+url: "https://builtin.com/job/software-engineer-online-giving/11233431"
+source: Built In

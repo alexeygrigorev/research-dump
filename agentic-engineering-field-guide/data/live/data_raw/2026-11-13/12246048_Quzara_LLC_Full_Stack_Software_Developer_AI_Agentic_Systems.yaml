@@ -1,0 +1,140 @@
+job_id: 12246048
+title: Full Stack Software Developer (AI Agentic Systems)
+company: Quzara LLC
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 53 Employees
+description: |
+  Job Title: Full Stack Software Developer (AI Agentic
+  Systems)
+
+  Pay Type: SALARIED EXEMPT
+
+  Location: Remote
+
+  What We’re Looking For: We're looking for an AI-native,
+  hands-on engineer who builds and ships production-ready
+  software across the full stack, not just AI prototypes. You
+  use tools like Claude Code, Codex, GitHub Copilot, and
+  Cursor to work faster, and you back them with sound
+  engineering judgment, rigorous testing, and strong security
+  practices. This is an engineering role, not a data science
+  or research position.
+
+  Summary of Position Role/Responsibilities
+
+  The Senior Full-Stack AI Engineer – Agentic Systems will
+  build and scale NISTCompliance.ai, Quzara's AI-enabled
+  cybersecurity compliance platform. This senior, hands-on
+  role designs, codes, tests, and ships production software
+  across the full stack. It also covers building AI
+  capabilities with leading large language models, including
+  agentic workflows, retrieval-augmented generation (RAG), and
+  document intelligence. The ideal candidate is an AI-native
+  engineer who uses AI-assisted development tools to deliver
+  secure, reliable, production-ready software, not prototypes.
+
+  Essential Functions of the Job
+
+  - Design, build, test, and ship production features across
+    frontend, backend, APIs, databases, and AI services.
+  - Build AI-powered product capabilities using leading large
+    language models and generative AI platforms.
+  - Design and implement agentic workflows involving tool use,
+    structured outputs, multi-step tasks, and human oversight.
+  - Develop and improve retrieval-augmented generation (RAG),
+    semantic search, document intelligence, and knowledge-
+    retrieval capabilities.
+  - Integrate AI capabilities into existing application
+    workflows and enterprise systems.
+  - Build reliable evaluation, testing, monitoring, and
+    observability for AI-powered functionality.
+  - Develop secure, scalable APIs and backend services
+    supporting AI-enabled applications.
+  - Use AI-assisted coding tools extensively for repository
+    analysis, development, testing, debugging, refactoring,
+    and code review.
+  - Diagnose complex engineering problems across application,
+    AI, data, and cloud layers.
+  - Contribute to architecture, engineering standards, code
+    reviews, and technical mentoring.
+  - Evaluate emerging AI technologies and rapidly determine
+    which capabilities are suitable for production use.
+
+  Marginal Functions of the Job
+
+  - Other duties as assigned
+
+  Normal Work Schedule
+
+  This is a full-time position. Standard business hours are
+  Monday through Friday 8:30 AM to 5:30 PM. Additional time
+  outside of these hours may be needed to complete the
+  essential functions of the job.
+
+  Education, Training, and Experience
+
+  - 7+ years of professional software engineering experience.
+  - Demonstrated experience owning complex software features or
+    systems from design through production.
+  - Strong full-stack development experience.
+  - Advanced proficiency in Python.
+  - Strong proficiency with JavaScript/TypeScript and modern web
+    application development.
+  - Experience building and integrating REST APIs and production
+    backend services.
+  - Experience with relational databases such as PostgreSQL or
+    equivalent.
+  - Hands-on experience integrating commercial LLMs such as
+    Anthropic Claude, OpenAI models, or comparable platforms
+    into production applications.
+  - Practical experience with agentic AI, tool/function calling,
+    structured model outputs, and multi-step AI workflows.
+  - Experience building RAG or similar retrieval-based AI
+    applications.
+  - Significant hands-on experience with AI-assisted development
+    environments such as Claude Code, Codex, GitHub Copilot,
+    Cursor, Windsurf, or similar tools.
+  - Strong understanding of software engineering fundamentals
+    including testing, source control, CI/CD, observability,
+    security, and maintainable application architecture.
+  - Experience with Docker and modern cloud application
+    development.
+  - Ability to independently take ambiguous product requirements
+    and turn them into production software.
+  - U.S. citizenship required.
+
+  Preferred Qualifications
+
+  - Experience designing AI agents or multi-agent systems.
+  - Familiarity with Model Context Protocol (MCP) or comparable
+    agent/tool integration approaches.
+  - Experience with AI orchestration frameworks and agent SDKs.
+  - Experience with LLM evaluation, observability, benchmarking,
+    or LLMOps platforms.
+  - Experience with vector search, embeddings, document
+    processing, or enterprise knowledge systems.
+  - Experience building multi-tenant enterprise SaaS
+    applications.
+  - Experience with Microsoft Azure or other major cloud
+    platforms.
+  - Cybersecurity, compliance, GRC, or federal technology
+    experience is helpful but not required.
+  - Experience mentoring other software engineers.
+
+  EEO Statement
+
+  The Company is an Equal Employment Opportunity (EEO)
+  employer and does not discriminate based on race, color,
+  religion, sex, sexual orientation, national origin, age,
+  marital status, disability, veteran's status, or any other
+  basis protected by applicable discrimination laws.
+industries:
+  - Cloud
+  - Information Technology
+  - Professional Services
+  - Security
+posted_date: 2026-11-13
+url: "https://builtin.com/job/full-stack-software-developer-ai-agentic-systems/12246048"
+source: Built In

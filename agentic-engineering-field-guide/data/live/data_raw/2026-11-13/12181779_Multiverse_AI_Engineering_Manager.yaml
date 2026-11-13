@@ -1,0 +1,257 @@
+job_id: 12181779
+title: AI Engineering Manager
+company: Multiverse
+location: London, GBR
+work_type: FULL_TIME
+company_size: 800 Employees
+description: |
+  Every team has AI. Few have mastered it. Humans were built
+  to adapt, but AI is now moving faster than most workforces
+  can.
+
+  Multiverse is the AI adoption layer: the missing link
+  between the AI tools that companies have invested in and the
+  people expected to use them.
+
+  Our ambition is to put AI capability in every worker’s
+  hands. Apprenticeships got us started: we’ve trained over a
+  third of the UK’s data and AI apprentices, worked with a
+  third of the FTSE 100, and generated £2bn+ in verified ROI.
+  Now Mastry, our new adaptive learning platform, takes that
+  further, guiding a company’s AI workforce transformation
+  from start to finish. Mae, our AI guide inside Mastry, is a
+  real-time AI agent that thinks, speaks, listens and sees,
+  working alongside the tools you already use, like Claude and
+  Copilot.
+
+  We closed our latest fundraising round in April 2026, with
+  $500m+ raised in total from VC partners including Index
+  Ventures, General Catalyst, Schroders Capital and
+  Lightspeed. With a $2.1bn valuation, we are Europe’s first
+  EdTech double unicorn, and we are just getting started.
+
+  If you want to shape how the workforce wins in the AI era,
+  come and join us.
+
+  Why this role exists
+
+  Every foundation model lab is solving the same problem:
+  build more capability. Almost nobody is solving the harder
+  one — what happens when that capability meets a real
+  organisation and real people who have to relearn how they
+  work. That's the adoption layer, still wide open, and
+  Multiverse sits in the unique position to solve this problem
+  with ten years of proprietary learner and employer data
+  driven from 1,500+ companies that no one else has.
+
+  Diagnose & Prescribe (D&P) is the engine room of that
+  problem. It works out what a learner or employer actually
+  needs, then decides what they get funded for and which
+  apprenticeship or learning path they're pointed to next. D&P
+  is how we assess a learner's or employer's skill gaps,
+  decide what they need, and point them to the right
+  apprenticeship or learning path — so the blast radius here
+  is human and financial, not just a dashboard metric.
+
+  The line between leading this team and building the product
+  has already blurred, which is why this role exists as it
+  does. We need a leader who stays close enough to the work to
+  have credible judgment in it, and who builds a high-trust
+  team where diverse perspectives actually make the problem-
+  solving better.
+
+  This is a broad, domain-coherent, event-driven and
+  increasingly AI-native estate. The dominant challenge isn't
+  deep algorithmic difficulty in any single repo — it's
+  holding the whole D&P picture, sequencing work across varied
+  services, and keeping load-bearing decisions safe as the
+  system evolves underneath you.
+
+  What you're signing up for
+
+  - A genuinely unsolved problem — the constraint here is people
+    and adoption, not model capability.
+  - High agency. We set outcomes, not playbooks. You and your
+    team define how this evolves.
+  - Real commercial breadth. This team sits at the intersection
+    of Product, go-to-market, and eligibility — closer to the
+    customer than most engineering roles.
+  - Craft that's respected, not traded off. Strict typing,
+    layered testing, ADRs, observability — and AI-native ways
+    of working as the baseline, not an experiment.
+  - A company mid-transformation, told straight. Multiverse is
+    rebuilding itself into a product-powered, AI-native
+    company in real time. You're not inheriting a finished
+    system — you're one of the people defining it.
+
+  What you'll do
+
+  You will own delivery, technical direction, and team health
+  in the D&P service estate — the full learner and customer
+  journey from diagnosis through prescription to onboarding
+  and growth tracking. Concretely, that means leading the
+  team(s) across surfaces like:
+
+  - Diagnosis & needs assessment — AI-heavy services (retrieval-
+    augmented generation (RAG), LLM-scored assessment) that
+    turn raw signal into a picture of where a learner or
+    employer actually is.
+  - Prescription & eligibility — build the product which helps
+    learners and customers understand the best learning course
+    for their skills and career development, that leverages a
+    customer's levy funds. Much of this is load-bearing logic
+    with a genuine financial and regulatory blast radius.
+  - Recommendation & onboarding — turning a diagnosis into the
+    right prescribed path and getting learners into it, where
+    those decisions become visible to customers and learners.
+  - The platform arc — continuing to carve D&P logic out of the
+    shared legacy monolith into dedicated services, while
+    backing the newer AI-native product from beta toward
+    scale.
+  - Coach and build the team. Hire well, give every report a
+    real growth plan, and move the team into a high-
+    performing, AI-native operating rhythm — promotions and
+    performance issues are never a surprise.
+  - Stay hands-on. Whiteboard distributed designs, review and
+    negotiate the RabbitMQ event schemas and API contracts
+    that ripple across services, and write production code
+    yourself when it's the fastest way to de-risk or unblock.
+  - Deliver predictably. Use cycle time, change failure rate,
+    and MTTR to balance shipping speed, debt, and change-
+    safety on logic with genuine financial and regulatory
+    blast radius.
+  - Raise the AI-native bar. Prove better discovery-to-build-to-
+    review loops on your own team and share what works across
+    engineering.
+  - Partner on strategy. Work directly with Product and Design —
+    and closely with go-to-market — to turn learner and
+    customer behaviour into technical direction on the
+    surfaces where eligibility and recommendation decisions
+    become visible to real customers.
+
+  What we need
+
+  A few terms you'll see below: D&P (Diagnose & Prescribe,
+  this team's name), BAM (our hiring framework — Behaviour,
+  Achievement, Mastery), ADRs (architecture decision records),
+  IfATE (the UK body governing apprenticeship standards).
+
+  - Engineering management of full-stack teams shipping
+    production software, with real technical depth to review
+    architecture and challenge design.
+  - A team you led has shipped AI features to real users and
+    operated them — not a side experiment.
+  - Strong Python/TypeScript (if you don’t have Typescript, you
+    will need to learn): React/Next.js (App Router, RSC,
+    server actions), tRPC/GraphQL, Node/Express.
+  - PostgreSQL at scale via an ORM, with migration discipline on
+    large, live schemas.
+  - Event-driven systems on a message bus (we use RabbitMQ) —
+    versioned events, idempotency, backward-compatible
+    migration.
+  - A high engineering maturity bar as second nature: typing,
+    testing, feature flags, ADRs, CI/CD, observability.
+  - AI-native delivery in practice — you build daily with Claude
+    Code, Cursor, or the current best tool, and understand
+    context management, model selection, tool design, and the
+    token economics that separate a prototype from an
+    affordable production system.
+
+  What sets you apart
+
+  - GTM/acquisition-funnel experience — you've owned surfaces
+    where onboarding and eligibility meet real customers.
+  - Strangler-pattern pragmatism — legacy monolith and
+    greenfield edge-native product, at the same time.
+  - Accessibility and UX as defaults on learner-facing surfaces,
+    not afterthoughts.
+
+  Not for you if
+
+  This role won't fit if you'd rather run ceremonies than stay
+  in the system, the design, and the code yourself. It also
+  won't fit if you see AI tooling as a productivity tweak
+  rather than a step change in how a team works. And it needs
+  someone who renegotiates the scope out loud when it's wrong,
+  not someone who absorbs it and hopes it works out.
+
+  Stack & how we lead
+
+  TypeScript core (React/Next.js, Node) with PostgreSQL and
+  RabbitMQ as the event backbone, plus Python and Elixir
+  services — from RAG pipelines to a Claude-powered edge-
+  native product. GitHub, CircleCI, Datadog. AI-assisted
+  development is first-class, not bolted on.
+
+  You'll lead full-stack engineers (with Python/Elixir
+  specialists), report to the Senior Director of Engineering
+  for Diagnose & Prescribe, and calibrate regularly with a
+  peer group of EMs — you're not doing this alone. We reject
+  micro-management: we set the objective, you and your team
+  own the how. Kindness, candour, and curiosity over hierarchy
+  — bad news travels as fast as good.
+
+  Benefits
+
+  - Time off: 27 days holiday (including 3 winter shutdown days)
+    and bank holidays, plus 5 extra days off (1 life event, 2
+    volunteer days and 2 summer shutdown days).
+  - Health and wellbeing: Bupa private medical insurance, a
+    medical cash back plan, therapy through Spill and gym
+    access through Wellhub.
+  - Equity for all: we believe that when Multiverse wins, we all
+    win, which is why every permanent employee receives share
+    options.
+  - Financial security: life insurance at 3x salary, a workplace
+    pension with 4% contribution from us, Cycle to Work and a
+    Tech Scheme.
+  - Family support: enhanced maternity and paternity leave,
+    adoption and shared parental leave, paid leave after
+    pregnancy loss, and a workplace nursery scheme.
+  - Hybrid working: 3 days a week in the office - except for
+    Coaches & Instructors who come into the office 1 day per
+    month. Plus 10 days a year to work from anywhere.
+  - Work perks: quarterly team socials, company-wide events,
+    happy hours, lunch delivered to the office once a week,
+    fully stocked snack bar and a drinks fridge!
+
+  Our Commitment to Diversity, Equity and Inclusion
+
+  We’re an equal opportunities employer. And proud of it.
+  Every applicant and employee is afforded the same
+  opportunities regardless of race, colour, ancestry,
+  religion, sex, national origin, sexual orientation, age,
+  citizenship, marital status, disability, gender, gender
+  identity or expression, or veteran status. This will never
+  change. Read our Equality, Diversity & Inclusion policy
+  here.
+
+  Our Commitment to Safeguarding
+
+  Multiverse is committed to safeguarding and promoting the
+  welfare of our learners. We expect all employees to share
+  this commitment and adhere to our Safeguarding Policy, our
+  Prevent Policy and all other Multiverse company policies.
+  Successful applicants will be required to undertake at least
+  a Basic check via the Disclosure Barring Service (DBS).
+
+  For roles that will involve a Regulated Activity, successful
+  applicants must also undergo an Enhanced DBS check,
+  including a Children’s Barred List check and a Prohibition
+  Order check. Roles involving Regulated Activity may interact
+  with vulnerable groups, therefore are exempt from the
+  Rehabilitation of Offenders Act 1974 meaning applicants are
+  required to declare any convictions, cautions, reprimands,
+  and final warnings.
+
+  Providing false information is an offence and could result
+  in the application being rejected or summary dismissal if
+  the applicant has been selected, and possible referral to
+  the police and the DBS.
+industries:
+  - Artificial Intelligence
+  - Edtech
+  - Information Technology
+posted_date: 2026-11-11
+url: "https://builtin.com/job/ai-engineering-manager/12181779"
+source: Built In

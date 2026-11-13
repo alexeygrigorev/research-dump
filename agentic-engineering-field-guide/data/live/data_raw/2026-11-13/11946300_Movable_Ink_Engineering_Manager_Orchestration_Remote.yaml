@@ -1,0 +1,139 @@
+job_id: 11946300
+title: Engineering Manager, Orchestration (Remote)
+company: Movable Ink
+location: Toronto, CAN
+remote: true
+work_type: FULL_TIME
+company_size: 600 Employees
+description: |
+  Movable Ink scales content personalization for marketers
+  through data-activated content generation and AI
+  decisioning. The world’s most innovative brands rely on
+  Movable Ink to maximize revenue, simplify workflow and boost
+  marketing agility. Headquartered in New York City with close
+  to 600 employees, Movable Ink serves its global client base
+  with operations throughout North America, Central America,
+  Europe, Australia, and Japan.
+
+  Movable Ink is standing up a new Orchestration team to build
+  the next-generation AI decisioning layer that coordinates
+  every message a brand sends across email, mobile, and other
+  channels. We are looking for an Engineering Manager to lead
+  this team, hire its first engineers, and partner with a Lead
+  Engineer and senior technical stakeholders to take the
+  system from prototype to production. This is a hands-on,
+  player-coach role at the intersection of distributed systems
+  and machine learning, with high executive visibility and the
+  opportunity to shape one of the most strategic engineering
+  investments at the company.
+
+  This role will be reporting to the Director of Engineering
+  (AI/ML).
+
+  Responsibilities:
+
+  - Lead People: recruit, mentor, and grow a founding team of
+    engineers building the orchestration platform. Foster a
+    culture of ownership, curiosity, and continuous
+    improvement
+  - Shape the Technical Direction: partner with the Lead
+    Engineer and senior technical stakeholders to converge on
+    architecture, scope, and milestones for the system, with a
+    clear path from prototype to production
+  - Deliver Production Value: drive key initiatives from concept
+    to delivery, translating product goals into clear
+    technical plans and ensuring the team ships high-quality,
+    reliable systems
+  - Build the Platform: lead development of a scalable, event-
+    driven, fault-tolerant system that processes high-volume
+    real-time messaging decisions across workflows and
+    channels
+  - Guide System Design: provide hands-on technical leadership
+    for complex distributed, stateful, and real-time
+    decisioning problems, contributing directly to
+    architecture and design
+  - Partner Across the Platform: collaborate closely with
+    Product, Machine Learning, Data Platform, and adjacent
+    engineering teams to ensure the orchestration layer
+    integrates cleanly into the broader product
+  - Drive Operational Excellence: ensure the platform operates
+    reliably at scale through strong observability, metrics,
+    incident response practices, and shared on-call
+    responsibilities for business-critical services
+
+  Qualifications:
+
+  - 7+ years of software engineering experience, including 3+
+    years managing engineers, with a track record of
+    recruiting, mentoring, and growing high-trust engineering
+    teams
+  - A player-coach leadership style — comfortable guiding
+    engineers while staying close to the technical work and
+    contributing to architecture, design, and implementation
+    when needed
+  - Deep experience designing and operating large-scale
+    distributed systems that are fault tolerant, highly
+    available, and highly concurrent
+  - Strong systems thinking, with sound architectural judgment
+    around event-driven, stateful, real-time decisioning
+    systems
+  - Experience building and operating backend services in a
+    modern cloud environment (we use Google Cloud Platform)
+  - Hands-on experience with microservice and service-oriented
+    architectures, including the inter-service communication
+    patterns that compose them — synchronous, event-sourced,
+    orchestrated, and asynchronous (we use gRPC and Kafka)
+  - Strong foundation in Python
+  - Experience with Elixir — which we use for building
+    concurrent, fault-tolerant services — is a strong plus.
+    Experience with Erlang, Scala/Akka, Go, or Clojure also
+    transfers well
+  - Practical experience evaluating and designing for
+    distributed systems fundamentals: partitioning,
+    replication, back-pressure, idempotency, and failure
+    handling
+  - Exemplary software engineering practices (system design,
+    code review, testing, CI/CD)
+  - Strong focus on operational excellence, including
+    observability, incident response, and healthy on-call
+    practices
+  - Clear communicator and collaborator who can translate
+    technical tradeoffs into practical decisions with product
+    and business stakeholders
+  - (Nice to have) Experience with workflow orchestration
+    systems (e.g. Prefect, Airflow, Dagster, Temporal)
+  - (Nice to have) Experience building, operating, or
+    integrating with ML-driven decisioning or scoring system
+
+  The base pay range for this position is $152K - $200KCAD/
+  year, which can include additional bonus depending on the
+  position ultimately offered, in addition to a full range of
+  medical, financial, and/or other benefits. The base pay
+  offered may vary depending on job-related knowledge, skills,
+  and experience.
+
+  Studies have shown that women, communities of color, and
+  historically underrepresented people are less likely to
+  apply to jobs unless they meet every single qualification.
+  We are committed to building a diverse and inclusive culture
+  where all Inkers can thrive. If you’re excited about the
+  role but don’t meet all of the abovementioned
+  qualifications, we encourage you to apply. Our differences
+  bring a breadth of knowledge and perspectives that makes us
+  collectively stronger.
+
+  We welcome and employ people regardless of race, color,
+  gender identity or expression, religion, genetic
+  information, parental or pregnancy status, national origin,
+  sexual orientation, age, citizenship, marital status,
+  ethnicity, family or marital status, physical and mental
+  ability, political affiliation, disability, Veteran status,
+  or other protected characteristics. We are proud to be an
+  equal opportunity employer.
+industries:
+  - Artificial Intelligence
+  - Marketing Tech
+  - Software
+posted_date: 2026-10-28
+url: "https://builtin.com/job/engineering-manager-orchestration-remote/11946300"
+source: Built In

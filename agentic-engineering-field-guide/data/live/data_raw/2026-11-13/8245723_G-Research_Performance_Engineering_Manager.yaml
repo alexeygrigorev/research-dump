@@ -1,0 +1,121 @@
+job_id: 8245723
+title: Performance Engineering Manager
+company: G-Research
+location: London, GBR
+work_type: FULL_TIME
+company_size: 1,039 Employees
+description: |
+  We tackle the most complex problems in quantitative finance,
+  by bringing scientific clarity to financial complexity. From
+  our London HQ, we unite world-class researchers and
+  engineers in an environment that values deep exploration and
+  methodical execution — because the best ideas take time to
+  evolve. Together we’re building a world-class platform to
+  amplify our teams’ most powerful ideas. As part of our
+  engineering team, you’ll shape the platforms and tools that
+  drive high-impact research – designing systems that scale,
+  accelerate discovery and support innovation across the firm.
+  Take the next step in your career.
+
+
+  The role
+
+  We are seeking an exceptional Engineering Manager to lead
+  our Compute Performance Engineering team. The team’s mission
+  is to optimise large-scale workloads across our Linux HPC
+  and Kubernetes compute environments.
+
+  This is a hands-on, impactful role where you will design and
+  implement techniques to maximise utilisation of our cutting-
+  edge compute infrastructure — ensuring researchers and
+  engineers achieve the best possible performance on current
+  and future systems.
+
+  You will work closely with internal research and
+  infrastructure teams to profile and analyse workloads,
+  eliminate bottlenecks and develop reference solutions. Your
+  work will directly influence the evolution of our platforms
+  — shaping the architecture, software stack and tooling that
+  underpin large-scale machine learning computation.
+
+  Key responsibilities of the role include:
+
+  - Defining and delivering the long-term strategy for
+    performance engineering across G-Research, enabling all
+    engineers to maximise utilisation of our compute estate
+  - Providing leadership, mentoring and career development for
+    engineers, fostering a high-performance culture
+  - Communicating performance improvements and team impact
+    effectively across technical and non-technical audiences
+  - Engaging directly with researchers, senior stakeholders and
+    engineers to understand compute challenges and design
+    optimised solutions
+  - Profiling, benchmarking and tuning large-scale workloads
+    across CPU, GPU and memory-intensive jobs
+  - Developing reference implementations, libraries and tools to
+    improve job efficiency and reliability
+  - Collaborating with systems, architecture and platform teams
+    to evolve our compute stack
+  - Influencing long-term platform and infrastructure decisions
+
+  Who are we looking for?
+
+  We need a technically credible leader with a passion for
+  performance at scale. You’ll bring a combination of deep
+  systems knowledge with the ability to lead and grow a high-
+  performing team.
+
+  The ideal candidate will have the following skills and
+  experience:
+
+  - Experience managing and developing engineers
+  - A strong background in computer science, such as BSc, MSc,
+    PhD or equivalent experience
+  - Proven expertise in profiling, benchmarking and optimising
+    distributed or large-scale workloads
+  - Proficiency in one or more programming languages, with
+    strong grounding in algorithms and performance
+    optimisation
+  - Deep understanding of Linux internals, for example across
+    scheduling, memory management, NUMA, networking and
+    filesystems
+  - Experience with HPC schedulers and Kubernetes workload
+    orchestration
+  - Hands-on experience with heterogeneous compute, such as
+    GPUs, multi-core CPU workloads and high-memory systems
+  - Excellent communication and collaboration skills across
+    research, infrastructure and engineering domains
+  - Familiarity with profiling and monitoring tools, including
+    perf, eBPF, VTune, Flamegraphs, Prometheus and Grafana
+
+  Why should you apply?
+
+  - Highly competitive compensation plus annual discretionary
+    bonus
+  - Lunch provided (via Just Eat for Business) and dedicated
+    barista bar
+  - 35 days’ annual leave
+  - 9% company pension contributions
+  - Informal dress code and excellent work/life balance
+  - Comprehensive healthcare and life assurance
+  - Cycle-to-work scheme
+  - Monthly company events
+
+  G-Research is committed to cultivating and preserving an
+  inclusive work environment. We are an ideas-driven business
+  and we place great value on diversity of experience and
+  opinions.
+
+  We want to ensure that applicants receive a recruitment
+  experience that enables them to perform at their best. If
+  you have a disability or special need that requires
+  accommodation please let us know in the relevant section
+industries:
+  - Big Data
+  - Fintech
+  - Information Technology
+  - Machine Learning
+  - Financial Services
+posted_date: 2026-08-14
+url: "https://builtin.com/job/performance-engineering-manager/8245723"
+source: Built In

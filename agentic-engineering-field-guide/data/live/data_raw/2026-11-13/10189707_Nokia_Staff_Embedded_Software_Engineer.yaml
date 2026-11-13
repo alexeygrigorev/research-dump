@@ -1,0 +1,83 @@
+job_id: 10189707
+title: Staff Embedded Software Engineer
+company: Nokia
+location: CAN
+locations:
+  - CAN
+  - Ottawa, CAN
+remote: true
+work_type: FULL_TIME
+company_size: 132,624 Employees
+description: |
+  Our Optical Line System team is searching for an experienced
+  embedded and real-time software developer for our leading-
+  edge optical line system product line. Our team is
+  responsible for developing carrier grade embedded software
+  which follows modular and reusable design principles. The
+  candidate is required to fully understand line system
+  software architecture and its real time operating system and
+  be able to work independently developing optical control and
+  shelf controller interface software for new products as well
+  as sustaining legacy products. To achieve this goal, the
+  candidate is required to work closely in a multi-
+  disciplinary environment and be able to interact with
+  optical, hardware and software engineers to drive closure of
+  any design and development requirements and issues.
+
+  Responsibilities
+
+  - Work closely with hardware/FPGA engineers to understand HW
+    control architecture including CPU architecture, memory
+    access and control of various peripherals. Be able to
+    independently develop firmware that supports the designed
+    hardware, e.g. driving DACs, reading ADCs and control
+    flash devices through low level device interfaces or FPGA
+    interfaces.
+  - Work closely with optical engineers to define optical
+    control requirements and develop control algorithms.
+    Implement the control algorithms on top of Linux and
+    FreeRTOS operating systems.
+  - Work on software interface layer that communicates with
+    system controller on a different card through gRPC
+    interface over Ethernet.
+  - Provide to management team accurate design estimates for
+    planning purposes.
+  - Follow development processes to ensure delivery of quality
+    products on time.
+  - Flexible and adapt to changing tasks when needed.
+
+  Qualifications
+
+  You have:
+
+  - Bachelor or higher degree in Computer Engineering/Electrical
+    Engineering, or equivalent education.
+  - Minimum 10 years of industry experience in real-time
+    programming using C/C++ in embedded Linux and/or RTOS
+    environments
+  - Solid experience with low-level device interfaces, including
+    UART, SPI, and I2C.
+  - Proficient in using lab equipment, such as oscilloscopes and
+    power meters.
+  - Strong understanding of SOC controller/processor
+    architecture, Linux kernel, and real-time OS operations.
+  - Experience with CMAKE build system
+  - Working knowledge in gRPC and protobuf design and
+    implementation
+  - Proven ability to quickly grasp new technical concepts.
+  - Excellent written and verbal communication and presentation
+    skills.
+
+  It would be nice if you also had:
+
+  - Experience with optical networking communication systems,
+    particularly optical transceivers or fiber optics modules.
+  - Familiarity with optical technologies and components such as
+    EDFAs, WSS, OCMs, and OTDR.
+  - Experience with Xilinx Zynq/Ultrascale.
+  - Understanding of digital signal processing principles or PID
+    control algorithms.
+  - Knowledge of Petalinux and its build environment.
+posted_date: 2026-08-09
+url: "https://builtin.com/job/staff-embedded-software-engineer/10189707"
+source: Built In

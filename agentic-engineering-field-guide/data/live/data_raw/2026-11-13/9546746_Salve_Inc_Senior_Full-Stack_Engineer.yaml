@@ -1,0 +1,140 @@
+job_id: 9546746
+title: Senior Full-Stack Engineer
+company: Salve, Inc.
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 10 Employees
+description: |
+  Forwardly Deployed Engineer (Senior) About the Role
+
+  We’re looking for a senior Forwardly Deployed Engineer to
+  serve as the primary technical point of contact for Salve
+  clients. In this role, you’ll partner directly with
+  operators and executives to understand business challenges,
+  design integration solutions, build and maintain workflows,
+  and own delivery from kickoff through ongoing optimization.
+
+  This is a hybrid role by design: part engineer, part
+  technical consultant, part client partner. One hour, you
+  might be leading a client call about operational
+  bottlenecks; the next, you might be configuring a workflow,
+  debugging a sync issue, writing data transformations, or
+  extending an integration.
+
+  You will be the face of Salve in client-facing meetings, so
+  exceptional English communication skills — both written and
+  verbal — are essential. You should be articulate, confident,
+  professional on camera, and comfortable engaging with both
+  executive stakeholders and day-to-day operators.
+
+  Internally, you’ll work closely with Salve leadership and
+  cross-functional teams, including the CTO and Head Engineer
+  for technical direction, the Business Analyst on
+  requirements, the Head of Customer Ops on client
+  communication, and the CEO on roadmap and contractual
+  changes. You’ll also collaborate with engineering and data
+  teams to deliver solutions and turn field insights into
+  product improvements.
+
+  What You'll Do
+
+  - Own client relationships across onboarding, implementation,
+    ongoing delivery, and strategic roadmapping
+  - Translate business requirements into technical
+    specifications, platform configurations, and scalable
+    integration designs
+  - Build, deploy, and maintain integration applets across the
+    Salve platform (Apollo/APL), including data mappings, API
+    configurations, and workflow logic
+  - Support and extend retail and ecommerce integrations,
+    including connector setup, webhook management, payment and
+    tax configuration, and troubleshooting
+  - Triage and resolve production issues across client
+    integrations, including EDI processing, ERP sync failures,
+    POS data discrepancies, and compliance-related edge cases
+  - Debug and improve data flows across APIs, webhooks, ETL/ELT
+    pipelines, and internal platform components
+  - Document solutions, maintain client-specific runbooks, and
+    contribute to internal knowledge bases
+  - Partner with engineering to improve the platform based on
+    patterns, pain points, and opportunities identified in the
+    field
+  - Leverage AI to set up codebases that are AI optimized for
+    fast turnaround, deployment of custom applets, automated
+    workflows, etc.
+
+  What We’re Looking For
+
+  - 5+ years of experience in software engineering, solutions
+    engineering, forwardly deployed engineering, technical
+    consulting, or a similar hybrid client-facing technical
+    role
+  - Experience with one or more of PHP/Laravel, Python,
+    Typescript, Vue/React, MySQL/Postgres, or similar
+  - Located within 2 hours of US Eastern Time, with reliable
+    overlap during EST business hours
+  - Exceptional English communication skills, written and
+    verbal; this is a highly client-facing role with regular
+    video calls
+  - Strong knowledge of integration patterns and systems,
+    including REST APIs, webhooks, ETL/ELT, EDI, and data
+    transformation
+  - Comfortable leading client conversations, building trust
+    with senior stakeholders, and translating ambiguity into
+    action
+  - Strong technical troubleshooting ability across
+    integrations, sync failures, and distributed data flows
+  - Self-directed and highly accountable; you can operate
+    effectively without heavy process or detailed day-to-day
+    oversight
+  - Brings humility, professionalism, and a collaborative
+    attitude that teammates and clients enjoy working with
+  - Experience operating at a senior level, with the judgment to
+    context-switch across clients, prioritize effectively, and
+    push back on scope when necessary
+  - The ability to leverage AI to set up codebases that are AI
+    optimized for fast turnaround, deployment of custom
+    applets, automated workflows, etc.
+
+  Nice to Have's
+
+  - Hands-on experience integrating eCommerce platforms,
+    retail/POS systems, ERPs, and data platforms such as
+    NetSuite, WooCommerce, BigCommerce, and Snowflake
+  - Familiarity with compliance systems or seed-to-sale
+    platforms
+  - Experience with dbt, Airflow, Astronomer, or other modern
+    data stack tools
+  - Background at a startup, consultancy, or similarly fast-
+    moving environment where you wore multiple hats
+
+  Rate and Terms
+
+  This is a fully remote position, with required working-hour
+  overlap within 2 hours of US Eastern Time. Occasional travel
+  for client onboarding or team on-sites may be requested.
+
+  The salary range for this full-time, remote position is
+  $100,000–$130,000 per year. This range reflects the expected
+  compensation based on various factors, including relevant
+  experience, skills, seniority, education, and
+  certifications.
+
+  How to Apply
+
+  Please send your resume and a cover letter (can be in the
+  email) detailing why you’re a great fit for this position to
+  careers@getsalve.co, with the subject line: #Salvetothemoon
+  in your response.
+industries:
+  - Big Data
+  - Cannabis
+  - eCommerce
+  - Logistics
+  - Database
+  - Business Intelligence
+  - Big Data Analytics
+posted_date: 2026-11-09
+url: "https://builtin.com/job/senior-full-stack-engineer/9546746"
+source: Built In

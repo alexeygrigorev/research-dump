@@ -1,0 +1,286 @@
+job_id: 11742176
+title: Principal Software Engineer - Billing
+company: Priority (prioritycommerce)
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 1,522 Employees
+description: |
+  Job title: Principal Software Engineer - Billing
+
+  Reports to: Director, Engineering
+
+  Department: Development
+
+  Location: Remote (CAN)
+
+  About Product & Technology at Priority Commerce:
+
+  Our vision in Product & Technology is to engineer the
+  world's most resilient, AI-native financial ecosystem that
+  empowers businesses to transcend table-stakes and lead the
+  agentic future, where every financial transaction is
+  intelligent, every developer is accelerated, and every
+  experience is unified.
+
+  At Priority Commerce, we are building the Priority Commerce
+  Engine, a unified platform that enables businesses to
+  collect money, store money, lend money, move money, and
+  build modern commerce experiences at scale.
+
+  About the Role:
+
+  The Principal Software Engineer on the Billing workstream
+  will be responsible for defining the long-term technical
+  strategy and evolution of core systems that support critical
+  revenue commit, sales activation, and financial settlement
+  capabilities.
+
+  The Billing workstream is a product-aligned engineering
+  organization focused on delivering a cohesive set of
+  customer and business capabilities for payments, acquiring,
+  banking, and treasury solutions. It is strategically divided
+  into teams (e.g., Strategic Roadmap, Business Management,
+  and Integration). This role operates across all domains and
+  teams (value lanes) within the Billing workstream, shaping
+  how systems are designed, integrated, and evolved over time.
+
+  This role is pivotal in driving strategic initiatives for
+  our billing products and enhancing billing programs,
+  including the development of a unified billing domain
+  service. A core focus is defining architectural direction,
+  reducing systemic risk (especially related to reliability
+  and QA coverage, learning from past issues with core billing
+  systems), and ensuring our systems scale to support
+  increasing complexity across all billing streams. You will
+  partner closely with Senior Staff Engineers, SDETs,
+  Engineering leadership, and Product leaders to align
+  technical strategy with overall business objectives.
+
+  The Principal Software Engineer will establish how our
+  billing systems evolve, ensure long-term platform
+  sustainability, and drive engineering decisions that improve
+  reliability, scalability, observability, and business impact
+  across the workstream.
+
+  What You’ll Do:
+
+  - Stay hands-on — design, build, review, and operate the parts
+    of the area's systems that matter most; lead by example,
+    not by exhortation.
+  - Lead during the area's highest-pressure moments — incidents
+    that reach executive attention, senior cross-functional
+    escalations, the most critical delivery moments —
+    regardless of time of day, day of week, or weekend.
+  - Own the area's architecture roadmap and the ADRs that govern
+    it — current, communicated, and built against by teams.
+  - Participate in Priority's Architecture Review Board (ARB) —
+    bring workstream architectural decisions that cross
+    workstream boundaries or need enterprise ratification, and
+    take ARB direction back to your teams; write ADRs to the
+    enterprise standard and hold the ADR practice in your
+    workstream so architecture knowledge compounds rather than
+    scatters.
+  - Show up as an active member of the Principal Engineering &
+    Architecture Guild — the venue where Priority's Principals
+    get sharper together.
+  - Hold the architecture transparency framework in your
+    workstream — every critical system has a current runbook,
+    an AI-native knowledge store, an ownership map, and a
+    backup/shadow ownership map, machine-readable and kept
+    current; treat the AI-native knowledge store as a real
+    operating capability, not a side documentation exercise.
+  - Set the workstream's observability bar — instrumentation,
+    telemetry, SLOs, and error budgets engineered in from the
+    first line of code; every team in the workstream builds in
+    the spirit of SRE.
+  - Define and drive how AI agents take part across discovery,
+    design, development, testing, deployment, and operations —
+    and be the most AI-forward engineer in the area by visible
+    evidence.
+  - Own the area's OKRs and KPIs end to end — system metrics and
+    the customer and business outcomes the area is on the hook
+    for — and partner with product, design, and customer-
+    facing leadership on the area's strategy.
+  - Own the area's technical onboarding and knowledge base —
+    usable by engineers and agents alike, with no single
+    points of failure.
+  - Raise the area's engineering maturity — quality,
+    predictability, reliability, agentic practice — by setting
+    the example and coaching the engineers around you up.
+  - Allocate technical investment against strategy and defend it
+    in business terms leadership accepts; own the area's
+    delivery, reliability, security, and quality trends and
+    make the case for investment with data.
+  - Partner with peer Principals across product areas on shared
+    services, integration patterns, and cross-cutting
+    capabilities — executing within the standards
+    Distinguished Engineers & Architects set.
+  - Serve as your workstream's conduit to Priority's Innovation
+    Studio — translate Studio-explored Agentic PDLC practices
+    into your workstream's operational reality, and feed
+    workstream production learnings back into the evolving
+    practice.
+  - Develop engineers at every level — Staff and Senior Staff
+    sharpen through your architectural mentorship, and the
+    mid-level, associate, and Senior engineers around you get
+    better because you care about lifting them.
+
+  What Success Looks Like:
+
+  - The area's architecture roadmap is current, and teams build
+    against it.
+  - ADRs at workstream level are written to the enterprise
+    standard and cited by engineers in the workstream years
+    later; the ADR practice compounds architectural knowledge
+    rather than scattering it.
+  - Every critical system in your workstream has a current
+    runbook, an AI-native knowledge store, and an ownership +
+    backup ownership map — architecture in the workstream is
+    transparent and less personality-dependent, and
+    onboarding, troubleshooting, and incident response go
+    faster because of it.
+  - Observability is a design-time property of what your
+    workstream ships; teams operate in the spirit of SRE.
+  - The area's customer and business outcomes — its OKRs, its
+    KPIs — move on your watch, not just its technical metrics.
+  - The area is more predictable on your watch — lead time
+    shrinks year over year, commitments hold, and incident and
+    defect trends improve.
+  - AI agents are operational across the lifecycle, not
+    aspirational — because you defined and led the practice.
+  - Engineers at every level in the area grow because of you —
+    not just the Staff+ bench, but the mid-level, associate,
+    and Senior engineers you took the time to lift.
+  - The area has no single points of failure you haven't
+    identified and mitigated; what the area ships is reliable,
+    and customers feel it.
+  - The Distinguished Engineer & Architect considers your area
+    the example.
+
+  What We're Looking For:
+
+  - Roughly 15–20+ years of relevant engineering experience — a
+    guide, not a gate; we hire on demonstrated impact, not
+    years.
+  - Experience in the Payments or Banking domain is preferred,
+    but experience in at least one of these areas is required.
+  - Hands-on credibility and strong work ethic — you still write
+    the code, debug the incidents, stay close to production at
+    this level, and lead by example, not by exhortation
+  - Comfort and credibility leading in the area's highest-stakes
+    moments — executive-attention incidents, senior
+    escalations, critical deliveries — regardless of hour
+  - A track record owning technical direction for a multi-team
+    organization with real business outcomes, including
+    reliability and quality leadership at scale
+  - Track record of owning area-scale customer and business
+    outcomes, not just technical ones; product, business, and
+    stakeholder fluency at the level required to partner with
+    executive product leadership
+  - Architecture leadership evidenced in writing — roadmaps,
+    ADRs, and standards organizations built against
+  - Experience participating in an Architecture Review Board (or
+    equivalent cross-workstream architecture decision forum)
+    and adopting a standardized ADR practice across a
+    workstream
+  - Track record of setting the observability and reliability
+    bar for a multi-team organization — teams that shipped
+    observable systems by default because you led them there,
+    and operated in the spirit of SRE
+  - Demonstrated leadership of AI-native transformation —
+    agentic workflows adopted by teams, not just personal use
+  - A record of growing engineers at every level — not just
+    Staff-level engineers into architecture ownership, but
+    visible investment in the growth of mid-level, associate,
+    and Senior engineers around you
+  - Security and regulatory fluency for financial platforms
+  - Exceptional written and executive communication
+
+  Tech Stack
+
+  - The primary technology stack for the Billing team includes:
+    React, Node, Snowflake, AWS EMR, and Elastic Search. This
+    stack is actively evolving, and a key part of this role is
+    to architect and determine the future technology stack and
+    roadmaps for the workstream.
+
+  Nice to Have:
+
+  - Experience improving engineering processes and team
+    effectiveness at scale.
+  - Bachelor's degree in Computer Science, Engineering, or a
+    related technical field, or equivalent practical
+    experience.
+  - Advanced degree in a relevant technical discipline (e.g.,
+    Master's or PhD).
+
+  Work Environment & Culture:
+
+  We believe that performance and experience go hand in hand -
+  an exceptional employee experience is earned through
+  contribution. We are a results-driven team, grounded in our
+  core values: ownership, authenticity, service, trust,
+  innovation, and camaraderie.
+
+  Our culture is built for those who want to make an impact.
+  We challenge each other to grow, celebrate progress, and
+  support one another through shared goals and real
+  connection. Whether you're building technology, serving
+  clients, or supporting internal teams, you’ll be part of a
+  company that empowers you to perform at your best and be
+  known for results.
+
+  Compensation &  Benefits:
+
+  Compensation range: $191k - $249k CAD We invest in the whole
+  employee - personally and professionally. Our benefits
+  package is designed to support your well-being, growth, and
+  success - both inside and outside of work.
+
+  Financial Wellness
+
+  - Bonus programs
+  - Financial wellness resources and employee discount programs
+
+  Health & Well-being
+
+  - Medical, dental, and vision coverage
+  - Mental health support for employees and dependents through
+    Lyra Health
+  - Family planning and women’s health benefits through Carrot
+  - Gym membership reimbursement and virtual wellness programs
+    (including yoga)
+
+  Time Off
+
+  - 3 weeks PTO to start, with unlimited PTO after year one
+
+  Growth & Development
+
+  - Education expense reimbursement
+  - Leadership development programs
+  - Certified Payments Professional (CPP) certification support
+
+  We believe great performance starts with feeling supported -
+  and we’ve built our benefits with that in mind.
+
+   Traditional Physical Requirements:
+
+  - Requires prolonged sitting, standing, bending, stooping and
+    stretching.
+  - Requires the ability to lift 10 pounds.
+  - Requires eye-hand coordination, manual dexterity and a
+    normal range of hearing and vision (with or without
+    correction).
+
+
+
+  Join our team at Priority Commerce and be part of a dynamic
+  and innovative company that is transforming the financial
+  technology landscape. Together, we can shape the future of
+  payments and banking solutions while providing unmatched
+  value to our clients.
+posted_date: 2026-10-19
+url: "https://builtin.com/job/principal-software-engineer-billing/11742176"
+source: Built In

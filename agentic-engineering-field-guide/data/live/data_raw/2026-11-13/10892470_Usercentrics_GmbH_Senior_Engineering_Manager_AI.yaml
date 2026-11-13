@@ -1,0 +1,252 @@
+job_id: 10892470
+title: Senior Engineering Manager, AI
+company: Usercentrics GmbH
+location: Munich, DEU
+locations:
+  - Munich, DEU
+  - Copenhagen, DNK
+  - Praha, CZE
+work_type: FULL_TIME
+company_size: 314 Employees
+description: |
+  Shape the Future of Privacy
+
+  Usercentrics is a global leader in data privacy and privacy-
+  led marketing solutions. We believe there is no need for a
+  trade-off between growth and privacy compliance. Our vision
+  is to unlock the potential of data privacy to empower a
+  thriving digital ecosystem. We work with companies to create
+  a healthy balance between data-driven business and privacy-
+  led marketing for every size of enterprise. Our customers
+  build trust with their users through improved transparency
+  and control to drastically improve marketing and
+  monetization, while achieving full privacy compliance.
+
+  About the Office of AI
+
+  The Office of AI owns the strategy, governance,
+  infrastructure, and enablement of AI across Usercentrics. We
+  sit within the CTO office and work across all departments.
+
+  Mission: enable the entire organisation to adopt AI safely,
+  responsibly, and effectively.
+
+  About the role
+
+  We are looking for a senior leader to own Office of AI
+  delivery end to end, across two pillars. The platforms and
+  tooling our engineers build on, and the adoption of AI by
+  business users in every department. One owner, both halves.
+
+  That means two kinds of outcomes, and we care about both.
+
+  For business users: measurable AI adoption in Finance,
+  Legal, HR, Marketing, Customer Success, BI and beyond,
+  tracked on each function's own KPIs rather than on activity.
+  Real use cases in production that people use daily,
+  delivered with those teams rather than handed to them.
+
+  For engineers: internal AI platforms and tooling that make
+  an 80-plus person engineering organisation measurably faster
+  and safer.
+
+  This is an internal-facing role. You are not building the
+  product we sell. You would lead a small, senior team: a
+  staff AI platform engineer, an AI GRC engineer, 2 AI
+  enablement engineers, and an AI enablement lead. They own
+  the build depth, so you set direction, interrogate the work,
+  and own the outcomes rather than writing the platform
+  yourself.
+
+  A lot is already living on both sides. On enablement, a
+  company-wide programme with an active champion network in
+  every department, AI literacy work, and a cross-department
+  use-case pipeline delivering into production. On platform,
+  an AI Hub, MCP servers, Claude connector delivery, a skill
+  hub, AI usage analytics, and low-code automation. The team
+  has moved quickly and is upskilling continuously, which is
+  the only realistic way to work in this field.
+
+  What comes next is deliberately open on both sides. Growing
+  the enablement function is one direction, a deeper platform
+  layer another, with an LLM access gateway, RAG
+  infrastructure, model operations and evaluation frameworks
+  as current candidates. But AI moves faster than any roadmap
+  holds, and a real part of this role is judging what is worth
+  doing next rather than executing a list we hand you. You
+  would shape the roadmap, not inherit it.
+
+  The role asks for three things at once, and we mean all
+  three. You are a people leader who runs a mixed technical
+  and non-technical organisation. You have the technical
+  credibility to hire, grow, and challenge engineers at staff
+  level and above, and you expect design feedback from every
+  engineer on the team, not just the most senior. And you
+  deliver AI to business users with measurable outcomes, not
+  activity. If you only have two of these, this is probably
+  not your role.
+
+  The AI Enablement Lead, who owns the adoption pillar day to
+  day, reports into this role alongside the engineers. The
+  weighting is toward enabling business users, with the
+  platform work delivered through your team.
+
+  On the shape of it: this is a small, senior team today, four
+  to five people, with a company-wide champion network
+  alongside it. We intend to grow both sides, engineering and
+  enablement, and you would help define what that growth looks
+  like. If you are looking for a large org handed to you, this
+  is not that. If you want to build the function that makes AI
+  land across an entire company, it is.
+
+  RequirementsWhat you will do
+
+  - Own measurable AI adoption across business functions. Use-
+    case discovery, delivery, and outcomes tracked on each
+    function's existing KPIs. Activity is not the measure.
+  - Own the enablement programme: the champion network, AI
+    literacy across the company, and the cross-department use-
+    case pipeline.
+  - Build out the enablement function itself. Define what roles
+    it needs, make the case for them, and hire them. This is a
+    function to be grown, not a headcount to be maintained.
+  - Lead and grow a mixed organisation across enablement and
+    engineering, owning hiring, performance, and career
+    development.
+  - Own and shape the Office of AI platform roadmap. Grow what
+    is already running, AI Hub, MCP servers, Claude connector
+    delivery, the skill hub, usage analytics, low-code
+    automation, and governance on what gets published.
+  - Take the platform into its next layer, and have a strong say
+    in what that is. LLM access gateway, RAG infrastructure,
+    model operations, and the integration patterns and
+    engineering standards product teams build against are the
+    current candidates.
+  - Lead the technical work by judgment. Interrogate designs,
+    calibrate evaluations, and make the final call when the
+    team disagrees. Expect your decisions to be reviewed and
+    challenged by all Office of AI engineers, not a single
+    senior counterpart.
+  - Own evaluation frameworks and the practices and guardrails
+    that let the team move fast without shipping unreliable
+    AI: output quality, hallucination detection, regression
+    testing.
+  - Set the technical strategy for how Usercentrics applies LLMs
+    and agents across the engineering lifecycle, in
+    partnership with the Director of AI Engineering and the VP
+    of Engineering.
+  - Partner with Security, Legal, and Platform Engineering to
+    ship AI capabilities that are safe, governed, and adopted.
+  - Translate company-wide AI goals into concrete roadmaps and
+    measurable outcomes on both sides of the role.
+
+  What you bring
+
+  - 10+ years in software engineering, with 4+ years leading and
+    managing engineering teams.
+  - Technical credibility to lead engineers at staff level and
+    above. You can interrogate architecture and evaluation
+    design in depth and challenge engineers stronger than you.
+    You do not need to be the strongest engineer in the room,
+    but you cannot be bluffed by one.
+  - Real AI delivery experience. You have built and shipped
+    production systems with LLMs, AI agents, RAG, or applied
+    ML, and your platform judgment is current.
+  - A strong engineering foundation in distributed systems,
+    backend platform design, and cloud architecture (Azure or
+    GCP), with the judgement to set standards others follow.
+  - A track record of delivering AI or technology to non-
+    technical business users with measurable outcomes, and of
+    scaling enablement beyond what you personally run.
+  - Credibility with business stakeholders. You can sit with a
+    Finance or Legal lead, find the use case worth doing, and
+    hold them to an outcome on their own numbers.
+  - A track record of growing senior people and building
+    healthy, high-output teams across technical and non-
+    technical roles.
+  - Clear, direct communication, strong async and written.
+
+  Nice to have
+
+  - Multi-cloud (Azure, GCP) and modern DevOps.
+  - AI governance, evaluation, or responsible AI deployment.
+  - Regulated or privacy-focused domain experience.
+  - Developer advocate, community leader, or conference speaker
+    recognition.
+  - Former founder or CTO experience.
+
+  BenefitsWhy join Usercentrics?
+
+  This role sits in the Office of AI, close to where decisions
+  get made, with direct access to leadership and a clear
+  mandate to make an impact across the whole engineering
+  organisation.
+
+  - Joining Usercentrics means becoming part of a fast-growing,
+    diverse and international team of tech enthusiasts and
+    entrepreneurially-minded who build our success story
+    together.
+  - Company culture is important to us. We strive to
+    continuously develop a positive, vibrant and inspiring
+    environment that enables everyone to thrive both
+    personally and professionally.
+  - Get involved. We have plenty of initiatives and love to see
+    people from all departments enthusiastically participating
+    and shaping our future together in different cross-
+    department projects.
+  - Your work-life balance is important to us too. We offer
+    flexible working hours, hybrid working, and the
+    possibility of workcations (in accordance with our company
+    policy).
+  - We always remember to have fun along the way, both in our
+    day-to-day work and at our regular team events on site in
+    our offices in Munich, Copenhagen, Odense, Lisbon and
+    Prague, or online with our offices in New York and Buenos
+    Aires.
+
+  Some of our benefits
+
+  - Development budget for every employee: €800 per year
+  - Job-related language courses (English, German, Czech,
+    Spanish, etc.): €350 per year
+  - Hybrid working policy with the option to take a workcation
+    (up to 60 days per year)
+  - Online yoga sessions
+  - Events: team buildings, happy hours, parties/get-togethers,
+    and occasional company-covered breakfasts or lunches (in-
+    office, across offices, online, and in person)
+  - Gifts: we celebrate life and work milestones at UC (work
+    anniversaries, new baby arrivals, and similar occasions)
+  - Snacks, fruit, coffee, and drinks in the office
+
+  ABOUT US
+
+  We are driven by our values #BeBrave, #BetterTogether,
+  #LeadbyExample, #InnovateWithPurpose, #PassionForPrivacy,
+  #GiveBack and #ComeAsYouAre. They show what we believe in
+  and how we work. They help make our team special and guide
+  us in everything we do. They're the heart of our company and
+  inspire us to do our best every day.
+
+  We strive to create a diverse, equitable, and inclusive
+  environment (DEI) where everyone feels valued, respected,
+  and empowered to reach their full potential. We believe that
+  our different backgrounds, experiences, and perspectives are
+  our greatest strengths — so we are committed to building
+  with them as we foster innovation and drive our success.
+
+  We recognize that this is an ongoing journey. We commit to
+  listening and to continuous learning, growth, and
+  improvement. By embracing DEI principles, we will create a
+  more just and equitable society, and we are proud to play
+  our part in making this vision a reality.
+
+  We are #BetterTogether.
+industries:
+  - Legal Tech
+  - Marketing Tech
+  - Software
+  - Data Privacy
+posted_date: 2026-08-27
+url: "https://builtin.com/job/senior-engineering-manager-ai/10892470"
+source: Built In

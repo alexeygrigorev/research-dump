@@ -1,0 +1,257 @@
+job_id: 10768562
+title: "Senior Manager, Reliability & Platform Engineering"
+company: McMaster-Carr
+location: Elmhurst, USA
+work_type: FULL_TIME
+description: |
+  Who We Are
+
+  McMaster-Carr is trusted by industrial customers to help
+  keep manufacturing lines running, operations moving, and
+  customers innovating. We earn that trust by offering the
+  right products, making them easy to find, and delivering
+  them quickly.
+
+  Our website, mcmaster.com, is a huge part of that promise,
+  and it's earned a reputation among engineers for being fast,
+  reliable, and refreshingly easy to use. Customers count on
+  it whether they're replacing a critical part, keeping
+  operations moving, or finding exactly what they need under
+  real time pressure.
+
+  At McMaster-Carr, engineering is central to everything we
+  do. Our systems power a business that customers rely on
+  every day, and the reliability, scalability, and performance
+  of those systems directly shape the experience we deliver.
+
+  Our Culture
+
+  We intentionally cultivate a culture focused on clear
+  execution and long-term growth. We build and maintain nearly
+  all our critical systems ourselves, outsourcing very little,
+  because we believe engineers who own their systems end-to-
+  end build better ones, and many of the systems running today
+  have been evolving here for decades. That responsibility
+  means engineering work starts with a deep understanding of
+  the problem and its impact, grounded in clear ownership,
+  open communication, and direct feedback. Our teams are
+  trusted to make thoughtful decisions about how work gets
+  done, balancing a high bar for quality with practical
+  execution. We've built much of our infrastructure on-premise
+  by choice, not default, and we're bringing that same
+  diligence with us as we extend into cloud and colocation.
+
+  Our leaders understand that great engineering organizations
+  are not built by simply solving today’s problems. They are
+  built by developing strong technical teams, creating systems
+  that scale with the business, and establishing practices
+  that allow engineers to do their best work.
+
+  Our team is onsite three days a week in Elmhurst, IL.
+
+
+
+  How You’ll Make an Impact
+
+  We're looking for an exceptional engineering leader to help
+  define the future of engineering at McMaster-Carr, someone
+  who can move from solving hard technical problems themselves
+  to leading others through those same challenges. You'll join
+  a department where site reliability is already championed by
+  strong technical leaders across every team you touch, but
+  this role carries a unique charge: setting the vision for
+  how our reliability practices evolve company-wide. Success
+  here means cultivating strong engineering talent, providing
+  technical leadership across multiple simultaneous efforts,
+  and influencing outcomes well beyond your own direct
+  contributions.
+
+  Our engineering teams operate within domains: distinct,
+  high-impact areas of our platform that let engineers dive
+  deep, build expertise, and release work that matters. In
+  this role, you and your team will shape the reliability,
+  performance, and security of the hybrid systems that power
+  these domains, spanning on-premise data centers, cloud
+  platforms, and the connective tissue between them. You'll
+  partner closely with teams across:
+
+  - Hybrid Infrastructure — extend our on-premise footprint,
+    which reflects a deliberate choice for security and
+    uptime, not legacy inertia, while thoughtfully evolving
+    toward cloud and colocation with that same diligence.
+    You'll revolutionize the foundational compute, storage,
+    and networking layers that support both worlds, ensuring
+    seamless interoperability and predictable performance.
+  - mcmaster.com — own the reliability and performance of the
+    site our customers trust most, keeping it fast, resilient,
+    and available even under our highest-traffic, highest-
+    pressure moments.
+  - Customer Navigation — strengthen the reliability of search,
+    browsing, and systems that help customers navigate
+    millions of SKUs.
+  - AI & Data Systems — scale our AI agents and the broader AI
+    infrastructure stack to ensure low-latency inference,
+    secure data flows, and resilient distributed systems.
+  - Fulfillment & Automation — build and harden the systems that
+    integrate with warehouse automation, delivery
+    orchestration, and customer service operations.
+
+  Across these domains, you’ll drive clarity, reduce
+  operational friction, and build the guardrails that allow
+  teams to move quickly without compromising reliability or
+  security.
+
+  What You’ll Do
+
+  Your first 30 days are about learning with purpose:
+  understanding our current architecture, identifying
+  opportunities to improve the performance of data flow across
+  our systems, and building fluency in our operational
+  tooling. You’ll begin by improving targeted components—small
+  enough to ramp quickly, substantial enough to matter.
+
+  As you settle in, you’ll take ownership of ambiguous,
+  cross‑cutting challenges such as:
+
+  - Partnering with engineering leaders to define long‑term
+    architectural direction, ensuring our platforms scale
+    securely and while remaining performant.
+  - Designing resilient patterns for hybrid service
+    connectivity, including secure ingress/egress, zero‑trust
+    networking, and multi‑region failover.
+  - Leading efforts to harden cloud and on‑premise environments,
+    from identity boundaries to network segmentation to
+    runtime security.
+  - Driving incident response maturity, reducing time‑to‑detect
+    and time‑to‑restore through automation, runbooks, and
+    systemic improvements.
+  - Upskilling your team through mentorship, technical coaching,
+    and creating an environment where engineers can do their
+    best work.
+
+  You’ll create clarity where requirements are fuzzy, build
+  momentum across teams, and deliver durable solutions that
+  raise the reliability bar for the entire organization.
+
+
+
+  What You Bring
+
+  - 8+ years of experience in Site Reliability Engineering,
+    Infrastructure Engineering, or Platform Engineering, with
+    deep ownership of production systems and direct experience
+    managing and developing engineers.
+  - A track record of growing engineers through complex, large-
+    scale systems work, knowing when to dive into the
+    architecture yourself and when to maximize your leverage
+    by coaching someone else through it.
+  - Experience leading systemic improvements: you dissect
+    complex failures across distributed systems, cut through
+    noise to isolate root causes, and reduce toil on our
+    reliability team.
+  - Deep experience designing, building, and operating
+    resilient, large-scale distributed systems, from
+    architecture and capacity planning through launch and
+    iterative refinement, while remaining close to the details
+    of execution.
+  - Expertise operating hybrid environments, including
+    on‑premise data centers, cloud platforms (AWS, Azure, or
+    GCP), and a strong command of networking fundamentals,
+    including routing, load balancing, DNS, VPNs, service
+    mesh, and zero‑trust architectures.
+  - Demonstrated experience implementing cloud security best
+    practices, such as IAM design, secrets management, network
+    segmentation, and workload hardening.
+  - Ability to lead cross‑functional initiatives with
+    engineering and operations teams to translate architecture
+    into business impact.
+
+  Technologies We Use
+
+  - Backend: .NET, .NET 10, NET Core, C#, Python
+  - Frontend: React, TypeScript, JavaScript, CSS
+  - Database: MongoDB, Elasticsearch, SQL Server, Db2, Redis,
+    PostgreSQL
+  - Infrastructure: Kubernetes, Jenkins, GitLab, Azure, Linux,
+    VMWare, Azure Local, Akamai
+  - LLMs: OpenAI, Copilot, Claude, Gemini, Perplexity
+  - Messaging/Data Streaming: Kafka, IBM MQ
+  - Security, Monitoring & Vulnerability Management: Splunk,
+    Tenable, Carbon Black, Sentinel One, Symantec, Active
+    Directory/Entra ID, ForeScout, Proofpoint, Checkpoint,
+    Wireshark, Cisco ACI
+
+  Cash Compensation
+
+  Base salary: $270,000 - $310,000
+
+  Total cash compensation typically ranges from $315,000 -
+  $420,000, which includes annual cash profit sharing based on
+  company profitability.
+
+  You will also receive a signing bonus and a relocation
+  stipend (if applicable).
+
+  Benefits
+
+  Growth & Learning
+
+  - 100% tuition reimbursement
+  - Informal and formal mentorship
+  - Employee resource groups
+
+  Health & Wellbeing
+
+  - Medical, dental, pharmacy, and vision plans with no monthly
+    premiums
+  - Inclusive, all-gender benefits
+
+  Family & Future
+
+  - Paid parental leave for all new parents
+  - Adoption and surrogacy assistance
+  - First-time home buyer assistance
+  - Industry-leading company-funded retirement accounts
+
+  Time Off
+
+  - Paid vacation and personal time
+
+  Equal Opportunity Employer
+
+  We are proud to be an Equal Opportunity Employer and
+  dedicated to providing employees a workplace with reasonable
+  accommodations and free of discrimination, harassment, and
+  retaliation. At McMaster-Carr, we do not make employment
+  decisions based on age, ethnicity, citizenship status,
+  military status, gender identity and expression, race,
+  religion, disability status, marital status, sexual
+  orientation, or any other legally protected group.
+
+  This position is not eligible for work authorization
+  sponsorship by McMaster-Carr.
+
+  Data We Collect
+
+  We may collect professional, education and employment-
+  related data, and any assessments made throughout the
+  recruiting process, to evaluate candidacy for employment. To
+  communicate with job applicants, we may collect applicant
+  names, contact information, and other personal identifiers,
+  including those outlined in the California customer records
+  statute. Through voluntary disclosure, we may also collect
+  protected classifications under federal or California law
+  (e.g., race, gender, etc.). For additional details about the
+  personal information we collect and its uses, please click
+  here.
+industries:
+  - eCommerce
+  - Hardware
+  - Information Technology
+  - Logistics
+  - Mobile
+  - Software
+  - App development
+posted_date: 2026-08-20
+url: "https://builtin.com/job/senior-manager-reliability-platform-engineering/10768562"
+source: Built In

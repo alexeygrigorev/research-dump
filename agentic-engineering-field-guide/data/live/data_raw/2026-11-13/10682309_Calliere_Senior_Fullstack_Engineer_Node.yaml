@@ -1,0 +1,191 @@
+job_id: 10682309
+title: Senior Fullstack Engineer, Node
+company: Calliere
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 3 Employees
+description: |
+  This is a remote position.
+
+   About the Company
+
+
+
+  Our client is a product-focused engineering organization
+  that builds large-scale digital platforms for customers with
+  complex data, compliance, and integration requirements. They
+  specialize in modern cloud-native systems that connect
+  backend services, orchestration layers, and polished user
+  experiences.
+
+
+
+
+  Engineering is treated as a core capability, not a cost
+  center: small senior teams, modern tooling, and a strong
+  bias toward maintainable, observable systems. Their work
+  spans long-lived platforms rather than short-lived
+  prototypes, with real production traffic and users who rely
+  on these systems every day.
+
+
+   Role Overview
+
+
+
+  Our client is looking for a Senior Fullstack Engineer to
+  help evolve a mature, mission-critical platform. You will
+  work predominantly on the backend in Node.js while also
+  contributing to frontend integrations, UI features, and
+  overall system design.
+
+
+
+
+  This is a large, existing system with real constraints,
+  legacy decisions, and high expectations around reliability
+  and performance. You’ll collaborate with experienced
+  engineers to ship features end-to-end, reduce operational
+  friction, and steadily improve the architecture over time.
+
+
+   What You’ll Do
+
+
+
+  Fullstack Development
+
+
+
+  - Build and maintain backend services in Node.js, including
+    serverless components (for example, functions-as-a-service
+    and API gateways)
+  - Design and integrate APIs that power web frontends, partner
+    integrations, and AI-augmented features
+  - Contribute to frontend work using modern state management
+    and interaction patterns, with an emphasis on
+    accessibility and keyboard-friendly UI
+  - Write clean, well-structured, and well-tested code with a
+    strong focus on automated unit and integration tests
+
+
+
+  Workflow & System Orchestration
+
+
+
+  - Support the design and maintenance of workflows using
+    orchestration tools such as workflow engines or state
+    machines
+  - Contribute to event-driven and asynchronous processing using
+    queues, pub/sub, or similar messaging patterns
+  - Improve reliability by strengthening error handling,
+    retries, and failure recovery paths
+
+
+
+  Backend & API Engineering
+
+
+
+  - Develop and evolve RESTful APIs within a modular or
+    microservices-style architecture
+  - Integrate with large internal and external systems,
+    including data platforms and institutional services
+  - Help optimize performance and scalability of services,
+    including thoughtful schema and access-pattern design for
+    SQL or NoSQL stores
+  - Implement secure data handling practices aligned with
+    privacy and compliance expectations
+
+
+
+  System Reliability & Support
+
+
+
+  - Investigate and resolve issues in production environments,
+    collaborating with more senior team members where needed
+  - Contribute to logging, monitoring, and debugging workflows
+    so the team can see and trust what the system is doing in
+    real time
+  - Support deployment and release processes in a cloud-native
+    environment, including reviewing and improving pipelines
+    over time
+
+
+
+  Collaboration & Growth
+
+
+
+  - Work closely with distributed, cross-functional teams
+    building large-scale platforms in domains such as
+    education, financial services, or enterprise SaaS
+  - Participate in code reviews, design sessions, and technical
+    planning
+  - Take ownership of features spanning UI, API, and data
+    layers, driving them from definition through to production
+    rollout
+  - Continually grow your skills, staying current with modern
+    Node.js, cloud, and frontend practices
+
+
+
+
+
+
+
+    Requirements
+
+
+  - At least 4 to 6+ years of professional software engineering
+    experience in production environments
+  - Strong experience with Node.js in backend or fullstack roles
+  - Experience delivering fullstack features end-to-end
+    (frontend, backend, and data layers)
+  - Exposure to workflow orchestration or state-machine tools
+  - Solid understanding of API design, backend architecture, and
+    integration patterns
+  - Experience with at least one major cloud platform (AWS
+    preferred) and serverless-style architectures
+  - Familiarity with relational and/or NoSQL databases and
+    scalable data modeling
+  - Comfortable working in and improving a large existing
+    codebase
+
+   Nice to Have
+
+
+
+  - Experience with Python in production systems
+  - Exposure to event-driven architectures (queues, streams,
+    pub/sub)
+  - Familiarity with AWS services such as Lambda, SQS, Step
+    Functions, or similar offerings on other clouds
+  - Experience with CI/CD pipelines and infrastructure-as-code
+  - Exposure to AI/LLM-backed features or data-driven platforms
+  - Experience on distributed, remote-first teams
+  - Background in building accessible, user-centric frontends
+    with modern frameworks
+
+   Why This Role Is Interesting
+
+
+
+  - You work on a live, scaled platform with real users and non-
+    trivial constraints—this is about hardening and extending
+    serious systems, not churning out throwaway MVPs
+  - You’ll collaborate with senior engineers across backend,
+    frontend, and infrastructure, and gain deep exposure to
+    modern cloud and orchestration patterns
+  - The environment values thoughtful engineering, pragmatic
+    architecture, and end
+industries:
+  - Agency
+  - Information Technology
+  - Professional Services
+posted_date: 2026-08-14
+url: "https://builtin.com/job/senior-fullstack-engineer-node/10682309"
+source: Built In

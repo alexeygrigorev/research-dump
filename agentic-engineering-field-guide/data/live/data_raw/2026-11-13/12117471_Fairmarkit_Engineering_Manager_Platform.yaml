@@ -1,0 +1,105 @@
+job_id: 12117471
+title: Engineering Manager, Platform
+company: Fairmarkit
+location: POL
+remote: true
+work_type: FULL_TIME
+company_size: 132 Employees
+description: |
+  Fairmarkit is the #1 autonomous sourcing platform
+  revolutionizing the way all organizations buy & sell.
+  Fairmarkit equips procurement teams with automation, AI, and
+  GenAI so they can source more competitively at scale. Our
+  solutions for tail spend and strategic sourcing help
+  innovative procurement teams reduce cycle times, drive out
+  costs, meet ESG/Diversity targets, and provide a better
+  stakeholder experience to internal partners and suppliers.
+  Fairmarkit has been recognized with awards by organizations
+  such as Gartner and IDC, and is backed by strategic
+  investors like Notable Capital, Insight Partners, 1984.VC,
+  and Newfund.
+
+  The Role
+
+  We’re looking for a hands-on engineering leader to own the
+  platform the rest of our product is built on: infrastructure
+  and delivery, shared services such as identity and single
+  sign-on, and the infrastructure our data platform runs on.
+  You’ll lead a small team of platform engineers and stay
+  close to the code, especially in your first year. Today much
+  of this work is held by one or two people. Your job is to
+  turn it into a platform our product pods can build on
+  without waiting for anyone.
+
+  What You’ll Do
+
+  - Lead and grow the platform team: set direction, hire, coach,
+    and keep the team shipping.
+  - Own our cloud infrastructure and delivery pipeline (AWS,
+    Kubernetes, infrastructure as code, CI/CD) and make it
+    fast, safe, and boring.
+  - Own shared services the whole product depends on, starting
+    with identity, SSO, and user provisioning, and give each
+    one a clear owner, interface, and roadmap.
+  - Own the infrastructure layer of our data platform, including
+    the streaming and storage our data engineers build on, and
+    make it largely self-running, automated, and observable.
+  - Raise our security and compliance posture: dependency and
+    framework currency, security scanning that blocks rather
+    than warns, and the controls behind SOC 2 and ISO 27001.
+  - Run reliability: observability, incident response, and an
+    on-call rotation that’s sustainable.
+  - Make the platform easy to build on for engineers who work
+    with AI coding agents every day. We build our own internal
+    tooling, agentic systems, and custom harnesses, so the
+    platform should provide clear paved roads, good defaults,
+    and guardrails.
+
+  What You’ll Bring
+
+  - Experience leading a platform or infrastructure team while
+    staying hands-on.
+  - Deep experience with AWS, Kubernetes, and infrastructure as
+    code (Terraform or similar).
+  - Strong engineering fundamentals and the ability to review
+    and write production code in at least one of Python, Go,
+    Java, or Kotlin.
+  - A security-minded approach to multi-tenant SaaS.
+  - Daily use of AI tools in your own engineering and operations
+    work, and opinions on how a platform should support teams
+    that build with them.
+  - Fluent written and spoken English. English is our working
+    language across Boston and Warsaw.
+
+  Bonus Points
+
+  - Change data capture and streaming in production (Debezium,
+    Kafka, or managed equivalents).
+  - Data engineering experience with lakehouse or warehouse
+    technologies such as Iceberg, Snowflake, or dbt.
+  - SOC 2 or ISO 27001 audits, or experience operating regulated
+    or segregated environments.
+  - Identity and access management in B2B SaaS (SAML, OIDC,
+    SCIM).
+  - Experience at a growth-stage company where you built the
+    platform team rather than inheriting it.
+
+  Headquartered in Boston, and backed by a $35.6M Series C co-
+  led by OMERS, Highland, Notable Capital, Insight Partners,
+  and ServiceNow. We are looking for exceptional candidates
+  who want to help grow our company into a global enterprise
+  and make their mark on the B2B tech industry. Come soar to
+  new heights with us!
+
+
+
+  Fairmarkit is an equal opportunity employer, and selects
+  individuals best matched for the job based upon job-related
+  qualifications regardless of race, religion, color, creed,
+  sex, sexual orientation, age, ancestry, national origin,
+  gender identity, genetic information, disability, pregnancy,
+  veteran or military status or any other status or
+  characteristic protected by law.
+posted_date: 2026-11-07
+url: "https://builtin.com/job/engineering-manager-platform/12117471"
+source: Built In

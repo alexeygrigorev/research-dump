@@ -1,0 +1,122 @@
+job_id: 9738816
+title: Senior Software Engineer (full stack)
+company: IBBX
+location: USA
+locations:
+  - USA
+  - BRA
+remote: true
+work_type: FULL_TIME
+company_size: 70 Employees
+description: |
+  About IBBX: IBBX Wireless Energy is at the forefront of
+  developing breakthrough technology that delivers wireless
+  electricity. The company has created and patented protocols
+  that allow energy harvesting from electromagnetic waves;
+  IBBX also produces an integrated circuit that executes such
+  harvesting. It is the first real step into eliminating
+  cables and vastly reducing battery sizes in electronic
+  devices.
+
+  With a current team of 70 dedicated professionals, IBBX is
+  in a phase of rapid growth, experiencing significant year-
+  over-year expansion. Our culture is grounded in values of
+  efficiency, respect, and diversity, and we are on a mission
+  to attract, develop, and retain world-class talent aligned
+  with our vision of creating impactful and world-changing
+  innovations.
+
+  The first adopters of our technology are industries that
+  rely on predictive maintenance of their production parks.
+
+  Our first product is the IBBX Retina Suite for industry 4.0,
+  a set of sensors that feed from the machine’s (wasted)
+  electromagnetic energy, and they just work – no cable, no
+  battery replacement. They also happen to speak a proprietary
+  wireless data protocol that is optimized for long distances,
+  ideal for large industrial and agricultural environments. It
+  may seem a bit too techie, we know, but all this is to
+  explain why our Retina Suite has a line of clients waiting
+  to acquire it, an example of how successful we can be in the
+  near future.
+
+  Role Overview:
+
+  IBBX is seeking Senior Software Engineers to join our team.
+  In this role, you will be responsible for developing robust
+  and scalable software solutions with a focus on
+  infrastructure and performance optimization. You will play a
+  key role in hardware and software integration. You will also
+  develop software using either Python, Java, JavaScript
+  (using React frameworks).
+
+  Key Responsibilities:
+
+  1. Software Development and Infrastructure:
+
+  - Develop and maintain scalable and secure software solutions,
+    with a strong focus on infrastructure and cloud
+    environments.
+  - Create cloud solutions that meet performance and security
+    requirements, ensuring high availability and resilience.
+  - Design and implement new features and optimizations in
+    existing systems, maintaining high quality and efficiency.
+
+  2. Web Development and Device Integration:
+
+  - Work on web application development using JavaScript and
+    modern frameworks, ensuring scalable, efficient, and user-
+    friendly solutions.
+  - Integrate hardware and software by collaborating closely
+    with hardware engineering teams to ensure optimized
+    connectivity and performance of IoT devices and integrated
+    systems.
+
+  3. Solution Architecture and Performance:
+
+  - Design solution architectures that meet both technical and
+    business requirements of IBBX, focusing on scalability and
+    performance.
+  - Optimize systems to ensure fast response times and efficient
+    resource utilization.
+
+  4. Collaboration and Innovation:
+
+  - Collaborate with cross-functional teams to align software
+    solutions with hardware goals and customer needs.
+  - Contribute to innovation within the company by bringing new
+    ideas and approaches to improve system integration and
+    performance.
+
+  Qualifications:
+
+  - Solid experience in software development, with a strong
+    focus on AWS and cloud infrastructure.
+  - Proficiency in developing web applications, preferably using
+    JavaScript and modern frameworks.
+  - Substantial knowledge in algorithm complexity theory, in
+    order to guarantee scalable solutions.
+  - Ability to work collaboratively in multidisciplinary teams
+    with a holistic view of software and hardware.
+  - Strong problem-solving skills, with the ability to optimize
+    systems and improve connectivity and performance.
+  - [plus] Experience in hardware and software integration,
+    especially in IoT environments and connected systems.
+
+  Why Join IBBX?
+
+  At IBBX, you will have the opportunity to work with an
+  innovative and dynamic team that is shaping the future of
+  cloud and IoT solutions. We value collaboration, innovation,
+  and efficiency, and offer an environment that promotes
+  professional growth and knowledge exchange. If you're
+  passionate about software development and want to work on
+  challenging projects, IBBX is the ideal place for you.
+industries:
+  - Hardware
+  - Internet of Things
+  - Energy
+  - Industrial
+posted_date: 2026-10-23
+url: "https://builtin.com/job/senior-software-engineer-full-stack/9738816"
+source: Built In

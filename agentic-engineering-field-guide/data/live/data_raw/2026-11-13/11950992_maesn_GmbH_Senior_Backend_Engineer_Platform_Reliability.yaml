@@ -1,0 +1,84 @@
+job_id: 11950992
+title: "Senior Backend Engineer – Platform & Reliability"
+company: maesn GmbH
+location: Berlin, DEU
+remote: true
+work_type: FULL_TIME
+company_size: 13 Employees
+description: |
+  About Maesn Want to join a growing European startup early
+  and be part of an epic journey? At Maesn we build software
+  for other software companies. We provide an integration
+  platform that lets B2B software companies add integrations
+  to their platforms in hours and days instead of weeks and
+  months. Our customers love us because we are innovative,
+  quick, friendly and provide integrations for systems that
+  others dare not touch. We are a young dynamic SaaS Startup
+  born in Düsseldorf who believe in working hard and having
+  fun while doing it. You will have the chance to work on all
+  parts of our technology stack and in close collaboration
+  with our customers, to understand their needs and get direct
+  feedback on the changes you ship. The role Our platform sits
+  between our customers and dozens of third-party accounting
+  and ERP systems. That makes reliability part of our product.
+  When a call is slow or fails, our customers need to know
+  why, and so do we. You’ll be the senior engineer who owns
+  how our platform runs in production, and you’ll keep
+  building the product alongside the team. You’ll work
+  directly with our CTO, Lennart Svensson, and the wider
+  founder team. What you will do ### Own our Azure
+  infrastructure end-to-end You know every service, how it’s
+  deployed and what it costs. You’ll tighten what’s there and
+  codify what isn’t. As we scale, you’ll keep the architecture
+  simple: we run on managed services and plan to keep it that
+  way. ### Bring real observability to the platform Metrics,
+  logs, traces and alerts, across our services and the third-
+  party APIs we call. You’ll define what “healthy” means,
+  build the dashboards, and set up alerting and on-call so we
+  catch problems before our clients do. When a mysterious
+  timeout appears, you’re the one who can trace it to its
+  source. ### Raise the bar on security and reliability
+  Fintechs trust us with sensitive financial data. You’ll
+  harden the platform, make sure we can deliver on incident
+  response and SLAs, and keep us audit-ready as customers ask
+  for certifications like SOC 2 or ISO 27001. ### Build
+  product and level up the team You’ll ship features and
+  integrations with the rest of the engineering team. You’ll
+  also be the go-to person for production debugging, and
+  you’ll mentor our engineers so the whole team gets better at
+  running what we build. What you bring * Experience: 5+ years
+  building and running backend services in production,
+  including real ownership of infrastructure, deployments and
+  incidents. * Production debugging: You’ve chased down
+  latency spikes, timeouts and flaky dependencies, and you
+  know how to go from “something is slow” to the root cause. *
+  Azure: Solid hands-on experience running production
+  workloads on Azure. * Observability: Experience
+  instrumenting services with tracing, structured logging and
+  metrics, ideally with OpenTelemetry or similar. *
+  Infrastructure-as-code mindset: You codify infrastructure
+  rather than clicking through consoles. * Security by
+  default: You think about secrets, access management, and
+  compliance as part of the work, not as an afterthought. *
+  Backend skills: You’re comfortable writing production code
+  in TypeScript/Node.js and enjoy shipping features, not only
+  keeping the lights on. * Pragmatism and mentoring: You pick
+  the simplest setup that works. You enjoy helping less
+  experienced engineers grow, and you’re excited to set the
+  standards for how we run our platform. What we offer *
+  First-hand experience building a fast-growing tech startup *
+  Kind teammates and great collaborative atmosphere * Steep
+  learning curve and a varied job with interesting projects
+  and technologies * Work fully remote or in our office in
+  Düsseldorf * Fun offsites where the team gets together to
+  work and play * One-time allowance for improving your home
+  office * Subsidized Urban Sports Club membership * Laptop
+  and work equipment * 30 days of PTO + Local holidays
+industries:
+  - Enterprise Web
+  - Information Technology
+  - Productivity
+  - Software
+posted_date: 2026-10-29
+url: "https://builtin.com/job/senior-backend-engineer-platform-reliability/11950992"
+source: Built In

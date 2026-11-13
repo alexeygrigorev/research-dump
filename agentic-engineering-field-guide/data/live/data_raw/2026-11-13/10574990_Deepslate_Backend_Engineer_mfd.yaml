@@ -1,0 +1,131 @@
+job_id: 10574990
+title: Backend Engineer (m/f/d)
+company: Deepslate
+location: DEU
+remote: true
+work_type: FULL_TIME
+company_size: 9 Employees
+description: |
+  Location: Remote / Berlin (Office available) | Language
+  Requirement: Fluent German
+
+  At Deepslate, we are building Speech to Speech Voice AI
+  models that sound and act indistinguishable from a human.
+
+  When it comes to text and images, giants like OpenAI and
+  Google have already cracked the code. With video, Veo3, Sora
+  and others are closing the gap rapidly. But with its endless
+  languages, dialects, accents, subtle intonations, and speech
+  melodies voice remains a highly complex unsolved frontier.
+
+  That is exactly why we started Deepslate.
+
+  Backed by top-tier investors from the Tech and AI sectors,
+  as well as a major German VC fund, we are well-funded and
+  moving fast.
+
+  We are building the future of communication.
+
+  We aren't trying to build another standalone platform;
+  instead, we are the intelligence engine powering countless
+  other applications. Whether it's plugged into another Voice
+  AI platform, or directly embedded into an enterprise system
+  by our integration partners - our model is everywhere.
+
+  Your Role
+
+  Your mission is to architect, scale, and bulletproof this
+  very foundation.
+
+  From user management and agent systems to raw performance
+  optimization and observability: You are building the core of
+  our infrastructure.
+
+  What You'll Do: Scale Deepslate and Make it Accessible to
+  the World:
+
+  You’ll work on building reliable, high-performance backend
+  systems and APIs that serve millions of users and
+  developers. Your work will directly impact the developer and
+  user experience, making it more engaging, efficient, and
+  intuitive.
+
+  - Architect & Implement: Design and build new backend features
+    by expanding our core API structure.
+  - Scalability: Build and scale infrastructure capable of
+    handling thousands of concurrent calls without breaking a
+    sweat.
+  - Reliability-First: Write rock-solid, consistent code.
+    Champion advanced error handling and idempotency.
+  - Production Ownership: Troubleshoot and resolve live
+    production issues, and build the systems that ensure they
+    never happen again.
+
+  Elevate Our Engineering Quality to the Next Level:
+
+  - Tooling & DevEx: Design and build internal tools that make
+    implementation a breeze (e.g., integration test
+    frameworks, feature rollout pipelines).
+  - Sustainable Architecture: Build highly scalable interfaces
+    that allow us to onboard more users while keeping
+    maintenance overhead low.
+  - Observability: Expand our logging and debugging to
+    drastically improve incident response and tracing.
+
+  What We’re Looking For:Must-Haves:
+
+  - Solid professional experience in Kotlin, Spring Boot, and
+    Java.
+  - Strong command of PostgreSQL and building/managing
+    Distributed Services.
+  - Hands-on experience with self-managed Kubernetes
+    deployments.
+  - A true startup mindset: You are comfortable navigating the
+    glorious chaos of an early-stage codebase (inconsistent
+    structures, missing docs. You name it, you’ll help fix
+    it).
+  - Drive and Vision: You aren't just looking to blindly process
+    Jira tickets. You want to actively shape the product,
+    architect solutions, and take extreme ownership.
+
+  Nice-to-Haves:
+
+  - Previous experience in a fast-paced Startup or DeepTech
+    environment.
+  - Experience with incident response, compliance development,
+    or high-security environments.
+  - Fluent German skills (spoken and written).
+
+  How We Work:
+
+  - Virtual Open Office: Our dev team is fully remote and uses
+    TeamSpeak as our primary hub. It acts as an "always-on"
+    virtual open-plan office where you can drop in and chat.
+  - Opt-in Culture: How much you want to hang out in TeamSpeak
+    is entirely up to you. Need to focus? Mute notifications
+    and dive into deep work.
+  - Flexibility: We trust your time management and embrace
+    asynchronous work. There is no strict 9-to-5 mandate. You
+    can structure your working hours around your peak
+    productivity, as long as it aligns with core team needs.
+    We care about sustainable, healthy work habits just as
+    much as we care about great code.
+  - Total Autonomy: We offer an immense amount of freedom and
+    operate without unnecessary hierarchy. We focus on your
+    output and impact, not on micro-managing your schedule. We
+    are looking for engineers who thrive in a high-trust
+    environment and know how to manage their own time
+    responsibly.
+
+  Deepslate is an equal opportunity employer. We welcome
+  applications from all qualified candidates regardless of
+  gender, nationality, ethnic origin, religion, disability,
+  age, or sexual orientation.
+industries:
+  - Artificial Intelligence
+  - Machine Learning
+  - Software
+  - Conversational AI
+posted_date: 2026-08-07
+url: "https://builtin.com/job/backend-engineer-m-f-d/10574990"
+source: Built In

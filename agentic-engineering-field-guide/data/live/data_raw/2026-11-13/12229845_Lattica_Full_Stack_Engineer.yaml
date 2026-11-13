@@ -1,0 +1,86 @@
+job_id: 12229845
+title: Full Stack Engineer
+company: Lattica
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 2 Employees
+description: |
+  About Lattica
+
+  Lattica’s mission is to turn prediction markets into the
+  largest asset class on Earth and, along the way, make
+  traders an ungodly amount of money. Our initial product is
+  the first scalable yet safe decentralized lending and
+  leverage platform for prediction markets.
+
+  The Role
+
+  We are hiring a Full Stack Engineer to help build the core
+  product, infrastructure, and risk systems that power
+  Lattica. You will work directly with the founders, become a
+  crucial senior member of the engineering team, and own
+  shipping features, improvements, and products from end-to-
+  end.
+
+  This is the perfect opportunity for an ambitious engineer to
+  get in early, help shape the future of a novel financial
+  system, meet similarly ambitious and smart people, and have
+  a hell of a lot of fun doing it.
+
+  What You’ll Do
+
+  - Design and iterate on Lattica's frontend product and backend
+    architecture
+  - Improve and tune the risk engine underlying our margin and
+    lending systems
+  - Own infrastructure, deployments, and system reliability end-
+    to-end
+  - Help drive product decisions from idea to shipped code
+
+  Who You Are
+
+  Lattica’s culture is one of moving fast, taking risks, and
+  thinking outside the box. While experience is handy, we
+  strongly emphasize drive and a quickness to learn above all
+  else. As such, you would be a good fit for this role if:
+
+  - You have experience in backend systems, ideally at scale
+  - You have experience in UI/UX design, testing, and
+    implementation
+  - You've worked with or have interest in quantitative/risk
+    systems, DeFi protocols, or trading infrastructure
+  - You prefer to ship and iterate rather than “plan.”
+  - You have traded, used, or believe in the mission of
+    prediction markets.
+
+  Major pluses if:
+
+  - You have experience or specialize in DevOps, AWS, and/or
+    GCP.
+  - You have experience in statistics, data + feature
+    engineering, and MLOps.
+  - You live in or are willing to relocate to Philadelphia (it's
+    a great city, we promise).
+
+  Nice to haves:
+
+  - Experience working with blockchain and smart contract
+    languages (solidity, vyper, etc.)
+  - Experience working with low level languages in production
+    systems (C++ or rust preferred)
+
+  Benefits
+
+  - Healthcare
+  - Unlimited PTO
+  - 401k retirement plan
+  - Book budget
+  - Software budget
+industries:
+  - Blockchain
+  - Fintech
+  - Software
+posted_date: 2026-11-13
+url: "https://builtin.com/job/full-stack-engineer/12229845"
+source: Built In

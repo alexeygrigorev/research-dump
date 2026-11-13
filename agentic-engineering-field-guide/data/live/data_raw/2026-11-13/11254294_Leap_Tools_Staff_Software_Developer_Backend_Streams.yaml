@@ -1,0 +1,229 @@
+job_id: 11254294
+title: Staff Software Developer, Backend Streams
+company: Leap Tools
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 140 Employees
+description: |
+  At Leap Tools, we are building the world's most advanced
+  solutions for the interior décor industry. With customers in
+  80+ countries, our clientele includes Fortune 500 companies
+  such as Home Depot, local retailers such as Alexanian's, and
+  everything in between. We have been recognized as one of the
+  fastest-growing tech companies by Deloitte for multiple
+  years in a row, and we are looking for ambitious challenge-
+  seekers to fuel our momentum and help us create an iconic
+  global tech company.
+
+  About our product
+
+  Our technology lets you preview products in your own room
+  before you buy them. Imagine you want to redesign your home
+  and have been searching for new tiles for your kitchen, or a
+  new rug for your living room. You definitely want to make
+  sure it will look good in your space. We enable you to do
+  that through our proprietary cutting-edge technology,
+  presented in an extraordinarily simple and accessible way.
+  Try our rug demo now! Simply upload a picture of your room
+  using your mobile phone, and slide the rug under your coffee
+  table: https://www.roomvo.com/rugdemo...
+
+  About you
+
+  You have a passion for solving complex problems and working
+  on products used by millions of people. You enjoy setting
+  the bar high and clearing it. You can lead by example, but
+  you know when to step aside and let the team run with the
+  ball. Your technical knowledge is matched only by your
+  passion to design, create, and succeed with others.
+
+  You are comfortable working deep in complex data and
+  distributed systems. You enjoy reasoning about throughput,
+  latency, reliability, bottlenecks, failure modes, and large-
+  scale data movement. You know that making a system 10x
+  faster or dramatically more reliable often requires
+  understanding it from first principles rather than simply
+  adding more infrastructure.
+
+  You want to build on your experience. You are interested in
+  making a big impact, but perhaps you are currently limited
+  in your growth potential. Join us and you will work directly
+  with our talented engineering team to push our product to
+  new heights
+
+  We hire humans, not job descriptions. You should apply even
+  if this role doesn't align with your experience. We’re happy
+  to create unique roles and compensation for the right
+  talent.
+
+  About our stack
+
+  - Python, Django, Kubernetes, PostgreSQL, AWS
+
+  What you'll do
+
+  - Drive the architecture and evolution of the ETL and data
+    processing systems that ingest customer product catalogs
+    into Leap Tools' internal product catalog platform.
+  - Design systems capable of reliably processing large and
+    highly variable datasets from thousands of customers,
+    dealing with complex schemas, transformations, validation
+    rules, dependencies, and imperfect source data.
+  - Identify and eliminate performance bottlenecks across data
+    ingestion, transformation, persistence, indexing, and
+    retrieval, continually improving throughput and end-to-end
+    processing latency.
+  - Design distributed processing systems that scale
+    horizontally while maintaining strong guarantees around
+    correctness, idempotency, fault tolerance, retries, and
+    recovery.
+  - Help evolve the architecture of one of the most complex and
+    foundational areas of the Leap Tools platform as our
+    product catalog continues to grow in size and complexity.
+  - Partner with product and engineering leadership to define
+    technical direction, identify foundational investments,
+    and plan for scale and performance.
+  - Serve as a force multiplier by mentoring senior engineers,
+    conducting architecture reviews, and enabling high-
+    quality, high-velocity development across teams.
+  - Champion engineering excellence and set the technical bar
+    for backend systems in terms of scalability, resiliency,
+    observability, and maintainability.
+  - Lead cross-functional initiatives that span multiple teams
+    and stakeholders across the business.
+  - Help shape the long-term technical vision and culture of the
+    engineering organization.
+  - Influence hiring, onboarding, and growth strategies to
+    ensure a strong and healthy team over time.
+
+  We’re looking for someone with
+
+  - 8+ years of software development experience building and
+    operating scalable, reliable systems in production
+    environments.
+  - Strong experience designing and operating complex ETL
+    pipelines, data processing platforms, or other high-
+    throughput data-intensive systems.
+  - Strong understanding of distributed systems concepts,
+    including concurrency, partitioning, consistency,
+    idempotency, retries, failure recovery, and horizontal
+    scaling.
+  - Experience with performance engineering: profiling complex
+    systems, identifying bottlenecks, understanding resource
+    utilization, and materially improving throughput and
+    latency.
+  - Experience working with large datasets and designing
+    efficient approaches to transformation, persistence,
+    indexing, and retrieval.
+  - Deep understanding of computer science fundamentals,
+    including algorithms, data structures, networking, and
+    databases.
+  - Proven experience designing and scaling distributed systems
+    with a focus on performance, observability, reliability,
+    and fault tolerance.
+  - Strong architectural instincts and the ability to make high-
+    leverage technical decisions that impact multiple teams
+    and systems.
+  - Demonstrated ability to influence and mentor senior
+    engineers, guide teams through ambiguity, and elevate
+    engineering practices across the board.
+  - Exceptional ownership mindset — you drive initiatives
+    forward, raise the bar, and deliver lasting impact.
+  - Excellent communication and cross-functional collaboration
+    skills.
+  - Comfortable operating in a fast-paced, high-autonomy,
+    product-driven environment.
+  - Experience with data engineering, data ingestion platforms,
+    product catalogues, e-commerce data, search systems, or
+    similar domains is strongly preferred.
+  - Familiarity with our stack (Python, Django, Kubernetes,
+    PostgreSQL, OpenSearch, AWS) is strongly preferred, but
+    deep expertise in analogous systems and a willingness to
+    learn are welcome.
+
+  About our culture
+
+  - We're a remote-first company that encourages our employees
+    to work from where they're most productive.
+  - We work in tight-knit teams to cultivate an ownership
+    mentality.
+  - We cherish curiosity and an obsession for details because we
+    know these details are invaluable over the long run.
+  - We're hyper-focused on our achievements and our ability to
+    execute our promises. We act with urgency.
+  - Work anywhere in the world for up to 3 months!
+  - We value families, by offering a parental leave program
+  - We offer a work-from-home stipend
+  - Your birthday (and our company's birthday) is a day off!
+
+  About our hiring process
+
+  - You upload your resume and complete a brief questionnaire.
+  - Three rounds of technical assessment.
+  - Culture fit assessment.
+  - Final interview with leadership.
+  - Offer
+
+  AI in Recruitment - At Leap Tools, we leverage AI technology
+  to enhance our recruitment process. These tools assist with
+  tasks such as resume screening, sourcing prospective
+  candidates, and to support administrative tasks for enhanced
+  operational efficiency. Founders and senior leadership are
+  directly involved in our recruitment process, and AI is
+  never used to make the final hiring decision. We are
+  committed to the responsible use of AI in our hiring
+  practices.
+
+  This is a net new position on the team.
+
+  Leap Tools is an equal opportunity employer committed to
+  fostering an inclusive, equitable, and accessible
+  environment. Accommodations are available on request for
+  candidates taking part in all aspects of the interview
+  process. If you require any accommodation, please contact us
+  at ta@leaptools.com
+
+  Take the Leap. Apply now.
+
+  Our demo, in case you missed it:
+  https://www.roomvo.com/rugdemo4r
+
+  You should apply to this job even if you don't fit this role
+  perfectly because we can create a new role for you with
+  corresponding compensation.
+industries:
+  - Retail
+  - Sales
+  - Software
+posted_date: 2026-09-18
+url: "https://builtin.com/job/staff-software-developer-backend-streams/11254294"
+source: Built In

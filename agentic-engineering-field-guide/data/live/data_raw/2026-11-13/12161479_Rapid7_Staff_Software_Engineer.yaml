@@ -1,0 +1,136 @@
+job_id: 12161479
+title: Staff Software Engineer
+company: Rapid7
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 2,400 Employees
+description: |
+  Rapid7 is seeking a Staff Software Engineer to empower and
+  scale our 24x7 Managed Detection and Response (MDR) and
+  Incident Response (IR) operations. In this role, you will
+  act as a critical technical force multiplier, leveraging
+  modern cloud architectures and AI-driven workflows to
+  automate repetitive tasks and engineer high-impact solutions
+  for front-line cybersecurity practitioners. This is an
+  opportunity to solve high-stakes challenges at scale and
+  shape the future of managed security operations. About the
+  Team The Managed Services Engineering team designs, builds,
+  and maintains the mission-critical applications, cloud
+  services, and automation tooling that power Rapid7's global
+  MDR, Vulnerability Management, and Incident Response
+  delivery teams. We partner directly with operational
+  security practitioners to eliminate operational friction and
+  deliver resilient, high-velocity capabilities across our AI-
+  driven security ecosystem. About the Role As a Staff
+  Software Engineer, your primary responsibility will be to
+  architect, build, and optimize resilient services and
+  automation tools that accelerate MDR and IR service
+  delivery. Specifically, your focus will be to:
+
+  - Architect, design, maintain, and monitor highly available,
+    scalable services and internal tools utilizing an AI-first
+    software development lifecycle.
+  - Partner with stakeholders and program management teams to
+    capture operational pain points, translate requirements
+    into technical architecture, and scope delivery
+    milestones.
+  - Collaborate cross-functionally with broader product and
+    platform engineering teams to integrate shared platform
+    services and enhance service delivery efficiency.
+  - Drive technical excellence and robust engineering standards
+    across microservices, cloud infrastructure, and modern
+    deployment pipelines.
+  - Champion pragmatic automated testing, monitoring, and
+    observability strategies to ensure uptime, system health,
+    and rapid incident resolution across production workloads.
+  - Mentor and guide engineering peers on software architecture,
+    design reviews, code quality, and sustainable operational
+    practices.
+
+  The skills and qualities you'll bring include
+
+  - Proven experience architecting, building, and maintaining
+    distributed microservices and backend systems in Python
+    (Django, Django REST Framework, FastAPI, or Flask).
+  - Hands-on proficiency with modern frontend development
+    practices using JavaScript (ES6+) and React to create
+    intuitive self-service tooling for security analysts.
+  - Extensive expertise designing and provisioning scalable AWS
+    cloud infrastructure (ECS, API Gateway, EC2, S3, RDS, SQS,
+    SNS, EventBridge, IAM) using Infrastructure as Code
+    (Terraform).
+  - Strong track record establishing continuous integration and
+    continuous deployment (CI/CD) pipelines using tools such
+    as GitHub Actions, Jenkins, and container orchestration
+    with Docker/EKS.
+  - Deep commitment to quality through programmatic testing
+    (unit, integration, linting), live observability, log
+    monitoring, and telemetry tooling (such as DataDog).
+  - Practical experience or strong drive to leverage AI-first
+    software engineering methodologies, including LLM
+    integrations (Claude, Amazon Bedrock) to accelerate
+    automation and developer workflows.
+  - Hold self and teammates accountable for driving end-to-end
+    technical outcomes, establishing clear technical
+    ownership, and delivering reliable software that powers
+    operational workflows.
+  - Build collaborative cross-functional relationships across
+    organizational boundaries to deliver sustainable tooling
+    improvements that create business and customer value.
+  - Make transparent, timely technical decisions that resolve
+    complex challenges, maintain engineering momentum, and
+    incorporate diverse technical perspectives.
+  - Think big and act small by breaking complex architectural
+    initiatives into iterative, time-bound milestones,
+    assessing operational impact, and pivoting when necessary.
+  - Communicate complex technical concepts, system designs, and
+    architectural rationale clearly to both technical peers
+    and cross-functional stakeholders.
+  - Embody our core values to foster a culture of excellence
+    that drives meaningful impact and collective success.
+
+  We know that the best ideas and solutions come from multi-
+  dimensional teams. That's because these teams reflect a
+  variety of backgrounds and professional experiences. If you
+  are excited about this role and feel your experience can
+  make an impact, please don't be shy - apply today. #LI-PB1
+  #LI-Remote About Rapid7 At Rapid7, our vision is to create a
+  secure digital world for our customers, our industry, and
+  our communities. We do this by harnessing our collective
+  expertise and passion to challenge what's possible and drive
+  extraordinary impact. We're building a dynamic and
+  collaborative workplace where new ideas are welcome.
+  Protecting 11,500+ customers against bad actors and threats
+  means we're continuing to push the envelope just like we' ve
+  been doing for the past 20 years. If you 're ready to solve
+  some of the toughest challenges in cybersecurity, we're
+  ready to help you take command of your career. Join us.
+  Rapid7, Inc. is committed to fair and equitable compensation
+  practices. A candidate's salary is determined by various
+  factors including, but not limited to, relevant work
+  experience, skills, and certifications. We evaluate
+  compensation decisions on a case-by-case basis, and it is
+  not typical for an individual to be hired at the very top of
+  the salary range. The annual salary range for this role,
+  depending on location, is: United States: $164,600.00 -
+  222,600.00 USD Annual Salary ranges may vary based on
+  geographical location. This range does not include
+  variable/incentive compensation, equity and benefits (where
+  applicable/eligible). All qualified applicants will receive
+  consideration for employment without regard to race, color,
+  religion, sex, sexual orientation, gender identity, age,
+  national origin, disability, protected veteran status or any
+  other status protected by applicable national, federal,
+  state or local law.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Information Technology
+  - Sales
+  - Security
+  - Software
+  - Cybersecurity
+posted_date: 2026-11-10
+url: "https://builtin.com/job/staff-software-engineer/12161479"
+source: Built In

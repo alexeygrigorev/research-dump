@@ -1,0 +1,187 @@
+job_id: 10248144
+title: "Engineering Manager, Maps & Search - US (Remote)"
+company: Luxury Presence
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 500 Employees
+description: |
+  Luxury Presence is building the AI growth platform for real
+  estate. Backed by Bessemer Venture Partners and other top
+  investors, we're a Series C company that has hit $100M in
+  annual recurring revenue. More than 90,000 real estate
+  professionals, including over 30% of the WSJ Real Trends top
+  100 agents in the United States, use us to run and grow
+  their business.
+
+  The Opportunity
+
+  We don't just use AI. We build with it, ship with it, and
+  think with it. With a generous budget for tokens, our
+  engineers use AI agents to write, review, and ship
+  production code every day. We are building toward a world
+  where humans design systems and AI builds them, and we are
+  already far along that path.
+
+  We are hiring a hands-on Engineering Manager to lead Maps &
+  Search. This team owns the home search experience across web
+  and mobile. It's one of the most visible, highest-traffic
+  surfaces–the search service alone handles a billion requests
+  every month.
+
+  This is a role for a manager who leads from the front:
+  someone who still lives in their terminal with AI, has
+  strong opinions about how AI changes the SDLC, and wants to
+  amplify what a small, senior, AI-augmented team can
+  accomplish. You will set technical direction, stay close to
+  the code, and help the team produce consistent impact.
+
+  What You'll Do
+
+  Lead and grow the Maps & Search team. Own hiring,
+  onboarding, coaching, 1:1s, direct feedback, and career
+  development. Treat management as a craft and build a
+  healthy, high-performing team that ships impactful changes.
+
+  Stay hands-on. Contribute directly — code and design
+  reviews, architecture, thorny debugging— and stay technical
+  enough to make smart calls on trade-offs.
+
+  Own and scale a high-throughput search platform. Drive the
+  architecture, relevance, latency, and reliability of a real
+  estate search system handling ~1B monthly requests and
+  hundreds of millions of listings.
+
+  Deliver a world-class home search experience. Own the core
+  home discovery experience across web and mobile — improving
+  engagement, lead conversion, and agent workflows while
+  keeping interactions fast and responsive at scale.
+
+  Push forward AI-powered discovery. Partner across teams to
+  bring LLMs and intelligent ranking into search and user
+  workflows, improving how buyers and agents discover, filter,
+  and engage with listings.
+
+  Shape the roadmap with product and design. Define what we
+  build and why, not just focusing on the how. Translate user
+  needs and business goals into a clear technical plan, and
+  own delivery end to end — planning, quality, reliability,
+  and incident response.
+
+   What We're Looking ForAttributes
+
+  - You lead from the front. You're still close to the code and
+    technically respected, and you treat management as a craft
+    — growing engineers, giving clear feedback, and building a
+    team that ships.
+  - You already build with AI daily. You use AI as a core part
+    of your workflow, not as a novelty — and you expect your
+    team to as well.
+  - You have strong opinions, loosely held, about how AI changes
+    software architecture, team structure, and engineering
+    culture.
+  - You think in systems. You connect technical decisions to
+    customer outcomes and business value.
+  - You communicate clearly and directly. You can explain
+    complex tradeoffs to product, design, and executive
+    stakeholders.
+  - You're energized by ambiguity and speed. You thrive in a
+    fast-growing company where the roadmap evolves and
+    ownership is real.
+  - You like to have fun at work. We take our craft seriously,
+    but we don't take ourselves too seriously. We celebrate
+    wins, crack jokes, and genuinely enjoy building together.
+
+  Skills and Experience
+
+  - 8+ years of professional software engineering experience
+    with meaningful senior or staff-level time, plus 2+ years
+    managing engineering teams.
+  - Search experience — you've worked on search, relevance,
+    ranking, or retrieval systems. It doesn't have to be
+    OpenSearch or Elasticsearch specifically, but you
+    understand how search works and how to make it better.
+  - Deep expertise in TypeScript, Node.js, and React, with the
+    full-stack fluency to reason about the whole request path
+    from UI to data.
+  - Experience designing and operating scalable microservice
+    architectures in cloud-native environments (AWS
+    preferred).
+  - Strong understanding of GraphQL, event-driven systems
+    (Kafka), and databases (PostgreSQL, OpenSearch).
+  - A proven track record operating high-traffic, low-latency
+    production systems at scale — SLOs, incident response, and
+    capacity planning are second nature.
+  - Experience leading high-impact initiatives from concept
+    through production in a SaaS environment.
+
+  Tech Stack
+
+  - Frontend: React, Tailwind, Apollo
+  - Backend: Node.js / TypeScript microservices
+  - Data: PostgreSQL, OpenSearch
+  - Infrastructure: AWS, Kubernetes, Lambda
+  - Messaging: Kafka, Redis
+
+  Join us in shaping the future of real estate
+
+
+
+  The real estate industry is in the midst of a seismic shift,
+  and the future belongs to those who break new ground. As one
+  of the fastest-growing companies in the proptech and
+  marketing sectors, Luxury Presence challenges the status quo
+  of what technology can do for real estate agents, leaders,
+  and brokerages.
+
+
+
+  We're a team of agile and tenacious innovators working
+  collaboratively to drive the industry forward. Together, we
+  build game-changing products that empower modern real estate
+  entrepreneurs to dominate their markets. From award-winning
+  web design to agile SEO solutions to cutting-edge AI tools,
+  we deliver tech that anticipates market shifts and keeps our
+  clients ahead of their competition.
+
+
+
+  Founded in 2016 by Stanford Business School alum Malte
+  Kramer, Luxury Presence has grown to a global team ranked on
+  the Inc. 5000 fastest-growing companies list three years in
+  a row. We're backed by world-class investors, including
+  Bessemer Venture Partners, NextEquity Partners, Toba
+  Capital, and Switch Ventures, and have raised $89 million to
+  date.
+
+
+
+  More than 18,000 real estate businesses rely on our
+  platform, including 30% of the Wall Street Journal
+  RealTrends top agents and teams. Additionally, many of the
+  industry's most powerful brokerages rely on Luxury Presence
+  as a trusted business partner.
+
+
+
+  Every year since 2020, Luxury Presence has ranked on
+  BuiltIn's Best Place to Work lists. HousingWire named our
+  founder and CEO a 2024 Tech Trendsetter, we've received
+  several Tech100 Awards, and we just scored an Inman
+  Innovation Award for Best AI-Powered Platform.
+
+
+
+  Luxury Presence is an Equal Opportunity Employer. All
+  qualified applicants will receive consideration for
+  employment without regard to race, color, religion, sex,
+  sexual orientation, gender identity, or national origin.
+industries:
+  - Marketing Tech
+  - Real Estate
+  - Software
+  - PropTech
+  - SEO
+posted_date: 2026-08-12
+url: "https://builtin.com/job/engineering-manager-maps-search-us-remote/10248144"
+source: Built In

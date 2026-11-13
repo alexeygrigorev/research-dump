@@ -1,0 +1,124 @@
+job_id: 11361688
+title: Embedded Software Engineer II
+company: CesiumAstro
+location: Austin, USA
+work_type: FULL_TIME
+company_size: 400 Employees
+description: |
+  Please Note: To conform with the United States Government
+  Space Technology Export Regulations, the applicant must be a
+  U.S. citizen, lawful permanent resident of the U.S.,
+  conditional resident, asylee or refugee (protected
+  individuals as defined by 8 U.S.C. 1324b(a)(3)), or eligible
+  to obtain the required authorizations from the U.S.
+  Department of State.
+
+
+
+  At CesiumAstro, we are developers and pioneers of out-of-
+  the-box communication systems for satellites, UAVs, launch
+  vehicles, and other space and airborne platforms. We take
+  pride in our dynamic and cross-functional work environment,
+  which allows us to learn, develop, and engage across our
+  organization. If you are looking for hands-on, interactive,
+  and autonomous work, CesiumAstro is the place for you. We
+  are actively seeking passionate, collaborative, energetic,
+  and forward-thinking individuals to join our team.
+
+  CesiumAstro is seeking an experienced Embedded Software
+  Engineer II with a strong background in embedded Linux
+  development and the Yocto build system. This role is ideal
+  for engineers with hands-on experience in embedded systems,
+  including device drivers, kernel customization, bootloaders,
+  and board bring-up, with a preference for experience with
+  the Xilinx platform (experience with other platforms is also
+  valued).
+
+
+
+  As a member of our software team, you will contribute to the
+  full software development lifecycle, from product concept
+  through production, participating in architecture design,
+  implementation, testing, qualification, and in-orbit
+  support. This role involves working closely with hardware,
+  systems, and FPGA engineers, and provides opportunities for
+  technical leadership and cross-disciplinary collaboration.
+
+  JOB DUTIES AND RESPONSIBILITIES
+
+  - Develop and port embedded Linux applications, device
+    drivers, and libraries.
+  - Configure, customize, and integrate the Linux kernel and
+    embedded bootloaders (e.g., U-Boot).
+  - Maintain and evolve the Yocto-based Linux build system
+    within a CI/CD pipeline.
+  - Package and deploy software images for diverse embedded
+    hardware platforms.
+  - Create tailored Linux distributions for specific embedded
+    applications.
+  - Collaborate across disciplines (firmware, hardware, systems)
+    to ensure seamless system integration and performance.
+  - Participate in design reviews and contribute to customer-
+    facing technical documentation and proposals.
+
+  JOB REQUIREMENTS AND MINIMUM QUALIFICATIONS
+
+  - Bachelor’s or Master’s degree in Computer Science,
+    Electrical Engineering, Computer Engineering, or related
+    field.
+  - 2+ years of professional experience in embedded software
+    development.
+  - Proficiency in C or C++ for embedded systems.
+  - Experience developing and debugging software on embedded
+    hardware (e.g., power systems, motors, sensors).
+  - Understanding of multi-threaded programming and resource-
+    constrained environments.
+  - Familiarity with version control, issue tracking, and peer
+    review workflows.
+  - Strong verbal and written communication skills.
+
+  PREFERRED EXPERIENCE
+
+  - Practical experience with Embedded Linux and the Yocto
+    Project.
+  - Experience with Xilinx SoCs or other microcontroller-based
+    systems.
+  - Proficiency with bootloaders, kernel development, and system
+    bring-up.
+  - Familiarity with CI/CD tools and practices in embedded
+    environments.
+  - Ability to manage multiple priorities and work independently
+    in a fast-paced environment.
+
+  CesiumAstro considers several factors when extending an
+  offer, including but not limited to, the role and associated
+  responsibilities, a candidate’s work experience,
+  education/training, and key skills.  Full-time employment
+  offers include company stock options and a generous benefits
+  package including health, dental, vision, HSA, FSA, life,
+  disability and retirement plans.
+
+
+
+  CesiumAstro is an Equal Opportunity employer.  All qualified
+  applicants will receive consideration for employment without
+  regard to race, color, religion, sex, national origin,
+  disability, protected Veteran Status, or any other
+  characteristic protected by applicable federal, state, or
+  local law.
+
+
+
+  Please note: CesiumAstro does not accept unsolicited resumes
+  from contract agencies or search firms. Any unsolicited
+  resumes submitted to our website or to CesiumAstro team
+  members will be considered property of CesiumAstro, and we
+  will not be obligated to pay any referral fees.
+industries:
+  - Aerospace
+  - Hardware
+  - Software
+  - Defense
+posted_date: 2026-09-24
+url: "https://builtin.com/job/embedded-software-engineer-ii/11361688"
+source: Built In

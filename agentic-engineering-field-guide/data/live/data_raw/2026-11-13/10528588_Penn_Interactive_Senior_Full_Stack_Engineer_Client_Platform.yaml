@@ -1,0 +1,168 @@
+job_id: 10528588
+title: Senior Full Stack Engineer, Client Platform
+company: Penn Interactive
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 441 Employees
+description: |
+  PENN Entertainment, Inc. is North America’s leading provider
+  of integrated entertainment, sports content, and casino
+  gaming experiences. From casinos and racetracks to online
+  gaming, sports betting and entertainment content, we deliver
+  the experiences people want, how and where they want them.
+
+  We’re always on the lookout for those who are passionate
+  about creating and delivering cutting-edge online gaming and
+  sports media products. Whether it’s through Hollywood
+  Casino, theScore Bet Sportsbook, or theScore media app,
+  we’re excited to push the boundaries of what’s possible.
+  These state-of-the-art platforms are powered by proprietary
+  in-house technology, a key component of PENN’s omnichannel
+  gaming and entertainment strategy.
+
+  When you join PENN Entertainment’s digital team, you’ll not
+  only work on these cutting-edge platforms through theScore
+  and PENN Interactive, but you’ll also be part of a company
+  that truly cares about your career growth. We’re committed
+  to supporting you as you expand your skills and explore new
+  opportunities.
+
+  With locations throughout North America, you can build a
+  future at PENN Entertainment wherever you are. If you want
+  to challenge conventions in gaming, media and entertainment,
+  we want to talk to you.
+
+  About the Team The Client Platform team's job is to make
+  product teams fast. We own the shared component libraries
+  and design system, the build and release tooling every
+  engineer touches daily, and the performance, accessibility,
+  and observability standards that hold across our client
+  surfaces. Much of the work is internal tooling that keeps a
+  large monorepo pleasant to work in. We partner closely with
+  product teams to make the right thing the easy thing.
+
+  The team also builds our server-driven UI service, a
+  TypeScript GraphQL subgraph that lets product teams change
+  what the iOS, Android, and web clients render without
+  shipping an app release. The role spans both the monorepo
+  and that service, so it is a genuine mix of front-end and
+  backend GraphQL work.
+
+  About the Work
+
+  - Design and evolve GraphQL schemas in a federated graph,
+    including the server-driven UI contracts our mobile and
+    web clients render.
+    - Treat those schemas as a versioned contract shared with
+      released mobile apps: classify breaking changes,
+      coordinate migrations with the iOS, Android, and web
+      leads, and keep generated client models in sync.
+    - Develop, scale, and optimize the GraphQL APIs, RPC
+      endpoints, and SQL queries behind our web surfaces.
+  - Build front-end applications and shared libraries with React
+    and TypeScript.
+    - Build web applications that are fast and accessible to
+      everyone.
+  - Partner with product and design to architect and ship
+    customer-facing features.
+  - Use observability tooling to diagnose issues and improve the
+    experience for guests.
+    - Set up and refine monitoring and alerting in DataDog for the
+      systems you own.
+  - Improve code quality by finding technical debt, proposing
+    fixes, and holding the standard for the whole team.
+  - Find bottlenecks and areas of risk in production, and drive
+    the changes that make the platform scale.
+  - Learn from and mentor teammates through code review,
+    pairing, and writing things down.
+  - Take part in the design, architecture, and delivery of new
+    features in a collaborative agile team.
+  - Write thorough tests for every feature and bug fix. Testing
+    is a first-class discipline on this team.
+  - Work with QA to strengthen automated testing pipelines and
+    CI/CD workflows.
+  - Use Claude Code in daily development to move faster without
+    lowering the bar.
+  - Other duties as required.
+
+   About You 
+
+  - At least 5 years of experience in software engineering.
+  - Strong JavaScript, TypeScript, and React, plus real
+    instincts for UX.
+  - 2+ years designing and evolving GraphQL schemas for product
+    surfaces used by multiple clients (iOS, Android, web).
+    This sits at the center of the server-driven UI work, so
+    it matters more here than in a typical front-end role.
+  - Fluency with HTML, CSS, and the browser environment: DOM,
+    events, platform APIs.
+  - A solid foundation in computer science, with strong
+    competencies in data structures, distributed systems,
+    algorithms, and software design.
+  - A grasp of production systems at scale, including finding
+    weak points through load testing and tracing.
+  - Experience investigating and fixing production performance
+    regressions, including CPU hotspots and latency in high-
+    throughput services.
+  - Experience on an on-call rotation for a production service,
+    and owning release cycles end to end.
+  - You care about clean architecture and about code you will
+    not mind reading a year from now.
+  - Clear writing. You have authored tech specs, runbooks, and
+    cross-team design docs that stood up to scrutiny.
+  - Experience with API development in Node or Bun, or in
+    another server framework (Phoenix, Ruby on Rails, FastAPI,
+    Laravel).
+  - Experience building and integrating multi-client or white-
+    label platforms, including geo-based routing and per-brand
+    configuration.
+  - Experience with Kubernetes and comfort operating services in
+    containers.
+  - Comfortable working in the terminal, with Git and GitHub or
+    similar, and in an editor of your choice.
+  - Experience with testing frameworks: Jest or Vitest, and
+    ExUnit, RSpec, or pytest.
+  - Nice to have: Apollo Federation at scale, GraphQL APIs with
+    Absinthe, Mobile Development for iOS or Android using
+    Swift or Kotlin, hexagonal architecture, domain-driven
+    design, relational databases (PostgreSQL, MySQL),
+    background job processing (Oban, Exq, Sidekiq, Celery),
+    asynchronous event infrastructure (Kafka, RabbitMQ,
+    SQS/SNS, Pub/Sub), open source contributions, startup
+    experience, and a passion for sports or esports.
+
+  What We Offer 
+
+  - Competitive compensation package
+  - Fun, relaxed work environment
+  - Education and conference reimbursements.
+  - Opportunities for career progression and mentoring others 
+    #LI-REMOTE
+
+  Salary Range
+
+  $135,000—$180,000 USD
+
+  Penn Interactive is proud to be an equal opportunity
+  workplace. We will consider all qualified applicants for
+  employment without regard to race, color, religion, age,
+  sex, sexual orientation, gender identity, national origin,
+  disability, veteran status, genetic information, or any
+  other basis protected by applicable law.Base pay is one part
+  of the Total Rewards that Penn Interactive provides to
+  compensate and recognize employees for their work. Most
+  sales positions are eligible for a Commission under the
+  terms of an applicable plan, while most non-sales positions
+  are eligible for a Bonus. Additionally, Penn Interactive
+  provides best-in-class benefits to eligible employees. We
+  believe that benefits should connect you to the support you
+  need when it matters most, and should help you care for
+  those who matter most. That’s why we provide an array of
+  options, expert guidance and always-on tools, that are
+  personalized to meet the needs of your reality – to help
+  support you physically, financially and emotionally through
+  the big milestones and in your everyday life.
+posted_date: 2026-08-05
+url: "https://builtin.com/job/senior-full-stack-engineer-client-platform/10528588"
+source: Built In

@@ -1,0 +1,110 @@
+job_id: 11915081
+title: Senior Backend Software Engineer
+company: FLEXCOMPUTE
+location: POL
+remote: true
+work_type: FULL_TIME
+company_size: 65 Employees
+description: |
+  Flexcompute is leading the transformation of engineering
+  simulation with our revolutionary ultra-fast simulation
+  technology. Our flagship products, including the industry-
+  leading Computational Fluid Dynamics (CFD) software Flow360
+  and electromagnetic simulation software Tidy3D, are
+  reshaping how simulations are conducted across diverse
+  sectors. Founded by visionaries from Stanford and MIT and
+  supported by top-tier venture capital firms, we are a
+  rapidly growing team dedicated to breaking boundaries and
+  challenging the norms of the multi-billion-dollar
+  engineering simulation market.
+
+  Role Overview
+
+  We are looking for a Backend Software Engineer to help us
+  design and implement scalable solutions that meet the
+  growing demands of our advanced EM simulation platform.
+
+  The ideal candidate has expertise in high-performance
+  computing (HPC), infrastructure, web API design, and systems
+  design. Additionally, the candidate will be help us enhance
+  our data management, frontend-backend API unification, and
+  cloud integration.
+
+  Key Responsibilities
+
+  - Contribute to general software development efforts, such as
+    API unification, simulation data management (e.g.,
+    caching, syncing, storage), and scripting improvements.
+  - Collaborate with EM and infrastructure teams to implement
+    simulation-specific solutions, including enhancements to
+    back-end/scheduler integrations and Python front-end
+    functionality.
+  - Improve our task pipelines through an innovative design for
+    a web API in a multi-physical simulation context.
+  - Develop and maintain hybrid cloud compute and storage
+    solutions, integrating on-premise HPC systems with modern
+    cloud platforms.
+  - Optimize and manage high-performance computing clusters
+    equipped with high-speed interconnects.
+
+  Requirements
+
+  Education: Bachelor’s degree or higher in computer science
+  or computer engineering. A postgraduate degree, published
+  research, or a strong record in competitive programming is a
+  plus.
+
+  Technical Skills:
+
+  Innovative Mindset: Ability to learn quickly, adapt to new
+  challenges, and innovate in a fast-paced startup
+  environment.
+
+  Bonus Skills:
+
+  Example Projects
+
+  - Design and build the job dispatch and scheduling pipeline
+    that runs large simulation workloads across hybrid cloud
+    and on-premise environments
+  - Design and implement scalable web APIs for simulation job
+    orchestration and data access
+  - Build CI/CD pipelines and infrastructure-as-code systems for
+    reproducible deployments
+  - Develop hybrid cloud solutions connecting on-prem HPC
+    clusters with AWS compute and storage
+  - Implement monitoring and observability systems to track
+    simulation performance and reliability
+  - Improve platform scalability to support growing user traffic
+    and compute demand
+  - Design secure service architectures, authentication, and
+    licensing systems
+  - Optimize infrastructure utilization across CPU and GPU
+    resources
+
+  Join Us
+
+  By joining Flexcompute, you’ll be at the heart of a movement
+  set to redefine the engineering simulation industry. You
+  will play a key role in shaping the future, where our
+  innovations in simulation technology pave the way for
+  groundbreaking advancements. We are committed to fostering
+  an innovative and collaborative culture where boundaries of
+  possibility are re-imagined, driven by creativity,
+  expertise, and a shared vision of transforming the
+  technological landscape.
+
+  Benefits
+
+  - Competitive compensation with equity of a fast-growing
+    startup. The range for this role is USD 85,000 to 100,000
+    per year, depending on experience.
+  - Remote within Poland, on Polish working hours with about six
+    hours of overlap with our Boston team.
+  - Annual travel support for team gatherings in Boston.
+  - Learning sponsorship, an AI tools budget and a fitness
+    benefit.
+  - Friendly, thoughtful, and intelligent coworkers.
+posted_date: 2026-10-27
+url: "https://builtin.com/job/senior-backend-software-engineer/11915081"
+source: Built In

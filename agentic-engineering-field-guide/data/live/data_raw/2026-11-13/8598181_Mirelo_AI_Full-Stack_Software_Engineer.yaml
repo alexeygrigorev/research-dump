@@ -1,0 +1,106 @@
+job_id: 8598181
+title: Full-Stack Software Engineer
+company: Mirelo AI
+location: Berlin, DEU
+locations:
+  - Berlin, DEU
+  - Tübingen, DEU
+work_type: FULL_TIME
+company_size: 14 Employees
+description: |
+  Mirelo AI is building the next generation of creative tools
+  by generating realistic sound, speech and music from video.
+
+  We develop cutting-edge foundational generative AI models
+  that "unmute" silent video content and create custom, hyper-
+  realistic audio for gaming, video platforms, and creators.
+  Our technology empowers global storytellers to transform
+  their content.
+
+  We recently closed a $41 million Seed round co-led by
+  Andreessen Horowitz and Index Ventures with participation
+  from Atlantic, and are rapidly expanding across Product,
+  Engineering, Go-to-Market, and Growth.
+
+  About the Role
+
+  At Mirelo, you’ll join a small, fast-moving team building
+  real products on top of our generative audio models. This
+  role is hands-on and high-ownership: you’ll ship end-to-end
+  features across our stack, work directly with research and
+  product, and help shape how our technology becomes something
+  creators and partners actually use. As we scale our go-to-
+  market efforts, the engineering work you do will sit at the
+  heart of both user-facing products and deeper integrations
+  with platforms, tools, and enterprise partners.
+
+  Key Responsibilities
+
+  - Building and maintaining our products on top of our cutting-
+    edge generative AI models for music and sound.
+  - High degrees of ownership: you will be responsible for
+    shipping end-to-end features across the front and back
+    ends of our stack, as well as helping set the direction of
+    the features and products you're working on.
+  - Collaborate closely with our research teams and growth/sales
+    teams and stay close to our users: spot practical
+    opportunities, identify pain points, and turn them into
+    actionable engineering tasks.
+  - Work comfortably with our current tech stack: TypeScript,
+    React, Tailwind, shadcn, and Convex as the backend.
+  - Work with essential cloud services—primarily AWS Lambda and
+    S3—for integrations, automation, and deployment workflows
+  - Use modern AI-assisted development tools (Cursor, Claude
+    Code, etc.) to move fast while keeping craftsmanship high.
+  - Communicate clearly with teammates, jump into discussions,
+    and help drive the technical direction together.
+
+  Ideal Candidate Profile
+
+  - 5+ years of professional web development experience,
+    preferably in fast-moving product or startup environments.
+  - Strong expertise in TypeScript (both frontend and backend),
+    React, Tailwind, component libraries.
+  - Solid understanding of backend fundamentals: data modeling,
+    migrations, performance, API design, security and data
+    workflow.
+  - Self-directed in a healthy way: you take ownership, move
+    forward proactively, and keep the team in the loop.
+
+  Nice to Have
+
+  - Basic understanding of machine learning and experience using
+    ML/LLM tooling in products.
+  - Hands-on experience with Convex, or similar serverless
+    backend platforms, and the ability to quickly become
+    productive with it. Proficiency in Python.
+  - Exposure to AWS beyond Lambda/S3 (CloudFront, IAM basics,
+    monitoring).
+  - Experience contributing to or maintaining larger production
+    codebases.
+
+  Why Join?
+
+  - Join at a pivotal moment. We've secured fresh funding and
+    are gaining traction - now is when your contributions can
+    make a real difference to our success.
+  - True ownership from day one. You'll have genuine autonomy
+    and responsibility. Your ideas and work will directly
+    shape our product and company direction.
+  - Competitive compensation and equity. We offer strong
+    packages that ensure you share in the success you help
+    create.
+  - Build for the next generation of creators. Be part of the
+    innovation that will transform how creators work and
+    thrive.
+
+  We welcome applications from all individuals, regardless of
+  ethnic origin, gender, disability, religion or belief, age,
+  or sexual orientation and identity.
+industries:
+  - Artificial Intelligence
+  - Music
+  - Software
+posted_date: 2026-07-31
+url: "https://builtin.com/job/full-stack-software-engineer/8598181"
+source: Built In

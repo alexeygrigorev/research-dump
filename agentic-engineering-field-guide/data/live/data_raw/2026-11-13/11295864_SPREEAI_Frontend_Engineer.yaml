@@ -1,0 +1,84 @@
+job_id: 11295864
+title: Frontend Engineer
+company: SPREEAI
+location: San Francisco, USA
+work_type: FULL_TIME
+company_size: 35 Employees
+description: |
+  SPREEAI is a fast-growing, innovative AI company at the
+  forefront of fashion and e-commerce, revolutionizing how
+  consumers engage with fashion through lifelike
+  photorealistic try-on technology and hyper-personalized
+  shopping experiences. Our mission is to redefine the retail
+  landscape with cutting-edge AI solutions that blend high
+  fashion and technology. We thrive in a dynamic, fast-paced
+  environment where creativity meets technology to drive real
+  impact. If you are passionate about innovation and shaping
+  the future of fashion, SPREEAI offers a platform to make
+  your mark.
+
+  About the team
+
+  Partner Engineering builds every customer-facing touchpoint
+  for our brand partners: mobile SDKs, web integrations, and
+  the onboarding surfaces partners use to get live on SPREEAI.
+  It's a small, high-leverage team, everything you ship is
+  something a partner will touch directly.
+
+  About the role
+
+  Right now, one engineer owns frontend work across every
+  partner-facing surface we have: the Partner Portal, our
+  Shopify onboarding flow, the demo site, and the Rescale App.
+  That's a single point of failure we need to remove, and a
+  bottleneck on how fast we can bring new partners online.
+  This is a newly opened, priority hire, you'll take ownership
+  of that surface area and give the team room to move faster.
+
+  What you'll do
+
+  - Build and maintain React.js interfaces for the Partner
+    Portal, Shopify onboarding flow, demo site, and Rescale
+    App
+  - Partner closely with backend engineers (Go/Node) to design
+    clean, well-scoped API contracts for partner-facing
+    features
+  - Own frontend performance, accessibility, and polish, the
+    Partner Portal is often a brand partner's first hands-on
+    impression of SPREEAI
+  - Work directly with product and partner engineering leads to
+    turn onboarding requirements into shipped features
+  - Help set frontend engineering practices, code review norms,
+    testing, component patterns, as the team grows
+
+  What you'll bring
+
+  - 3+ years building production React.js applications
+  - Strong grasp of modern state management (Redux Toolkit,
+    Zustand, or React Query) and component architecture
+    (hooks, context, memoization)
+  - Experience with performance optimization (code splitting,
+    lazy loading, virtualized lists) and accessibility (WCAG
+    2.1, ARIA, keyboard navigation)
+  - Comfort working directly against backend APIs and iterating
+    quickly in an ambiguous, fast-moving environment
+  - Nice to have: Shopify app development, embeddable SDK/widget
+    experience, or other e-commerce integration work
+
+  You'll thrive here if
+
+  You take full ownership of what you build, from design
+  through production, and you sweat the details that make an
+  interface feel polished rather than just functional. You're
+  comfortable being the person closest to a customer-facing
+  surface, and you communicate proactively when something's at
+  risk rather than waiting to be asked.
+industries:
+  - Artificial Intelligence
+  - eCommerce
+  - Fashion
+  - Retail
+  - Software
+posted_date: 2026-09-22
+url: "https://builtin.com/job/frontend-engineer/11295864"
+source: Built In

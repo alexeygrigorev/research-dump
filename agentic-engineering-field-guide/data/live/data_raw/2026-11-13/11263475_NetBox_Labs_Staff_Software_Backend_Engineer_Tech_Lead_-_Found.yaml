@@ -1,0 +1,201 @@
+job_id: 11263475
+title: Staff Software Backend Engineer, Tech Lead - Foundations
+company: NetBox Labs
+location: GBR
+locations:
+  - GBR
+  - USA
+remote: true
+work_type: FULL_TIME
+company_size: 150 Employees
+description: |
+  About NetBox Labs
+
+  At NetBox Labs, our mission is to make it easier to build
+  and manage complex networks and infrastructure. We provide
+  the leading network infrastructure management platform used
+  by enterprises, data centers, and network practitioners
+  worldwide.
+
+  Why This Role, Why Now
+
+  Foundations is the platform software team at NetBox Labs. It
+  owns the set of shared services, standards, and tools that
+  all applications and delivery methods use: UI, Auth,
+  Secrets, Customer Usage Monitoring, Entitlements Management,
+  etc
+
+  What You'll Own
+
+  The Foundations service catalog contains our core platform
+  offerings. You will contribute to decisions on what goes
+  into the catalog and what stays off it. You and your team
+  will release each service as a finished artifact - software
+  or documentation - that application teams use. Examples of
+  catalog offerings:
+
+  - Identity and access: user management, authentication and
+    authorization (including PAS), the organization, tenant,
+    and user model, and customer secrets.
+  - Shared application services: the UI platform and shared
+    frontend components, customer usage telemetry.
+  - Platform standards: Kubernetes, Postgres, Redis, cloud
+    infrastructure, and customer environments in collaboration
+    with the needs of the Delivery Teams
+  - Developer experience: the local development environment, and
+    the integration of new components into that experience.
+  - Contracts across delivery methods: NetBox Cloud and NetBox
+    Enterprise can implement a catalog service in different
+    ways. You make sure that each difference is documented.
+    Where possible, you put the difference behind one
+    consistent interface.
+  - The service catalog lifecycle: You review catalog services
+    every quarter and when application teams give feedback.
+    You approve an exception only with a documented reason and
+    an exit plan.
+  - Technical leadership of the team: You lead and mentor the
+    Foundations engineers through daily technical work. The
+    engineers do not report to you.
+
+  What You Won't Own
+
+  This is a hands-on technical lead role, not a people
+  management role.
+
+  People management
+
+  The EM owns hiring, performance management, and team
+  process. You work closely with the EM and give input on all
+  three.
+
+  Product priorities
+
+  The Foundations Product Manager owns priorities. You align
+  technical plans with those priorities. You challenge a
+  priority when its technical cost is high.
+
+  What Success Looks Like (12 Months)
+
+  - Each high-priority catalog service is DONE: an application
+    team uses it and gets value from it.
+  - Application teams do not re-implement a concern that the
+    catalog covers.
+  - For each catalog service, all differences between Cloud and
+    Enterprise are documented.
+  - Foundations makes technical decisions without escalation to
+    the Director.
+  - You and the EM run the team together, with a clear split of
+    responsibilities.
+
+  Complexities of the role
+
+  Scope
+
+  Many shared concerns can move into Foundations. If too many
+  move in, delivery stops and ownership becomes unclear.
+
+  Adoption
+
+  A catalog service that application teams do not use has no
+  value. You must design services that teams want to use. You
+  must also get the teams to adopt them.
+
+  Cloud and Enterprise differences
+
+  Catalog services run in NetBox Cloud and in customer
+  environments for NetBox Enterprise. Customer environments
+  give less observability and slower feedback. A difference
+  that nobody records becomes an operational or customer
+  problem later.
+
+  Access control is a security boundary
+
+  An error in access control is a security incident. PAS
+  changes need a security review before release. You must
+  design for this from the start.
+
+  Decisions already made
+
+  Many catalog services have design decisions in place. You
+  must decide quickly what to keep and what to change.
+
+  What We're Looking For
+
+  - Platform ownership You have 7+ years of software development
+    experience. This includes technical ownership of a
+    platform engineering function.
+  - Platform breadth You have worked across several platform
+    areas, for example identity, data stores, service
+    communication, and developer tools. You can judge a design
+    outside your main area of depth.
+  - Identity and access You have direct experience with
+    authentication and authorization systems, for example
+    OAuth, SSO, or role-based access control.
+  - APIs for other teams You have designed APIs that other
+    engineering teams use.
+  - Backend depth You write backend code in Python and Go. You
+    have strong Linux and distributed systems fundamentals.
+    You understand Kubernetes concepts.
+  - Leadership without authority You have led engineering work
+    without formal manager authority.
+  - Startup experience You have 5+ years of experience in a B2B
+    software startup or a high-growth organization.
+  - Decisions under ambiguity You have a track record of
+    technical decisions made with incomplete information.
+  - AI development workflow: Hands-on experience building inside
+    an AI-augmented development harness, including Claude Code
+    and the workflows that make agentic tooling reliable,
+    while remaining accountable for correctness, security, and
+    tests
+
+  Nice to have
+
+  - Hands-on experience with Kubernetes, operators, and
+    container orchestration.
+  - Experience with network management or infrastructure
+    software, for example NetBox.
+  - Open-source contributions or project involvement.
+
+  About NetBox Labs:
+
+  NetBox Labs helps companies build and manage complex
+  networks. We help customers accelerate network automation by
+  delivering open, composable products and supporting the
+  network automation community.
+
+  NetBox Labs is the commercial steward of open source NetBox,
+  the world’s most popular network source of truth, and Orb,
+  the next-generation open source network observability
+  platform. Our products include NetBox Enterprise, a fully
+  supported self-managed NetBox with advanced features, and
+  NetBox Cloud, a secure, scalable, and reliable SaaS edition
+  of NetBox.
+
+  NetBox powers thousands of companies, and NetBox Labs is
+  backed by investment from Notable Capital (formerly GGV),
+  Grafana Labs CEO Raj Dutt, Flybridge, IBM, Salesforce
+  Ventures, and Mango Capital.
+
+  Our culture and values:
+
+  - We own and solve problems with high attention to detail.
+  - Our open source contributors, users, customers & team are
+    all part of our community. When our community wins, we
+    win.
+  - We prioritize simplicity and think twice before adding
+    complexity
+  - Clear communication helps keep our team aligned and
+    collaborating smoothly.
+
+  NetBox Labs is proud to be an equal opportunity employer. We
+  believe diverse teams build better software, and we welcome
+  applicants of every race, color, religion, gender identity,
+  sexual orientation, national origin, age, disability, and
+  veteran status. If you need accommodation at any point in
+  the process, just let us know.
+industries:
+  - Cloud
+  - Software
+posted_date: 2026-09-21
+url: "https://builtin.com/job/staff-software-backend-engineer-tech-lead-foundations/11263475"
+source: Built In

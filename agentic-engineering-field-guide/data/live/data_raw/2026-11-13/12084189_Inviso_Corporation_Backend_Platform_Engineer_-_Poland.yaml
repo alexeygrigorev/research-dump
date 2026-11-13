@@ -1,0 +1,82 @@
+job_id: 12084189
+title: Backend / Platform Engineer - Poland
+company: Inviso Corporation
+location: POL
+remote: true
+work_type: FULL_TIME
+company_size: 265 Employees
+description: |
+  Backend / Platform Engineer
+
+  Inviso is partnering with one of our clients to find an
+  experienced Backend / Platform Engineer to join their team
+  working remotely. Inviso is managing the recruitment and
+  placement process for this opportunity. This is a remote,
+  direct-hire permanent employee position for our client that
+  is a global multi-billion dollar software conglomerate.
+
+  The Backend / Platform Engineer is responsible for
+  designing, building, and operating the core services that
+  power an enterprise AI platform. This role contributes to
+  the AI gateway, orchestration layer, entitlements, tenancy
+  model, data access patterns, integration frameworks, APIs,
+  and platform services that product teams and customers
+  depend on.
+
+  The Engineer owns services end to end, from design and
+  implementation through testing, deployment, reliability, and
+  support. The ideal candidate is a strong backend engineer
+  who understands distributed systems, failure modes, clean
+  boundaries, platform APIs, and pragmatic trade-offs.
+
+  Experience & Skills Required
+
+  - Experience building and operating production backend, API,
+    or distributed platform services.
+  - Strong software engineering skills with experience designing
+    reliable, testable, and maintainable services.
+  - Experience with AI gateway, orchestration, entitlements,
+    tenancy, metering, quotas, or similar platform
+    capabilities.
+  - Ability to design APIs and developer experiences for
+    internal and external consumers.
+  - Experience with multi-tenant systems, tenant isolation,
+    service boundaries, and platform-level enforcement
+    patterns.
+  - Experience building integration frameworks, connector
+    patterns, governed data access, or reliable data on-ramps.
+  - Strong understanding of retries, partial failure,
+    consistency, idempotency, back-pressure, and operational
+    failure modes.
+  - Experience owning services through design, development,
+    testing, deployment, monitoring, and support.
+  - Strong communication and collaboration skills for client-
+    facing consulting environments.
+  - Pragmatic mindset with the ability to ship meaningful value
+    quickly while maintaining engineering quality.
+
+  Desired Qualifications
+
+  - Experience with C#, Python, Go, or similar backend
+    languages.
+  - Experience with API gateways, orchestration systems,
+    connector frameworks, event-driven systems, or platform
+    engineering.
+  - Experience with AI, LLM, RAG, agentic workflows,
+    tool/function calling, MCP, A2A, or AI development
+    lifecycle practices.
+  - Experience with event-sourced metering, quotas,
+    entitlements, or billing-related platform services.
+  - Experience building enterprise-scale software used by
+    multiple products, customers, or internal teams.
+  - Experience using AI-assisted development tools while
+    maintaining strong review, testing, and architecture
+    discipline.
+industries:
+  - Cloud
+  - Information Technology
+  - Business Intelligence
+  - Consulting
+posted_date: 2026-11-04
+url: "https://builtin.com/job/backend-platform-engineer-poland/12084189"
+source: Built In

@@ -1,0 +1,207 @@
+job_id: 12235553
+title: "Senior Frontend Engineer, Sites & Studio"
+company: Bask Health
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 24 Employees
+description: |
+  About Bask Health
+
+  Bask Health is a software platform that enables
+  entrepreneurs, doctors, and healthcare businesses to launch,
+  manage, and grow direct-to-consumer telehealth businesses.
+
+  Our platform brings together patient experiences, clinical
+  workflows, pharmacy operations, and commerce tools in one
+  place.
+
+  We're an entrepreneurial, product-focused engineering team
+  that values ownership, technical excellence, and building
+  software that solves real problems. Engineers work closely
+  with product teams and company leadership, take features
+  from idea to production, and have a direct role in shaping
+  the platform.
+
+  Engineering at Bask is AI-first and builder-led. We use
+  tools like Cursor and Claude Code throughout development
+  while maintaining high standards for reliability, testing,
+  and software quality.
+
+  About the Role
+
+  We're looking for a Senior Frontend Engineer, Sites & Studio
+  to help build and improve the tools that Bask Health
+  merchants use to create and customize their online
+  experiences.
+
+  Bask enables entrepreneurs and healthcare businesses to
+  launch direct-to-consumer telehealth brands. Our Sites and
+  Studio experiences help merchants configure their websites,
+  customize their storefronts, and manage how their businesses
+  appear to customers.
+
+  In this role, you'll develop interactive website-building
+  interfaces, reusable components, configuration tools, and
+  publishing workflows that make it easier for merchants to
+  create professional, functional online experiences.
+
+  This is a hands-on engineering position for someone who
+  enjoys building sophisticated frontend applications, solving
+  complex user interaction challenges, and developing
+  intuitive tools that give users control over their websites.
+
+  You'll work closely with product managers, designers, and
+  backend engineers to build flexible, reliable, and scalable
+  editing experiences.
+
+  We're looking for someone with strong frontend architecture
+  skills, excellent attention to user experience, and the
+  ability to own complex features from design through
+  production.
+
+  What You'll Do
+
+  - Design, develop, and maintain frontend applications for
+    Bask's Sites and Studio experiences.
+  - Build interactive website-building and customization tools
+    using React, Next.js, and TypeScript.
+  - Develop intuitive interfaces for editing and configuring
+    storefront pages.
+  - Create reusable components for website sections, layouts,
+    and content blocks.
+  - Build configuration panels for managing text, images,
+    layouts, and styling options.
+  - Improve merchant workflows for creating and updating website
+    content.
+  - Develop live-preview functionality for website
+    customization.
+  - Contribute to page editing, template management, and
+    publishing workflows.
+  - Build responsive editing interfaces that work across
+    supported devices.
+  - Develop reusable UI components and shared frontend design
+    patterns.
+  - Collaborate with designers to translate complex editing
+    interactions into intuitive experiences.
+  - Improve the usability and performance of visual editing
+    tools.
+  - Work with backend engineers to integrate website
+    configuration and publishing APIs.
+  - Implement frontend state management for complex editing
+    experiences.
+  - Help manage draft states, saved changes, and editing
+    feedback.
+  - Develop clear validation, error handling, and recovery
+    experiences.
+  - Contribute to storefront rendering and configuration
+    workflows.
+  - Improve frontend performance for interactive and component-
+    heavy applications.
+  - Build accessible interfaces for website creation and
+    management.
+  - Write automated tests for editing, preview, and publishing
+    workflows.
+  - Investigate and resolve bugs affecting merchant website
+    customization.
+  - Participate in frontend architecture and technical planning
+    decisions.
+  - Establish reusable engineering patterns for interactive
+    application development.
+  - Mentor other engineers through code reviews and technical
+    collaboration.
+  - Use AI-assisted development tools while maintaining high
+    standards for code quality and reliability.
+  - Take ownership of major frontend features from
+    implementation through production.
+
+  Requirements
+
+  - 5+ years of professional software engineering experience,
+    with substantial frontend development experience.
+  - Strong hands-on experience building production web
+    applications using React.
+  - Professional experience with TypeScript and JavaScript.
+  - Experience with Next.js or comparable React-based
+    frameworks.
+  - Strong understanding of HTML, CSS, and responsive web
+    design.
+  - Experience building complex, highly interactive web
+    applications.
+  - Strong understanding of frontend architecture, component
+    design, and state management.
+  - Experience developing reusable components and shared UI
+    patterns.
+  - Experience implementing sophisticated user interactions and
+    dynamic interfaces.
+  - Strong understanding of browser rendering, layout behavior,
+    and frontend performance.
+  - Experience integrating frontend applications with backend
+    APIs.
+  - Familiarity with application state persistence and data
+    synchronization.
+  - Experience implementing robust validation, error handling,
+    and user feedback.
+  - Understanding of accessibility standards and inclusive
+    interface design.
+  - Experience developing responsive interfaces across different
+    screen sizes.
+  - Ability to debug complex frontend issues and troubleshoot
+    production problems.
+  - Experience writing automated tests for frontend
+    applications.
+  - Familiarity with modern frontend tooling and development
+    workflows.
+  - Experience collaborating closely with product managers and
+    designers.
+  - Ability to translate complex requirements into intuitive
+    application experiences.
+  - Strong problem-solving skills and attention to detail.
+  - Ability to make technical decisions and own complex frontend
+    features.
+  - Experience reviewing code and providing constructive
+    technical feedback.
+  - Strong written and verbal communication skills.
+  - Ability to work independently and collaboratively in a
+    remote engineering environment.
+
+  Nice to Have
+
+  - Experience building website builders, visual editors, or
+    content management systems.
+  - Experience developing drag-and-drop interfaces or
+    interactive editing tools.
+  - Familiarity with rich-text editors and configurable content
+    blocks.
+  - Experience building reusable website templates and page
+    sections.
+  - Experience with live-preview or real-time editing
+    functionality.
+  - Familiarity with publishing workflows and version
+    management.
+  - Experience with Shopify themes, Webflow, Framer, or similar
+    website-building platforms.
+  - Experience building e-commerce storefronts or merchant-
+    facing applications.
+  - Familiarity with design systems and component libraries.
+  - Experience with Tailwind CSS or other modern styling
+    approaches.
+  - Familiarity with React state management libraries.
+  - Experience with frontend performance optimization for
+    component-heavy applications.
+  - Experience building applications with complex forms and
+    configuration panels.
+  - Familiarity with multi-tenant SaaS platforms.
+  - Experience with Node.js or TypeScript backend services.
+  - Exposure to AWS or serverless application architectures.
+  - Experience mentoring junior frontend engineers.
+  - Experience using AI-assisted development tools such as
+    Cursor or Claude Code.
+industries:
+  - Healthtech
+  - Internet of Things
+  - Hospitality
+  - Telehealth
+posted_date: 2026-11-13
+url: "https://builtin.com/job/senior-frontend-engineer-sites-studio/12235553"
+source: Built In

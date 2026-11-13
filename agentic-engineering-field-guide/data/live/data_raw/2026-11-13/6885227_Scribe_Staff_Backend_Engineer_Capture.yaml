@@ -1,0 +1,116 @@
+job_id: 6885227
+title: Staff Backend  Engineer (Capture)
+company: Scribe
+location: USA
+locations:
+  - USA
+  - San Francisco, USA
+remote: true
+work_type: FULL_TIME
+company_size: 119 Employees
+description: |
+  About us
+
+  Scribe is where exceptional people come to do the best work
+  of their careers. More than 94% of the Fortune 500 use
+  Scribe to document and scale how work gets done. We’re
+  growing fast — since our founding in 2019, we’ve grown to
+  over 4 million users across 600,000 businesses. Based in San
+  Francisco, we've raised $55M in funding from top-tier
+  investors and are honored to have been named as a Forbes
+  Next Billion Dollar Startup and LinkedIn Top Startup. Join
+  us in our mission to uplevel how people do work.
+
+  How we work
+
+  We are builders aspiring to master our crafts. We care
+  deeply about our teammates and want to win, together. We
+  embrace the following values:
+
+  - Accelerate impact
+  - Raise the bar
+  - Make our users heroes
+  - Clear is kind
+  - Rapid learning machine
+  - One team one dream
+
+  About this role
+
+  We are looking for a backend developer who loves building
+  application code and scalable distributed systems. We need
+  someone to help us design large-scale data ingestion and
+  processing systems alongside our custom AI models.
+
+  Tech Stack
+
+  Languages: Python, Typescript, Go
+
+  Infra: Postgres, Celery Tasks & Celery Schedules
+
+  Platform: AWS
+
+  You can expect to
+
+  - Create cutting edge services for data ingestion and AI
+    inference with our in-house models
+  - Write and scale application code
+  - Optimize business-critical endpoint performance
+  - Deploy, manage and scale distributed systems with background
+    jobs and queueing
+
+  You could be a great fit if
+
+  - You have 8+ years writing backend apps with Typescript,
+    Python, or Go
+  - You have strong experience with message queues and task
+    systems using Celery Tasks & Schedules (or similar: AWS
+    SQS, Rabbit MQ, Kafka, etc.)
+  - You’ve built large-scale data ingestion systems
+  - You’ve built and deployed micro-services
+  - You can write Python
+  - You know how to optimize endpoint performance and DB queries
+
+  Bonus
+
+  - You have Django experience
+  - Startup experience (not required, but we build and move
+    fast!)
+
+  Full-Time US Employee Benefits Include
+
+  - Some of the nicest and smartest teammates you’ll ever work
+    with
+  - Competitive salaries
+  - Comprehensive healthcare benefits
+  - Exciting and motivating equity
+  - Flexible PTO
+  - 401k
+  - Parental Leave
+  - Commuter Benefits (SF office employees)
+  - WFH Stipend
+
+  Compensation
+
+  $170k - $225k base + equity + benefits
+
+  We consider several factors when determining compensation,
+  including location, experience, and other job-related
+  factors.
+
+  At Scribe, we celebrate our differences and are committed to
+  creating a workplace where all employees feel supported and
+  empowered to do their best work. We believe this benefits
+  not only our employees but our product, customers, and
+  community as well. Scribe is proud to be an Equal
+  Opportunity and Affirmative Action Employer.
+
+
+
+  #BI-Remote
+industries:
+  - Artificial Intelligence
+  - Productivity
+  - Software
+posted_date: 2026-08-08
+url: "https://builtin.com/job/staff-backend-engineer-capture/6885227"
+source: Built In

@@ -1,0 +1,172 @@
+job_id: 12190505
+title: Principal Software Engineer - Executive Director
+company: JPMorganChase
+location: Dublin, IRL
+work_type: FULL_TIME
+company_size: 289,097 Employees
+description: |
+  Lead a small, high-impact engineering team that reimagines
+  developer workflows for an agentic world — building agents
+  that act across platforms, co-developing agent-friendly
+  interfaces and eliminating processes designed around manual
+  human coordination.
+
+  AI coding assistants have changed how developers write code.
+  The next frontier is the work around it: environment setup,
+  compliance evidence, deployment and coordination. This team
+  will reimagine those workflows for an agentic world — not
+  put a chatbot in front of existing processes. Developers
+  express an outcome; agents act across platforms to deliver
+  it, with appropriate controls and human approval.
+
+  As an Executive Director within Cloud Foundational Services
+  in Infrastructure Platforms at JPMorgan Chase, you will lead
+  a four-person team, including yourself, with senior
+  sponsorship to eliminate unnecessary steps and ship agentic
+  solutions into production. This is a hands-on delivery role:
+  you will own strategy, make architecture decisions and co-
+  build agent-friendly interfaces with platform teams.
+
+  Your first deliverable will be an agentic cloud platform
+  onboarding assistant. Within the first 90 days, you will
+  baseline the workflow and deliver a bounded production
+  capability, establishing patterns for expansion into
+  provisioning, compliance evidence and change management.
+  Further scope will be driven by demonstrated impact.
+
+  Job Responsibilities
+
+  - Own the strategy and delivery roadmap for agentic developer
+    workflow acceleration across Cloud Foundational Services,
+    prioritising observed workflow friction, end-to-end lead
+    time, developer effort, failure rates and risk.
+  - Reimagine workflows with developers, platform owners and
+    control partners around agent-led execution, challenging
+    which steps and hand-offs remain necessary while
+    preserving required control outcomes.
+  - Drive cross-organisational delivery by contributing design,
+    code and testing to partner teams’ APIs and tool
+    interfaces so agents can discover capabilities, invoke
+    actions and verify results, rather than simply raising
+    requirements.
+  - Set the technical direction for agentic systems:
+    orchestration, context and tool integration, evaluation,
+    reliable execution and the boundary between agent
+    decisions, deterministic operations and human judgement.
+  - Baseline the initial cloud onboarding workflow and deliver a
+    tightly scoped production agentic assistant within the
+    first 90 days, with clear success criteria and an agreed
+    delivery plan.
+  - Build and lead a four-person team comprising yourself, two
+    VP engineers and one Associate engineer, establishing
+    engineering culture, delivery cadence and quality
+    standards.
+  - Establish safe operating boundaries for agents, including
+    identity and least-privilege permissions, auditable
+    actions, appropriate approval points, protection against
+    unsafe tool use, failure recovery and clear operational
+    ownership.
+  - Measure impact against a baseline, including lead time,
+    developer effort, task success, adoption, error rates and
+    ongoing operating cost, with monthly sponsor updates and
+    quarterly leadership checkpoints.
+  - Maintain hands-on technical involvement through design and
+    code reviews, architecture decisions and direct support to
+    unblock delivery.Establish a continuous developer feedback
+    channel so priorities remain grounded in real workflows
+    and user needs.
+  - Build an evidence-based case for expanding the team’s scope
+    and capacity as results demonstrate value.
+
+  Required Qualifications, Capabilities, and Skills
+
+  - Significant hands-on software development experience with a
+    track record of progressing into engineering leadership
+    while staying technically current: reading code, reviewing
+    designs and diagnosing production issues.
+  - A track record of delivering change across organisational
+    boundaries through influence, evidence and persistence,
+    including initiatives requiring multiple teams to evolve
+    their systems or ways of working.
+  - Deep technical credibility in cloud infrastructure and
+    platform automation, including infrastructure as code,
+    CI/CD, identity and access management, and distributed
+    systems. Our environment includes AWS, Terraform and
+    Kubernetes.
+  - Hands-on experience building, or technically leading the
+    delivery of, agentic AI systems that use tools and take
+    actions across systems, handle failures and operate within
+    defined controls — beyond chatbots, summaries or code
+    generation alone.
+  - Experience decomposing large, ambiguous problems into phased
+    delivery plans with measurable outcomes and explicit
+    dependencies.
+  - Strong systems thinking across interfaces, contracts,
+    failure modes, operational ownership and the
+    organisational dynamics of cross-platform change.
+  - Experience operating with senior stakeholder visibility,
+    defending prioritisation decisions and declining scope
+    that would dilute delivery impact.
+  - Clear, direct communication with technical and non-technical
+    stakeholders.
+  - A security-first mindset, integrating risk and compliance
+    judgement throughout design, delivery and operation.
+
+  Preferred Qualifications, Capabilities, and Skills
+
+  - Experience operating agentic AI systems in production at
+    enterprise scale, including evaluation, observability,
+    agent identity, permission boundaries and human-in-the-
+    loop patterns.
+  - Experience in regulated or large-scale enterprise
+    environments where compliance, change management and
+    auditability are essential.
+  - A track record of reducing operational toil and manual
+    effort through automation at scale.
+  - Experience co-developing solutions with other teams,
+    including contributions to their codebases and platform
+    interfaces.
+  - Demonstrated ability to quantify engineering improvements
+    and communicate their value in business terms.
+  - Experience building or operating developer platforms,
+    internal tooling or infrastructure-as-a-service.
+  - Experience defining the scope, approach and success criteria
+    for greenfield engineering initiatives.
+
+  About UsJ.P. Morgan is a global leader in financial
+  services, providing strategic advice and products to the
+  world’s most prominent corporations, governments, wealthy
+  individuals and institutional investors. Our first-class
+  business in a first-class way approach to serving clients
+  drives everything we do. We strive to build trusted, long-
+  term partnerships to help our clients achieve their business
+  objectives.
+
+
+
+
+    We recognize that our people are our strength and the
+  diverse talents they bring to our global workforce are
+  directly linked to our success. We are an equal opportunity
+  employer and place a high value on diversity and inclusion
+  at our company. We do not discriminate on the basis of any
+  protected attribute, including race, religion, color,
+  national origin, gender, sexual orientation, gender
+  identity, gender expression, age, marital or veteran status,
+  pregnancy or disability, or any other basis protected under
+  applicable law. We also make reasonable accommodations for
+  applicants’ and employees’ religious practices and beliefs,
+  as well as mental health or physical disability needs. Visit
+  our FAQs for more information about requesting an
+  accommodation.
+
+
+  About the TeamOur professionals in our Corporate Functions
+  cover a diverse range of areas from finance and risk to
+  human resources and marketing. Our corporate teams are an
+  essential part of our company, ensuring that we’re setting
+  our businesses, clients, customers and employees up for
+  success.
+posted_date: 2026-11-12
+url: "https://builtin.com/job/principal-software-engineer-executive-director/12190505"
+source: Built In

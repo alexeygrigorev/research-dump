@@ -1,0 +1,204 @@
+job_id: 12235469
+title: Frontend Engineer, New Grad
+company: Bask Health
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 24 Employees
+description: |
+  About Bask Health
+
+  Bask Health is a software platform that enables
+  entrepreneurs, doctors, and healthcare businesses to launch,
+  manage, and grow direct-to-consumer telehealth businesses.
+
+  Our platform brings together patient experiences, clinical
+  workflows, pharmacy operations, and commerce tools in one
+  place.
+
+  We're an entrepreneurial, product-focused engineering team
+  that values ownership, technical excellence, and building
+  software that solves real problems. Engineers work closely
+  with product teams and company leadership, take features
+  from idea to production, and have a direct role in shaping
+  the platform.
+
+  Engineering at Bask is AI-first and builder-led. We use
+  tools like Cursor and Claude Code throughout development
+  while maintaining high standards for reliability, testing,
+  and software quality.About the Role
+
+  We're looking for a Frontend Engineer, New Grad to help
+  build and improve the web applications that power Bask
+  Health's telehealth platform.
+
+  This is an entry-level engineering opportunity designed for
+  recent graduates and early-career developers who want to
+  gain practical experience building production software.
+  You'll work alongside experienced frontend engineers,
+  product managers, and designers to develop features used by
+  merchants, healthcare businesses, and internal teams.
+
+  You'll contribute to responsive interfaces, reusable
+  components, application workflows, and frontend
+  functionality across different areas of Bask's platform.
+  Your projects may involve merchant dashboards, patient-
+  facing experiences, storefronts, administrative tools, and
+  other web applications.
+
+  You'll gain hands-on experience with modern frontend
+  technologies such as React, Next.js, and TypeScript while
+  learning how production applications are designed,
+  developed, tested, and maintained.
+
+  This is a software engineering position where you'll write
+  real code, contribute to product features, participate in
+  code reviews, and learn from experienced engineers. As your
+  skills develop, you'll take on increasingly complex tasks
+  and gain more ownership over your work.
+
+  We're looking for someone with strong programming
+  fundamentals, curiosity, attention to detail, and a genuine
+  interest in building useful software. Professional
+  experience isn't required, but you should be comfortable
+  demonstrating your technical abilities through coursework,
+  internships, personal projects, or other development
+  experience.
+
+  What You'll Do
+
+  - Build and maintain frontend features across Bask Health's
+    web applications.
+  - Work with experienced engineers to develop production-ready
+    application functionality.
+  - Write frontend code using JavaScript, TypeScript, React, and
+    Next.js.
+  - Develop reusable components for merchant-facing and internal
+    applications.
+  - Implement responsive interfaces using HTML, CSS, and modern
+    frontend technologies.
+  - Translate product requirements and design specifications
+    into working software.
+  - Contribute to merchant dashboards, platform configuration
+    tools, and patient-facing interfaces.
+  - Help build forms, navigation components, interactive
+    controls, and application workflows.
+  - Connect frontend applications to backend APIs and services.
+  - Work with application state, asynchronous requests, and
+    dynamic data.
+  - Assist with implementing input validation and error
+    handling.
+  - Collaborate with designers to ensure interfaces are
+    functional and visually consistent.
+  - Help improve existing features based on product feedback and
+    engineering requirements.
+  - Investigate and resolve frontend bugs under the guidance of
+    experienced engineers.
+  - Learn how to debug browser behavior, API requests, and
+    application issues.
+  - Write clean, readable, and maintainable code.
+  - Develop unit tests and assist with frontend integration
+    testing.
+  - Participate in code reviews and incorporate feedback into
+    your work.
+  - Learn and follow established frontend architecture and
+    coding standards.
+  - Help improve accessibility, usability, and responsive
+    behavior.
+  - Assist with frontend performance improvements and
+    application optimization.
+  - Collaborate with product managers to understand feature
+    requirements and user needs.
+  - Contribute to technical documentation and reusable component
+    guidelines.
+  - Use Git and established development workflows to manage code
+    changes.
+  - Learn how features move through development, testing,
+    deployment, and production.
+  - Use AI-assisted development tools while validating generated
+    code and understanding implementation decisions.
+  - Gradually take ownership of frontend features from
+    development through testing and release.
+
+  Requirements
+
+  - Recent graduation from a computer science, software
+    engineering, or related program, or equivalent technical
+    experience through self-directed learning, bootcamps, or
+    independent projects.
+  - Foundational knowledge of JavaScript and modern web
+    development.
+  - Basic understanding of HTML and CSS.
+  - Familiarity with React or another component-based frontend
+    framework.
+  - Basic knowledge of TypeScript or willingness to learn.
+  - Understanding of fundamental programming concepts and data
+    structures.
+  - Familiarity with responsive web development.
+  - Basic understanding of reusable frontend components.
+  - Familiarity with APIs and client-server communication.
+  - Understanding of asynchronous programming concepts.
+  - Basic knowledge of Git and version control.
+  - Ability to write readable, organized, and maintainable code.
+  - Familiarity with debugging tools and basic troubleshooting
+    techniques.
+  - Understanding of how web browsers render and execute
+    frontend applications.
+  - Basic knowledge of software testing concepts.
+  - Willingness to learn modern frontend development tools and
+    frameworks.
+  - Ability to interpret technical requirements and
+    implementation instructions.
+  - Strong analytical and problem-solving skills.
+  - Attention to detail when implementing and testing software.
+  - Ability to communicate technical questions and progress
+    clearly.
+  - Willingness to receive feedback and learn from experienced
+    engineers.
+  - Ability to collaborate effectively with other developers and
+    product team members.
+  - Strong organizational skills and ability to manage assigned
+    tasks.
+  - Interest in developing production software and improving
+    user experiences.
+  - Comfort working in a collaborative, remote engineering
+    environment.
+
+  Nice to Have
+
+  - Previous software engineering internship or co-op
+    experience.
+  - Personal projects demonstrating frontend development skills.
+  - Experience building applications with React and TypeScript.
+  - Familiarity with Next.js.
+  - Experience using Tailwind CSS or comparable styling
+    approaches.
+  - Familiarity with component libraries and design systems.
+  - Experience building responsive dashboards or web
+    applications.
+  - Basic experience consuming REST APIs.
+  - Familiarity with frontend state management concepts.
+  - Experience working with forms and input validation.
+  - Familiarity with browser developer tools.
+  - Experience writing unit tests with Jest, Vitest, or
+    comparable tools.
+  - Exposure to Playwright, Cypress, or frontend integration
+    testing.
+  - Familiarity with accessibility and semantic HTML.
+  - Experience collaborating on projects using GitHub.
+  - Familiarity with CI/CD and software deployment workflows.
+  - Experience building e-commerce or SaaS-related projects.
+  - Interest in healthcare technology or telehealth
+    applications.
+  - Contributions to open-source projects or collaborative
+    software development.
+  - Experience using AI-assisted development tools such as
+    Cursor or Claude Code.
+industries:
+  - Healthtech
+  - Internet of Things
+  - Hospitality
+  - Telehealth
+posted_date: 2026-11-13
+url: "https://builtin.com/job/frontend-engineer-new-grad/12235469"
+source: Built In

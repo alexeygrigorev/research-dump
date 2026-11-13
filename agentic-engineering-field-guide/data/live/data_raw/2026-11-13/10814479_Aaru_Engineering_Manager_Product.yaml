@@ -1,0 +1,290 @@
+job_id: 10814479
+title: Engineering Manager, Product
+company: Aaru
+location: New York, USA
+work_type: FULL_TIME
+company_size: 44 Employees
+description: |
+  About Aaru
+
+  Aaru builds simulations of human behavior. Each simulation
+  contains a population of AI agents, each representing a
+  person who could plausibly exist in the real world and
+  capable of making decisions within a modeled environment.
+  Companies and institutions use these simulations to test
+  consequential choices before committing—from product
+  launches and pricing decisions to strategic communications
+  and policy changes.
+
+  Building a useful simulation requires more than generating
+  plausible text. Populations must represent real people and
+  groups; predictions must be calibrated; simulations must
+  remain coherent as conditions change; and the product must
+  make the resulting evidence legible enough to support real
+  decisions.
+
+  We are a small, in-person team in New York. We work with
+  urgency, high ownership, and intellectual honesty. We expect
+  people to surface inconvenient evidence, change their minds
+  quickly, and carry important work all the way to a result.
+
+  About Product Engineering
+
+  Product Engineering turns Aaru's simulation capabilities
+  into products that customers can use independently and
+  repeatedly. The team builds on Aaru's shared platform and
+  simulation systems to create the workflows, interfaces,
+  integrations, and decision-ready artifacts that make a
+  technically sophisticated system feel clear and dependable.
+
+  The function is designed around durable product domains
+  rather than a queue of disconnected features. Those domains
+  may include simulation setup, question and experiment types,
+  follow-up and continuous simulations, analysis and
+  reporting, reusable customer templates, collaboration, and
+  external integrations.
+
+  Product Engineering is not a thin presentation layer and it
+  is not a forward-deployed services team. It owns end-to-end
+  product outcomes, while working through explicit interfaces
+  with Platform Engineering, Simulation Engineering, Research,
+  Product, Design, and Deployment.
+
+  The role
+
+  As Product Engineering Manager, you will lead a focused team
+  of Product Engineers and be accountable for the quality,
+  pace, and impact of what the team ships. Managers at Aaru
+  remain builders. You will set technical direction, shape
+  product decisions, review critical designs, write and debug
+  code when it is the highest-leverage use of your time, hire
+  exceptional engineers, and develop the people already on the
+  team.
+
+  You will partner closely with a Product Manager and Product
+  Designer. Together, you will select problems, define the
+  product domain, and establish a roadmap that balances
+  immediate customer value with reusable product foundations.
+  You will also create the operating mechanisms that let
+  multiple workstreams move quickly without losing clarity,
+  quality, or ownership.
+
+  This is a line-management role, not a distant function-head
+  role. Your primary responsibility is to make a small team
+  unusually effective: give people context, set a high bar,
+  resolve ambiguity, provide direct feedback, and ensure that
+  commitments become excellent production systems.
+
+  What you will do
+
+  - Build, lead, and develop a high-performing team of Product
+    Engineers with clear ownership, strong technical judgment,
+    and a high standard for product craft.
+  - Set technical direction for the team's product domain across
+    frontend, backend, APIs, data models, workflow
+    orchestration, integrations, observability, and model-
+    dependent behavior.
+  - Partner with Product and Design to identify the most
+    important user problems, define a coherent roadmap, and
+    make principled decisions about scope and sequence.
+  - Create an execution model for parallel workstreams: clear
+    DRIs, credible milestones, early risk discovery, focused
+    reviews, and fast escalation when dependencies or
+    assumptions fail.
+  - Stay close to the work through system design, architecture
+    reviews, code review, debugging, product critique, user
+    sessions, and direct contribution to the hardest or most
+    ambiguous problems.
+  - Ensure that the team turns specific customer evidence into
+    generalizable product capabilities rather than
+    accumulating custom branches, configuration debt, or
+    manual operations.
+  - Establish a quality bar for AI-native product development,
+    including evaluations, human review points,
+    instrumentation, rollout criteria, fallbacks, provenance,
+    and safe rollback.
+  - Define clean interfaces with Platform Engineering and
+    Simulation Engineering. Work through missing primitives
+    explicitly and contribute to shared foundations when that
+    is the right organizational answer.
+  - Build tight feedback loops with Deployment and customers so
+    that field failures, confusing workflows, and unexpected
+    model behavior become prioritized product and engineering
+    work.
+  - Own production quality for the team's systems, including
+    reliability, latency, security, permissions, cost, on-call
+    health, incident follow-up, and maintenance.
+  - Recruit exceptional engineers from sourcing through close.
+    Build a team with the right mix of product sense,
+    technical depth, speed, and ownership.
+  - Set expectations clearly, provide frequent and candid
+    feedback, recognize exceptional work, address performance
+    problems early, and invest in each engineer's growth.
+  - Improve the broader engineering organization through
+    reusable patterns, stronger development tools, better
+    technical communication, and a culture of thoughtful
+    urgency.
+
+  Representative leadership problems
+
+  You might be responsible for situations such as:
+
+  - The team has five credible feature opportunities but only
+    enough capacity to pursue two. Determine which problems
+    matter, what evidence would change the decision, and how
+    to sequence the work without creating strategic drift.
+  - A major customer request is valuable but highly specific.
+    Find the underlying general problem and design a
+    capability that serves the customer without turning the
+    product into consulting software.
+  - A new research capability produces impressive demonstrations
+    but inconsistent user outcomes. Define the evaluations,
+    interaction design, constraints, and rollout plan required
+    before it becomes a product feature.
+  - Product delivery is repeatedly blocked by missing platform
+    primitives. Decide what belongs in Product Engineering,
+    what belongs in Platform, and whether temporary embedding
+    or shared ownership is the fastest durable path.
+  - Two workstreams are moving quickly but making incompatible
+    architectural choices. Establish the shared contract
+    before the divergence becomes expensive.
+  - A workflow is technically correct but users do not trust it.
+    Diagnose whether the issue is product framing, interaction
+    design, provenance, latency, model behavior, or actual
+    quality—and direct the team toward evidence rather than
+    opinion.
+  - The team is shipping rapidly but support burden and incident
+    frequency are rising. Restore operational discipline
+    without replacing ownership with bureaucracy.
+  - A strong engineer is producing excellent individual work but
+    is not creating leverage for teammates. Give direct
+    feedback, define the next level of impact, and support the
+    behavior change.
+
+  How we work
+
+  We begin with the decision the user is trying to make, not
+  with a feature request. We seek direct evidence, reduce the
+  problem to its essential uncertainty, and build the smallest
+  system that can resolve it. We move quickly, but we preserve
+  the foundations required for reuse and long-term ownership.
+
+  For AI-native products, product quality and model quality
+  are inseparable. Latency, interaction design, evaluation,
+  orchestration, permissions, reliability, and the behavior of
+  the underlying models all shape the user experience. The
+  manager must create a team that can reason across these
+  layers without losing accountability at the boundaries.
+
+  Management at Aaru is an active technical discipline. The
+  goal is not to become the routing layer for every decision.
+  The goal is to give strong people enough context, clarity,
+  and feedback that they can own increasingly difficult
+  decisions themselves.
+
+  You might thrive in this role if
+
+  - You were a strong product or full-stack engineer before
+    becoming a manager and remain capable of going deep in
+    architecture, code, and debugging.
+  - You have led a small engineering team that shipped and
+    operated meaningful production products, preferably in a
+    fast-moving or ambiguous environment.
+  - You have strong product judgment and can move between
+    customer evidence, interaction design, technical
+    architecture, and organizational tradeoffs.
+  - You know how to make a team faster through clarity and
+    better systems rather than through constant intervention
+    or lowered standards.
+  - You can separate a compelling prototype from a product that
+    is ready to carry real customer decisions.
+  - You make crisp decisions with incomplete information, state
+    the assumptions behind them, and change direction when the
+    evidence changes.
+  - You reduce complexity in product scope, architecture, code,
+    process, and team ownership.
+  - You give clear feedback early, address performance problems
+    promptly, and take genuine responsibility for developing
+    people.
+  - You recruit well and can explain a difficult mission, a
+    demanding environment, and an unusually high bar without
+    relying on title inflation.
+  - You want to work in person in New York with a team that
+    moves quickly and resolves hard questions directly.
+
+  Strong candidates may also have
+
+  - Experience leading an AI-native product team, particularly
+    one involving agents, model-dependent workflows, or
+    probabilistic outputs.
+  - Experience as a founder, founding engineer, or early
+    engineering leader at a fast-growing startup.
+  - Experience managing full-stack teams that work closely with
+    Product and Design while depending on shared platform or
+    infrastructure teams.
+  - Experience with B2B or enterprise products involving
+    integrations, permissions, auditability, complex
+    configuration, or high-consequence workflows.
+  - A record of turning customer-specific work into a durable
+    product platform or reusable set of primitives.
+  - Experience partnering with research or machine-learning
+    teams and creating a disciplined path from experimental
+    capability to production product.
+  - Experience building teams through a period of rapid hiring
+    while preserving talent density and technical culture.
+
+  Candidates need not have
+
+  - Prior experience in simulation or computational social
+    science.
+  - Managed managers or a large organization; this role is about
+    leading one focused team exceptionally well.
+  - Experience with every layer of Aaru's stack. We care about
+    technical depth, product judgment, and the ability to
+    learn enough to make sound decisions.
+
+  What success looks like
+
+  - The team has a clear product domain, a credible roadmap, and
+    explicit ownership that lets multiple workstreams move in
+    parallel.
+  - Product Engineers operate with high autonomy because goals,
+    interfaces, quality bars, and decision rights are clear.
+  - The team ships products that customers adopt and trust—not
+    merely features that satisfy an internal specification.
+  - Customer-specific evidence repeatedly becomes reusable
+    capability, while one-off work and manual support
+    decrease.
+  - Model behavior, product quality, latency, reliability, cost,
+    and adoption are observable and used in day-to-day
+    decisions.
+  - Platform, Simulation Engineering, Research, Product, Design,
+    and Deployment experience the team as a clear, dependable
+    partner with well-defined interfaces.
+  - Strong engineers join, grow, and do the best work of their
+    careers; performance issues are handled directly and
+    fairly.
+  - The team moves quickly without sacrificing production
+    ownership, product craft, or the long-term coherence of
+    the system.
+
+  Location and benefits
+
+  This role is based in New York City. Aaru is an in-person
+  company, working five days a week in the office. Candidates
+  should be located in the New York metropolitan area or open
+  to relocation.
+
+  Aaru offers a competitive base salary, equity participation,
+  comprehensive medical, vision, and dental coverage, visa
+  sponsorship and relocation support, and other benefits and
+  perks. Final compensation depends on level and experience
+  and is set within Aaru's internal bands.
+industries:
+  - Artificial Intelligence
+  - Machine Learning
+  - Software
+  - Analytics
+posted_date: 2026-08-23
+url: "https://builtin.com/job/product-engineering-manager/10814479"
+source: Built In

@@ -1,0 +1,133 @@
+job_id: 11562453
+title: Software Engineer, Full-Stack (All Levels)
+company: Doowii
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 16 Employees
+description: |
+  About Doowii
+
+  Doowii is building a conversational analytics platform for
+  education. We enable non-technical users to query complex
+  datasets using natural language, accelerating decision
+  making, data exploration, and intervention planning. Doowii
+  sits at the intersection of data infrastructure, AI, and
+  education.
+
+  About the Role
+
+  This role is focused on building the core product experience
+  for Doowii users. You’ll be tackling opportunities and
+  projects core to the Doowii interface and backend:
+
+  - users asking questions
+  - model evaluation and improvement to improve responses to
+    those questions
+  - systems configuration and optimization to support our
+    responses
+  - data structure and analysis so answers are returned
+    accurately and quickly
+
+  What You'll Work On
+
+  Doowii engineering is critical in the end-to-end development
+  of the Doowii platform, applications, and systems, from
+  designing the user interface to managing our systems and
+  infrastructure.
+
+  Frontend & UX
+
+  - Build interfaces for querying and exploring data
+  - Translate complex workflows into simple user experiences
+  - Design and implement user interfaces (UI) and user
+    experiences (UX)
+  - Partner with ML, product, and frontend engineers to ship AI-
+    driven features (LLM text-to-SQL, embeddings, feature
+    stores, LLM-driven data modeling)
+
+  Backend Systems
+
+  - Develop APIs that power real-time data interactions
+  - Ensure performance and scalability of user-facing systems
+  - Configure and manage Doowii’s cloud platforms (AWS, GCP)
+
+  Data Interaction Layer
+
+  - Optimize how queries are executed and results returned
+  - Design and maintain data models (star, wide-table, or
+    Iceberg-native) to support real-time and batch analytics
+  - Optimize storage + query performance; keep infra costs lean
+  - Develop and maintain ingestion pipelines (NiFi 2.0 → Kafka →
+    Iceberg → BigQuery) end-to-end
+
+  Requirements
+
+  - BS in computer engineering (or similar field with 6+ years
+    of experience)
+  - 3+ years of full-stack experience
+  - Strong frontend skills (JavaScript/TypeScript, modern
+    frameworks)
+  - Backend experience (Python preferred)
+  - Experience with APIs and SQL
+  - Experience with schema evolution, CDC, and high-throughput
+    streaming
+  - Bias for automation, clear documentation, and fast iteration
+    in a startup environment
+
+  Bonus points if you have:
+
+  - Masters in computer engineering
+  - Experience with AI model/agent development and LLM
+    evaluation
+  - Experience building data-heavy or analytics products
+  - Strong product intuition and UX thinking
+  - Experience with performance optimization
+  - Hands-on with at least two of: Kafka or Pub/Sub, Apache
+    NiFi, Airflow, Mage.AI, Beam, Spark, Flink, dbt,
+    Iceberg/ClickHouse
+
+  Compensation
+
+  The base pay range for this role is $130,000 – $180,000 per
+  year.
+
+  We’re open to adjusting the role level based on your
+  experience and expertise. If you do not fulfill all
+  requirements in the job description, we encourage you to
+  submit your application nonetheless. Doowii employees are
+  required to successfully pass a background check upon being
+  hired.
+
+  Why work at Doowii
+
+  - Competitive compensation
+  - New-hire equity grant
+  - Open PTO policy & company holidays
+  - Medical, dental, and vision benefits for you and your family
+  - A mission-driven culture and community
+  - Remote-work environment
+
+  Equal Opportunity
+
+  Doowii is an Equal Opportunity Employer and values diversity
+  in our workforce. We believe that a diverse and inclusive
+  workplace fosters innovation, creativity, and collaboration.
+  We do not discriminate based upon race, religion, color,
+  national origin, sexual orientation, gender, gender
+  identity, gender expression, transgender status, sexual
+  stereotypes, age, education, status as a protected veteran,
+  status as an individual with a disability, or other
+  applicable legally protected characteristics
+
+  To help protect the integrity of our remote hiring process
+  and safeguard access to student and school data, candidates
+  may be asked to complete a brief live identity verification
+  step prior to technical interviews.
+industries:
+  - Artificial Intelligence
+  - Edtech
+  - Analytics
+posted_date: 2026-10-07
+url: "https://builtin.com/job/software-engineer-full-stack-all-levels/11562453"
+source: Built In

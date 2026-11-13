@@ -1,0 +1,150 @@
+job_id: 10050385
+title: Full Stack Engineer (Front End Leaning)
+company: Lutra
+location: Toronto, CAN
+work_type: FULL_TIME
+company_size: 10 Employees
+description: |
+  Your opportunity
+
+  We're supporting a fast-growing Canadian fintech that has
+  reimagined how people manage their largest recurring
+  expenses and is focused on helping them gain more value from
+  every dollar spent. Already processing over a billion
+  dollars in annual payment volume and serving a rapidly
+  expanding user base, the company is building critical
+  financial infrastructure while scaling how customers
+  discover, adopt, and get value from the product. This role
+  sits on the Growth engineering team, one of two engineering
+  teams alongside Payments, and owns the surfaces where users
+  first meet and engage with the product: onboarding,
+  activation, and the core web experience.
+
+  As a Full Stack Engineer with a front-end focus, you'll
+  spend the majority of your time crafting the user-facing web
+  experience: building polished, performant interfaces in
+  React and Next.js that make complex financial workflows feel
+  simple and convert. You'll also work across the stack,
+  contributing to the backend services and APIs that power
+  those experiences, so full stack fluency matters even as the
+  front end is where you'll do your best work.
+
+  This role emphasizes end-to-end ownership with a product
+  lens. You'll ship quickly, measure impact, and iterate. From
+  API integration through interface design, implementation,
+  and deployment, you'll collaborate closely with product,
+  design, mobile, and engineering peers to raise the bar on
+  usability, performance, and conversion.
+
+  Key responsibilities
+
+  - Frontend engineering: Lead development of user-facing
+    features using React, Next.js, and TypeScript with a focus
+    on performance, accessibility, and responsive design
+  - UI implementation: Build responsive, accessible interfaces
+    that function seamlessly across desktop and mobile
+    browsers
+  - Design collaboration: Partner closely with product designers
+    to translate designs into polished, production-quality
+    interfaces
+  - Feature ownership: Build and own features end-to-end, from
+    frontend implementation through the APIs and backend
+    services that support them
+  - API design and integration: Design, build, and consume REST
+    APIs, ensuring frontend and backend contracts stay clean
+    and reliable
+  - Growth experimentation: Build and iterate on onboarding,
+    activation, and conversion-focused features, using
+    experimentation and analytics to guide decisions
+  - Payments integration: Build user experiences on top of the
+    payment workflows and banking integrations owned by the
+    Payments team
+  - Code quality: Write clean, well-tested code across frontend
+    and backend codebases
+  - Code reviews: Participate in code reviews across frontend
+    and backend contributions to maintain quality and
+    consistency
+  - Debugging and reliability: Debug and resolve issues across
+    the full stack in both development and production
+    environments
+  - Cross-functional collaboration: Work closely with product,
+    design, and mobile teams to deliver cohesive customer-
+    facing features
+  - Operational support: Participate in on-call rotations to
+    support production systems
+
+  Tech stack
+
+  - Front-end: React, React Native, NextJS, TypeScript, Tailwind
+    CSS
+  - Back-end: Node.js/NestJS, TypeScript, Firebase
+  - Infrastructure & tooling: Git, GCP
+
+  Your know-how
+
+  - 4+ years of experience building and shipping production web
+    applications as a full stack or frontend engineer
+  - Deep experience with React and modern frontend development,
+    including state management, component architecture, and
+    performance optimization
+  - Strong experience with Next.js or similar React-based
+    frameworks, including server-side rendering
+  - Proficiency with modern CSS frameworks such as Tailwind and
+    strong command of responsive design principles
+  - A track record of building accessible, high-quality user
+    interfaces that hold up under real-world usage
+  - Solid experience with Node.js and TypeScript for backend
+    development
+  - Experience working with backend frameworks such as NestJS,
+    Express, or similar
+  - Experience designing, building, and consuming REST APIs
+  - Working knowledge of relational databases such as PostgreSQL
+    and familiarity with NoSQL stores such as Firestore
+  - Understanding of authentication systems and security best
+    practices
+  - Familiarity with financial systems, payment processing, or
+    fintech products
+  - Strong testing practices, particularly on the frontend
+  - Ability to balance frontend user experience with backend
+    performance considerations
+  - Clear communication skills and ability to work effectively
+    across teams
+  - Demonstrated ownership of code quality, user experience, and
+    system reliability
+
+  It's a bonus if
+
+  - You bring genuine design sensibility and have collaborated
+    closely with product designers to shape, not just
+    implement, user experiences
+  - You have experience with frontend performance tooling, Core
+    Web Vitals, or accessibility audits
+  - You have hands-on experience with Next.js server-side
+    rendering in production
+  - You have worked with NestJS or similar service-oriented
+    backend frameworks
+  - You are familiar with Clerk or similar authentication
+    platforms
+  - You have worked on a growth or product-led engineering team,
+    running A/B tests or building experimentation
+    infrastructure
+  - You are comfortable with analytics tooling such as
+    Amplitude, Mixpanel, or GA4
+  - You have experience operating services on GCP
+  - You have built or integrated with payment providers or
+    banking APIs
+  - You have used Prisma ORM in production environments
+  - You have contributed to open-source projects
+
+  Compensation
+
+  The base pay range for this role is CA$115,000 – CA$165,000
+  per year.
+industries:
+  - Artificial Intelligence
+  - Fintech
+  - Professional Services
+  - Software
+posted_date: 2026-08-24
+url: "https://builtin.com/job/full-stack-engineer-front-end-leaning/10050385"
+source: Built In

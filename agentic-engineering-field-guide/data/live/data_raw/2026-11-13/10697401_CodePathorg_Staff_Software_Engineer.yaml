@@ -1,0 +1,150 @@
+job_id: 10697401
+title: Staff Software Engineer
+company: CodePath.org
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 55 Employees
+description: |
+  CodePath is the largest educator of college computer science
+  students in the country. We've trained over 50,000 students
+  from more than 1,000 universities. Our partners include
+  Amazon, Google, and other leading technology companies.
+  After nearly a decade of training technical talent, we
+  launched a $150M initiative with Anthropic to prepare people
+  for careers in AI.
+
+  We're expanding into new markets and growing our team as AI
+  changes the workforce. People joining CodePath now will help
+  shape this next stage of our work.
+
+  We believe technical skills create opportunities. Our goal
+  is to train millions of learners and create lasting economic
+  impact. If you want to build something new, take ownership,
+  and see the results of your work, this is a place to do it.
+
+  About the Role
+
+  Location: Remote, United States, Europe, Canada or LATAM
+
+  Role-Type: Full-Time
+
+  Reports To: VP of Engineering
+
+  Compensation: $170,000 to $190,000 per year for US based
+  applicants. Adjusted contingent on location for applicants
+  based in Canada, LATAM, and Europe.
+
+  CodePath’s educational programs run on our sophisticated
+  learning platform, a set of Ruby-based applications with
+  functionality spanning admissions, course delivery, grading,
+  career coaching, and reporting.
+
+  We're looking for a Staff Software Engineer who can lead at
+  multiple levels at once: the architecture, the product
+  direction, the team's capacity, and the longer arc of where
+  we're going. You'll move fluidly across the full technical
+  stack, from infrastructure decisions to greenfield product
+  work.
+
+  This is a high-ownership role. You'll work directly with
+  stakeholders to understand what students and staff actually
+  need, participate in deciding what gets built, and then lead
+  the execution. You won't be handed a ticket queue. You'll
+  shape the work.
+
+
+  The ideal candidate for this role is a web engineer inspired
+  by potential projects like these:
+
+  - Building brand-new functionality in Rails and beyond to
+    create sophisticated and powerful new tools for our users
+    and extend our reach to new kinds of learners we’ve never
+    been able to serve before
+  - Reimagining core platform components as we migrate them from
+    Sinatra to Rails
+  - Integrating AI/ML technology into our platform to support
+    mastery-driven, adaptive learning
+  - Scaling a system that has helped tens of thousands of
+    students to help hundreds of thousands more
+
+  Key Activities
+
+  - Architect and build web applications across Ruby on Rails,
+    Sinatra/Padrino, and Django that directly support our
+    mission
+  - Make consequential technical decisions on infrastructure,
+    data modeling, API design, and emerging technologies with
+    full ownership of the tradeoffs
+  - Set the code quality bar through reviews, architectural
+    guidance, and constructive feedback
+  - Write automated tests that reflect real edge cases, not just
+    coverage targets
+  - Identify performance bottlenecks and systemic issues before
+    they become outages
+  - Mentor other engineers and raise the technical ceiling of
+    the team
+
+  Qualifications
+
+  - 10+ years of software engineering experience, including at
+    least 5 years with Ruby on Rails
+  - Familiarity with Claude Code or similar development tools
+    and related best practices
+  - A systems-thinking orientation: you consider scalability,
+    maintainability, and failure modes before writing a line
+    of code
+  - Strong PostgreSQL and database design skills, including
+    experience with complex queries, indexing strategies, and
+    schema evolution
+  - Reasonable working familiarity with the full web stack, from
+    infrastructure to CSS
+  - Demonstrated ability to lead technical decisions in a small,
+    autonomous team environment
+  - Strong written and verbal communication. You can explain a
+    technical tradeoff to a non-engineer without losing what
+    actually matters
+  - Passion for education and desire to make a positive impact
+
+  Nice to haves
+
+  - Familiarity with higher education or edtech
+  - Direct experience working with LLMs and generative AI in
+    production
+  - Familiarity with Docker, Ansible, and/or Terraform
+  - Experience deploying on GCP
+
+  Full-Time Employee Benefits:
+
+  This is a 100% remote position! CodePath prioritizes
+  employee well-being with a competitive benefits package to
+  support your health, financial security, and work-life
+  balance.
+
+  - Health & Wellness: Medical, dental, and vision insurance
+    (90% employer-covered for employees and dependents),
+    employer-funded healthcare reimbursement, FSAs, and
+    Employee Assistance Program
+  - Financial Security: 401(k), employer-paid life & disability
+    insurance, and identity theft protection
+  - Work-Life Balance: Generous PTO, paid holidays, 10 weeks of
+    fully paid parental leave, and an annual year-end company
+    closure (Dec 24 – Jan 2)
+  - Professional Growth: $1,000 annual professional development
+    stipend and home office setup support
+  - Student Loan Forgiveness: CodePath is a qualifying employer
+    for Public Service Loan Forgiveness (PSLF), helping
+    employees manage student loan debt
+  - Additional Perks: Pet wellness plans, legal services,
+    home/auto insurance discounts, and exclusive marketplace
+    savings
+
+  Pay range
+
+  $170,000—$190,000 USD
+industries:
+  - Edtech
+  - Social Impact
+posted_date: 2026-08-15
+url: "https://builtin.com/job/staff-software-engineer/10697401"
+source: Built In

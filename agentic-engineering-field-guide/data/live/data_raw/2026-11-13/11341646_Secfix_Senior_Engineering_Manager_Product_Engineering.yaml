@@ -1,0 +1,297 @@
+job_id: 11341646
+title: Senior Engineering Manager, Product Engineering
+company: Secfix
+location: Munich, DEU
+remote: true
+work_type: FULL_TIME
+company_size: 23 Employees
+description: |
+  Location: Remote (EMEA) · Germany/Munich preferred -
+  CET/CEST time zone
+
+  Hi — I'm Grigory, co-founder and CTO at Secfix.
+
+  At Secfix we're building security compliance systems for
+  teams and agents to become and stay compliant with less
+  effort. We're already the category leader in Europe. AI is
+  changing how software gets built, and we're shaping the
+  tools this new era requires.
+
+  I've spent most of my career believing that the best
+  engineering leaders aren't the ones who run the most
+  meetings. They're the ones who make everyone around them
+  faster, clearer, and more proud of their work — and they can
+  do that because they've been through the hard technical
+  problems themselves.
+
+  Since we started, I've done the engineering management
+  myself: 1:1s, hiring, design reviews, performance
+  conversations. The team is 8 engineers and 2 product
+  designers, and I'm spread across too many things. If we were
+  a football team, we'd be a good regional side that just made
+  it to the Bundesliga — talented, hard-working, winning quite
+  a few games. Now we need a coach who's played at Champions
+  League level and can take us there to win every week.
+
+  That means a strong engineering manager who can still ship.
+  Someone who owns the technical decisions, sets the pace, and
+  has product taste — who notices when a feature takes three
+  weeks that should take one, and when it ships on time but
+  isn't good enough. You won't ship weekly — you'll need focus
+  — but you'll build with the team often enough to know the
+  playbook still works.
+
+  You'll work directly with me. Two things matter most here:
+  speed and taste. Most teams pick one. We need both to win.
+
+  — Grigory
+
+  Why Secfix exists
+
+  Over 1.78 million SMBs in Europe need to comply with
+  security frameworks — ISO 27001, GDPR, TISAX, SOC 2 — just
+  to sell to enterprise customers. The process is manual,
+  painful, and takes over a year. We automated it.
+
+  Our platform integrates with a company's full tech stack —
+  AWS, Azure AD, Jira, GitLab, GCP, and more — automatically
+  extracts compliance evidence, and guides teams to
+  certification in weeks instead of months. Our fastest
+  customer was certified in 4 weeks instead of the industry-
+  standard 12+ months.
+
+  We've raised €17M in total (€12M Series A), backed by Alstin
+  Capital, Neosfer (Commerzbank), and Bayern Capital. We're on
+  a profitable trajectory, growing fast, and building the team
+  that will take us to own European market from SMBs to mid
+  market.
+
+  This space is not threatened by AI; it's amplified by it.
+  Compliance requires deep domain expertise combined with
+  automation. Our new AI product (CISO AI) is just getting
+  started, and there's a huge amount of engineering work
+  ahead: agentic workflows, intelligent evidence collection,
+  context-aware policy generation, and more.
+
+  What you'll actually do in the first 3 months
+
+  This isn't a role where you show up and start running
+  standups. There are no standups. Here's how the first
+  quarter goes:
+
+  Month 1: Ship. Get into the codebase and ship a meaningful
+  feature with AI alongside the team. You don't need to be the
+  fastest engineer in the room, but the team needs to see that
+  you can build at the level you'll ask of them and can ask
+  the right questions.
+
+  Month 2: Make the team faster. Find where features take
+  three weeks that should take one, and fix it — in tooling,
+  in how we review and test, or in who's working on what.
+  Start regular 1:1s with each engineer, focused on weekly
+  output, quality, and how well they use AI.
+
+  Month 3: Own hiring. Take over engineering interviews and
+  build a process that runs without my oversight. Design the
+  technical challenges, run the screens, make the calls. The
+  next people we bring in should raise the pace again. I will
+  be there but switch my focus to final interviews.
+
+  What will the role look like beyond the first 3 months?
+
+  After the first quarter, the job is management and the
+  technical decisions. You own how the team builds: how
+  engineers test, how they review each other's code and
+  security, how the team is organised, and who we hire next.
+  We're 8 engineers and 2 product designers today and plan to
+  be around 16 within 12 months — most of that hiring is yours
+  to run.
+
+  You won't ship weekly, but you'll build something with the
+  team now and then, because that's how you know the playbook
+  still gets things out the door. Our CS and Sales leaders
+  work the same way — they still own a small slice of the IC
+  work, so they have skin in the game.
+
+  Here's what you'll be close to in the next months:
+
+  - Speed. You’ll refine our software development processes to
+    keep the team operating at high velocity. Cycle time from
+    spec to production is your number and accountability.
+    Tooling, review flow, how work is split, who's on what —
+    whatever moves it.
+  - Quality. Improve how engineers test and automate, how they
+    review each other's code and security changes, and how the
+    zero-bug policy survives a team of 20.
+  - Team and hiring. Team structure, growth conversations, the
+    hiring process, and eventually the next manager.
+  - AI in the craft — and in the management. Engineers already
+    work with an established set of encoded skills and rules —
+    there's a whole playbook; you keep pushing that. Same for
+    your own work: hiring, 1:1s, the recurring stuff.
+
+  What success looks like
+
+  At 6 months: The hiring process runs without me, and we've
+  added 2 engineers through it. Sales, CS, and product all
+  feel the difference in how fast we ship — and in quality.
+  Our agentic engineering playbook is noticeably better
+  because of you — you’ve added or rewritten the skills,
+  rules, and AI review checks the team uses every day, and you
+  lead by example in how you ship with agents.
+
+  At 12 months: The team is around 12-16, the zero-bug policy
+  is still holding at that size, and I'm not in the
+  engineering critical path anymore. You've found and/or
+  coached the EM Nr. 2 to support growth.
+
+  How we work
+
+  We've written in depth about our engineering culture. Here's
+  the short version — read the full articles linked below if
+  you want the real picture.
+
+  - Focus is sacred. Engineers are in fewer than 2 hours of
+    meetings per week. We write before we meet. We use Loom
+    for async walkthroughs, Notion for specs, Gather for
+    pairing, and Slack only for what's urgent or lightweight.
+    We don't do status theatre. We wrote about our thoughtful
+    communication and our remote culture; give it a read.To
+    drive it home, here's a recent calendar of an engineer who
+    has been with us for over a year:
+  - Small, temporary teams. A designer and two engineers. A
+    backend engineer and a CS person. The group forms around
+    the problem, ships, and dissolves. No standing squads, no
+    permanent team structures — at least not yet. The people
+    closest to the problem usually shape the solution.
+  - AI is already part of the craft. We use Claude for product
+    design exploration and spec drafting. Engineers work in
+    Cursor with encoded skills and rules that live in the
+    codebase — component patterns, folder structure,
+    architecture choices, and the path from Figma to Angular
+    code. AI checks code against architecture rules before
+    human review. We have a dedicated design QA skill that
+    compares Figma against coded output. We don't use AI to
+    lower the bar; we use it to reach the bar faster with more
+    iterations behind us. In case you’re interested, we wrote
+    a piece about it here.
+  - Zero-bugs. We take this seriously - this helps us to gain
+    customer trust faster. Especially serious customer-facing
+    problems don't sit in a backlog competing with roadmap
+    work. Critical issues get fixed immediately. High-severity
+    within 48 hours. Every bug has an owner. Weekly quality
+    review as part of Monday planning. Quality as identity, in
+    compliance, being correct isn't a nice-to-have; it's the
+    entire value proposition. We care about edge cases, data
+    integrity, and getting the details right. Customers notice
+    the speed and polish before they can name it. That kind of
+    quality builds trust. In our category, trust is the
+    product.
+  - We build what customers need, not what they ask for.
+    Customer feedback is signal, not instructions. Best
+    products are built by people with great taste who treat
+    feedback as signals, not KPIs. We stay close to customers
+    — CS check-ins, support tickets, Mixpanel events,
+    onboarding calls — but none of these sources makes the
+    decision for us.
+
+  This role is for you if:
+
+  - You've managed a real team and made it ship faster. You've
+    hired for it, run the hard conversations, and know what
+    breaks as it grows — and you can point to where cycle time
+    dropped because of you.
+  - You know what great engineers look like. You've thought
+    deeply about what makes them productive, what holds them
+    back, and how to move them forward — and you can spot one
+    in a single interview.
+  - You have an exceptional IC track record before becoming a
+    manager. You were a senior/principal engineer before you
+    started managing — you didn't skip into management early
+    because coding wasn't working out.
+  - You have product taste. You notice when a feature ships on
+    time but isn't good enough, and you say so.
+  - You hold people to a high standard. You're comfortable
+    giving direct feedback and having hard conversations about
+    performance.
+  - You're hands-on with AI-assisted development. You've used
+    Cursor and Claude Code in real production work, not just
+    toy projects. You have opinions about how AI changes the
+    engineering workflow from ideation to release, and you
+    want to push a team to keep getting faster.
+  - You've worked in startups. You know what it feels like when
+    there's low process, and the answer is "figure it out and
+    ship it."
+  - You think engineering culture can stay startup-like at
+    scale. You're optimistic that a small, high-performing
+    team can stay that way as it grows, with little process.
+  - You communicate proactively in writing. In a remote team,
+    written communication is how decisions get made and
+    context gets shared. But you're not scared of jumping into
+    a pair programming session either.
+
+  What we're looking forRequired
+
+  - 8+ years as a software engineer, including 4+ years managing
+    a team of 8+ and hiring for it yourself
+  - You've shipped AI features to production — retrieval, RAG,
+    agentic workflows — and you know the difference between a
+    demo that works and one that holds up on real customer
+    data
+  - Product taste: a keen sense for what makes a product feel
+    great, and the habit of saying so when it doesn't
+  - You've built and shipped with Claude Code and Cursor in real
+    production work, and you have opinions about where AI
+    helps and where it quietly creates debt
+  - You're an engineer at heart. You were senior or principal
+    before you managed, and you can still hold your own in a
+    design review, a debugging session, or building a feature
+  - You've built something zero to one at a startup, or scaled a
+    team through the messy middle. You know what it feels like
+    when there's no playbook
+  - Able to work in European timezone (CET/CEST). EMEA-based,
+    ideally Germany or UK
+
+  Nice to have
+
+  - You've grown a team to 15+ at a VC-funded startup
+  - Managed tech leads or a second manager
+  - Previous experience at a fully remote company
+
+  Interview process
+
+  We want to see how you think, build, and lead — not test you
+  on algorithms. Here's the process:
+
+  - 30 min — Intro call with our talent team
+  - 45 min — Interview with Grigory
+  - 60 min — Technical interview
+  - 1.5 hr — AI-assisted build session: system design for a real
+    feature, then building part of it with AI
+  - 2 hr — Leadership session with the founders
+
+  Then you’ll get the offer! If we don't make an offer, we'll
+  tell you why.
+
+  What Secfix gives you
+
+  - Remote: 100% remote with a real virtual office in Gather
+  - Salary: Competitive, benchmarked to European market rates
+    (we'll share specifics once we talk)
+  - Equity: Generous package — we're all owners here
+  - Development budget: €1,000/year — yours to spend on whatever
+    makes you better
+  - Workspace: Remote workspace support + co-working access
+  - Holidays: 26 days + local public holidays
+  - Health insurance: Comprehensive coverage
+  - Annual retreat: Last time we went to Alicante 🇪🇸 — before
+    that, the Austrian Alps, Portugal, Italy, and the Spanish
+    Islands
+  - Tech: MacBook, monitors, headphones — the latest
+industries:
+  - Information Technology
+  - Consulting
+  - Automation
+posted_date: 2026-09-23
+url: "https://builtin.com/job/senior-engineering-manager-product-engineering/11341646"
+source: Built In

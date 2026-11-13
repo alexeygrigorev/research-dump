@@ -1,0 +1,56 @@
+job_id: 9752635
+title: Python Full Stack Developer (Django)
+company: Swades AI
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 5 Employees
+description: |
+  We're seeking a talented Python Full Stack Developer to join
+  our dynamic team. In this role, you'll build robust web
+  applications using Django and contribute to all aspects of
+  the development lifecycle.
+
+  Key Responsibilities:
+
+  - Develop and maintain Django-based web applications
+  - Write clean, efficient, and well-documented Python code
+  - Design and implement RESTful APIs
+  - Work with front-end technologies like HTML, CSS, and
+    JavaScript
+  - Collaborate with cross-functional teams to define and
+    implement new features
+  - Optimize applications for maximum speed and scalability
+  - Implement security and data protection measures
+
+  Requirements:
+
+  - 3+ years of experience in Python development
+  - Strong proficiency with Django framework
+  - Familiarity with front-end technologies (HTML, CSS,
+    JavaScript)
+  - Experience with RESTful APIs and web services
+  - Knowledge of database systems (e.g., PostgreSQL, MySQL)
+  - Solid understanding of version control systems (Git)
+  - Excellent problem-solving and communication skills
+
+  Preferred Qualifications:
+
+  - Experience with other Python frameworks (e.g., Flask,
+    FastAPI)
+  - Knowledge of cloud platforms (AWS, Azure, or GCP)
+  - Familiarity with containerization (Docker) and CI/CD
+    pipelines
+  - Understanding of Agile methodologies
+
+  If you're passionate about creating high-quality web
+  applications and want to work in a collaborative
+  environment, we'd love to hear from you!
+industries:
+  - Artificial Intelligence
+  - Computer Vision
+  - Machine Learning
+  - Software
+posted_date: 2026-10-25
+url: "https://builtin.com/job/python-full-stack-developer-django/9752635"
+source: Built In

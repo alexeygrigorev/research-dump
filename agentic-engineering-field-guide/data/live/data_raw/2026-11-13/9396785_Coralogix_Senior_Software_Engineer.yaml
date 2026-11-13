@@ -1,0 +1,95 @@
+job_id: 9396785
+title: Senior Software Engineer
+company: Coralogix
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 198 Employees
+description: |
+  Description
+
+  Coralogix is a modern, full-stack observability platform
+  transforming how businesses process and understand their
+  data. Our unique architecture powers in-stream analytics
+  without reliance on expensive indexing or hot storage. We
+  specialize in comprehensive monitoring of logs, metrics,
+  trace and security events with features such as APM, RUM,
+  SIEM, Kubernetes monitoring and more, all enhancing
+  operational efficiency and reducing observability spend by
+  up to 70%.
+
+  We’re looking for full-stack engineers who are passionate
+  about technology and data to join our team in building
+  modern, cloud-native production systems that process
+  terabytes of data daily. In this role, you’ll contribute to
+  the development of a new product at Coralogix, working with
+  Rust on the backend and Angular on the frontend, and other
+  cutting-edge technologies - all deployed in AWS on
+  Kubernetes. Our tech stack includes Rust, TypeScript, Kafka,
+  MySQL, PostgreSQL and more.
+
+  Requirements
+
+  - 5+ years of software development experience.
+  - 3+ years of experience developing and operating distributed
+    systems in production.
+  - 2+ years of experience writing backend code in Rust / Scala.
+  - Proficient with AI tools.
+  - Experience with Kubernetes and Docker containers.
+  - Strong analytical and problem-solving skills.
+  - Strong Product oriented mind-set.
+  - Excellent written and verbal communication skills.
+
+  Advantages:
+
+  - Experience with modern Javascript frontend frameworks
+    (Angular, React etc.)
+  - Experience with AWS, GCP
+  - Ability to multitask, organize, and prioritize work
+
+  Cultural Fit
+
+  We’re seeking candidates who are hungry, humble and smart.
+  Coralogix fosters a culture of innovation and continuous
+  learning, where team members are encouraged to challenge the
+  status quo and contribute to our shared mission. If you
+  thrive in dynamic environments and are eager to shape the
+  future of observability solutions, we’d love to hear from
+  you.
+
+  Coralogix is an equal opportunity employer and encourages
+  applicants from all backgrounds to apply.
+industries:
+  - Machine Learning
+  - Software
+posted_date: 2026-08-12
+url: "https://builtin.com/job/senior-full-stack-engineer-notification/9396785"
+source: Built In

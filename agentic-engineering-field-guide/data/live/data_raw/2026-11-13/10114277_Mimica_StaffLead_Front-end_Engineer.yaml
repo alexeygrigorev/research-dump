@@ -1,0 +1,210 @@
+job_id: 10114277
+title: Staff/Lead Front-end Engineer
+company: Mimica
+location: CAN
+locations:
+  - CAN
+  - POL
+  - EST
+  - GBR
+  - Prague, CZE
+  - Dublin, IRL
+  - Berlin, DEU
+  - Amsterdam, NLD
+  - Kraków, POL
+  - Edinburgh, GBR
+  - ARG
+remote: true
+work_type: FULL_TIME
+company_size: 300 Employees
+description: |
+  What we are building
+
+  Mimica is an AI-powered process intelligence platform
+  enabling enterprises and individuals to reclaim their most
+  precious resource: time. We've all seen repetitive tasks and
+  redundant processes quietly drain productivity and
+  creativity. Not because companies don’t want to become more
+  efficient, but because they don’t know where to start.
+
+  Mimica automatically analyzes your team’s work, then
+  generates the AI agents to execute it. Our software turns
+  everyday work into data-backed decisions, helping companies
+  remove process bottlenecks, automate the right tasks, and
+  upskill teams with precision and confidence.
+
+  We’ve raised $26 million in Series B financing and are
+  scaling fast. Backed by investors including Khosla Ventures
+  and Paladin Capital, our proprietary AI technology is
+  trusted by Fortune 500 companies to accelerate
+  transformation. Mimica is recognized as a Top 100 AI Start-
+  up by Accel and an industry Leader by the Everest Group. Our
+  team
+
+  Behind our platform is a team of exceptionally talented
+  people, remote-first and globally distributed across 16+
+  countries. We're looking for curious, collaborative people
+  excited to solve complex problems. You'll join a fast-paced
+  environment built on high ownership, bottom-up thinking, and
+  transparent, open communication – helping some of the
+  world's leading organizations transform the way work gets
+  done with AI.
+
+  Where we are in our scale-up journey
+
+  We’ve achieved strong product-market fit and are now scaling
+  with intention. You’ll join a 60-person team of Senior+
+  engineers and Product leaders who prioritise product impact
+  over mere headcount. We have 8 cross-functional teams,
+  including a dedicated Platform team focused on infra &
+  developer experience. We started building proprietary ML
+  before the LLM boom, so we don't just consume models - we
+  train them from the ground up.
+
+  Our approach to engineering
+
+  - We prioritize customer needs first
+  - We work in small, cross-functional, feature-oriented teams
+  - We have flexibility in terms of the problems we work on
+  - We own the full lifecycle of our projects
+  - We avoid silos and encourage taking up tasks in new areas
+  - We balance quality and velocity
+  - We have a shared responsibility for our production code
+  - We each set our own routine to maximize our productivity
+
+  Your mission
+
+  You will join our Mapper Team, whose goal is to produce and
+  service the Process Maps that are at the core of Mimica's
+  product.
+
+  We found good product-market fit, which means two things:
+  building new features and making architectural decisions
+  that will enable exponential growth in usage.
+
+  You will take ownership of projects end-to-end, build new
+  features, release improvements to existing components, and
+  take operational responsibility for what you build.
+
+  We have a bottom-up culture where Engineers identify pain
+  points, experiment with and iterate on their solutions, and
+  leverage tight feedback loops.
+
+  As such, you‘ll have the opportunity to shape the technical
+  direction, processes and culture of the Engineering org,
+  Chapter and Team.
+
+  Part of your day-to-day
+
+  - Developing data-visualisation applications and new features
+    around displaying significant large data properties (e.g.,
+    insights regarding processes, workflows and metrics) in
+    effective ways, with scalability & reliability in mind.
+  - Building interfaces and real-time frontend services that
+    enable multiple users to edit graph data and re-train AI
+    models through their input.
+  - Owning projects end-to-end as part of small teams,
+    collaborating with our TLs and Product Managers.
+  - Participating in architectural decisions, collaborating
+    across teams to identify and implement product
+    improvements and producing documentation for your
+    implementations.
+  - Participate in and improve the Team's and Chapter's internal
+    processes and rituals so that we're more effective.
+  - Providing feedback to peers through RFCs, code reviews and
+    helping those around you to level up.
+  - Participating in hiring and onboarding new team members.
+
+  Who you are
+
+  - You have at least 8+ years of experience as a Software
+    Engineer and high engineering standards.
+  - Strong experience and understanding of React, state
+    management, front-end architecture & concepts.
+  - Deep understanding of Front-end performance optimisation
+    techniques.
+  - Knowledge of advanced system design principles, data
+    structures, and the core concepts underlying data-
+    intensive applications.
+  - Minimum knowledge of Backend Engineering (eg. being able to
+    add API endpoints, change logic)
+  - Committed to upholding high engineering standards,
+    delivering clean, testable, reusable, modular, and well-
+    documented code.
+  - Experience owning projects from start to finish, including
+    speccing, design, development, testing, deployment,
+    release and observability.
+  - Drive to develop your skills, improve team processes and
+    reduce debt.
+  - Fluency in English, with effective communication skills –
+    articulating complex ideas, concepts and trade-offs
+    clearly.
+
+  Bonus
+
+  - Background working in fast-paced, successful scale-up
+    environments or as a founding engineer, with a track
+    record of delivering value quickly and iteratively
+    alongside building processes.
+  - Graph or Canvas-based Rendering, or graph/geometry editing.
+    (FE-focused).
+
+  Location
+
+  This is a fully remote position. To ensure effective
+  collaboration with our team, we are only considering
+  candidates in the following regions:
+
+  - Europe & Africa: Locations within European timezones
+    (typically UTC-1 to UTC+3).
+  - The Americas: Locations in the Eastern Time Zone (e.g., US
+    East Coast, Toronto) or UTC-3 (e.g., Brazil, Argentina)
+
+  Recruitment Stages
+
+  - Stage 1 | Recruiter Screen with Technical Recruiter
+  - Stage 2 | Take-home Challenge (async) + Follow-up (Live) -
+    with colleagues in an equivalent role
+  - Stage 3 | System Design (Live) - with the Chapter Leader +
+    colleagues
+  - Stage 4 | Founders/Behavioural Interview - with Chapter
+    Leader + Co-founder/CTO
+
+  What we offer
+
+  💰 Generous compensation + stock options - aligned with our
+  internal framework, market data, and individual skills.
+
+  🏢 Distributed work: Work from anywhere - fully remote, in
+  our hubs, or a mix.
+
+  💻 Company-issued laptop, remote setup stipend, and co-
+  working budget
+
+  📍 Flexible schedules and location
+
+  ☀️ Ample paid time off, in addition to local public holidays
+
+  🍼 Enhanced parental leave
+
+  🧘‍♀️ Health & retirement benefits
+
+  📖 Annual learning & development budget
+
+  🌴 Annual workaways and regular virtual & in-person socials
+
+  🌍 Opportunity to contribute to groundbreaking projects that
+  shape the future of work
+
+  Note: Some benefits may vary depending on location and role
+
+  ⚠️ Mimica will only contact candidates from an @mimica.ai
+  email address. We do not request banking or sensitive
+  personal information during the recruiting process.
+industries:
+  - Artificial Intelligence
+  - Software
+  - Automation
+posted_date: 2026-08-04
+url: "https://builtin.com/job/staff-lead-front-end-engineer/10114277"
+source: Built In

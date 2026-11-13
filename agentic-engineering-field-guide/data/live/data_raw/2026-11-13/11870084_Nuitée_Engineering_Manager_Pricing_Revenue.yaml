@@ -1,0 +1,213 @@
+job_id: 11870084
+title: "Engineering Manager, Pricing & Revenue"
+company: Nuitée
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  About the company
+
+  At Nuitée, we are building the API backbone for the global
+  travel industry. Founded in 2017, Nuitée is on a mission to
+  transform a fragmented travel ecosystem with simple,
+  scalable, and API-first infrastructure—think “Stripe for
+  Travel.”
+
+  By enabling seamless connectivity between hotels, OTAs,
+  fintechs, super-apps, and businesses, some of which are
+  entering the travel market for the first time, Nuitée
+  empowers companies to deliver reliable travel products
+  effortlessly. Our robust platform simplifies complex
+  supplier networks, offering direct access to hotel inventory
+  with better pricing, coverage, and technology.
+
+  With teams across the globe, including hubs in London, New
+  York, San Francisco, Palma de Mallorca and Casablanca,
+  Nuitée has grown into a global infrastructure provider
+  trusted by industry leaders like Hopper, Priceline, Google,
+  and Uber.
+
+  Now backed by leading VCs and world-class investors
+  including leaders from Booking.com, Stripe, and Shopify,
+  Nuitée is positioned to redefine the B2B travel market,
+  streamline operations for hotels, and enable new
+  applications through cutting-edge APIs.
+
+  Nuitée is at the forefront of a revolution—delivering AI-
+  powered, smarter, and more personalized travel experiences
+  for a new era.
+
+  About the role
+
+  Remote in Europe, or hybrid in Barcelona, Dublin, London, or
+  Palma.
+
+  Imagine making a technical decision today and seeing its
+  impact on revenue in days.
+
+  You'll lead engineering for Pricing & Revenue, a core part
+  of Nuitée's hotel booking infrastructure. This is where
+  supplier connectivity, distribution, pricing, and
+  monetisation come together, with engineering decisions
+  directly affecting performance, competitiveness, and margin.
+
+  You'll own the technical direction, architecture,
+  reliability, and delivery of the domain. You'll lead and
+  grow a small engineering team, work closely with Product and
+  Trading, and have the autonomy to decide how to solve
+  problems without approval layers.
+
+  The technical challenge is central. A single hotel search
+  can trigger synchronous queries across around 200 suppliers.
+  We're now building more sophisticated trading capabilities,
+  including a proper pricing engine and automated rebooking,
+  to make better decisions about supply, pricing, and
+  distribution at scale.
+
+  What makes it interesting for you
+
+  - Build something important from scratch. We're developing a
+    proper pricing engine and new trading capabilities on top
+    of an established, revenue-generating platform.
+  - Real technical ownership. You'll make architectural
+    decisions, shape how the domain evolves, and see the
+    commercial impact of your engineering choices.
+  - You stay close to engineering. You'll lead, mentor, and hire
+    engineers while remaining deeply involved in the systems,
+    code, and technical decisions.
+  - You can move fast. Small teams, little red tape, and the
+    freedom to make decisions. You can identify a problem,
+    make a change, and see its impact quickly.
+
+  Nuitée has grown 10x since 2022, was profitable before
+  raising a $48M Series A led by Accel, and works with
+  companies such as Revolut, Grab, Hopper, Priceline, and
+  Sabre. This role comes with meaningful equity, so when we
+  hit our next growth milestones, you get real upside in the
+  company you’re helping build.
+
+  The kind of problems you'll work on
+
+  - How do we build a pricing engine that balances supply,
+    demand, competitiveness, and margin across a complex hotel
+    marketplace?
+  - How do we return competitive rates quickly when each hotel
+    search can involve around 200 supplier connections, with
+    different response times and reliability?
+  - How do we improve hotel search availability, currently
+    around 42%, while ensuring customers can actually fulfil
+    their bookings?
+  - How do we automate rebooking, first for our internal
+    operations and eventually as a product our customers can
+    use?
+
+  This role fits if you
+
+  - Have led, mentored, and grown engineering teams while
+    staying hands-on with architecture, code, and production
+    problems.
+  - Have built or improved marketplace, trading, or optimisation
+    systems, with experience across both supply and demand.
+  - Understand how pricing, inventory, distribution, and
+    fulfilment interact in a marketplace.
+  - Have strong Go experience and deep backend engineering
+    expertise, including distributed systems, high-volume
+    APIs, latency, concurrency, and reliability.
+  - Can translate complex commercial problems into engineering
+    decisions and build systems that deliver measurable
+    outcomes.
+  - Thrive in fast-moving environments where you're expected to
+    take ownership and figure things out.
+
+  Experience with marketplaces involving real-world inventory,
+  such as mobility, delivery, ecommerce, or travel, is
+  particularly valuable.
+
+  Nuitée moves quickly, has little process, and gives people a
+  lot of room to make decisions. You’ll do well here if
+  ambiguity does not slow you down, you like going deep into
+  difficult problems, and you want to be accountable for what
+  your work actually delivers.
+
+  If this sounds like your kind of role, we’d love to hear
+  from you. You can apply with your LinkedIn profile or CV.
+
+  Why Nuitee?
+
+  At Nuitée, we’re not just reimagining travel—we’re building
+  the infrastructure to power it.
+
+  - Massive Market Opportunity: We are tackling the $9.9tn
+    travel industry, starting with the $75 billion B2B hotel
+    market, a fragmented space filled with outdated systems,
+    gatekeepers, and inefficiencies. Nuitée’s API-first
+    platform is solving this, enabling businesses to access
+    hotel inventory seamlessly and at scale.
+  - World-Class Backing: Backed by Accel and visionary leaders
+    across tech and travel—including Booking.com, Stripe, and
+    Shopify—we’re equipped to scale our ambition globally.
+  - Bootstrapped Resilience, Startup Agility: Having grown
+    profitably for years without external funding, we combine
+    operational discipline with the speed and innovation of a
+    scaling startup.
+  - Global Impact: Our infrastructure supports partners like
+    Google, Grab, worldwide fintechs, superapps, travel
+    companies and others
+  - AI-Driven Innovation: Nuitée is uniquely positioned to power
+    the future of travel in the AI era—enabling seamless,
+    intelligent, and hyper-personalized travel interactions.
+
+  By joining Nuitée, you’ll be part of a team that’s building
+  a category-defining platform. You’ll work on a global scale,
+  innovate alongside industry leaders, and help drive the next
+  phase of travel technology. If you’re excited to push
+  boundaries, redefine a multi-trillion-dollar industry, and
+  grow with us—Nuitée is the place for you.
+
+  By submitting your application, you consent to Nuitée
+  processing your personal data for the purposes of assessing
+  your suitability for employment. Your information will be
+  stored securely and will only be retained for as long as
+  necessary for the recruitment process, or up to 6 months
+  afterward, in accordance with our data protection policy and
+  applicable laws. You have the right to request access,
+  correction, or deletion of your personal data at any time by
+  contacting us at careers@nuitee.com. For more details,
+  please see our Privacy Policy: Nuitée Privacy Notice 2026.
+industries:
+  - Information Technology
+  - Software
+  - Travel
+  - Hospitality
+posted_date: 2026-10-26
+url: "https://builtin.com/job/engineering-manager-pricing-revenue/11870084"
+source: Built In

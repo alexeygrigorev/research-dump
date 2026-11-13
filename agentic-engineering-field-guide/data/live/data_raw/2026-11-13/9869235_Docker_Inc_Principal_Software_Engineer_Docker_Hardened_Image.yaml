@@ -1,0 +1,247 @@
+job_id: 9869235
+title: Principal Software Engineer, Docker Hardened Images
+company: Docker, Inc
+location: CAN
+locations:
+  - CAN
+  - USA
+remote: true
+work_type: FULL_TIME
+company_size: 498 Employees
+description: |
+  About Docker
+
+  Docker has been one of the most loved brands in developer
+  tooling, trusted by more than 20 million monthly users and
+  over 20 billion container image pulls. From solo founders to
+  the world's largest companies, developers rely on Docker to
+  build, share, and run their applications across our suite of
+  products including Docker Desktop, Docker Hub, and Docker
+  Scout. We are a globally distributed, remote-first team
+  building the tools that define how software gets built and
+  delivered. As AI agents redefine software development,
+  Docker is at the center of that shift, providing the
+  sandboxed environments, verified images, and secure
+  infrastructure that make autonomous workflows trustworthy by
+  default.
+
+  ____________________________________________________________
+  ___________
+
+  The Role
+
+  Docker Hardened Images (DHI) is Docker's catalogue of
+  security-hardened, enterprise-grade container images and
+  Helm charts, built to be minimal, up-to-date, and safe to
+  deploy in regulated and security-conscious environments.
+  We're looking for a Principal Software Engineer to set the
+  long-term technical direction for this catalogue and shape
+  how the broader container security ecosystem evolves inside
+  and beyond Docker.
+
+  At this level, you'll work across organizations, not just
+  within one team. You'll set direction for major domains,
+  resolve the highest-ambiguity problems in container supply
+  chain security, and grow your impact through architectural
+  leadership, cross-functional alignment, and influence on
+  industry standards. This is a pure individual contributor
+  role; influence comes through technical vision, design, and
+  the ability to move organizations.
+
+  ____________________________________________________________
+  ___________
+
+  Responsibilities
+
+  - Own the architecture for DHI as a platform, making high-
+    leverage decisions that define how images and Helm charts
+    are authored, secured, distributed, and evolved across the
+    entire catalogue and across Docker's broader product
+    surface.
+  - Define and drive multi-quarter technical roadmaps for the
+    container hardening domain, balancing upstream velocity,
+    supply chain security posture, customer compliance
+    requirements, and long-term catalogue scalability.
+  - Identify systemic patterns from customer, operational, and
+    upstream signals and translate them into architectural
+    changes that span the catalogue, not just individual
+    images or charts.
+  - Build alignment across teams and executives on technical
+    strategy, tradeoffs, and sequencing, including product,
+    security, infrastructure, and customer-facing functions.
+  - Represent Docker as a trusted technical voice in
+    escalations, key enterprise customer engagements, and
+    upstream OSS communities on issues that shape the future
+    of secure container delivery.
+  - Set conventions and standards at scale, defining the
+    patterns others build within for image definition, Helm
+    chart adaptation, hardening strategy, and supply chain
+    tooling (Sigstore, SBOM, SLSA), and evolving those
+    standards as the ecosystem changes.
+  - Drive the hardest, most ambiguous packaging problems where
+    the right answer requires reasoning across upstream
+    dynamics, security tradeoffs, multi-arch constraints, and
+    customer impact simultaneously.
+  - Shape the integration test infrastructure and developer
+    tooling strategy so that DHI's engineering platform scales
+    with the catalogue and raises quality across the team.
+  - Mentor and raise the technical ceiling for staff and senior
+    engineers across the org, through review, design, and
+    well-chosen architectural decisions that create durable
+    leverage.
+  - Take part in the paid on-call rotation; respond to
+    incidents, debug production issues, and drive systemic
+    improvements in reliability.
+
+  ____________________________________________________________
+  ___________
+
+  Qualifications
+
+  - 10+ years of backend engineering experience, including
+    extensive work on production-grade, distributed systems at
+    scale.
+  - Bachelor’s degree in Computer Science, Engineering, or a
+    related field, or equivalent practical experience.
+  - Ability to set multi-quarter technical roadmaps and align
+    stakeholders (engineering, product, and executives) on
+    strategy and tradeoffs.
+  - Deep expertise in the container and Kubernetes ecosystem:
+    you have strong, grounded opinions about cert-manager,
+    kyverno, grafana, istio, and similar projects, and you can
+    reason about tradeoffs at the ecosystem level, not just
+    the image level.
+  - Mastery of container supply chain security concepts
+    (provenance, attestation, SBOM, signing, SLSA) and
+    experience driving posture decisions across an
+    organization rather than implementing them on a single
+    project.
+  - Strong software engineering fundamentals: code review,
+    testing, source control, CI/CD, and Go sufficient to shape
+    infrastructure and harness design.
+  - Track record of technical influence without authority across
+    multiple teams or organizations, raising quality through
+    design docs, standards, review, and mentorship.
+  - Experience navigating upstream OSS communities as a
+    decision-maker, representing a downstream organization's
+    requirements and shaping upstream direction on security-
+    relevant issues.
+  - Comfort working across remote, distributed teams and
+    communicating complex technical strategy clearly to both
+    technical and non-technical audiences.
+
+  Bonus but not required
+
+  - Experience as a package maintainer at a Linux distribution,
+    Homebrew, or comparable ecosystem.
+  - Hands-on experience implementing or operationalizing supply
+    chain tooling (Sigstore, SBOM, SLSA) at org scale.
+  - Experience in regulated environments (FedRAMP, FIPS, PCI)
+    with direct exposure to compliance requirements shaping
+    engineering decisions.
+  - Prior Principal or Distinguished IC experience on a
+    platform, security, or developer-tools team.
+  - Experience engaging directly with enterprise customers on
+    container security architecture.
+
+  ____________________________________________________________
+  ___________
+
+  What to ExpectFirst 30 Days
+
+  - Align with leadership on the most critical org-wide
+    technical risks and opportunities in container supply
+    chain security.
+  - Develop a point of view on DHI's current architectural
+    constraints and where the highest-leverage interventions
+    are.
+  - Begin mapping the cross-functional landscape: product
+    priorities, upstream pressures, customer compliance
+    signals, and engineering gaps.
+
+  First 90 Days
+
+  - Drive an architectural decision that unblocks multiple teams
+    and reduces systemic risk across the catalogue.
+  - Establish a feedback loop from customer, operational, and
+    upstream signals into the multi-quarter roadmap.
+  - Engage upstream OSS communities on at least one DHI-relevant
+    issue with meaningful influence on direction.
+
+  First Year
+
+  - Deliver a major platform or standards evolution with broad
+    adoption across DHI and adjacent teams.
+  - Create durable alignment across engineering, product, and
+    security on catalogue architecture, supply chain posture,
+    and hardening strategy.
+  - Raise the technical ceiling for the engineers around you,
+    measurably improving review quality, architectural
+    consistency, and the team's ability to operate
+    independently at a higher level.
+
+  Visa sponsorship: Docker considers visa sponsorship on a
+  case-by-case basis based on business needs.
+
+  ____________________________________________________________
+  ___________
+
+  Compensation & Equity
+
+  All full-time roles include equity. Final compensation is
+  determined on factors including but not limited to
+  experience, skills, qualifications, and location.
+
+  Canada: CA$245,913 – CA$397,139 base
+
+  United States: $180,500 – $291,500 base
+
+  ____________________________________________________________
+  __________
+
+  Posting Information
+
+  - Open vacancy: This posting is for an existing open role.
+  - AI in hiring: Docker may use AI-assisted tools during our
+    recruiting process.
+  - Interview recordings: Candidates will be invited to opt in
+    to interview recordings to support interviewer calibration
+    and consistent evaluations. Recordings are optional and
+    require explicit consent.
+
+  ____________________________________________________________
+  __________
+
+  Perks & Benefits
+
+  - Remote-first by design – Work from your home, with offices
+    in Seattle and Paris for connection and collaboration.
+  - Flexibility that fits your life – We trust you to manage
+    your schedule while delivering great work.
+  - Time to recharge – Generous PTO, designated quarterly
+    Whaleness Days, and a designated end-of-year Whaleness
+    break.
+  - Home office support – Set up your workspace for comfort and
+    success.
+  - Technology stipend – Equivalent to US$100 net per month to
+    help support your work.
+  - Learning & development – Annual stipend for conferences,
+    courses, certifications, and continued learning.
+  - Parental leave – 16 weeks of paid parental leave after six
+    months of employment.
+  - Equity for all full-time employees – Share in Docker's long-
+    term success as we continue to grow.
+  - Comprehensive benefits – Medical, retirement, and paid
+    holidays vary by country.
+  - Docker swag – Because representing the whale never gets old.
+
+  Docker is proud to be an equal opportunity employer. We are
+  committed to building a team that reflects a broad range of
+  backgrounds, experiences, and perspectives. We believe
+  diverse teams build better products, make better decisions,
+  and better serve our global community.
+
+  #LI-REMOTE
+posted_date: 2026-10-26
+url: "https://builtin.com/job/principal-software-engineer-docker-hardened-images/9869235"
+source: Built In

@@ -1,0 +1,213 @@
+job_id: 12235523
+title: Creative Frontend Developer
+company: Bask Health
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 24 Employees
+description: |
+  About Bask Health
+
+  Bask Health is a software platform that enables
+  entrepreneurs, doctors, and healthcare businesses to launch,
+  manage, and grow direct-to-consumer telehealth businesses.
+
+  Our platform brings together patient experiences, clinical
+  workflows, pharmacy operations, and commerce tools in one
+  place.
+
+  We're an entrepreneurial, product-focused engineering team
+  that values ownership, technical excellence, and building
+  software that solves real problems. Engineers work closely
+  with product teams and company leadership, take features
+  from idea to production, and have a direct role in shaping
+  the platform.
+
+  Engineering at Bask is AI-first and builder-led. We use
+  tools like Cursor and Claude Code throughout development
+  while maintaining high standards for reliability, testing,
+  and software quality.
+
+  About the Role
+
+  We're looking for a Creative Frontend Developer to help
+  build visually engaging, interactive, and responsive web
+  experiences across Bask Health's platform.
+
+  This role combines frontend engineering with creative
+  development and strong attention to design. You'll work
+  closely with designers, product managers, and engineers to
+  transform visual concepts into polished, functional websites
+  and application interfaces.
+
+  You'll develop responsive layouts, interactive components,
+  animations, and reusable frontend elements that improve how
+  merchants and users experience Bask's software. Your work
+  may include merchant-facing websites, customizable
+  storefronts, product interfaces, and other digital
+  experiences that require a balance of visual quality and
+  technical performance.
+
+  This position is ideal for someone who enjoys the creative
+  side of frontend development but also understands the
+  importance of clean code, maintainable architecture,
+  accessibility, and performance.
+
+  You'll contribute throughout the development process, from
+  exploring design concepts and building prototypes to
+  implementing production features, troubleshooting issues,
+  and refining user interactions.
+
+  We're looking for someone who cares about visual details,
+  enjoys collaborating with designers, and can turn ambitious
+  ideas into high-quality web experiences that are both
+  attractive and practical.
+
+  What You'll Do
+
+  - Build visually polished and responsive websites and frontend
+    interfaces using React, Next.js, and TypeScript.
+  - Translate design concepts and Figma files into production-
+    ready web experiences.
+  - Develop engaging animations, transitions, and interactive
+    interface elements.
+  - Create reusable frontend components that support consistent
+    design and functionality.
+  - Build responsive layouts that work across desktop, tablet,
+    and mobile devices.
+  - Develop merchant-facing website components and customizable
+    storefront experiences.
+  - Implement interactive elements that improve navigation,
+    usability, and engagement.
+  - Collaborate closely with designers to refine visual details
+    and interaction behavior.
+  - Develop reusable animation patterns and motion components.
+  - Build interactive landing pages and product experiences.
+  - Support the development of website templates and
+    configurable page sections.
+  - Implement smooth scrolling effects, hover interactions, and
+    page transitions where appropriate.
+  - Maintain consistent typography, spacing, colors, and visual
+    hierarchy across interfaces.
+  - Work with product teams to understand user experience goals
+    and design requirements.
+  - Integrate frontend components with APIs and existing
+    application functionality.
+  - Improve frontend performance, rendering efficiency, and
+    loading behavior.
+  - Optimize images, fonts, and other visual assets for web
+    performance.
+  - Ensure responsive behavior and compatibility across modern
+    browsers.
+  - Support accessibility improvements and appropriate reduced-
+    motion behavior.
+  - Develop prototypes to explore new design concepts and
+    interactive features.
+  - Help maintain and improve frontend design systems and
+    component libraries.
+  - Write clean, maintainable, and well-structured frontend
+    code.
+  - Test interactive functionality and troubleshoot visual or
+    behavioral issues.
+  - Participate in code reviews and contribute to frontend
+    engineering best practices.
+  - Collaborate with engineers to integrate creative components
+    into existing applications.
+  - Identify opportunities to improve visual consistency and
+    user experience.
+  - Take ownership of assigned creative development projects
+    from concept through deployment and maintenance.
+
+  Requirements
+
+  - 3+ years of professional experience in frontend development,
+    creative development, design engineering, or a comparable
+    role.
+  - Strong professional experience with JavaScript and
+    TypeScript.
+  - Experience developing modern web applications using React.
+  - Familiarity with Next.js or comparable frontend frameworks.
+  - Strong knowledge of HTML, CSS, and responsive web design.
+  - Experience translating visual designs into functional web
+    interfaces.
+  - Strong understanding of layout, typography, spacing, and
+    visual consistency.
+  - Experience building interactive frontend components and user
+    interfaces.
+  - Experience implementing web animations, transitions, and
+    interactive effects.
+  - Familiarity with modern CSS techniques and component styling
+    approaches.
+  - Understanding of reusable frontend component architecture.
+  - Experience developing responsive interfaces for different
+    screen sizes and devices.
+  - Strong attention to detail when implementing designs.
+  - Familiarity with browser rendering behavior and cross-
+    browser compatibility.
+  - Experience optimizing frontend performance and loading
+    behavior.
+  - Understanding of web accessibility and usability principles.
+  - Experience working with Git and collaborative development
+    workflows.
+  - Ability to write clean, maintainable, and well-organized
+    frontend code.
+  - Experience debugging frontend layout, styling, and
+    interaction issues.
+  - Familiarity with frontend testing and quality assurance
+    practices.
+  - Experience collaborating with designers, product managers,
+    and engineers.
+  - Ability to interpret design requirements and recommend
+    practical implementation approaches.
+  - Strong communication and problem-solving skills.
+  - Ability to independently manage assigned features and
+    development tasks.
+  - Comfort working in a fast-moving, remote engineering
+    environment.
+
+  Nice to Have
+
+  - Experience with GSAP, Framer Motion, or comparable animation
+    libraries.
+  - Familiarity with scroll-driven animations and interactive
+    storytelling.
+  - Experience building highly interactive marketing websites or
+    landing pages.
+  - Experience with Tailwind CSS or modern styling systems.
+  - Familiarity with reusable design systems and component
+    libraries.
+  - Experience developing configurable website templates or page
+    builders.
+  - Experience with Shopify storefronts or other e-commerce
+    website platforms.
+  - Familiarity with white-label or merchant-facing SaaS
+    applications.
+  - Experience with advanced CSS animations and transitions.
+  - Familiarity with SVG animation or Canvas-based effects.
+  - Experience with Three.js or WebGL for lightweight
+    interactive elements.
+  - Experience with design tools such as Figma.
+  - Familiarity with image optimization and responsive asset
+    delivery.
+  - Experience with frontend performance monitoring and Core Web
+    Vitals.
+  - Experience with frontend testing tools such as Playwright or
+    Cypress.
+  - Familiarity with accessibility considerations for animated
+    interfaces.
+  - Experience building reusable motion or interaction
+    libraries.
+  - Experience collaborating on brand-focused digital
+    experiences.
+  - Experience with content management systems or structured
+    content models.
+  - Experience using AI-assisted development tools such as
+    Cursor or Claude Code.
+industries:
+  - Healthtech
+  - Internet of Things
+  - Hospitality
+  - Telehealth
+posted_date: 2026-11-13
+url: "https://builtin.com/job/creative-frontend-developer/12235523"
+source: Built In

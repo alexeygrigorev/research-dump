@@ -1,0 +1,195 @@
+job_id: 12245070
+title: Senior Software Engineer, Full Stack
+company: Microsoft
+location: Redmond, USA
+work_type: FULL_TIME
+company_size: 206,870 Employees
+description: |
+  Overview
+
+  Senior Software Engineer - Full Stack, AI & Platform
+  Modernization Microsoft | Engineering Workforce Strategy &
+  Operations
+
+  Build intelligent enterprise applications that help
+  Microsoft make better decisions about its engineering
+  investments.
+
+  Our Engineering Workforce Strategy & Operations team
+  develops platforms that connect workforce planning, resource
+  allocation, and business insights. We are looking for a
+  hands-on Senior Software Engineer to help evolve these
+  experiences through full-stack engineering, cloud-native
+  services, and practical applications of AI.
+
+  You will design, code, test, and operate the Resource
+  Allocation Management Platform (RAMP). Your work will span
+  React interfaces, backend services, APIs, Dataverse
+  extensions, enterprise integrations, and automated
+  workflows. You will solve technical challenges in
+  distributed processing, data consistency, performance,
+  identity, and reliable software delivery.
+
+  This role combines the opportunity to build new capabilities
+  with the engineering challenge of modernizing an established
+  platform. You will make thoughtful architectural choices
+  across custom software and Microsoft Power Platform,
+  simplifying complex workflows and delivering improvements
+  incrementally while maintaining business continuity.
+
+  AI is central to both the product opportunity and our
+  engineering approach. You will build AI-assisted and agent
+  experiences grounded in secure, governed data, and use AI-
+  powered development tools to improve how we design, build,
+  test, and operate software.
+
+  This is a hands-on engineering individual-contributor role.
+  You will own technical design, implementation, testing, and
+  operational quality, partnering with product management on
+  requirements and priorities.
+
+  Microsoft’s mission is to empower every person and every
+  organization on the planet to achieve more. As employees we
+  come together with a growth mindset, innovate to empower
+  others, and collaborate to realize our shared goals. Each
+  day we build on our values of respect, integrity, and
+  accountability to create a culture of inclusion where
+  everyone can thrive at work and beyond.
+
+  Responsibilities
+
+  - Build across the stack. Write and maintain production code
+    for web interfaces, backend services, APIs, Dataverse
+    plugins, custom components, and integrations. Translate
+    product requirements into technical designs and own
+    implementation, automated testing, deployment, and
+    production operation.
+  - Lead platform modernization. Evolve application architecture
+    and business workflows using the right combination of
+    custom services, Dataverse, Power Apps, and Power
+    Automate. Develop reusable components and clear service
+    boundaries that improve maintainability, extensibility,
+    and reliability.
+  - Lead architecture and technical execution. Define service
+    boundaries, API contracts, data models, and migration
+    patterns. Validate designs through prototypes and
+    performance tests.
+  - Engineer resilient integrations. Build secure, observable
+    connections across enterprise systems. Apply sound
+    patterns for asynchronous processing, validation, retries,
+    idempotency, and reconciliation to protect data integrity
+    and business continuity.
+  - Deliver trustworthy AI experiences. Develop AI-assisted
+    applications and agent integrations that help users find
+    information, gain insights, and complete supported
+    workflows. Incorporate evaluation, permission-aware
+    access, auditability, and appropriate human oversight.
+  - Own quality and operational excellence. Strengthen automated
+    testing, CI/CD, environment management, telemetry, and
+    release practices. Investigate production issues, address
+    root causes, and improve service performance and
+    reliability.
+  - Embed security and privacy. Apply secure engineering
+    practices, least-privilege access, and appropriate data
+    controls throughout the development lifecycle.
+  - Raise the engineering bar. Lead design and code reviews,
+    mentor engineers, and improve shared libraries, developer
+    tooling, and test infrastructure. Partner with product
+    management to clarify requirements, provide engineering
+    estimates, and communicate technical dependencies and
+    delivery risks.
+
+  Qualifications Required Qualifications
+
+  - Bachelor's Degree in Computer Science or related technical
+    field AND 4+ years technical engineering experience with
+    coding in languages including, but not limited to, C, C++,
+    C#, Java, JavaScript, or Python
+    - OR equivalent experience.
+
+  Other Requirements: Ability to meet Microsoft, customer
+  and/or government security screening requirements are
+  required for this role. These requirements include but are
+  not limited to the following specialized security
+  screenings:
+
+  - Microsoft Cloud Background Check: This position will be
+    required to pass the Microsoft Cloud background check upon
+    hire/transfer and every two years thereafter.
+
+  Preferred Qualifications
+
+  - Solid software development experience with languages such as
+    C#, Java, JavaScript/TypeScript, Python, or equivalent.
+  - Experience delivering and operating production applications
+    across frontend, backend, API, and data layers.
+  - Experience in software design, data modeling, automated
+    testing, debugging, source control, and secure
+    development.
+  - Demonstrated ownership of complex engineering work from
+    problem definition through production delivery.
+  - Ability to collaborate across technical and business teams
+    and explain architectural choices and trade-offs.
+  - Proficiency in C#/.NET, React, and JavaScript/TypeScript, or
+    comparable technologies.
+  - Experience extending Dataverse and Power Apps through APIs,
+    plugins, custom components, or connectors, and developing
+    maintainable Power Automate workflows.
+  - Experience modernizing business-critical applications and
+    integrating custom software with enterprise platforms.
+  - Experience with Azure services, event-driven architectures,
+    relational databases, and distributed-system reliability.
+  - Experience building or evaluating AI-powered applications,
+    agents, or tool integrations.
+  - Effective use of AI-assisted engineering tools such as
+    GitHub Copilot to accelerate development while maintaining
+    code quality and validation.
+  - Experience with CI/CD, infrastructure as code,
+    observability, performance analysis, and production
+    incident response.
+  - Familiarity with Microsoft Fabric, Power BI, or semantic-
+    model integration.
+  - A track record of technical mentorship and collaborative
+    delivery in teams with diverse perspectives and expertise.
+
+
+
+  Software Engineering IC4 - The typical base pay range for
+  this role across the U.S. is USD $119,800 - $234,700 per
+  year. There is a different range applicable to specific work
+  locations, within the San Francisco Bay area and New York
+  City metropolitan area, and the base pay range for this role
+  in those locations is USD $160,200 - $261,000 per year.
+
+
+
+  Certain roles may be eligible for benefits and other
+  compensation. Find additional benefits and pay information
+  here: https://careers.microsoft.com/us/en/us-corporate-pay
+
+  This position will be open for a minimum of 5 days, with
+  applications accepted on an ongoing basis until the position
+  is filled.
+
+  Microsoft is an equal opportunity employer. All qualified
+  applicants will receive consideration for employment without
+  regard to age, ancestry, citizenship, color, family or
+  medical care leave, gender identity or expression, genetic
+  information, immigration status, marital status, medical
+  condition, national origin, physical or mental disability,
+  political affiliation, protected veteran or military status,
+  race, ethnicity, religion, sex (including pregnancy), sexual
+  orientation, or any other characteristic protected by
+  applicable local laws, regulations and ordinances. If you
+  need assistance with religious accommodations and/or a
+  reasonable accommodation due to a disability during the
+  application process, read more about requesting
+  accommodations.
+industries:
+  - Software
+  - Quantum Computing
+  - Metaverse
+  - Infrastructure as a Service (IaaS)
+posted_date: 2026-11-13
+url: "https://builtin.com/job/senior-software-engineer-full-stack/12245070"
+source: Built In

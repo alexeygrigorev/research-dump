@@ -1,0 +1,83 @@
+job_id: 12150543
+title: Senior Backend Developer- .NET
+company: Charger Logistics
+location: Brampton, CAN
+work_type: FULL_TIME
+company_size: 615 Employees
+description: |
+  Charger logistics Inc. is a world- class asset-based carrier
+  with locations across North America. With over 20 years of
+  experience providing the best logistics solutions, Charger
+  logistics has transformed into a world-class transport
+  provider and continue to grow.
+
+  We are seeking a skilled and performance-minded .Net Core
+  Developer to support and evolve our distributed system of
+  over 100 microservices, built primarily with .NET Core and
+  PostgreSQL. The ideal candidate has deep experience in
+  backend development, service-to-service communication, and
+  infrastructure-level tools like service mesh, and
+  observability platforms. You will work closely with DevOps,
+  QA, and frontend teams to ensure high availability,
+  scalability, and maintainability of our services.
+
+  Responsibilities:
+
+  - Design, develop, and optimize high-performance backend
+    microservices using .NET Core/C#.
+  - Implement distributed tracing, logging, and metrics for
+    observability using tools like OpenTelemetry, Prometheus,
+    and Grafana.
+  - Optimize service-to-service communication and database
+    access to reduce latency and improve throughput.
+  - Write scalable SQL queries and optimize PostgreSQL usage,
+    indexing, and connection handling.
+  - Contribute to service discovery, dynamic routing, and
+    rollout strategies (e.g., blue/green, canary).
+  - Collaborate with QA to improve testability and traceability
+    in a distributed system.
+  - Participate in architecture reviews and contribute to best
+    practices for microservices at scale.
+  - Maintain CI/CD integration pipelines and ensure backend
+    services deploy reliably.
+  - Troubleshoot and debug production issues using logs, traces,
+    metrics, and profiling tools.
+
+  Requirements
+
+  - 7+ years of backend development experience, including 2+
+    years in a microservices environment.
+  - Strong hands-on experience with .NET Core (C#) and
+    PostgreSQL.
+  - Experience with distributed tracing, metrics, and log
+    aggregation tools (e.g., Jaeger, Prometheus, Loki,
+    Grafana).
+  - Deep understanding of REST, gRPC, and asynchronous messaging
+    patterns (e.g., Kafka, RabbitMQ).
+  - Familiarity with Kubernetes, Docker, and container-based
+    deployments.
+  - Understanding of software performance profiling,
+    benchmarking, and optimization.
+  - Strong grasp of service resilience patterns: timeouts,
+    retries, bulkheads, circuit breakers.
+  - Excellent problem-solving and debugging skills in large-
+    scale systems.
+
+  Preferred Qualifications
+
+  - Experience working with Istio, Consul, or another service
+    mesh.
+  - Familiarity with Event Sourcing, CQRS, and DDD patterns.
+  - Exposure to Infrastructure as Code tools (Terraform, Helm).
+  - Experience with other databases like Redis, MongoDB, or
+    TimescaleDB.
+  - Knowledge of cloud platforms like AWS, Azure, or GCP.
+
+  Benefits
+
+  - Competitive Salary
+  - Healthcare Benefit Package
+  - Career Growth
+posted_date: 2026-11-10
+url: "https://builtin.com/job/senior-backend-developer-net/12150543"
+source: Built In

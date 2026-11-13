@@ -1,0 +1,94 @@
+job_id: 11953804
+title: Senior Software Engineer (m/w/d)
+company: Pflegia
+location: Berlin, DEU
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  At Pflegia we build and operate an intelligent job matching
+  platform that brings caregivers and healthcare employers
+  together. Our vision is to become Europe's leading job
+  platform for nursing professions and to fight the nursing
+  crisis. Our platform runs in production every day: a
+  TypeScript monorepo, a matching engine, our own data lake
+  and an end-to-end suite that runs on every pull request. AI
+  coding agents are part of how we build it. We are looking
+  for a senior engineer who uses them to ship more, and who
+  knows exactly where their output must not be trusted. Become
+  part of the team and shape the nursing job market with us.
+  Tasks * Take full ownership of features from concept to
+  production, across frontend, backend, data and
+  infrastructure, in short iteration cycles. * Work with AI
+  coding agents every day: break work into steps an agent can
+  execute, give it the context and constraints it needs, and
+  review its output as critically as a colleague's pull
+  request. * Build the guardrails that make AI-assisted
+  development safe at speed: types, tests, lint rules, CI
+  checks and review conventions that catch what an agent gets
+  wrong before a user does. * Keep the codebase legible for
+  humans and agents alike: clear module boundaries, documented
+  conventions, small focused changes. * Architect scalable,
+  secure and maintainable software and infrastructure, and
+  shorten the path from merged pull request to production,
+  which today is measured in days rather than hours. *
+  Instrument what you ship. Every behaviour-changing release
+  comes with the metric that tells us whether it worked.
+  Within 90 days we expect one improvement you shipped and
+  measured, with a baseline, a number and a read you can
+  defend. * Conduct code reviews and mentor colleagues,
+  including on how to work effectively with AI tools, raising
+  the whole team to the next level. * Collaborate with
+  product, QA and the data team, and communicate trade-offs,
+  progress and risks clearly to stakeholders. Requirements ###
+  Must have * 5+ years of professional software development,
+  with production full-stack TypeScript experience. * Great
+  TypeScript and SQL skills. Our stack: React, react-admin,
+  Next.js, NestJS, GraphQL (Apollo), TypeORM and PostgreSQL in
+  an Nx monorepo. * Hands-on experience shipping production
+  code with AI coding agents (we use Claude Code; Cursor,
+  GitHub Copilot or similar count too). In the interview you
+  can show how you give an agent context, how you verify its
+  work, and when you throw the output away. * Testing as a
+  habit, not a phase: unit and integration tests (Jest, Vitest
+  or similar) and a working understanding of end-to-end
+  testing (we use Playwright). With agents writing code, tests
+  are the specification. * Very good knowledge of security
+  best practices, including the risks AI tooling adds: secrets
+  and personal data in prompts, hallucinated or unvetted
+  dependencies, plausible-looking but wrong code. * Cloud and
+  delivery experience with AWS and Vercel, CI/CD with GitHub
+  Actions. * Agile and Scrum working practices, good time
+  management and organizational skills. * Excellent verbal and
+  written communication and conceptualization skills in
+  English (German is a plus). ### Nice to have * Building with
+  LLMs inside the product, not only in the editor: prompt
+  design, evaluation, cost and latency trade-offs. * Agent
+  tooling beyond autocomplete: custom instructions, skills,
+  MCP servers, or automations that let agents run tests, read
+  logs and open pull requests. * Data engineering (ETL) and
+  data analytics. Our data lake runs on AWS Athena, and the
+  engineers who enjoy this role usually query it themselves. *
+  Observability with Datadog or similar: logs, RUM and metrics
+  you actually look at after a release. * Matching or
+  recommendation systems, or two-sided marketplaces. Benefits
+  * Real ownership. Flat hierarchies with short decision
+  paths: you will not need a committee to ship. * AI coding
+  tools provided and expected, with room to shape how the team
+  uses them. * Direct access to the data: our own data lake,
+  dashboards and product analytics, so you can check the
+  effect of your own work. * Budget and room for experiments
+  that are allowed to fail, provided the expected outcome was
+  defined up front. * Regular feedback conversations with
+  empathic and experienced leadership. * An open corporate
+  culture with helpful, communicative colleagues and a
+  genuinely cooperative working atmosphere. * Central Berlin
+  office in a beautiful old building, plus flexible remote.
+industries:
+  - Healthtech
+  - HR Tech
+  - Professional Services
+  - Software
+posted_date: 2026-10-29
+url: "https://builtin.com/job/senior-software-engineer-m-w-d/11953804"
+source: Built In

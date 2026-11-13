@@ -1,0 +1,206 @@
+job_id: 11561662
+title: Software Engineering Manager - SATCOM
+company: Peraton
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 18,000 Employees
+description: |
+  Peraton Overview
+
+  Peraton is a next-generation national security company that
+  drives missions of consequence spanning the globe and
+  extending to the farthest reaches of the galaxy. As the
+  world’s leading mission capability integrator and
+  transformative enterprise IT provider, we deliver trusted,
+  highly differentiated solutions and technologies to protect
+  our nation and allies. Peraton operates at the critical
+  nexus between traditional and nontraditional threats across
+  all domains: land, sea, space, air, and cyberspace. The
+  company serves as a valued partner to essential government
+  agencies and supports every branch of the U.S. armed forces.
+  Each day, our employees do the can’t be done by solving the
+  most daunting challenges facing our customers. Visit
+  peraton.com to learn how we’re keeping people around the
+  world safe and secure.
+
+  Responsibilities
+
+  Peraton is delivering advanced mission planning, digital
+  engineering, and command-and-control capabilities supporting
+  the U.S. Government’s space communications enterprise. Our
+  team uses modern MBSE practices to translate mission needs
+  into precise, traceable, and verifiable technical
+  requirements across a complex, multi-system environment.
+
+  As a Software Engineering Manager, you will manage and grow
+  a team of software engineers while contributing directly to
+  the design and delivery of core platform services supporting
+  secure, scalable, and reliable satellite ground
+  communications and data-transport capabilities. You will
+  combine hands-on software development with direct people
+  management—coaching engineers, driving career growth,
+  leading hiring, and managing performance—while fostering
+  engineering best practices to ensure resilient,
+  maintainable, and compliant solutions for U.S. Government
+  missions.
+
+  In this role, you will serve as a senior technical
+  contributor and engineering lead, providing technical
+  direction to software developers while remaining hands-on in
+  architecture, design, development, integration, and
+  troubleshooting. You will collaborate closely with systems
+  engineering, MBSE, cybersecurity, test, DevSecOps, and
+  customer stakeholders to ensure software solutions align
+  with system requirements, architectural objectives, security
+  requirements, and overall program goals.
+
+  What you’ll do:
+
+  - Drive end‑to‑end architecture and implementation of
+    cloud‑native services by leading multi‑tenant AWS platform
+    design, defining microservice and integration patterns,
+    setting scalable and secure engineering standards, and
+    delivering robust APIs, microservices, and backend
+    capabilities.
+  - Contribute directly to full-stack software development while
+    guiding team delivery through code reviews, peer
+    mentoring, and engineering best practices to maintain
+    high-quality, reliable solutions.
+  - Oversee line management responsibilities—including staffing,
+    performance reviews, career development, and daily team
+    operations—to build a collaborative, accountable, and
+    growth-oriented engineering culture.
+  - Translate business, mission, and system requirements into
+    software architectures, technical specifications,
+    implementation strategies, and development priorities.
+  - Work closely with Model-Based Systems Engineering (MBSE),
+    Systems Engineering, Cybersecurity, and Test teams to
+    maintain traceability and alignment between requirements,
+    models, software implementation, and verification
+    activities.
+  - Lead and contribute to backend development using Python,
+    including APIs, automation logic, data-processing
+    capabilities, and platform-level services.
+  - Guide the design and development of user interfaces and
+    reusable frontend components that provide consistent,
+    accessible, scalable, and maintainable application
+    functionality.
+  - Define and implement secure authentication, authorization,
+    and role-based access-control mechanisms across
+    applications and services.
+  - Lead end‑to‑end integration, deployment, and production-
+    support efforts by coordinating software integration with
+    customers and mission partners, partnering with DevSecOps
+    to enhance CI/CD and operational tooling, and driving
+    structured investigation and resolution of complex
+    software and production issues.
+  - Identify technical risks, architectural gaps, and software
+    dependencies and develop mitigation strategies to support
+    successful program execution.
+  - Evaluate emerging technologies, frameworks, and
+    architectural approaches and recommend solutions
+    appropriate for secure U.S. Government mission
+    environments.
+  - Solve complex technical challenges associated with secure,
+    highly available, and scalable satellite communications
+    and ground-system infrastructure.
+
+  Qualifications
+
+  Required qualifications:
+
+  - 12+ years of experience, may have prior supervisory or
+    management experience.
+  - This position requires the candidate to possess a minimum of
+    Secret clearance. The candidate must maintain the
+    clearance.
+  - Proficiency in Python for backend systems and API
+    development, with experience in microservice
+    architectures, backend service development, and
+    asynchronous messaging using technologies such as
+    PostgreSQL, Kafka, OAuth 2.0, JWT, and Unix shell
+    scripting.
+  - Experience designing, implementing, and optimizing
+    relational databases and SQL‑based capabilities, including
+    triggers, functions, and stored procedures.
+  - Experience implementing authentication and authorization
+    mechanisms, including RBAC, ABAC, OAuth 2.0, JWT, and
+    applying Zero Trust software development principles.
+  - Proficiency in modern front‑end development using
+    TypeScript, Vite, and contemporary practices such as
+    component‑based architecture, state management,
+    application routing, and responsive design.
+  - Experience with Git‑based source control (Git, GitHub),
+    structured code reviews, CI/CD pipelines, and automated
+    testing practices, including unit testing, integration
+    testing, and automated test workflows.
+  - Experience investigating and resolving production issues in
+    operational environments and supporting deployment
+    operations using Docker, Kubernetes, and Helm.
+  - Working knowledge of PKI concepts and experience delivering
+    software on at least one major commercial cloud platform
+    such as AWS, Azure, or GCP.
+
+  Desired qualifications:
+
+  - Ability to effectively collaborate with MBSE and Test
+    engineering teams.
+  - Ability to prepare and present technical designs and
+    recommendations to cross‑functional stakeholders.
+  - Ability to engage with end‑users to clarify requirements or
+    support implementation activities.
+  - Ability to learn new tools, technologies, or frameworks in
+    support of evolving project needs.
+
+  Benefits:
+
+  At Peraton, our benefits are designed to help keep you at
+  your best beyond the work you do with us daily. We’re fully
+  committed to the growth of our employees. From fully
+  comprehensive medical plans to tuition reimbursement,
+  tuition assistance, and fertility treatment, we are there to
+  support you all the way.
+
+  Target Salary Range$135,000 - $216,000. This represents the
+  typical salary range for this position. Salary is determined
+  by various factors, including but not limited to, the scope
+  and responsibilities of the position, the individual’s
+  experience, education, knowledge, skills, and competencies,
+  as well as geographic location and business and contract
+  considerations. Depending on the position, employees may be
+  eligible for overtime, shift differential, and a
+  discretionary bonus in addition to base pay. Benefits
+  Statement
+
+  Peraton offers eligible employees a variety of benefits
+  including medical, dental, vision, life, health savings
+  account, short/long term disability, EAP, parental leave,
+  401(k), paid time off (PTO) for vacation, and company paid
+  holidays. A full listing of available benefits can be viewed
+  at https://www.careers.peraton.com/benefits.
+
+  Application StatementsThe application period for the job is
+  estimated to be 30 days from the job posting date. However,
+  this timeline may be shortened or extended depending on
+  business needs and the availability of qualified candidates.
+  By applying to this job, you are expressing interest in the
+  role and the Company. During the review of your application,
+  you may be required to participate in an on-camera
+  interview, as well as participate in a process to verify
+  your identity. Use of artificial intelligence (AI) tools of
+  any kind during Peraton interviews is strictly prohibited
+  unless the candidate has obtained prior written
+  authorization. All interview responses must be the
+  candidate’s own. EEOEEO: Equal opportunity employer,
+  including disability and protected veterans, or other
+  characteristics protected by law.
+industries:
+  - Aerospace
+  - Information Technology
+  - Security
+  - Cybersecurity
+  - Defense
+posted_date: 2026-10-07
+url: "https://builtin.com/job/software-engineering-manager-satcom/11561662"
+source: Built In

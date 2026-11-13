@@ -1,0 +1,224 @@
+job_id: 12184873
+title: "Senior Software Engineer (Backend): Treasury Automation"
+company: BVNK
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 320 Employees
+description: |
+  About us:
+
+  BVNK is the stablecoin-powered financial stack for
+  enterprises. We're now part of Mastercard, and together
+  we're building a network for every form of money – one that
+  delivers more reach, more capability and more choice.
+
+  We enable businesses to build financial products, unlock new
+  markets, and move money in seconds across 130+ countries,
+  with 40+ licenses for fiat and digital assets globally.
+  Processing billions annually, we empower enterprises
+  worldwide to send, receive, convert, and settle stablecoins
+  and fiat seamlessly through a single integration.
+
+  Our mission is to accelerate global money movement, and
+  we're assembling a world-class team to make it happen.
+
+  Trusted by industry leaders like Corpay, Worldpay, Deel, and
+  Flywire, we deliver the infrastructure that makes new forms
+  of money usable within the financial systems customers
+  already rely on today.
+
+  By combining Mastercard's global payment reach and trusted
+  networks with BVNK's stablecoin infrastructure, we're
+  building the trusted operating layer for the evolution of
+  money movement, helping customers participate in emerging
+  digital networks without having to rebuild their businesses
+  around every new innovation.
+
+  We're a diverse team spread across EMEA, North America, and
+  APAC, with a shared belief that stablecoins are the new
+  infrastructure layer for financial services, and that BVNK
+  is at the forefront of this shift.
+
+  We're incredibly honored to have been recognized by:
+
+  - CNBC World's Top Fintech Companies (2026)
+  - FXC Intelligence Top 100 Cross-border Payment Companies
+    (2026)
+  - Newsweek's The Top 100 Global Most Loved Workplaces (three
+    years running, most recently 2025)
+  - LinkedIn as one of the Top 20 Startups in the UK (2025)
+
+  Location: We offer a Hybrid/Remote working policy.
+
+  Function: Engineering
+
+  About the team
+
+  Treasury Automation builds the control layer for how money
+  moves at BVNK. Every day, client and company funds flow
+  across banks, blockchains and liquidity providers, in fiat
+  and digital assets, through regulated entities in several
+  jurisdictions. Our platform keeps that money in the right
+  place, in the right structure and on the right rail, so it’s
+  available when it’s needed, settled when it’s owed, and
+  protected when it belongs to clients.
+
+  The platform turns treasury policy into automation. It
+  decides when funds need to move, moves them, and proves that
+  every movement is correct.
+
+  What you'll do
+
+  - Build liquidity management: track positions across every
+    account, venue and chain, and rebalance funds
+    automatically
+  - Power accurate, on-time settlement with liquidity providers
+    and partners
+  - Automate safeguarding and segregation of client funds across
+    entities and jurisdictions
+  - Evolve the treasury rules engine that turns policy into fund
+    movements, for BVNK and Layer1 customers
+  - Design event-driven services and long-running Temporal
+    workflows: idempotent, traceable until confirmed and
+    auditable to the standard regulators expect
+  - Own production: observability, alerting, runbooks and on-
+    call for systems that move real money
+  - Act as a technical leader: shape designs, raise the bar in
+    code review, mentor engineers and help the Tech Lead set
+    direction
+
+  What you'll bring
+
+  - Strong backend experience in Java/Kotlin building
+    distributed systems in production
+  - Hands-on experience with event-driven architecture (Kafka or
+    similar) and workflow orchestration (Temporal or similar)
+  - A track record of building financially critical systems
+    where correctness, idempotency and reconciliation matter
+  - Understanding of money movement: payments, settlement,
+    liquidity or treasury, across fiat and/or crypto
+  - Comfort with cloud-native tooling (Kubernetes, ArgoCD,
+    Grafana) and SQL/data warehouses
+  - Experience leading designs across teams and turning unclear
+    business needs from treasury users into clean systems
+  - Bonus: FinTech and payments: Experience in payments, banking
+    or other regulated financial services.
+
+  What we need from you:
+
+  - 5+ years of backend engineering experience in Java/Kotlin
+    with Spring Boot.
+  - Strong distributed systems fundamentals — experience
+    building microservices with event-driven architectures
+    (Kafka, SQS), relational databases (MySQL/PostgreSQL), and
+    caching (Redis).
+  - Experience with account or wallet systems — you've built or
+    maintained systems that manage account/wallet lifecycle,
+    state machines, or financial entity management where
+    correctness and auditability are non-negotiable.
+  - Solid grasp of domain-driven design and hexagonal
+    architecture — you can model complex domains cleanly,
+    define bounded contexts, and build services with well-
+    defined boundaries and interaction modes.
+  - API design skills — experience designing and evolving
+    RESTful APIs that serve both internal services and
+    external customers, with attention to backwards
+    compatibility and developer experience.
+  - Collaborative and proactive communication — you work
+    effectively with product managers, operations teams, and
+    cross-domain engineers. You're comfortable operating
+    across time zones in a remote-first setup.
+  - Production ownership mentality — experience with on-call,
+    incident response, and operational monitoring (Grafana,
+    Prometheus, Micrometer). You take pride in the reliability
+    of systems you build.
+  - Familiarity with CI/CD pipelines, infrastructure-as-code,
+    and observability tooling.
+  - Open to participate in out of hours on call rota
+
+  Nice to have:
+
+  - Experience with multi-tenant architectures and tenant
+    migration patterns.
+  - Background in embedded finance, BaaS, or payment platforms
+    serving B2B2C models.
+  - Familiarity with database migrations in high-throughput
+    systems.
+  - Experience with dynamic validation engines or
+    capabilities/feature-flag systems.
+  - Experience with stablecoin, crypto, or blockchain-adjacent
+    products.
+
+  What you can expect from us:
+
+  - Fair and competitive salary at every stage of your growth
+  - Flexible working hours, with hybrid working at its heart
+  - A culture built on passionate, growth-minded people
+  - A flexible approach to holiday
+  - Opportunities to travel to our offices around the world
+  - An open and creative environment where you can help us
+    define the future of BVNK, its culture, and its
+    opportunity sets
+
+  At BVNK, we are focused on building a diverse and inclusive
+  team. While you may not meet all of our requirements, we’d
+  encourage you to apply if you meet the majority of our
+  expectations. You may be a great fit for this role or
+  another role in our team.
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Bulgaria Salary Range
+
+  €85.000—€95.000 EUR
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Spain Salary Range
+
+  €95.000—€105.000 EUR
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Poland Salary Range
+
+  350 000 zł—420 000 zł PLN
+industries:
+  - Fintech
+  - Payments
+  - Financial Services
+posted_date: 2026-11-12
+url: "https://builtin.com/job/senior-software-engineer-backend-treasury-automation/12184873"
+source: Built In

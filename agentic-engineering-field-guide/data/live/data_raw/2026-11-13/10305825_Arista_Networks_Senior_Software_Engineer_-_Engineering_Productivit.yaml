@@ -1,0 +1,141 @@
+job_id: 10305825
+title: Senior Software Engineer - Engineering Productivity
+company: Arista Networks
+location: POL
+remote: true
+work_type: FULL_TIME
+company_size: 2,867 Employees
+description: |
+  Company Description
+
+  Arista Networks is an industry leader in data-driven,
+  client-to-cloud networking for large data center, campus and
+  routing environments. What sets us apart is our relentless
+  pursuit of innovation. We leverage the latest advancements
+  in cloud computing, artificial intelligence, and software-
+  defined networking to provide our clients with a competitive
+  edge in an increasingly interconnected world. Our solutions
+  are designed to not only meet the current demands of the
+  digital landscape but to also anticipate and adapt to future
+  challenges.
+
+  At Arista we value the diversity of thought and perspectives
+  that each employee brings to the table. We believe that
+  fostering an inclusive environment, where individuals from
+  various backgrounds and experiences feel welcome, is
+  essential for driving creativity and innovation.
+
+  Our commitment to excellence has earned us several
+  prestigious awards, such as Best Engineering Team, Best
+  Company for Diversity, Compensation, and Work-Life Balance.
+  At Arista, we take pride in our track record of success and
+  strive to maintain the highest standards of quality and
+  performance in everything we do.
+
+  Job Description
+
+  Who You’ll Work With
+
+  Working in Engineering Productivity (EngProd), you will
+  collaborate and work with other engineers to design, build,
+  scale, and operate the systems that the rest of Arista’s
+  development teams use. The EngProd team uses industry-
+  standard systems like Ansible, Jenkins, Kubernetes, Grafana,
+  Spinnaker, MySQL, ElasticSearch, Google Cloud, and Varnish
+  and also internal systems that we’ve built from the ground-
+  up to automate CI/CD, testing, analysis, and visualization.
+  We believe observability is one of the cornerstones of a
+  stable system, and endeavor to make sure we can monitor and
+  visualize all aspects of our tooling and infrastructure.
+
+  Arista Software Engineering roles demand a strong and broad
+  software engineering background. While the primary focus
+  area for this role is EngProd, the role will not be limited
+  to any single aspect of software development at Arista. It
+  will cover all aspects of software development spanning the
+  addition of new features, debugging problems and fine tuning
+  code for scalability and performance. You will own your
+  projects from definition to deployment and customer
+  interactions, and you will be responsible for the quality of
+  everything you deliver.
+
+  Arista Software Engineering prides itself on a supportive
+  and growth oriented culture. Over time, as your interests
+  change, coupled with evolving business needs you will have
+  the opportunity to switch from EngProd to other areas, if
+  you like.
+
+  What You'll Do
+
+  - Building, integrating and maintaining tools and
+    infrastructure facilitating internal development and
+    testing.
+  - Improve maintainability of build system
+  - Evaluate new tools
+  - Improve speed of information back to the development team
+    within the build systems and processes
+  - Troubleshoot and resolve systems and network issues.
+  - Adherence to infrastructure-as-code principles.
+  - Proactively ensure the highest levels of systems and
+    infrastructure availability.
+  - Participate in the design and implementation of new systems
+    and infrastructure projects.
+
+  Qualifications
+
+  Essential Skills
+
+  - Minimum 4+ years commercial experience in this space as a
+    DevOps / SRE Engineer
+  - Solid experience with Jenkins and GitHub, ideally with a
+    background/understanding of the Atlassian stack of
+    products (Confluence/Jira/Bamboo/Bitbucket)
+  - UNIX / Linux systems administration (preferably
+    RedHat/CentOS).
+  - Scripting with Python or Bash or experience at least one
+    high level language such as Go, C++, etc..
+  - Experience with containerization and container orchestration
+    (e.g. Docker, Kubernetes).
+  - Experience with (CI/CD) orchestration and software
+    configuration management tools (e.g. Ansible, Puppet,
+    Salt, Chef).
+  - Ability to work in a fast paced and agile development
+    environment.
+  - Excellent communication and documentation skills.
+  - Working knowledge/experience with Makefile/make
+
+   Desired Skills
+
+  - BS/MS degree in Computer Science or a relevant experience
+    subject.
+  - Experience with monitoring systems (e.g. Zabbix, Nagios,
+    Prometheus, DataDog).
+  - Experience with relational databases (e.g. MySQL,
+    PostgreSQL)
+  - Experience with virtualization technologies (e.g. VMware,
+    XenServer, RHEV, QEMU/KVM).
+  - Experience with any of the following: Elasticsearch,
+    InfluxDB, Grafana, Artifactory.
+  - Exposure to FPGA build projects
+  - Exposure or experience with Vivado (Xilinx)
+
+  Benefits
+
+  - Global company and market leader
+  - Fantastic workplace culture
+  - Central CBD location with flexible working arrangements
+  - Great career prospects
+  - Excellent facilities with modern tools of the trade
+  - Breakout areas/free coffees at local cafe/table
+    tennis/foosball/regular team events
+
+  #LI-SZ1
+
+  Additional Information
+industries:
+  - Cloud
+  - Software
+  - Analytics
+posted_date: 2026-08-17
+url: "https://builtin.com/job/senior-software-engineer-engineering-productivity/10305825"
+source: Built In
