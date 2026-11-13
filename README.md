@@ -7,7 +7,8 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 | Area | What it is | Status |
 |---|---|---|
 | [courses/ai-engineering-school-germany](courses/ai-engineering-school-germany/README.md) | Solo online AI education programme: demand research, curriculum options, AZAV, economics and 2026 expense planning | **Active research** — April 2027 target; demand and approvals not yet established |
-| [courses/product-shipping](courses/product-shipping/README.md) | Maven course "Product Shipping with AI": course plan, marketing calendar, Maven copy, lead magnets, guest research, interview playbook | **Active** — course runs Nov 2, 2026 – Jan 24, 2027 |
+| [courses/product-shipping](courses/product-shipping/README.md) | Maven course "Product Shipping with AI": course plan, marketing calendar, Maven copy, lead magnets, guest research, interview playbook; [December promo content plan (draft)](courses/product-shipping/december-promo-content-plan/README.md) | **Active** — course runs Nov 2, 2026 – Jan 24, 2027 |
+| [courses/product-shipping/moats-against-ai-copying](courses/product-shipping/moats-against-ai-copying/README.md) | **Moats against AI copying:** how to protect an AI product from being cloned with AI. MicroConf 2026 talks, moat catalogue, first-party data deep-dive, course module, promo talk outline | **Research draft** Nov 13, 2026 — for the January course lesson and the Oversubscribed talk |
 | [courses/datacamp-ai-engineering-track](courses/datacamp-ai-engineering-track/README.md) | Draft plan for a 15-course DataCamp "AI Engineering" track, built from LLM Zoomcamp and the AI Engineering Buildcamp, each lesson mapped to its source | **Draft** Nov 12, 2026 — awaiting Alexey's review, not submitted |
 | [courses/hobby-project-launch](courses/hobby-project-launch/README.md) | Russian self-study course: validate and launch an indie game, 39 resources + workbook | Ready to use (version Sep 7, 2026) |
 | [learning/book-action-checklists](learning/book-action-checklists/README.md) | Source-linked action checklists for 11 business and product books | Growing library |
@@ -41,6 +42,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 
 - Planning the German AI education programme and legitimate 2026 expenses → [courses/ai-engineering-school-germany](courses/ai-engineering-school-germany/README.md)
 - Preparing the Maven course → [courses/product-shipping](courses/product-shipping/README.md)
+- Defending an AI product against AI copycats (course lesson + promo talk) → [courses/product-shipping/moats-against-ai-copying](courses/product-shipping/moats-against-ai-copying/README.md)
 - Researching a podcast guest → [podcast/guest-research-system.md](podcast/guest-research-system.md)
 - Picking what to build or sell next → [strategy/monetization](strategy/monetization/README.md) and [strategy/astra-challenge](strategy/astra-challenge/README.md)
 - Finding AI conference speaking opportunities → [events/ai-conferences-2026-2027](events/ai-conferences-2026-2027/README.md)

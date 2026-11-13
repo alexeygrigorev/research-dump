@@ -8,6 +8,8 @@ Actions reconstructed from summaries of this specific book and corroborating exp
 
 **Use:** change `- [ ]` to `- [x]` when finished. **Practice** is an action; **Reflection** is a decision or written answer; **Option** is an alternative, not an obligation to try everything. These labels and task divisions are editorial. First work through the principles; repeat the campaign phases for a particular offer.
 
+**Applied in this repository:** [Product Shipping with AI launch plan](../../courses/product-shipping/oversubscribed-launch-plan.md) (Maven course) · [AI Engineering School, Berlin](../../courses/ai-engineering-school-germany/oversubscribed/principles.md) (Bildungsgutschein school, 20 seats) · [conference demand](../../events/oversubscribed-conference-demand/).
+
 ## Part I — Principles
 
 ### Principle 1 — Demand, capacity, and profitability
