@@ -55,6 +55,6 @@ def dump(task):
 if __name__ == "__main__":
     crawls = sys.argv[1:] or sorted(p.stem for p in (W / "cc_job_cdx").glob("*.jsonl"))
     tasks = [(b, c) for c in crawls for b in BOARDS]
-    with ThreadPoolExecutor(6) as ex:
+    with ThreadPoolExecutor(2) as ex:  # CC returns 403 to this host above ~6 parallel readers
         for b, c, n in ex.map(dump, tasks):
             print(c, b, n, flush=True)

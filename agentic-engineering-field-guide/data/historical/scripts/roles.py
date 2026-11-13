@@ -1,14 +1,16 @@
 """Scope filter (Alexey t3349u-t3353u): Software Engineer, Software Developer,
-Backend, Frontend, Full Stack, Engineering Manager. Matches a title or a URL slug."""
+Backend, Frontend, Full Stack, Engineering Manager. Matches a title or a URL slug.
+German titles (Personio, StepStone-style): Softwareentwickler(in), Software-Ingenieur,
+Teamleiter Softwareentwicklung; Backend-/Frontend-/Fullstack-Entwickler match via back/front/full stack."""
 import re
 
 ROLE_PATTERNS = [
-    ("engineering_manager", r"\b(engineering[\s-]+manager|manager[\s,-]+(of[\s-]+)?(software[\s-]+)?engineering|software[\s-]+engineering[\s-]+manager)\b"),
+    ("engineering_manager", r"\b(engineering[\s-]+manager|manager[\s,-]+(of[\s-]+)?(software[\s-]+)?engineering|software[\s-]+engineering[\s-]+manager|(team|abteilungs)?leit(er|erin|ung)[\s-]+(der[\s-]+)?software[\s-]*entwicklung)\b"),
     ("full_stack", r"\bfull[\s-]?stack\b"),
     ("backend", r"\bback[\s-]?end\b"),
     ("frontend", r"\bfront[\s-]?end\b"),
-    ("software_developer", r"\bsoftware[\s-]+developer\b"),
-    ("software_engineer", r"\bsoftware[\s-]+(development[\s-]+)?engineer"),
+    ("software_developer", r"\bsoftware[\s-]+developer\b|\bsoftware[\s-]*entwickler(in)?\b"),
+    ("software_engineer", r"\bsoftware[\s-]+(development[\s-]+)?engineer|\bsoftware[\s-]*ingenieur"),
 ]
 _COMPILED = [(k, re.compile(p, re.I)) for k, p in ROLE_PATTERNS]
 

@@ -114,3 +114,36 @@ def parse(html_text, url="", source=""):
                 "url": url, "source": source,
             }
     return {}
+
+
+GH_TITLE = re.compile(r"<title>\s*Job Application for (.*?) at (.*?)\s*</title>", re.S)
+GH_LOC = re.compile(r'<meta property="og:description" content="([^"]*)"')
+GH_CONTENT = re.compile(r'"title":"((?:[^"\\]|\\.)*)","hiring_plan_id":\d+,"content":"((?:[^"\\]|\\.)*)"')
+
+
+def parse_greenhouse(html_text, url=""):
+    """job-boards.greenhouse.io has no JSON-LD: title/company from <title>, location from
+    og:description, description from the embedded job JSON."""
+    t = GH_TITLE.search(html_text or "")
+    if not t:
+        return {}
+    loc = GH_LOC.search(html_text)
+    loc = htmlmod.unescape(loc.group(1)) if loc else ""
+    c = GH_CONTENT.search(html_text)
+    desc = clean_html(json.loads('"' + c.group(2) + '"')) if c else ""
+    parts = [x.strip() for x in loc.split(",")]
+    place = {"locality": parts[0] if parts else "", "region": ", ".join(parts[1:-1]),
+             "country": parts[-1] if len(parts) > 1 else ""}
+    m = re.search(r"/jobs/(\d+)", url)
+    return {"job_id": m.group(1) if m else url, "title": htmlmod.unescape(t.group(1)).strip(),
+            "company": htmlmod.unescape(t.group(2)).strip(), "location": loc, "locations": [loc] if loc else [],
+            "countries": [country_code(place)] if country_code(place) else [], "cities": [city_of(place)] if city_of(place) else [],
+            "remote": "remote" in loc.lower(), "work_type": "", "compensation": "", "description": desc,
+            "posted_date": "", "valid_through": "", "url": url, "source": "greenhouse"}
+
+
+def parse_any(html_text, url="", source=""):
+    rec = parse(html_text, url, source)
+    if not rec and source == "greenhouse":
+        rec = parse_greenhouse(html_text, url)
+    return rec

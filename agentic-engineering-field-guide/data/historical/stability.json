@@ -7,10 +7,10 @@
  "regions": {
   "UK": {
    "weights": {
-    "builtin": 0.529,
-    "reed": 0.186,
-    "workday": 0.253,
-    "wttj": 0.031
+    "builtin": 0.4,
+    "reed": 0.146,
+    "workday": 0.426,
+    "wttj": 0.028
    },
    "months": [
     {
@@ -37,16 +37,18 @@
       "engineering_manager": 0.123
      },
      "role_mix_fixed": {
-      "software_engineer": 0.623,
-      "software_developer": 0.062,
-      "backend": 0.025,
-      "frontend": 0.112,
-      "full_stack": 0.075,
-      "engineering_manager": 0.102
+      "software_engineer": 0.633,
+      "software_developer": 0.06,
+      "backend": 0.019,
+      "frontend": 0.098,
+      "full_stack": 0.071,
+      "engineering_manager": 0.12
      },
      "tvd_prev": null,
      "tvd_noise": 0.119,
-     "crawl_shift_flags": [],
+     "crawl_shift_flags": [
+      "reed share 0.37 vs avg 0.15"
+     ],
      "meets_criterion": false
     },
     {
@@ -73,15 +75,15 @@
       "engineering_manager": 0.143
      },
      "role_mix_fixed": {
-      "software_engineer": 0.481,
-      "software_developer": 0.051,
-      "backend": 0.092,
-      "frontend": 0.084,
-      "full_stack": 0.158,
-      "engineering_manager": 0.133
+      "software_engineer": 0.492,
+      "software_developer": 0.04,
+      "backend": 0.07,
+      "frontend": 0.079,
+      "full_stack": 0.163,
+      "engineering_manager": 0.157
      },
-     "tvd_prev": 0.181,
-     "tvd_noise": 0.149,
+     "tvd_prev": 0.18,
+     "tvd_noise": 0.147,
      "crawl_shift_flags": [],
      "meets_criterion": false
     },
@@ -109,14 +111,14 @@
       "engineering_manager": 0.217
      },
      "role_mix_fixed": {
-      "software_engineer": 0.317,
-      "software_developer": 0.047,
-      "backend": 0.086,
-      "frontend": 0.206,
-      "full_stack": 0.129,
-      "engineering_manager": 0.216
+      "software_engineer": 0.357,
+      "software_developer": 0.036,
+      "backend": 0.11,
+      "frontend": 0.171,
+      "full_stack": 0.115,
+      "engineering_manager": 0.21
      },
-     "tvd_prev": 0.205,
+     "tvd_prev": 0.186,
      "tvd_noise": 0.173,
      "crawl_shift_flags": [],
      "meets_criterion": false
@@ -145,18 +147,16 @@
       "engineering_manager": 0.062
      },
      "role_mix_fixed": {
-      "software_engineer": 0.633,
+      "software_engineer": 0.641,
       "software_developer": 0.0,
-      "backend": 0.076,
-      "frontend": 0.104,
-      "full_stack": 0.055,
-      "engineering_manager": 0.132
+      "backend": 0.087,
+      "frontend": 0.101,
+      "full_stack": 0.071,
+      "engineering_manager": 0.1
      },
-     "tvd_prev": 0.316,
-     "tvd_noise": 0.132,
-     "crawl_shift_flags": [
-      "builtin share 0.25 vs avg 0.53"
-     ],
+     "tvd_prev": 0.283,
+     "tvd_noise": 0.134,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
@@ -183,16 +183,18 @@
       "engineering_manager": 0.13
      },
      "role_mix_fixed": {
-      "software_engineer": 0.608,
-      "software_developer": 0.03,
-      "backend": 0.129,
-      "frontend": 0.033,
-      "full_stack": 0.077,
-      "engineering_manager": 0.123
+      "software_engineer": 0.639,
+      "software_developer": 0.039,
+      "backend": 0.114,
+      "frontend": 0.025,
+      "full_stack": 0.074,
+      "engineering_manager": 0.11
      },
-     "tvd_prev": 0.105,
-     "tvd_noise": 0.144,
-     "crawl_shift_flags": [],
+     "tvd_prev": 0.078,
+     "tvd_noise": 0.143,
+     "crawl_shift_flags": [
+      "reed share 0.30 vs avg 0.15"
+     ],
      "meets_criterion": false
     },
     {
@@ -219,246 +221,259 @@
       "engineering_manager": 0.164
      },
      "role_mix_fixed": {
-      "software_engineer": 0.444,
-      "software_developer": 0.084,
-      "backend": 0.102,
-      "frontend": 0.049,
-      "full_stack": 0.171,
-      "engineering_manager": 0.149
+      "software_engineer": 0.455,
+      "software_developer": 0.096,
+      "backend": 0.085,
+      "frontend": 0.045,
+      "full_stack": 0.197,
+      "engineering_manager": 0.123
      },
-     "tvd_prev": 0.191,
-     "tvd_noise": 0.135,
-     "crawl_shift_flags": [
-      "builtin share 0.25 vs avg 0.53"
-     ],
+     "tvd_prev": 0.213,
+     "tvd_noise": 0.138,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202601",
-     "n": 23,
+     "n": 38,
      "sources": {
       "builtin": 18,
-      "reed": 5
+      "reed": 5,
+      "workday": 15
      },
      "source_share": {
-      "builtin": 0.783,
-      "reed": 0.217
+      "builtin": 0.474,
+      "reed": 0.132,
+      "workday": 0.395
      },
      "role_mix_raw": {
-      "software_engineer": 0.565,
-      "software_developer": 0.043,
-      "backend": 0.13,
-      "frontend": 0.043,
-      "full_stack": 0.087,
-      "engineering_manager": 0.13
+      "software_engineer": 0.553,
+      "software_developer": 0.026,
+      "backend": 0.132,
+      "frontend": 0.026,
+      "full_stack": 0.079,
+      "engineering_manager": 0.184
      },
      "role_mix_fixed": {
-      "software_engineer": 0.556,
-      "software_developer": 0.052,
-      "backend": 0.123,
-      "frontend": 0.041,
-      "full_stack": 0.082,
-      "engineering_manager": 0.145
+      "software_engineer": 0.545,
+      "software_developer": 0.03,
+      "backend": 0.127,
+      "frontend": 0.023,
+      "full_stack": 0.075,
+      "engineering_manager": 0.2
      },
-     "tvd_prev": 0.133,
-     "tvd_noise": 0.218,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.25"
-     ],
+     "tvd_prev": 0.21,
+     "tvd_noise": 0.169,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202602",
-     "n": 26,
+     "n": 50,
      "sources": {
-      "builtin": 26
+      "builtin": 26,
+      "reed": 3,
+      "workday": 20,
+      "wttj": 1
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.52,
+      "reed": 0.06,
+      "workday": 0.4,
+      "wttj": 0.02
      },
      "role_mix_raw": {
-      "software_engineer": 0.808,
+      "software_engineer": 0.78,
       "software_developer": 0.0,
-      "backend": 0.077,
-      "frontend": 0.038,
+      "backend": 0.14,
+      "frontend": 0.04,
       "full_stack": 0.0,
-      "engineering_manager": 0.077
+      "engineering_manager": 0.04
      },
      "role_mix_fixed": {
-      "software_engineer": 0.808,
+      "software_engineer": 0.761,
       "software_developer": 0.0,
-      "backend": 0.077,
-      "frontend": 0.038,
+      "backend": 0.172,
+      "frontend": 0.037,
       "full_stack": 0.0,
-      "engineering_manager": 0.077
+      "engineering_manager": 0.031
      },
-     "tvd_prev": 0.252,
-     "tvd_noise": 0.113,
+     "tvd_prev": 0.274,
+     "tvd_noise": 0.098,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "reed share 0.06 vs avg 0.15"
      ],
      "meets_criterion": false
     },
     {
      "month": "202603",
-     "n": 27,
+     "n": 53,
      "sources": {
-      "builtin": 27
+      "builtin": 27,
+      "workday": 24,
+      "wttj": 2
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.509,
+      "workday": 0.453,
+      "wttj": 0.038
      },
      "role_mix_raw": {
-      "software_engineer": 0.556,
+      "software_engineer": 0.585,
       "software_developer": 0.0,
-      "backend": 0.148,
-      "frontend": 0.074,
-      "full_stack": 0.148,
-      "engineering_manager": 0.074
+      "backend": 0.113,
+      "frontend": 0.075,
+      "full_stack": 0.113,
+      "engineering_manager": 0.113
      },
      "role_mix_fixed": {
-      "software_engineer": 0.556,
+      "software_engineer": 0.588,
       "software_developer": 0.0,
-      "backend": 0.148,
-      "frontend": 0.074,
-      "full_stack": 0.148,
-      "engineering_manager": 0.074
+      "backend": 0.111,
+      "frontend": 0.076,
+      "full_stack": 0.107,
+      "engineering_manager": 0.118
      },
-     "tvd_prev": 0.255,
-     "tvd_noise": 0.186,
+     "tvd_prev": 0.233,
+     "tvd_noise": 0.132,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "reed share 0.00 vs avg 0.15"
      ],
      "meets_criterion": false
     },
     {
      "month": "202604",
-     "n": 20,
+     "n": 29,
      "sources": {
-      "builtin": 20
+      "builtin": 20,
+      "workday": 9
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.69,
+      "workday": 0.31
      },
      "role_mix_raw": {
-      "software_engineer": 0.85,
-      "software_developer": 0.0,
-      "backend": 0.05,
-      "frontend": 0.05,
-      "full_stack": 0.0,
-      "engineering_manager": 0.05
+      "software_engineer": 0.793,
+      "software_developer": 0.034,
+      "backend": 0.034,
+      "frontend": 0.069,
+      "full_stack": 0.034,
+      "engineering_manager": 0.034
      },
      "role_mix_fixed": {
-      "software_engineer": 0.85,
-      "software_developer": 0.0,
-      "backend": 0.05,
-      "frontend": 0.05,
-      "full_stack": 0.0,
-      "engineering_manager": 0.05
+      "software_engineer": 0.756,
+      "software_developer": 0.057,
+      "backend": 0.024,
+      "frontend": 0.081,
+      "full_stack": 0.057,
+      "engineering_manager": 0.024
      },
-     "tvd_prev": 0.294,
-     "tvd_noise": 0.123,
+     "tvd_prev": 0.23,
+     "tvd_noise": 0.141,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "reed share 0.00 vs avg 0.15"
      ],
      "meets_criterion": false
     },
     {
      "month": "202605",
-     "n": 22,
+     "n": 42,
      "sources": {
-      "builtin": 22
+      "builtin": 22,
+      "workday": 20
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.524,
+      "workday": 0.476
      },
      "role_mix_raw": {
-      "software_engineer": 0.636,
-      "software_developer": 0.0,
-      "backend": 0.045,
-      "frontend": 0.0,
-      "full_stack": 0.182,
-      "engineering_manager": 0.136
+      "software_engineer": 0.619,
+      "software_developer": 0.024,
+      "backend": 0.024,
+      "frontend": 0.024,
+      "full_stack": 0.143,
+      "engineering_manager": 0.167
      },
      "role_mix_fixed": {
-      "software_engineer": 0.636,
-      "software_developer": 0.0,
-      "backend": 0.045,
-      "frontend": 0.0,
-      "full_stack": 0.182,
-      "engineering_manager": 0.136
+      "software_engineer": 0.618,
+      "software_developer": 0.026,
+      "backend": 0.022,
+      "frontend": 0.026,
+      "full_stack": 0.14,
+      "engineering_manager": 0.169
      },
-     "tvd_prev": 0.268,
-     "tvd_noise": 0.17,
+     "tvd_prev": 0.227,
+     "tvd_noise": 0.139,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "reed share 0.00 vs avg 0.15"
      ],
      "meets_criterion": false
     },
     {
      "month": "202606",
-     "n": 19,
+     "n": 61,
      "sources": {
-      "builtin": 19
+      "builtin": 19,
+      "workday": 42
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.311,
+      "workday": 0.689
      },
      "role_mix_raw": {
-      "software_engineer": 0.684,
-      "software_developer": 0.0,
-      "backend": 0.158,
-      "frontend": 0.053,
-      "full_stack": 0.053,
-      "engineering_manager": 0.053
+      "software_engineer": 0.689,
+      "software_developer": 0.016,
+      "backend": 0.066,
+      "frontend": 0.016,
+      "full_stack": 0.082,
+      "engineering_manager": 0.131
      },
      "role_mix_fixed": {
-      "software_engineer": 0.684,
-      "software_developer": 0.0,
-      "backend": 0.158,
-      "frontend": 0.053,
-      "full_stack": 0.053,
-      "engineering_manager": 0.053
+      "software_engineer": 0.687,
+      "software_developer": 0.012,
+      "backend": 0.089,
+      "frontend": 0.026,
+      "full_stack": 0.075,
+      "engineering_manager": 0.111
      },
-     "tvd_prev": 0.213,
-     "tvd_noise": 0.196,
+     "tvd_prev": 0.137,
+     "tvd_noise": 0.11,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "reed share 0.00 vs avg 0.15"
      ],
      "meets_criterion": false
     },
     {
      "month": "202607",
-     "n": 0,
-     "sources": {},
-     "source_share": {},
+     "n": 18,
+     "sources": {
+      "workday": 18
+     },
+     "source_share": {
+      "workday": 1.0
+     },
      "role_mix_raw": {
-      "software_engineer": 0,
-      "software_developer": 0,
-      "backend": 0,
-      "frontend": 0,
-      "full_stack": 0,
-      "engineering_manager": 0
+      "software_engineer": 0.556,
+      "software_developer": 0.111,
+      "backend": 0.056,
+      "frontend": 0.111,
+      "full_stack": 0.056,
+      "engineering_manager": 0.111
      },
      "role_mix_fixed": {
-      "software_engineer": 0,
-      "software_developer": 0,
-      "backend": 0,
-      "frontend": 0,
-      "full_stack": 0,
-      "engineering_manager": 0
+      "software_engineer": 0.556,
+      "software_developer": 0.111,
+      "backend": 0.056,
+      "frontend": 0.111,
+      "full_stack": 0.056,
+      "engineering_manager": 0.111
      },
-     "tvd_prev": 0.5,
-     "tvd_noise": null,
+     "tvd_prev": 0.184,
+     "tvd_noise": 0.251,
      "crawl_shift_flags": [
-      "builtin share 0.00 vs avg 0.53",
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "builtin share 0.00 vs avg 0.40",
+      "reed share 0.00 vs avg 0.15",
+      "workday share 1.00 vs avg 0.43"
      ],
      "meets_criterion": false
     },
@@ -486,9 +501,9 @@
      "tvd_prev": 0.5,
      "tvd_noise": null,
      "crawl_shift_flags": [
-      "builtin share 0.00 vs avg 0.53",
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "builtin share 0.00 vs avg 0.40",
+      "reed share 0.00 vs avg 0.15",
+      "workday share 0.00 vs avg 0.43"
      ],
      "meets_criterion": false
     },
@@ -517,11 +532,12 @@
       "full_stack": 0.154,
       "engineering_manager": 0.077
      },
-     "tvd_prev": 0.457,
+     "tvd_prev": 0.372,
      "tvd_noise": 0.245,
      "crawl_shift_flags": [
-      "reed share 0.00 vs avg 0.19",
-      "workday share 0.00 vs avg 0.25"
+      "builtin share 1.00 vs avg 0.40",
+      "reed share 0.00 vs avg 0.15",
+      "workday share 0.00 vs avg 0.43"
      ],
      "meets_criterion": false
     }
@@ -529,9 +545,9 @@
   },
   "DE": {
    "weights": {
-    "builtin": 0.516,
-    "workday": 0.452,
-    "wttj": 0.032
+    "builtin": 0.367,
+    "workday": 0.61,
+    "wttj": 0.023
    },
    "months": [
     {
@@ -556,84 +572,82 @@
       "engineering_manager": 0.2
      },
      "role_mix_fixed": {
-      "software_engineer": 0.231,
-      "software_developer": 0.057,
-      "backend": 0.256,
+      "software_engineer": 0.236,
+      "software_developer": 0.076,
+      "backend": 0.29,
       "frontend": 0.0,
-      "full_stack": 0.229,
-      "engineering_manager": 0.229
+      "full_stack": 0.199,
+      "engineering_manager": 0.199
      },
      "tvd_prev": null,
-     "tvd_noise": 0.272,
+     "tvd_noise": 0.271,
      "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202508",
-     "n": 8,
+     "n": 9,
      "sources": {
       "builtin": 2,
-      "workday": 5,
+      "workday": 6,
       "wttj": 1
      },
      "source_share": {
-      "builtin": 0.25,
-      "workday": 0.625,
-      "wttj": 0.125
+      "builtin": 0.222,
+      "workday": 0.667,
+      "wttj": 0.111
      },
      "role_mix_raw": {
-      "software_engineer": 0.75,
-      "software_developer": 0.125,
+      "software_engineer": 0.667,
+      "software_developer": 0.222,
       "backend": 0.0,
       "frontend": 0.0,
       "full_stack": 0.0,
-      "engineering_manager": 0.125
+      "engineering_manager": 0.111
      },
      "role_mix_fixed": {
-      "software_engineer": 0.878,
-      "software_developer": 0.09,
+      "software_engineer": 0.774,
+      "software_developer": 0.203,
       "backend": 0.0,
       "frontend": 0.0,
       "full_stack": 0.0,
-      "engineering_manager": 0.032
+      "engineering_manager": 0.023
      },
-     "tvd_prev": 0.681,
-     "tvd_noise": 0.141,
-     "crawl_shift_flags": [
-      "builtin share 0.25 vs avg 0.52"
-     ],
+     "tvd_prev": 0.665,
+     "tvd_noise": 0.161,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202509",
-     "n": 24,
+     "n": 25,
      "sources": {
       "builtin": 12,
-      "workday": 11,
+      "workday": 12,
       "wttj": 1
      },
      "source_share": {
-      "builtin": 0.5,
-      "workday": 0.458,
-      "wttj": 0.042
+      "builtin": 0.48,
+      "workday": 0.48,
+      "wttj": 0.04
      },
      "role_mix_raw": {
-      "software_engineer": 0.5,
-      "software_developer": 0.125,
-      "backend": 0.083,
-      "frontend": 0.167,
-      "full_stack": 0.083,
-      "engineering_manager": 0.042
+      "software_engineer": 0.48,
+      "software_developer": 0.16,
+      "backend": 0.08,
+      "frontend": 0.16,
+      "full_stack": 0.08,
+      "engineering_manager": 0.04
      },
      "role_mix_fixed": {
-      "software_engineer": 0.497,
-      "software_developer": 0.123,
-      "backend": 0.084,
-      "frontend": 0.168,
-      "full_stack": 0.084,
-      "engineering_manager": 0.043
+      "software_engineer": 0.44,
+      "software_developer": 0.203,
+      "backend": 0.081,
+      "frontend": 0.163,
+      "full_stack": 0.081,
+      "engineering_manager": 0.031
      },
-     "tvd_prev": 0.381,
+     "tvd_prev": 0.334,
      "tvd_noise": 0.219,
      "crawl_shift_flags": [],
      "meets_criterion": false
@@ -658,15 +672,15 @@
       "engineering_manager": 0.364
      },
      "role_mix_fixed": {
-      "software_engineer": 0.334,
+      "software_engineer": 0.372,
       "software_developer": 0.0,
-      "backend": 0.072,
-      "frontend": 0.154,
-      "full_stack": 0.036,
-      "engineering_manager": 0.404
+      "backend": 0.096,
+      "frontend": 0.132,
+      "full_stack": 0.048,
+      "engineering_manager": 0.353
      },
-     "tvd_prev": 0.361,
-     "tvd_noise": 0.215,
+     "tvd_prev": 0.337,
+     "tvd_noise": 0.214,
      "crawl_shift_flags": [],
      "meets_criterion": false
     },
@@ -690,220 +704,222 @@
       "engineering_manager": 0.368
      },
      "role_mix_fixed": {
-      "software_engineer": 0.293,
-      "software_developer": 0.047,
-      "backend": 0.106,
-      "frontend": 0.093,
-      "full_stack": 0.047,
-      "engineering_manager": 0.414
+      "software_engineer": 0.354,
+      "software_developer": 0.062,
+      "backend": 0.104,
+      "frontend": 0.125,
+      "full_stack": 0.062,
+      "engineering_manager": 0.292
      },
-     "tvd_prev": 0.102,
-     "tvd_noise": 0.252,
+     "tvd_prev": 0.085,
+     "tvd_noise": 0.264,
      "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202512",
-     "n": 15,
+     "n": 17,
      "sources": {
       "builtin": 4,
-      "workday": 10,
+      "workday": 12,
       "wttj": 1
      },
      "source_share": {
-      "builtin": 0.267,
-      "workday": 0.667,
-      "wttj": 0.067
+      "builtin": 0.235,
+      "workday": 0.706,
+      "wttj": 0.059
      },
      "role_mix_raw": {
-      "software_engineer": 0.267,
-      "software_developer": 0.267,
-      "backend": 0.067,
+      "software_engineer": 0.235,
+      "software_developer": 0.353,
+      "backend": 0.059,
       "frontend": 0.0,
-      "full_stack": 0.4,
+      "full_stack": 0.353,
       "engineering_manager": 0.0
      },
      "role_mix_fixed": {
-      "software_engineer": 0.348,
-      "software_developer": 0.181,
-      "backend": 0.045,
+      "software_engineer": 0.285,
+      "software_developer": 0.305,
+      "backend": 0.051,
       "frontend": 0.0,
-      "full_stack": 0.425,
+      "full_stack": 0.359,
       "engineering_manager": 0.0
      },
-     "tvd_prev": 0.569,
-     "tvd_noise": 0.22,
+     "tvd_prev": 0.539,
+     "tvd_noise": 0.214,
      "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202601",
-     "n": 2,
+     "n": 8,
      "sources": {
-      "builtin": 2
+      "builtin": 2,
+      "workday": 6
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.25,
+      "workday": 0.75
      },
      "role_mix_raw": {
-      "software_engineer": 0.5,
-      "software_developer": 0.0,
-      "backend": 0.0,
+      "software_engineer": 0.25,
+      "software_developer": 0.125,
+      "backend": 0.25,
       "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.5
+      "full_stack": 0.125,
+      "engineering_manager": 0.25
      },
      "role_mix_fixed": {
-      "software_engineer": 0.5,
-      "software_developer": 0.0,
-      "backend": 0.0,
+      "software_engineer": 0.292,
+      "software_developer": 0.104,
+      "backend": 0.208,
       "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.5
+      "full_stack": 0.104,
+      "engineering_manager": 0.292
      },
-     "tvd_prev": 0.652,
-     "tvd_noise": 0.367,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
-     ],
+     "tvd_prev": 0.456,
+     "tvd_noise": 0.376,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202602",
-     "n": 4,
+     "n": 8,
      "sources": {
-      "builtin": 4
+      "builtin": 4,
+      "workday": 4
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.5,
+      "workday": 0.5
      },
      "role_mix_raw": {
-      "software_engineer": 0.5,
-      "software_developer": 0.0,
+      "software_engineer": 0.375,
+      "software_developer": 0.125,
       "backend": 0.0,
       "frontend": 0.25,
       "full_stack": 0.0,
       "engineering_manager": 0.25
      },
      "role_mix_fixed": {
-      "software_engineer": 0.5,
-      "software_developer": 0.0,
+      "software_engineer": 0.344,
+      "software_developer": 0.156,
       "backend": 0.0,
       "frontend": 0.25,
       "full_stack": 0.0,
       "engineering_manager": 0.25
      },
-     "tvd_prev": 0.25,
-     "tvd_noise": 0.362,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
-     ],
+     "tvd_prev": 0.354,
+     "tvd_noise": 0.329,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202603",
-     "n": 6,
+     "n": 13,
      "sources": {
-      "builtin": 6
+      "builtin": 6,
+      "workday": 7
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.462,
+      "workday": 0.538
      },
      "role_mix_raw": {
-      "software_engineer": 0.333,
-      "software_developer": 0.167,
-      "backend": 0.333,
+      "software_engineer": 0.308,
+      "software_developer": 0.077,
+      "backend": 0.231,
       "frontend": 0.0,
-      "full_stack": 0.167,
-      "engineering_manager": 0.0
+      "full_stack": 0.231,
+      "engineering_manager": 0.154
      },
      "role_mix_fixed": {
-      "software_engineer": 0.333,
-      "software_developer": 0.167,
-      "backend": 0.333,
+      "software_engineer": 0.304,
+      "software_developer": 0.063,
+      "backend": 0.214,
       "frontend": 0.0,
-      "full_stack": 0.167,
-      "engineering_manager": 0.0
+      "full_stack": 0.241,
+      "engineering_manager": 0.178
      },
-     "tvd_prev": 0.667,
-     "tvd_noise": 0.365,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
-     ],
+     "tvd_prev": 0.455,
+     "tvd_noise": 0.29,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202604",
-     "n": 4,
+     "n": 11,
      "sources": {
-      "builtin": 4
+      "builtin": 4,
+      "workday": 7
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.364,
+      "workday": 0.636
      },
      "role_mix_raw": {
-      "software_engineer": 0.5,
-      "software_developer": 0.25,
+      "software_engineer": 0.364,
+      "software_developer": 0.364,
       "backend": 0.0,
       "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.25
+      "full_stack": 0.182,
+      "engineering_manager": 0.091
      },
      "role_mix_fixed": {
-      "software_engineer": 0.5,
-      "software_developer": 0.25,
+      "software_engineer": 0.366,
+      "software_developer": 0.361,
       "backend": 0.0,
       "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.25
+      "full_stack": 0.178,
+      "engineering_manager": 0.094
      },
-     "tvd_prev": 0.5,
-     "tvd_noise": 0.362,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
-     ],
+     "tvd_prev": 0.361,
+     "tvd_noise": 0.281,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202605",
-     "n": 3,
+     "n": 12,
      "sources": {
-      "builtin": 3
+      "builtin": 3,
+      "workday": 9
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.25,
+      "workday": 0.75
      },
      "role_mix_raw": {
-      "software_engineer": 1.0,
+      "software_engineer": 0.833,
       "software_developer": 0.0,
       "backend": 0.0,
       "frontend": 0.0,
-      "full_stack": 0.0,
+      "full_stack": 0.167,
       "engineering_manager": 0.0
      },
      "role_mix_fixed": {
-      "software_engineer": 1.0,
+      "software_engineer": 0.861,
       "software_developer": 0.0,
       "backend": 0.0,
       "frontend": 0.0,
-      "full_stack": 0.0,
+      "full_stack": 0.139,
       "engineering_manager": 0.0
      },
-     "tvd_prev": 0.5,
-     "tvd_noise": 0.0,
-     "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
-     ],
+     "tvd_prev": 0.495,
+     "tvd_noise": 0.113,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202606",
-     "n": 1,
+     "n": 8,
      "sources": {
-      "builtin": 1
+      "builtin": 1,
+      "workday": 7
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.125,
+      "workday": 0.875
      },
      "role_mix_raw": {
       "software_engineer": 1.0,
@@ -921,10 +937,42 @@
       "full_stack": 0.0,
       "engineering_manager": 0.0
      },
-     "tvd_prev": 0.0,
+     "tvd_prev": 0.139,
      "tvd_noise": 0.0,
      "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
+      "builtin share 0.12 vs avg 0.37"
+     ],
+     "meets_criterion": false
+    },
+    {
+     "month": "202607",
+     "n": 7,
+     "sources": {
+      "workday": 7
+     },
+     "source_share": {
+      "workday": 1.0
+     },
+     "role_mix_raw": {
+      "software_engineer": 0.429,
+      "software_developer": 0.143,
+      "backend": 0.143,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.286
+     },
+     "role_mix_fixed": {
+      "software_engineer": 0.429,
+      "software_developer": 0.143,
+      "backend": 0.143,
+      "frontend": 0.0,
+      "full_stack": 0.0,
+      "engineering_manager": 0.286
+     },
+     "tvd_prev": 0.571,
+     "tvd_noise": 0.351,
+     "crawl_shift_flags": [
+      "builtin share 0.00 vs avg 0.37"
      ],
      "meets_criterion": false
     },
@@ -953,10 +1001,11 @@
       "full_stack": 0.333,
       "engineering_manager": 0.333
      },
-     "tvd_prev": 1.0,
+     "tvd_prev": 0.571,
      "tvd_noise": 0.427,
      "crawl_shift_flags": [
-      "workday share 0.00 vs avg 0.45"
+      "builtin share 1.00 vs avg 0.37",
+      "workday share 0.00 vs avg 0.61"
      ],
      "meets_criterion": false
     }
@@ -964,8 +1013,8 @@
   },
   "US": {
    "weights": {
-    "builtin": 0.214,
-    "workday": 0.786
+    "builtin": 0.126,
+    "workday": 0.874
    },
    "months": [
     {
@@ -988,18 +1037,16 @@
       "engineering_manager": 0.14
      },
      "role_mix_fixed": {
-      "software_engineer": 0.583,
-      "software_developer": 0.028,
-      "backend": 0.085,
-      "frontend": 0.035,
-      "full_stack": 0.122,
-      "engineering_manager": 0.148
+      "software_engineer": 0.582,
+      "software_developer": 0.031,
+      "backend": 0.086,
+      "frontend": 0.032,
+      "full_stack": 0.126,
+      "engineering_manager": 0.143
      },
      "tvd_prev": null,
-     "tvd_noise": 0.04,
-     "crawl_shift_flags": [
-      "builtin share 0.08 vs avg 0.21"
-     ],
+     "tvd_noise": 0.039,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
@@ -1022,14 +1069,14 @@
       "engineering_manager": 0.072
      },
      "role_mix_fixed": {
-      "software_engineer": 0.65,
-      "software_developer": 0.054,
-      "backend": 0.077,
-      "frontend": 0.04,
+      "software_engineer": 0.662,
+      "software_developer": 0.06,
+      "backend": 0.072,
+      "frontend": 0.036,
       "full_stack": 0.098,
-      "engineering_manager": 0.08
+      "engineering_manager": 0.072
      },
-     "tvd_prev": 0.099,
+     "tvd_prev": 0.113,
      "tvd_noise": 0.045,
      "crawl_shift_flags": [],
      "meets_criterion": false
@@ -1054,14 +1101,14 @@
       "engineering_manager": 0.107
      },
      "role_mix_fixed": {
-      "software_engineer": 0.646,
-      "software_developer": 0.043,
-      "backend": 0.057,
-      "frontend": 0.054,
-      "full_stack": 0.091,
-      "engineering_manager": 0.11
+      "software_engineer": 0.654,
+      "software_developer": 0.048,
+      "backend": 0.054,
+      "frontend": 0.049,
+      "full_stack": 0.09,
+      "engineering_manager": 0.106
      },
-     "tvd_prev": 0.043,
+     "tvd_prev": 0.048,
      "tvd_noise": 0.045,
      "crawl_shift_flags": [],
      "meets_criterion": true
@@ -1086,15 +1133,15 @@
       "engineering_manager": 0.095
      },
      "role_mix_fixed": {
-      "software_engineer": 0.635,
-      "software_developer": 0.028,
-      "backend": 0.077,
-      "frontend": 0.052,
-      "full_stack": 0.11,
-      "engineering_manager": 0.098
+      "software_engineer": 0.659,
+      "software_developer": 0.031,
+      "backend": 0.066,
+      "frontend": 0.045,
+      "full_stack": 0.105,
+      "engineering_manager": 0.094
      },
-     "tvd_prev": 0.04,
-     "tvd_noise": 0.042,
+     "tvd_prev": 0.033,
+     "tvd_noise": 0.04,
      "crawl_shift_flags": [],
      "meets_criterion": true
     },
@@ -1118,15 +1165,15 @@
       "engineering_manager": 0.11
      },
      "role_mix_fixed": {
-      "software_engineer": 0.622,
-      "software_developer": 0.059,
-      "backend": 0.064,
-      "frontend": 0.035,
-      "full_stack": 0.107,
-      "engineering_manager": 0.113
+      "software_engineer": 0.634,
+      "software_developer": 0.066,
+      "backend": 0.057,
+      "frontend": 0.032,
+      "full_stack": 0.105,
+      "engineering_manager": 0.107
      },
-     "tvd_prev": 0.046,
-     "tvd_noise": 0.046,
+     "tvd_prev": 0.047,
+     "tvd_noise": 0.045,
      "crawl_shift_flags": [],
      "meets_criterion": true
     },
@@ -1150,248 +1197,241 @@
       "engineering_manager": 0.092
      },
      "role_mix_fixed": {
-      "software_engineer": 0.686,
-      "software_developer": 0.044,
-      "backend": 0.032,
-      "frontend": 0.067,
+      "software_engineer": 0.688,
+      "software_developer": 0.049,
+      "backend": 0.031,
+      "frontend": 0.058,
       "full_stack": 0.083,
-      "engineering_manager": 0.088
+      "engineering_manager": 0.091
      },
-     "tvd_prev": 0.095,
+     "tvd_prev": 0.08,
      "tvd_noise": 0.041,
-     "crawl_shift_flags": [
-      "builtin share 0.10 vs avg 0.21"
-     ],
-     "meets_criterion": false
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202601",
-     "n": 49,
+     "n": 342,
      "sources": {
-      "builtin": 49
+      "builtin": 49,
+      "workday": 293
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.143,
+      "workday": 0.857
      },
      "role_mix_raw": {
-      "software_engineer": 0.388,
-      "software_developer": 0.0,
-      "backend": 0.122,
-      "frontend": 0.102,
-      "full_stack": 0.286,
-      "engineering_manager": 0.102
+      "software_engineer": 0.643,
+      "software_developer": 0.026,
+      "backend": 0.053,
+      "frontend": 0.056,
+      "full_stack": 0.102,
+      "engineering_manager": 0.12
      },
      "role_mix_fixed": {
-      "software_engineer": 0.388,
-      "software_developer": 0.0,
-      "backend": 0.122,
-      "frontend": 0.102,
-      "full_stack": 0.286,
-      "engineering_manager": 0.102
+      "software_engineer": 0.649,
+      "software_developer": 0.027,
+      "backend": 0.051,
+      "frontend": 0.055,
+      "full_stack": 0.099,
+      "engineering_manager": 0.12
      },
-     "tvd_prev": 0.342,
-     "tvd_noise": 0.156,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
-     "meets_criterion": false
+     "tvd_prev": 0.065,
+     "tvd_noise": 0.05,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202602",
-     "n": 62,
+     "n": 356,
      "sources": {
-      "builtin": 62
+      "builtin": 62,
+      "workday": 294
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.174,
+      "workday": 0.826
      },
      "role_mix_raw": {
-      "software_engineer": 0.613,
-      "software_developer": 0.0,
-      "backend": 0.113,
-      "frontend": 0.048,
-      "full_stack": 0.177,
-      "engineering_manager": 0.048
+      "software_engineer": 0.626,
+      "software_developer": 0.028,
+      "backend": 0.051,
+      "frontend": 0.084,
+      "full_stack": 0.098,
+      "engineering_manager": 0.112
      },
      "role_mix_fixed": {
-      "software_engineer": 0.613,
-      "software_developer": 0.0,
-      "backend": 0.113,
-      "frontend": 0.048,
-      "full_stack": 0.177,
-      "engineering_manager": 0.048
+      "software_engineer": 0.627,
+      "software_developer": 0.03,
+      "backend": 0.047,
+      "frontend": 0.086,
+      "full_stack": 0.094,
+      "engineering_manager": 0.116
      },
-     "tvd_prev": 0.225,
-     "tvd_noise": 0.12,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
-     "meets_criterion": false
+     "tvd_prev": 0.035,
+     "tvd_noise": 0.05,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202603",
-     "n": 41,
+     "n": 463,
      "sources": {
-      "builtin": 41
+      "builtin": 41,
+      "workday": 422
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.089,
+      "workday": 0.911
      },
      "role_mix_raw": {
-      "software_engineer": 0.439,
-      "software_developer": 0.0,
-      "backend": 0.22,
-      "frontend": 0.122,
-      "full_stack": 0.171,
-      "engineering_manager": 0.049
+      "software_engineer": 0.568,
+      "software_developer": 0.035,
+      "backend": 0.099,
+      "frontend": 0.065,
+      "full_stack": 0.134,
+      "engineering_manager": 0.099
      },
      "role_mix_fixed": {
-      "software_engineer": 0.439,
-      "software_developer": 0.0,
-      "backend": 0.22,
-      "frontend": 0.122,
-      "full_stack": 0.171,
-      "engineering_manager": 0.049
+      "software_engineer": 0.563,
+      "software_developer": 0.033,
+      "backend": 0.104,
+      "frontend": 0.067,
+      "full_stack": 0.135,
+      "engineering_manager": 0.097
      },
-     "tvd_prev": 0.181,
-     "tvd_noise": 0.159,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
+     "tvd_prev": 0.102,
+     "tvd_noise": 0.048,
+     "crawl_shift_flags": [],
      "meets_criterion": false
     },
     {
      "month": "202604",
-     "n": 49,
+     "n": 433,
      "sources": {
-      "builtin": 49
+      "builtin": 49,
+      "workday": 384
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.113,
+      "workday": 0.887
      },
      "role_mix_raw": {
-      "software_engineer": 0.673,
-      "software_developer": 0.0,
-      "backend": 0.122,
-      "frontend": 0.082,
-      "full_stack": 0.041,
-      "engineering_manager": 0.082
+      "software_engineer": 0.633,
+      "software_developer": 0.053,
+      "backend": 0.06,
+      "frontend": 0.044,
+      "full_stack": 0.106,
+      "engineering_manager": 0.104
      },
      "role_mix_fixed": {
-      "software_engineer": 0.673,
-      "software_developer": 0.0,
-      "backend": 0.122,
-      "frontend": 0.082,
-      "full_stack": 0.041,
-      "engineering_manager": 0.082
+      "software_engineer": 0.633,
+      "software_developer": 0.052,
+      "backend": 0.061,
+      "frontend": 0.044,
+      "full_stack": 0.105,
+      "engineering_manager": 0.104
      },
-     "tvd_prev": 0.267,
-     "tvd_noise": 0.125,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
-     "meets_criterion": false
+     "tvd_prev": 0.096,
+     "tvd_noise": 0.048,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202605",
-     "n": 43,
+     "n": 397,
      "sources": {
-      "builtin": 43
+      "builtin": 43,
+      "workday": 354
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.108,
+      "workday": 0.892
      },
      "role_mix_raw": {
-      "software_engineer": 0.581,
-      "software_developer": 0.0,
-      "backend": 0.093,
-      "frontend": 0.023,
-      "full_stack": 0.14,
-      "engineering_manager": 0.163
+      "software_engineer": 0.635,
+      "software_developer": 0.043,
+      "backend": 0.068,
+      "frontend": 0.04,
+      "full_stack": 0.128,
+      "engineering_manager": 0.086
      },
      "role_mix_fixed": {
-      "software_engineer": 0.581,
-      "software_developer": 0.0,
-      "backend": 0.093,
-      "frontend": 0.023,
-      "full_stack": 0.14,
-      "engineering_manager": 0.163
+      "software_engineer": 0.634,
+      "software_developer": 0.042,
+      "backend": 0.068,
+      "frontend": 0.04,
+      "full_stack": 0.129,
+      "engineering_manager": 0.087
      },
-     "tvd_prev": 0.18,
-     "tvd_noise": 0.139,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
-     "meets_criterion": false
+     "tvd_prev": 0.031,
+     "tvd_noise": 0.049,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202606",
-     "n": 40,
+     "n": 410,
      "sources": {
-      "builtin": 40
+      "builtin": 40,
+      "workday": 370
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.098,
+      "workday": 0.902
      },
      "role_mix_raw": {
-      "software_engineer": 0.55,
-      "software_developer": 0.0,
-      "backend": 0.1,
-      "frontend": 0.05,
-      "full_stack": 0.15,
-      "engineering_manager": 0.15
+      "software_engineer": 0.61,
+      "software_developer": 0.078,
+      "backend": 0.051,
+      "frontend": 0.024,
+      "full_stack": 0.122,
+      "engineering_manager": 0.115
      },
      "role_mix_fixed": {
-      "software_engineer": 0.55,
-      "software_developer": 0.0,
-      "backend": 0.1,
-      "frontend": 0.05,
-      "full_stack": 0.15,
-      "engineering_manager": 0.15
+      "software_engineer": 0.608,
+      "software_developer": 0.076,
+      "backend": 0.053,
+      "frontend": 0.025,
+      "full_stack": 0.123,
+      "engineering_manager": 0.116
      },
-     "tvd_prev": 0.044,
-     "tvd_noise": 0.146,
-     "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
-     ],
-     "meets_criterion": false
+     "tvd_prev": 0.062,
+     "tvd_noise": 0.049,
+     "crawl_shift_flags": [],
+     "meets_criterion": true
     },
     {
      "month": "202607",
-     "n": 1,
+     "n": 280,
      "sources": {
-      "builtin": 1
+      "builtin": 1,
+      "workday": 279
      },
      "source_share": {
-      "builtin": 1.0
+      "builtin": 0.004,
+      "workday": 0.996
      },
      "role_mix_raw": {
-      "software_engineer": 1.0,
-      "software_developer": 0.0,
-      "backend": 0.0,
-      "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.0
+      "software_engineer": 0.689,
+      "software_developer": 0.046,
+      "backend": 0.061,
+      "frontend": 0.036,
+      "full_stack": 0.111,
+      "engineering_manager": 0.057
      },
      "role_mix_fixed": {
-      "software_engineer": 1.0,
-      "software_developer": 0.0,
-      "backend": 0.0,
-      "frontend": 0.0,
-      "full_stack": 0.0,
-      "engineering_manager": 0.0
+      "software_engineer": 0.727,
+      "software_developer": 0.041,
+      "backend": 0.053,
+      "frontend": 0.031,
+      "full_stack": 0.097,
+      "engineering_manager": 0.05
      },
-     "tvd_prev": 0.45,
-     "tvd_noise": 0.0,
+     "tvd_prev": 0.126,
+     "tvd_noise": 0.053,
      "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
+      "builtin share 0.00 vs avg 0.13"
      ],
      "meets_criterion": false
     },
@@ -1420,11 +1460,11 @@
       "full_stack": 0.5,
       "engineering_manager": 0.0
      },
-     "tvd_prev": 0.5,
+     "tvd_prev": 0.403,
      "tvd_noise": 0.367,
      "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
+      "builtin share 1.00 vs avg 0.13",
+      "workday share 0.00 vs avg 0.87"
      ],
      "meets_criterion": false
     },
@@ -1456,8 +1496,8 @@
      "tvd_prev": 0.5,
      "tvd_noise": 0.0,
      "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
+      "builtin share 1.00 vs avg 0.13",
+      "workday share 0.00 vs avg 0.87"
      ],
      "meets_criterion": false
     },
@@ -1489,8 +1529,8 @@
      "tvd_prev": 0.12,
      "tvd_noise": 0.071,
      "crawl_shift_flags": [
-      "builtin share 1.00 vs avg 0.21",
-      "workday share 0.00 vs avg 0.79"
+      "builtin share 1.00 vs avg 0.13",
+      "workday share 0.00 vs avg 0.87"
      ],
      "meets_criterion": false
     }

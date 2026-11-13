@@ -247,13 +247,13 @@ All sources are Common Crawl index rows, read free from ZipNum (`scripts/stage1_
 | Source | Job pages per crawl | Title in URL | Region in URL | JSON-LD full text (sample read) | Role in the sample |
 |---|---|---|---|---|---|
 | Built In | 4,900–6,600 | yes (slug) | no (resolved from page) | yes | baseline, matches the field guide |
-| Workday (`*.myworkdayjobs.com`) | 30,000–37,600 | yes | yes (location slug) | 2/12 | the main US source: 450–600 in-scope US postings per crawl |
-| Greenhouse (`job-boards.greenhouse.io`) | 16,000–18,400 | no | no | 0/12 (getro redirect wrappers) | large but needs page reads; not used yet |
-| Welcome to the Jungle | 6,400–9,500 | yes | yes (city slug) | 5/12 | mostly France; few UK/DE in-scope |
+| Workday (`*.myworkdayjobs.com`) | 30,000–46,900 | yes | yes (location slug) | 2/12 | the main US source: 280–600 in-scope US postings per crawl |
+| Greenhouse (`job-boards.greenhouse.io`) | 14,400–19,600 | no | no | no JSON-LD, but the title is in `<title>`, the location in `og:description` and the text in the embedded JSON (`jobposting_parse.parse_greenhouse`) | large, but needs page reads; not read at scale yet |
+| Welcome to the Jungle | 6,400–9,500, then **591** (2026-04), then **0 from CC-MAIN-2026-21** | yes | yes (city slug) | 5/12 | mostly France; few UK/DE in scope |
 | Lever | 5,800–6,500, then **0 from CC-MAIN-2025-47** | no | no | 7/12 | lost when Lever started blocking CCBot |
-| Ashby | **3,000–8,600** | no | no | 9/12 | read sample: 7% in scope, mostly US |
-| Personio (.de/.com) | **290–4,200** | no | DE by host | 3/12 | German titles («Softwareentwickler») need German role terms |
-| reed.co.uk | 500–1,600 job pages | yes | UK | 2/12 | 5–24 in-scope a crawl |
+| Ashby | **3,000–16,500** | no | no | 9/12 | read sample: 7% in scope, mostly US |
+| Personio (.de/.com) | **290–4,200** | no | DE by host | 190/530 readable pages | German role terms added to `roles.py`. A read of 530 pages found 4 in-scope DE postings, which projects to about 20–30 per crawl |
+| reed.co.uk | **18**–1,600 job pages | yes | UK | 2/12 | 5–24 in scope a crawl |
 | SmartRecruiters, Recruitee, Workable | 1,300–3,100 each | partly | no | low | small |
 
 ### Crawl bias, measured
@@ -263,12 +263,15 @@ All sources are Common Crawl index rows, read free from ZipNum (`scripts/stage1_
 - **Personio.de:** 294 job pages in CC-MAIN-2025-30, then 4,058 in the next crawl (14×).
 - **Ashby:** 3,000 → 8,600 → 3,100 across crawls.
 - **Recruitee:** 2,364 → 85 → 1,614.
+- **Ashby (2026):** 3,000 → 12,300 → 16,500 from Feb 2026.
+- **Welcome to the Jungle:** about 7,500 → 0 from CC-MAIN-2026-21.
+- **reed:** 1,456 → 492 → 18 → 238.
 - **Lever:** about 6,000 → 0 from Nov 2025.
 - **Built In:** about 5,500, then 128–172 in Jul–Sep 2026, then 4,563.
 
 Raw counts per month are therefore crawler behaviour and must never be read as the market growing or shrinking.
 
-Workday's share of all job pages is the steadiest of the sources, at 0.36–0.43 across crawls.
+Workday is the steadiest source, with 30,000–47,000 job pages in every crawl from CC-MAIN-2025-30 to CC-MAIN-2026-30. That is why it carries the US series.
 
 ### How bias is controlled
 
@@ -280,36 +283,38 @@ Workday's share of all job pages is the steadiest of the sources, at 0.36–0.43
 
 ### Result so far (`stability.json`)
 
-| Region | Months that meet the criterion | Typical n per month | Status |
+| Region | Months that meet the criterion | n per month | Status |
 |---|---|---|---|
-| **US** | 2025-09, 2025-10, 2025-11. Role-mix TVD 0.040–0.046 at a noise level of 0.042–0.046, so the shifts are pure noise | 450–650 (Workday about 85%, Built In about 15%) | **stable.** Jan–Oct 2026 are not measured yet (the Workday dump for those crawls was stopped by the Common Crawl block, see below). Jul 2025 is flagged because Built In's share was low; Dec 2025 is flagged the same way |
-| **UK** | none | 20–67 | **not enough data.** Built In plus reed plus Workday give at most 67 a month |
-| **DE** | none | 2–24 | **not enough data** |
+| **US** | 9 of the 11 months from Sep 2025 to Jul 2026: Sep, Oct, Nov, Dec 2025, Jan, Feb, Apr, May, Jun 2026 | 342–550 (Workday about 87%, Built In about 13%) | **stable.** Role-mix TVD is 0.031–0.096 against a noise level of 0.040–0.050. Misses: Mar 2026 (TVD 0.102, just over 0.10) and Jul 2026 (n = 280, with a Built In crawl-shift flag). Aug–Oct 2026 have no Workday rows yet: CC-MAIN-2026-34 to -43 were not dumped before the Common Crawl block |
+| **UK** | none | 13–67 | **not enough data.** Built In, reed, Workday and Welcome to the Jungle together give at most 67 a month |
+| **DE** | none | 3–25 | **not enough data**, even with German role terms |
+
+US software-engineer share of the in-scope mix (fixed weights), by month:
+
+| Month | 2025-09 | 2025-10 | 2025-11 | 2025-12 | 2026-01 | 2026-02 | 2026-03 | 2026-04 | 2026-05 | 2026-06 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Share | 0.65 | 0.66 | 0.63 | 0.69 | 0.65 | 0.63 | 0.56 | 0.63 | 0.63 | 0.61 |
 
 What to conclude, as of 2026-11-13:
 
-- **US:** the archives can already give a stable monthly role mix. The software-engineer share sits at 0.62–0.65 for Sep–Nov 2025.
-- **UK and DE:** under the stopping criterion, these months are "not enough data". Archived pages of these boards cannot support conclusions about them yet.
+- **US:** the archives give a stable monthly role mix from Sep 2025 to Jun 2026.
+- **UK and DE:** under the stopping criterion, these months are "not enough data". The free archives measured so far cannot support conclusions about them.
 
 ### Why the expansion stopped, and the next step
 
-While reading Ashby, Personio and Greenhouse pages in parallel with the index dump, `data.commoncrawl.org` started answering **HTTP 403** to this machine, even for single requests. That is Common Crawl's rate limiting. The run was stopped to let it recover.
+`data.commoncrawl.org` answers **HTTP 403** to this machine once about five readers run in parallel (the index dump plus page reads). That happened twice. The data access rate is back to 1 request per 0.15 s, and the dump uses 2 workers and is resumable: run `python stage1_cc_boards.py` and it skips finished files.
 
-- The data access rate is set back to 1 request per 0.15 s.
-- The index dump is resumable: run `python stage1_cc_boards.py` again and it skips finished files.
+Remaining free steps for UK and DE:
 
-To bring UK and DE to n ≥ 300, the remaining free steps are:
+1. Dump the boards for CC-MAIN-2026-34, -39 and -43. Run it alone, with nothing else reading Common Crawl.
+2. Read Greenhouse (the biggest pool, about 17,000 jobs a crawl) and Ashby pages, one reader at a time, about 6 pages a second. A full read of both is about 1.5 hours per crawl. Read a fixed random fraction per crawl, to keep the source mix fixed.
+3. Re-run `stability.py`.
 
-1. Finish the board index dump for CC-MAIN-2026-04 to CC-MAIN-2026-43, at one worker.
-2. Add German role terms to `roles.py`: Softwareentwickler, Software-Entwickler, Backend-/Frontend-/Fullstack-Entwickler, Teamleiter Softwareentwicklung.
-3. Read Personio (DE), Ashby and Greenhouse pages for UK/DE location and title. Greenhouse has no JSON-LD, so take the title and location from `<title>` and the page's embedded JSON.
-4. Re-run `stability.py`. Keep adding sources until UK and DE pass, or report them as not reconstructable.
-
-The other route is the live crawl that Alexey started in parallel (`alexeygrigorev/software-dev-jobs`, t3385u). For months from now on, it gives full populations for UK and DE without archive bias.
+Personio's measured yield (about 20–30 DE a crawl) shows that DE will probably not reach 300 from free archives. If Greenhouse and Ashby don't close the gap either, report UK and DE as not reconstructable from free archives. Use the live crawl (`alexeygrigorev/software-dev-jobs`, t3385u) for them from now on: it gives full populations without archive bias.
 
 ## Recommendation
 
-1. **US:** use Workday plus Built In from the archives. It meets the stability criterion (n ≈ 450–650 a month, role-mix shifts within sampling noise). Build the snapshots with fixed source quotas.
+1. **US:** use Workday plus Built In from the archives. It meets the stability criterion in 9 of 11 months from Sep 2025 to Jul 2026 (n ≈ 340–550 a month, role-mix shifts close to sampling noise). Build the snapshots with fixed source quotas.
 2. **London (UK) and Berlin (DE):** the Built In archives give 20–40 and under 15 postings a month, and the measured add-on sources reach at most 67 (UK) and 24 (DE). That is below the criterion. Keep these as samples with their n reported, and expand with Personio, Ashby and Greenhouse reads once Common Crawl unblocks (steps above). Do not draw trend conclusions from them before they pass `stability.py`.
 3. **Always compare shares, never counts,** and drop months that carry a crawl-shift flag. The crawler, not the market, drives the counts.
 4. **Jul–Sep 2026:** the archives are thin (Built In 128–172 pages a crawl). The live crawl covers this period better.

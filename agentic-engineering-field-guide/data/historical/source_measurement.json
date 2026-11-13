@@ -57,7 +57,7 @@
     "in_scope_DE": 8,
     "in_scope_UK": 19,
     "in_scope_US": 600,
-    "in_scope_by_url": 1440,
+    "in_scope_by_url": 1442,
     "job_pages": 30044
    },
    "wttj": {
@@ -122,10 +122,10 @@
    },
    "workday": {
     "captures": 45508,
-    "in_scope_DE": 5,
+    "in_scope_DE": 6,
     "in_scope_UK": 17,
     "in_scope_US": 454,
-    "in_scope_by_url": 1326,
+    "in_scope_by_url": 1330,
     "job_pages": 32181
    },
    "wttj": {
@@ -180,7 +180,7 @@
    },
    "smartrecruiters": {
     "captures": 1602,
-    "in_scope_by_url": 34,
+    "in_scope_by_url": 35,
     "job_pages": 1276
    },
    "workable": {
@@ -190,10 +190,10 @@
    },
    "workday": {
     "captures": 43689,
-    "in_scope_DE": 12,
+    "in_scope_DE": 13,
     "in_scope_UK": 20,
     "in_scope_US": 477,
-    "in_scope_by_url": 1310,
+    "in_scope_by_url": 1316,
     "job_pages": 30709
    },
    "wttj": {
@@ -261,7 +261,7 @@
     "in_scope_DE": 14,
     "in_scope_UK": 26,
     "in_scope_US": 585,
-    "in_scope_by_url": 1498,
+    "in_scope_by_url": 1499,
     "job_pages": 34866
    },
    "wttj": {
@@ -392,10 +392,10 @@
    },
    "workday": {
     "captures": 50681,
-    "in_scope_DE": 12,
+    "in_scope_DE": 14,
     "in_scope_UK": 33,
     "in_scope_US": 584,
-    "in_scope_by_url": 1360,
+    "in_scope_by_url": 1369,
     "job_pages": 36483
    },
    "wttj": {
@@ -421,6 +421,11 @@
     "captures": 35886,
     "in_scope_by_url": null,
     "job_pages": 16652
+   },
+   "lever": {
+    "captures": 89,
+    "in_scope_by_url": null,
+    "job_pages": 0
    },
    "personio_com": {
     "captures": 272,
@@ -453,6 +458,14 @@
     "in_scope_by_url": null,
     "job_pages": 1702
    },
+   "workday": {
+    "captures": 48685,
+    "in_scope_DE": 7,
+    "in_scope_UK": 25,
+    "in_scope_US": 473,
+    "in_scope_by_url": 1331,
+    "job_pages": 34855
+   },
    "wttj": {
     "captures": 3688,
     "in_scope_by_url": 15,
@@ -460,45 +473,396 @@
    }
   },
   "CC-MAIN-2026-08": {
+   "ashby": {
+    "captures": 16275,
+    "in_scope_by_url": null,
+    "job_pages": 12294
+   },
    "builtin": {
     "captures": 4944,
     "in_scope_by_url": 642,
     "job_pages": 4944
+   },
+   "greenhouse": {
+    "captures": 33432,
+    "in_scope_by_url": null,
+    "job_pages": 18253
+   },
+   "lever": {
+    "captures": 80,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 299,
+    "in_scope_by_url": null,
+    "job_pages": 157
+   },
+   "personio_de": {
+    "captures": 7055,
+    "in_scope_by_url": null,
+    "job_pages": 2490
+   },
+   "recruitee": {
+    "captures": 7393,
+    "in_scope_by_url": 83,
+    "job_pages": 2977
+   },
+   "reed": {
+    "captures": 5065,
+    "in_scope_UK": 3,
+    "in_scope_by_url": 3,
+    "job_pages": 565
+   },
+   "smartrecruiters": {
+    "captures": 2227,
+    "in_scope_by_url": 62,
+    "job_pages": 1888
+   },
+   "workable": {
+    "captures": 5315,
+    "in_scope_by_url": null,
+    "job_pages": 1636
+   },
+   "workday": {
+    "captures": 48452,
+    "in_scope_DE": 8,
+    "in_scope_UK": 30,
+    "in_scope_US": 510,
+    "in_scope_by_url": 1494,
+    "job_pages": 34844
+   },
+   "wttj": {
+    "captures": 21128,
+    "in_scope_UK": 1,
+    "in_scope_by_url": 160,
+    "job_pages": 7386
    }
   },
   "CC-MAIN-2026-12": {
+   "ashby": {
+    "captures": 15615,
+    "in_scope_by_url": null,
+    "job_pages": 11953
+   },
    "builtin": {
     "captures": 5255,
     "in_scope_by_url": 627,
     "job_pages": 5254
+   },
+   "greenhouse": {
+    "captures": 32220,
+    "in_scope_by_url": null,
+    "job_pages": 17604
+   },
+   "lever": {
+    "captures": 79,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 2718,
+    "in_scope_by_url": null,
+    "job_pages": 1462
+   },
+   "personio_de": {
+    "captures": 6315,
+    "in_scope_by_url": null,
+    "job_pages": 2911
+   },
+   "recruitee": {
+    "captures": 6515,
+    "in_scope_by_url": 93,
+    "job_pages": 2857
+   },
+   "reed": {
+    "captures": 683,
+    "in_scope_by_url": 0,
+    "job_pages": 18
+   },
+   "smartrecruiters": {
+    "captures": 2491,
+    "in_scope_by_url": 99,
+    "job_pages": 2149
+   },
+   "workable": {
+    "captures": 5181,
+    "in_scope_by_url": null,
+    "job_pages": 1806
+   },
+   "workday": {
+    "captures": 62712,
+    "in_scope_DE": 9,
+    "in_scope_UK": 32,
+    "in_scope_US": 748,
+    "in_scope_by_url": 1841,
+    "job_pages": 45530
+   },
+   "wttj": {
+    "captures": 20100,
+    "in_scope_UK": 2,
+    "in_scope_by_url": 193,
+    "job_pages": 7488
    }
   },
   "CC-MAIN-2026-17": {
+   "ashby": {
+    "captures": 15343,
+    "in_scope_by_url": null,
+    "job_pages": 12092
+   },
    "builtin": {
     "captures": 5301,
     "in_scope_by_url": 632,
     "job_pages": 5300
+   },
+   "greenhouse": {
+    "captures": 29235,
+    "in_scope_by_url": null,
+    "job_pages": 14422
+   },
+   "lever": {
+    "captures": 75,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 2814,
+    "in_scope_by_url": null,
+    "job_pages": 1499
+   },
+   "personio_de": {
+    "captures": 5417,
+    "in_scope_by_url": null,
+    "job_pages": 2614
+   },
+   "recruitee": {
+    "captures": 7143,
+    "in_scope_by_url": 78,
+    "job_pages": 2681
+   },
+   "reed": {
+    "captures": 8310,
+    "in_scope_by_url": 0,
+    "job_pages": 238
+   },
+   "smartrecruiters": {
+    "captures": 5598,
+    "in_scope_by_url": 203,
+    "job_pages": 4554
+   },
+   "workable": {
+    "captures": 6611,
+    "in_scope_by_url": null,
+    "job_pages": 1521
+   },
+   "workday": {
+    "captures": 64360,
+    "in_scope_DE": 14,
+    "in_scope_UK": 30,
+    "in_scope_US": 791,
+    "in_scope_by_url": 1898,
+    "job_pages": 46548
+   },
+   "wttj": {
+    "captures": 20752,
+    "in_scope_by_url": 202,
+    "job_pages": 7911
    }
   },
   "CC-MAIN-2026-21": {
+   "ashby": {
+    "captures": 17828,
+    "in_scope_by_url": null,
+    "job_pages": 12736
+   },
    "builtin": {
     "captures": 6595,
     "in_scope_by_url": 837,
     "job_pages": 6590
+   },
+   "greenhouse": {
+    "captures": 33055,
+    "in_scope_by_url": null,
+    "job_pages": 17448
+   },
+   "lever": {
+    "captures": 70,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 2844,
+    "in_scope_by_url": null,
+    "job_pages": 1512
+   },
+   "personio_de": {
+    "captures": 5097,
+    "in_scope_by_url": null,
+    "job_pages": 2552
+   },
+   "recruitee": {
+    "captures": 5320,
+    "in_scope_by_url": 63,
+    "job_pages": 2163
+   },
+   "reed": {
+    "captures": 7536,
+    "in_scope_by_url": 0,
+    "job_pages": 286
+   },
+   "smartrecruiters": {
+    "captures": 2652,
+    "in_scope_by_url": 72,
+    "job_pages": 2183
+   },
+   "workable": {
+    "captures": 6343,
+    "in_scope_by_url": null,
+    "job_pages": 1676
+   },
+   "workday": {
+    "captures": 64040,
+    "in_scope_DE": 16,
+    "in_scope_UK": 30,
+    "in_scope_US": 804,
+    "in_scope_by_url": 2005,
+    "job_pages": 46901
+   },
+   "wttj": {
+    "captures": 286,
+    "in_scope_by_url": 0,
+    "job_pages": 0
    }
   },
   "CC-MAIN-2026-25": {
+   "ashby": {
+    "captures": 21095,
+    "in_scope_by_url": null,
+    "job_pages": 16488
+   },
    "builtin": {
     "captures": 5920,
     "in_scope_by_url": 725,
     "job_pages": 5919
+   },
+   "greenhouse": {
+    "captures": 31285,
+    "in_scope_by_url": null,
+    "job_pages": 19592
+   },
+   "lever": {
+    "captures": 66,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 2969,
+    "in_scope_by_url": null,
+    "job_pages": 1428
+   },
+   "personio_de": {
+    "captures": 4263,
+    "in_scope_by_url": null,
+    "job_pages": 2221
+   },
+   "recruitee": {
+    "captures": 4236,
+    "in_scope_by_url": 42,
+    "job_pages": 1488
+   },
+   "reed": {
+    "captures": 11290,
+    "in_scope_by_url": 0,
+    "job_pages": 403
+   },
+   "smartrecruiters": {
+    "captures": 2512,
+    "in_scope_by_url": 94,
+    "job_pages": 2122
+   },
+   "workable": {
+    "captures": 6000,
+    "in_scope_by_url": null,
+    "job_pages": 1664
+   },
+   "workday": {
+    "captures": 55608,
+    "in_scope_DE": 13,
+    "in_scope_UK": 59,
+    "in_scope_US": 759,
+    "in_scope_by_url": 1821,
+    "job_pages": 40963
+   },
+   "wttj": {
+    "captures": 218,
+    "in_scope_by_url": 0,
+    "job_pages": 0
    }
   },
   "CC-MAIN-2026-30": {
+   "ashby": {
+    "captures": 20964,
+    "in_scope_by_url": null,
+    "job_pages": 15957
+   },
    "builtin": {
     "captures": 128,
     "in_scope_by_url": 21,
     "job_pages": 128
+   },
+   "greenhouse": {
+    "captures": 33886,
+    "in_scope_by_url": null,
+    "job_pages": 16753
+   },
+   "lever": {
+    "captures": 78,
+    "in_scope_by_url": null,
+    "job_pages": 0
+   },
+   "personio_com": {
+    "captures": 3739,
+    "in_scope_by_url": null,
+    "job_pages": 1697
+   },
+   "personio_de": {
+    "captures": 3681,
+    "in_scope_by_url": null,
+    "job_pages": 1893
+   },
+   "recruitee": {
+    "captures": 4566,
+    "in_scope_by_url": 43,
+    "job_pages": 1835
+   },
+   "reed": {
+    "captures": 11021,
+    "in_scope_by_url": 0,
+    "job_pages": 496
+   },
+   "smartrecruiters": {
+    "captures": 2488,
+    "in_scope_by_url": 62,
+    "job_pages": 1997
+   },
+   "workable": {
+    "captures": 7057,
+    "in_scope_by_url": null,
+    "job_pages": 2352
+   },
+   "workday": {
+    "captures": 59395,
+    "in_scope_DE": 16,
+    "in_scope_UK": 30,
+    "in_scope_US": 704,
+    "in_scope_by_url": 1671,
+    "job_pages": 42937
+   },
+   "wttj": {
+    "captures": 265,
+    "in_scope_by_url": 0,
+    "job_pages": 0
    }
   },
   "CC-MAIN-2026-34": {
@@ -562,7 +926,7 @@
    },
    "workday": {
     "jobs": 30044,
-    "scope": 1440,
+    "scope": 1442,
     "scope_DE": 8,
     "scope_UK": 19,
     "scope_US": 600
@@ -612,8 +976,8 @@
    },
    "workday": {
     "jobs": 32181,
-    "scope": 1326,
-    "scope_DE": 5,
+    "scope": 1330,
+    "scope_DE": 6,
     "scope_UK": 17,
     "scope_US": 454
    },
@@ -655,15 +1019,15 @@
    },
    "smartrecruiters": {
     "jobs": 1276,
-    "scope": 34
+    "scope": 35
    },
    "workable": {
     "jobs": 1321
    },
    "workday": {
     "jobs": 30709,
-    "scope": 1310,
-    "scope_DE": 12,
+    "scope": 1316,
+    "scope_DE": 13,
     "scope_UK": 20,
     "scope_US": 477
    },
@@ -712,7 +1076,7 @@
    },
    "workday": {
     "jobs": 34866,
-    "scope": 1498,
+    "scope": 1499,
     "scope_DE": 14,
     "scope_UK": 26,
     "scope_US": 585
@@ -804,8 +1168,8 @@
    },
    "workday": {
     "jobs": 36483,
-    "scope": 1360,
-    "scope_DE": 12,
+    "scope": 1369,
+    "scope_DE": 14,
     "scope_UK": 33,
     "scope_US": 584
    },
@@ -849,45 +1213,266 @@
    "workable": {
     "jobs": 1702
    },
+   "workday": {
+    "jobs": 34855,
+    "scope": 1331,
+    "scope_DE": 7,
+    "scope_UK": 25,
+    "scope_US": 473
+   },
    "wttj": {
     "jobs": 591,
     "scope": 15
    }
   },
   "202602": {
+   "ashby": {
+    "jobs": 12294
+   },
    "builtin": {
     "jobs": 4944,
     "scope": 642
+   },
+   "greenhouse": {
+    "jobs": 18253
+   },
+   "personio_com": {
+    "jobs": 157
+   },
+   "personio_de": {
+    "jobs": 2490
+   },
+   "recruitee": {
+    "jobs": 2977,
+    "scope": 83
+   },
+   "reed": {
+    "jobs": 565,
+    "scope": 3,
+    "scope_UK": 3
+   },
+   "smartrecruiters": {
+    "jobs": 1888,
+    "scope": 62
+   },
+   "workable": {
+    "jobs": 1636
+   },
+   "workday": {
+    "jobs": 34844,
+    "scope": 1494,
+    "scope_DE": 8,
+    "scope_UK": 30,
+    "scope_US": 510
+   },
+   "wttj": {
+    "jobs": 7386,
+    "scope": 160,
+    "scope_UK": 1
    }
   },
   "202603": {
+   "ashby": {
+    "jobs": 11953
+   },
    "builtin": {
     "jobs": 5254,
     "scope": 627
+   },
+   "greenhouse": {
+    "jobs": 17604
+   },
+   "personio_com": {
+    "jobs": 1462
+   },
+   "personio_de": {
+    "jobs": 2911
+   },
+   "recruitee": {
+    "jobs": 2857,
+    "scope": 93
+   },
+   "reed": {
+    "jobs": 18
+   },
+   "smartrecruiters": {
+    "jobs": 2149,
+    "scope": 99
+   },
+   "workable": {
+    "jobs": 1806
+   },
+   "workday": {
+    "jobs": 45530,
+    "scope": 1841,
+    "scope_DE": 9,
+    "scope_UK": 32,
+    "scope_US": 748
+   },
+   "wttj": {
+    "jobs": 7488,
+    "scope": 193,
+    "scope_UK": 2
    }
   },
   "202604": {
+   "ashby": {
+    "jobs": 12092
+   },
    "builtin": {
     "jobs": 5300,
     "scope": 632
+   },
+   "greenhouse": {
+    "jobs": 14422
+   },
+   "personio_com": {
+    "jobs": 1499
+   },
+   "personio_de": {
+    "jobs": 2614
+   },
+   "recruitee": {
+    "jobs": 2681,
+    "scope": 78
+   },
+   "reed": {
+    "jobs": 238
+   },
+   "smartrecruiters": {
+    "jobs": 4554,
+    "scope": 203
+   },
+   "workable": {
+    "jobs": 1521
+   },
+   "workday": {
+    "jobs": 46548,
+    "scope": 1898,
+    "scope_DE": 14,
+    "scope_UK": 30,
+    "scope_US": 791
+   },
+   "wttj": {
+    "jobs": 7911,
+    "scope": 202
    }
   },
   "202605": {
+   "ashby": {
+    "jobs": 12736
+   },
    "builtin": {
     "jobs": 6590,
     "scope": 837
+   },
+   "greenhouse": {
+    "jobs": 17448
+   },
+   "personio_com": {
+    "jobs": 1512
+   },
+   "personio_de": {
+    "jobs": 2552
+   },
+   "recruitee": {
+    "jobs": 2163,
+    "scope": 63
+   },
+   "reed": {
+    "jobs": 286
+   },
+   "smartrecruiters": {
+    "jobs": 2183,
+    "scope": 72
+   },
+   "workable": {
+    "jobs": 1676
+   },
+   "workday": {
+    "jobs": 46901,
+    "scope": 2005,
+    "scope_DE": 16,
+    "scope_UK": 30,
+    "scope_US": 804
    }
   },
   "202606": {
+   "ashby": {
+    "jobs": 16488
+   },
    "builtin": {
     "jobs": 5919,
     "scope": 725
+   },
+   "greenhouse": {
+    "jobs": 19592
+   },
+   "personio_com": {
+    "jobs": 1428
+   },
+   "personio_de": {
+    "jobs": 2221
+   },
+   "recruitee": {
+    "jobs": 1488,
+    "scope": 42
+   },
+   "reed": {
+    "jobs": 403
+   },
+   "smartrecruiters": {
+    "jobs": 2122,
+    "scope": 94
+   },
+   "workable": {
+    "jobs": 1664
+   },
+   "workday": {
+    "jobs": 40963,
+    "scope": 1821,
+    "scope_DE": 13,
+    "scope_UK": 59,
+    "scope_US": 759
    }
   },
   "202607": {
+   "ashby": {
+    "jobs": 15957
+   },
    "builtin": {
     "jobs": 128,
     "scope": 21
+   },
+   "greenhouse": {
+    "jobs": 16753
+   },
+   "personio_com": {
+    "jobs": 1697
+   },
+   "personio_de": {
+    "jobs": 1893
+   },
+   "recruitee": {
+    "jobs": 1835,
+    "scope": 43
+   },
+   "reed": {
+    "jobs": 496
+   },
+   "smartrecruiters": {
+    "jobs": 1997,
+    "scope": 62
+   },
+   "workable": {
+    "jobs": 2352
+   },
+   "workday": {
+    "jobs": 42937,
+    "scope": 1671,
+    "scope_DE": 16,
+    "scope_UK": 30,
+    "scope_US": 704
    }
   },
   "202608": {
