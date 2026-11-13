@@ -1,12 +1,12 @@
-# Why 20 seats
+# Why about 15 seats
 
-**13 November 2026.** The cap for the first cohort of the AI Engineering School is 20 seats. This file gives the reasons, the comparison with other schools and what still has to be checked. It supports the [positioning](positioning-and-messaging.md) and applies principle 1 of [Oversubscribed](principles.md): capacity is what you can serve well, not a sales target.
+**13 November 2026.** The planned size of the first cohort of the AI Engineering School (the Bildungsgutschein bootcamp) is **about 15 seats**. This is an approximate number, not a hard cap: Alexey set it on 13 November as an indicative figure ("Давай тогда 15 человек для буткампа возьмём, вот, э, ну ориентировочную цифру"), and it is still to be confirmed against the room specification and the group size the AZAV certifier approves. It replaces the earlier draft figure of twenty. This file gives the reasons, the comparison with other schools and what still has to be checked. It supports the [positioning](positioning-and-messaging.md) and applies principle 1 of [Oversubscribed](principles.md): capacity is what you can serve well, not a sales target.
 
 ## The short version
 
-- **The room.** The school runs in one room in Berlin-Prenzlauer Berg. It does not fit more than 20 learners. This is Alexey's statement of 13 November; the written room specification is still outstanding.
-- **Attention.** One instructor teaches and reviews everything. Above 20 the afternoons stop being supervised project work.
-- **Comparison.** 20 is at the upper end of what Bildungsgutschein bootcamps in Germany run. It is not unusually small, and we should not claim it is.
+- **The room.** The school runs in one room in Berlin-Prenzlauer Berg. Earlier on 13 November Alexey said it does not fit more than twenty learners, so about 15 leaves room to spare. The written room specification is still outstanding.
+- **Attention.** One instructor teaches and reviews everything. At about 15 each learner still gets an hour of one-to-one time a week; well above that the afternoons stop being supervised project work.
+- **Comparison.** About 15 is in the middle of what Bildungsgutschein bootcamps in Germany run. It is not unusually small, and we should not claim it is.
 
 ## Attention per learner
 
@@ -16,12 +16,13 @@ The proposed [teaching day](../schedule-and-capacity.md#proposed-teaching-day) h
 |---:|---:|
 | 8 | 112 |
 | 12 | 75 |
+| **15** | **60** |
 | 20 | 45 |
 | 25 | 36 |
 | 30 | 30 |
 | 40 | 22 |
 
-At 20, each learner gets about 45 minutes of one-to-one time a week, roughly one proper project review. At 30 it is half an hour, and at 40 the format is a lecture with a help desk. This is the honest form of "I can't give attention to more people".
+At about 15, each learner gets about 60 minutes of one-to-one time a week (900 / 15), enough for one proper project review plus a follow-up. At twenty it would drop to 45 minutes, at 30 to half an hour, and at 40 the format is a lecture with a help desk. This is the honest form of "I can't give attention to more people".
 
 The numbers are an upper bound. Group questions and debugging one person's problem in front of the others also come out of those 900 minutes.
 
@@ -40,26 +41,26 @@ Developer research, Part 1, 13 November 2026. Some class-size figures are older 
 
 ### How to read the table
 
-A 20-seat cap sits at the upper end of these small in-person and live-online cohorts: Data Science Retreat 10–14, neue fische about 15, Ironhack and Le Wagon about 20, WBS a maximum of 20–25. That supports "we physically cannot take more". It does not support "20 is unusually tiny", and the copy should not say that.
+A cohort of about 15 sits in the middle of these small in-person and live-online cohorts: Data Science Retreat 10–14, neue fische about 15, Ironhack and Le Wagon about 20, WBS a maximum of 20–25. That supports "one room, one instructor". It does not support "15 is unusually tiny", and the copy should not say that.
 
 Two things the table adds:
 
-- The schools at about 20 work with teaching assistants. Ironhack's own example is 15 students with one lead and two TAs. The first cohort here has one instructor and [no TA](../schedule-and-capacity.md#graduate-teaching-assistants-and-later-iterations). So 20 is a ceiling for a solo instructor, not a comfortable middle.
+- The schools at about 20 work with teaching assistants. Ironhack's own example is 15 students with one lead and two TAs. The first cohort here has one instructor and [no TA](../schedule-and-capacity.md#graduate-teaching-assistants-and-later-iterations). That is the main reason to plan for about 15 rather than twenty: Ironhack staffs 15 learners with three people, and here one person does it.
 - Several of the figures are years old (2014, 2016, 2018, 2019). They show the range, not today's caps.
 
 ## What has to be checked
 
-The reasoning above depends on facts that are not yet in the repository. Until they are, treat 20 as a **maximum**.
+The reasoning above depends on facts that are not yet in the repository. Until they are, treat about 15 as an **approximate planning number**, to be confirmed by the room and the AZAV group size, not as a hard limit.
 
-1. **Room capacity.** The [room checklist](../schedule-and-capacity.md#berlin-room-checklist) asks for "usable capacity including the instructor", desks, ventilation and the evacuation route. Get that number in writing. If it is below 20, the lower number is the cap.
-2. **Certified group size.** The existing notes plan a certified group of 8 to 12, and the standard AZAV cost calculation starts from 12 participants ([operations](../operations-and-azav.md#7-cost-approval-and-group-size), [Bildungsgutschein README](../bildungsgutschein/README.md)). Ask the certifier what maximum group size can be approved for one instructor and this room. The public number cannot be higher than the approved one.
-3. **Founder hours.** The [capacity estimate](../schedule-and-capacity.md#the-capacity-constraint) of 38–41 hours a week was made for eight learners. Assessment, support and administration grow with group size. Redo the estimate for 20 before promising individual review.
-4. **Economics.** The [model](../economics.md) uses eight participants. Rerun it for 12, 16 and 20.
+1. **Room capacity.** The [room checklist](../schedule-and-capacity.md#berlin-room-checklist) asks for "usable capacity including the instructor", desks, ventilation and the evacuation route. Get that number in writing. If it is below 15, the lower number is the cap.
+2. **Certified group size.** The existing notes plan a certified group of 8 to 12, and the standard AZAV cost calculation starts from 12 participants ([operations](../operations-and-azav.md#7-cost-approval-and-group-size), [Bildungsgutschein README](../bildungsgutschein/README.md)). Ask the certifier what maximum group size can be approved for one instructor and this room. The public number cannot be higher than the approved one. If the approved group is 12, the cohort is 12.
+3. **Founder hours.** The [capacity estimate](../schedule-and-capacity.md#the-capacity-constraint) of 38–41 hours a week was made for eight learners. Assessment, support and administration grow with group size. Redo the estimate for 15 before promising individual review.
+4. **Economics.** The [model](../economics.md) uses eight participants. Rerun it for 12 and 15.
 5. **Online format.** If the first cohort is online, the room argument does not apply. The attention argument alone still supports a cap, but then the honest sentence is about attention only.
 
 ## What follows for the message
 
-- Say "20 seats" and say why: one room, one instructor.
+- Say "about 15 seats" (or "15 seats" once the room and the certifier confirm it) and say why: one room, one instructor.
 - Do not say "smallest", "tiny", "exclusive" or "boutique".
 - Do say what a learner gets from the limit: a weekly look at their own project by the person who teaches the course.
 - If any check above lowers the number, lower it everywhere on the same day.

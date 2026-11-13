@@ -4,14 +4,14 @@
 
 ## The position in one paragraph
 
-A small, in-person AI engineering school in Berlin, taught by Alexey Grigorev himself. The first cohort has 20 seats, because one room and one instructor cannot do more. The Agentur für Arbeit can pay the tuition through a Bildungsgutschein once the course is approved, but funding does not give anyone a seat. Seats go to the people who apply, complete a practical task and fit the cohort.
+A small, in-person AI engineering school in Berlin, taught by Alexey Grigorev himself. The first cohort has about 15 seats, because one room and one instructor cannot serve more well. The number is approximate until the room specification and the AZAV group size confirm it. The Agentur für Arbeit can pay the tuition through a Bildungsgutschein once the course is approved, but funding does not give anyone a seat. Seats go to the people who apply, complete a practical task and fit the cohort.
 
 ## Before and after
 
 | Topic | Until now | From now on |
 |---|---|---|
 | What it is | "I'm planning a bootcamp and exploring formats" | "I'm starting a school. First cohort April 2027." |
-| Size | Not mentioned | "20 seats" in the first two sentences |
+| Size | Not mentioned | "15 seats" in the first two sentences |
 | Why limited | Not mentioned | "One room, one instructor" |
 | Funding | "I'm exploring Bildungsgutschein funding" | "The Agentur can pay. It doesn't decide who gets in." |
 | What the reader does | Takes a survey to help me | Applies for a seat |
@@ -25,15 +25,15 @@ Use them in this order. Every post, page and ad carries at least the first three
 
 ### 1. The offer is limited
 
-> The first cohort has 20 seats.
+> The first cohort has 15 seats.
 
-A number, stated early, without adjectives. Not "limited places", not "small group".
+A number, stated early, without adjectives. Internally it is an approximate planning figure; publish it only once the room and the certifier have confirmed it, and use the confirmed number if it is lower. Not "limited places", not "small group".
 
 ### 2. The reason is physical
 
 > One room and one instructor. The room doesn't fit more people, and I can't review more projects properly.
 
-This is the part that makes the limit believable. Always give both halves: the room and the attention. The numbers behind it are in the [rationale](20-seat-rationale.md).
+This is the part that makes the limit believable. Always give both halves: the room and the attention. The numbers behind it are in the [rationale](15-seat-rationale.md).
 
 ### 3. Funding is not admission
 
@@ -49,7 +49,7 @@ Readers in the Bildungsgutschein market are used to schools that take everyone w
 
 > I expect more applications than seats, so I select the cohort. You apply, do a short practical task, and we talk for 20 minutes.
 
-Say "I expect" until the numbers exist. Once accepted applicants exceed 20, say so with the real number.
+Say "I expect" until the numbers exist. Once accepted applicants exceed 15, say so with the real number.
 
 ## What we do not say
 
@@ -57,7 +57,7 @@ Say "I expect" until the numbers exist. Once accepted applicants exceed 20, say 
 |---|---|---|
 | "Free", "kostenlos", "100% funded" | Approval is pending and each voucher is an individual decision | "The Agentur für Arbeit can cover the tuition" |
 | "Exclusive", "elite", "only the best" | It reads as arrogance, and selection is about fit and readiness | "I select for fit: can you code a little, can you attend, do you know why you're here" |
-| "Tiny", "smallest cohort in Berlin" | Not true. Other schools run 10 to 20 | "20 seats" |
+| "Tiny", "smallest cohort in Berlin" | Not true. Other schools run 10 to 20 | "15 seats" |
 | "Seats are going fast" | Not known | A real date and, later, a real count |
 | "Guaranteed job" | Cannot be promised | "You finish with a deployed project and can explain how you built and tested it" |
 | "Everyone welcome" | Contradicts selection | "Career changers are welcome if they already program a bit" |
@@ -93,7 +93,7 @@ This matters for the public funder as well. A school that checks suitability bef
 | seat, cohort, application, round, waitlist, offer | slot, batch, lead, signup |
 | "taught by me", "I review your project" | "world-class instructors", "mentors" |
 | "approval pending", "the Agentur decides" | "AZAV-certified" (until it is), "guaranteed funding" |
-| "20 seats" | "limited availability" |
+| "15 seats" | "limited availability" |
 
 German equivalents: Plätze, Jahrgang, Bewerbung, Bewerbungsrunde, Warteliste, Zulassung beantragt.
 
@@ -104,13 +104,13 @@ First person, plain, specific. Short sentences. Numbers and dates instead of adj
 ## Answers to the questions people will ask
 
 **"If the state pays, why can't everyone join?"**
-Because the state pays for the seat, not for a bigger room or a second me. There are 20 seats.
+Because the state pays for the seat, not for a bigger room or a second me. There are 15 seats.
 
 **"I already have a Bildungsgutschein. Am I in?"**
 Not automatically. Apply like everyone else. Also, the course is not approved yet, and an existing voucher may not match this course. Your adviser decides that.
 
 **"Will you open more seats if many people apply?"**
-No. If there is more demand than 20, there is a waitlist and a second cohort later.
+No. If there is more demand than 15, there is a waitlist and a second cohort later.
 
 **"What if I'm accepted and the Agentur says no?"**
 You can pay yourself or release the seat. The seat then goes to the next person on the waitlist.
@@ -125,7 +125,7 @@ The approval is in progress. I'll say when it's granted.
 
 The room argument only works in person. If the first cohort runs live online, use:
 
-> I teach this cohort myself and review every project. I can do that properly for 20 people, not for more.
+> I teach this cohort myself and review every project. I can do that properly for about 15 people, not for more.
 
 Do not mention a room in copy for an online cohort.
 

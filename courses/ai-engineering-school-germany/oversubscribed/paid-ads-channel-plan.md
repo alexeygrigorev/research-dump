@@ -53,7 +53,7 @@ Stage 0 tells us which message gets suitable applications. Ads then amplify that
 |---|---|---:|---|
 | Google Search | Germany, German and English keywords around Bildungsgutschein + KI/AI/software, and "AI bootcamp Berlin". Exact and phrase match, small set. | €500 | Whether intent traffic turns into suitable applications |
 | YouTube | In-feed and skippable in-stream ad, a 30–45 second clip of Alexey in the room. Germany, tech and programming interests, plus a custom audience of people who watched the channel. | €400 | Whether video brings applicants or only views |
-| Instagram and Facebook | One campaign, Berlin plus 50 km, two creatives (the room with 20 chairs; Alexey to camera). Feed and Reels. | €400 | Reach among people who don't follow tech channels |
+| Instagram and Facebook | One campaign, Berlin plus 50 km, two creatives (the room with 15 chairs; Alexey to camera). Feed and Reels. | €400 | Reach among people who don't follow tech channels |
 | LinkedIn | Promote the best-performing organic post to Germany, software and data job titles. | €200 | Cost of reaching the exact professional audience |
 
 Run each test for at least ten days with one message and one landing page, so the channels are comparable.
@@ -82,18 +82,18 @@ The same four messages as everywhere, shortened. Ad copy must be true before app
 
 Headlines:
 
-- "AI engineering school in Berlin. 20 seats. Apply."
-- "Taught by Alexey Grigorev. First cohort April 2027. 20 seats."
-- "KI-Weiterbildung in Berlin: 20 Plätze, Bewerbung erforderlich"
+- "AI engineering school in Berlin. 15 seats. Apply."
+- "Taught by Alexey Grigorev. First cohort April 2027. 15 seats."
+- "KI-Weiterbildung in Berlin: 15 Plätze, Bewerbung erforderlich"
 
 Body:
 
-- "One room, one instructor, 20 seats. Full-time, in person, in English. Bildungsgutschein funding is planned; approval is pending. Funding doesn't get you a seat: you apply."
-- "I teach this cohort myself and review every project. That works for 20 people. First application round closes [date]."
+- "One room, one instructor, 15 seats. Full-time, in person, in English. Bildungsgutschein funding is planned; approval is pending. Funding doesn't get you a seat: you apply."
+- "I teach this cohort myself and review every project. That works for about 15 people. First application round closes [date]."
 
 Video script, about 30 seconds:
 
-> This room has 20 seats. In April I start an AI engineering school here, and I teach it myself.
+> This room has 15 seats. In April I start an AI engineering school here, and I teach it myself.
 > I'm applying for approval so the Agentur für Arbeit can pay the tuition. But a voucher doesn't get you a seat.
 > You apply, you do a short task, and I pick the cohort.
 > The first round closes on [date]. The link is below.
@@ -118,7 +118,7 @@ Rules for ad copy:
 
 Decision rule for the end of stage 1: keep a channel if it produced at least a few suitable applications at a cost Alexey would pay again; otherwise stop it. With budgets this small the numbers will be thin, so read the applications themselves, not only the totals.
 
-Against the book's planning heuristics, 20 seats would want roughly 100 strong signals. Organic channels should supply most of those. Ads are a test of new channels, not the main source.
+Against the book's planning heuristics, 15 seats would want roughly 75 strong signals. Organic channels should supply most of those. Ads are a test of new channels, not the main source.
 
 ## After approval
 
@@ -134,7 +134,7 @@ Plan the 2027 budget around these, using what stage 1 showed.
 ## Before any spend
 
 - The application form and privacy notice are live.
-- A landing page states 20 seats, the reason, the selection steps and the approval status.
+- A landing page states 15 seats, the reason, the selection steps and the approval status.
 - Source tracking works.
 - Alexey has approved the budget and the copy.
-- The seat number has been checked against the room and the certifier ([rationale](20-seat-rationale.md#what-has-to-be-checked)).
+- The seat number has been checked against the room and the certifier ([rationale](15-seat-rationale.md#what-has-to-be-checked)).
