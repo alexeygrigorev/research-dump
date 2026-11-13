@@ -33,6 +33,7 @@ Older September pack text assumed **November 2, 2026 – January 24, 2027** and 
 |---|---|
 | [CURRENT.md](CURRENT.md) | **Live Maven facts** as of 2026-10-20 |
 | [README.md](README.md) | This master index |
+| [december-promo-content-plan/](december-promo-content-plan/README.md) | **Draft** December 2026 weekly-talk promo plan for the Jan 11 – Mar 21, 2027 cohort (live page 2026-11-13); newer than the Nov 16 – Feb 7 facts elsewhere in this folder |
 | [oversubscribed-launch-plan.md](oversubscribed-launch-plan.md) | Oct 10 Oversubscribed launch revision (already on Nov 16–Feb 7 dates; pair with CURRENT.md for live verification) |
 | [course-plan.md](course-plan.md) | Curriculum + teaching calendar (**rebased** to Nov 16 – Feb 7) |
 | [marketing-plan.md](marketing-plan.md) | Launch campaign (**main table rebased +14 days**) |
