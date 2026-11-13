@@ -42,6 +42,7 @@ None of the tentative duration, price, group size or dates is an approved course
 | [Economics](economics.md) | Current solo model, B-DKS calculations, pricing and cash requirements |
 | [2026 expense plan](2026-expense-plan.md) | EÜR/Bilanz, genuine prepayments, assets, year-end sequence and accountant questions |
 | [Bildungsgutschein programme](bildungsgutschein/README.md) | Research with sources, course descriptions and syllabi for tracks A and B (16-week core of 640 UE with defined extension weeks), price and minimum duration for a €12,000–13,000 voucher price |
+| [Oversubscribed campaign](oversubscribed/README.md) | Draft, 13 November: 20-seat cap and its rationale, selection and waitlist, positioning, announcement and form proposals, paid-ads channel plan. The 20-seat cap is newer than the eight-participant assumption in the other files |
 | [Decision log](decision-log.md) | User decisions, working assumptions, changes and unresolved questions |
 | [Sources](sources.md) | Primary sources, market observations and their limitations |
 | [Historical staffed scenario](archive/staffed-scenario.md) | Superseded first-iteration proposal: 560 UE and provisional €8,900 fee |
