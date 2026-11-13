@@ -7,6 +7,7 @@ Status: plan drafted on 2026-11-13, waiting for Alexey's review. No data has bee
 ## Contents
 
 - [plan.md](plan.md) - the data plan: which postings to collect, current and historical sources, paid providers with prices, geographies, and the collection-script design
+- [alternatives.md](alternatives.md) - researched free and <$400 historical job-data alternatives to TheirStack (live-verified 2026-11-13)
 
 ## Related
 
