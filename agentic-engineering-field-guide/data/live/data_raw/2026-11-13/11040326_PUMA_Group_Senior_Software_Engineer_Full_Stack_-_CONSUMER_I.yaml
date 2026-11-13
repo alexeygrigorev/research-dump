@@ -1,0 +1,159 @@
+job_id: 11040326
+title: "Senior Software Engineer (Full Stack) - CONSUMER INTELLIGENCE & ENGAGEMENT"
+company: PUMA Group
+location: CAN
+locations:
+  - CAN
+  - IND
+  - AUS
+  - IRL
+  - GBR
+  - Local, USA
+  - Singapore, SGP
+remote: true
+work_type: FULL_TIME
+company_size: 14,000 Employees
+description: |
+  SPEED & SPIRIT is what we look for in our candidates,
+  defined by some simple values that inspire us to BE DRIVEN
+  in our performance, BE VIBRANT in our sporting legacy, BE
+  TOGETHER in our team spirit, and to let our individual
+  talent and experience shine. Applying for a job at PUMA is
+  easy.
+
+  Simply click APPLY ONLINE and follow the steps to upload
+  your application.
+
+  YOUR MISSION
+
+  About the Organisation & Role:
+
+  You will be part of the Consumer Intelligence & Engagement
+  organisation responsible for delivering the intelligence and
+  engagement capabilities that enable more relevant and
+  personalised consumer experiences across digital channels.
+  The organisation plays a key role in how consumers discover
+  products, engage with content, and elevate experiences
+  through membership & loyalty. Through capabilities such as
+  personalisation, recommendations, consumer intelligence,
+  experimentation, and AI-driven decisioning, the organisation
+  helps deliver more contextual, data-driven interactions
+  across the consumer journey.
+
+  As a Senior Software Engineer (Full Stack), you will build
+  backend services for the membership and loyalty
+  capabilities. You will be responsible for technical design,
+  development and validation. Working closely with the Lead
+  Engineer, Product Owner and Engineering Manager, you will
+  deliver low latency services that support real-time consumer
+  experiences. You will also be building reusable assets for
+  consistent development and delivery.
+
+  What you will do:
+
+  - Design, build, and operate scalable, low-latency APIs,
+    event-driven services, and integration layers that support
+    real-time and batch membership, loyalty, rewards, and
+    consumer engagement use cases.
+  - Develop and evolve customer-facing web applications and
+    supporting backend services, ensuring a seamless and
+    consistent membership and loyalty experience across
+    digital channels.
+  - Configure, extend, and integrate the Antavo loyalty
+    platform, including custom workflows, reward mechanisms,
+    member lifecycle processes, event processing, and
+    promotional capabilities.
+  - Design and implement integrations between Antavo and
+    enterprise commerce platforms such as SFCC, Fluent
+    Commerce, CDP, CRM, marketing automation, and data
+    platforms to support accurate and near real-time member
+    data synchronisation.
+  - Apply distributed systems principles including asynchronous
+    processing, idempotency, caching, retries, circuit
+    breakers, and event-driven architectures to build
+    resilient and reliable member experiences at scale.
+  - Ensure solutions are secure, observable, reliable, and
+    resilient by implementing engineering best practices for
+    monitoring, logging and performance optimisation.
+  - Collaborate closely with Product Owners, Lead Engineers,
+    Architects, Data Engineers, and AI/ML Engineers to deliver
+    business capabilities and contribute to technical design
+    decisions.
+  - Contribute to engineering standards, reusable libraries,
+    reference implementations, and platform capabilities that
+    improve consistency, maintainability, and developer
+    experience across teams.
+  - Troubleshoot production issues through monitoring, logging,
+    crash analysis, and root cause investigation.
+  - Mentor junior engineers, conduct code reviews, share
+    technical knowledge, and promote engineering best
+    practices across the team
+
+  YOUR TALENT
+
+  - 7+ years of experience designing and building large scale
+    distributed backend systems on cloud-native platforms.
+  - Experience implementing or integrating enterprise loyalty
+    platforms (Antavo preferred), including member lifecycle
+    management, rewards, promotions, campaign execution, and
+    loyalty transaction processing.
+  - Strong understanding of design patterns, data structures and
+    algorithms, with practical experience applying them to
+    real-world use cases.
+  - Expertise in backend engineering, API design, microservices,
+    event-driven architectures, and scalable integration
+    patterns using Java, Spring Boot and related frameworks.
+  - Working knowledge of React and modern frontend development
+    practices sufficient to contribute to customer-facing
+    applications.
+  - Experience with Node.js and related frameworks.
+  - Experience in event streaming platforms like Kafka.
+  - Experience with SQL/No-SQL databases with understanding of
+    database architecture and distributed data management.
+  - Experience with observability, reliability engineering and
+    performance optimisation.
+  - Experience using coding agents, LLMs or AI-assisted
+    engineering tools.
+  - Experience in eCommerce, retail, or consumer digital
+    products is strongly preferred.
+  - Bachelor's degree in Computer Science, Information
+    Technology, Engineering, or a related field.
+
+  PUMA provides equal opportunities for all job applicants,
+  regardless of race, color, religion, national origin, sex,
+
+  gender identity or expression, sexual orientation, age, or
+  disability. Equality for all is one of the core principles
+  at
+
+  PUMA and we do not tolerate any form of harassment or
+  discrimination.
+
+  At PUMA, every application is reviewed by real people who
+  are committed to fairness, transparency, and equal
+
+  opportunity - no matter your background, identity, or
+  experience.To ensure our process stays true to these values,
+  no automated systems or AI tools are used to make hiring
+  decisions. Every decision is made by real people -with real
+  judgment and accountability. We may use functions supported
+  by Artificial Intelligence (AI) to carry out isolated
+  organizational steps, such as scheduling interviews. These
+  functions have no influence on decisions in the application
+  process. We believe in creating spaces where everyone is
+  welcome, celebrated, and empowered to contribute
+  authentically. Because at PUMA, whoever wants to play, can
+  play.
+
+  PUMA is a global sports brand creating footwear, apparel,
+  and accessories that inspire athletes and everyday movers.
+  The PUMA Group owns PUMA, Cobra Golf, and stichd, operates
+  in 120+ countries, and has around 22,000
+
+  employees worldwide.
+industries:
+  - Retail
+  - Sports
+posted_date: 2026-09-07
+url: "https://builtin.com/job/senior-software-engineer-full-stack-consumer-intelligence-engagement/11040326"
+source: Built In

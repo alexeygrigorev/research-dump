@@ -1,0 +1,110 @@
+job_id: 11976094
+title: Software Engineer
+company: Luzern Risk
+location: CAN
+remote: true
+work_type: FULL_TIME
+company_size: 2200 Employees
+description: |
+  About Luzern Risk
+
+  Luzern Risk is a technology-first captive insurance manager.
+  We form and run captive insurance companies end to end:
+  structuring, licensing, governance, accounting, claims, and
+  regulatory compliance, delivered through an AI-native
+  platform where software agents run the workflows and
+  licensed experts direct, approve, and advise. The model is
+  working: 15+ captives under management, more than $50M in
+  premium, licenses in 11 U.S. domiciles plus the Cayman
+  Islands, and zero client turnover.
+
+  The mandate for the Software Engineer is to own significant
+  parts of the platform that runs this business, set the bar
+  for how we build, and stay close enough to customers to
+  decide what is worth building in the first place.
+  Engineering is small and deliberate, and at this stage an
+  engineer is not one voice among many. You take ambiguous,
+  high-stakes problems and drive them from discovery through
+  production.
+
+  You will treat AI as core infrastructure, not a feature, and
+  set the standard for using it responsibly in a regulated
+  domain. The best product ideas here come from direct contact
+  with the licensed experts and clients whose work our
+  software supports, and you will bring that judgment into the
+  room when we decide what comes next.
+
+  Core Responsibilities
+
+  - Own hard problems end to end: scope ambiguous, high-stakes
+    work, design the system, build the difficult parts, and
+    see it through to real adoption.
+  - Set the technical direction: build across the stack and
+    establish the patterns and architecture others follow as
+    we scale. Your decisions should hold up under growth.
+  - Work side by side with users: run working sessions with
+    business users and clients, pull out the requirements they
+    did not know how to articulate, and turn messy manual
+    workflows into durable product.
+  - Make AI core infrastructure: design how modern AI models fit
+    into the product and set the standard for doing it
+    responsibly, with clear judgment about where a human must
+    stay in the loop.
+  - Shape the roadmap: bring product judgment earned through
+    direct customer contact, and help decide what we build
+    next, not just how.
+  - Lift the team: review work, unblock people, mentor
+    engineers, and model the ownership and quality we want
+    everywhere.
+
+  Successful candidates will demonstrate
+
+  - 5+ years building and shipping production software.
+  - Deep full-stack ability. You can own a system end to end and
+    make sound calls about architecture, data, and trade-offs.
+  - Pragmatism. You can build systems that scale but know when
+    to choose simple solutions.
+  - A track record integrating LLMs and agentic workflows into
+    production applications, with earned opinions about where
+    they belong and where they do not.
+  - Excellent with non-engineers. You can lead a working session
+    with a client's finance or operations lead, surface hidden
+    requirements, and explain technical trade-offs in plain
+    language.
+  - Strong product instincts. You can decide what is worth
+    building, not just build what you are handed.
+  - A real pull toward startups and the ownership that comes
+    with them. You make fast, sound decisions under pressure
+    and thrive in ambiguity.
+  - Smart, low ego, direct, and relentless about getting to the
+    bottom of hard problems.
+
+  Our Stack
+
+  We don’t expect you to have used every tool in this list on
+  day one. A strong full-stack foundation and the ability to
+  pick up new patterns quickly are what matter most.
+
+  - TypeScript across the product. Next.js front end, NestJS
+    back end.
+  - Python for our analytics models.
+  - Event-sourced CQRS services, Kafka, PostgreSQL.
+  - Auth0 and SpiceDB for auth.
+  - GCP, GKE, GitHub.
+
+  Where This Goes
+
+  Captive management is the entry point, not the destination.
+  The platform we are building for our own book is designed to
+  become infrastructure for how companies finance risk. An
+  engineer here helps set the technical foundation, and the
+  standards, that the discipline gets built on. The scope of
+  this seat grows with that arc.
+
+  Compensation
+
+  The base pay range for this role is $140,000 – $260,000 per
+  year.
+posted_date: 2026-10-29
+url: "https://builtin.com/job/senior-software-engineer/11976094"
+source: Built In

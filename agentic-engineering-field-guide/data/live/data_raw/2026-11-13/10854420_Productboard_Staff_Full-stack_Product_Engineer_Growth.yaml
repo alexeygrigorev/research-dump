@@ -1,0 +1,293 @@
+job_id: 10854420
+title: Staff Full-stack Product Engineer, Growth
+company: Productboard
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  - Prague, CZE
+  - Brno, CZE
+remote: true
+work_type: FULL_TIME
+company_size: 246 Employees
+description: |
+  Location: Czechia (Prague hybrid, or remote within Czechia).
+  Remote within the EU is also possible. Relocation support is
+  available.
+
+  Only the best engineers are being built here.
+
+  At Productboard, we are defining AI-first Product
+  Engineering. Not as a one-time achievement, but as a
+  baseline we raise every time we reach it. We remove every
+  bottleneck as it surfaces and rebuild how product teams work
+  from first principles, not just adding AI to existing
+  workflows.
+
+  AI tools are everywhere now. Agents can write code. That’s
+  today’s baseline.What we're building is the environment
+  where the baseline makes you better: focused on outcomes,
+  writing specs that agents build from, leveling up with every
+  feature you ship.
+
+  We are defining what AI-native product development becomes.
+  We're all in.
+
+  What you would build
+
+  As part of the Growth team, you’ll help people discover,
+  try, and get value from
+
+  Productboard - from first touchpoint through onboarding,
+  engagement, and expansion.
+
+  We ship fast, measure impact, and learn quickly.
+
+  - Build onboarding flows and in-product guides that bring
+    users to their “aha” moment faster.
+  - Run AI-driven experiments (e.g. smart setup helpers,
+    personalized onboarding, AI suggestions).
+  - Improve monetization flows (plan structure, upgrade nudges,
+    communicating value).
+  - Work on retention features that keep users engaged and
+    coming back.
+  - Lead high-impact growth experiments with product, design,
+    and data partners.
+  - Advocate for scalable solutions and mentor others in growth
+    engineering.
+  - Make our codebase AI-ready: define clear module boundaries,
+    improve API contracts, add semantic context, and build the
+    structured documentation that makes AI agents more
+    effective across every repo.
+  - Design and implement agent workflows that go beyond chat:
+    multi-step reasoning, tool use, autonomous task execution,
+    and human-gated checkpoints.
+  - Run experiments, validate with real users, and iterate based
+    on evidence. We measure learning velocity, not just
+    output.
+  - Collaborate closely with product managers and designers to
+    shape what we build, not just how we build it. We expect a
+    product mindset, not just technical execution.
+  - Act as a knowledge multiplier, sharing what you learn across
+    and beyond your team to raise the bar for everyone.
+
+  The opportunity
+
+  The first shift in our teams has already happened: agents
+  write code. That’s the baseline everywhere. Now we’re
+  building an AI-first Product Engineering organization where
+  learning matters as much as shipping.
+
+  Only a few companies build a product that makes them better.
+  What we’re building next is a single place where work lives.
+  Specs, plans, and full product context live in Productboard.
+  There’s a seamless loop between Spark, our AI agent, and the
+  coding agents. Engineers can steer from anywhere and focus
+  on directing the work instead of typing it all out.
+
+  Our own teams run on Productboard and Spark, so the feedback
+  loop isn't a survey next quarter. It's the next conversation
+  you overhear.
+
+  Imagine you ship a feature before lunch and by the
+  afternoon, half the floor is working with it. Not in a demo,
+  not on a roadmap slide: in our real work, minutes after you
+  merged.
+
+  We feel the gaps our customers feel, and we close them
+  first. Every feature goes straight to real product teams
+  solving real problems, starting with ours.
+
+  We are looking for a Staff Full-stack Product Engineer who
+  wants to build this from the inside.
+
+  Why this matters for your career
+
+  Engineers own more. Not just the code: the outcome it
+  drives.
+
+  You won't just use AI tools. You will shape the architecture
+  that makes agents effective, define the workflows that make
+  them reliable, and build the evaluation systems that make
+  them trustworthy.
+
+  This is where you become a pure product engineer. Someone
+  who owns the problem, the trade-offs, and the result, not
+  just the implementation. Every maker has an orchestra. The
+  craft is knowing what it should play. And we never outsource
+  our thinking.
+
+  The skills you build here (designing codebases agents can
+  work in confidently, writing specs that carry your judgment
+  into every build, building evaluations that catch what AI
+  misses) will define senior engineering for the next decade.
+  What you learn here doesn't just make you faster today. It
+  makes you more valuable for years to come.
+
+  What you will do
+
+  We're hiring a Staff Full-stack Engineer to own the
+  architectural layer that makes this real, working alongside
+  our engineers, PMs, and designers shipping AI-first product
+  features end-to-end. You'd ship code, set technical
+  direction, and shape decisions about what's worth building.
+  Your north star here will be: get from idea to validated
+  learning twice as fast.
+
+  About you
+
+  - 6-10+ years of professional engineering experience
+    (comfortable working on both frontend and backend).
+  - Growth mindset - you care about business impact and think in
+    terms of activation, conversion, and retention.
+  - Comfort with ambiguity - you experiment, learn quickly, and
+    iterate when things don’t work right away.
+  - Cross-functional experience - worked closely with PMs,
+    designers, and analysts to ship features that solve real
+    problems.
+  - Bring product thinking to engineering work. You can
+    articulate why something matters for users, not just how
+    it works technically.
+  - Embrace AI as a daily tool in your own workflow. You use AI
+    coding assistants, iterate on prompts, and constantly look
+    for ways to move faster.
+  - Are curious about what agent native architecture looks like:
+    how to structure codebases, APIs, and documentation so AI
+    agents can operate effectively at scale.
+  - Strong fit: Former founding engineer or founder. A 0-to-1
+    engineer who turns business insights into prototypes to
+    validate ideas quickly. Someone who's built agentic
+    systems in production, or done deep work with multi-step
+    LLM workflows (tool use, memory, orchestration).
+
+  Our tech stack
+
+  - AI layer: Python, Pydantic AI, Braintrust
+  - Frontend: TypeScript, React, Relay, GraphQL
+  - Backend: Kotlin, Ruby (legacy services we're modernizing),
+    with new services built in Kotlin
+  - Storage: PostgreSQL, MongoDB, Elastic, Redis
+  - Data pipeline: Python, Keboola, Looker, Snowflake
+  - Infrastructure: AWS, Cloudflare, Kubernetes, Terraform
+
+  Our Compensation
+
+  Salary range: 2,295,000–3,305,000 CZK annually
+
+  - Where most of our L4s sit:
+    - Q1 (2.3M–2.55M) · 33%
+    - Q2 (2.55M–2.8M) · 27%
+    - Q3 (2.8M–3.05M) · 33%
+    - Q4 (3.05M–3.3M) · 7%
+
+  Our benefits include
+
+  - Stock options
+  - MacBook + 34″ monitor
+  - Work from home stipend to support your home office setup
+  - 5 weeks of vacation + 9 sick days
+  - Flexible working hours and home office
+  - Budget for online courses, books, and conferences
+  - 2 weeks of fully paid parental leave
+  - Fertility & Family-Building Support with Carrot
+  - Mental Wellness Program with Soulmio to support your well-
+    being and self-care
+  - 1 Volunteer Day per year to support causes close to your
+    heart, plus donation matching from Productboard
+  - Free snacks, drinks, and yummy catered lunches from White
+    Circus at the office every day
+  - Free MultiSport card
+  - On-site bouldering wall, boxing bag, and workout mats
+  - Team events, such as happy hours, off-sites, and retreats
+  - Free year-round access to Prague Zoo
+
+  Relocation Opportunities
+
+  If joining us means making a move, we're here to help make
+  that transition easier.
+
+  Candidates must have the legal right to work in the EU.
+  While we are unable to provide visa sponsorship for this
+  role, we're happy to support relocation to Prague for
+  candidates already authorized to work in the EU.
+
+  Relocation Support
+
+  We offer a one-time relocation bonus ranging from $6,000 to
+  $13,000 USD, depending on your personal situation, whether
+  you're moving on your own or with a partner or family.
+
+  This bonus is intended to help offset moving expenses and
+  support your transition into your new city. While it may not
+  cover every cost, it provides meaningful financial support
+  as you get settled.
+
+  If you're thinking about relocating and want to explore what
+  this could look like for you, we'd be happy to have that
+  conversation.
+
+  About Productboard
+
+  Productboard is the leading intelligent product management
+  platform, used by 6,000+ companies including Salesforce,
+  SAP, Autodesk, and Kroger. Headquartered in San Francisco,
+  with engineering hubs in Prague and Brno. Backed by Index
+  Ventures, Kleiner Perkins, Sequoia Capital, Bessemer, Tiger
+  Global, and Dragoneer.
+
+  We've spent the last decade building the foundation for how
+  product teams work. We're now in our 0-to-1 moment again,
+  building Productboard Spark — the AI-first, agentic
+  experience that turns raw feedback and signals into clear
+  problems, strong specs, and faster execution. Spark is what
+  powers everything you'd be working on.
+
+  Are you building with us?
+
+  If the work above is what you want to spend the next chapter
+  of your career on, apply below!
+
+  Equal Opportunity
+
+  Productboard is an equal opportunity employer. We are
+  committed to an inclusive hiring process and consider all
+  qualified applicants without discrimination based on
+  characteristics protected by applicable law. If you require
+  an accommodation during the hiring process, please contact
+  peopleops@productboard.com.
+
+  By applying you agree to Productboard's Global Candidate
+  Privacy Policy
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Productivity
+  - Software
+  - Analytics
+posted_date: 2026-08-26
+url: "https://builtin.com/job/staff-full-stack-product-engineer-growth-prague-brno-remote-eu/10854420"
+source: Built In

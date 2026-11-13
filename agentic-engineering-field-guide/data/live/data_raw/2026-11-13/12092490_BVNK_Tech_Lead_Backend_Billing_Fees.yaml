@@ -1,0 +1,246 @@
+job_id: 12092490
+title: "Tech Lead (Backend): Billing & Fees"
+company: BVNK
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 320 Employees
+description: |
+  About us:
+
+  We believe the next generation of financial services will be
+  powered by stablecoins.
+
+  Founded in 2021, our mission at BVNK is to accelerate global
+  money movement.
+
+  We’re building stablecoin-native infrastructure so
+  businesses can move value instantly across borders and
+  networks. With global licenses and T1 bank partnerships, we
+  facilitate billions in transactions for enterprise clients
+  like Worldpay, Deel, LianLian Global, and Rapyd.
+
+  Our technology is transforming how businesses operate
+  globally by eliminating payment delays, reducing costs, and
+  unlocking trapped capital.
+
+  We’re a diverse team spread across EMEA, North America, and
+  APAC, with a shared belief that stablecoins are the new
+  infrastructure layer for financial services, and that BVNK
+  is at the forefront of this shift.
+
+  In 2025, we secured strategic investment from Visa,
+  following our $50 million Series B with Haun Ventures,
+  Coinbase Ventures, Scribble Ventures, DRW Venture Capital,
+  Avenir, and Tiger Global. With the backing of these leading
+  investors, we’re accelerating our growth – and we're looking
+  for smart, ambitious people to help us build the future of
+  financial services.
+
+  We're incredibly honored to have made Newsweek's list of The
+  Top 100 Global Most Loved Workplaces three years running
+  (most recently in 2025) and to have been recognised by
+  LinkedIn as one of the Top 20 Startups in the UK in 2024.
+  Location: We offer a Hybrid/Remote working policy.
+
+  About this role in the team:
+
+  We’re looking for a talented Tech Lead to lead the technical
+  direction and delivery of the Billing & Fees subdomain
+  within BVNK’s Ledger domain.
+
+  Billing & Fees sits at the heart of how BVNK monetises its
+  products and services. The team is responsible for ensuring
+  that every transaction is billed accurately, fees are
+  applied correctly, and invoices can be generated, reconciled
+  and audited with confidence.
+
+  Today, several of these processes rely on manual workflows
+  and spreadsheets. As BVNK scales, we're building the
+  automated infrastructure needed to support increasingly
+  complex commercial agreements, growing transaction volumes,
+  and enterprise-grade financial operations.
+
+  As Tech Lead, you'll be responsible for shaping the
+  architecture and technical roadmap of our billing platform,
+  turning complex financial and commercial requirements into
+  reliable, scalable engineering solutions.
+
+  You'll lead the design and development of services
+  supporting fee configuration, fee calculation, invoicing,
+  billing automation and reconciliation, ensuring that the
+  systems we build are accurate, resilient and maintainable.
+
+  This is a hands-on technical leadership role. You'll work
+  closely with engineers, product managers, Finance,
+  Commercial and other engineering domains to make critical
+  architectural decisions, solve complex technical challenges,
+  and guide the team towards high-quality delivery.
+
+  Key Areas of Responsibilities:
+
+  - Own the technical direction of Billing & Fees: Define and
+    drive the architecture, technical strategy and engineering
+    roadmap for billing services, ensuring solutions support
+    BVNK's evolving commercial models, transaction volumes and
+    operational requirements.
+  - Lead the development of scalable billing infrastructure:
+    Architect and build services responsible for fee policy
+    configuration, fee calculation, invoice generation,
+    billing adjustments and reconciliation, replacing manual
+    processes with automated, reliable workflows.
+  - Drive end-to-end billing automation: Design robust data
+    pipelines and integrations connecting systems such as
+    Snowflake, Salesforce, Ledger and internal financial
+    services, ensuring accurate data flows from transaction
+    processing through to invoicing and reporting.
+  - Ensure financial accuracy and auditability: Establish
+    engineering patterns that support financial correctness,
+    including idempotency, traceability, reconciliation,
+    exception handling and comprehensive audit trails. Ensure
+    billing discrepancies can be identified, investigated and
+    resolved effectively.
+  - Lead architectural design and technical decisions: Drive
+    technical design submissions, architecture reviews and
+    service design, applying domain-driven design, hexagonal
+    architecture and event-driven patterns to build well-
+    defined, maintainable services.
+  - Provide hands-on technical leadership: Remain actively
+    involved in designing, building and reviewing production
+    code. Mentor engineers, provide technical guidance,
+    unblock complex challenges and raise engineering standards
+    across the squad.
+  - Collaborate across engineering and business domains: Partner
+    with Product, Finance, Commercial, Back Office, Ledger,
+    Digital Assets and Fiat teams to translate complex
+    requirements into clear technical solutions and ensure
+    reliable integration across systems.
+  - Own reliability and operational excellence: Establish strong
+    standards for observability, monitoring, performance and
+    incident response. Guide the team in managing production
+    workloads, including message processing failures, dead-
+    letter queues, service recovery and operational
+    resilience.
+  - Drive engineering quality and delivery: Set expectations for
+    testing, CI/CD, documentation and technical debt
+    management. Work with the team to deliver high-quality
+    solutions consistently while balancing speed,
+    maintainability and long-term platform health.
+
+  What we need from you:
+
+  - 7+ years of backend software engineering experience, with
+    strong hands-on expertise in Java/Kotlin and Spring Boot,
+    including experience leading technical initiatives or
+    providing technical leadership to other engineers.
+  - Proven experience designing and delivering complex,
+    distributed, production-grade systems, with a strong
+    understanding of microservices, event-driven architectures
+    (Kafka, SQS), relational databases (MySQL/PostgreSQL) and
+    caching technologies such as Redis.
+  - Experience working on financially sensitive systems, such as
+    billing, invoicing, payments, ledger, fee calculation or
+    reconciliation platforms, where accuracy, consistency,
+    auditability and reliability are critical.
+  - Strong architectural expertise, including domain-driven
+    design, hexagonal architecture, service decomposition,
+    bounded contexts and asynchronous communication patterns.
+  - Demonstrated ability to own technical architecture and drive
+    engineering decisions, balancing scalability, reliability,
+    delivery timelines and business requirements.
+  - Strong API design experience, including building and
+    evolving RESTful APIs, managing backwards compatibility,
+    and creating reliable integration patterns across internal
+    and external systems.
+  - Solid understanding of financial data integrity, including
+    transactional consistency, idempotency, error recovery and
+    reconciliation in distributed environments.
+  - Experience mentoring and guiding engineers through technical
+    design, code reviews, problem-solving and complex delivery
+    challenges.
+  - A strong production ownership mindset, with experience
+    operating business-critical systems, participating in on-
+    call rotations, managing incidents and using observability
+    tooling such as Grafana, Prometheus and Micrometer.
+  - Familiarity with CI/CD pipelines, infrastructure-as-code,
+    automated testing and modern software delivery practices.
+  - Strong communication and stakeholder management skills, with
+    the ability to work effectively across Engineering,
+    Product, Finance and Commercial teams in a distributed,
+    remote-first environment.
+  - Comfortable being both a hands-on engineer and a technical
+    leader, taking ownership of challenging problems while
+    enabling others to deliver successfully.
+
+  What you can expect from us:
+
+  - Fair and competitive salary at every stage of your growth
+  - Flexible working hours, with hybrid working at its heart
+  - A culture built on passionate, growth-minded people
+  - A flexible approach to holiday
+  - Opportunities to travel to our offices around the world
+  - An open and creative environment where you can help us
+    define the future of BVNK, its culture, and its
+    opportunity sets
+
+  At BVNK, we are focused on building a diverse and inclusive
+  team. While you may not meet all of our requirements, we’d
+  encourage you to apply if you meet the majority of our
+  expectations. You may be a great fit for this role or
+  another role in our team.
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Bulgaria Salary Range
+
+  €85.000—€110.000 EUR
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Spain Salary Range
+
+  €95.000—€110.000 EUR
+
+  Compensation packages are based on candidate experience and
+  relevant certifications.
+
+  Poland Salary Range
+
+  480 000 zł—550 000 zł PLN
+industries:
+  - Fintech
+  - Payments
+  - Financial Services
+posted_date: 2026-11-05
+url: "https://builtin.com/job/tech-lead-backend-billing-fees/12092490"
+source: Built In

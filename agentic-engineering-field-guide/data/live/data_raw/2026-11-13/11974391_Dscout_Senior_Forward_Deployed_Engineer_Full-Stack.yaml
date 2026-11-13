@@ -1,0 +1,272 @@
+job_id: 11974391
+title: Senior Forward Deployed Engineer (Full-Stack)
+company: Dscout
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 180 Employees
+description: |
+  At Dscout, we’re building the most flexible and powerful UX
+  research platform on the market—trusted by the world’s top
+  brands in finance (JP Morgan Chase, Intuit, Charles Schwab,
+  PayPal), healthcare (Aya, Headspace), consumer goods (Keen,
+  Verizon, Target, Northface), and tech (Google, Amazon,
+  Facebook, Meta, Spotify, AirBnB). Our tools help teams
+  deeply understand the humans behind their products, so they
+  can build better ones. We are expanding our smart and driven
+  team and would love for you to join us.
+
+  At Dscout, we're building the human-grounded layer that
+  teaches AI to work in the real world and proves it stays
+  aligned there. We are expanding our smart and driven team
+  and would love for you to join us.
+
+  Dscout AI Training & Evals builds human data and evals that
+  show whether AI works for real people. For ten years Dscout
+  has captured how people behave in real context, with consent
+  and scientific rigor. Dscout AI Training & Evals points that
+  engine at AI: consented human behavior and judgment, turned
+  into the training data, evals, and benchmarks AI teams
+  trust.
+
+  Models ace benchmarks and still surprise people in the wild.
+  A benchmark says how capable a model is. It does not say
+  whether the model works for the person using it, across
+  weeks, in the mess of real life. That gap is where we work.
+
+  We serve AI researchers, the product builders who ship
+  alongside them, and the research teams who partner with
+  both. We are a new unit inside an established company: live
+  customers, a mature platform (React, Elixir, Python, Swift,
+  Kotlin; SOC 2 and HITRUST certified), a small senior team,
+  and room to build. We work AI-native. Agents write code,
+  evals gate changes, and we aim to do in months what used to
+  take years.
+
+  A note from our Chief AI Officer & GM. The hardest AI
+  problems show up when a model meets real people, with their
+  tools, their interruptions, and their goals. Our customers
+  need a partner who can design the answer, build it, and ship
+  it fast. Ground Truth sits where deployment meets research:
+  what we learn in the field shapes the science, and the
+  science shapes what we ship. Come build it with us.
+
+  Why this seat
+
+  - Work directly with AI labs and AI product teams on problems
+    that have no playbook yet.
+  - Build on a platform that already works, so your time goes
+    into the hard part, not the plumbing.
+  - Own technical decisions on your programs, and see your
+    builds become a product.
+  - Join a small senior team with direct access to the GM, our
+    Principal Engineers, and the Head of AI Research.
+
+  Our Strategic Project Leads run customer programs from first
+  scoping call to final data delivery. You are their technical
+  partner and builder. Customers ask for things that have not
+  been built before: weeks of real-world AI use, captured in
+  context, delivered as data a lab can train or evaluate on.
+  You work out how. Some of it our platform already does, some
+  needs configuring, and some has to be built. Knowing which
+  is the job.
+
+  Programs you will work on
+
+  - Long-horizon, real-world use of AI products, captured over
+    days and weeks.
+  - Side-by-side model comparisons judged by people who match a
+    specific profile.
+  - Human judgment and preference data, delivered in formats a
+    training pipeline can ingest.
+  - Feedback loops that connect real user behavior to model and
+    product decisions.
+
+  What you will do
+
+  Scope and shape programs
+
+  - Turn a fuzzy customer brief into a technical plan in days,
+    alongside the Project Lead.
+  - Decide what to reuse, extend, or build, and prove the gap
+    before you write code.
+  - Write the scope down: what we will deliver, how it works,
+    what could go wrong.
+
+  Build and ship
+
+  - Build capture flows, task logic, data pipelines, and
+    delivery across web, mobile, and backend.
+  - Ship production code with real participants on the other
+    end.
+  - Use coding agents and evals as part of how you build, and
+    teach the habit to others.
+
+  Build trust into the data
+
+  - Own redaction, validation, provenance, and clean delivery.
+  - Design quality checks and human-review paths, and measure
+    whether they work.
+  - Work with our research team so the data you ship carries
+    evidence that it is good.
+
+  Turn the field into product
+
+  - Work with core engineering to move repeat builds into the
+    platform.
+  - Tell us what customers keep asking for, and help decide what
+    we build next.
+
+  Latitude. These areas are the core, not the whole list. You
+  will have real room to propose new program types and
+  platform capabilities as the market moves.
+
+  A good first year
+
+  - Several customer programs scoped and shipped, with you named
+    by the customer.
+  - Signed scope to first data gets noticeably faster.
+  - Two or more custom builds absorbed into the core platform.
+  - Project Leads stop asking "can we do this?" and start asking
+    "how fast?"
+
+  How we will hire: a conversation with the GM; a scoping
+  exercise on a real, anonymized brief (what would you reuse,
+  what would you build); a technical deep dive with core
+  engineers; a conversation with the Project Leads and the
+  Head of AI Research.
+
+  What you bring
+
+  - 7+ years shipping production full-stack software. We care
+    more about what you have shipped than which languages you
+    list.
+  - Experience working directly with technical customers, as a
+    forward deployed engineer, solutions engineer, or early
+    founding engineer.
+  - Experience building and running data pipelines: ingest,
+    clean, redact, deliver.
+  - Hands-on time with AI coding agents (Claude Code, Cursor,
+    Codex or similar). You have shipped serious work with
+    them, not just used autocomplete.
+  - Experience building with LLMs and a sense of how they get
+    evaluated. You are at ease with non-determinism and reason
+    about behavior across a distribution, not a fixed test
+    suite.
+  - You write clearly and can explain a tradeoff to a researcher
+    and to a PM.
+  - Based in the Bay Area, with occasional customer travel.
+
+  Nice to have: human data, labeling, or eval pipeline
+  experience; mobile or browser-based capture; sensitive or
+  regulated data; you have founded something.
+
+  Compensation: $250-400K OTE + Equity. Includes a built-in
+  bonus and equity program, flexible PTO, 15 holidays, 12
+  weeks of paid parental leave, 401k match, and an education
+  stipend.
+
+  This is an ideal list. If the role excites you and you do
+  not check every box, we would still love to hear from you.
+
+  Of course, what is outlined above is an ideal set of
+  expectations; however, business needs and other projects and
+  tasks may shift, and additional tasks could be assigned at
+  the discretion of your manager.
+
+  Of course, what is outlined above is an ideal set of
+  expectations; however, business needs and other projects and
+  tasks may shift, and additional tasks could be assigned at
+  the discretion of your manager.
+
+
+
+  About Dscout
+
+
+
+  Dscout is a team of passionate, empathetic, and curious
+  professionals. As a recognized leader in the Forrester Wave,
+  we’re at the cutting edge of experience research technology.
+  The power of research drives us - how in-context insights
+  from real people can build more enjoyable products and
+  services.
+
+  We prioritize learning, sharing, and building. We also
+  deeply value being a diverse and inclusive team and company
+  and look for team members who align with that belief. Join
+  our dynamic team and help shape product roadmaps and
+  business strategies for the world’s most loved brands.
+
+
+
+  It doesn't stop there. When you join the Dscout team, you
+  will get:
+
+  - A strong and competitive compensation package with a built-
+    in bonus and equity program.
+  - An incredible and progressive benefits package (for both you
+    and your dependents) to support work/life balance,
+    including flexible PTO, 15 company holidays, 12 weeks of
+    paid parental leave, 401k match, and much more.
+  - An education stipend to support your growth & development,
+    and a remote work stipend.
+  - A company that is open and transparent with our team. You
+    will know what is happening and why it matters.
+
+  Dscout is an equal-opportunity employer that values
+  diversity. We do not discriminate based on identity,
+  including race, color, religion, national origin or
+  ancestry, sex, gender identity and expression, age, physical
+  or mental disability, pregnancy, veteran or military status,
+  unfavorable discharge from military service, genetic
+  information, sexual orientation, marital status, order of
+  protection status, citizenship status, arrest record or
+  expunged or sealed convictions, or any other legally
+  recognized protected basis under federal, state, or local
+  law.
+
+
+
+  If you need reasonable accommodations for any part of the
+  employment process, please email us at
+  accommodations@dscout.com with the nature of your request
+  and your contact information. We'll do everything possible
+  to ensure you're well-prepared for success during our
+  interview process, while also upholding your privacy,
+  including accommodating any special requests. Please note
+  that only inquiries regarding requests for reasonable
+  accommodation will be responded to from this email address.
+
+
+
+  When you apply at Dscout, we will process your job applicant
+  data, including your employment and education history,
+  transcript, writing samples, and references, as necessary to
+  consider your job application for open positions. For more
+  information about our privacy practices, please visit our
+  Privacy Policy.
+
+
+
+  Dscout participates in the E-Verify program in certain
+  locations, as required by law. Location Flexibility: Dscout
+  is proud to support a remote-first workforce and enable
+  employees to work from almost anywhere. At this time,
+  however, we are unable to hire in the following locations:
+  Montana, Hawaii, Alaska, and Washington DC.
+
+
+
+  NOTE: DSCOUT NEVER CONTACTS JOB APPLICANTS VIA TEXT,
+  MESSENGER, OR OTHER SIMILAR APPLICATIONS. BE AWARE OF
+  PHISHING AND SPOOFING SCAMS, BOTH VIA TEXT AND EMAIL. ONLY
+  RESPOND TO EMAILS FROM DSCOUT.COM
+industries:
+  - Enterprise Web
+  - Mobile
+  - Professional Services
+  - Software
+posted_date: 2026-10-29
+url: "https://builtin.com/job/senior-forward-deployed-engineer-full-stack/11974391"
+source: Built In

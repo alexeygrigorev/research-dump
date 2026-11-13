@@ -1,0 +1,37 @@
+job_id: 11951300
+title: "Senior Fullstack Engineer (LLMs & AI Agents)"
+company: Tappz GmbH
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 17 Employees
+description: |
+  Location: Munich Tappz is building AI-native applications
+  powered by large language models. We’re moving fast in a
+  highly competitive space and need an engineer who is fully
+  focused on AI systems and agent development. We’re looking
+  for someone who enjoys high ownership, working hard, and
+  shipping real AI products. Tasks Design and build backend
+  systems powered by LLMs Develop agent workflows and tool
+  integrations Build RAG pipelines with vector search Handle
+  prompt orchestration and context management Optimize
+  performance, latency, and cost Ship AI features into
+  production products Requirements Strong backend and frontend
+  engineering (Node.js, Next.js, Typescript, Python, Nest.js,
+  GCP) Deep experience working with LLMs and AI APIs
+  Experience building AI agents or multi-step workflows Vector
+  DB experience (Pinecone/Weaviate/etc.) RAG implementation
+  experience Prompt engineering and system design Production
+  deployment experience Mindset we value: Ownership, speed,
+  and the willingness to go the extra mile Benefits High
+  ownership in a fast-growing AI startup, remote-friendly
+  setup, and the chance to build agent systems in production.
+  If you want to build AI agents in production with a lot of
+  ownership and impact, apply now.
+industries:
+  - Artificial Intelligence
+  - Mobile
+  - Software
+  - App development
+posted_date: 2026-10-29
+url: "https://builtin.com/job/senior-fullstack-engineer-llms-ai-agents/11951300"
+source: Built In

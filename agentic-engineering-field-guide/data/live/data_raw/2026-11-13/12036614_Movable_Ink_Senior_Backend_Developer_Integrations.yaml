@@ -1,0 +1,153 @@
+job_id: 12036614
+title: Senior Backend Developer, Integrations
+company: Movable Ink
+location: Toronto, CAN
+work_type: FULL_TIME
+company_size: 600 Employees
+description: |
+  Movable Ink scales content personalization for marketers
+  through data-activated content generation and AI
+  decisioning. The world’s most innovative brands rely on
+  Movable Ink to maximize revenue, simplify workflow and boost
+  marketing agility. Headquartered in New York City with close
+  to 600 employees, Movable Ink serves its global client base
+  with operations throughout North America, Central America,
+  Europe, Australia, and Japan.
+
+  We are looking for a Senior Software Developer to be a part
+  of the development team that works on building and
+  maintaining integrations between our systems and third party
+  APIs. This team builds integrations with various providers
+  ranging from email, to mobile and push and ensures that
+  content is set up and delivered correctly for each of the
+  various providers that we support. We are looking for
+  someone to help us scale and meet future demand. There’s
+  lots to do and lots to learn, so we hope you are also a fast
+  learner who can grow with us as we build the future of
+  subscriber marketing!
+
+  This is a hands-on technical role for someone who thrives at
+  the intersection of big-picture architecture and heads-down
+  implementation. You’ll help shape the technical direction
+  for a critical platform capability while also staying close
+  to the details: designing systems, writing code, reviewing
+  implementation, working with other developers, and
+  unblocking the team on complex technical problems.
+
+  You’ll work on challenging 3rd party integration problems
+  involving high impact coordination with 3rd party vendors,
+  managing partner instabilities, dealing with rate limits and
+  creating reliable, observable, and stable services. The
+  systems you help build will be used to support almost every
+  message sent out of our systems.
+
+  You will report to an Engineering manager in this role.
+
+  What You’ll Do
+
+  - Contribute to Integration Architecture: Contribute to
+    technical vision, system boundaries, and architecture for
+    services that integrate with our 3rd party vendors.
+  - Lead by Example: Be a hands-on technical leader who
+    contributes directly to high-impact work through design,
+    implementation, code review, debugging, and production
+    support.
+  - Help build new integrations: Design and implement patterns
+    that make it easy to add new integrations.
+  - Take ownership: Collaborate with product and engineering
+    teams to implement complex projects that require
+    comprehensive and in-depth analysis and understanding of
+    the client’s requirements.
+  - Plan & Deliver: Partner with the Engineering Manager and
+    Product to turn ambiguous goals into clear technical
+    plans, milestones, and incremental delivery paths.
+  - Partner Across the Platform: Collaborate closely with
+    partner engineering teams to ensure that we integrate
+    cleanly into campaign orchestration, content creation and
+    message delivery systems.
+  - User Driven Development: Build innovative new features to
+    support our growing enterprise customer base, with a
+    strong empathy for the end-user experience.
+  - Support Best Practices: Ensure that code and architecture
+    comply with the company's development standards and
+    industry best practices.
+
+  What You Bring
+
+  - 6+ years of professional software engineering experience,
+    with a strong track record of building and operating
+    backend or platform systems in production.
+  - Significant experience designing and operating distributed
+    services.
+  - Strong architectural judgment around stateful services,
+    asynchronous processing, system reliability, and
+    production operations.
+  - Hands-on technical leadership experience: you are
+    comfortable being the go-to person for unblocking,
+    reviewing, mentoring, and leading complex technical
+    initiatives end-to-end.
+  - Experience translating ambiguous product goals into
+    pragmatic technical designs and incremental execution
+    plans.
+  - Familiarity with building 3rd party integrations and the
+    complexities and challenges associated with them.
+  - Strong understanding of how to use things like retries,
+    idempotency, backoffs, rate limiting, handling partial
+    failures, and external monitoring to keep a service
+    running smoothly even if dependent services are
+    experiencing issues.
+  - Experience building scalable backend services in cloud
+    environments, preferably Google Cloud Platform.
+  - A strong focus on operational excellence — building reliable
+    systems with monitoring, alerting, logging, tracing,
+    incident response, and shared ownership of on-call
+    responsibilities for business-critical services.
+  - Clear communication skills and the ability to translate
+    technical tradeoffs into practical decisions with Product,
+    Design, engineering partners, and business stakeholders.
+  - A collaborative, product-minded approach to platform
+    engineering — balancing technical quality with customer
+    value and delivery momentum.
+
+  Why This Role Matters
+
+  It would not be possible to send messages without the work
+  of the integration team. We set up, schedule, trigger and
+  monitor all the messages that are sent out through our
+  various email and mobile service provider partners. We
+  support and maintain integrations with numerous partners and
+  keep things running smoothly while continuing to add new
+  partners to grow the business.
+
+  The base pay range for this position is $140,000-$180,000
+  CAD/ year, which can include additional bonus depending on
+  the position ultimately offered, in addition to a full range
+  of medical, financial, and/or other benefits. The base pay
+  offered may vary depending on job-related knowledge, skills,
+  and experience.
+
+  Studies have shown that women, communities of color, and
+  historically underrepresented people are less likely to
+  apply to jobs unless they meet every single qualification.
+  We are committed to building a diverse and inclusive culture
+  where all Inkers can thrive. If you’re excited about the
+  role but don’t meet all of the abovementioned
+  qualifications, we encourage you to apply. Our differences
+  bring a breadth of knowledge and perspectives that makes us
+  collectively stronger.
+
+  We welcome and employ people regardless of race, color,
+  gender identity or expression, religion, genetic
+  information, parental or pregnancy status, national origin,
+  sexual orientation, age, citizenship, marital status,
+  ethnicity, family or marital status, physical and mental
+  ability, political affiliation, disability, Veteran status,
+  or other protected characteristics. We are proud to be an
+  equal opportunity employer.
+industries:
+  - Artificial Intelligence
+  - Marketing Tech
+  - Software
+posted_date: 2026-11-03
+url: "https://builtin.com/job/senior-backend-engineer-integrations/12036614"
+source: Built In

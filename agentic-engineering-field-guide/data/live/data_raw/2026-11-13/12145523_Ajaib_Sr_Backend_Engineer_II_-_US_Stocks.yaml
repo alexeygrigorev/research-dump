@@ -1,0 +1,120 @@
+job_id: 12145523
+title: Sr. Backend Engineer II - US Stocks
+company: Ajaib
+location: POL
+locations:
+  - POL
+  - Jakarta, IDN
+  - THA
+remote: true
+work_type: FULL_TIME
+company_size: 584 Employees
+description: |
+  Founded to transform retail finance, Ajaib Group is an
+  Indonesian fintech unicorn breaking barriers to financial
+  access. Having recently secured a $270M Series C—the single
+  largest funding round in Southeast Asia over the past four
+  years—we are backed by premier global investors including Y
+  Combinator, Ribbit Capital, SoftBank, and SBI Holdings.
+
+  To build world-class products, we assemble world-class
+  talent. Supported by our fully remote work arrangement, our
+  team spans Eastern Europe, the Middle East, India, and
+  Southeast Asia, allowing you to work with brilliant
+  engineers and builders from around the globe from wherever
+  you are. We operate with an impact-driven purpose where
+  everyone is the owner of our customers' satisfaction. Driven
+  by a growth mindset and a fierce will to win, we refuse to
+  settle and constantly push engineering boundaries.
+
+  Role Overview
+
+  As a Sr. Backend Engineer II in the US Stocks team, you own
+  backend services for trading US stocks from design to
+  production: order flow to our brokerage partners, balances
+  and currency conversion, market data, portfolio and
+  corporate actions. You take on larger and more complex
+  features, make sound design decisions under real traffic,
+  and mentor engineers around you.
+
+  - Design, build and run scalable, secure backend services and
+    APIs for trading, funding, market data and portfolio
+    features.
+  - Own larger features and services end to end, including
+    monitoring, alerting and on-call follow-up.
+  - Design for correctness first: accurate money and quantity
+    handling, idempotent requests, safe retries and audit
+    trails.
+  - Integrate with US brokerage and custody partners, and make
+    those integrations resilient to outages, delays and
+    duplicate or out-of-order messages.
+  - Build and improve reconciliation between our records and our
+    partners' records, and drive root-cause fixes for
+    mismatches.
+  - Handle US-specific events correctly, such as market hours,
+    dividends, stock splits and settlement timing.
+  - Keep services fast and stable at US market open and during
+    volatile days, and plan capacity ahead of known events.
+  - Lead design reviews and give thoughtful code reviews.
+  - Investigate production incidents, run root cause analysis
+    and ship lasting fixes.
+  - Mentor mid-level engineers and share knowledge within the
+    team.
+  - Design resilient, low-latency order routing logic to manage
+    execution across multiple Liquidity Providers (LPs) and
+    venues, handling rate limits, partial fills, and complex
+    order lifecycles.
+  - Proactively identify systemic risks across the US Stocks
+    domain and propose architectural improvements, acting as a
+    technical bridge to Staff engineers.
+
+  Requirements
+
+  - Education: Bachelor's degree in Computer Science or
+    equivalent practical experience.
+  - Experience: 5+ years of professional backend engineering,
+    with a track record of owning production services under
+    high traffic.
+  - Languages: Strong in Java, Go or another modern backend
+    language.
+  - System Design: Solid understanding of microservices,
+    REST/gRPC APIs, event-driven design, and reliability and
+    observability practices.
+  - Data & Messaging: Hands-on with relational and NoSQL
+    databases (query tuning), caching (Redis) and messaging
+    (Kafka).
+  - Infrastructure: Experience running services on cloud
+    platforms (GCP or AWS), with containers and CI/CD.
+  - Mindset & Domain: Ownership mindset and clear communication.
+    Experience in brokerage, trading, payments, cross-border
+    money movement or another regulated environment is a
+    strong plus.
+  - Deep understanding of modern API-first brokerage platforms
+    (e.g., Alpaca, Interactive Brokers) or crypto exchanges,
+    including WebSocket streaming for market data and FIX
+    protocol fundamentals.
+
+  Benefits
+
+  - Performance Bonus - Get rewarded for the impact you make
+  - Private Insurance - Comprehensive health coverage for you
+  - Paid Time Off - Take the time you need to recharge and come
+    back stronger
+  - Learning & Development - Company-sponsored training,
+    courses, and professional certifications
+  - Hybrid Work Arrangement - Enjoy the flexibility of working
+    both remotely and from the office
+  - Career Growth - Work closely with experienced leaders and
+    take on meaningful ownership as we scale
+  - Employee Perks - Enjoy exclusive discounts, partnerships,
+    and lifestyle perks
+  - Collaborative & High-Ownership Culture - Work with smart,
+    driven people in cross-functional teams, take ownership,
+    and make a meaningful impact for our users.
+industries:
+  - Fintech
+  - Software
+  - Financial Services
+posted_date: 2026-11-09
+url: "https://builtin.com/job/sr-backend-engineer-ii-us-stocks/12145523"
+source: Built In

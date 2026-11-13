@@ -1,0 +1,99 @@
+job_id: 11117119
+title: Senior Full-Stack Software Engineer - Webfuse
+company: Surfly
+location: Amsterdam, NLD
+work_type: FULL_TIME
+company_size: 36 Employees
+description: |
+  Webfuse is Surfly’s browser-based platform for securely
+  adding functionality, automation, and collaboration to
+  existing web applications without changing their source
+  code. It combines JavaScript sandboxing with proxy
+  infrastructure, creating unusual engineering challenges
+  across browser APIs, web security, real-time communication,
+  and distributed systems.
+
+  As a Senior Full-Stack Software Engineer, you will join our
+  Product Engineering team in Amsterdam. This is a genuinely
+  full-stack role: projects regularly cross frontend and
+  backend boundaries.
+
+  You will own production features from technical design and
+  implementation through testing, release, and maintenance.
+  Your work will include a mix of:
+
+  - Building in-session interfaces and tools using TypeScript
+    and Vue.js
+  - Developing APIs and backend services using Python, Django,
+    Django REST Framework, Node.js, and Go
+  - Building real-time collaboration features using WebSockets
+    and WebRTC
+  - Developing browser automation, in-session extensions, and
+    security controls
+  - Building integrations with customer and partner systems
+  - Developing MCP and WebMCP capabilities that allow AI agents
+    to interact with Webfuse sessions
+
+  Testing, debugging, deployment, and production maintenance
+  are part of owning a feature - not separate responsibilities
+  handed to another team.
+
+  We expect you to bring deep expertise in at least one part
+  of the stack and to contribute confidently across the wider
+  platform. As part of a small engineering team, you will have
+  direct influence over technical decisions and how features
+  are built.
+
+  Our team is international and English is our working
+  language. This is an office-first hybrid role: you will work
+  from our Amsterdam office four days per week, with the
+  option to work from home one day per week.
+
+  Candidates must currently be based in the Netherlands.
+  Surfly can provide or transfer Dutch visa sponsorship.
+
+  - A bachelor’s or master’s degree in Computer Science,
+    Software Engineering, or a closely related technical field
+  - At least five years of professional software engineering
+    experience building and maintaining production web
+    applications
+  - Direct experience with Python, Django, Vue.js, Node.js, or
+    Go
+  - Strong full-stack development experience, with deeper
+    expertise in either backend or frontend engineering
+  - Professional experience with server-side development and
+    TypeScript-based frontend development
+  - Experience designing, building, and maintaining APIs or
+    backend services
+  - Strong engineering fundamentals, including automated
+    testing, debugging, code review, Git, and maintainable
+    software design
+  - The ability to investigate complex problems across browser,
+    frontend, and backend systems
+  - A track record of owning software beyond its initial
+    implementation, including rollout, debugging, and
+    production maintenance
+  - Clear written and verbal communication in English
+  - Currently based in the Netherlands and able to work from our
+    Amsterdam office four days per week
+  - A GitHub profile containing publicly viewable code that you
+    wrote
+
+  Nice to have:
+
+  - Browser automation experience with Playwright, Puppeteer, or
+    the Chrome DevTools Protocol
+  - Knowledge of CSP, cookies, SameSite, SRI, or cross-origin
+    isolation
+  - Experience with WebSockets, WebRTC, or browser extension
+    development
+  - Experience with PostgreSQL, Redis, microservices,
+    containers, or deployment pipelines
+  - Experience with MCP, WebMCP, or other AI-agent integrations
+industries:
+  - Enterprise Web
+  - Productivity
+  - Software
+posted_date: 2026-09-10
+url: "https://builtin.com/job/senior-full-stack-software-engineer-webfuse/11117119"
+source: Built In

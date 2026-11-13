@@ -1,0 +1,302 @@
+job_id: 9244168
+title: Senior Frontend Engineer
+company: Forma.ai
+location: Toronto, CAN
+work_type: FULL_TIME
+company_size: 145 Employees
+description: |
+  About Forma.ai:
+
+  Forma.ai is a Series B startup that's revolutionizing how
+  sales compensation is designed, managed and optimized. We
+  handle billions in annual managed commissions for market
+  leaders like Edmentum, Stryker, and Autodesk.
+
+  Our growth has been fuelled by our passion for fundamentally
+  changing and shaping how companies use sales intelligence to
+  drive business strategy.
+
+  We’re welcoming equally driven individuals who are excited
+  about creating something big!
+
+  About the team:
+
+  Engineers on this team build the application our customers
+  and internal teams use to configure, operate, manage, and
+  visualize complex incentive compensation workflows.
+
+  This role sits within Forma’s ICM Operations platform,
+  spanning areas such as Core Services, Business Intelligence,
+  workflows, automation, APIs, claims management, next-
+  generation reporting, and data exploration capabilities.
+
+  There are many complex and difficult areas across the
+  product, especially across frontend architecture and user
+  experience, because of high data volumes, wide
+  configurability, complex business logic, and mission-
+  critical operational workflows. The work is not just about
+  building screens; it is about helping users understand, act
+  on, and trust complex compensation data and operational
+  processes.
+
+  We are low on meetings and high on accountability. Most of
+  the team is in the EST timezone, with some teammates in PST
+  and Central. We are far from maintenance or simple
+  progressive evolution in many areas; there is a lot of room
+  to make a meaningful impact on the overall user experience,
+  product architecture, and frontend design patterns.
+
+  What you'll be doing:
+
+  Reporting to the VP of Engineering the Senior Frontend
+  Engineer will play a key role in building, evolving, and
+  scaling Forma’s customer-facing and internal operations
+  experiences.
+
+  You’ll work closely with product, design, engineering,
+  operations, and leadership partners to deliver intuitive,
+  performant, and reliable interfaces for configuring,
+  operating, and analyzing complex sales compensation
+  workflows. You’ll take ownership of significant frontend
+  initiatives, contribute to product and technical direction,
+  and help raise the quality of our frontend systems through
+  thoughtful architecture, code quality, and collaboration.
+
+  You will help turn complex operational processes into clear,
+  reusable, and scalable product experiences — from approvals
+  and ticketing to claims workflows, policy-driven automation,
+  dashboards, reporting, and data exploration.
+
+  You will:
+
+  - Build and ship complex frontend features with React,
+    TypeScript, SASS, Jest, and Cypress.
+  - Create intuitive experiences for workflows, automation,
+    claims, reporting, dashboards, and data exploration.
+  - Translate complex compensation and operational workflows
+    into clear, scalable UI.
+  - Build reusable frontend and data visualization patterns that
+    scale across customers.
+  - Improve frontend architecture, performance, accessibility,
+    testing, and developer experience.
+  - Bring customer empathy, product thinking, and operational
+    awareness to your work.
+
+  What we’re looking for
+
+  We’re looking for a frontend-focused engineer who is
+  comfortable owning meaningful product work, collaborating
+  across disciplines, and navigating ambiguity in a complex
+  product domain.
+
+  This role is for someone who can take ownership of a product
+  area from an engineering perspective, not just pick up
+  tickets. You should be able to understand the business
+  problem, reason through the user workflow, ask good
+  questions, and partner with product and design to shape
+  solutions that are technically sound, usable, and scalable.
+
+  You have:
+
+  - Strong experience building production web applications with
+    React, TypeScript, and JavaScript.
+  - Experience with complex, data-heavy, configurable user
+    interfaces.
+  - Experience building dashboards, BI tools, reporting,
+    analytics, or data visualization products.
+  - Strong frontend fundamentals across architecture, component
+    design, state, performance, and testing.
+  - Good judgment around UX, accessibility, visualization
+    patterns, and information hierarchy.
+  - Product instincts and the ability to connect technical
+    choices to user and business outcomes.
+  - Comfort working with complex workflows, APIs, automation,
+    claims, or policy-driven systems.
+  - Strong communication skills and a collaborative, candid,
+    customer-focused working style.
+
+  Nice to have:
+
+  - Experience working on enterprise SaaS products.
+  - Experience with compensation, finance, workflow automation,
+    analytics, business intelligence, or data-heavy
+    operational applications.
+  - Experience building reusable data visualization,
+    dashboarding, reporting, or exploration patterns.
+  - Familiarity with Python, Django, APIs, Postgres, or backend
+    systems.
+  - Experience contributing to design systems, frontend
+    platforms, or shared component libraries.
+  - Experience designing frontend experiences that support both
+    internal operations teams and external customers.
+
+  Technologies we use
+
+  Frontend: JavaScript, React, TypeScript
+
+  Backend: Java/Springboot, Django, Postgres
+
+  Infrastructure: AWS, Docker
+
+  What success looks like: 30/60/90 daysFirst 30 days
+
+  You’ll focus on learning the product, team, codebase,
+  customer context, and the operational workflows that power
+  Forma’s ICM Operations platform.
+
+  By the end of your first 30 days, you will have:
+
+  - Built a strong understanding of Forma.ai’s product, customer
+    problems, and sales compensation domain.
+  - Developed context on the ICM Operations platform, including
+    Core Services, Business Intelligence, workflows,
+    automation, APIs, claims management, reporting, and data
+    exploration capabilities.
+  - Set up your development environment and become comfortable
+    navigating the frontend codebase.
+  - Learned the team’s engineering practices, release process,
+    testing expectations, and collaboration norms.
+  - Built relationships with engineering, product, design,
+    operations, and customer-facing teammates.
+  - Shipped small to medium frontend improvements or bug fixes
+    with support from the team.
+  - Started identifying areas of frontend complexity, UX
+    friction, technical debt, or inconsistent data
+    visualization patterns where you may be able to
+    contribute.
+  - Begun developing an understanding of how customers and
+    internal teams use Forma to manage mission-critical
+    operational workflows.
+
+  First 60 days
+
+  You’ll begin owning more substantial frontend work and
+  contributing to product and technical decisions.
+
+  By the end of your first 60 days, you will have:
+
+  - Taken ownership of one or more meaningful frontend features
+    or product improvements within the ICM Operations
+    platform.
+  - Collaborated with product, design, operations, and backend
+    engineering to clarify requirements, edge cases,
+    workflows, and user needs.
+  - Delivered well-tested, maintainable frontend code aligned
+    with team standards.
+  - Contributed to dashboard, reporting, workflow, claims,
+    automation, or data exploration experiences.
+  - Demonstrated sound judgment in selecting frontend
+    interaction and visualization patterns for specific user
+    problems.
+  - Participated actively in code reviews, technical
+    discussions, and product discovery conversations.
+  - Contributed improvements to frontend patterns, components,
+    tests, or developer experience.
+  - Built enough domain context to make thoughtful tradeoffs
+    between usability, technical complexity, scalability, and
+    delivery timelines.
+  - Started identifying opportunities to make frontend patterns
+    more reusable across customers and use cases.
+  - Begun mentoring or supporting other engineers in areas where
+    you have expertise.
+
+  First 90 days
+
+  You’ll be operating as a trusted senior frontend contributor
+  on the team.
+
+  By the end of your first 90 days, you will have:
+
+  - Independently led frontend delivery for a complex feature or
+    significant product area.
+  - Helped improve the quality, usability, performance, or
+    maintainability of a key part of Forma’s ICM Operations
+    platform.
+  - Delivered or meaningfully advanced frontend experiences
+    related to workflows, automation, claims management,
+    reporting, dashboards, APIs, or data exploration.
+  - Built strong working relationships with product, design,
+    backend engineering, operations, and customer-facing
+    partners.
+  - Demonstrated strong technical and product judgment in
+    frontend architecture and implementation decisions.
+  - Shown an ability to reason from business problem to user
+    workflow to frontend solution.
+  - Contributed to reusable frontend or visualization patterns
+    that can scale across a broader client base.
+  - Raised the quality bar through code reviews, documentation,
+    testing, and mentorship.
+  - Contributed to the team’s frontend roadmap by identifying
+    opportunities for simplification, consistency,
+    scalability, and better user outcomes.
+  - Developed a clear understanding of where you can make a
+    longer-term impact at Forma.ai.
+
+  Additional Job Info:
+
+  - This position is for an existing vacancy
+  - Salary Range: 150-190K CAD
+
+  What you can expect from us
+
+  Meaningful compensation. In addition to your base salary,
+  you’ll join our employee stock ownership plan to further
+  recognize your contributions to Forma.ai’s success.
+
+  Healthcare coverage. We have a full benefits package that
+  includes medical, dental, vision, disability and life
+  insurance, and a paid parental leave program.
+
+  Learning and development. Access the resources you want to
+  help you grow in your role by utilizing our $750 yearly
+  training stipend.
+
+  Growth. You’ll have a huge opportunity to build a career for
+  yourself and gain the type of experience you’re looking for,
+  whether that’s as an individual contributor or as a people
+  leader.
+
+  Our Values:
+
+  - Work well, together. We’re real. We have kids and pets.
+    Mortgages and student loans. We’re in this together, so no
+    matter how brilliant any one of us is, we always play nice
+    with one another – no exceptions.
+  - Be precise. Be relentless. We believe complacency breeds
+    failure, so we set new goals as quickly as we achieve
+    them. We persist in the face of adversity, learn from our
+    mistakes, and push each other to continuously improve. The
+    status-quo is kryptonite.
+  - Love our tech. Love our customers. Our platform solves a
+    very complex problem in a currently underserved market.
+    While everyone at Forma isn’t customer-facing, we’re all
+    customer-focused. Maybe even slightly customer-obsessed. ­
+
+  Use of AI for Recruitment
+
+  Currently, Forma.ai does not use artificial intelligence as
+  part of our recruitment process, specifically but not
+  limited to the screening, filtering and shortlisting of
+  applicants.
+
+  Our commitment to you:
+
+  Forma is a proud equal opportunity employer that is
+  committed to creating a diverse and inclusive work
+  environment. Every effort to accommodate candidates for
+  accessibility will be made upon request. Information
+  received related to accommodations will be addressed
+  confidentially. We know that applying to a new role takes a
+  lot of effort. You're encouraged to apply even if your
+  experience doesn't precisely match the job description.
+  There are many paths to a successful career and we’re
+  looking forward to reading yours.
+
+  We thank all candidates for their interest however only
+  qualified applicants will be shortlisted.
+industries:
+  - Sales
+  - Software
+posted_date: 2026-08-20
+url: "https://builtin.com/job/senior-frontend-engineer/9244168"
+source: Built In

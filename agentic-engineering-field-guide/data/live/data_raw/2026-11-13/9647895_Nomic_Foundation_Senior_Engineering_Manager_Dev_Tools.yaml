@@ -1,0 +1,210 @@
+job_id: 9647895
+title: Senior Engineering Manager, Dev Tools
+company: Nomic Foundation
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - CAN
+  - USA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - MEX
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - ARG
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 13 Employees
+description: |
+  Senior Engineering Manager, DevTools
+
+  Who we are
+
+  The Nomic Foundation is a non-profit advancing the Ethereum
+  ecosystem. We build open-source runtimes, compilers, build
+  systems, and deployment solutions that are used by tens of
+  thousands of developers. We emphasize robust engineering and
+  lean processes, allowing for quick decision-making and
+  distraction-free software development. You have the
+  opportunity to shape the future of the Ethereum ecosystem
+  through deep technical work on critical developer
+  infrastructure, where your specific contributions will have
+  a tangible impact.
+
+  About the teams
+
+  This role will manage two closely related teams: Hardhat and
+  EDR, which together power the core of our Ethereum developer
+  tooling stack.
+
+  The Hardhat team builds our established and market-leading
+  products. These are user-facing infrastructure that
+  developers use to write, test, compile, and deploy their
+  Solidity contracts for Ethereum networks. The Hardhat suite
+  of products is widely used in the ecosystem, and supports
+  developers end to end, from early experimentation to
+  production systems with billions in on-chain capital at
+  stake.
+
+  The EDR (Ethereum Development Runtime) team builds a high-
+  performance runtime in Rust for developer tooling. EDR
+  currently powers Hardhat’s local network simulation for
+  development and testing and is designed to be reused by
+  other tools, supporting more consistent and maintainable
+  execution across the Ethereum developer ecosystem.
+
+  This is a fully remote role, open to candidates based in
+  Central Europe through the Americas Eastern Time zone.
+
+  Who we’re looking for
+
+  We are looking for a highly technical manager with a strong
+  engineering background, product mindset, and a thoughtful
+  approach to people management. In this role, you’ll manage
+  two small teams of 4 and 3 engineers, and take ownership of
+  the whole product, shape its roadmap, create alignment
+  across teams and with the community & stakeholders. You will
+  provide technical guidance on architectural & design
+  decisions, strategic direction, and occasionally do code
+  reviews. In addition, you'll foster individual growth
+  through thoughtful guidance and mentorship, creating a
+  respectful and collaborative environment.
+
+  - 3–5+ years of experience directly managing and growing
+    engineering teams, ideally including senior engineers
+    and/or multiple teams, in a remote or async environment.
+  - 6+ years of experience technically leading projects and
+    driving multi-year roadmaps.
+  - Ability to direct without micromanaging or forcing decisions
+  - Experience implementing or refining processes around
+    performance reviews, career development, and hiring.
+  - Strong verbal and written communication skills.
+  - Proven ability to design and implement scalable,
+    maintainable software architectures.
+  - Strong expertise in conducting code, design and product
+    launch reviews, identifying potential technical issues or
+    risks, and suggesting improvements.
+
+  Nice to have:
+
+  - Prior experience building extensible developer tools,
+    including test environments, deployment systems, build
+    pipelines.
+  - Experience with open source and/or TypeScript/Rust projects.
+
+  What you’ll do
+
+  Provide Technical Leadership
+
+  - Actively participate in technical discussions, providing
+    high-level guidance and expertise during code reviews and
+    design decisions.
+  - Act as a mentor and sounding board for technical decisions,
+    ensuring alignment with project goals while empowering
+    individual ownership.
+
+  Drive Successful Product Delivery
+
+  - Take ownership of projects, ensuring on-time delivery with
+    the desired features and quality.
+  - Work with the team to define MVPs, set milestones, and
+    assess project feasibility.
+  - Manage project scope by prioritizing tasks, identifying
+    dependencies, and mitigating risks.
+  - Collaborate with product managers to translate user needs
+    and market trends into a technical roadmap.
+
+  Build a High-Performing Team
+
+  - Motivate and guide engineers to achieve their full
+    potential, fostering a culture of learning and
+    development.
+  - Implement and improve processes such as performance reviews,
+    career development plans, and efficient hiring practices.
+  - Establish a clear team structure with roles and ownership
+    well-defined.
+
+  Communication & Alignment
+
+  - Increase transparency within the team by sharing information
+    on other Nomic projects and initiatives.
+  - Champion the team's achievements and deliverables to other
+    departments.
+  - Proactively communicate with leadership and stakeholders to
+    address concerns, clarify direction, and ensure alignment
+    across teams and with the community.
+  - Articulate a clear vision for the team's mission,
+    challenges, and milestones, connecting their work to
+    Nomic's broader goals.
+
+  Compensation and benefits
+
+  - Vesting ETH grant as part of total compensation
+  - Unlimited PTO
+  - Budget for IT equipment
+  - Annual Learning & Development Budget
+  - Statutory benefits specific to your location (depending on
+    the employment contract)
+
+  Why join us?
+
+  Mission-driven value creation
+
+  Your contributions will directly impact an ecosystem that is
+  shaping the future of finance, data, and ownership. You
+  won’t be working on optimizing a revenue stream to increase
+  shareholder profits; you’ll create value for the Ethereum
+  community and developer ecosystem.
+
+  Lean and robust
+
+  We run robust engineering practices and lightweight
+  processes that provide us with structure and fast decision-
+  making. Your time will be spent on technical challenges,
+  coding, and launching features.
+
+  We value diverse backgrounds, experiences, and perspectives.
+  We recognize they are essential to growth and innovation,
+  and sometimes the perfect candidate might not tick every box
+  in the job description. If you're passionate about what you
+  do and have valuable experience - we want to hear from you.
+  Your unique background and skills could be just what our
+  team needs and we warmly encourage you to apply.
+industries:
+  - Software
+  - Web3
+posted_date: 2026-08-24
+url: "https://builtin.com/job/senior-engineering-manager-dev-tools/9647895"
+source: Built In

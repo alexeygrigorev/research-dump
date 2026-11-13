@@ -1,0 +1,127 @@
+job_id: 9893693
+title: Full-Stack Software Engineer
+company: Voxy EnGen
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 58 Employees
+description: |
+  About the Organization
+
+
+
+  EnGen offers an at-scale, AI-powered approach to English
+  instruction, designed to solve a systemic access issue:
+  Adult English learners now represent 1 in 10 working-age
+  adults in the U.S., yet the workforce system serves the
+  needs of just 4% of these workers.
+
+
+
+  A Certified B Corporation, EnGen is filling the gap by
+  partnering with employers, adult educators, workforce
+  development organizations, and state governments to connect
+  job seekers and incumbent workers with English skills,
+  career pathways, and employment in high-demand industries.
+  EnGen's workforce-aligned approach addresses employers'
+  recruitment and retention challenges and advances learners'
+  economic mobility.
+
+
+
+  Position Overview
+
+
+
+  We're looking for a Full-Stack Software Engineer to help
+  build the technology that empowers adult English learners to
+  achieve their career goals. You'll develop and enhance our
+  AI-powered learning platform using TypeScript/React on the
+  frontend and Python/FastAPI on the backend.
+
+
+
+  We expect our engineers to be fluent in AI-assisted
+  development — using tools like Cursor and Claude Code to
+  write, review, and ship code faster and at higher quality.
+  You should be comfortable directing AI to generate code,
+  critically evaluating what it produces, and knowing when to
+  write it yourself.
+
+  Full-Stack Development
+
+  - Deliver production software across our TypeScript/React
+    frontend and Python/FastAPI backend — whether writing code
+    directly or steering AI tools to generate it
+  - Build responsive web applications for diverse learners
+    across desktop and mobile
+  - Design and implement scalable APIs to support our learning
+    platform
+  - Develop real-time features for interactive lessons,
+    conversation practice, and learner-coach communication
+
+  AI/LLM Integration
+
+  - Integrate Large Language Models for content classification,
+    skill assessment, learner feedback, and personalization
+  - Build information extraction systems to analyze learner
+    responses
+  - Implement AI-powered features for conversation practice and
+    multilingual support
+
+  Development Excellence
+
+  - Write clean, well-tested code — and apply the same rigor
+    when reviewing AI-generated output
+  - Actively use and refine AI-assisted development workflows to
+    improve your own productivity
+  - Collaborate with product managers, designers, and education
+    specialists
+  - Contribute to A/B testing frameworks and learning experience
+    optimization
+
+  Required Qualifications
+
+  - 5+ years of professional full-stack web development
+    experience
+  - Strong proficiency in TypeScript, React, Python, and FastAPI
+  - Experience integrating with LLMs (OpenAI, Anthropic, or
+    similar) for classification, extraction, or
+    personalization
+  - Hands-on experience with AI-assisted development tools
+    (Cursor, Claude Code, or similar) — and genuine comfort
+    using them as part of your daily workflow
+  - Experience with PostgreSQL and API design
+  - Strong passion for EnGen's mission to help immigrants and
+    refugees remove English as a barrier to career advancement
+  - Self-directed and able to work independently in a remote
+    environment
+
+  Preferred Qualifications
+
+  - Experience building edtech or language learning platforms
+  - Knowledge of NLP and educational AI applications
+  - Familiarity with WCAG accessibility standards
+  - Experience with Railway, Cloudflare, or similar cloud
+    infrastructure
+  - Multilingual capabilities, particularly Spanish
+
+  What We Offer
+
+  - Competitive salary and equity
+  - Comprehensive health, dental, and vision insurance
+  - Flexible PTO and fully remote environment
+  - Professional development budget
+  - Mission-driven work with measurable real-world impact
+
+  Ready to use technology to break down language barriers and
+  create economic opportunities? Join us in building the
+  future of workforce English instruction.
+industries:
+  - Artificial Intelligence
+  - Edtech
+  - Social Impact
+  - Software
+posted_date: 2026-08-16
+url: "https://builtin.com/job/full-stack-software-engineer/9893693"
+source: Built In

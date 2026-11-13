@@ -1,0 +1,176 @@
+job_id: 8867897
+title: Senior Software Engineer, CMS (Modernization of Registry)
+company: AutoScout24
+location: Toronto, CAN
+work_type: FULL_TIME
+company_size: 743 Employees
+description: |
+  We are TRADER, a Canadian leader in digital automotive
+  solutions. Our flagship brands — AutoTrader.ca, AutoSync,
+  Dealertrack Canada and CMS — help Canadians buy, sell, and
+  finance vehicles with confidence.
+
+
+
+  As part of AutoScout24 group, Europe’s largest online car
+  marketplace, we’re shaping the future of automotive retail
+  in Canada and beyond.
+
+
+
+  Learn more at tradercorporation.com.
+
+
+
+  This role will be within our Collateral Management (CMS)
+  team, a national tech solution that boosts lien and
+  registration services, recovery services, and insolvency
+  management solutions for Canadian Lenders.
+
+  ---
+
+  About the CMS Registry Solution
+
+  The CMS Registry Solution powers end-to-end collateral and
+  lien management for banks, automotive finance companies,
+  credit unions and other lenders. The platform automates the
+  full lien lifecycle—registration, amendment, search,
+  monitoring and discharge—to protecting lenders, reduce risk
+  and ensure compliance, and provides value-added features
+  such as lien validation, asset monitoring and fraud
+  detection.
+
+  We’re actively modernizing the platform that is mission-
+  critical used by major financial institutions with a focus
+  on scalability, automation, and developer experience.
+  Current work includes containerizing services, upgrading
+  .NET runtimes, strengthening CI/CD and observability, and
+  adopting Infrastructure as Code—alongside pragmatic AI-
+  assisted development and intelligent QA.
+
+  You’ll join a small, critical and high-impact team
+  (engineers, product owner, engineering manager) focused on
+  solving real customer problems with durable systems. You’ll
+  be expected to own a major slice of the platform, lead
+  technical execution for key initiatives, and raise the
+  quality bar through strong engineering judgment.
+
+  What You’ll Do:
+
+  Build & Evolve Critical Systems
+
+  - Design and implement scalable, resilient backend and
+    frontend services using .NET (Core / 6+ / 8), Angular, and
+    RESTful APIs
+  - Lead registry modernization initiatives, including
+    containerization of legacy .NET workloads, runtime
+    upgrades, and improvements to deployment and operational
+    reliability
+  - Contribute to data-layer improvements, focusing on
+    performance, scalability, and operational reliability
+
+  Own Architecture & Technical Decisions
+
+  - Drive technical design discussions and make pragmatic
+    architectural decisions within the team
+  - Integrate observability, security, and performance best
+    practices into system design
+  - Balance technical excellence with delivery needs when
+    evolving existing systems
+
+  Build With an Ownership Mindset
+
+  - Own solutions end-to-end, from design through deployment and
+    production operation
+  - Establish and improve CI/CD pipelines using GitHub Actions
+    and contribute to standardized engineering practices
+  - Take accountability for reliability, operational outcomes,
+    and continuous improvement of owned systems
+
+  Collaborate & Lead
+
+  - Collaborate closely with Product, Platform, and other
+    engineering teams to deliver production-ready capabilities
+  - Mentor and support other engineers through code reviews,
+    design discussions, and day-to-day technical leadership
+  - Act as a role model for strong ownership, technical quality,
+    and constructive collaboration
+
+  What We’re Looking For:
+
+  Must Have
+
+  - Strong hands-on experience building production systems with
+    .NET and C# (modern .NET preferred)
+  - Experience working with AWS services such as EC2, S3,
+    CloudWatch, and IAM
+  - Proficiency in Angular, TypeScript, and RESTful API design
+  - Solid understanding of SQL Server and relational data
+    modeling (managed database experience a plus)
+  - Comfort operating in production environments and learning
+    from real-world feedback
+  - Demonstrated experience leveraging AI-assisted development
+    and testing tools to improve productivity, code quality,
+    and operational efficiency
+  - Clear communication skills and a collaborative, ownership-
+    driven approach
+  - A builder’s mindset: If you can think it, you can build it.
+    If you build it, you own it.
+
+  Nice-To-Have
+
+  - Experience with Docker, Terraform / CloudFormation, or
+    Kubernetes-based platforms
+  - Background in system modernization, refactoring, or legacy
+    platform evolution
+  - Experience with database performance optimization
+  - Exposure to AI-driven QA (e.g., Playwright, Cypress with AI
+    integrations)
+
+  What’s In It For You?
+
+  We understand that there is life at work and life outside of
+  work. Here are a few benefits we all benefit from that
+  support us to be our creative best.
+
+   Benefits from Day 1
+
+  - Gym discounts
+  - Employee and Family Assistance program
+  - Virtual wellness events
+  - Conferences & training budget
+  - Regular internal training programs
+
+  Financial planning
+
+  - Let us help you invest in your future with 3% matching
+    towards your pension and multiple forms of income
+    protection.
+
+   Competitive salary
+
+  - Annual bonus structure
+  - 3% CPP matching
+
+  ---
+
+  The base salary range for this position is CAD $140,000 –
+  CAD $190,000.
+
+  This range reflects the expected compensation at the time of
+  posting. The final offer may vary and can be higher based on
+  relevant skills, experience, location, and market
+  conditions. Based on the role the total rewards package may
+  also include benefits, bonus, and other employee offerings.
+
+  Use of Artificial Intelligence in Hiring: We use artificial
+  intelligence (“AI”) in our hiring process, including to
+  screen, assess, or select applicants for this position.
+  Vacancy Status: This job posting is for an existing vacancy.
+industries:
+  - Automotive
+  - Marketing Tech
+  - Software
+posted_date: 2026-07-31
+url: "https://builtin.com/job/senior-software-engineer-cms-modernization-registry/8867897"
+source: Built In

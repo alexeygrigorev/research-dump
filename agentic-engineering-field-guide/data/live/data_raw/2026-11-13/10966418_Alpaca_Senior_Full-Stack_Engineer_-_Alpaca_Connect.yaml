@@ -1,0 +1,158 @@
+job_id: 10966418
+title: Senior Full-Stack Engineer - Alpaca Connect
+company: Alpaca
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - USA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 132 Employees
+description: |
+  Who We Are:
+
+  Alpaca is a US-headquartered, global leader in agent-first
+  brokerage infrastructure for stocks, ETFs, options, crypto,
+  fixed income, 24/5 trading, and more. Amongst our
+  subsidiaries, Alpaca is a licensed financial services
+  company, serving hundreds of financial institutions across
+  40 countries with our institutional-grade APIs. This
+  includes broker-dealers, investment advisors, wealth
+  managers, hedge funds, and crypto exchanges, totalling over
+  10 million brokerage accounts. Our global team is a diverse
+  group of experienced engineers, traders, and brokerage
+  professionals who are working to achieve our mission of
+  opening financial services to everyone on the planet. We're
+  deeply committed to open-source contributions and fostering
+  a vibrant community, continuously enhancing our award-
+  winning, developer-friendly API and the robust
+  infrastructure behind it. Alpaca is proudly backed by $400
+  million in funding from top-tier global investors including
+  Portage Ventures, Spark Capital, Tribe Capital, Social
+  Leverage, Horizons Ventures, Opera Tech Ventures, SBI Group,
+  Derayah Financial, Unbound, Peak XV, Elefund, and Y
+  Combinator. Our Team Members:
+
+  We're a dynamic team of 400+ globally distributed members
+  who thrive working from our favorite places around the
+  world, with teammates spanning the USA, Canada, Japan,
+  Hungary, Nigeria, Brazil, the UK, and beyond! We're
+  searching for passionate individuals eager to contribute to
+  Alpaca's rapid growth. If you align with our core
+  values—Stay Curious, Have Empathy, and Be Accountable—and
+  are ready to make a significant impact, we encourage you to
+  apply.
+
+  Your Role:
+
+  As a Senior Full-Stack Engineer on Alpaca Connect, you will
+  build the tools and services that help developers launch
+  applications on Alpaca. You will work across TypeScript and
+  React frontends and Go services.
+
+  You will improve partner onboarding, app management,
+  compliance review, marketplace discovery, consent, and
+  permissions. You will also connect these workflows to
+  Alpaca's identity, account, trading, and market data
+  systems.
+
+  You will work closely with Product, Design, Compliance,
+  Support, Partnerships, and Platform teams. We are looking
+  for someone who can turn complex requirements into secure,
+  straightforward product experiences.
+
+  Things You Get To Do:
+
+  - Build and maintain Connect experiences in TypeScript and
+    React, with supporting Go services.
+  - Improve app onboarding, testing, compliance review,
+    approval, publishing, and management.
+  - Turn manual support and compliance work into clear,
+    auditable self-service workflows.
+  - Design APIs and integrations across Alpaca's identity,
+    account, trading, and market data systems.
+  - Own features from design through production and help improve
+    the team's technical direction.
+
+  Who You Are (Must-Haves):
+
+  - 5+ years of experience building production full-stack
+    applications.
+  - Strong TypeScript and React skills.
+  - Experience with Go or another modern backend language.
+  - Strong SQL and relational database skills, preferably
+    PostgreSQL.
+  - Experience designing REST APIs and integrating distributed
+    services.
+  - Experience with OAuth, OIDC, or similar authorization
+    systems.
+  - A track record of delivering secure, user-facing features
+    end to end.
+  - Clear communication and sound judgment when requirements are
+    incomplete or ambiguous.
+
+  Who You Might Be (Nice-to-Haves):
+
+  - Experience with developer platforms, partner portals, or
+    marketplaces.
+  - Experience with compliance or operational workflows in a
+    regulated industry.
+  - Experience with GCP, Docker, Kubernetes, or production
+    observability.
+  - Experience with financial markets, brokerage systems, or
+    market data.
+  - Experience working at a startup or on a distributed remote
+    team.
+
+  How We Take Care of You:
+
+  - Competitive Salary & Stock Options
+  - Health Benefits
+  - New Hire Home-Office Setup: One-time USD $500
+  - Monthly Stipend: USD $150 per month via a Brex Card
+
+  Alpaca is proud to be an equal opportunity workplace
+  dedicated to pursuing and hiring a diverse workforce.
+
+  Recruitment Privacy Policy
+industries:
+  - Fintech
+  - Information Technology
+posted_date: 2026-10-25
+url: "https://builtin.com/job/senior-full-stack-engineer-alpaca-connect/10966418"
+source: Built In

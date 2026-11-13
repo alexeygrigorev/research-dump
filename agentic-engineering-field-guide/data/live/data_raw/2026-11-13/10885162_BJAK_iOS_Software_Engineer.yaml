@@ -1,0 +1,82 @@
+job_id: 10885162
+title: iOS Software Engineer
+company: BJAK
+location: DEU
+remote: true
+work_type: FULL_TIME
+company_size: 253 Employees
+description: |
+  About Act
+
+  There are over 5 billion users using basic applications
+  today such email, notes, tasks, calendar and they're not AI-
+  native. Our mission is to build proactive applications for
+  anyone in the world, who are not used to complex prompting.
+  We aim to bring intelligence to conversations, errands,
+  organising and workflows, with minimal to no prompting.
+
+  Our first application is an agent-first mobile communication
+  app. We believe building applications that users use daily
+  for communication, coordination and collaboration needs will
+  help integrate AI into their lives. The net effect is to
+  eliminate misinformation, achieve low coordination costs,
+  enable high quality tasks and collaboration at scale with
+  minimal or little prompting.
+
+
+
+  Role
+
+  - Build and maintain production iOS applications using Swift
+    and SwiftUI
+  - Develop interfaces for messaging, real-time communication
+    and AI-powered features
+  - Integrate backend APIs, including streaming responses,
+    asynchronous operations and error handling
+  - Implement local storage, push notifications, background
+    tasks and data synchronisation
+  - Optimise application performance, startup time, memory usage
+    and battery consumption
+  - Implement analytics, crash reporting and monitoring to
+    identify and resolve production issues
+  - Work with backend, ML and design teams to develop, test and
+    release new features
+
+
+
+  Requirements
+
+  - 3+ years of iOS development experience using Swift, with
+    applications shipped to the App Store
+  - Strong understanding of SwiftUI, UIKit, iOS SDK and
+    application lifecycle
+  - Experience with Swift concurrency, async/await, background
+    processing and asynchronous data handling
+  - Experience integrating REST APIs, managing local data and
+    handling network failures
+  - Understanding of iOS architecture patterns, state management
+    and memory management
+  - Experience profiling and optimising application performance
+    using Xcode Instruments
+  - Strong debugging skills and experience maintaining
+    production iOS applications
+
+
+
+  Nice to Have
+
+  - Experience building messaging, chat or real-time
+    communication applications
+  - Experience integrating LLM, speech, vision or other AI-
+    powered APIs
+  - Experience with Core ML or on-device machine learning
+  - Experience with feature flags, remote configuration or
+    automated iOS release pipelines
+industries:
+  - Artificial Intelligence
+  - Fintech
+  - Software
+  - Financial Services
+posted_date: 2026-08-27
+url: "https://builtin.com/job/ios-software-engineer/10885162"
+source: Built In

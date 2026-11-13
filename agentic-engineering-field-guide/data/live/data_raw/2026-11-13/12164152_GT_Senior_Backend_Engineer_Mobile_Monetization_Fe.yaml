@@ -1,0 +1,143 @@
+job_id: 12164152
+title: "Senior Backend Engineer (Mobile Monetization) | Feeld"
+company: GT
+location: POL
+locations:
+  - POL
+  - PRT
+remote: true
+work_type: FULL_TIME
+company_size: 686 Employees
+description: |
+  GT was founded in 2019 by a former Apple, Nest, and Google
+  executive. GT’s mission is to connect the world’s best
+  talent with product careers offered by high-growth companies
+  in the UK, USA, Canada, Germany, and the Netherlands.
+
+  On behalf of Feeld, GT is looking for a Senior Backend
+  Engineer to help them improve their inclusive dating
+  application.
+
+  About the Client
+
+  Founded in 2014 as a dating app, Feeld gathered millions of
+  users in one place to create a safer and more inclusive
+  space online for everyone open to experiencing people and
+  relationships in a new way. Their mission is to elevate the
+  human experience of sexuality and relationships and create a
+  world where everyone is more intimately connected to each
+  other and themselves.
+
+  The technology stack of the project: Node.js, NestJS,
+  GraphQL/REST, TypeScript, AWS, DynamoDB, PostgreSQL, SQS,
+  EventBridge, WebSockets.
+
+  About the Role
+
+  We are looking for a Senior Backend Engineer (Mobile
+  Monetisation) to take ownership of the backend systems
+  powering Feeld's subscription and in-app purchase
+  experiences across iOS and Android.
+
+  The ideal candidate brings strong hands-on experience with
+  mobile monetisation platforms such as Adapty, RevenueCat, or
+  similar solutions, as well as integrating mobile payment
+  flows with custom backend services. This includes managing
+  subscription lifecycles, synchronising payment data,
+  handling receipts, and ensuring accurate entitlement
+  management.
+
+  We're looking for a highly experienced, proactive engineer
+  with the potential to act as a technical lead, capable of
+  independently driving complex technical initiatives,
+  contributing to architectural decisions, and ensuring the
+  reliability and scalability of revenue-critical systems.
+
+  📌 Full-time, long-term ⌛️ Preferred immediate start
+
+  Responsibilities:
+
+  - Take ownership of the backend systems supporting Feeld’s
+    monetisation, ensuring their reliability, performance, and
+    contribution to business goals.
+  - Design, develop, and maintain scalable backend services and
+    integrations for subscriptions, billing, payment
+    processing, entitlements, pricing, and promotional
+    features.
+  - Ensure the accuracy, stability, and reliability of
+    monetisation flows, proactively identifying and resolving
+    production issues that could impact revenue or user
+    experience.
+  - Support the development and optimisation of subscription and
+    payment flows, including improvements to system
+    performance, scalability, and error handling.
+  - Implement and maintain feature flags, testing, and analytics
+    instrumentation to support experimentation and continuous
+    improvement of monetisation features.
+  - Collaborate with Product, Engineering, and Data teams to
+    build and improve analytics and reporting capabilities,
+    providing insights into revenue performance, user
+    behaviour, and system health.
+
+  Essential knowledge, skills & experience:
+
+  - 5+ years of commercial backend development experience,
+    ideally building high-load, business-critical systems.
+  - Proven experience with mobile monetisation and subscription
+    platforms, such as Adapty, RevenueCat, or comparable
+    solutions.
+  - Hands-on experience implementing mobile in-app purchases and
+    subscription flows for iOS and/or Android applications,
+    beyond web-based payment integrations.
+  - Experience integrating mobile payment platforms with custom
+    backend systems, including payment data synchronisation,
+    receipt handling, subscription status tracking, and
+    entitlement management.
+  - Strong understanding of mobile subscription and payment
+    lifecycles, including renewals, cancellations, refunds,
+    failed payments, and subscription state changes.
+  - Experience ensuring the accuracy, reliability, and
+    consistency of revenue-critical backend systems, including
+    troubleshooting production issues.
+  - Strong backend development experience with Node.js or
+    TypeScript or JavaScript, ideally using NestJS and
+    building GraphQL or REST APIs.
+  - Good understanding of event-driven architectures,
+    asynchronous processing, and distributed systems.
+  - Experience writing reliable unit and integration tests.
+  - Strong technical ownership, independent problem-solving, and
+    architectural decision-making skills, with the potential
+    to take on technical leadership responsibilities.
+  - Strong communication skills and full professional
+    proficiency in English.
+
+  Nice to Have
+
+  - Experience with AWS cloud infrastructure, SQL and NoSQL
+    databases. Our current stack includes ECS, DynamoDB, SQS,
+    EventBridge, and PostgreSQL.
+  - Experience working directly with Apple App Store and Google
+    Play billing ecosystems.
+  - Experience running monetisation experiments, including A/B
+    testing, subscription pricing changes, and conversion
+    optimisation.
+  - Experience managing regional pricing, multiple currencies,
+    and country-specific monetisation strategies.
+  - Experience analysing the performance of monetisation
+    experiments, including revenue, subscription conversion,
+    and retention metrics.
+  - Previous experience acting as a Tech Lead or Lead Backend
+    Engineer, mentoring engineers, and driving technical
+    decisions.
+
+  Interview Steps
+
+  - GT interview with Recruiter
+  - GT technical interview
+  - Client technical interview
+  - Final interview
+  - Reference Check
+  - Offer
+posted_date: 2026-11-10
+url: "https://builtin.com/job/senior-backend-engineer-mobile-monetization-feeld/12164152"
+source: Built In

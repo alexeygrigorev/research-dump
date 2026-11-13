@@ -1,0 +1,79 @@
+job_id: 7317579
+title: Software Engineer (Fullstack)
+company: Sumble
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 12 Employees
+description: |
+  Sumble is building a knowledge graph from web data with a
+  first focus on data for go-to-market teams. We use sources
+  like job posts and resume data to identify things like org
+  structure, tech stack, and key projects (e.g., GenAI
+  initiatives, cloud migrations). Our product already has
+  strong product-market fit, early revenue, and happy
+  customers — and now we’re ready to accelerate.
+
+  Our long-term vision is to become the primary destination
+  for accessing high-quality web data. Try the product at
+  sumble.com.
+
+  Our Team
+
+  We are a team of 15, including 10 engineers with experience
+  at companies such as Google, Meta, Stack Overflow, and
+  Kaggle.
+
+  What we are looking for:
+
+  - Someone who has strong expertise in one or more of the
+    following areas, with the ability/interest to:
+  - Experience developing software applications using a general-
+    purpose programming language such as C#, Python, Java, or
+    JavaScript.
+  - Efficiently querying large volumes of data and doing large
+    aggregations
+  - Developing, maintaining, and optimizing software to
+    efficiently serve a web application and query a database
+  - Developing, maintaining and troubleshooting integrations
+    with external applications
+  - Ensuring the security and durability of software with
+    appropriate and actionable alerting, monitoring, and
+    logging systems
+
+  Our Tech Stack:
+
+  - Languages & Frameworks: Python, FastAPI, React, Typescript
+  - Cloud Platform: Google Cloud Platform (GCP)
+  - Databases: PostgreSQL, AlloyDB
+  - ML/Data: PyTorch, Huggingface, vLLM, Skypilot, Marimo,
+    Prefect
+  - Infrastructure: Cloud Run
+  - Design: Figma, Vercel V0
+
+  Challenges We Tackle:
+
+  - Transforming noisy datasets into high-quality data products
+  - Running expensive analytics computations efficiently
+  - Managing the complexity of a growing number of data sources,
+    machine learning models, and large data operations
+  - Creating a user experience that allows both powerful high-
+    level aggregations AND allows users to also see the
+    granular underlying source data
+
+  Requirements
+
+  - Located within Americas timezones
+
+  Benefits
+
+  - Medical, dental, and vision (US)
+  - 401k (US)
+  - Target 4 weeks PTO
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Sales
+posted_date: 2026-08-10
+url: "https://builtin.com/job/software-engineer-fullstack/7317579"
+source: Built In

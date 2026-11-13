@@ -1,0 +1,167 @@
+job_id: 12211528
+title: Cloud Infrastructure Engineering Manager
+company: LevelTen Energy
+location: Seattle, USA
+work_type: FULL_TIME
+company_size: 95 Employees
+description: |
+  Role Purpose
+
+  LevelTen Energy’s mission is to accelerate the energy
+  transition by facilitating frictionless transactions. As the
+  leading provider of renewable transaction infrastructure, we
+  deliver the cloud-based software, centralized supply,
+  automated analytics, and transaction expertise required to
+  power the renewable energy economy. The LevelTen Platform is
+  the world’s largest online hub for renewable energy buyers,
+  sellers, advisors, asset owners and financiers, and delivers
+  the online tools and expertise they need to buy, sell and
+  finance assets quickly.
+
+  Join us on a mission that matters.
+
+  LevelTen Energy is hiring a Cloud Infrastructure Engineering
+  Manager to lead a team of engineers who run our Google Cloud
+  Platform (GCP) product infrastructure. You’ll own the day-
+  to-day health of our GCP environments while shaping where
+  the platform goes next.
+
+  This is a player-coach role. You’ll lead and develop the
+  team while staying close to the technical work: partnering
+  with lead engineers to design and build new infrastructure,
+  working with InfoSec to keep our systems secure, and
+  managing the reliability and performance of the platform our
+  product runs on.
+
+  Duties and Responsibilities
+
+  - Lead the team. Manage, mentor, and grow a small team of
+    cloud infrastructure engineers. Run hiring, 1:1s,
+    performance reviews, and career development.
+  - Run day-to-day operations. Own the reliability and
+    operations of our GCP environments, including on-call,
+    incident response, and postmortems, and partner with our
+    program management team on change management.
+  - Build new infrastructure. Work hands-on with lead engineers
+    to design and deliver new infrastructure, from
+    architecture reviews through rollout.
+  - Own infrastructure security. Partner with Engineering on
+    hardening and vulnerability management, and with InfoSec
+    on IAM, network security, compliance, and audit readiness.
+  - Own the roadmap. Build and maintain the infrastructure
+    roadmap, balancing new capabilities, security, scale, and
+    technical debt against product and engineering priorities.
+  - Improve tooling and deployment. Improve our tooling,
+    infrastructure-as-code, and CI/CD processes so software
+    ships faster and more safely.
+  - Track system performance. Define and monitor SLOs,
+    observability, and capacity, and act on what the data
+    shows.
+  - Manage cloud spend. Track GCP costs, forecast budgets,
+    report to leadership, and drive cost optimization.
+
+  Qualifications
+
+  Required:
+
+  - 5+ years in cloud infrastructure, DevOps or site reliability
+    engineering, including 2+ years managing or leading
+    engineers
+  - Deep hands-on experience with Google Cloud: Cloud Run, GKE,
+    Cloud SQL, VPC networking, IAM and Cloud
+    Monitoring/Logging
+  - Infrastructure-as-code experience with Terraform or similar
+  - Experience building and running CI/CD pipelines and
+    container-based deployments (Docker, CloudRun)
+  - A track record of running production systems: incident
+    management, on-call, SLOs and capacity planning
+  - Working knowledge of cloud security practices and experience
+    partnering with security teams
+  - Experience managing cloud budgets and driving cost
+    optimization
+  - Clear communication with engineers, InfoSec, product and
+    leadership
+
+  Preferred:
+
+  - Google Cloud Professional Cloud Architect or Professional
+    Cloud DevOps Engineer certification
+  - Experience with security tools like Wiz, Security Command
+    Center, AlertLogic
+  - Experience with AI Agent platforms, like Gemini or Claude
+  - Experience with FinOps practices and tools for cloud cost
+    visibility
+  - Familiarity with compliance frameworks such as SOC 2 or ISO
+    27001
+  - Experience with observability tools such as Datadog
+  - Scripting or programming in Python, Go or Bash
+  - Experience in the energy or data-intensive SaaS sector
+
+  Benefits / Perks
+
+  - Full Medical, Vision and Dental coverage
+  - Wellness Credit
+  - Flexible vacation policy
+  - 11 paid company holidays
+  - 401k
+
+  In the Seattle office:
+
+  - Casual dress code
+  - Commuter benefits
+  - Standing desk options
+  - Regular company-sponsored happy hours
+  - Hybrid in-office/work from home schedule
+
+  Additional Information
+
+  - This position is based out of our office in the Belltown
+    neighborhood of Seattle, WA (hybrid work schedule).
+  - The estimated compensation for this position is $185,000 -
+    $225,000 per year, based on experience and qualifications.
+    In addition, this position is eligible for an annual bonus
+    and an equity grant.
+  - Must be legally authorized to work in the U.S. without a
+    current or future need for visa sponsorship.
+
+  About LevelTen Energy
+
+  LevelTen Energy is the leading provider of transaction
+  infrastructure for the clean energy transition, connecting
+  buyers, sellers, and financiers through dynamic
+  marketplaces, data-driven insights, and automated analytics.
+  The LevelTen Platform supports power purchase agreements,
+  clean energy asset M&A transactions, and tax credit
+  transfers—soon expanding to granular certificate
+  trading—enabling organizations to execute and manage
+  transactions with confidence. With a network of over 1,000
+  project developers in 35 countries, LevelTen is advancing
+  carbon-free energy markets by increasing transparency,
+  liquidity, and accessibility. Learn more at
+  LevelTenEnergy.com.
+
+  Equal Opportunity Employer
+
+  LevelTen Energy is an Equal Opportunity Employer committed
+  to a diverse and inclusive workforce. All qualified
+  applicants will receive consideration for employment without
+  regard to race, color, religion, sex, national origin,
+  disability, protected veteran status, marital status, age,
+  sexual orientation, gender identity or expression, or any
+  other legally protected status.
+
+  Accessibility
+
+  If you are an individual with a disability and need
+  assistance completing the online application or during the
+  interview process, please call 1-800-995-2152. Please leave
+  a message and a member of our People team will return your
+  call within three business days. Alternatively, an email may
+  be sent to hr@leveltenenergy.com. “Applicant Accommodation”
+  should be included in the subject line of the email. Please
+  note that this phone number and email are only for those
+  individuals who would like to request an accommodation to
+  apply for a job.
+posted_date: 2026-11-13
+url: "https://builtin.com/job/cloud-infrastructure-engineering-manager/12211528"
+source: Built In

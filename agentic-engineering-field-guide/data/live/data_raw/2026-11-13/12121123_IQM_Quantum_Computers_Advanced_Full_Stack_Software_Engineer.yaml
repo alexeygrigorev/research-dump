@@ -1,0 +1,141 @@
+job_id: 12121123
+title: Advanced Full Stack Software Engineer
+company: IQM Quantum Computers
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 300 Employees
+description: |
+  At IQM, we build world-leading quantum computers for the
+  well-being of humankind. We design systems to tackle
+  computational challenges beyond the practical limits of
+  classical machines. Our work sits at the edge of science and
+  engineering. It's complex, demanding, and deeply
+  collaborative. We turn deep research into reliable, full-
+  stack systems that drive discoveries in fields like
+  medicine, energy, and technology, reshaping how the world
+  computes.
+
+  Join the team that gives quantum a heartbeat.
+
+  The work
+
+  As an Advanced Full Stack Software Engineer, you'll join our
+  Vertical Deployment team within Algorithms and Applications,
+  developing a platform that brings quantum computing closer
+  to real-world applications.
+
+  You'll contribute to building user-facing features for
+  configuring, executing, and monitoring computational
+  workflows, with a focus on frontend development and
+  additional contributions to backend services, APIs, and
+  integrations. You'll take ownership of features from
+  development to deployment, working independently and
+  collaborating with the team to deliver practical solutions.
+
+  What you’ll actually do
+
+  - Design, develop, test, and maintain frontend features using
+    Vue.js and TypeScript, with a focus on creating intuitive,
+    responsive, and user-friendly interfaces.
+  - Take an active role in shaping the platform's user
+    experience, bringing creativity and design thinking into
+    how complex workflows and technical information are
+    presented.
+  - Translate user needs and technical requirements into
+    practical frontend solutions, considering usability,
+    functionality, and maintainability.
+  - Take ownership of feature areas or related task groups, from
+    understanding requirements and proposing solutions to
+    implementation, testing, and deployment.
+  - Contribute to backend development using Node.js and
+    TypeScript, including building and integrating REST APIs
+    and supporting services.
+  - Work with PostgreSQL, Redis, and asynchronous workflow
+    systems, addressing challenges such as long-running jobs,
+    task dependencies, retries, and failure handling.
+  - Debug and resolve issues across different layers of the
+    platform, including frontend, backend, and workflow
+    execution.
+  - Collaborate with researchers, software engineers, and other
+    stakeholders to understand user needs and translate them
+    into effective technical solutions.
+  - Participate in code reviews and contribute to coding
+    standards, development practices, and CI/CD processes.
+  - Identify technical risks, proactively suggest improvements,
+    and make sound implementation decisions while knowing when
+    to seek input.
+
+  What we’re looking for
+
+  - 3+ years of professional full-stack experience, focused on
+    the frontend
+  - Computer Science degree (or related quantitative field) or
+    equivalent industry experience
+  - Strong frontend skills (Vue.js, JavaScript), with attention
+    to UX and user flow; some experience working with UI/UX
+    designers
+  - Solid backend experience: Node.js (TypeScript), REST APIs,
+    relational databases, and job-queue-backed data stores —
+    ideally PostgreSQL and Redis
+  - Understanding of async processing and workflow systems:
+    long-running jobs, state management, task dependencies,
+    retries, idempotency
+  - Familiarity with CI/CD, Docker, and logging/monitoring tools
+    such as OpenTelemetry
+  - Ability to work independently — breaks down ambiguous
+    requirements and owns deliverables with minimal
+    supervision
+  - Strong communication: explains technical decisions, flags
+    blockers, gives constructive review feedback
+
+  Nice to have
+
+  - Experience with workflow orchestration frameworks,
+    particularly Argo Workflows
+  - Background in computational, scientific, or other
+    technically complex software platforms
+  - Familiarity with quantum computing — or interest in learning
+
+  Why IQM?
+
+  - Full-stack quantum computing: From quantum hardware to
+    software layers and beyond, we build across the full-
+    stack.
+  - High-performance playground: We aim high, and we know
+    sustainable performance only works when life outside work
+    does too—hybrid setups, flexible hours.
+  - Never the smartest: You won’t always be the smartest person
+    in the room. Neither will we. Expect to learn constantly -
+    from each other and beyond with IQM’s Learning Hub,
+    LinkedIn Learning, and a team-based L&D budget.
+  - Approachable leadership: Flat hierarchy, direct access. Feel
+    free to approach any leaders. They're friendlier than they
+    look!
+  - The sweet spot: Big enough to matter. Small enough to move
+    fast. Growing between a startup and a corporation. We’re
+    in the phase where top performers get noticed.
+  - Bigger than IQM: Our people build know-how for the entire
+    quantum ecosystem. We publish papers, run hackathons, and
+    help shape a market that's still being defined.
+
+  The future of computing won’t build itself. You might be one
+  of the few who do.
+
+  - Meet our people and learn more about IQM on our stories
+    page.
+  - Explore our scientific publications.
+
+  We'll start interviews and move forward with hiring as soon
+  as we meet strong candidates. Please submit your application
+  soon.
+
+  600M€+ Total Funding | 400+ Team Members | 30+ Quantum
+  Computers Built | 300+ Patents Filed | 10 Location Globally
+industries:
+  - Cloud
+  - Hardware
+  - Semiconductor
+  - Quantum Computing
+posted_date: 2026-11-07
+url: "https://builtin.com/job/advanced-full-stack-software-engineer/12121123"
+source: Built In

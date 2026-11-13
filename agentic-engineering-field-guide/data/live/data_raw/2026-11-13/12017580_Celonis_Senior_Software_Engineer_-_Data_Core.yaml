@@ -1,0 +1,176 @@
+job_id: 12017580
+title: (Senior) Software Engineer - Data Core
+company: Celonis
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 3,000 Employees
+description: |
+  Celonis is the trusted platform to industrialize Enterprise
+  AI. At our core is the Celonis Context Model — which
+  combines process data, business knowledge, and intelligence
+  into a living digital twin of the enterprise that AI can
+  actually understand, turning AI's operational blind spots
+  into operational clarity. World's leading companies trust
+  Celonis and its global ecosystem of partners to make their
+  AI agents, people, systems, and processes work together,
+  achieving transformational outcomes. We believe there's a
+  massive opportunity to unlock global productivity and
+  sustainability by giving AI the context to understand how
+  every business process really works. Join our mission to
+  make processes work for people, companies, and the planet.
+
+  The Team
+
+  Data Core is the storage abstraction layer behind Celonis'
+  data pipelines. It sits between ETL workloads and the
+  backends that run them, such as Databricks, Snowflake,
+  StarRocks, Spark, and PostgreSQL. You will work mainly on
+  three codebases:
+
+  - Data Core, a Java / Spring Boot service with gRPC and
+    message-queue APIs.
+  - sqlglot, where we translate and optimize SQL across
+    dialects.
+  - StarRocks, the OLAP engine we use as a backend.
+
+  What You Will Do
+
+  - Implement features and fix bugs in Data Core backend
+    integrations.
+  - Add and fix sqlglot dialect support: parsing, SQL
+    generation, and transpilation correctness.
+  - Investigate StarRocks behavior and compatibility issues, and
+    contribute fixes or workarounds.
+  - Debug slow or incorrect queries by following them from SQL
+    text to query plan to results.
+  - Write unit and integration tests, especially for SQL
+    translation edge cases.
+  - Take part in design discussions, write short design docs for
+    your own work, and give and receive code reviews.
+  - As a Senior: lead small to medium projects end to end and
+    help onboard newer teammates.
+
+  What We Are Looking For
+
+  - Solid Java, or strong Python with the willingness to work in
+    Java daily.
+  - Good SQL skills: joins, aggregations, window functions, and
+    an understanding of how queries execute.
+  - Familiarity with at least one analytical or distributed data
+    system (for example Spark, Snowflake, Databricks, Trino,
+    ClickHouse, or StarRocks).
+  - Good testing and debugging habits.
+  - Clear written and spoken communication, and a habit of
+    asking questions early.
+
+  Strong Plus
+
+  - Exposure to how SQL parsers, ASTs, or query planners work.
+  - Contributions to open source projects, especially sqlglot or
+    StarRocks.
+  - Experience with gRPC, message queues, or Kubernetes.
+  - Some C++ experience.
+  - Interest in query optimization and database internals.
+
+  What Celonis can offer you:
+
+  - Pioneer Innovation: Work with the global leader in Process
+    Mining and the Process Intelligence Graph to shape the
+    future of AI-driven business operations.
+  - Ownership from Day 1: Every full-time "Celonaut" is an
+    owner, receiving Restricted Stock Units (RSUs) and merit-
+    based refresh grants.
+  - Unrivaled Family Support: Benefit from our inclusive
+    parental leave policy—24 weeks of fully paid leave for
+    primary carers and 12 weeks for supporting carers,
+    available from your first day of employment.
+  - Work-Life Integration: Enjoy Unlimited PTO (in applicable
+    regions) and generous PTO globally, as well as a flexible
+    hybrid work model that balances remote focus with vibrant
+    office collaboration.
+  - Continuous Growth: Elevate your skills through our 70-20-10
+    learning framework, mentorship programs, and access to a
+    dedicated learning platform.
+  - Holistic Well-being: Prioritize your health with subsidized
+    Wellhub memberships, mental health counseling, and
+    dedicated "Wellness Weeks" that prioritize work/life
+    balance.
+  - Drive Sustainability: Participate in annual Impact Days,
+    where you receive paid time off to volunteer for community
+    and environmental causes with your local office, or
+    virtually.
+  - Global Inclusion & Belonging: Find community through our
+    Inclusion Think Tank and participate in our annual
+    Inclusion Days, ensuring every voice is heard and valued.
+  - Value-Driven Impact: Join a mission-led organization where
+    our core values—Live for Customer Value, The Best Team
+    Wins, We Own It, and Earth Is Our Future—drive every
+    decision.
+
+  About Us:
+
+  Celonis is the trusted platform to industrialize Enterprise
+  AI, empowering organizations to analyze, design, and operate
+  AI-driven processes. The Celonis Platform is powered by the
+  Celonis Context Model, which combines process data, business
+  knowledge, and intelligence to create a living digital twin
+  of the enterprise that AI can understand — turning AI’s
+  operational blind spots into operational clarity. Industry-
+  leading companies around the world trust Celonis and its
+  global ecosystem of partners to make their AI agents,
+  people, systems, and processes work together, achieving
+  transformational outcomes. Celonis is headquartered in
+  Munich, Germany, and New York City, USA, with more than 20
+  offices worldwide.
+
+  Get familiar with the Celonis Process Intelligence Platform
+  by watching this video.
+
+  Celonis Inclusion Statement:
+
+  At Celonis, we believe our people make us who we are and
+  that “The Best Team Wins”. We know that the best teams are
+  made up of people who bring different perspectives to the
+  table. And when everyone feels included, able to speak up
+  and knows their voice is heard - that's when creativity and
+  innovation happen.
+
+  Your Privacy:
+
+  Any information you submit to Celonis as part of your
+  application will be processed in accordance with Celonis’
+  Accessibility and Candidate Notices
+
+  By submitting this application, you confirm that you agree
+  to the storing and processing of your personal data by
+  Celonis as described in our Privacy Notice for the
+  Application and Hiring Process.
+
+  Use of Artificial Intelligence Tools We rely on an
+  artificial intelligence tool to match the information from
+  your resume to the relevant Celonis job descriptions. This
+  processing is limited to the information provided in your
+  resume or in your candidate profile. The tool produces a
+  match score per candidate for a role, suggests preliminary
+  ranking, and provides recommendations. The tool is only used
+  for support in parts of the job application process,
+  including to facilitate the identification of the relevant
+  Celonis Jobs for candidates and recruiters. All final
+  decisions are made by hiring managers and the Celonis talent
+  acquisition team. Hiring managers and HR specialists use
+  this tool responsibly, are aware of the risk of potential
+  bias, and are equipped to mitigate it.
+
+  Please be aware of common job offer scams, impersonators and
+  frauds. Learn more here.
+industries:
+  - Big Data
+  - Information Technology
+  - Productivity
+  - Software
+  - Analytics
+  - Business Intelligence
+  - Consulting
+posted_date: 2026-11-02
+url: "https://builtin.com/job/senior-software-engineer-data-core/12017580"
+source: Built In

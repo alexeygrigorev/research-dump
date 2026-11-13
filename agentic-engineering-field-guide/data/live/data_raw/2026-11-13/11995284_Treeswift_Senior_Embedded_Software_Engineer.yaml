@@ -1,0 +1,175 @@
+job_id: 11995284
+title: Senior Embedded Software Engineer
+company: Treeswift
+location: New York, USA
+locations:
+  - New York, USA
+  - Philadelphia, USA
+work_type: FULL_TIME
+company_size: 75 Employees
+description: |
+  About Treeswift:
+
+  In the face of rising threats, increasing pressure on
+  affordability, and unprecedented demand for power, Treeswift
+  empowers energy companies to modernize their field work to
+  meet the growth and challenges ahead.
+
+  We build physical AI for the field worker: whether on foot
+  or in a vehicle, our technology is an ironman suit for
+  engineers, linemen, and vegetation crews: same worker, same
+  boots on the ground, now operating at 10x productivity. Our
+  platform is powered by cutting edge hardware, sensors
+  (LiDAR, camera, etc…), AI and software designed to
+  revolutionize work in the toughest environments.
+
+  Our technology has enabled our customers to reduce wildfire
+  risk, regulatory and outage risk from vegetation, avoid
+  delays and cost overruns in new construction, and accelerate
+  recovery from severe storms.
+
+  To tackle this challenge, we are bringing together a team of
+  mission-driven experts with deep industry experience in
+  robotics (Penn, Caltech, CMU) and enterprise software
+  development (Palantir, Stripe, Oracle, MongoDB). We have
+  raised funding from leading investors including Penny
+  Pritzker’s Inspired Capital.
+
+  We are headquartered in midtown Manhattan, with additional
+  offices in San Francisco and Philadelphia.
+
+  Our growth is only accelerating. We’re looking for deeply
+  curious and highly ambitious people who want to have a real
+  world impact. Come build the future of (field) work with us.
+
+  About the role
+
+  As a senior engineer on our embedded team you will drive
+  development of our robot software. In this role you will
+  contribute to a wide range of outcomes including:
+
+  - Increasing on-device or near real-time capabilities that
+    deliver an improved operator experience and enable fast
+    turn-around for certain use cases like storm response.
+  - Features to support robot reliability at scale such as
+    development of additional logs and diagnostic capabilities
+  - Optimization of our field to cloud data pipeline to support
+    large base of end-users and faster turn-around times
+  - Core robot software development experience including
+    upgrades to our operating system and deployment of
+    upgrades to the fleet
+  - Support hardware evolutions and changes, such as integration
+    of new sensors
+  - Serving as an escalation point for embedded issues raised by
+    our field and technical staff, helping resolve customer-
+    facing problems quickly
+
+  This role will be hybrid, with 2-3 days in office, based out
+  of our New York or Philadelphia offices.
+
+
+
+  Experience / Skills
+
+  - 5+ years of experience writing software for Linux in
+    embedded systems. Strong proficiency in C++ and/or Python
+    is required. ROS 2 experience is preferred.
+  - Strong engineering fundamentals for working on a small team:
+    git, code review, ticket-based workflows, writing unit
+    tests, bench testing, and clear documentation
+  - Comfortable working in Linux from the command line. You use
+    the latest AI/LLM tools to maximize your output in your
+    daily workflow, backed by strong fundamentals that let you
+    review, debug, and own the code you ship.
+  - Hands-on experience across two or more of: 32-bit
+    microcontrollers, embedded Linux, mobile (Android/iOS)
+    development, NVIDIA Jetson, and cloud IoT platforms (AWS
+    IoT, Azure IoT)
+  - Comfortable in a fast-paced, high-ownership environment. You
+    have a genuine spark for electronics, robotics, security,
+    and AI; you prototype ideas and chase down discoveries
+    without waiting to be asked, and see work through to
+    completion. You hold strong, experience-backed opinions,
+    but are humble enough to seek a second opinion and enjoy
+    building as a team.
+  - Maintaining and upgrading software on commercially
+    distributed hardware devices at scale.
+  - Worked with devices operating in no/low connectivity areas
+  - Prior experience deploying ML models onto hardware devices
+    is a big plus
+
+  Nice to have
+
+  - Embedded device bring-up and low-level security (secure
+    boot, U-Boot, Yocto, LUKS)
+  - AWS IoT and cloud security
+  - NVIDIA Jetson Orin NX
+  - USB 2.0/3.0
+  - GitLab CI, Docker, GStreamer
+  - Camera sensor integration and streaming
+  - Android/iOS app development, phone OS customization, Android
+    Auto
+  - Cellular modems, WiFi, RF, or EMI/FCC compliance
+
+  What We Value
+
+  - Mission first. We value team members who are focused on
+    working towards the best outcomes for the customer and the
+    business.
+  - Curiosity. We are constantly learning – from each other and
+    from our customers. We aren’t afraid to learn we were
+    wrong in the process and adapt our approach accordingly.
+  - Owners mindset. If you see an opportunity for improvement,
+    run with it. We believe that good ideas can come from
+    anywhere, no matter your role.
+
+  Benefits
+
+  - Competitive salary and equity package
+  - Comprehensive medical, dental, and vision coverage for you
+    and your eligible dependents
+  - Life insurance and short- and long-term disability coverage
+  - 16 weeks of fully paid parental leave to support all new
+    parents
+  - Flexible, unlimited paid time off
+  - 401(k) retirement savings plan
+  - Free OneMedical membership
+  - Commuter benefits
+  - Snacks, goodies, and team lunches provided twice a week to
+    keep you fueled and connected with your colleagues.
+
+  Salary
+
+  The estimated salary range for this position is $140,000 -
+  $180,000 USD. Total compensation for this position is
+  determined by skills, qualifications, relevant work
+  experience, location, and other factors. This salary
+  estimate excludes the value of any potential bonuses; the
+  value of any benefits offered; and the potential future
+  value of any long-term incentives. This information is
+  provided per the New York City Human Rights Law. Please note
+  that the range provided is applicable only to New York City-
+  based applicants. Base compensation may vary if the work
+  location is outside of New York City.
+
+  Treeswift  is proud to be an equal opportunity employer. We
+  provide employment opportunities without regard to age,
+  race, color, ancestry, national origin, religion,
+  disability, sex, gender identity or expression, sexual
+  orientation, veteran status, or any other protected status
+  in accordance with applicable law.
+
+  If you require any accommodations during the recruitment
+  process, whether it be alternate forms of material,
+  accessible meeting rooms, etc., please let us know and we
+  will work with you to meet your needs.
+industries:
+  - Artificial Intelligence
+  - Hardware
+  - Machine Learning
+  - Robotics
+  - Software
+  - Utilities
+posted_date: 2026-10-30
+url: "https://builtin.com/job/senior-embedded-software-engineer/11995284"
+source: Built In

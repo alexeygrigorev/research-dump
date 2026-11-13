@@ -1,0 +1,144 @@
+job_id: 12050786
+title: Senior Full Stack Engineer (Agentic Search) - Platform
+company: Nebius
+location: New York, USA
+work_type: FULL_TIME
+company_size: 473 Employees
+description: |
+  About Nebius:
+
+  Nebius is leading a new era in cloud infrastructure for the
+  global AI economy. We are building a full-stack AI cloud
+  platform that supports developers and enterprises from data
+  and model training through to production deployment, without
+  the cost and complexity of building large in-house AI/ML
+  infrastructure.
+
+  Built by engineers, for engineers. From large-scale GPU
+  orchestration to inference optimization, we own the hard
+  problems across compute, storage, networking and applied AI.
+
+  Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we
+  have a global footprint with R&D hubs across Europe, the UK,
+  North America and Israel. Our team of 1,500+ includes
+  hundreds of engineers with deep expertise across hardware,
+  software and AI R&D.
+
+  The Role
+
+  We are looking for a Senior Full Stack Engineer to build how
+  developers and AI agents access our agentic web
+  infrastructure. This role is based in our New York office,
+  hybrid with the NYC team.
+
+  Our APIs are used by millions of developers and the AI
+  agents acting on their behalf. The team owns the main API
+  gateway, the customer platform (keys, usage, teams),
+  identity and enterprise SSO, and the public interfaces to
+  our product: the SDKs, CLI, MCP servers and other tools
+  developers and agents use. You'll work closely with product,
+  design and engineers across our R&D.
+
+
+
+  In this position, your responsibility will be to:
+
+  - Design and ship features end to end, from the interface to
+    the services and data behind it
+  - Build and improve the API gateway: high traffic, low
+    latency, reliable
+  - Turn usage, billing and team data into fast, usable
+    interfaces: tables, charts, filters and forms
+  - Shape the self-serve journey from signup through activation
+  - Build and operate identity and team access in production:
+    OAuth and OIDC, role-based access, SAML SSO and SCIM, on
+    providers such as Auth0, Okta, WorkOS or Clerk
+  - Control who gets which features, with feature flags for
+    staged rollouts and entitlements after rollout
+  - Improve the public interfaces developers and agents use: the
+    SDKs, CLI, MCP servers and docs
+
+  You may be a good fit if you:
+
+  - Have 5+ years of full-stack engineering on customer-facing
+    products or high-throughput APIs, in any mix of frontend
+    and backend
+  - Are strong in backend engineering, ideally in Python. Go,
+    C++ or C with some Python experience also fits
+  - Have built and operated latency-sensitive, high-QPS APIs:
+    caching, async work, queues, retries and rate limiting,
+    including long-running jobs and webhooks
+  - Have shipped production UI with a modern frontend framework
+    such as React, Next.js or TanStack, ideally in TypeScript
+  - Have built data-heavy interfaces such as tables, charts and
+    filters that stay fast
+  - Are effective in a mature, user-facing system: you have
+    joined a complex codebase, ramped up fast, shipped safely
+    under real traffic, and been on-call for it
+  - Have strong product and design sense, for interfaces and for
+    APIs
+  - See your work through from design to production, explain
+    trade-offs clearly to partners, navigate ambiguity, and
+    use AI tools in how you build
+
+  Strong candidates may also:
+
+  - Have led a project or mentored others
+  - Have taken a product from 0 to launch
+  - Have built API-key issuance and lifecycle
+  - Have built MCP servers or tools for AI agents
+  - Have worked on billing or usage metering with Stripe,
+    Metronome, Orb or similar
+
+  Pay Transparency
+
+  We offer competitive compensation and benefits packages.
+  Actual compensation will be determined based on job-related
+  factors, including experience, skills, qualifications, the
+  level at which the candidate is hired, and geographic
+  location, consistent with applicable law.
+
+  Base Compensation Range
+
+  $147,200—$224,300 USD
+
+  Benefits & Perks:
+
+  - Competitive compensation
+  - Career growth and learning opportunities
+  - Flexibility and ownership
+  - Collaborative and innovative culture
+  - Opportunity to work on impactful AI projects
+  - International environment and talented teams
+
+  What's it like to work at Nebius:
+
+  Fast moving - Bold thinking - Constant growth - Meaningful
+  impact - Trust and real ownership - Opportunity to shape the
+  future of AI
+
+  Equal Opportunity Statement:
+
+  Nebius is an equal opportunity employer. We are committed to
+  fostering an inclusive and diverse workplace and to
+  providing equal employment opportunities in all aspects of
+  employment. We do not discriminate on the basis of race,
+  color, religion, sex (including pregnancy), national origin,
+  ancestry, age, disability, genetic information, marital
+  status, veteran status, sexual orientation, gender identity
+  or expression, or any other characteristic protected by
+  applicable law.
+
+  Applicants must be authorized to work in the country in
+  which they apply and will be required to provide proof of
+  employment eligibility as a condition of hire.
+
+  If you need accommodations during the application process,
+  please let us know.
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Consulting
+posted_date: 2026-11-03
+url: "https://builtin.com/job/senior-full-stack-engineer-agentic-search-platform/12050786"
+source: Built In

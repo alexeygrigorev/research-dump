@@ -1,0 +1,94 @@
+job_id: 9190849
+title: (Applied) AI Engineer
+company: Qontext
+location: Berlin, DEU
+work_type: FULL_TIME
+company_size: 5 Employees
+description: |
+  We're building the self-maintaining source of truth for the
+  AI-native company, the context repository that keeps company
+  knowledge structured, up-to-date, permission-aware, and
+  ready for every AI agent.
+
+  That takes people who are exceptionally talented, obsessed
+  by the vision, and set on doing the best work of their
+  lives. If that's you, read on.
+
+  The Opportunity
+
+  You'll design and scale the backend that powers a company's
+  brain, the logic that lets AI reason over live company
+  knowledge instead of static data.
+
+  You'll own the architecture behind sync and retrieval:
+  turning unstructured information from every data source into
+  a structured, versioned, queryable context repository. Your
+  work defines how AI systems across our customers'
+  organizations reach relevant, up-to-date, permission-aware
+  context in real time.
+
+  We're already live with 15+ design partners and launching v1
+  in Q3 2026. This is the rare moment where the product, the
+  architecture, and the category are still yours to shape. We
+  think of Qontext as a once-in-a-lifetime opportunity, and we
+  hire people who feel the same.
+
+  What You’ll Do
+
+  - Design and implement the core backend logic of the context
+    repository
+  - Build and optimize the sync, turning raw data source data
+    into structured, graph-based context
+  - Develop high-performance retrieval and ranking, combining
+    hybrid search, rule-based logic, and identity resolution
+  - Productize complex logic through clean APIs and modular
+    components (MCP, CLI, API, etc.)
+  - Build evaluation and experimentation frameworks that
+    continuously raise contextual accuracy
+
+  You’ll Thrive Here If You…
+
+  - Love distributed systems and high-complexity logic problems
+  - Are fluent in TypeScript or Python and have an eye for
+    clean, scalable architecture
+  - Turn research and theory into production-grade product
+  - Have a bias for ownership and thrive in fast-paced, early-
+    stage environments
+  - Are endlessly curious and pragmatic, and care about making
+    AI truly useful
+
+  Why Join Us
+
+  - Challenge: A genuinely hard intellectual and systems problem
+  - Cutting edge: Turning the latest research into a product
+    used at scale
+  - Mission: Building the infrastructure for the next generation
+    of work
+  - Impact: Shape the company and architecture from day one
+  - Ownership: Competitive salary plus meaningful early equity
+  - Culture: Deep-tech mindset, transparency, radical candor and
+    fast execution
+
+  Process
+
+  - Get to know each other · 30 min
+  - Chat with co-founder(s) · 30 min
+  - Technical interview · 1h
+  - Take-home case · 3h
+  - Case discussion · 1h
+  - Offer
+
+  Practical Info
+
+  - Location: Berlin
+  - Start date: ASAP
+  - Type: Full-time
+  - Compensation: €65k - €100k + equity package
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Natural Language Processing
+  - Software
+posted_date: 2026-08-10
+url: "https://builtin.com/job/backend-engineer-ai-ml/9190849"
+source: Built In

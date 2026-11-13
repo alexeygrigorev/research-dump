@@ -1,0 +1,160 @@
+job_id: 11546090
+title: Full Stack Java Engineer
+company: Miratech
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 701 Employees
+description: |
+  Company Description
+
+  Miratech helps visionaries change the world. We are a global
+  IT services and consulting company that brings together
+  enterprise and start-up innovation. Today, we support
+  digital transformation for some of the world's largest
+  enterprises. By partnering with both large and small
+  players, we stay at the leading edge of technology, remain
+  nimble even as a global leader, and create technology that
+  helps our clients further enhance their business. We are a
+  values-driven organization, and our culture of Relentless
+  Performance has enabled over 99% of Miratech's engagements
+  to succeed by meeting or exceeding our scope, schedule,
+  and/or budget objectives since our inception in 1989.
+  Miratech has coverage across  5 continents and operates in
+  over 25 countries around the world. Miratech retains nearly
+  1000 full-time professionals, and our annual growth rate
+  exceeds 25%.
+
+  Job Description
+
+  We are looking for a Full Stack Engineer to design, develop,
+  and support scalable cloud-native applications that power
+  Workforce Management (WFM), Customer Experience (CX), and
+  operational business processes. You will use Java and Spring
+  Boot to develop scalable backend services, React with
+  TypeScript to create responsive user experiences, and
+  Node.js where appropriate for supporting components. The
+  role suits a hands-on engineer with strong software
+  development fundamentals who can take features from
+  technical design through implementation, testing,
+  deployment, and production support. Experience with
+  Workforce Management (WFM), Customer Experience (CX), or
+  contact center solutions is an advantage
+
+  Responsibilities:
+
+  - Design, develop, test, and maintain scalable backend
+    services using Java, Spring Boot, and established software
+    engineering practices.
+  - Build modern web applications using React, TypeScript,
+    reusable components, responsive layouts, and accessible
+    interaction patterns.
+  - Develop and consume REST APIs using an API-first approach;
+    maintain clear OpenAPI/Swagger contracts and error
+    handling.
+  - Design modular, maintainable solutions using microservices
+    and appropriate object-oriented and event-driven design
+    patterns.
+  - Use Node.js where appropriate for lightweight services,
+    backend-for-frontend components, integrations, or
+    development tooling.
+  - Design and optimize PostgreSQL data models and queries with
+    attention to integrity, performance, and audit history.
+  - Design and implement reliable integrations with internal and
+    external systems using REST APIs, webhooks, messaging, and
+    other appropriate integration patterns.
+  - Containerize applications and contribute to cloud-based
+    deployment patterns, configuration management, and
+    environment consistency.
+  - Build and maintain Jenkins-based CI/CD pipelines with
+    automated testing, quality gates, and repeatable
+    deployments.
+  - Instrument applications with structured logging, metrics,
+    tracing, and actionable error reporting.
+  - Troubleshoot functional and production issues and improve
+    application performance, resilience, scalability, and
+    maintainability.
+  - Collaborate with Product, UX, QA, DevOps, Architecture, and
+    other engineers through design sessions, code reviews,
+    planning, and continuous improvement.
+
+  Qualifications
+
+  - 5+ years of full-stack software development experience,
+    including ownership of production applications.
+  - Strong hands-on experience with Java and Spring
+    technologies, particularly Spring Boot, REST services,
+    persistence, security, and automated testing.
+  - Solid frontend development experience with Angular or React,
+    TypeScript, HTML, CSS, component-based design, state
+    management, and modern testing practices.
+  - Familiarity with Node.js for lightweight services,
+    integrations, build tooling, or supporting components.
+  - Proven experience designing REST APIs, microservices, and
+    maintainable applications in distributed environments.
+  - Strong SQL skills and experience designing efficient data
+    models in PostgreSQL or comparable relational databases.
+  - Experience developing, deploying, or supporting cloud-based
+    and containerized applications.
+  - Excellent communication skills, including the ability to
+    produce clear technical documentation and lead client-
+    facing workshops.
+  - Knowledge of OAuth2, OpenID Connect, JWT, and secure API
+    design.
+  - Experience with Kafka, RabbitMQ, or comparable messaging and
+    event-streaming technologies.
+  - Familiarity with Kubernetes, cloud platforms, observability
+    tooling, and secure software delivery practices.
+
+  Nice to have:
+
+  - Experience developing Workforce Management (WFM)
+    applications or integrating with WFM platforms.
+  - Experience with AWS services and Amazon Connect
+  - Experience building applications for CX solutions, contact
+    centers, or customer service environments, including voice
+    infrastructure or integrations using FreeSWITCH, Kamailio,
+    Twilio, or comparable communications platforms.
+  - Knowledge of forecasting, scheduling, adherence, routing,
+    agent desktop, digital channels, or related operational
+    concepts.
+  - Experience integrating applications with CRM, identity, HR,
+    payroll, analytics, or other enterprise systems.
+  - Practical experience with AI-assisted software development
+    or AI-enabled solutions, including tools such as Claude or
+    GitHub Copilot, is a plus.
+
+  Additional Information
+
+  We offer:
+
+  - Culture of Relentless Performance: join an unstoppable
+    technology development team with a 99% project success
+    rate and more than 30% year-over-year revenue growth.
+  - Competitive Pay and Benefits: enjoy a comprehensive
+    compensation and benefits package, including health
+    insurance, language courses, and a relocation program.
+  - Growth Mindset: reap the benefits of a range of professional
+    development opportunities, including certification
+    programs, mentorship and talent investment programs,
+    internal mobility and internship opportunities.
+  - Global Impact: collaborate on impactful projects for top
+    global clients and shape the future of industries.
+  - Welcoming Multicultural Environment: be a part of a dynamic,
+    global team and thrive in an inclusive and supportive work
+    environment with open communication and regular team-
+    building company social events.
+  - Social Sustainability Values: join our sustainable business
+    practices focused on five pillars, including IT education,
+    community empowerment, fair operating practices,
+    environmental sustainability, and gender equality.
+
+  * Miratech is an equal opportunity employer and does not
+  discriminate against any employee or applicant for
+  employment on the basis of race, color, religion, sex,
+  national origin, age, disability, veteran status, sexual
+  orientation, gender identity, or any other protected status
+  under applicable law.
+posted_date: 2026-10-07
+url: "https://builtin.com/job/full-stack-java-engineer/11546090"
+source: Built In

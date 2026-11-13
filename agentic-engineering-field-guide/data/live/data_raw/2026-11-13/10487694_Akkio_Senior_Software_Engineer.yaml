@@ -1,0 +1,207 @@
+job_id: 10487694
+title: Senior Software Engineer
+company: Akkio
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 4 Employees
+description: |
+  About Akkio
+
+  Akkio is the AI infrastructure that powers agentic workflows
+  across media companies. By running on-premises within agency
+  cloud environments and sitting directly on top of data,
+  Akkio enables organizations to productionize AI at
+  enterprise scale, automating campaign workflows while
+  maintaining complete security and governance control.
+
+  Our approach already powers some of the biggest names in
+  media. Havas is building agentic AI into Converged.AI, its
+  global operating system, in partnership with Akkio. Horizon
+  Media strengthened its blu. platform with Akkio. Mediaplus
+  built Plus.AI, its global AI media planning system, on our
+  infrastructure. LG Ad Solutions uses Akkio to unlock real-
+  time intelligence from ACR data.
+
+  We're a small, fast-growing team, and every person here
+  shapes what media's biggest players do next.
+
+  How we build
+
+  We build with AI the way we expect our partners to run on
+  it: aggressively, thoughtfully, and in production. Agentic
+  coding is foundational to how our engineering team works.
+  Our engineers orchestrate coding agents to move from idea to
+  shipped product at a pace that would be impossible by hand,
+  and they hold that output to a high bar for quality,
+  testing, and reliability.
+
+  If you've rebuilt your workflow around agents, maintaining
+  context files for your repos, running agents on real
+  production work, publishing MCP servers, or rethinking how
+  code review works when an agent writes the first draft,
+  you'll feel at home. If you're still evaluating whether AI
+  coding tools are ready, this probably isn't the right role.
+
+  The opportunity
+
+  We hire senior software engineers into four areas of focus:
+  backend, full stack, data, and infrastructure. Most of what
+  makes an engineer great at Akkio is the same across all four
+  — the specialty is where you'll go deepest, not a box you'll
+  stay in. Apply once and tell us which area fits you best; if
+  you're between two, tell us that too.
+
+  Whatever your focus, you'll build the systems behind
+  customer-facing AI agents running in production at the
+  world's largest media agencies. This role is built for
+  owners. Requirements at a fast-moving AI startup are rarely
+  fully defined and often shift as we learn from customers.
+  We're looking for someone who treats that as the fun part:
+  someone who takes a partially-shaped problem, drives it to a
+  well-shaped solution, and ships a great product without
+  waiting for a full spec. You'll have direct influence on
+  technical direction, and your work will land in production
+  at agencies serving the world's biggest brands.
+
+  What you'll do
+
+  - Own complex technical projects end-to-end, from ambiguous
+    problem statement through architecture, build, deployment,
+    and iteration in production
+  - Multiply your output with agentic coding and help raise the
+    bar for how the whole team builds with agents
+  - Design systems that scale with our partner base while
+    improving reliability, performance, and cost efficiency
+  - Implement security and compliance measures that protect
+    sensitive partner data
+  - Set engineering standards for code quality and testing in an
+    agent-assisted codebase, and mentor teammates on both
+  - Work directly with engineers, data scientists, and customer
+    teams, and communicate clearly with stakeholders as
+    requirements evolve
+
+  Who you are
+
+  - 5+ years of software engineering experience with a track
+    record of solving hard technical problems
+  - You've deeply integrated AI coding into your daily workflow;
+    agents are your default way of building, not an occasional
+    assist and you can speak concretely about how you direct
+    them, where they fail, and how you verify their output
+  - You thrive on ownership: you've repeatedly taken loosely
+    defined or shifting requirements and delivered great
+    products anyway, filling gaps with judgment rather than
+    waiting for direction
+  - Experience building and debugging large-scale production
+    systems
+  - Strong background with cloud infrastructure (AWS, GCP,
+    and/or Azure) and modern DevOps practices
+  - Strong bias to execution coupled with high engineering
+    standards and attention to detail
+
+  Your specialty
+
+  Backend. Build the server-side systems that power our AI
+  platform: APIs behind customer-facing agents, model
+  deployment and inference infrastructure, and large-scale
+  processing of media and audience data. You bring strong
+  production Python, deep understanding of REST APIs and
+  database design, and experience with distributed
+  architectures.
+
+  Full stack web. Build the interfaces where agency teams
+  interact with AI agents, explore data, and ship campaign
+  work. You bring strong experience with modern JavaScript
+  frameworks (we use Vue.js, Node.js, and TypeScript), complex
+  state management, data visualization, and the design
+  sensibility to implement sophisticated interfaces
+  accurately.
+
+  Data. Build the pipelines and data foundations our platform
+  runs on: high-volume ingestion from partner systems,
+  transformation and modeling for AI workloads, and the
+  analytics architecture behind audience and campaign
+  intelligence. You bring expert SQL, deep experience with
+  cloud data platforms (Snowflake, BigQuery, or Databricks),
+  and fluency with orchestration tools like dbt or Airflow.
+
+  Infrastructure. Build the systems that let our platform run
+  inside our partners' own cloud environments at enterprise
+  scale: deployment automation, observability, reliability,
+  security, and cost efficiency across AWS, GCP, and Azure.
+  You bring deep experience with containerization and
+  orchestration (Docker, Kubernetes), CI/CD, and
+  infrastructure as code.
+
+  Bonus points
+
+  - Public artifacts of your agentic workflow:
+    CLAUDE.md/AGENTS.md context files in your repos, published
+    MCP servers, agent co-authored commit history, or writing
+    about how you build with agents
+  - Hands-on experience building with large language models:
+    evals, tool use, agent orchestration, or LLM-powered
+    product features
+  - Depth in a second specialty from the list above
+  - Understanding of security best practices for handling
+    sensitive data
+  - Previous early-stage startup experience
+
+  Why you'll love working here
+
+  Build at the frontier. You'll work on a team that's
+  genuinely all-in on agentic development, with the tools,
+  budget, and encouragement to push what's possible with AI
+  coding. What most companies call an experiment, we call
+  Tuesday. You'll get better at this craft faster here than
+  almost anywhere.
+
+  Ride real acceleration. Akkio is a well-funded startup in a
+  rapidly accelerating phase with major enterprise partners in
+  production, expanding global deployments, and a market
+  that's moving toward us. Joining now means real ownership of
+  outcomes and real upside: substantial equity, outsized
+  scope, and a direct line from your work to company results.
+
+  Work with an exceptional team. Our team is small and
+  accomplished, composed of people who've built and scaled
+  products at top companies and chose to do the ambitious
+  thing here. Our culture is built around shared wins: high
+  trust, low ego, and the expectation that everyone operates
+  like an owner.
+
+  Additional information
+
+  Location: Remote-first company with no central office
+  location. This position is fully remote.
+
+  Compensation: Competitive salary range depending on
+  experience, plus substantial equity grants.
+
+  Benefits: Health, dental, and vision insurance; 401(k) plan;
+  generous PTO policy.
+
+  Authorization: Must be authorized to work in the US.
+
+  Akkio is proud to be an equal opportunity employer. We
+  celebrate diversity and are committed to creating an
+  inclusive environment for all employees. We do not
+  discriminate on the basis of race, religion, color, national
+  origin, gender, sexual orientation, age, marital status,
+  veteran status, or disability status. We are committed to
+  building a team that represents a variety of backgrounds,
+  perspectives, and skills, and we believe that the more
+  inclusive we are, the better our work will be.
+
+  To all recruitment agencies: Akkio does not accept agency
+  resumes. Please do not forward resumes to our jobs alias or
+  Akkio employees. Akkio is not responsible for any fees
+  related to unsolicited resumes.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Natural Language Processing
+posted_date: 2026-07-31
+url: "https://builtin.com/job/senior-software-engineer/10487694"
+source: Built In

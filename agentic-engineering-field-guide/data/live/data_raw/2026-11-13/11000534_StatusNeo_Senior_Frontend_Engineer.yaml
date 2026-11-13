@@ -1,0 +1,125 @@
+job_id: 11000534
+title: Senior Frontend Engineer
+company: StatusNeo
+location: Austin, USA
+work_type: FULL_TIME
+company_size: 174 Employees
+description: |
+  About StatusNeo:
+
+  StatusNeo is a global AI-native transformation firm helping
+  enterprises design, engineer, and govern AI-led systems with
+  trust at the core.
+
+  We work with global enterprises across BFSI, retail,
+  healthcare, airlines, and platform-driven industries to
+  transform how software is built, operated, and scaled in an
+  AI-first world.
+
+  Our work is anchored in Authentic AI™ — an approach that
+  treats AI not as a feature or experiment, but as a
+  continuously evolving system that must be engineered with
+  intent, accountability, and governance.
+
+  At StatusNeo, we don’t just talk about AI transformation.
+
+  We build it — across engineering platforms, AI-native SDLC,
+  agentic systems, and enterprise operating models.
+
+  ROLE MANDATE
+
+  Lead the web experience for the Sales Command Center and
+  work closely with the iOS engineering team to create a
+  consistent cross-channel product. The application will
+  provide sales users with a unified workspace that combines
+  Dynamics 365 customer context, workflows, documents,
+  insights and actions.
+
+  KEY RESPONSIBILITIES
+
+  • Build the Sales Command Center web application using React
+  and TypeScript.
+
+  • Develop reusable components and frontend architecture for
+  complex enterprise sales journeys.
+
+  • Translate UX and design-system specifications into
+  production-grade experiences.
+
+  • Integrate the frontend with BFFs and domain APIs rather
+  than directly coupling the application to Dynamics 365.
+
+  • Build role-based workspaces combining
+  customer/relationship information, activities, documents,
+  tasks, workflow state, insights and recommended actions.
+
+  • Implement secure authentication and session management
+  using Microsoft Entra ID.
+
+  • Design robust loading, validation, empty, error and
+  degraded-state experiences.
+
+  • Ensure consistent experience patterns between the web
+  application and React Native/iOS application.
+
+  • Collaborate with the iOS engineer on shared API contracts,
+  design patterns, navigation and journey behavior.
+
+  • Own accessibility, product analytics, frontend telemetry,
+  performance and automated UI testing.
+
+  • Participate in sprint demos and client-facing engineering
+  discussions.
+
+  REQUIRED SKILLS
+
+  • React
+
+  • TypeScript / JavaScript
+
+  • Modern React architecture and state management
+
+  • Enterprise-scale responsive web applications
+
+  • REST API integration
+
+  • OAuth 2.0 / OIDC
+
+  • Microsoft Entra ID
+
+  • Design systems and component libraries
+
+  • Accessibility / WCAG
+
+  • Frontend performance engineering
+
+  • Jest / React Testing Library / Playwright
+
+  • Frontend observability and analytics
+
+  • Azure-based application deployment
+
+  • Working knowledge of React Native / iOS application
+  patterns
+
+  • Understanding of Dynamics 365 as a headless system of
+  record
+
+  PREFERRED EXPERIENCE
+
+  • Sales, advisor or employee command-center applications
+
+  • React Native exposure
+
+  • Dynamics 365 / Dataverse exposure
+
+  • Azure-hosted digital platforms
+
+  • Financial-services or regulated-enterprise experience
+industries:
+  - Cloud
+  - Information Technology
+  - Consulting
+posted_date: 2026-09-03
+url: "https://builtin.com/job/senior-frontend-engineer/11000534"
+source: Built In

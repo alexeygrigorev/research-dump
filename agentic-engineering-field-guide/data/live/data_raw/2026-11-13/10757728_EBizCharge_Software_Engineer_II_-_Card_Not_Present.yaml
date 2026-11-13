@@ -1,0 +1,186 @@
+job_id: 10757728
+title: Software Engineer II - Card Not Present
+company: EBizCharge
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 200 Employees
+description: |
+  Headquartered in Irvine, California, EBizCharge specializes
+  in developing integrated payment solutions that facilitate
+  electronic payment processing within ERP, CRM, Mobile, and
+  eCommerce applications. Our applications are PCI compliant
+  and fully integrated with major ERP/accounting systems,
+  including QuickBooks, Sage, SAP Business One, Microsoft
+  Dynamics, NetSuite, Epicor, Acumatica, and major online
+  shopping carts, including Magento and WooCommerce.
+  EBizCharge offers its employees tremendous learning
+  opportunities, career growth potential, and a dynamic work
+  environment.
+
+  We are seeking a Software Engineer II to join our growing
+  team. This role is focused on building and supporting secure
+  payment solutions across EMV terminals, backend services,
+  and integrations. The ideal candidate has experience working
+  on payment systems or processor integrations and is
+  interested in deepening their expertise in EMV
+  certification, tokenization, and end-to-end transaction
+  flows. This engineer will collaborate closely with senior
+  team members to deliver reliable, compliant, and scalable
+  payment solutions.
+
+  Responsibilities
+
+  EMV Terminal & Device Development
+
+  • Develop and maintain Ingenico terminal applications using
+  Kotlin and Ingenico SDK
+
+  • Implement EMV transaction flows (contact, contactless,
+  NFC, wallet)
+
+  • Integrate terminal software with host systems and gateway
+  APIs
+
+  • Troubleshoot device-level issues, EMV kernel interactions,
+  and transaction failures
+
+  • Assist with firmware updates and terminal configuration
+  management
+
+  Backend Payment Services (.NET)
+
+  • Contribute to the development of secure RESTful APIs using
+  .NET/ASPE.NET core
+
+  • Implement core payment workflows: authorization, capture,
+  refund, void, and settlement
+
+  • Support integrations with payment processors and gateways
+
+  • Build and maintain device management services
+  (registration, monitoring, configuration)
+
+  • Implement webhook listeners and event-driven payment
+  updates
+
+  • Support batch settlement, reconciliation, and reporting
+  processes
+
+  • Participate in production troubleshooting and reliability
+  improvements
+
+  EMV Certification & Processor Integration
+
+  • Contribute to EMV Level 3 certification efforts by
+  executing test cases and validating transaction flows
+
+  • Assist in validating host message formatting and
+  transaction responses
+
+  • Troubleshoot processor-level declines and edge cases with
+  guidance from senior engineers
+
+  • Support regression testing and re-certification activities
+
+  • Collaborate with internal teams and external processors
+  during certification cycles
+
+  Tokenization & Wallet Integration
+
+  • Support implementation of network tokenization flows
+  (Visa, Mastercard, Amex)
+
+  • Assist with token lifecycle management (provisioning,
+  updates, de-tokenization)
+
+  • Support integrations for Apple Pay and Google Pay
+
+  • Ensure payment flows adhere to card network and security
+  requirements
+
+  Mobile Payment Integration
+
+  • Support Android-based mobile payment integrations using
+  Kotlin
+
+  • Integrate payment SDKs and troubleshoot mobile transaction
+  issues
+
+  • Assist with mobile wallet provisioning and transaction
+  flows
+
+  Qualifications
+
+  • 2-4 years of professional software development experience
+
+  • Experience working on payment systems, financial systems,
+  or API integrations
+
+  • Experience building RESTful APIs using .NET / ASP.NET core
+
+  • Experience developing Android applications using Kotlin
+
+  • Understanding of the payment transaction lifecycle
+  (authorization through settlement)
+
+  • Strong debugging and problem-solving skills in production
+  environments
+
+  • Ability to work collaboratively in cross-functional teams
+
+  Preferred Qualifications
+
+  • Exposure to EMV Level 3 certification processes
+
+  • Experience integrating with payment processors or gateways
+
+  • Experience with Ingenico devices and SDKs
+
+  • Familiarity with PCI-DSS compliance concepts
+
+  • Experience with AWS or Azure
+
+  • Experience with CI/CD pipelines and automated deployments
+
+  • Prior fintech or payment industry experience
+
+  Technical Environment
+
+  • Terminal Software: Ingenico SDK, Kotlin
+
+  • Backend: .NET 6+ / ASP.NET Core
+
+  • Mobile: Android SDK integration (Kotlin)
+
+  • Cloud: AWS or Azure
+
+  • Payments: EMV, Tokenization, Webhooks, Batch Settlement
+
+  Growth Opportunity
+
+  This role provides hands-on experience with EMV Level 3
+  certification, processor integrations, and tokenized payment
+  systems, offering a strong growth path toward senior
+  payments engineering roles.
+
+  Job Type: Full-time
+
+  The Company is committed to compliance with all applicable
+  laws providing equal employment opportunities. This
+  commitment applies to all persons involved in Company
+  operations. The Company prohibits unlawful discrimination
+  against any job applicant, employee, or unpaid intern by any
+  employee of the Company, including supervisors and
+  coworkers. Pay discrimination between employees of the
+  opposite sex or between employees of another race or
+  ethnicity performing substantially similar work, as defined
+  by the California Fair Pay Act and federal law, is
+  prohibited.
+industries:
+  - Fintech
+  - Payments
+  - Financial Services
+posted_date: 2026-08-20
+url: "https://builtin.com/job/software-engineer-ii-card-not-present/10757728"
+source: Built In

@@ -1,0 +1,138 @@
+job_id: 8309913
+title: Senior Back End Software Engineer
+company: Epistemix
+location: CAN
+locations:
+  - CAN
+  - GBR
+  - USA
+remote: true
+work_type: FULL_TIME
+company_size: 21 Employees
+description: |
+  Our software engineers at Epistemix show a clear passion for
+  quality and love to bring software to life. You are
+  energized by the idea of building something new and want to
+  work on problems that matter.
+
+  In order to do this job well, you must be a curious and
+  eager problem solver with a hunger for building well-
+  designed, high-quality solutions. You have a passion for
+  great work and strive to produce simple solutions to complex
+  problems. Knowing there are always multiple answers to a
+  problem, you know how to engage in a constructive dialogue
+  to find the best path forward.
+
+  About Epistemix
+
+  The most consequential decisions in public health, life
+  sciences, insurance, and enterprise strategy share a common
+  problem: they involve human behavior, network effects, and
+  downstream effects that cannot be safely tested before
+  action is taken. Traditional analytical techniques built on
+  historical data were not built for this. Epistemix was.
+
+  We build simulation and data-driven modeling tools that let
+  leaders visualize how strategies will unfold across
+  populations and systems before they commit resources. By
+  clarifying which variables drive outcomes, where leverage
+  exists, and how they interact, we help organizations move
+  from uncertainty to conviction. Getting these decisions
+  right means faster interventions, better-allocated
+  resources, and measurable improvements in human and economic
+  outcomes. We exist to make that possible.
+
+  Our platform gives organizations access to realistic, high-
+  resolution population data and the modeling infrastructure
+  to run scenario planning at scale. Together, these
+  capabilities let decision-makers stress-test strategies in a
+  controlled environment before deploying them in the real
+  world across healthcare, consumer industries, insurance, and
+  government. We are approaching our Series B and actively
+  building the team that will define what comes next.
+
+  Responsibilities
+
+  As a Senior Back-End Software Engineer, you will be at the
+  forefront of our product's evolution. Your key
+  responsibilities will include:
+
+  - Design, develop, and maintain clean, testable, and highly
+    maintainable code, ensuring top-tier performance and
+    reliability.
+  - From initial requirements gathering to deployment and
+    ongoing maintenance, take full ownership of the software
+    development lifecycle, ensuring seamless delivery and
+    operation.
+  - Design, build, test and deploy a highly scalable and
+    resilient system architecture that supports current needs
+    and future growth.
+  - Define the technical direction for engineering solutions,
+    actively collaborating with internal teams to ensure
+    technological advancements are perfectly aligned with the
+    company's strategic goals.
+
+  Qualifications
+
+  - Bachelor's degree in Computer Science, Software Engineering,
+    or related field, or equivalent work experience
+  - 7+ years of back-end software development experience,with a
+    significant portion in a senior role.
+  - Expert proficiency in Python, particularly with FastAPI.
+  - Strong experience with TypeScript for backend development
+    (Node.js/NestJS experience is a plus).
+  - Deep hands-on experience with AWS cloud services, including
+    but not limited to EC2, EKS, Lambda, S3, RDS, DynamoDB,
+    SQS, SNS, CloudWatch, and IAM.
+  - Proven experience designing, building, and operating
+    microservices architectures.
+  - Extensive experience with Kubernetes for container
+    orchestration.
+  - Expertise in Infrastructure as Code (IaC) using Terraform.
+  - Hands-on experience with Atlantis for Terraform pull request
+    automation.
+  - Demonstrated experience or strong understanding of data
+    science orchestration platforms, such as Prefect.io.
+  - Solid understanding of relational and NoSQL databases,
+    including advanced querying, optimization, and data
+    modeling.
+  - Experience with API design principles (RESTful, GraphQL) and
+    security best practices (OAuth2, JWT).
+  - Strong understanding of distributed systems concepts,
+    asynchronous processing, and message queues.
+  - Experience with CI/CD pipelines and tools (e.g., GitHub
+    Actions, Jenkins).
+  - Strong communication and interpersonal skills, with the
+    ability to articulate complex technical concepts clearly.
+  - Ability to work effectively in a fast-paced, agile
+    environment.
+
+  Why Join Epistemix?
+
+  By joining Epistemix, you will become part of a
+  collaborative and rapidly growing team that values curiosity
+  and creativity. We are fully remote, with team members in
+  the United States and Europe. Benefits include:
+
+  - Equity & Incentives – Participation in our stock option
+    program.
+  - Flexible Time Off – Autonomy to manage your schedule and
+    work-life balance.
+  - Health, Welfare and 401(k) Programs – Eligibility for
+    benefits (for U.S. employees).
+  - Meaningful Impact – Apply your creative talents to
+    revolutionize data-driven decision-making and make a real-
+    world difference.
+
+  This is a remote position open to applicants located in the
+  United States. Candidates must possess the legal right to
+  work in their intended work location, as we are currently
+  unable to sponsor or transfer employment visas for any
+  country, including the United States.
+industries:
+  - Information Technology
+  - Software
+  - Analytics
+posted_date: 2026-08-18
+url: "https://builtin.com/job/senior-back-end-software-engineer/8309913"
+source: Built In

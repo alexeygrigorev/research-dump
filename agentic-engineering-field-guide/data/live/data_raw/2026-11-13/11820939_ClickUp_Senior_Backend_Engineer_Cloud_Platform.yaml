@@ -1,0 +1,142 @@
+job_id: 11820939
+title: Senior Backend Engineer, Cloud Platform
+company: ClickUp
+location: HUN
+locations:
+  - HUN
+  - POL
+  - CZE
+  - UKR
+  - BGR
+  - IRL
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 1,000 Employees
+description: |
+  At ClickUp, we're building the future of work: the first
+  truly converged AI workspace unifying tasks, docs, chat,
+  calendar, and enterprise search, all supercharged by
+  context-driven AI. We are an AI-native company. Every team
+  member is expected to leverage AI daily, and we evaluate AI
+  fluency as part of our hiring process. Join us and help
+  redefine what's possible. 🚀
+
+  The role
+
+  ClickUp's Cloud Platform team builds scalable, secure, and
+  cost-efficient AWS infrastructure, with a heavy focus on
+  Amazon EKS, that stays ahead of product and enterprise
+  growth. Our goal: product velocity is never blocked by
+  platform constraints. As a Senior Software Engineer, you
+  leverage AI to design, build, and operate the compute,
+  networking, and infrastructure-as-code foundation that
+  powers ClickUp for millions of users.
+
+
+
+  What you'll do
+
+  - Build and scale AWS infrastructure and reusable platform
+    abstractions that simplify development, with a strong
+    focus on Amazon EKS, networking, and self-hosted services.
+  - Identify improvement opportunities and emerging risks, and
+    propose novel solutions that improve reliability,
+    scalability, and cost efficiency before constraints become
+    blockers.
+  - Automate shard buildouts and implement Terraform guardrails
+    and hardened ingress that reduce incidents.
+  - Scale systems for multi-shard, multi-region growth while
+    meeting compliance attestations (SOC 2, ISO 27001, etc),
+    disaster recovery, and enterprise security requirements.
+  - Partner with SRE, Security, product, AI, and enterprise
+    teams to bridge infrastructure and product engineering.
+  - Own the reliability of Cloud Platform itself: on-call,
+    incident response, postmortems, runbooks, and prevention.
+  - Use AI tooling daily to accelerate development, testing,
+    IaC, operations, and investigations, and help the team
+    raise its AI leverage.
+
+
+
+  What we're looking for
+
+  - 6+ years building and operating large-scale distributed
+    systems with a focus on infrastructure and cloud,
+    especially compute foundations.
+  - Deep, hands-on experience operating and troubleshooting
+    Kubernetes in production, including control-plane, node,
+    and networking issues, ideally Amazon EKS at fleet scale.
+  - Strong AWS experience: EKS, EC2, Lambda, API Gateway, VPC
+    networking, IAM, S3, KMS. Bedrock is a plus.
+  - Multi-account AWS (20+ accounts) experience, including
+    Transit Gateway, PrivateLink, VPC routing, DNS, and load
+    balancing.
+  - Infrastructure-as-code at scale with Terraform (CDK
+    experience is a plus).
+  - Fluent coding in at least one language (Go, Python, or
+    TypeScript/Node.js preferred).
+  - Experience with hybrid monolith/microservices architectures.
+  - Experience operating data stores at scale, such as
+    PostgreSQL, DynamoDB, S3, and Redis/Valkey.
+  - Track record of improving infrastructure reliability and
+    efficiency and implementing security guardrails.
+  - Strong production debugging across application and
+    infrastructure boundaries, clear written communication,
+    and effective cross-functional collaboration.
+  - Daily AI user with concrete examples of how AI supercharged
+    your engineering workflow.
+
+  Equal Opportunity Employer
+
+  ClickUp is an Equal Opportunity Employer, and qualified
+  applicants will receive consideration for employment without
+  regard to race, color, religion, sex, sexual orientation,
+  gender identity, or national origin.
+
+  Privacy Notice
+
+  ClickUp collects and processes personal data in accordance
+  with applicable data protection laws. You can find further
+  details by viewing our Global Candidate Privacy Notice.
+
+  If you are a Philippine Job Applicant, please also see our
+  Philippine Data Privacy Notice for further details.
+
+  Visa Sponsorship
+
+  Please note we are unable to sponsor or take over
+  sponsorship of an employment visa for roles outside of
+  engineering and product at this time. Sponsorship for
+  engineering and product roles is not guaranteed, but is
+  instead based on the business needs for that specific role
+  at that time. Please reach out to the recruiter with any
+  questions.
+
+  Fraud Alert
+
+  ClickUp Talent Acquisition will only initiate contact via an
+  @clickup.com email or through our official careers portal on
+  clickup.com. We will never request fees, payments, or
+  sensitive personal information. Please disregard any offers
+  received outside these channels and report them to
+  support@clickup.com.
+
+  AI Processing Notice
+
+  ClickUp may use artificial intelligence and machine learning
+  technologies to help review and screen candidates'
+  employment applications against role-related criteria. These
+  tools support, but do not replace, human decision‑making. If
+  you have questions or need an accommodation in the
+  recruitment process, please contact us at
+  AskPeople@ClickUp.com.
+industries:
+  - Cloud
+  - Digital Media
+  - Enterprise Web
+  - Marketing Tech
+  - Software
+posted_date: 2026-10-22
+url: "https://builtin.com/job/senior-backend-engineer-cloud-platform/11820939"
+source: Built In

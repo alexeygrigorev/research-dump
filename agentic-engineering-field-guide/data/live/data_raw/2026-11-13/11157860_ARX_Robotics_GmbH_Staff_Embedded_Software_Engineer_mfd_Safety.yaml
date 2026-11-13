@@ -1,0 +1,148 @@
+job_id: 11157860
+title: "Staff Embedded Software Engineer (m/f/d), Safety & Security Platform"
+company: ARX Robotics GmbH
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 140 Employees
+description: |
+  About the Role
+
+  We are seeking a Staff Embedded Software Engineer, Platform
+  R&D (Safety & Security), to provide technical leadership in
+  developing safety- and security-critical platform software
+  for defence products.
+
+  You will build the dependable software foundation beneath
+  the application and middleware layers, working closely with
+  hardware and the operating system. Your responsibilities
+  will include vendor BSP integration, boot, kernel
+  configuration and extension, device drivers, board bring-up,
+  hardware interfaces, and platform security across embedded
+  Linux, QNX, or equivalent systems. You will adapt BSPs to
+  bespoke hardware, validate platform behaviour, resolve
+  complex integration issues, and support high-bandwidth
+  camera interfaces such as GMSL, including frame transport,
+  timing, and diagnostics.
+
+  This hands-on leadership role requires setting technical
+  direction, solving complex platform-level challenges, and
+  acting as a trusted authority across software, hardware,
+  systems, test, and security.
+
+  What You’ll Build
+
+  - Own and evolve the architecture of safety- and security-
+    critical embedded platform software, spanning the BSP,
+    boot chain, kernel, and operating-system configuration.
+  - Integrate and adapt vendor BSPs for bespoke hardware,
+    driving initial board bring-up, peripheral initialization,
+    and complex hardware-software integration.
+  - Design and implement kernel-level components, device
+    drivers, secure-boot chains, hardware roots of trust, and
+    reliable software update and recovery mechanisms.
+  - Validate and integrate high-bandwidth sensor interfaces
+    (e.g., GMSL, MIPI CSI-2), embedded networking, and CAN
+    protocols to ensure reliable data transport,
+    synchronization, and fault handling.
+  - Optimize platform software for real-time determinism,
+    reliability, and mission availability under strict system
+    and resource constraints.
+  - Translate system, safety, and security standards into
+    verifiable, fully traceable platform-software designs and
+    objective evidence across the development lifecycle.
+  - Provide hands-on technical leadership, set engineering
+    direction, and mentor cross-functional teams across
+    software, hardware, test, and security disciplines.
+
+  What You Bring
+
+  - Significant professional experience (10+ years) developing
+    low-level embedded platform software for complex, safety-
+    or security-critical systems in a regulated environment,
+    ideally defence or a comparable sector.
+  - Demonstrable experience with BSPs, kernel development and
+    configuration/integration, drivers, bootloaders, hardware
+    interfaces and operating-system integration below the
+    application and middleware layers.
+  - Experience integrating and adapting vendor BSPs, bringing up
+    bespoke hardware and developing platform software across
+    the software lifecycle and a V-model or equivalent
+    assurance framework.
+  - Strong C and Modern C++ programming skills for embedded
+    systems, supported by Python for automation, tooling,
+    testing or system integration.
+  - Strong understanding of low-level operating-system and real
+    time systems concepts, including scheduling, interrupts,
+    synchronisation, IPC, memory, timing, determinism, fault
+    handling and recovery.
+  - Practical experience with camera or high-bandwidth sensor
+    interfaces, embedded networking and/or CAN, including
+    driver integration, timing, diagnostics and fault
+    diagnosis.
+  - Ability to debug hardware-software integration issues, read
+    hardware documentation and produce traceable, testable and
+    maintainable platform software.
+  - Proven ability to debug complex hardware-software
+    integration issues at the platform level, act proactively,
+    and communicate technical trade-offs clearly as a trusted
+    Staff-level engineering authority.
+  - Professional fluency in English (must-have); German language
+    proficiency is a strong plus.
+
+  Please note: You do not need to meet every single
+  requirement to apply. We welcome motivated candidates who
+  are eager to grow into the role and develop their expertise
+  further.
+
+  What We Offer
+
+  Join a mission-driven European defense tech company at a
+  pivotal stage of growth, where you can help shape meaningful
+  technology, take ownership early, and grow with the
+  business!
+
+  - Competitive compensation package including a bonus
+    opportunity
+  - 27 vacation days to start, increasing with tenure up to 30
+    days
+  - Employer-supported pension contribution
+  - Learning & development support and team events budget
+  - Employee discounts and flexible benefits budget via Probonio
+  - Hybrid working setup depending on role and team needs
+  - Structured salary bands, levelling framework, and bi-annual
+    development conversations
+  - Referral bonus program, dog-friendly office, and relocation
+    support where applicable
+
+  About Us
+
+  ARX is a dual-use technology company that specializes in
+  developing autonomous unmanned systems and sensors for the
+  European defence sector. Our dual-use unmanned ground
+  systems and sensors assist NATO Armies and civilian first
+  responders in tackling their most challenging problems by
+  providing them with training and information to make better
+  decisions and take effective actions in life-or-death
+  situations. As our team continues to expand rapidly, we are
+  seeking motivated candidates who are excited to work in a
+  highly energetic, creative, and innovative team dedicated to
+  developing autonomous systems for challenging environments.
+  We operate in a dynamic sector where collaboration, sharing
+  innovative ideas, and developing novel problem-solving
+  strategies are ingrained in our work culture. If you are
+  passionate about overcoming challenges that have a real
+  impact on the security of our democracies, apply here to
+  join ARX and help shape the future of dual-use technology!
+
+  ARX is an equal-opportunity employer, and we encourage
+  candidates from all backgrounds to apply.
+
+  You can find ARX Robotics Applicant Privacy Policy here.
+industries:
+  - Aerospace
+  - Hardware
+  - Robotics
+  - Defense
+posted_date: 2026-11-10
+url: "https://builtin.com/job/staff-embedded-software-engineer-m-f-d-safety-security-platform/11157860"
+source: Built In

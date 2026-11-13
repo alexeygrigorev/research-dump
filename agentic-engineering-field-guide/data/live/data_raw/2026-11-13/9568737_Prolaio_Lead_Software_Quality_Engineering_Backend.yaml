@@ -1,0 +1,158 @@
+job_id: 9568737
+title: Lead Software Quality Engineering, Backend
+company: Prolaio
+location: Chicago, USA
+work_type: FULL_TIME
+company_size: 82 Employees
+description: |
+  Who Are We?
+
+  Prolaio believes that continuous learning and collaboration
+  can make a significant difference in how heart care is
+  administered. We are creating smarter ways to address heart
+  disease and heart risks by uniting patients, care teams, and
+  researchers on a secure, technology-enabled platform that
+  drives clinical innovation and offers a path towards better
+  patient outcomes.
+
+  This is precision cardiology, and we know it’s within reach.
+
+  What Will You Do?
+
+  The Overview
+
+  The Backend Software Quality Engineering Lead will oversee
+  and actively contribute to the validation and verification
+  of our cloud-based data platform. In this role, you will act
+  as a true player-coach—balancing technical leadership, team
+  mentorship, and direct individual contribution. You will be
+  responsible for the integrity of our high-volume data
+  pipelines and backend services, leading a small team of
+  automation test engineers while also contributing to test
+  case automation and executing test strategies.
+
+  This role is ideal for a technical leader who wants to guide
+  a team and handle management responsibilities, but prefers
+  to remain an active contributor rather than stepping into a
+  pure management role. You must be ready to quickly adopt
+  existing automation frameworks, identify opportunities for
+  optimization, and drive the requirements-gathering process
+  to ensure clinical safety in a Software as a Medical Device
+  (SaMD) environment.
+
+  The Specifics
+
+  - Hands-on Leadership & Mentorship: Lead, coach, and mentor a
+    team of backend automation engineers by example. You will
+    handle light management responsibilities (defining
+    roadmaps, professional development) but will split your
+    time between leadership and active technical contribution
+    (writing test code, reviewing PRs, and executing tests).
+  - Active Framework Evolution: Quickly master and directly
+    contribute code to our existing backend test frameworks.
+    You will be hands-on in maintaining, scaling, and
+    optimizing these tools, ensuring they remain performant as
+    our cloud infrastructure evolves.
+  - Requirements Engineering: Act as a collaborative bridge
+    between Product, Engineering, and Regulatory teams. You
+    will use your experience to translate complex clinical
+    needs into actionable, testable verification plans,
+    actively writing test cases that ensure full feature
+    coverage.
+  - Data & Analytics Validation: Design and execute strategies
+    to validate large-scale analytical data warehouses and
+    NoSQL storage layers (e.g., BigQuery, Cassandra). You will
+    be personally responsible for verifying the accuracy of
+    complex datasets, specifically focusing on the precision
+    of time-series data.
+  - Regulatory Alignment: Oversee and participate in the
+    verification (V&V) process to ensure our cloud services
+    meet SaMD standards (e.g., ISO 13485, IEC 62304), ensuring
+    automated testing provides the necessary evidence for
+    regulatory compliance.
+
+  Why Prolaio?
+
+  - Impactful Work: You will join in the fight against heart
+    failure (HF) and hypertrophic cardiomyopathy (HCM) with
+    the goal of extending and saving the lives of our patients
+    while also being at the forefront of changing the
+    healthcare industry through technology.
+  - Innovative Environment: You will be part of an organization
+    doing something that’s never been done before.
+  - Professional Growth: You will join a growing team and have a
+    substantial impact on our daily and future operations with
+    the opportunity to continuously learn and grow.
+  - Collaborative Team: You will be part of a team of
+    collaborative, curious, and committed individuals focused
+    on the collective good, inclusiveness, scientific
+    excellence, and advancing digital health for cardiology.
+
+  Who You Are?
+
+  - Technical Leadership: 8+ years in backend testing or
+    software development, with a proven track record of
+    blending hands-on technical contribution with team
+    mentorship or formal lead experience. You prefer leading
+    by example from within the code, rather than managing from
+    a distance.
+  - Automation Mastery: Demonstrated ability to write clean code
+    and improve existing automation frameworks (e.g., Python,
+    Kotlin, or Java) while knowing when to build new
+    components from scratch.
+  - Cloud Backend Expertise: Deep, practical experience testing
+    cloud-native services and API architectures.
+  - Advanced Data Proficiency: Expert-level SQL skills and
+    extensive practical experience validating high-scale data
+    environments, including analytical warehouses and NoSQL
+    databases.
+  - Temporal Data Experience: Proven ability to validate time-
+    series data and complex data streams, ensuring consistency
+    and integrity over time.
+  - Requirements & Design: Strong background in requirements
+    engineering, with the ability to analyze a feature at the
+    design stage and ensure it is architected for testability
+    and safety.
+
+  Additional Qualifications (Nice to Haves)
+
+  - Previous experience in a regulated industry (Healthcare,
+    MedTech, or BioTech).
+  - Familiarity with Risk Management (ISO 14971) as it informs
+    test case prioritization.
+  - Experience with CI/CD integration and cloud
+    monitoring/observability tools.
+
+  Why You’ll Love Working Here
+
+  - Meaningful Compensation: Competitive salary, performance
+    bonus, and equity so you can share in what we build.
+  - Great Health Coverage: Medical, dental, and vision plans
+    with multiple options and strong company contributions.
+  - Flexible Spending Perks: HSA, FSA, commuter benefits, and a
+    $1,200 annual Lifestyle Spending Account to support
+    wellness, commuting, family needs, and more.
+  - Time to Recharge: Generous paid time off, sick leave, and
+    company holidays.
+  - Family-First Benefits: Paid parental leave, caregiver leave,
+    and support for growing families.
+  - Security & Peace of Mind: Company-paid life insurance and
+    short- and long-term disability coverage.
+  - Plan for the Future: 401(k) plan to help you build long-term
+    financial security.
+  - Care When You Need It: Easy access to telehealth and
+    optional supplemental coverage for life’s unexpected
+    moments.
+
+  Starting Salary is at $150,000.00 (Exact Compensation may
+  vary based on skills, experience, and location)
+industries:
+  - Artificial Intelligence
+  - Big Data
+  - Healthtech
+  - Mobile
+  - Wearables
+  - Analytics
+posted_date: 2026-08-18
+url: "https://builtin.com/job/lead-software-quality-engineering-backend/9568737"
+source: Built In

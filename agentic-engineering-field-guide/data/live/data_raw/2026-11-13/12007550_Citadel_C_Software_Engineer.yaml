@@ -1,0 +1,106 @@
+job_id: 12007550
+title: C++ Software Engineer
+company: Citadel
+location: New York, USA
+locations:
+  - New York, USA
+  - London, GBR
+work_type: FULL_TIME
+company_size: 4,000 Employees
+description: |
+  Job Description C++ Software Engineers build high-
+  performance systems that power our investment process and
+  the technology platforms behind it. Our engineers solve
+  technically demanding problems where performance,
+  efficiency, reliability, and scale matter, developing
+  technology spanning trading systems, market data, research
+  infrastructure, analytics, and core engineering platforms.
+  Their work can span low-latency and performance-sensitive
+  applications, distributed systems, developer infrastructure,
+  data processing, and the libraries and platforms used by
+  engineers and investment professionals throughout the firm.
+  Key Responsibilities:
+
+  - Design, develop, test, deploy, and maintain high-performance
+    C++ applications, services, libraries, and platforms
+  - Build reliable and scalable systems supporting critical
+    investment, research, and business workflows
+  - Solve complex performance, latency, throughput, concurrency,
+    and systems engineering challenges
+  - Partner directly with other engineers and investment
+    professionals to understand requirements and develop
+    effective technical solutions
+  - Develop green-field systems and improve the architecture and
+    performance of existing platforms
+  - Profile, optimize, and troubleshoot complex production
+    systems
+  - Design technology capable of operating reliably at
+    increasing data and transaction volumes
+  - Contribute to system architecture, shared libraries,
+    developer tooling, and engineering best practices
+  - Own technology throughout its lifecycle, from design and
+    implementation through production
+
+  Qualifications:
+
+  - Minimum of a Bachelor's degree in Computer Science, Computer
+    Engineering, or a related STEM discipline, or equivalent
+    experience
+  - Expert-level C++ programming skills and experience
+    developing production-quality software
+  - Strong background in computer science fundamentals, data
+    structures, algorithms, operating systems, and software
+    design
+  - Strong understanding of systems concepts such as memory
+    management, concurrency, multithreading, and performance
+    optimization
+  - Experience building high-performance, distributed, or large-
+    scale systems
+  - Proven track record in software design and development
+  - Comfortable developing in Linux and working with modern
+    software development tools and practices, including
+    testing, source control, build systems, and CI/CD
+  - Experience with networking, low-latency systems, market
+    data, or performance-sensitive applications is a plus
+  - Strong entrepreneurial spirit and the ability to adapt to
+    changing requirements and technologies
+
+  Opportunities may be available from time to time in any
+  location in which the business is based for suitable
+  candidates. If you are interested in a career with Citadel,
+  please share your details and we will contact you if there
+  is a vacancy available.  To be eligible for UK postings, you
+  must have or be able to obtain UK work authorization. For
+  our privacy policy, go to https://www.citadel.com/privacy.
+  In addition, the employee who fills this role will be
+  eligible to participate in a discretionary incentive
+  compensation program, as well as a wide array of benefit
+  programs, such as medical and life insurance, retirement and
+  tax-free savings plans, and access to other healthcare
+  programs. In accordance with applicable law, the base salary
+  range for this role is $200,000 to $300,000. In addition,
+  the employee who fills this role will be eligible to
+  participate in a discretionary incentive compensation
+  program, as well as a wide array of benefit programs, such
+  as medical and life insurance, retirement and tax-free
+  savings plans, and access to other healthcare programs.
+  About Citadel Citadel is one of the world's leading
+  alternative investment managers. We manage capital on behalf
+  of many of the world's preeminent private, public and
+  nonprofit institutions. We seek the highest and best use of
+  investor capital in order to deliver market leading results
+  and contribute to broader economic growth. For over 30
+  years, Citadel has cultivated a culture of learning and
+  collaboration among some of the most talented and
+  accomplished investment professionals, researchers and
+  engineers in the world. Our colleagues are empowered to test
+  their ideas and develop commercial solutions that accelerate
+  their growth and drive real impact.
+industries:
+  - Information Technology
+  - Software
+  - Financial Services
+  - Big Data Analytics
+posted_date: 2026-11-07
+url: "https://builtin.com/job/c-software-engineer/12007550"
+source: Built In

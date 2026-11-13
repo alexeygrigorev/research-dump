@@ -1,0 +1,179 @@
+job_id: 10282200
+title: Full Stack Software Engineer
+company: Wayflyer
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 400 Employees
+description: |
+  About Wayflyer
+
+  Today's small businesses need a capital provider that keeps
+  pace with their growth ambitions. Traditional financing
+  options are slow, cumbersome and often out of reach. That's
+  why we built Wayflyer.
+
+  Our technology allows us to assess businesses in minutes,
+  generate financing offers that reflect their growth
+  potential and send funds in as little as 24 hours. To date,
+  we've deployed over $6bn to thousands of businesses
+  worldwide, backed by Tier 1 banks like J.P. Morgan.
+
+  You'll be collaborating with ambitious colleagues from
+  around the world. We have offices in Dublin, London, New
+  York, Charlotte, Berlin and Sydney.
+
+  The challenge
+
+  When a founder applies for funding, one flow carries them
+  from application to money in their account - the processes
+  that assess their business in minutes and the product
+  experience that makes it feel effortless are all part of the
+  same system. Our full stack engineers are the ones who can
+  follow a feature all the way through: from the data model,
+  to the API, to the screen a founder trusts with their
+  business.
+
+  That doesn't mean being equally deep everywhere. Most of our
+  full stack engineers have a home base - backend or frontend
+  - and range outward from it. We're hiring for that shape.
+
+  What you'll actually do
+
+  - Own features end-to-end: shape solutions with product and
+    design, build across the API and the UI, ship to
+    production to create outcomes, not just deliver tickets
+  - Lean into your specialism - whether that's backend
+    architecture, data modelling and performance, or frontend
+    architecture, accessibility and user experience - and act
+    as the go-to person for it on your team
+  - Design and develop backend services using Python and Django,
+    including the data models and RESTful APIs that power our
+    financial products
+  - Build high-quality, reusable frontend features using
+    TypeScript and React
+  - Write clean, testable code with strong test coverage across
+    the stack (pytest on the backend; Storybook/Chromatic,
+    Playwright and Vitest on the frontend)
+  - Participate in code reviews on both sides of the stack in
+    order to share knowledge and improve the quality of our
+    solutions
+  - Monitor and maintain production systems, ensuring
+    reliability, performance and security
+
+  Who thrives here
+
+  You should be comfortable making and defending decisions
+  about the experience you’re building, while remaining open
+  to feedback and alternative approaches. You'll need to
+  balance technical excellence with business needs and help
+  guide the team toward good solutions that elevate the
+  experience as quickly as possible.
+
+  You excel at stakeholder management and can effectively
+  communicate technical concepts to non-technical audiences.
+  You're proactive in identifying and addressing potential
+  issues before they become problems. We look for candidates
+  with most or all of the below traits that can point to real
+  experience applying them.
+
+  - Bachelor's degree in Computer Science, Engineering, or
+    related field, or equivalent practical experience
+  - 5+ years of professional software engineering experience,
+    with genuine depth - we'll play to your strengths
+  - Useful skills include a strong proficiency in Python and
+    Django (or similar frameworks like FastAPI or Flask), SQL
+    databases (preferably PostgreSQL), and API design — plus
+    working proficiency in TypeScript and React and a real
+    appetite to build product UI
+  - We also value advanced proficiency in TypeScript and React,
+    experience with modern frontend architectures, state
+    management (e.g. TanStack Query) and design systems
+  - Experience with AWS or similar cloud platforms
+  - Experience with CI/CD pipelines (especially GitHub Actions)
+    and a strong testing culture
+  - Solid understanding of version control with Git
+  - Understanding of security best practices and data protection
+  - Strong problem-solving skills and attention to detail
+  - Excellent communication abilities and proven track record of
+    successful team collaboration
+
+  Given what we do, experience in financial services, fintech
+  and business-to-business organisations is particularly
+  interesting to us.
+
+  We hire for range
+
+  What you're like as a person and how you treat people is a
+  big deal for us. People love working with you. You're
+  helpful and generous with your time and knowledge. People
+  love helping you back. People know where they stand with
+  you.
+
+  You're always looking to learn and grow, on a personal and
+  professional level. And you're always looking to help others
+  learn and grow by sharing your own knowledge and experience.
+
+  You know why diversity, equality, inclusion and belonging
+  matters, and speak up when we can do better.
+
+  What this role could turn into
+
+  Our engineers here grow in whichever direction their
+  interests pull them. Some deepen their specialism and move
+  toward staff or principal tracks in specific technologies;
+  some stay broad and take on architecture across whole
+  product areas; others step into engineering management.
+  Joining as a full stack engineer doesn't mean giving up your
+  specialism - it means choosing where to deepen it with more
+  context.
+
+  Location and working policy
+
+  📍Remote in Europe
+
+  The good stuff
+
+  25 days off, plus public holidays. Equity - because you
+  should own a piece of what you're building. Generous
+  parental leave for primary and secondary caregivers. 60 days
+  a year to work abroad from wherever you want.
+
+  By submitting your application, you acknowledge that
+  Wayflyer Limited will process your personal data for the
+  purpose of evaluating your suitability for the role. Such
+  processing is based on the need to take steps prior to
+  entering into a potential employment agreement. To learn
+  more about how we handle your personal data, you can contact
+  our privacy team at privacy@wayflyer.com or review our
+  privacy notice at https://wayflyer.com/privacy-notice.
+posted_date: 2026-08-16
+url: "https://builtin.com/job/full-stack-software-engineer/10282200"
+source: Built In

@@ -1,0 +1,157 @@
+job_id: 10080740
+title: Software Engineer, Generalist
+company: Monumental
+location: Amsterdam, NLD
+work_type: FULL_TIME
+company_size: 130 Employees
+description: |
+  Monumental is automating on-site construction with robotics
+  and software. Our mission is to make construction software-
+  defined and autonomous - a future where beautiful, bespoke
+  buildings go up in a single day, with minimal labour.
+
+  We're a growing team of engineers, operators and technicians
+  from companies like Palantir, Qualcomm, Dyson, Shopify,
+  Tesla, Meta and Google DeepMind. It's still the early days
+  of building the company, and this is a chance to make an
+  outsized impact on a problem that matters. From day one,
+  you’ll be working with an experienced founding team, backed
+  by a $32M Series B led by Khosla Ventures and Plural.
+
+  Monumental is based in the city centre of Amsterdam, in a
+  beautiful facility with an fully equipped workshop and robot
+  testing floor. We build the whole stack in-house - hardware
+  and software, we're explicitly not a hybrid or remote-first
+  company - you can't build robots or walls from home, so
+  we're onsite five days a week.
+
+  Read more on why we believe you should spend your time
+  working on construction, and learn about our vision and
+  company. You might enjoy our YouTube Channel, Based in
+  Europe’s film on how we’re fixing Europe’s housing shortage,
+  or this video by Andreas Klinger of what our office looks
+  like.
+
+  About the role
+
+  Monumental are automating on-site construction with robotics
+  and software. Atrium, our operating system for construction,
+  lets us do everything from building walls with our robots,
+  to designing buildings, managing our robot fleet, analyzing
+  data, and much more. Our stack is broad by necessity: we use
+  Rust for many things from robot middleware to back-end
+  services, TypeScript across our web app and internal tools,
+  and NixOS to manage our servers as well as the computers in
+  our robots.
+
+  As we're deploying more robots and software, we're always
+  running into new challenges. The problems are often not
+  straightforward: poor connectivity on a construction site
+  because of interference, a memory leak that only becomes an
+  issue after hours of runtime, a robot behaving differently
+  than the simulation. This means a lot of creative problem
+  solving is involved. One of our engineers even traced down a
+  problem to a memory leak in Chrome, which got fixed soon
+  after he submitted a bug report.
+
+  Additionally, because we're scaling our operations, the
+  scope of our software also keeps growing. We're now building
+  internal apps for scheduling robot operators, planning site
+  logistics and maintenance, and improving manufacturing. To
+  make these applications possible, we need well-architected
+  software and reliable software infrastructure.
+
+  To help us build, improve, and maintain our platform, we're
+  looking for a strong generalist software engineer. Full
+  stack at Monumental is really full stack, from the firmware
+  for our robot's actuators to our in-house document database.
+  You'll get a lot of autonomy and the chance to build
+  software that builds actual robots and houses. You’ll also
+  get the chance to collaborate with other engineering
+  disciplines (e.g. electrical, mechanical) to support new
+  robot features or debug issues. For more on how we think
+  about the role, read Bouke’s post on his experience joining
+  Monumental as a software engineer.
+
+  What you'll do
+
+  - Shipping features across the full stack from robot firmware
+    and Rust services up through the web UI, touching multiple
+    layers.
+  - Hardening production systems by tracking down subtle bugs
+    like memory leaks, network backpressure issues, or race
+    conditions that only show up in real deployments.
+  - Owning our infrastructure end-to-end (bare-metal servers,
+    NixOS configs, deploy tooling, …) so that shipping changes
+    to a robot on-site or a service is fast and reliable.
+  - Building observability across our entire fleet so when
+    something goes wrong on a robot or a service, the team
+    immediately knows where to look and why.
+  - Building tools that multiply the whole team's effectiveness
+    such as debugging tools, data visualization tools, or a
+    platform that allows non-technical people to create their
+    own apps.
+  - Improving our data infrastructure, from our in-house typed
+    document database to ClickHouse.
+
+  What we’re looking for
+
+  - Industry experience building and deploying production
+    systems in multiple languages (Rust experience is valuable
+    but not required)
+  - A strong sense of ownership and motivation. You’re able to
+    drive problems and projects start-to-finish without
+    someone project managing you, and can thrive in a chaotic
+    environment.
+  - Familiarity with Linux systems and conventions. E.g., you’re
+    comfortable SSH’ing into other machines to figure out why
+    something isn't working.
+  - Knowledge of common communication protocols, e.g. UDP, TCP
+    and WebSockets
+  - Strong CS or mathematics foundation. Understanding basic
+    linear algebra and 3D transformations is a strong plus.
+  - A high percentage of our software team have been a technical
+    founder, CTO, or founding engineer before. If that’s your
+    background, you’ll likely fit in. But we also get excited
+    by people with a demonstrated background of shipping
+    impressive work at any type of company.
+
+  Why Monumental?
+
+  Joining Monumental means being at the forefront of a
+  movement aimed at making significant strides in the
+  construction industry. Here, your work has the potential to
+  impact not just the company but the future of how we build.
+  If you're driven by innovation, eager to tackle complex
+  challenges, and ready to make a tangible difference, we want
+  to hear from you.
+
+
+
+  For open applications (where you don’t see an exact role
+  match), please reach out to us at: iwanttojoin@monumental.co
+  - share with us the most interesting or challenging project
+  you’ve worked on, why you want to join and your CV or
+  portfolio.
+
+
+
+  Unfortunately we do not currently support internships.
+
+
+
+  If you don’t meet all the qualifications here but are
+  excited about Monumental and feel you’d still be able to
+  help us solve difficult problems, do get in touch. We
+  welcome generalists who focus on outcomes and are eager to
+  learn on the job.
+industries:
+  - Artificial Intelligence
+  - Computer Vision
+  - Hardware
+  - Robotics
+  - Software
+  - Automation
+posted_date: 2026-08-09
+url: "https://builtin.com/job/software-engineer/10080740"
+source: Built In

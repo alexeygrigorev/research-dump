@@ -1,0 +1,140 @@
+job_id: 9499586
+title: Software Engineer (Rust) - Backend
+company: Rerun
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 48 Employees
+description: |
+  At Rerun, we're building a new multimodal data stack for
+  physical AI. Large parts of the physical-world economy will
+  be transformed by these technologies, and we're building the
+  data infrastructure and tools that enable it to happen. Data
+  volumes grow big quickly with these applications and
+  performance matters everywhere; from micro interactions to
+  high throughput jobs.
+
+  With multimodal data stack we mean tools for extraction,
+  ingestion, storage, querying, streaming, and visualization
+  of temporal multimodal data. Rerun's open source project is
+  already loved by some of the best teams in the world, and
+  focuses on visualizing and handling multimodal logs. You'll
+  join a newly formed team building out Rerun's commercial
+  offering for ingesting, indexing and querying multimodal
+  data at scale; a purpose-built analytical database that's
+  already in private preview with signed customers and running
+  at petabyte scale.
+
+  What you'll do
+
+  - You will work on a cloud-native analytical database system
+    built for multimodal (often time-series) data.
+    - The system is built in Rust and makes extensive use of
+      Apache Arrow. It supports specialized queries to handle
+      robotics-style multimodal logs (very sparse and wide
+      tables) and domain specific operators (e.g. related to
+      3D transforms).
+      - Note: prior robotics knowledge is not necessary
+  - You will help the system scale as usage grows, evolving the
+    architecture, distributing work across nodes and systems,
+    and tackling the bottlenecks that appear as load and data
+    volumes increase.
+  - You will design, implement and operate the core pieces that
+    make this data-intensive system highly scalable, reliable
+    and observable.
+
+  We'd love it if you have
+
+  - 3-5 years with Rust, or a strong background in another
+    systems language (C/C++) and real motivation to pick up
+    Rust
+  - Experience at a managed database product, data-platform, or
+    high-traffic system operating at scale
+  - Experience building backend systems in production, with a
+    growing appetite for design and architecture ownership
+  - Experience scaling a system as demand grows; evolving the
+    architecture to handle much more load or data, not just
+    making one component faster
+  - Familiarity with distributed systems and their tradeoffs
+    (coordination, consistency, failure modes, scaling across
+    nodes)
+  - Comfort with the layers between your code and the hardware;
+    you don't need to be a database-internals specialist, but
+    you enjoy digging in
+  - Familiarity with concepts like filtering, indexing, or query
+    execution
+  - You embrace AI as a core part of how you engineer software,
+    integrating AI tools and agentic workflows into your daily
+    work. You own all the code you and your agents ship.
+  - Good communication in English; you'll be in a close-knit
+    remote team
+
+  Nice-To-Haves
+
+  - Exposure to Apache Arrow or Apache Datafusion
+  - Cloud deployment experience (AWS/GCP/Azure), even in a
+    supporting role
+  - Interest in machine learning, robotics, AR/VR, or simulation
+  - Experience with GPU workloads
+
+  How we work at Rerun
+
+  - This role is open to candidates based in Europe.
+  - We're a remote company headquartered in Stockholm, Sweden,
+    with a growing hub in San Francisco.
+  - We meet up in person for a week roughly once a quarter.
+  - We're spread across European and US time zones. Rather than
+    one fixed window, each team keeps a few hours of daily
+    overlap that fits where its members are — for this team,
+    that's a few hours of overlap in the afternoon CET.
+  - We've put together an uncommonly talented tech team, value
+    agency and helpfulness highly, and expect everyone to take
+    broad responsibility for what they build.
+  - We offer competitive cash and equity compensation, six weeks
+    paid vacation, and whatever hardware and software you need
+    to do your job.
+  - Parental leave: 12 weeks full pay for every parent,
+    alongside your local statutory leave entitlements.
+
+  Most of all we hope you're excited to build some really cool
+  technology that will have a real impact on the world with
+  us!
+
+  If you find that you don't fit neatly into this or any of
+  the other open roles, we're not that rigid and are generally
+  looking for great developers who can contribute to what
+  we're building. Just go ahead and apply to the one you think
+  is the closest and we'll take it from there!
+industries:
+  - Artificial Intelligence
+  - Software
+posted_date: 2026-08-10
+url: "https://builtin.com/job/software-engineer-rust-backend/9499586"
+source: Built In

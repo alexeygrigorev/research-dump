@@ -1,0 +1,113 @@
+job_id: 11982832
+title: Senior Backend Engineer (all genders)
+company: Babbel
+location: Berlin, DEU
+work_type: FULL_TIME
+company_size: 1,299 Employees
+description: |
+  About Babbel Labs
+
+  Babbel Labs is building the future of language learning. We
+  are an AI-first, independent company within the Babbel
+  group, based in Berlin. Our teams bring AI, research and
+  product together to ship experiences that set a new standard
+  for how people learn.
+
+  The role
+
+  Babbel Labs is rebuilding how learning content is created,
+  stored and served, and how we decide what a learner sees
+  next. The architecture for that is being set now, by a small
+  number of engineers, and this role is one of them.
+
+  You will build and run the services behind it, in a
+  serverless-first TypeScript and Node stack on AWS, owning
+  them from the contract at their edge to their behaviour
+  under load.
+
+  This is a senior individual-contributor role. You will
+  design, build, ship and operate, and the seniority shows in
+  the decisions you own rather than in a team reporting to
+  you.
+
+  How you'll make an impact
+
+  - Build and evolve services across our learning platform,
+    owning each one from its API contract through to what runs
+    in production.
+  - Take on services you did not write, alongside the people who
+    did.
+  - Design API and data contracts that hold up over time, with
+    type-safe transforms between the API, the domain and
+    persistence.
+  - Run what you build. Instrument it, know how it fails, change
+    live data safely, and be the person who works out why it
+    broke.
+  - Deliver with coding agents as a matter of course, and verify
+    what they produce before you rely on it.
+
+  Your skills and qualifications
+
+  - Strong, hands-on backend engineering in TypeScript and Node
+    as your primary working language today. We mean back-end
+    services: not build tooling, and not the server a front-
+    end framework happens to ship with.
+  - Deep, practical AWS experience in a serverless-first
+    setting. Lambda, API Gateway, DynamoDB and event streaming
+    are our daily tools, and we want someone who has designed
+    against them rather than only deployed onto them.
+  - The ability to design API and data contracts and to model a
+    domain, including type-safe transforms at the boundaries
+    between the API, the domain and persistence.
+  - Real production ownership. You have instrumented your own
+    services, understood their failure modes, changed live
+    data without losing any, and worked incidents on systems
+    you owned.
+  - Coding agents are part of your daily workflow, and you check
+    their output before you rely on it. You are neither
+    dismissive of them nor careless with them.
+  - Self-sufficiency. You get yourself unstuck in an unfamiliar
+    codebase without a minder, and you work within its grain
+    rather than rewriting what you have not yet understood.
+  - Working familiarity with infrastructure as code (Terraform)
+    and CI/CD pipelines, enough to ship and change your own
+    service's delivery. This is not an infrastructure role, so
+    depth here is not the bar.
+  - Python as a welcome secondary language. Some of our services
+    are Python, and a Labs engineer can expect to touch them.
+
+  Nice to have
+
+  - Go or Rust for performance-critical components. Fully
+    optional.
+  - Experience with a monorepo build system and shared tooling.
+  - Public technical work, such as open-source contributions or
+    writing.
+
+  Ways of working
+
+  This is a hands-on individual-contributor role on a small
+  team that moves fast, agent-first, but with a structured and
+  disciplined delivery approach. It is remote and Berlin-
+  friendly. The interview process is deliberately short: an
+  initial screen, followed by one working session with the
+  hiring manager.
+
+  Diversity at Babbel
+
+  As part of our ongoing journey towards building a diverse,
+  equitable and inclusive company, we welcome everyone to
+  apply, especially those individuals who are underrepresented
+  in tech. We are a learning company, inside and out, and we
+  encourage you to apply even if you do not fit all the
+  technical requirements - all candidates are assessed based
+  on skills, qualifications and on our business needs. Please
+  state your pronouns in your application, and let us know if
+  you’d like to be addressed by a name other than the one
+  appearing on your official documents. If you have a
+  disability or special need, feel welcome to inform us, so
+  that we can provide you with the proper assistance in the
+  application process.
+posted_date: 2026-10-30
+url: "https://builtin.com/job/senior-backend-engineer-all-genders/11982832"
+source: Built In

@@ -1,0 +1,157 @@
+job_id: 9031041
+title: Senior Frontend Engineer - Editor and Graphics
+company: Slate
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - ARG
+  - IRL
+  - USA
+  - CZE
+  - Africa, USA
+remote: true
+work_type: FULL_TIME
+company_size: 39 Employees
+description: |
+  The Pitch
+
+  You'll be building the content editor that top-tier
+  organizations from Amazon to the NFL, and the Premier
+  League, as well as some of the largest media, entertainment
+  and consumer brands globally, use every day. Backed by
+  reputable investors including Charge Ventures, Interplay,
+  Titletown Tech and WISE Ventures, we are scaling rapidly and
+  building innovative tools to transform social media content
+  creation for teams.
+
+  This isn't form validation and API calls. You'll be building
+  canvas-based creative tools, solving tough real-time
+  collaboration problems, and shipping features that thousands
+  of creators rely on. The work is technically challenging,
+  visually rewarding, and directly impacts how major brands
+  communicate with millions of fans.
+
+  We're a small remote team located across 15 countries where
+  your work ships fast and gets noticed. You'll ship to
+  production your first week and own meaningful features
+  within weeks.
+
+  What You'll Actually DoBuild creative tools people love
+  using
+
+  - Extend our canvas-based video editor with new features using
+    PixiJS and WebGL
+  - Turn design mockups into pixel-perfect, performant
+    interactions
+  - Tackle hard frontend problems: undo/redo, layer management,
+    animations, transitions, responsive canvas and much more
+
+  Grow the collaboration layer
+
+  - Build features on top of our existing collaboration
+    infrastructure
+  - Ship co-editing, commenting, and approval workflows that
+    teams actually use
+
+  Work with people who care about craft
+
+  - Partner with the team to extend the editor architecture
+  - Collaborate with designers who sweat the details
+  - Learn from specialists in video rendering and media
+    processing
+
+  You'd Be a Great Fit IfYou have the experience:
+
+  - 5+ years building complex frontend applications
+  - Deep Angular and TypeScript knowledge — you architect
+    components, not just use them
+  - You think in RxJS and reactive patterns naturally
+
+  You've done work like this before:
+
+  - Built interactive graphics (Canvas, PixiJS, WebGL, or
+    similar)
+  - Worked on video editor tools, creative software, or design
+    applications
+  - Solved hard performance problems that improved users'
+    experience
+
+  You work the way we work:
+
+  - You own the outcomes, not just the tasks
+  - You communicate clearly in English, both written and verbal
+  - You use AI tools to move faster — and take responsibility
+    for the output
+
+  Tech Stack
+
+  TypeScript, Angular, RxJS, NgRx, PixiJS, Node.js
+
+  The Details
+
+  - Location: Remote, anywhere from EST (UTC-5) to UTC+2
+  - Reporting to: Maciej Kucharek, Head of Engineering
+  - Compensation: $95–200k USD base (flexible based on
+    experience and location) + equity options
+
+  Benefits
+
+  - Equity options
+  - Unlimited PTO (we actually take it)
+  - $200/month wellness stipend
+  - Health insurance stipend
+  - Home office budget
+
+  About Slate
+
+  Slate is the creative workspace for brand social teams. We
+  help teams create and ship on-brand content fast with an
+  all-in-one editor, built-in asset management, and seamless
+  creative file workflows, backed by hands-on support from
+  people who have done the job. Teams across top sports
+  leagues and global brands like Amazon and Hoka use Slate
+  every day to elevate their social presence.
+
+  Note: We do not sponsor work visas.
+
+  Slate is an equal opportunity employer. We celebrate
+  diversity and are committed to creating an inclusive
+  environment for all employees, regardless of background,
+  identity, or experience.
+posted_date: 2026-08-02
+url: "https://builtin.com/job/senior-frontend-engineer-editor-and-graphics/9031041"
+source: Built In

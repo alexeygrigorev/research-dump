@@ -1,0 +1,201 @@
+job_id: 12199600
+title: Software Development Engineer in Test (SDET)
+company: "Massive Rocket | Global Braze & Snowflake Agency"
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 71 Employees
+description: |
+  Who Are Massive Rocket?
+
+  Massive Rocket is a rapidly scaling Braze and Snowflake
+  agency on a mission to transform how digital marketing,
+  product, and engineering teams connect. In just five years,
+  we’ve grown at speed and are now gearing up for our next big
+  milestone: hitting $100M in revenue. We build human
+  experiences at scale, powered by cutting‑edge web, mobile,
+  cloud, data, and AI technologies. If you’re excited by
+  innovation, love solving complex challenges, and want to
+  help shape the future of digital experiences, you’ll feel
+  right at home here.
+
+  Every role at Massive Rocket is entrepreneurial. The people
+  who thrive here don’t just focus on their own remit — they
+  understand the goals of the teams around them and actively
+  contribute to the success of their colleagues, customers,
+  and partners. We’re building a culture of ownership,
+  collaboration, and growth, and we’re looking for people who
+  want to make a real impact.
+
+  Who Are We Looking to Add to Our Team?
+
+  As an SDET (Martech & Data) at Massive Rocket, you’ll
+  design, build and maintain the automated testing
+  architecture that protects the integrity, reliability and
+  velocity of a customer data ecosystem. This is a fixed-term
+  contract role. Working within an embedded team, you’ll be
+  the engineering gatekeeper of the “Golden Record” as the
+  core stack is optimised, including Databricks, mParticle,
+  Braze, OneTrust and ThoughtSpot.
+
+  Rather than checking files by hand, your focus is writing
+  code that tests code. You’ll build automated validation
+  frameworks for complex data pipelines, simulate user
+  behaviour across web and app SDKs, mock cross-platform API
+  integrations, and make sure automated personalisation and
+  experimentation frameworks scale without regression. You’ll
+  work closely with Data Engineers to triage anomalies,
+  resolve pipeline failures quickly and stop issues coming
+  back.
+
+  You’ll thrive here if you enjoy building test automation
+  frameworks from scratch, owning defects end to end, and
+  keeping data accurate, compliant and ready for activation.
+
+  What Will You Do?
+
+  - Design and implement automated validation frameworks that
+    test data contracts, schema compliance and identity
+    resolution/stitching logic in Databricks before data
+    reaches downstream activation channels
+  - Build and maintain automated UI and behavioural test scripts
+    that simulate real-world customer journeys across web and
+    app
+  - Verify programmatically that behavioural events, mParticle
+    tags and OneTrust consent tokens fire accurately at the
+    application layer
+  - Validate high-criticality data flows across the Databricks >
+    mParticle > Braze > OneTrust ecosystem
+  - Write automated integration scripts and mock API payloads to
+    confirm actions propagate and correctly suppress or
+    activate users across platforms
+  - Design and run end-to-end tests for data collection
+    pipelines (POS, Web, App, CRM), making sure data is
+    cleaned, standardised and transformed accurately for
+    downstream use
+  - Validate data freshness and latency against near real-time
+    SLAs
+  - Establish and maintain automated data validation and hygiene
+    rules that detect corrupted records and schema drift in
+    near real-time
+  - Audit data flows to make sure consent and preference
+    management is strictly followed across every system, in
+    line with global privacy regulations such as GDPR and UK
+    GDPR
+
+  What Makes You a Great Fit
+
+  - Mastery of SQL for complex data validation, including
+    writing scripts that identify anomalies across millions of
+    records
+  - Proficiency in Python for building automated test suites and
+    interacting with APIs
+  - Proven experience establishing data test automation
+    frameworks from scratch
+  - Hands-on experience testing within Databricks (or an
+    equivalent cloud lakehouse/warehouse), with a deep
+    understanding of Delta Lake or similar architectures
+  - Proven experience validating complex data transformations
+    across near real-time/streaming and batch pipelines, with
+    familiarity with orchestration tools such as Airflow or
+    dbt
+  - Experience validating data flows through a Customer Data
+    Platform, particularly mParticle, including event
+    ingestion, identity resolution and audience syncs into
+    downstream engagement platforms
+  - Skill in triaging data anomalies, tracking pipeline failures
+    in tools like Jira and working closely with Data Engineers
+    to resolve issues quickly and prevent regression
+  - Experience testing REST APIs and validating data payloads
+    between systems (for example, checking that a POS event
+    correctly triggers a Braze data point)
+  - A Bachelor’s degree in Computer Science, Data Engineering or
+    a related technical field
+
+  Bonus points if you have:
+
+  - Familiarity with how data is ingested into Braze via the
+    Data Track API or Cloud Data Ingestion (CDI)
+  - Experience testing CDP-to-engagement data flows, such as
+    mParticle audience syncs and event forwarding into Braze
+  - Experience testing privacy compliance and consent frameworks
+    using tools like OneTrust
+  - Experience embedding data quality checks into CI/CD
+    pipelines (GitHub Actions, GitLab CI)
+
+  Why You’ll Love Working Here
+
+  Rocket‑Fuelled Growth – Big challenges, fast learning, and
+  the chance to level up quicker than anywhere else
+
+  A Culture That Actually Gives a Damn – Supportive, positive,
+  and built around people who want to see you win
+
+  A Global Crew – Collaborate with brilliant teammates across
+  Europe, the US, and beyond
+
+  Remote‑First for Life – Work from wherever you feel your
+  best
+
+  Real Career Momentum – Clear progression, real ownership,
+  and space to grow into your next chapter
+
+  Moments That Matter – Meetups, events, and team experiences
+  that make the journey unforgettable
+
+  A Few Things to Know Before We Get Started
+
+  Bring Your Own Device – We operate a BYOD policy, so you’ll
+  use your own kit for work
+
+  Right to Work – You’ll need a valid work visa; we’re not
+  able to offer sponsorship at the moment
+
+  ID Checks – We may ask for proof of identity (passport, ID
+  card, or a recent utility bill)
+
+  References – We may request two references, so have names,
+  relationships, and contact details ready
+
+  A Quick Note on Applications
+
+  We receive a high volume of applications, and while we’d
+  love to reply to everyone personally, it’s not always
+  possible. If you haven’t heard from us within two weeks, it
+  sadly means you haven’t been successful this time. But don’t
+  let that stop you—we’re growing fast, and new opportunities
+  open up all the time.
+industries:
+  - Information Technology
+  - Consulting
+posted_date: 2026-11-12
+url: "https://builtin.com/job/software-development-engineer-test-sdet/12199600"
+source: Built In

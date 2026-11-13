@@ -1,0 +1,88 @@
+job_id: 10693679
+title: Embedded Software Engineer (M/F)
+company: ThrustMe
+location: Verrieres-le-Buisson, FRA
+work_type: FULL_TIME
+company_size: 80 Employees
+description: |
+  Founded in 2017, ThrustMe is a pioneering space technology
+  company specializing in advanced propulsion systems for
+  small satellites. We are global experts in satellite
+  propulsion, pushing the boundaries of streamlined in-orbit
+  mobility for the rapidly expanding satellite constellation
+  industry. Our clients across the US, Europe, and Asia trust
+  us to design and deliver high-performance, precision-
+  engineered propulsion systems that push technological
+  boundaries while meeting demanding timelines and budgets. We
+  made history in 2019 and 2020 with the world’s first in-
+  orbit demonstrations of iodine-fueled electric propulsion
+  systems. Today, we are experiencing rapid growth, with over
+  300 systems ordered to date.
+
+  ThrustMe is looking for an Embedded Software Engineer at
+  ThrustMe, to develop the advanced embedded software powering
+  our propulsion systems, you will work on challenging
+  problems involving complex electronic subsystems that
+  require both high performance and exceptional reliability,
+  all while operating in the extreme conditions of the space
+  environment.
+
+  As part of the Engineering Team, you will operate at the
+  intersection of cutting-edge research and industrialization,
+  transforming innovative concepts into flight-ready systems
+  that will shape the future of space propulsion.
+
+  Main tasks and responsibilities
+
+  - Design, develop, test, and integrate embedded software for
+    electronic subsystems used in propulsion systems.
+  - Develop software tools used to test, validate, and operate
+    electronic subsystems.
+  - Contribute to the digital design of electronic subsystems in
+    close collaboration with hardware teams.
+  - Implement software-based radiation mitigation strategies to
+    ensure system robustness in space environments.
+  - Define, execute, and document verification and validation
+    activities for embedded software.
+  - Write design documentation, technical reports, and
+    contribute to design reviews.
+  - Collaborate closely with cross-functional teams
+    (electronics, mechanical, systems, physics, and
+    industrialization) to ensure seamless system integration.
+  - Contribute to continuous improvement of software development
+    processes, ensuring alignment with aerospace quality
+    standards and best practices.
+
+  Required skills and qualifications
+
+  - Master’s degree in Embedded Systems, Electronics
+    Engineering, Computer Engineering, or a related field.
+  - Strong experience in embedded software development (C/C++ or
+    similar low-level languages).
+  - Solid understanding of digital electronics and embedded
+    architectures.
+  - In-depth knowledge of microcontrollers and embedded
+    platforms.
+  - Experience with hardware/software integration, debugging,
+    and testing.
+  - Ability to develop test software for validation and
+    automation purposes.
+  - Familiarity with radiation effects mitigation techniques in
+    software is a plus.
+  - Experience with laboratory equipment and debugging tools
+    (oscilloscopes, logic analyzers, etc.) is an asset.
+
+  Work environnement:
+
+  - Langage: C / C# + RTOS
+  - Stacks: Free RTOS / C / CAN et I2C (protocoles)
+  - Cycles: Agile - From spec to delivery (specs, dev, tests,
+    hardware in the loop)
+  - Livrables: Suivi roadmap + Urgences production
+industries:
+  - Aerospace
+  - Hardware
+  - Manufacturing
+posted_date: 2026-08-15
+url: "https://builtin.com/job/embedded-software-engineer-m-f/10693679"
+source: Built In

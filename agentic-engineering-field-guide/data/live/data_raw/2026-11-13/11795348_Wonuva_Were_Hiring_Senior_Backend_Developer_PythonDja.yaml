@@ -1,0 +1,110 @@
+job_id: 11795348
+title: "We’re Hiring: Senior Backend Developer (Python/Django)"
+company: Wonuva
+location: POL
+locations:
+  - POL
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 50 Employees
+description: |
+  Wonuva is looking for an experienced Senior Backend
+  Developer to help build, maintain, and scale our e-commerce
+  platform. We’re seeking a skilled engineer with strong
+  expertise in Python and Django, a solid understanding of
+  e-commerce systems, and a passion for building secure,
+  scalable, and high-performance backend applications.
+
+  Key Responsibilities
+
+  - Design, develop, and maintain robust backend services using
+    Python and Django/Django REST Framework.
+  - Build and optimize RESTful APIs to support our e-commerce
+    website and frontend applications.
+  - Develop core e-commerce features, including product
+    catalogs, inventory management, shopping carts, checkout,
+    orders, payments, and customer accounts.
+  - Integrate third-party services such as payment gateways,
+    shipping providers, and external APIs.
+  - Design and optimize database schemas, queries, and data
+    models using PostgreSQL or similar relational databases.
+  - Ensure application security, scalability, performance, and
+    reliability.
+  - Implement authentication, authorization, and role-based
+    access control.
+  - Write clean, reusable, well-tested, and maintainable code.
+  - Identify and resolve performance bottlenecks, bugs, and
+    production issues.
+  - Collaborate with frontend developers, designers, product
+    managers, and other team members.
+  - Participate in code reviews, technical planning, and
+    architectural decisions.
+  - Follow best practices for version control, automated
+    testing, deployment, and CI/CD.
+
+  Required Qualifications
+
+  - 5+ years of professional backend development experience
+    preferred.
+  - Strong proficiency in Python and Django.
+  - Hands-on experience with Django REST Framework and REST API
+    development.
+  - Proven experience developing and maintaining e-commerce
+    websites or platforms.
+  - Strong knowledge of PostgreSQL, MySQL, or other relational
+    databases.
+  - Experience with third-party API integrations and payment
+    gateway integrations.
+  - Understanding of authentication, authorization, data
+    security, and API best practices.
+  - Experience with Git and collaborative software development
+    workflows.
+  - Familiarity with automated testing, debugging, and
+    performance optimization.
+  - Ability to write clean, efficient, scalable, and
+    maintainable code.
+  - Strong problem-solving, communication, and teamwork skills.
+
+  Preferred Qualifications
+
+  - Experience with Redis, Celery, background jobs, and
+    asynchronous task processing.
+  - Experience with AWS, Google Cloud, Azure, or other cloud
+    platforms.
+  - Familiarity with Docker and CI/CD pipelines.
+  - Experience designing scalable systems for high-traffic
+    e-commerce platforms.
+  - Knowledge of caching strategies, search functionality, and
+    inventory synchronization.
+  - Experience with microservices or event-driven architecture.
+  - Understanding of e-commerce security and reliable payment
+    processing.
+
+  What We Offer
+
+  - An opportunity to make a meaningful contribution to Wonuva’s
+    e-commerce platform.
+  - Ownership of important backend features and technical
+    decisions.
+  - A collaborative, growth-oriented working environment.
+  - Opportunities to work with modern technologies and scalable
+    architectures.
+  - Competitive compensation based on experience and skills.
+
+  How to Apply
+
+  If you are passionate about backend engineering and have
+  hands-on experience building e-commerce platforms with
+  Python and Django, we would love to hear from you.
+
+  Please share your resume, GitHub profile, LinkedIn profile,
+  and relevant project experience
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Generative AI
+  - Big Data Analytics
+posted_date: 2026-10-21
+url: "https://builtin.com/job/we-re-hiring-senior-backend-developer-python-django/11795348"
+source: Built In

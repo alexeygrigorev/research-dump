@@ -1,0 +1,78 @@
+job_id: 12096527
+title: Full-Stack Developer
+company: Olive Jar Digital
+location: GBR
+remote: true
+work_type: FULL_TIME
+company_size: 19 Employees
+description: |
+  Olive Jar Digital
+
+  Contract: 12 weeks (2 January – 31 March 2027) Engagement:
+  Contract Working arrangement: Remote
+
+  About the Role
+
+  Olive Jar Digital is looking for an experienced Full-Stack
+  Developer with strong Python, Django and CI/CD experience to
+  support a Central Government project with our central
+  government client .
+
+  You'll help build a staff-facing referral application as
+  part of a 12-week discovery and technical proof of concept,
+  developing accessible user journeys, integrating backend
+  services and establishing automated deployment workflows.
+
+  Key Responsibilities
+
+  - Develop application features using Python and Django.
+  - Build accessible, user-friendly interfaces using HTML, CSS
+    and JavaScript.
+  - Integrate frontend journeys with backend APIs and referral
+    workflows.
+  - Develop and maintain GitHub Actions CI/CD pipelines.
+  - Implement automated testing and deployment workflows.
+  - Support SSO integration, application security and access
+    controls.
+  - Work alongside DBT platform engineers on deployment and
+    operational readiness.
+  - Produce technical documentation and deployment runbooks.
+
+  Essential Experience
+
+  - Strong full-stack development experience with Python and
+    Django.
+  - Good knowledge of HTML, CSS and JavaScript.
+  - Hands-on experience with GitHub Actions and CI/CD pipelines.
+  - Experience integrating frontend applications with backend
+    services and APIs.
+  - Understanding of SSO, application security and access
+    management.
+  - Experience with automated testing, application monitoring
+    and deployment.
+
+  Desirable Experience
+
+  - React or Node.js.
+  - AWS and Terraform exposure.
+  - GOV.UK design patterns and WCAG accessibility standards.
+  - Experience delivering within Central Government or public
+    sector environments.
+
+  Technology Stack
+
+  Python, Django, PostgreSQL, GitHub Actions, AWS, HTML, CSS
+  and JavaScript.
+
+  Additional Information
+
+  This is a 12-week proof-of-concept engagement, with work
+  taking place in a non-production environment. The focus is
+  application development, CI/CD and operational readiness,
+  working alongside our clients platform specialists.
+industries:
+  - Information Technology
+  - Consulting
+posted_date: 2026-11-05
+url: "https://builtin.com/job/full-stack-developer/12096527"
+source: Built In

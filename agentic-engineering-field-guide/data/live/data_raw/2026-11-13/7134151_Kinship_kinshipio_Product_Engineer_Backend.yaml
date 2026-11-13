@@ -1,0 +1,72 @@
+job_id: 7134151
+title: Product Engineer, Backend
+company: Kinship (kinship.io)
+location: London, GBR
+work_type: FULL_TIME
+company_size: 11 Employees
+description: |
+  Crafting the kind of backend that makes frontend work feel
+  like cheating
+
+  Hey there — we’re Kinship 👋
+
+  We’re building the Revit tools you wish existed. Our
+  platform helps architects and engineers manage content,
+  track usage, and make smarter decisions with less hassle.
+
+  We’re looking for a backend-focused engineer who enjoys
+  building clean APIs, designing resilient systems, and
+  keeping things fast, simple, and secure. Someone who’s
+  comfortable working in PHP, knows their way around Docker,
+  and can help us make the most of AWS to ship reliable
+  software at speed.
+
+  What You'll Do
+
+  - Build and maintain backend services in modern PHP
+  - Design and implement APIs consumed by our frontend and
+    desktop apps
+  - Use Docker to standardize development and streamline
+    deployments
+  - Work with AWS services (e.g. ECS, S3, RDS, CloudWatch) to
+    keep our systems fast and reliable
+  - Collaborate with product, design, and other engineers to
+    ship features
+  - Write tests and monitor performance so we can trust our
+    stack at scale
+
+  What We're Looking For
+
+  You don’t need to tick every box, but here’s what would help
+  you succeed:
+
+  - Strong experience with PHP (we use PHP 8+)
+  - Familiarity with containerized environments using Docker
+  - Product mindset — you think in terms of user value, not just
+    technical correctness
+  - Clear communicator and thoughtful collaborator
+  - Someone who’s excited to work in a small, fast-moving team
+  - Knowledge of Laravel or Symfony
+  - Comfortable with AWS basics — think deploying apps, storing
+    files, managing databases
+  - Experience designing or evolving APIs in production
+  - Familiarity with CI/CD pipelines
+  - Interest in DevOps, observability, or developer tooling
+
+  What We Offer
+
+  - Competitive salary
+  - A beautiful, plant-filled office in central London (by
+    Southwark tube station) and good coffee (obviously)
+  - A no-BS team of people who love building great software
+    together
+  - Real autonomy and influence over product and tech decisions
+  - A company that believes in work-life balance
+industries:
+  - Cloud
+  - Information Technology
+  - Software
+  - Analytics
+posted_date: 2026-08-14
+url: "https://builtin.com/job/product-engineer-backend/7134151"
+source: Built In

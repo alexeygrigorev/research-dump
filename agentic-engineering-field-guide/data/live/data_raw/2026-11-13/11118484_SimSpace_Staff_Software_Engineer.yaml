@@ -1,0 +1,265 @@
+job_id: 11118484
+title: Staff Software Engineer
+company: SimSpace
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 161 Employees
+description: |
+  The weaponization of AI is driving a paradigm shift in the
+  cyber security industry from proactive to preemptive
+  security: clients must now invest more intelligence and
+  effort in understanding their vulnerabilities before their
+  adversaries do (Open AI). The only way to achieve this is to
+  simulate future attack scenarios at scale, and to run them
+  in high fidelity digital replicas of production environments
+  (Gartner/Forrester). SimSpace serves as the AI Proving
+  Grounds to generate hypersynthetic data which pressure tests
+  controls, tools, teams, and agentic capabilities in full
+  kill chain attacks hidden in realistic environmental traffic
+  and patterns of life.
+
+  Founded in 2015 by experts from U.S. Cyber Command and MIT
+  Lincoln Laboratory, the platform was initially conceived to
+  assist in Offensive Cyber Operations (OCO), to quickly
+  replicate target environments to conduct mission rehearsal
+  of human operators and their tools to deny (disrupt,
+  degrade, destroy) or deceive (manipulate or exfiltrate data)
+  adversaries. The company has since expanded to serve over a
+  dozen allied governments in OCO/DCO as well as critical
+  infrastructure enterprises around the world. The company is
+  actively investing in the Americas, Asia Pacific, Europe and
+  the Middle East through direct sales and channel partners.
+  SimSpace has launched the AI Proving Grounds Consortium,
+  leading the revolution by creating an open platform for the
+  InfoSec ecosystem to train, validate and operationalize
+  their agentic capabilities before committing to production.
+
+  Why join SimSpace?
+
+  We are a team united by a shared purpose and four core
+  values: Serve to Protect, Acquire Understanding, Teamwork
+  without Borders, and Operate as Innovators. We value candid,
+  constructive feedback and create opportunities for personal,
+  professional, and financial growth. Our vision, “Defend the
+  Free World,” drives our mission: “Defeat Any Adversary in
+  Any Cyber Terrain at Machine Speed.”
+
+  How Do We Work?
+
+  We listen to customers and colleagues, challenge
+  assumptions, and turn ideas into meaningful results. We
+  expect everyone to embrace emerging technologies, simplify
+  and automate work, and use AI to learn, solve problems, and
+  help deliver quality with speed. We apply human judgment and
+  take responsibility for outcomes. Whether remote or office-
+  based, we collaborate across teams and time zones.
+
+  We invite you to apply today!
+
+  SimSpace is seeking a Staff Engineer to provide technical
+  leadership for the Range Against the Machine team. RATM
+  creates and maintains reusable virtual-machine templates and
+  the standardized cyber ranges used across the SimSpace
+  platform and by customers. The work spans range
+  architecture, networking, operating systems, virtualization,
+  cybersecurity, automation, and representative enterprise and
+  industrial environments.
+
+  This is a hands-on Staff-level role. You will solve selected
+  complex problems directly while increasing the team's
+  ability to deliver independently through architecture,
+  standards, automation, documentation, mentoring, and
+  delegated technical ownership. Success means improving the
+  system and the team's leverage—not becoming the permanent
+  owner of every difficult problem.
+
+  What the Team Owns
+
+  - Reusable range architectures, blueprints, configuration
+    bundles, and approved custom range capabilities.
+  - Virtual-machine images and their build, validation,
+    versioning, patching, release, deprecation, and
+    replacement lifecycle.
+  - Ansible-based configuration automation and repeatable
+    patterns for secure, supportable range construction.
+  - Representative network, identity, infrastructure,
+    application, and security environments that support
+    defensive operations, offensive workflows, automated
+    attacks, user emulation, tool integration, training,
+    exercises, and approved customer use cases, including
+    ICS/OT where required.
+  - Quality, documentation, and supportability of team-owned
+    repositories and artifacts, plus bounded integration
+    solutions when range requirements expose platform gaps.
+
+  What You'll Do
+
+  - Set technical direction for reusable cyber ranges and make
+    explicit trade-offs among realism, security, reliability,
+    scalability, usability, performance, maintainability,
+    customer outcomes, and near-term delivery.
+  - Improve Ansible and Packer architecture, standards, and
+    automation so configurations and images are modular,
+    idempotent, testable, versioned, secure, dependency-aware,
+    safe in their handling of secrets and errors, repeatable,
+    and resistant to drift.
+  - Design and troubleshoot complex virtual networks, VMware-
+    based infrastructure, Windows Server and Active Directory,
+    Linux systems, identity services, security tooling, and
+    relevant ICS/OT environments.
+  - Diagnose failures across networks, operating systems,
+    virtualization, images, blueprints, automation, platform
+    services, and security products using packet-level and
+    system-level evidence.
+  - Identify gaps between range requirements and platform
+    capabilities, develop bounded interim solutions, and
+    partner with Product, Platform Engineering, Security, and
+    other Staff and Principal Engineers on sustainable long-
+    term outcomes and broader platform strategy.
+  - Strengthen repository, review, automated build and
+    validation, release, documentation, runbook, and support-
+    handoff practices across team-owned work.
+  - Lead cross-team technical decisions, create standards and
+    automation that can benefit teams beyond RATM, communicate
+    dependencies and risks early, mentor engineers, delegate
+    meaningful ownership, and reduce single-person
+    dependencies.
+
+  Required Qualifications
+
+  - 6-8 years of experience; a Bachelor’s degree in Computer
+    Science is preferred, but an equivalent combination of
+    education and experience will be considered.
+  - Experience designing, building, automating, and supporting
+    complex infrastructure or cybersecurity environments at a
+    scope consistent with Staff-level engineering.
+  - Advanced enterprise-networking and troubleshooting
+    capability across routing, switching, segmentation,
+    firewalls, NAT, DNS, DHCP, VPNs, proxies, and multi-hop
+    traffic paths.
+  - Hands-on experience with Windows Server and Active
+    Directory—including domain, authentication, authorization,
+    DNS, Group Policy, certificates, or trusts—and with Linux
+    administration across multiple distributions.
+  - Production experience with Ansible, Packer, VMware vCenter,
+    and at least one additional hypervisor, virtualization
+    platform, or cloud environment.
+  - Experience integrating enterprise security technologies and
+    practical knowledge of offensive and defensive workflows,
+    security telemetry, and ICS/OT architecture and
+    constraints.
+  - Proficiency with Git and evidence of improving automated
+    validation, testing, security, versioning, and release
+    practices for infrastructure code, configuration, or
+    virtual-machine images.
+  - Demonstrated ability to lead ambiguous technical initiatives
+    across teams, influence senior technical stakeholders,
+    mentor and delegate to engineers, communicate with
+    technical and nontechnical audiences, and balance
+    implementation detail with product, customer, and business
+    outcomes.
+
+  Equivalent combinations of education, professional
+  experience, certifications, and demonstrated technical
+  achievement will be considered.
+
+  Preferred Qualifications
+
+  - Experience developing cyber ranges, digital twins, training
+    environments, simulation platforms, or representative
+    enterprise networks.
+  - Experience with Kubernetes, containers, routing software,
+    infrastructure as code, CI/CD, artifact management, or
+    automated security scanning.
+  - Experience working with both offensive- and defensive-
+    security teams or supporting disconnected, restricted,
+    regulated, or high-security environments.
+  - Relevant networking, security, Linux, Windows,
+    virtualization, cloud, or ICS/OT certifications.
+
+  Technology Environment
+
+  Ansible, Packer, VMware vCenter, Git, Windows Server, Active
+  Directory, Linux, enterprise networking, security tooling,
+  and ICS/OT technologies.
+
+  We’re proud to offer a competitive and comprehensive package
+  designed to support your well-being, growth, and success:
+
+  - Compensation. Base salary range: $185,000 - $260,000,
+    reflecting our confidence in your expertise and impact,
+    with the opportunity for annual bonuses tied to company
+    performance and individual contributions.
+  - Health & Wellness. Comprehensive medical, dental, and vision
+    benefits, plus savings plans—coverage starts on day one!
+  - Mental Health Support. Access to company-paid counseling,
+    coaching, and resources for you and your family through
+    Spring Health.
+  - Financial Well-Being. Plan for your future with a
+    401(k)-retirement savings plan featuring a company match.
+  - Flexible Time Off. Take the time you need with flex
+    vacation, company holidays, and dedicated health &
+    wellness days. SimSpace provides flexible solutions to
+    meet the diverse work-life needs of team members.
+  - Parental Leave. Paid leave plans to support you and your
+    loved ones during life’s most important moments.
+  - Ownership Opportunities: Equity stock options at hire, with
+    annual performance-based grants—become an invested
+    stakeholder in our shared success.
+  - Peloton Interactive Wellness Program: Full- and partial-
+    subsidized membership plans and equipment discounts to
+    help you reach your personalized fitness goals.
+  - Continuous Learning: Access a LinkedIn Learning membership
+    to prioritize your personal and professional development.
+  - Social Connections: Monthly reimbursements for meaningful
+    connections with teammates through our SocialSpace
+    Community.
+  - Extra Perks: Legal plan coverage, pet insurance, wellness
+    reimbursements, and more to simplify life’s details.
+
+  SimSpace is an Equal Opportunity Employer:
+
+  In compliance with federal law, all persons hired will be
+  required to verify identity and eligibility to work in the
+  United States and to complete the required employment
+  eligibility verification document form upon hire.
+
+  SimSpace is an Equal Opportunity Employer. All qualified
+  applicants will receive consideration for employment without
+  regard to race, color, religion, sex, sexual orientation,
+  gender identity, national origin, age, pregnancy, genetic
+  information, disability, status as a protected veteran, or
+  any other protected category under applicable federal,
+  state, and local laws. We are committed to providing an
+  inclusive and welcoming environment for all members of our
+  staff, clients, volunteers, subcontractors, vendors, and
+  clients.
+
+  Research shows that women and people from underrepresented
+  groups only apply to jobs if they meet all of the
+  qualifications. However, no one ever meets 100% of the
+  qualifications. SimSpace encourages you to break that
+  statistic and to apply. We look forward to your application!
+
+  We also consider qualified applicants regardless of criminal
+  histories, in accordance with applicable law. We are
+  committed to providing reasonable accommodations for
+  qualified individuals with disabilities in our job
+  application procedures. If you need assistance or
+  accommodation due to a disability, please contact
+  careers@simspace.com.
+
+  SimSpace does not accept unsolicited resumes from employment
+  agencies.
+
+  Actual compensation for the position is based on a variety
+  of factors, including, but not limited to affordability,
+  skills, qualifications and experience, and may vary from the
+  range.
+industries:
+  - Information Technology
+  - Security
+posted_date: 2026-09-10
+url: "https://builtin.com/job/staff-software-engineer/11118484"
+source: Built In

@@ -1,0 +1,129 @@
+job_id: 11703675
+title: Software Engineer, Go (Edge)
+company: Telnyx
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 280 Employees
+description: |
+  About Telnyx
+
+  Telnyx is an industry leader that's not just imagining the
+  future of global connectivity—we're building it. From
+  architecting and amplifying the reach of a private, global,
+  multi-cloud IP network, to bringing hyperlocal edge
+  technology right to your fingertips through intuitive APIs,
+  we're shaping a new era of seamless interconnection between
+  people, devices, and applications.
+
+  We're driven by a desire to transform and modernize what's
+  antiquated, automate the manual, and solve real-world
+  problems through innovative connectivity solutions. As a
+  testament to our success, we're proud to stand as a
+  financially stable and profitable company. Our robust
+  profitability allows us not only to invest in pioneering
+  technologies but also to foster an environment of continuous
+  learning and growth for our team.
+
+  Our collective vision is a world where borderless
+  connectivity fuels limitless innovation. By joining us, you
+  can be part of laying the foundations for this
+  interconnected future. We're currently seeking passionate
+  individuals who are excited about the opportunity to
+  contribute to an industry-shaping company while growing
+  their own skills and careers.
+
+  What you'll do
+
+  - Design and build the Go services behind our serverless
+    platform, function deployment pipeline, and global control
+    plane.
+  - Own backend and control-plane software, from customer-facing
+    APIs and resource lifecycles to services that deploy and
+    manage workloads across our edge infrastructure.
+  - Make the platform great to use: clean APIs, a sharp CLI,
+    predictable behaviour, and useful error messages.
+    Developer experience is a feature, not an afterthought.
+  - Build reliable workflows for deployments, configuration,
+    storage, and observability. Handle the retries, state, and
+    failure cases that come with operations spanning multiple
+    services and data centres.
+  - Work with Kubernetes and our runtime infrastructure through
+    the control plane, and help diagnose latency, throughput,
+    and reliability issues across the platform.
+  - Build tooling that helps us operate safely at scale.
+    Participate in on-call for the systems you build.
+
+  What we're looking for
+
+  - 2–5 years of professional backend software development
+    experience.
+  - Proficiency in Go, or strong experience in a comparable
+    backend language (Rust, Java, C++) and an interest in
+    writing Go day-to-day.
+  - Solid distributed systems fundamentals. You've debugged
+    service-to-service problems in production and understand
+    retries, partial failures, and idempotency.
+  - Comfort designing APIs and resource models that other
+    engineers will actually use.
+  - Experience with relational databases, including schemas,
+    transactions, and migrations.
+  - Experience building asynchronous systems using queues,
+    background jobs, state machines, or similar patterns.
+  - Working knowledge of Kubernetes and an interest in building
+    software that deploys and manages workloads on Kubernetes-
+    based infrastructure.
+  - Experience running highly available services, including
+    being on-call.
+
+  Bonus points for
+
+  - Experience building developer tools, platforms, control
+    planes, runtimes, or other products for developers.
+  - Experience building software that interacts with Kubernetes,
+    such as controllers, operators, or deployment systems.
+  - Familiarity with serverless or edge-compute platforms
+    (Cloudflare Workers, Fastly Compute, Lambda, Fly.io, Deno
+    Deploy, etc.).
+  - Experience with containerization and orchestration
+    technologies such as Docker and Kubernetes, including
+    deploying, managing, and troubleshooting containerized
+    applications.
+  - Experience operating software across multiple regions or
+    data centres.
+industries:
+  - Big Data
+  - Internet of Things
+  - Mobile
+  - Other
+posted_date: 2026-10-15
+url: "https://builtin.com/job/software-engineer-go-edge/11703675"
+source: Built In

@@ -1,0 +1,77 @@
+job_id: 12166206
+title: Software Engineer (f/m/d)
+company: Manex AI
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 23 Employees
+description: |
+  Who we are
+
+  Manufacturing runs on fragmented data: machines, sensors,
+  and decade-old systems that don't speak to each other. Data
+  sits in departmental silos, knowledge lives in people's
+  heads, and AI can not unfold its potential in point
+  solutions that don’t deliver. At Manex AI, we build that
+  missing layer with our platform: It handles manufacturing
+  data at scale, models the factory ontology and builds
+  agentic applications that reason and act across it.
+
+  We're a small team in Munich, backed by Lightspeed and
+  BlueYard, with engineers from top companies. We ship fast,
+  work close to the shop floor and we don't ship things we're
+  not proud of.
+
+
+
+  The Role
+
+  You'll build the core of our platform: From data ingestion
+  and our ontology layer to the applications manufacturers use
+  on the shop floor every day. The work spans backend,
+  frontend, performance, and tooling - you'll work where your
+  skills count most. You own features end-to-end and work
+  directly with founders and customers.
+
+
+
+  You should apply if you
+
+  - Write maintainable, tested, and performant code
+  - Own problems from design to production
+  - Enjoy writing and reviewing RFCs
+  - Know at least one of React, Python, TypeScript, or Rust
+  - Thrive in the pace of an early-stage startup
+  - Have 2+ years of professional experience
+
+
+
+  Nice to have
+
+  - PostgreSQL, DuckDB or experience with lakehouse formats
+  - Docker, Kubernetes, Terraform, or AWS
+  - ML and LLM systems
+  - CI/CD pipelines, preferably GitHub Actions
+  - Monitoring distributed enterprise systems
+  - Open standards (e.g. RDF, OWL, SHACL)
+
+
+
+  What we offer
+
+  - A cooperative team where you never solve hard problems alone
+  - Competitive salary and equity
+  - High trust and ownership from day one
+  - Corporate Wellpass membership, subsidized public transport
+  - Regular offsites with the greatest team - think austrian
+    mountains, lakeside retreats, or european cities
+  - Relocation support, incl. corporate housing offers
+
+  Are you willing to start contributing to European autonomy
+  at scale? Apply now!
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Software
+posted_date: 2026-11-10
+url: "https://builtin.com/job/software-engineer-f-m-d/12166206"
+source: Built In

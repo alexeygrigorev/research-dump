@@ -1,0 +1,60 @@
+job_id: 8934552
+title: Java Full Stack Developer (React)
+company: Sapsol Technologies Inc
+location: Mississauga, CAN
+work_type: FULL_TIME
+company_size: 144 Employees
+description: |
+  We are seeking a talented Java Full Stack Developer with
+  strong expertise in backend development using Java, Spring
+  Boot, and Microservices, along with frontend experience in
+  React.js. The ideal candidate will be responsible for
+  building scalable, high-performance applications and
+  ensuring seamless integration between frontend and backend
+  systems.
+
+  🔧 Key Responsibilities
+
+  - Develop and maintain backend services using Java and Spring
+    Boot
+  - Design and implement Microservices architecture
+  - Build responsive and dynamic user interfaces using React.js
+    and modern JavaScript (ES6+)
+  - Integrate frontend applications with backend services via
+    RESTful APIs
+  - Manage application state using Redux or similar libraries
+  - Collaborate with cross-functional teams including UI/UX, QA,
+    and DevOps
+  - Optimize applications for performance, scalability, and
+    security
+  - Participate in code reviews, testing, and deployment
+    processes
+  - Troubleshoot and resolve technical issues across the stack
+
+  🧠 Required Skills
+
+  - Strong experience in Core Java and Spring Boot
+  - Hands-on experience with Microservices architecture
+  - Proficiency in React.js, Redux, and ES6+ JavaScript
+  - Experience with API integration and UI development
+  - Strong understanding of frontend-backend interaction
+  - Familiarity with HTML5, CSS3
+  - Experience with SQL databases (MySQL, PostgreSQL)
+
+  ☁️ Preferred Skills
+
+  - Experience with AWS/Azure cloud platforms
+  - Knowledge of Docker, Kubernetes
+  - Familiarity with CI/CD tools (Jenkins, GitHub Actions)
+  - Understanding of authentication mechanisms (JWT, OAuth)
+
+  🎓 Education
+
+  - Bachelor’s degree in Computer Science, IT, or related field
+    (or equivalent experience)
+industries:
+  - Information Technology
+  - Software
+posted_date: 2026-08-22
+url: "https://builtin.com/job/java-full-stack-developer-react/8934552"
+source: Built In

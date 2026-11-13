@@ -1,0 +1,181 @@
+job_id: 11766885
+title: Senior Software Engineer (Full-Stack)
+company: Ripple
+location: London, GBR
+work_type: FULL_TIME
+company_size: 733 Employees
+description: |
+  At Ripple, we’re building a world where value moves like
+  information does today. It’s big, it’s bold, and we’re
+  already doing it. Through our crypto solutions for financial
+  institutions, businesses, governments and developers, we are
+  improving the global financial system and creating greater
+  economic fairness and opportunity for more people, in more
+  places around the world. And we get to do the best work of
+  our career and grow our skills surrounded by colleagues who
+  have our backs.
+
+  If you’re ready to see your impact and unlock incredible
+  career growth opportunities, join us, and build real world
+  value.
+
+  About the Cash Forecasting team:
+
+  Cash Forecasting is our AI-amplified treasury solution that
+  helps CFOs and treasury teams move beyond error-prone
+  spreadsheets to achieve real-time cash visibility and
+  predictive accuracy.
+
+  The platform integrates seamlessly with major ERPs and
+  banking systems to automatically capture, categorise, and
+  analyse transactional data across multiple currencies and
+  business units. Leveraging our proprietary GSmart AI
+  technology, the solution continuously learns from historical
+  cash flows, sales data, and treasury information to
+  automatically select optimal forecasting algorithms and
+  improve accuracy by over 30%.
+
+  You'll work on sophisticated Ruby on Rails and React
+  software that turns diverse financial data into clear
+  analysis, giving customers sharp insight and forecasting
+  through intuitive dashboards. This is a critical platform
+  moving over $100 billion in daily cash flow for enterprise
+  customers across 40+ countries, built to hold enterprise-
+  grade security and scalability at that scale, every single
+  day.
+
+  What You’ll Do:
+
+  - Design, build, and maintain backend services and APIs that
+    power the Cash Forecasting platform, while remaining
+    comfortable picking up frontend work when the task calls
+    for it
+  - Work across a large, sophisticated, multi-tenant SaaS
+    codebase, writing code that's built to scale across
+    enterprise customers and their data
+  - Own the data layer, schema design, query performance, and
+    data integrity - with a strong emphasis on PostgreSQL and
+    SQL more broadly
+  - Write and maintain thorough test coverage using RSpec,
+    treating testing as a first-class part of delivery
+  - Package and deploy services using Docker, and work within
+    our AWS-based cloud infrastructure
+  - Write scripts and tooling to automate repetitive work,
+    support data migrations, and keep the team moving quickly
+  - Instrument the systems you build with strong observability
+    practices -logging, metrics, and tracing — to catch and
+    resolve issues before they impact customers
+  - Benchmark and profile code to identify performance
+    bottlenecks, and make evidence-based decisions about where
+    to optimise
+  - Collaborate closely with product managers, designers, and
+    fellow engineers to translate business and customer needs
+    into robust technical solutions
+  - Participate in code reviews and technical design
+    discussions, contributing to the team's overall growth and
+    improvement
+  - Be a champion of the YBIYRI ethos (you-build-it-you-run-it),
+    which includes participating in the on-call pager rotation
+
+  What You'll Bring:
+
+  - 4-8 years of professional software development experience,
+    ideally including full-stack work with a backend lean
+  - Strong SQL fundamentals; hands-on experience with PostgreSQL
+    ideal
+  - Comfortable working within large, sophisticated, existing
+    codebases and making changes safely
+  - Scripting ability for automation and tooling (language-
+    agnostic)
+  - Experience with Docker or other containerisation
+    technologies
+  - Proven Git proficiency, including collaborative branching
+    workflows
+  - Proficiency in at least one major programming language (such
+    as Ruby, Python, or Java)
+  - Experience employing AI tools throughout the development
+    lifecycle to speed up problem-solving and delivery
+  - Experience testing with RSpec
+
+  Preferred Knowledge / Experience:
+
+  - Experience with Ruby or Ruby on Rails is a strong plus -
+    while we value the ability to learn quickly across
+    languages, familiarity with our primary stack will help
+    you ramp up faster.
+  - Frontend experience, ideally with React, and the ability to
+    contribute there when needed
+  - Experience with, or solid understanding of, AWS
+  - Experience building or maintaining multi-tenant, enterprise
+    SaaS platforms
+  - Familiarity with observability tooling and practices
+    (logging, metrics, tracing, alerting)
+  - Experience benchmarking and profiling code for performance
+  - Experience in the financial industry, particularly treasury,
+    payments, FX, or ERP systems
+
+  WHO WE ARE:
+
+  Do Your Best Work
+
+  - The opportunity to build in a fast-paced start-up
+    environment with experienced industry leaders
+  - A learning environment where you can dive deep into the
+    latest technologies and make an impact.  A professional
+    development budget to support other modes of learning.
+  - Thrive in an environment where no matter what race,
+    ethnicity, gender, origin, or culture they identify with,
+    every employee is a respected, valued, and empowered part
+    of the team.
+  - In-office collaboration for moments that matter is important
+    to our culture, and we give managers and teams the
+    flexibility to decide which 10+ days a month they come in.
+  - Bi-weekly all-company meeting - business updates and ask me
+    anything style discussion with our Leadership Team
+  - We come together for moments that matter which include team
+    offsites, team bonding activities, happy hours and more!
+
+  Take Control of Your Finances
+
+  - Competitive salary, bonuses, and equity
+  - Competitive benefits that cover physical and mental
+    healthcare, retirement, family forming, and family support
+  - Employee giving match
+  - Mobile phone stipend
+
+  Take Care of Yourself
+
+  - R&R days so you can rest and recharge
+  - Generous wellness reimbursement and weekly onsite & virtual
+    programming
+  - Generous vacation policy - work with your manager to take
+    time off when you need it
+  - Industry-leading parental leave policies. Family planning
+    benefits.
+  - Catered lunches, fully-stocked kitchens with premium
+    snacks/beverages, and plenty of fun events
+
+  Benefits listed above are for full-time employees.
+
+  Ripple is an Equal Opportunity Employer. We’re committed to
+  building a diverse and inclusive team. We do not
+  discriminate against qualified employees or applicants
+  because of race, color, religion, gender identity, sex,
+  sexual identity, pregnancy, national origin, ancestry,
+  citizenship, age, marital status, physical disability,
+  mental disability, medical condition, military status, or
+  any other characteristic protected by local law or
+  ordinance.
+
+  Please find our California, UK/EU, Singapore, DIFC, ADGM,
+  Australia, and Switzerland  Applicant Privacy Notice for
+  reference.
+industries:
+  - Blockchain
+  - Financial Services
+  - Cryptocurrency
+  - Web3
+  - Quantitative Trading
+posted_date: 2026-10-20
+url: "https://builtin.com/job/senior-software-engineer-full-stack/11766885"
+source: Built In

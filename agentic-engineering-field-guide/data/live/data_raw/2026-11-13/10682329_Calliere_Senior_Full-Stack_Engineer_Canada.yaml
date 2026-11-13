@@ -1,0 +1,123 @@
+job_id: 10682329
+title: Senior Full-Stack Engineer (Canada)
+company: Calliere
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 3 Employees
+description: |
+  This is a remote position.
+
+
+
+  We are building a category-defining platform that operates
+  at scale and demands high engineering rigor. The product
+  sits at the intersection of real-time data, complex systems,
+  and critical user workflows—where performance, reliability,
+  and clarity are non-negotiable.
+
+
+
+
+  We are hiring a Senior Full-Stack Engineer who wants to
+  operate in a high-trust, high-ownership environment. This is
+  not a role for someone looking to simply execute tickets—you
+  will be expected to take problems from ambiguity to
+  production, influence technical direction within your
+  domain, and ship systems that matter.
+
+
+
+
+  You will work across the stack, with a strong focus on
+  backend architecture and API design, while maintaining a
+  sharp eye for product quality and user experience.
+
+
+   What You’ll Own
+
+
+
+  - Architect and deliver scalable systems and APIs that power
+    core product functionality.
+  - Take full ownership of features, from problem definition
+    through design, implementation, and iteration.
+  - Drive technical decisions within your scope, balancing
+    speed, quality, and long-term maintainability.
+  - Partner directly with product and business stakeholders to
+    shape solutions—not just implement them.
+  - Build shared infrastructure and services used across
+    multiple teams.
+  - Raise the bar on code quality, system design, and
+    engineering standards.
+
+
+
+
+
+
+
+    Requirements What Sets You Apart
+
+
+
+  - You have built and operated systems that handle real scale
+    and complexity.
+  - You think in systems, not just components, and understand
+    trade-offs deeply.
+  - You are product-oriented—you care about why something is
+    being built, not just how.
+  - You bring a strong sense of ownership and are comfortable
+    operating with incomplete information.
+  - You communicate clearly and push for clarity when things are
+    ambiguous.
+  - You elevate the team through your execution, judgment, and
+    collaboration.
+
+   Environment
+
+
+
+  The team is composed of high-performing engineers who are
+  trusted to lead within their scope. There is minimal
+  bureaucracy and a strong bias toward action.
+
+
+
+
+  Work is structured in short cycles, but expectations are
+  outcome-driven, not process-driven. Engineers are expected
+  to step up, take initiative, and deliver meaningful results.
+
+
+
+
+  The team is distributed across North America with a
+  consistent daily overlap window for collaboration.
+
+
+
+
+  An on-call rotation (~every 4–6 weeks) is part of the role,
+  covering both system alerts and internal support channels.
+
+
+   Stack
+
+
+
+  - Frontend: React, TypeScript
+  - Backend: TypeScript (primary), with Python and Go in the
+    ecosystem
+  - Systems: Distributed, service-oriented architecture
+  - Data: PostgreSQL and large-scale analytical systems; strong
+    data modeling expected
+  - Infrastructure: GCP, CI/CD pipelines, containers; Kubernetes
+    is a plus
+industries:
+  - Agency
+  - Information Technology
+  - Professional Services
+posted_date: 2026-08-14
+url: "https://builtin.com/job/senior-full-stack-engineer-canada/10682329"
+source: Built In

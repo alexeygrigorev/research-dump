@@ -1,0 +1,120 @@
+job_id: 9749870
+title: Senior Full Stack Engineer
+company: WerQ AI
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 6 Employees
+description: |
+  About WerQ AI & This Opportunity:
+
+  At WerQ AI, we’re pioneering the world’s first Career
+  Intelligence & Relationship Management (CIRM™) platform,
+  designed to empower professionals by putting them in control
+  of their careers. Our agentic AI works for you, not against
+  you, automating tedious job search workflows so you can
+  focus on what truly matters: skill growth, meaningful
+  connections, and future-proofing your career.
+
+  We are on the verge of a major milestone, our public launch
+  in April 2025, with 11,000+ users on our waitlist and an
+  engaged beta user customer community already shaping our
+  product. Over the next six weeks, we are finalizing key
+  features, testing with our users, and deep into fundraising
+  efforts to fuel our next stage of growth.
+
+  This is an opportunity to join early, make a direct impact,
+  and shape the future of AI-driven career management.
+
+  About the Role:
+
+  As a Senior Full Stack Engineer at WerQ AI, you will play a
+  pivotal role in refining and expanding our platform. We're
+  nearing the final phase of beta testing, and your expertise
+  will be crucial finalizing remaining features, ensuring a
+  seamless user experience as we launch publicly, and laying
+  the foundation for our future development goals.
+
+  You'll be responsible for architecting and implementing core
+  features, integrating AI-driven insights, and optimizing
+  performance across the stack. If you're excited about
+  building innovative, user-centric solutions in a fast-paced,
+  high-growth startup, we want to hear from you!
+
+  Responsibilities:
+
+  - Design and Development: Architect and implement robust,
+    scalable web applications using NestJS and Next.js,
+    ensuring seamless integration between frontend and backend
+    systems.
+  - Database Management: Design, implement, and maintain
+    PostgreSQL databases, ensuring data integrity, performance
+    optimization, and efficient query handling.
+  - UI/UX Implementation: Develop responsive and intuitive user
+    interfaces with Tailwind CSS, translating design mockups
+    into high-quality code.
+  - AI Integration: Collaborate on integrating LangChain to
+    enhance AI-driven features, ensuring the platform
+    leverages cutting-edge AI technologies.
+  - Authentication and User Management: Implement and manage
+    user authentication and authorization processes using
+    Clerk, ensuring secure and seamless user experiences.
+  - Automated Testing and Scripting: Utilize Puppeteer for end-
+    to-end testing and automation tasks, ensuring the
+    reliability and performance of web applications.
+
+  Salary: €134,904 to €192,728.
+
+  During the final six weeks of our beta, we are actively
+  securing growth funding while preparing for our public
+  launch in April 2025, when user-driven revenue begins. At
+  that time, this role will transition into a full-time
+  salaried position within the stated annual range. Until
+  then, compensation will be deferred.
+
+  Benefits:
+
+  - Fully Remote & Flexible Work Schedule (Work from anywhere in
+    the world with flexible hours tailored to your
+    productivity style and time zone.)
+  - Unlimited PTO
+  - Health, Dental, & Vision Insurance premiums fully paid by
+    Company
+  - Growth Opportunities (Join at a critical growth stage, with
+    opportunities for rapid career progression and cross-
+    functional exposure.)
+industries:
+  - Artificial Intelligence
+  - HR Tech
+  - Software
+posted_date: 2026-10-02
+url: "https://builtin.com/job/senior-full-stack-engineer/9749870"
+source: Built In

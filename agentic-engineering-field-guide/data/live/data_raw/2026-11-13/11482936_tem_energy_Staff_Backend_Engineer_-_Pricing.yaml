@@ -1,0 +1,184 @@
+job_id: 11482936
+title: Staff Backend Engineer - Pricing
+company: tem energy
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 200 Employees
+description: |
+  📈 Who We Are:
+
+  We are rebuilding the energy transaction, making it
+  transparent and fair.
+
+  We're rebuilding how energy is bought and sold. That means
+  cutting out middlemen, connecting businesses directly with
+  renewable generators, and ensuring every transaction is
+  traceable and transparent.
+
+  We're a 160+ person team - operators, data scientists,
+  engineers, customer champions and energy experts - backed by
+  top-tier investors including Lightspeed Venture Partners,
+  Hitachi Ventures, Allianz, AlbionVC and Atomico. We closed a
+  $75M Series B round in early 2026, taking our total funding
+  to $94M, and we now power energy for over 4,000 UK
+  businesses across 8,500+ sites, with over £75m in value
+  returned to businesses and generators so far.
+
+  We're a technology company solving the energy industry, not
+  an energy company. Some people call us a neo-utility, the
+  neo-bank idea, applied to energy.
+
+  The industry is noticing. We were crowned Europe's Most
+  Exciting Tech Company at the GP Bullhound Allstars awards,
+  came in at #6 on LinkedIn's Top Startups 2026 in the UK, #7
+  on the Scaling Europe 50 of Europe's fastest-growing
+  companies, and #14 on Sifted's AI 100.
+
+  Learn more about us on our website.
+
+  🎯 The Role
+
+  We're hiring a Staff Backend Software Engineer, Pricing.
+
+  You'll build and manage the Pricing API behind RED, tem's
+  modern utility product - its performance, and its
+  reliability. The systems you build price real energy
+  contracts for businesses buying electricity and renewable
+  generators selling it, so correctness shows up as money and
+  speed shows up as trust.
+
+  This is a senior role in our Pricing squad. The focus is
+  backend and data-heavy, with a quant-y flavour, and
+  correctness is critical. You'll shape how our new Pricing
+  API is built, untangle pricing from the systems around it,
+  and make sure that when we can't price something, we can
+  always explain why.
+
+  In your first 12 months, you might:
+
+  - See our new Pricing API built from first design through to
+    being ready for third-party access.
+  - Lead the move of pricing logic into one service with a clean
+    boundary, deciding when it is proven stable enough to cut
+    over.
+  - Design the detection, alerting and explainability that catch
+    bad or slow prices before they ever reach a customer.
+  - Help make pricing measurably faster for every customer
+    quote.
+  - Raise the engineering bar across the squad through design
+    reviews, standards and agent-driven workflows.
+
+  🛠️ Responsibilities
+
+  - Build & iteration of the Pricing API, so it is fast, correct
+    and ready to be opened up to third parties.
+  - Support with untangling: run the extraction of pricing logic
+    into its own service as a programme, agreeing clean
+    boundaries with neighbouring teams.
+  - Own reliability: design the systems that detect pricing
+    errors, stop bad quotes going out and explain every price
+    we can't give.
+  - Raise the bar: lift the standard of everyone working on
+    pricing through design reviews, engineering standards,
+    pairing and multi-agent workflows.
+  - Close the loop: be the go-to engineer when live pricing
+    incidents escalate, and turn what you learn into
+    structural fixes on the roadmap.
+
+  ✅ Requirements
+
+  Must-Haves
+
+  - Deep production backend Python: you have designed and owned
+    APIs at scale, and been the person others escalate to when
+    they broke.
+  - You have led a significant decoupling or migration of a live
+    system without breaking what depended on it.
+  - Strong FastAPI and SQL, and experience in data and
+    analytics-heavy systems where the correctness of numbers
+    costs money.
+  - You set technical direction across teams you don't manage,
+    and can negotiate service boundaries with neighbouring
+    teams.
+  - You are agent-native: you don't just use Claude or similar
+    daily, you design multi-agent workflows that raise a whole
+    team's throughput.
+  - Product engineering judgement: you know who reads a price
+    and why, and you trade off speed, accuracy and
+    explainability deliberately.
+
+  Desirable
+
+  - Domain knowledge from energy pricing, fintech or neo-
+    utilities.
+  - Experience building APIs consumed by external third parties.
+  - AWS and serverless patterns (Lambda, event-driven services,
+    Postgres on RDS).
+  - Polars, or a track record of making numerical code fast.
+
+  🎁 Benefits & Perks
+
+  - Stock options so everyone has ownership in our mission.
+  - 25 days holiday plus public holidays. Swap public holidays
+    for the ones that matter most to you, and enjoy your
+    birthday off.
+  - Remote first and flexible working, with clear core hours and
+    no internal meetings on Friday afternoons.
+  - Up to GBP1,200 or EUR1,400 per year for your remote setup.
+  - Up to GBP150 or EUR170 per month for wellbeing.
+
+  🤝 Interview Process
+
+  - Intro call with Talent Partner, Jack, 30 minutes.
+  - Behavioural interview, 60 minutes.
+  - Technical interview with members from the team, 75 minutes
+    including a practical exercise.
+  - Bar Raiser interview with leadership stakeholders, 45
+    minutes.
+
+  We welcome applications from people of all backgrounds,
+  experiences, and identities, including those that are
+  traditionally underrepresented in the tech and energy
+  sectors. If you’re excited about this role but not sure you
+  meet every requirement, we’d still love to hear from you.
+  Your unique perspective could be exactly what we’re looking
+  for.
+industries:
+  - Artificial Intelligence
+  - Energy
+  - Industrial
+  - Manufacturing
+  - Renewable Energy
+posted_date: 2026-10-02
+url: "https://builtin.com/job/staff-engineer-pricing/11482936"
+source: Built In

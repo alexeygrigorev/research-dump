@@ -1,0 +1,112 @@
+job_id: 11337958
+title: "Senior Software Engineer | Kimchi Studio"
+company: CAST AI
+location: GRC
+locations:
+  - GRC
+  - MLT
+  - HUN
+  - CYP
+  - LVA
+  - POL
+  - SWE
+  - EST
+  - FIN
+  - HRV
+  - MDA
+  - UKR
+  - BGR
+  - ROU
+  - SVK
+  - SVN
+  - LTU
+  - MNE
+  - IRL
+  - MKD
+remote: true
+work_type: FULL_TIME
+company_size: 325 Employees
+description: |
+  Why Kimchi?
+
+  Great models are raw ingredients. Kimchi is what happens
+  when you ferment them with good engineering. We started
+  inside CAST AI helping companies run LLMs on their own
+  Kubernetes clusters; today we run our own coding harness on
+  any LLM you pick.
+
+  Kimchi Studio
+
+  Studio is where your team's agents work together: a desktop
+  app that brings autonomous coding agents, model
+  orchestration, and your entire toolchain into one
+  collaborative UI. Multiple agents on separate branches side
+  by side with native git worktree support. Every agent action
+  visible, diffable, and undoable. Local first on your
+  machine, remote sessions when you need them. You'll own
+  features end to end: design, implementation, testing,
+  production rollout. Most projects ship in 1-4 weeks. You'll
+  work directly with product and other engineering teams on
+  problems that don't have textbook solutions.
+
+  You might be a fit if…
+
+  - You've personally driven a complex product feature from idea
+    to shipped, and you can tell that story with receipts.
+  - You're a full-stack engineer: TypeScript where the product
+    lives (Electron/React UI, Node services) and Go where the
+    backend lives. Strong in one, ready to go deep in the
+    other, and honest about which is which.
+  - You have deep debugging and performance instincts: when the
+    app janks or a query slows down, you find the cause
+    through query profiles and flame graphs.
+  - You care about UX, speed, and polish. In a desktop app every
+    millisecond is visible, and you push back when something
+    feels wrong.Bonus: shipping Electron apps at scale
+    (updates, code signing, multi-platform builds), Kubernetes
+    internals, or building your own AI workflows and harnesses
+    at home.
+
+  What’s in it for you?
+
+  - Competitive salary (€6,500 - €9,000 gross, depending on the
+    level of experience).
+  - Enjoy a flexible, remote-first global environment.
+  - Collaborate with a global team of cloud experts and
+    innovators, passionate about pushing the boundaries of
+    Kubernetes technology
+  - Equity options.
+  - Get quick feedback with a fast-paced workflow. Most feature
+    projects are completed in 1 to 4 weeks.
+  - Spend 10% of your work time on personal projects or self-
+    improvement.
+  - Learning budget for professional and personal development -
+    including access to international conferences and courses
+    that elevate your skills.
+  - Annual hackathon to spark new ideas and strengthen team
+    bonds.
+  - Team-building budget and company events to connect with your
+    colleagues.
+  - Equipment budget to ensure you have everything you need.
+  - Extra days off to help maintain a healthy work-life balance.
+
+  Hiring process
+
+  - Screening call with Recruiter
+  - Hiring Manager interview
+  - Technical interview (system design)
+  - Live coding
+  - Culture Check interview with an executive
+
+  As part of our standard hiring process, we would like to
+  inform you that a background check may be conducted at the
+  final stage of recruitment through our third-party provider,
+  Checkr. Please note that Cast AI does not provide any form
+  of visa sponsorship/work permit.
+industries:
+  - Big Data
+  - Cloud
+  - Software
+posted_date: 2026-09-23
+url: "https://builtin.com/job/senior-software-engineer-kimchi-studio/11337958"
+source: Built In

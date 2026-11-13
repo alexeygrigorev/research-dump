@@ -1,0 +1,102 @@
+job_id: 9153278
+title: Senior Staff Full Stack Engineer ($500k - $1.5m salary)
+company: Baton Corporation
+location: New York, USA
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  Who We Are
+
+  Baton Corporation is the development company that builds and
+  operates the entire technology stack behind pump.fun, the
+  largest memecoin launchpad in production today. The systems
+  are low latency, high throughput, live under constant load,
+  and break if you get them wrong.
+
+  What You’ll Do
+
+  As a Senior Staff Full Stack Engineer, you’ll remain deeply
+  hands-on while shaping the technical direction of our
+  platform across frontend and backend systems. You’ll own the
+  hardest cross-stack problems - performance, scalability,
+  correctness, and architectural coherence in a fast-moving
+  environment
+
+  - Architect and build high-performance systems across the
+    entire stack, directly contributing production code in
+    both frontend and backend layers
+  - Define and evolve cross-stack architecture that scales with
+    user growth, product complexity, and real-time interaction
+    demands
+  - Lead complex, multi-surface initiatives end to end - from
+    system design and RFC through implementation, rollout, and
+    iteration
+  - Design clean boundaries between frontend, backend, and
+    blockchain infrastructure, ensuring systems remain modular
+    and adaptable as we scale
+  - Anticipate systemic bottlenecks (performance, data
+    consistency, infra limits) and proactively design durable
+    solutions
+  - Drive improvements in performance, reliability, and
+    observability across the stack
+  - Rapidly prototype and validate new product ideas while
+    ensuring that successful experiments evolve into
+    production-grade systems
+  - Raise the bar for engineering quality through design
+    reviews, architectural guidance, and hands-on mentorship
+  - Act as a technical anchor during critical launches,
+    migrations, or incidents that span multiple parts of the
+    stack
+  - Improve developer velocity by evolving tooling, CI/CD
+    pipelines, testing strategy, and shared abstractions
+
+  Who You Are
+
+  - Proven track record of owning large cross-stack systems
+    serving real users under real load
+  - Deep expertise in TypeScript, React, Next.js, and Node.js
+    (or equivalent backend frameworks), with strong
+    architectural instincts
+  - Comfortable reasoning about distributed systems, data
+    modelling, caching, and client–server tradeoffs
+  - Able to move fluidly between frontend performance
+    optimisation and backend system design
+  - Known for solving ambiguous, cross-cutting technical
+    problems that span multiple layers of the stack
+  - High-agency and execution-driven - you influence direction
+    by building and shipping
+  - Comfortable setting technical direction without stepping
+    away from implementation
+  - Experience in high-growth or high-scale environments where
+    systems must evolve rapidly without collapsing under
+    complexity
+  - Familiar with crypto, DeFi, or blockchain systems -
+    especially real-time interactions, indexing, or wallet-
+    integrated applications
+
+  What it's like to work here
+
+  - We work in person
+  - Hours can be long and unconventional
+  - The pace is intense
+  - Expectations are high, and impact is immediate
+  - Working at Baton is not for everyone
+
+  Why Join Us?
+
+  - Unmatched ownership and autonomy
+  - Exposure to systems operating at the edge of crypto scale
+  - The ability to ship fast and see real-world impact
+    immediately
+
+  If you’re motivated by responsibility, speed, and building
+  products used by massive audiences, you’ll feel at home
+  here.
+industries:
+  - Blockchain
+  - Information Technology
+  - Software
+  - Cryptocurrency
+posted_date: 2026-08-04
+url: "https://builtin.com/job/senior-staff-full-stack-engineer-500k-1-5m-salary/9153278"
+source: Built In

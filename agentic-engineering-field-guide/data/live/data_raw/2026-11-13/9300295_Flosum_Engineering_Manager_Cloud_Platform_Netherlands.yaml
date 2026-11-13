@@ -1,0 +1,58 @@
+job_id: 9300295
+title: Engineering Manager, Cloud Platform (Netherlands)
+company: Flosum
+location: NLD
+remote: true
+work_type: FULL_TIME
+company_size: 62 Employees
+description: |
+  We're looking for a technical architect who can drive
+  development velocity across a team of 10–15 engineers
+  building cloud-native applications. This is a hybrid role:
+  deep hands-on technical leadership combined with people
+  management.
+
+  What you'll do
+
+  Lead the architecture, performance, and scalability of our
+  Node.js-based platform running primarily on AWS. While our
+  applications are deployed on AWS today, they are designed to
+  be hyperscaler-agnostic, and you'll ensure architectural
+  decisions preserve that portability across GCP, Azure, and
+  other cloud providers. You'll own the technical direction of
+  the platform, mentor senior engineers, and partner with
+  product and engineering leadership to ship high-quality
+  systems quickly.
+
+  You'll also manage a team of 10–15 developers — setting
+  goals, running 1:1s, growing careers, hiring, and removing
+  blockers. You'll balance roadmap delivery with engineering
+  health: code quality, system reliability, on-call hygiene,
+  and developer experience.
+
+  RequirementsWhat we're looking for
+
+  - 8+ years of software engineering experience, with 3+ years
+    leading engineering teams
+  - Deep expertise architecting distributed systems on AWS
+    (compute, networking, data, IAM, observability)
+  - Strong Node.js background and a clear point of view on
+    building maintainable services at scale
+  - Experience designing platform-agnostic systems that can run
+    on any major hyperscaler
+  - Track record of improving performance, scalability, and
+    deployment velocity in production environments
+  - Proven ability to grow engineers, hire well, and run a team
+    that ships consistently
+
+  Nice to have
+
+  - Experience with multi-cloud or cloud-portable deployments
+    (Kubernetes, Terraform, containerization)
+  - Background scaling SaaS platforms or developer-facing
+    products
+  - AWS certifications (Solutions Architect Professional, DevOps
+    Engineer)
+posted_date: 2026-08-22
+url: "https://builtin.com/job/engineering-manager-cloud-platform-netherlands/9300295"
+source: Built In

@@ -1,0 +1,349 @@
+job_id: 12221128
+title: Gestionnaire de l'ingénierie, Grand livre auxiliaire// Engineering Manager, Subledger
+company: Hopper
+location: CAN
+locations:
+  - CAN
+  - Montréal, CAN
+remote: true
+work_type: FULL_TIME
+company_size: 800 Employees
+description: |
+  À propos du poste À titre de gestionnaire de l'ingénierie
+  pour l'équipe du grand livre auxiliaire, vous serez
+  responsable du système de référence pour chaque transaction
+  financière chez Hopper, assurant l'exactitude des rapports
+  et le rapprochement de tous les mouvements de fonds dans
+  notre écosystème.
+
+   Chaque équipe qui traite des transactions, tant pour la
+  réservation que pour l'après-réservation, dépend du grand
+  livre auxiliaire; vous façonnerez donc l'architecture de la
+  plateforme financière d'Hopper aux côtés des équipes
+  Finances, Comptabilité, Paiements et des équipes
+  d'ingénierie produit qui s'y appuient. Vous serez la
+  personne responsable principale sur le plan technique d'un
+  système où l'exactitude et la traçabilité complète comptent
+  plus que tout, conciliant la rigueur comptable et le
+  jugement technique nécessaire à son évolution.
+
+  À quoi ressemblera votre quotidien
+
+  - Assumer la responsabilité et la gestion de la plateforme de
+    grand livre auxiliaire avec une approche axée sur les
+    résultats, en agissant comme point de contact principal
+    pour les sujets techniques, comptables et opérationnels
+    liés à l'enregistrement et au rapprochement des
+    transactions
+  - Diriger, faire grandir et encadrer une équipe
+    d'ingénieur(e)s, en définissant l'orientation technique et
+    en prônant l'exactitude dans un système où chaque écriture
+    doit balancer
+  - Piloter l'architecture du grand livre auxiliaire, en faisant
+    évoluer la conception actuelle vers la simplicité et
+    l'évolutivité grâce à des abstractions solides et à
+    l'automatisation
+  - Veiller à ce que tous les mouvements de fonds, tant à la
+    réservation qu'après la réservation, soient comptabilisés
+    avec exactitude, avec une traçabilité complète de
+    l'événement source jusqu'au rapport financier
+  - Établir des relations solides de haut niveau avec les
+    équipes Finances et Comptabilité, en traduisant les
+    exigences comptables en conception de système et en
+    signalant tôt les contraintes techniques
+  - Collaborer avec les équipes Paiements, Réservations, Après-
+    réservation et Données qui s'intègrent au grand livre
+    auxiliaire, en vous alignant sur les contrats, les modèles
+    de données et les parcours de migration
+  - Repérer et saisir les occasions de réduire l'effort de
+    rapprochement manuel, de combler les lacunes de production
+    de rapports et d'éliminer des catégories entières d'écarts
+    à la source
+  - Suivre des indicateurs clés comme l'exactitude des
+    rapprochements, le taux de transactions non appariées, les
+    délais du cycle de clôture et la fiabilité du système, et
+    diriger des revues récurrentes avec les Finances et la
+    direction de l'ingénierie
+
+  Le ou la candidat(e) idéal(e) possède
+
+  - Plus de 8 ans d'expérience en génie logiciel, dont plus de 2
+    ans en gestion d'ingénieur(e)s, une expérience en fintech,
+    en paiements ou en systèmes financiers étant un atout
+  - De l'expérience dans la conception et l'exploitation de
+    systèmes transactionnels à haut volume où l'exactitude,
+    l'idempotence et l'auditabilité sont essentielles
+  - Une connaissance pratique des fondements de la comptabilité,
+    dont la comptabilité en partie double, les grands livres
+    et grands livres auxiliaires, le rapprochement et le
+    processus de clôture financière, ainsi que la capacité de
+    les appliquer à la conception de systèmes
+  - Une approche systémique de l'architecture, privilégiant des
+    invariants clairs, des abstractions propres et
+    l'automatisation plutôt que les correctifs ponctuels,
+    ainsi que de l'expérience dans la conduite de refontes ou
+    de migrations d'envergure de systèmes financiers en
+    production
+  - Une communication claire tant avec les comptables qu'avec
+    les ingénieur(e)s, y compris la capacité d'expliquer les
+    compromis techniques à des interlocuteurs non techniques
+  - Un sens de l'organisation et une autonomie marqués dans un
+    environnement en forte croissance
+  - Être établi(e) dans le fuseau horaire de l'Est ou du Centre,
+    avec un chevauchement quotidien avec les équipes Finances,
+    Comptabilité et ingénierie avec lesquelles vous collaborez
+
+  Avantages sociaux
+
+  - Une entreprise en démarrage bien financée et éprouvée, avec
+    de grandes ambitions, un salaire compétitif et les
+    avantages d'un régime d'actions pré-IPO
+  - Hopper couvre 100 % des primes du régime d'assurance
+    collective
+  - Hopper offre une couverture vie, invalidité de courte durée
+    et invalidité de longue durée
+  - Un compte de dépenses santé qui couvre les frais médicaux et
+    dentaires admissibles
+  - Tous les employés et leurs personnes à charge ont accès aux
+    services de télémédecine de Dialogue, en tout temps, où
+    que vous soyez
+  - Tous les employés ont accès à un régime REER avec retenues
+    automatiques avant impôt à chaque paie
+  - Renseignez-vous sur notre congé parental très généreux, bien
+    au-delà des normes de l'industrie
+  - Vacances illimitées
+  - Allocation de voyage Carrot Cash
+  - Accès à un espace de co-travail sur demande via FlexDesk, et
+    une allocation pour le télétravail
+  - Une culture entrepreneuriale où repousser les limites et
+    prendre des risques fait partie du quotidien
+  - Communication ouverte avec la direction et les leaders de
+    l'entreprise
+  - Des équipes petites et dynamiques, un impact considérable
+
+  À propos d'Hopper Chez Hopper, nous bâtissons la principale
+  plateforme technologique de voyage au monde, et nous y
+  parvenons en résolvant de vrais problèmes pour de vrais
+  voyageurs partout dans le monde. Nos plateformes de
+  réservation grand public Hopper et HTS (Hopper Technology
+  Solutions), notre division B2B, travaillent ensemble pour
+  offrir aux voyageurs ce que l'industrie n'a jamais offert de
+  façon fiable : transparence, flexibilité et économies
+  réelles sur chaque voyage. Nous combinons d'immenses
+  quantités de données et l'IA avec des produits fintech
+  exclusifs pour y arriver, non pas un simple moteur de
+  réservation de plus, mais une façon fondamentalement
+  meilleure de planifier et de vivre le voyage, pour nos
+  clients comme pour nos partenaires.
+
+  Nous sommes devenus rentables en 2025, un jalon rare pour
+  une entreprise de voyage en démarrage à notre échelle, et la
+  preuve que ce qui est meilleur pour le client et ce qui est
+  meilleur pour l'entreprise peuvent ne faire qu'un
+
+  Et nous continuons de croître rapidement! L'application
+  Hopper a été téléchargée plus de 120 millions de fois, et 70
+  % de nos utilisateurs font partie de la génération Z et des
+  milléniaux, les voyageurs de la prochaine génération.
+  Aujourd'hui, notre plus grande occasion consiste à propulser
+  la fintech, le commerce et la fidélisation dans le voyage
+  pour certaines des plus grandes marques de l'industrie.
+  Notre premier partenariat HTS, avec Capital One, a contribué
+  au lancement d'un portail de voyage dédié aux titulaires de
+  cartes d'une grande marque financière, et nous avons depuis
+  élargi notre portée auprès de certains des plus grands noms
+  du voyage et de la banque, dont Air Canada, Uber, Banque
+  Royale du Canada (RBC) et Nubank, en propulsant aussi bien
+  une simple intégration fintech qu'un portail de fidélisation
+  voyage complet de bout en bout.
+
+  Voilà notre trajectoire : nous avons commencé comme une
+  petite application disruptive dans l'univers du voyage, et
+  nous sommes aujourd'hui le moteur qui propulse le
+  fonctionnement des technologies de voyage.
+
+  Voici à quoi cela ressemble concrètement :
+
+  - Des milliards de dollars en voyages et en produits fintech
+    de voyage transitent par Hopper et HTS chaque année.
+  - Nos produits fintech, dont Annulation pour toute raison et
+    Assistance en cas de perturbation pour toute raison,
+    affichent une satisfaction client exceptionnellement
+    élevée, parce que les conditions sont claires et les
+    résolutions instantanées, sans poser de questions.
+  - Près de 30 % des clients de l'application ajoutent un
+    produit fintech à leur réservation, et ces clients sont
+    1,6 fois plus susceptibles de réserver de nouveau avec
+    nous.
+  - HTS représente désormais plus de 90 % des activités, preuve
+    de la rapidité avec laquelle le volet B2B s'est développé.
+  - Grâce à HTS, tout fournisseur de services de voyage
+    (compagnies aériennes, hôtels, banques, agences de
+    voyages) peut intégrer les solutions fintech, commerce et
+    IA de l'entreprise à ses propres canaux, qu'il s'agisse
+    d'une simple intégration ou d'un portail de voyage complet
+    de bout en bout.
+
+  Prenez votre envol avec nous! #LI-Remote
+
+  Ce poste utilise des systèmes de prise de décision
+  automatisée pour évaluer l'adéquation des candidatures.
+  Conformément à la réglementation locale, vous avez le droit
+  de comprendre les principaux facteurs utilisés dans cette
+  évaluation, de demander une correction de vos données, ou de
+  demander une révision humaine de toute décision automatisée.
+  Pour exercer ces droits, veuillez communiquer avec
+  privacy@hopper.com.
+  ------------------------------------------------------------
+  ------------------------------------------ About the Role As
+  Engineering Manager for the Subledger team, you will own the
+  system of record for every financial transaction at Hopper,
+  driving accurate reporting and reconciliation across all
+  money movements in our ecosystem. Every team that processes
+  transactions, for both booking and post-booking, depends on
+  the subledger, so you will shape Hopper's financial platform
+  architecture alongside Finance, Accounting, Payments, and
+  the product engineering teams that rely on it. You will be
+  the primary technical owner of a system where accuracy and
+  full traceability matter most, balancing accounting rigor
+  with the engineering judgment needed to keep it evolving.
+
+  What would your day-to-day look like
+
+  - Own and manage the subledger platform with an outcomes-based
+    mindset, serving as the primary point of contact for
+    technical, accounting, and operational topics related to
+    transaction recording and reconciliation
+  - Lead, grow, and mentor a team of engineers, setting
+    technical direction and championing correctness in a
+    system where every entry must balance
+  - Drive the architecture of the subledger, evolving the
+    current design toward simplicity and scalability through
+    sound abstractions and automation
+  - Ensure all money movements across booking and post-booking
+    flows are accurately accounted for, with full traceability
+    from source event to financial report
+  - Build strong, senior-level relationships with Finance and
+    Accounting, translating accounting requirements into
+    system design and surfacing technical constraints early
+  - Partner with the Payments, Bookings, Post-Booking, and Data
+    teams that integrate with the subledger, aligning on
+    contracts, data models, and migration paths
+  - Identify and act on opportunities to reduce manual
+    reconciliation effort, close reporting gaps, and eliminate
+    classes of discrepancies at the source
+  - Track KPIs such as reconciliation accuracy, unmatched
+    transaction rates, close-cycle timelines, and system
+    reliability, and lead recurring reviews with Finance and
+    engineering leadership
+
+  An ideal candidate has
+
+  - 8+ years of software engineering experience, including 2+
+    years managing engineers, with fintech, payments, or
+    financial systems experience a plus
+  - Experience designing and operating high-volume transactional
+    systems where correctness, idempotency, and auditability
+    are critical
+  - Working knowledge of accounting fundamentals, including
+    double-entry bookkeeping, ledgers and subledgers,
+    reconciliation, and the financial close process, and the
+    ability to apply them to system design
+  - A systems-minded approach to architecture, favoring clear
+    invariants, clean abstractions, and automation over one-
+    off fixes, plus experience leading large refactors or
+    migrations of production financial systems
+  - Clear communication with both accountants and engineers,
+    including the ability to explain technical trade-offs to
+    non-technical stakeholders
+  - Strong organization and self-direction in a high-growth
+    environment
+  - Based in the Eastern or Central time zone, with daily
+    overlap across the Finance, Accounting, and engineering
+    teams you partner with
+
+  Perks and benefits of working with us
+
+  - Well-funded and proven startup with large ambitions,
+    competitive salary and upsides of pre-IPO equity packages
+  - Hopper covers 100% of the premiums for group insurance plan
+  - Hopper offers life, short term and long term disability
+    coverage
+  - HSA that covers eligible medical and dental expenses
+  - All employees and dependents have access to Dialogue's
+    telemedicine services, anytime, anywhere
+  - All employees have access to an RRSP plan with automatic
+    pre-tax withdrawals per pay
+  - Please ask us about our very generous parental leave, much
+    above industry standards!
+  - Unlimited PTO
+  - Carrot Cash travel stipend
+  - Access to co-working space on demand through FlexDesk AND
+    Work-from-home stipend
+  - Entrepreneurial culture where pushing limits and taking
+    risks is everyday business
+  - Open communication with management and company leadership
+  - Small, dynamic teams = massive impact
+
+  About Hopper At Hopper, we're building the leading travel
+  technology platform in the world, and we're doing it by
+  solving real problems for real travelers globally. Our
+  Hopper consumer booking platforms and HTS (Hopper Technology
+  Solutions), our B2B business, work together to give
+  travelers something the industry has never reliably offered:
+  transparency, flexibility, and real savings on every trip.
+  We combine massive amounts of data and AI with proprietary
+  fintech products to make that happen, not just another
+  booking engine, but a fundamentally better way to plan and
+  experience travel for our customers and our partners.
+
+  We turned profitable in 2025, a rare milestone for a travel
+  startup at our scale, and proof that better-for-the-customer
+  and better-for-the-business can be one in the same
+
+  And we're continuing to grow fast! The Hopper app has been
+  downloaded over 120 million times, with 70% of our users
+  being Gen Z and Millennials, next-generation travelers.
+  Today, our biggest opportunity is powering travel fintech,
+  commerce, and loyalty for some of the biggest brands in the
+  industry. Our first HTS partnership with Capital One helped
+  launch a dedicated travel portal for a major financial
+  brand's cardholders, and we've since expanded across some of
+  the biggest names in travel and banking, including Air
+  Canada, Uber, Royal Bank of Canada (RBC), and Nubank,
+  powering everything from a single fintech integration to a
+  full end-to-end travel loyalty portal.
+
+  That's our trajectory: we started as a small, disruptive app
+  within the travel space, and now we're the engine under the
+  hood powering how Travel Tech works.
+
+  What that looks like in practice:
+
+  - Billions of dollars in travel and travel fintech move
+    through Hopper and HTS every year.
+  - Our fintech products, including Cancel for Any Reason and
+    Disruption Assistance for Any Reason, post exceptionally
+    strong customer satisfaction because the terms are clear
+    and resolutions are instant, no questions asked.
+  - Nearly 30% of app customers add a fintech product to their
+    booking, and those customers are 1.6x more likely to book
+    with us again.
+  - HTS now drives more than 90% of the business, proof of how
+    fast B2B has scaled.
+  - Through HTS, any travel provider (airlines, hotels, banks,
+    travel agencies) can plug the company's fintech, commerce
+    and AI solutions into their own channels, whether that's a
+    single integration or a full end-to-end travel portal.
+
+  Come take off with us! #LI-Remote
+
+  This role utilizes automated decision-making systems to
+  assess candidate suitability. Under local regulations, you
+  have the right to understand the principal factors used in
+  this assessment, request a correction of your data, or
+  request a human review of any automated decision. To
+  exercise these rights, please contact privacy@hopper.com
+posted_date: 2026-11-13
+url: "https://builtin.com/job/gestionnaire-de-l-ing-nierie-grand-livre-auxiliaire-engineering-manager-subledger/12221128"
+source: Built In

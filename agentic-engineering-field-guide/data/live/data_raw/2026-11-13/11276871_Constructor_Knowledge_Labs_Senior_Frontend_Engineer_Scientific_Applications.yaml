@@ -1,0 +1,109 @@
+job_id: 11276871
+title: Senior Frontend Engineer — Scientific Applications
+company: Constructor Knowledge Labs
+location: DEU
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  Location: Remote within Europe, with regular presence in
+  Bremen
+
+  Direct Reports: None
+
+  Working Model: Remote / hybrid. Regular time on-site in
+  Bremen.
+
+  Mission
+
+  Own the interface layer for a scientific platform used by
+  research teams to run complex physical experiments. The work
+  is heavier than typical product frontend — live experiment
+  monitoring, workflow graphs, large result sets, and users
+  who are physicists rather than consumers. The Senior
+  Frontend Engineer owns that layer end to end and sets the
+  standard for it.
+
+  Responsibilities
+
+  Pillar 1 Frontend Ownership
+
+  - Own the architecture, code and standards for the platform
+    frontend.
+  - Build and maintain complex interactive visualisation:
+    directed workflow graphs, live monitoring, large-scale
+    result inspection.
+  - Handle long-running asynchronous work properly — progress,
+    failure states, partial results.
+  - Lead the migration to the Constructor React component
+    library.
+
+  Success Metrics and KPIs: interface stability, adoption by
+  the research team, migration delivered.
+
+  Pillar 2 Quality and Practice
+
+  - Bring test coverage and review discipline to a codebase
+    built at research pace.
+  - Establish component standards and a shared design language
+    with the wider Constructor frontend group.
+  - Reach into the backend when that is what unblocks the work.
+
+  Success Metrics and KPIs: test coverage, defects reaching
+  users, review turnaround.
+
+  Pillar 3 Working with Scientists
+
+  - Work directly with the physicists who use the interface.
+    Understand the experiment, not just the ticket.
+  - Turn vague scientific requirements into concrete interface
+    decisions.
+
+  Accountability: researchers able to run and monitor
+  experiments without asking for help.
+
+  Requirements
+
+  Experience
+
+  - 8+ years frontend engineering with strong React. We will
+    also talk to you if your recent work has been Svelte, Vue
+    or Angular.
+  - Data visualisation beyond charting libraries — D3, custom
+    SVG, graph layout algorithms.
+  - TypeScript at production scale.
+  - Comfortable writing backend code in Python or similar when
+    needed.
+
+  Skills & Competencies
+
+  - Able to own a layer alone and still work well in a team.
+  - Honest about technical debt and weaknesses in your own work.
+  - Good judgement on when to build custom and when to use what
+    exists.
+  - Clear communication with non-frontend colleagues.
+
+  Education & Languages
+
+  - Degree in computer science, engineering or equivalent
+    practical track record.
+  - Fluent English.
+
+  What This Role Is (and Is Not)
+
+  This role IS
+
+  - Full ownership of a complex, technically interesting
+    frontend.
+  - A role with peers and code review, in a group that values
+    the work.
+  - Hands-on individual contribution at senior level.
+
+  This role is NOT
+
+  - A design role.
+  - A management role.
+  - Standard CRUD product work.
+posted_date: 2026-09-21
+url: "https://builtin.com/job/senior-frontend-engineer-scientific-applications/11276871"
+source: Built In

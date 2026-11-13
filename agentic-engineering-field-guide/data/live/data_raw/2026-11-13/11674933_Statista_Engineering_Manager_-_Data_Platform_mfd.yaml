@@ -1,0 +1,130 @@
+job_id: 11674933
+title: Engineering Manager - Data Platform (m/f/d)
+company: Statista
+location: Hamburg, DEU
+locations:
+  - Hamburg, DEU
+  - Berlin, DEU
+work_type: FULL_TIME
+company_size: 1,400 Employees
+description: |
+  At Statista, we’re all about facts and data, for we are the
+  world's leading business data platform. By providing
+  reliable and easy-to-use data as well as various data
+  analytics products and services, we empower people worldwide
+  to make fact-based decisions.
+
+  Founded in Hamburg in 2007, we have quickly grown into a
+  global company with offices in major cities such as London,
+  New York, Berlin and Tokyo. And we still have a lot of
+  plans. Our constant growth does not only prove our success,
+  but also keeps creating new development and career
+  opportunities for our employees.
+
+  We value and celebrate our diverse culture. You are welcome
+  here for who you are, no matter where you come from, what
+  you look like, or whether you prefer bar graphs to pie
+  charts. Your story matters – keep writing it as part of our
+  team.
+
+  Are you ready to join us?
+
+  Your Job
+
+  As Engineering Manager, Data Platform at Statista, you’ll
+  lead the engineers building a platform-as-a-product that
+  helps teams manage and share trusted data. You’ll make it
+  easier for data producers to get started while ensuring the
+  platform is secure, reliable and cost-conscious as it grows.
+
+  You’ll work closely with the Senior Platform Product
+  Manager: they lead product vision and priorities; you lead
+  the people, technical delivery and day-to-day operation of
+  the platform. The role spans Snowflake-based data
+  infrastructure and event streaming via Kafka.
+
+
+
+  What You’ll Do
+
+  - Lead and grow the team. Lead a mixed team of DevOps,
+    software and data engineers with shared ownership, on-call
+    and standards. Grow people through clear expectations,
+    regular feedback and real ownership, and hire as the
+    platform grows.
+  - Run the platform as a product. Partner with the Senior
+    Platform Product Manager, make it easy for teams to put
+    their data on the platform: quick setup, fast reviews,
+    clear documentation, and a say in how the platform
+    develops. Work with data producers, Analytics Engineering
+    and other Statista group companies as partners, not just
+    users.
+  - Build trust into the platform. Guide the use of access
+    controls, cost safeguards, audits, data contracts and
+    metadata so teams can share data safely with people, APIs
+    and AI-powered applications.
+  - Own reliable event streaming. Run Kafka as the backbone that
+    distributes data and content across Statista: reliable,
+    well monitored, and easy for teams to publish to and
+    consume from.
+  - Set technical direction. Guide architecture and build-
+    versus-buy decisions, review designs and pull requests,
+    and use AI and automation where they improve the team's
+    work. You'll stay technically engaged without being
+    expected to code every day.
+
+
+
+  Your Skills
+
+  - At least five years of experience leading engineering teams,
+    ideally in data platforms, platform engineering or
+    infrastructure. You know how to develop senior engineers
+    and unite people with different technical backgrounds.
+  - A strong foundation in data or platform engineering, with
+    the confidence to contribute to architecture discussions
+    and design reviews. You're familiar with cloud data
+    warehouses, ideally Snowflake, and tools or practices such
+    as dbt and orchestration.
+  - Hands-on experience with infrastructure as code (IaC) using
+    Terraform. You're comfortable with Kubernetes, CI/CD and
+    AWS.
+  - Experience operating event-streaming systems such as Kafka,
+    Amazon MSK, Confluent or Redpanda, including a schema
+    registry.
+  - You understand data governance, including access models,
+    data contracts, catalogues and lineage. You balance useful
+    safeguards with a straightforward experience for the teams
+    using the platform.
+  - You use AI tools and agentic workflows in your daily work
+    and help your team do the same. You understand how AI
+    agents consume data and know how to make the platform and
+    its data assets work well for agents accessing them
+    through MCP or A2A.
+
+  What we offer
+
+  In addition to our great team, culture, and our shared goal
+  of empowering people with data, there are many other things
+  that make Statista a great place to work! Join us and
+  benefit from:
+
+  - Work from abroad up to 30 calendar days a year
+  - Hybrid work and flex-time
+  - International team and social events
+  - Subsidized urban mobility and access to fitness and wellness
+    options
+  - Free access to Langdock and all its amazing functionalities
+  - Career & training opportunities
+  - Attractive locations and modern offices
+  - Mental health support with OpenUp
+
+  Some of the benefits listed here apply only to the German
+  entity and to Junior-level roles or above.
+industries:
+  - Information Technology
+  - Marketing Tech
+  - Database
+posted_date: 2026-10-14
+url: "https://builtin.com/job/engineering-manager-data-platform-m-f-d/11674933"
+source: Built In

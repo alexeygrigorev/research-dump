@@ -1,0 +1,137 @@
+job_id: 11145464
+title: Analytics Engineering Manager
+company: Tala
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 484 Employees
+description: |
+  About Tala
+
+
+
+  Tala is the AI-native credit infrastructure that connects
+  global capital to the global majority.  We combine
+  proprietary risk intelligence with an expanding network of
+  capital and distribution partners to power credit access at
+  scale. To date, Tala has distributed more than $9 billion in
+  capital to more than 14 million customers across Africa,
+  Latin America, and Asia, building the definitive contextual
+  dataset on thin-file borrowers in emerging markets. Tala is
+  now converting that foundation into shared infrastructure
+  that partners, capital providers, and ecosystems can build
+  on.  The company has been named to the Fortune Impact 20
+  list, CNBC’s World’s Top Fintech Companies twice, CNBC
+  Disruptor 50 for five years, and Forbes’ Fintech 50 list for
+  ten years running.
+
+
+
+  Given the global nature of our team, we operate on a remote-
+  first approach with office hubs in Santa Monica, CA (HQ);
+  Nairobi, Kenya; Mexico City, Mexico; Manila, the
+  Philippines; and Bangalore, India.
+
+
+
+  Most Talazens join us because they connect with our mission.
+  If you are energized by the impact you can make at Tala,
+  we’d love to hear from you!
+
+  The Role
+
+  The Analytics Engineering Manager leads the Analytics
+  Engineering team and is the senior technical leader for the
+  horizontal platform initiatives that make Tala's data
+  usable, trusted, and fast to work with across markets. This
+  person has the authority to set priorities, the technical
+  depth to lead the architecture, and the judgment to know
+  when to build and when to delegate.
+
+  This is a hands-on management role: part people manager,
+  part senior architect/builder. The person in this seat
+  manages the Analytics Engineering team, oversees the quality
+  and pace of its work, and acts as lead architect on selected
+  platform initiatives, setting architecture and sequencing
+  for work spanning Analytics Engineering and the data
+  infrastructure they depend on. They are also expected to
+  propose and drive changes that help the team deliver faster
+  and more efficiently. When the work calls for it, they build
+  alongside the engineers delivering it — not as additional
+  throughput, but as the senior technical voice shaping how it
+  gets built. Their time is split between leading the team,
+  architecting selected initiatives, and building, and the
+  balance shifts with what is blocking delivery.
+
+  What You'll Do:
+
+  - Lead, coach, and develop the Analytics Engineering team: set
+    clear expectations, run planning and prioritization, give
+    regular feedback, and support hiring, performance, and
+    career growth.
+  - Oversee the team's delivery: review designs and code, track
+    commitments against dates, and raise risks and trade-offs
+    early.
+  - Propose and drive ways for the team to go faster and spend
+    less effort per delivery, such as better tooling,
+    automation, shared standards, and AI-assisted workflows,
+    and see the adopted ones through to completion.
+  - Decide where to build directly, where to delegate, and where
+    to step in as lead architect, based on what is actually
+    blocking delivery.
+  - Lead the architecture for key horizontal projects in close
+    partnership with the team. Accountable for taking
+    initiatives to the finish line.
+  - Make and document the sequencing calls on team initiatives:
+    what gets finished, what gets deferred, and what gets
+    stopped.
+  - Provide senior technical review on architecture decisions
+    before Tala commits engineering capacity to them.
+  - Design for governance and compliance from the outset (Tala
+    operates under distinct regulatory regimes).
+  - Clear dependency chains and unblock ICs across teams by
+    removing tech debt, resolving ambiguity, and forcing
+    decisions to closure.
+  - Build production data assets, services, and tooling directly
+    when it is the fastest way to unblock delivery; such as
+    models, pipelines, SDKs or agent harnesses.
+  - Work alongside the Analytics Engineering team's engineers on
+    shared initiatives, adding senior capacity to work that is
+    currently single-threaded through individual engineers.
+  - Own end-to-end delivery of specific platform assets, whether
+    built directly or by the team.
+  - Define and set standards for how Tala's Analytics functions
+    use AI in daily workflow — code generation, model
+    development, documentation, testing, and self-serve
+    analysis.
+  - Build the context and guardrail layer that lets AI agents
+    query governed metrics safely, so capability and
+    compliance ship together rather than sequentially.
+  - Move the organization from experimentation to adopted
+    practice with documented patterns and best practices.
+  - Raise the technical bar through design review, pairing, and
+    documented standards.
+  - Reduce friction to access and understand data; treat data
+    education and documentation as core deliverables, not
+    afterthoughts.
+  - Develop senior engineers into technical leads so that
+    architecture ownership spreads further across the team.
+
+  What You'll Need:
+
+  Our vision is to build a new financial ecosystem where
+  everyone can participate on equal footing and access the
+  tools they need to be financially healthy. We strongly
+  believe that inclusion fosters innovation and we’re proud to
+  have a diverse global team that represents a multitude of
+  backgrounds, cultures, and experience. We hire talented
+  people regardless of race, religion, color, national origin,
+  gender, gender expression, sexual orientation, age, marital
+  status, veteran status, or disability status.
+industries:
+  - Fintech
+  - Mobile
+  - Financial Services
+posted_date: 2026-09-11
+url: "https://builtin.com/job/analytics-platforms-architect/11145464"
+source: Built In

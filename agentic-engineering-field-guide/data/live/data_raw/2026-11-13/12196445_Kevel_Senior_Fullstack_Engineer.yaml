@@ -1,0 +1,216 @@
+job_id: 12196445
+title: Senior Fullstack Engineer
+company: Kevel
+location: ESP
+locations:
+  - ESP
+  - HUN
+  - DEU
+  - DNK
+  - PRT
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 78 Employees
+description: |
+  Kevel is transforming the retail media space with its
+  cutting-edge, AI-driven ad tech infrastructure APIs that
+  power the Retail Media Cloud™. This groundbreaking solution
+  combines the power of AI insights with API-based technology,
+  allowing multi-brand retailers to build dynamic,
+  customizable ad platforms while maintaining full control of
+  their first-party data. With Kevel, retailers can deliver
+  personalized shopper experiences, optimize ad targeting, and
+  unlock predictive insights to stay ahead in an ever-evolving
+  market.
+
+  JOB OVERVIEW: Kevel Console is Kevel's omnichannel
+  advertiser self-serve platform. It lets media owners,
+  especially retail and commerce media networks, hand campaign
+  management and reporting directly to their advertisers,
+  across onsite and offsite channels such as Meta, Google and
+  Adform.  As a Senior Fullstack Engineer on the Console team,
+  you'll help modernize the systems behind the product,
+  improve its reliability and robustness, and build the new
+  features that win and grow customers. Learn more about
+  Console: https://dev.kevel.com/docs/introduction-to-kevel-
+  console.
+
+  LOCATION: REMOTE – UK, Portugal, Spain, Germany, Hungary, or
+  other EU countries. This is a fully remote role. Applicants
+  must be legally authorized to work in their country of
+  residence.
+
+  PAY TRANSPARENCY:  Kevel uses external, third-party market
+  data to determine compensation for all open positions. Our
+  compensation philosophy is based on the candidate’s specific
+  working location and experience level. This means that we
+  will take a no negotiation approach in our recruitment and
+  offer processes. We believe this is an important step in
+  living our value of embracing diversity while underlining
+  our commitment to fair, equitable and inclusive pay
+  practices. An exact offer for this position will be
+  determined based on the candidate's working location and
+  experience level, in relation to our existing team.
+
+  All compensation packages include the additional benefits as
+  described in the 'Why you'll love working with us' section
+  below. We also have a transparent ‘Total Rewards Philosophy’
+  we’d be happy to share with you which describes our overall
+  approach to compensation and benefits in full detail! Our
+  recruitment team can share more about this with you in an
+  initial phone interview and will be happy to answer any
+  questions you have related to compensation at Kevel!
+
+  WHAT YOU'LL ACCOMPLISH:
+
+  - Improve the platform's architectural qualities, helping
+    ensure our foundation provides the scalability,
+    reliability, security and performance our global customers
+    require.
+  - Work closely with the product management team to help design
+    and build new features.
+  - Help provide operational oversight for the platform, making
+    sure we are up and running 24/7.
+  - Work closely with our customer success teams to deliver
+    value and drive growth.
+
+  SKILLS YOU'LL BRING WITH YOU:
+
+  - MUST HAVES:
+    - Experience building and operating distributed systems in a
+      cloud environment.
+    - Experience designing and developing across multiple layers
+      of an application.
+    - Experience designing or maintaining latency-sensitive
+      systems with tight response-time requirements.
+    - Proficiency with relational and non-relational databases,
+      including transactional data models.
+    - Strong programming experience in at least one production
+      backend language, ideally Clojure, Rust, Node.js, Java,
+      Kotlin, Scala, or another JVM language.
+    - Experience with HTTP-based APIs and production service
+      integrations.
+    - Comfortable participating in an on-call rotation with clear
+      escalation paths.
+
+  - PREFERRED / NICE TO HAVES:
+    - Experience working with cloud platforms (AWS and/or Google
+      Cloud Platform).
+    - Knowledge of React.js/TypeScript and modern frontend
+      development standards.
+    - Experience with Docker, Kubernetes and container
+      orchestration.
+    - Hands-on experience with CI/CD pipelines and infrastructure-
+      as-code.
+
+    - Experience modernizing legacy systems while keeping
+      production systems highly available.
+    - Experience supporting globally distributed, multi-region
+      services.
+    - Experience working closely with product and customer-facing
+      teams on technical product features.
+    - Contributing to technical decisions and direction in a
+      collaborative team environment, including architecture,
+      estimation, product planning and user story/requirement
+      creation.
+    - Curiosity for emerging technologies and a commitment to
+      continuous learning.
+    - Excellent problem-solving, communication and mentoring
+      skills.
+    - Empathy and the ability to support, coach and empower
+      colleagues to deliver their best.
+    - Self-driven, with a desire to improve processes, teams and
+      engineering practices.
+
+  WHY YOU'LL LOVE WORKING WITH US:
+
+  - Fully Remote Team: We are a 100% remote work environment
+    with employees located around the world. You are welcome
+    to work from home, one of our offices, a WeWork office, or
+    an equivalent co-working space.
+  - Flexible Working Hours: We understand our employees have
+    their own lives, responsibilities and working preferences.
+    We trust our employees to communicate with their managers,
+    and work when they work best.
+  - Comprehensive Health Benefits - Kevel provides 100% employer
+    paid medical benefits for our employees and their
+    children, plus comprehensive, affordable coverage for all
+    other dependents.
+  - Savings opportunity for the Future: Kevel offers retirement
+    savings plans with employer contributions so employees can
+    save toward future financial objectives.
+  - Rest and Relaxation: Unlimited personal time off - and we
+    mean it! We trust our employees to take the time they
+    need, whenever they need it. We also offer Paid Holidays +
+    a Kevel Holiday Break (from 12/24 - 1/1 every year!)
+  - Kevelfest: Our annual corporate retreat! The entire Kevel
+    team gets together once a year for a four - day in -
+    person event filled with collaboration, team building,
+    celebration and fun!
+  - Home Office Stipend: You’ll receive a new windows or mac
+    machine (your choice) + a $500 home office allowance to
+    purchase what you need to set up your work space properly!
+  - Parental Leave Support: We support all parents with salary
+    continuation and benefits when our employees are growing
+    their families.
+  - Free press benefits: Kevel believes all employees should
+    have access to legitimate news sources. You’ll receive a
+    $300 annual allowance to subscribe to the news source of
+    your choice.
+  - You’ll work with an award winning team! We’ve won numerous
+    Best Places to Work Awards for several years and counting!
+    We’ve also won many awards for our Innovation, Business
+    Intelligence, and our best-in-class products (Software of
+    the Year, Cloud Company of the Year, Best Ad Tech and API
+    Innovator).
+  - Full transparency. We embrace transparency and encourage you
+    to read more about what we value through our Company
+    Constitution and Employee Bill of Rights, our About Kevel
+    page, and Careers Page.
+
+  Hiring Guidelines by Country: Kevel hires new team members
+  in countries around the world. Some roles may carry specific
+  location-based eligibility requirements. Our Recruitment
+  Team will share the specific benefits that are available in
+  your location, and can help answer any questions about
+  location specific eligibility requirements and benefits
+  after the recruitment process begins.
+
+  ABOUT KEVEL:
+
+  Kevel (previously Adzerk) offers the infrastructure APIs
+  needed to quickly build custom ad platforms for sponsored
+  listings, internal promotions, native ads, and more. We are
+  committed to helping publishers drive new revenue and take
+  back the Internet from ad tech giants like Google, Amazon,
+  and Facebook. Kevel was founded in 2010 in Durham, North
+  Carolina. We embrace remote working culture with our entire
+  team being spread across the United States, United Kingdom,
+  Portugal and Singapore! Kevel is proud to be an inclusive
+  workplace with one goal in common — we want to make the
+  internet a better place.
+
+  ALL APPLICANTS ARE WELCOME, EXACTLY AS YOU ARE:
+
+  We’re building a global community - one that’s safe for
+  people of all backgrounds and walks of life. Our policies
+  and way of working are guided by our core values of
+  inclusivity, trust, empathy, and respect. We know we have
+  more work to do, but firmly believe that our work is at its
+  best when everyone feels free to be their most authentic
+  selves. Kevel is an equal opportunity employer, and we’re
+  proud of our ongoing efforts and commitment to creating a
+  diverse, inclusive, and transparent workplace where everyone
+  feels respected, heard, safe and accepted. At Kevel, we
+  embrace our differences and consider diversity a superpower
+  that drives the success of our organization. Individuals
+  seeking employment at Kevel are considered without regard to
+  race, color, religion, national origin, age, sex, gender,
+  gender identity, gender expression, sexual orientation,
+  marital status, medical condition, ancestry, disability,
+  military or veteran status, or any other characteristic
+  protected by applicable law.
+posted_date: 2026-11-12
+url: "https://builtin.com/job/senior-fullstack-engineer/12196445"
+source: Built In

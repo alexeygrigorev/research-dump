@@ -1,0 +1,123 @@
+job_id: 9512337
+title: Senior ASIC Front End Infrastructure Engineer
+company: NVIDIA
+location: Austin, USA
+locations:
+  - Austin, USA
+  - Durham, USA
+  - Westford, USA
+  - Santa Clara, USA
+work_type: FULL_TIME
+company_size: 21,960 Employees
+description: |
+  NVIDIA is seeking elite ASIC Infrastructure engineers to
+  deliver the tooling and environment that enables DV and RTL
+  Design for the world's leading GPUs. This position offers
+  the opportunity to have a real impact on a dynamic,
+  technology-focused company impacting product lines ranging
+  from consumer graphics to artificial intelligence, self-
+  driving cars, and supercomputers.
+
+
+
+  Our team of dedicated Infrastructure engineers continuously
+  upgrades the NVIDIA Hardware design environment. We focus
+  relentlessly on Infrastructure improvement so that HW
+  designers can focus relentlessly on their jobs, with
+  Infrastructure that “just works” at worldwide scale and peak
+  performance. Do you like root causing a flow failure, even
+  if it’s rare and hard to reproduce, and others have given
+  up? Rapidly learning and deploying best in class internal
+  and industry solutions including AI harnesses in secure
+  environments that you then use to build Skills and Agents
+  for Infrastructure Automation? Instrumenting flows to
+  measure performance and then improving efficiency? Can you
+  do that at scale, seamlessly transitioning teams from old
+  flows? Then join us!
+
+  What you'll be doing:
+
+  - Deploy AI toolsets at scale in secure configurations for use
+    by all HW Design teams
+  - Use ML/DL/AI techniques to automate Infrastructure work and
+    improve Design team productivity
+  - Improve the speed, flexibility and extensibility of the GPU
+    front end build flow
+  - Keep the GPU Continuous Integration system at the cutting
+    edge of source management methodologies
+  - Guide compute farm, filer, and network topology requirements
+    at cloud scale
+  - Deploy and continuously improve compute farm technologies
+    such as containers, volume cloning, distributed storage
+    and distributed compute at cloud scale
+  - Forecast HW Design compute resource and EDA needs, with
+    reporting up to the CFO’s office
+  - Deploy tracking metrics to resolve operational issues, drive
+    forecasting, and improve design productivity
+  - Deploy information security methods for HW design
+  - Remove inefficiency wherever you can find it!
+
+  What we need to see:
+
+  - Masters Degree in Electrical Engineering, Computer
+    Engineering, Computer Science or related or equivalent
+    experience
+  - 8+ years of relevant work experience
+  - Programming proficiency in Python, Perl, or other Systems
+    Programming language. OO design preferred.
+  - Experience using AI tools for development and automation
+  - Experience with Make based build systems in large,
+    distributed computing environments
+  - Continuous Integration pipeline and/or pre-submit
+    verification flow experience, for example using Jenkins
+  - You should display a tenacity to root cause and fix
+    Infrastructure problems, especially intermittent, hard to
+    isolate issues in a complex computing environment
+  - Verification domain knowledge with complex ASICs or CPUs
+    using techniques such as random stimulus, functional
+    coverage and assertion-based verification methodologies
+  - Strong problem-solving, debugging and analytical skills
+  - Good interpersonal skills and ability & desire to work as a
+    great teammate
+
+
+
+  NVIDIA is widely considered to be one of the technology
+  world’s most desirable employers. We have some of the most
+  brilliant and talented people in the world working for us.
+  Are you creative and autonomous? Do you love the challenge
+  of crafting the most sophisticated chips in the world? If
+  so, we want to hear from you!
+
+  Your base salary will be determined based on your location,
+  experience, and other objective job-related factors. The
+  expected base salary ranges for this position are: 184,000
+  USD – 287,500 USD for Level 4; and 224,000 USD – 356,500 USD
+  for Level 5.
+
+  You will also be eligible for equity and benefits.
+
+  Applications for this job will be accepted at least until
+  November 8, 2026.
+
+  This posting is for an existing vacancy.
+
+  NVIDIA uses AI tools in its recruiting processes.
+
+  NVIDIA is committed to fostering an inclusive work
+  environment and proud to be an equal opportunity employer.
+  As we highly value diversity in our current and future
+  employees, we do not discriminate (including in our hiring
+  and promotion practices) on the basis of race, religion,
+  color, national origin, gender, gender expression, sexual
+  orientation, age, marital status, veteran status, disability
+  status or any other characteristic protected by law.
+industries:
+  - Artificial Intelligence
+  - Computer Vision
+  - Hardware
+  - Robotics
+  - Metaverse
+posted_date: 2026-11-04
+url: "https://builtin.com/job/senior-asic-front-end-infrastructure-engineer/9512337"
+source: Built In

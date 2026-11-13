@@ -1,0 +1,207 @@
+job_id: 11959316
+title: Software Engineer, Flights
+company: Nuitée
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  About the company
+
+  At Nuitée, we are building the API backbone for the global
+  travel industry. Founded in 2017, Nuitée is on a mission to
+  transform a fragmented travel ecosystem with simple,
+  scalable, and API-first infrastructure—think “Stripe for
+  Travel.”
+
+  By enabling seamless connectivity between hotels, OTAs,
+  fintechs, super-apps, and businesses, some of which are
+  entering the travel market for the first time, Nuitée
+  empowers companies to deliver reliable travel products
+  effortlessly. Our robust platform simplifies complex
+  supplier networks, offering direct access to hotel inventory
+  with better pricing, coverage, and technology.
+
+  With teams across the globe, including hubs in London, New
+  York, San Francisco, Palma de Mallorca and Casablanca,
+  Nuitée has grown into a global infrastructure provider
+  trusted by industry leaders like Hopper, Priceline, Google,
+  and Uber.
+
+  Now backed by leading VCs and world-class investors
+  including leaders from Booking.com, Stripe, and Shopify,
+  Nuitée is positioned to redefine the B2B travel market,
+  streamline operations for hotels, and enable new
+  applications through cutting-edge APIs.
+
+  Nuitée is at the forefront of a revolution—delivering AI-
+  powered, smarter, and more personalized travel experiences
+  for a new era.
+
+  About the role Remote in Europe, or hybrid in Barcelona,
+  Dublin, London, or Palma. Flights is live and growing. You'd
+  be one of a handful of engineers deciding how it scales.
+
+  We built Nuitée's flights product from scratch, and that 0
+  to 1 phase is done. It works, it's in production, and the
+  next stage is taking it from 1 to 10: turning a working
+  product into flight infrastructure that other companies can
+  build on with confidence.
+
+  You'd join a small team; meaning the decisions you make on
+  API design, caching, data models, and reliability end up in
+  the product directly, with no layers of committees in
+  between.
+
+  The domain is one of the hardest in travel. Flight offers
+  change constantly, airlines are moving toward offer and
+  order based retailing, and the work doesn't stop at search.
+  Every change after a booking (a new date, a cancellation, a
+  refund) has to flow cleanly through our APIs. We're building
+  this as low-code API infrastructure, so a fintech or super-
+  app can launch a flight product without becoming an airline
+  expert.
+
+  What makes it interesting for you
+
+  - Real ownership in a small team. You won't be one of dozens
+    of engineers maintaining a mature service. Large parts of
+    how Flights scales will carry your fingerprints.
+  - The risky part is behind you. The product exists and works.
+    Your energy goes into making it faster, deeper, and more
+    robust.
+  - A genuinely hard technical domain. Airline retailing,
+    booking servicing, and caching volatile prices at scale
+    are problems most backend engineers never get to touch.
+  - Reach beyond travel companies. Our APIs let banks, fintechs,
+    and super-apps offer travel to their users, some of them
+    for the first time.
+  - You’re trusted, and you’ll enjoy the team. The culture is
+    results-oriented, with real autonomy over how you organise
+    your work. The team is supportive and easy to work with.
+
+  Nuitée has grown 10x since 2022, was profitable before
+  raising a $48M Series A led by Accel, and works with
+  companies such as Revolut, Grab, Hopper, Priceline, and
+  Sabre.
+
+  The kind of problems you'll work on
+
+  - How do we cache flight offers aggressively enough to stay
+    fast and cost efficient, without serving stale prices or
+    availability?
+  - How do we handle changes, cancellations, and refunds on a
+    booking cleanly across different airlines and suppliers?
+  - How do we design APIs simple enough that a partner can
+    launch flights without learning airline retailing first?
+  - How do we support NDC and offer and order based retailing
+    (OOSD) while much of the industry still runs on legacy GDS
+    flows?
+
+  This role fits if you
+
+  - Have worked in the flights domain, at an OTA, airline, GDS,
+    distributor, or flight booking platform, and understand
+    how flight bookings work end to end.
+  - Have hands-on experience with NDC.
+  - Have 8+ years in software development, with deep backend and
+    API experience.
+  - Have real experience with Python, even if your main language
+    is another object-oriented language like Java, Go, or
+    Kotlin.
+  - Are a hands-on IC and want to stay one.
+  - Are based in Europe or work comfortably in a European time
+    zone.
+
+  AWS experience at developer level is a strong plus, as are
+  booking servicing, GDS integrations (Amadeus, Sabre,
+  Travelport), high-traffic systems, FastAPI, Redis, and
+  relational databases.
+
+  Nuitée moves quickly, has little process, and gives people a
+  lot of room to make decisions. You'll do well here if
+  ambiguity does not slow you down, you like going deep into
+  difficult problems, and you want to be accountable for what
+  your code actually delivers.
+
+  If this sounds like your kind of backend role, we'd love to
+  hear from you.
+
+  Why Nuitee?
+
+  At Nuitée, we’re not just reimagining travel—we’re building
+  the infrastructure to power it.
+
+  - Massive Market Opportunity: We are tackling the $9.9tn
+    travel industry, starting with the $75 billion B2B hotel
+    market, a fragmented space filled with outdated systems,
+    gatekeepers, and inefficiencies. Nuitée’s API-first
+    platform is solving this, enabling businesses to access
+    hotel inventory seamlessly and at scale.
+  - World-Class Backing: Backed by Accel and visionary leaders
+    across tech and travel—including Booking.com, Stripe, and
+    Shopify—we’re equipped to scale our ambition globally.
+  - Bootstrapped Resilience, Startup Agility: Having grown
+    profitably for years without external funding, we combine
+    operational discipline with the speed and innovation of a
+    scaling startup.
+  - Global Impact: Our infrastructure supports partners like
+    Google, Grab, worldwide fintechs, superapps, travel
+    companies and others
+  - AI-Driven Innovation: Nuitée is uniquely positioned to power
+    the future of travel in the AI era—enabling seamless,
+    intelligent, and hyper-personalized travel interactions.
+
+  By joining Nuitée, you’ll be part of a team that’s building
+  a category-defining platform. You’ll work on a global scale,
+  innovate alongside industry leaders, and help drive the next
+  phase of travel technology. If you’re excited to push
+  boundaries, redefine a multi-trillion-dollar industry, and
+  grow with us—Nuitée is the place for you.
+
+  By submitting your application, you consent to Nuitée
+  processing your personal data for the purposes of assessing
+  your suitability for employment. Your information will be
+  stored securely and will only be retained for as long as
+  necessary for the recruitment process, or up to 6 months
+  afterward, in accordance with our data protection policy and
+  applicable laws. You have the right to request access,
+  correction, or deletion of your personal data at any time by
+  contacting us at careers@nuitee.com. For more details,
+  please see our Privacy Policy: Nuitée Privacy Notice 2026.
+industries:
+  - Information Technology
+  - Software
+  - Travel
+  - Hospitality
+posted_date: 2026-10-29
+url: "https://builtin.com/job/software-engineer-flights/11959316"
+source: Built In

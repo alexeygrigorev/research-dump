@@ -1,0 +1,127 @@
+job_id: 11808771
+title: .NET Backend Engineer
+company: Growe Talents
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 19 Employees
+description: |
+  Our client, Growe, is a leading business advisory and
+  services group in iGaming and Entertainment. Сreators of
+  strategies that work and solutions that scale. Combining
+  strategic vision with hands-on expertise, Growe helps
+  businesses navigate the fast-evolving industry, seize new
+  opportunities, enter new markets, and achieve sustainable
+  growth.Perfect for those who aim to:
+
+  - Design, build, and maintain backend services using .NET
+    (C#);
+  - Develop and evolve microservices in a production
+    environment;
+  - Support existing functionality and ensure backward
+    compatibility of releases;
+  - Work on core domain flows such as accounts, registration,
+    authentication, wallet, and related business capabilities;
+  - Participate in task analysis, decomposition, and effort
+    estimation;
+  - Deliver completed tasks for testing and collaborate with QA
+    during test phases;
+  - Build integrations using asynchronous communication and
+    event-driven patterns;
+  - Work with relational databases, transactional flows, and
+    optimize query performance;
+  - Identify performance bottlenecks and contribute to system
+    design improvements;
+  - Contribute to service observability (logs, metrics, traces,
+    dashboards, monitoring);
+  - Manage deployment configurations and manifests in Kubernetes
+    environments;
+  - Work in a GitOps setup and participate in deployment and
+    operational ownership;
+  - Collaborate with DevOps teams on infrastructure-related
+    changes (including Terraform workflows);
+  - Participate in on-call rotation and handle production
+    incidents;
+  - Identify technical debt and propose improvements;
+  - Perform high-quality code reviews focusing on
+    maintainability, performance, and consistency.
+
+  Experience you’ll need to bring:
+
+  - 5+ years of commercial backend development experience with
+    C# / .NET (6+), .NET Core / ASP.NET Core;
+  - Solid understanding of microservices architecture and
+    distributed systems;
+  - Experience with asynchronous communication and event-driven
+    architectures;
+  - Experience with message brokers (Kafka or similar);
+  - Strong knowledge of relational databases (SQL, transactions,
+    indexing, performance tuning), PostgreSQL will be a plus;
+  - Experience with ORM tools (e.g., Entity Framework);
+  - Experience writing Unit and Integration tests;
+  - Understanding of authentication and authorization (OAuth
+    2.0, OpenID Connect);
+  - Good understanding of software design principles (SOLID,
+    separation of concerns, testability);
+  - Understanding of observability and monitoring in production
+    systems;
+  - Experience troubleshooting performance and memory issues;
+  - English - Upper Intermediate;
+  - Experience with AWS, Kubernetes, Terraform will be a plus;
+  - Experience with Grafana, Loki, Tempo will be a plus.
+
+  It's a perfect match if you have those personal features:
+
+  - Good communication skills;
+  - Multitasking, quick task execution;
+  - Good team player;
+  - Responsibility.
+
+  Our clients offer competitive benefits to support your
+  professional and personal growth, including:
+
+  - Health & Wellness Focus;
+  - Global Medical Coverage;
+  - Growth Opportunities;
+  - Benefits Programs (compensation for the
+    gym/stomatology/psychological service & etc.);
+  - Performance-Driven Rewards;
+  - Dynamic Work Environment.
+
+  Apply, and let your growth journey begin.
+industries:
+  - Agency
+  - Gaming
+  - HR Tech
+  - Professional Services
+posted_date: 2026-10-23
+url: "https://builtin.com/job/net-backend-engineer/11808771"
+source: Built In

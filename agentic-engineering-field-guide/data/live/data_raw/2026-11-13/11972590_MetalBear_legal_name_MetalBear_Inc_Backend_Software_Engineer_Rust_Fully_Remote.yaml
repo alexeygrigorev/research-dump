@@ -1,0 +1,126 @@
+job_id: 11972590
+title: Backend Software Engineer (Rust, Fully Remote)
+company: "MetalBear (legal name: MetalBear Inc.)"
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 39 Employees
+description: |
+  Description
+
+  MetalBear is remote-first, early-stage, and product-led.
+  We're building mirrord, a Kubernetes development platform
+  that lets developers and AI coding agents run code against a
+  live cluster before it's deployed.
+
+  The problem we solve is the wait. In any organization
+  running microservices, checking whether a change actually
+  works means building an image, pushing it, deploying to a
+  shared environment, and waiting on a pipeline to tell you.
+  That loop runs many times a day per engineer, and it's the
+  single biggest tax on how fast an organization ships. With
+  mirrord, the service runs wherever the work is already
+  happening: on a laptop, in CI, or inside an agent's sandbox.
+  Its traffic, environment variables, and file access are
+  forwarded to and from a shared staging cluster, so the
+  service behaves exactly as it would if it were deployed,
+  without deploying it. Feedback arrives in seconds instead of
+  minutes, against real APIs, real schemas, and real traffic
+  rather than mocks or a hand-maintained local stack.
+
+  That matters more every month, because AI agents now write a
+  large share of the code our customers ship. An agent
+  generating code from static files is guessing at how the
+  rest of the system behaves, and a human has to catch the
+  guesses. mirrord gives the agent the real context to write
+  against and a real feedback loop to verify against, so what
+  lands in review is something a reviewer can trust.
+
+  mirrord is used by thousands of developers worldwide,
+  including at Fortune 500 companies.
+
+  The Cloud Integrations team owns features that involve
+  automatically managing users’ cloud services (like message
+  brokers, databases, Kubernetes resources and more) to create
+  virtually separate environments with only minimal resource
+  duplication. These are key features that make mirrord
+  uniquely valuable in complex enterprise environments.
+
+  What You’ll Do
+
+  - Contribute Rust code that creates, manages, reconfigures and
+    adapts cloud resources.
+  - Use AI smartly to deliver high quality code, faster.
+  - Collaborate closely with our small, world-class engineering
+    team on architecture, new feature design and
+    infrastructure.
+  - Engage directly with users to gather requirements, develop
+    solutions, and debug issues.
+
+  Requirements
+
+  At least 3 years of professional software development
+  experience.
+
+  - Of which at least one year of writing production-grade Rust.
+  - Based between UTC-5 and UTC+4
+  - Strong systems-level thinking and an ability to debug
+    complex, distributed environments.
+  - Comfort working async in a remote-first startup environment.
+  - Familiarity with cloud-native environments (Docker,
+    containers, Kubernetes) beyond the basics.
+  - Familiarity with backend infrastructure tooling like
+    datastores, message brokers, GitOps tools, etc.
+  - Good communication skills.
+
+  Nice to Have
+
+  - Experience building developer tools.
+  - Experience building Kubernetes operators or other components
+    that interact with the Kubernetes API.
+  - DevOps or Platform experience.
+
+  Why Join MetalBear
+
+  - Work on hard, meaningful problems at the intersection of
+    local development and cloud infrastructure.
+  - Be part of a small, high-caliber team where your work
+    directly impacts thousands of developers and some of the
+    world’s biggest companies.
+  - Remote-first, async-friendly, and low on meetings.
+  - Competitive salary, meaningful stock options, and a culture
+    that values focus and autonomy.
+industries:
+  - Cloud
+  - Software
+posted_date: 2026-10-29
+url: "https://builtin.com/job/backend-software-engineer-rust-fully-remote/11972590"
+source: Built In

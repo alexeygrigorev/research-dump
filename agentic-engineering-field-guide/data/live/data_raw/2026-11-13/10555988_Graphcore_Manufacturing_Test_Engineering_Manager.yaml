@@ -1,0 +1,183 @@
+job_id: 10555988
+title: Manufacturing Test Engineering Manager
+company: Graphcore
+location: Austin, USA
+work_type: FULL_TIME
+company_size: 903 Employees
+description: |
+  Manufacturing Test Engineering Manager
+
+  Position Summary
+
+  We are seeking an experienced Manufacturing Test Engineering
+  Manager to lead the development and execution of the end-to-
+  end manufacturing test strategy for next-generation AI
+  server platforms and datacenter infrastructure. This role is
+  responsible for defining and driving the manufacturing test
+  architecture from L6 board assembly through L11 rack-level
+  integration and final system validation, ensuring world-
+  class product quality, manufacturability, and production
+  scalability.
+
+  This leader will manage a team of 3–5 Manufacturing Test
+  Engineers while partnering closely with Hardware, Firmware,
+  Platform, Validation, Quality, Operations, and Joint Design
+  Manufacturing (JDM) partners. The role owns the
+  manufacturing test strategy, test coverage, factory test
+  infrastructure, manufacturing capacity planning, and
+  continuous improvement of manufacturing quality.
+
+  Key Responsibilities
+
+  Manufacturing Test Strategy
+
+  - Define and own the end-to-end manufacturing test strategy
+    from L6 board assembly through L11 rack integration.
+  - Develop standardized manufacturing test methodologies that
+    optimize quality, throughput, cost of test, and
+    scalability across multiple products and JDM sites.
+  - Establish manufacturing test standards, best practices, and
+    engineering processes that support high-volume server
+    manufacturing.
+
+  Technical Leadership & People Management
+
+  - Lead, mentor, and develop a team of 3–5 Manufacturing Test
+    Engineers supporting multiple hardware programs.
+  - Establish team priorities, allocate resources, and ensure
+    successful execution of manufacturing test deliverables.
+  - Foster a culture of technical excellence, accountability,
+    collaboration, and continuous improvement.
+  - Serve as the primary technical escalation point for
+    manufacturing test and production issues.
+
+  Cross-Functional Engineering Collaboration
+
+  - Partner with Hardware, Platform, Firmware, Validation,
+    Reliability, Quality, and Operations teams to ensure
+    manufacturing test coverage aligns with product design
+    intent and customer quality expectations.
+  - Lead Design for Test (DFT) and Design for Manufacturability
+    (DFM) reviews to ensure products are optimized for
+    efficient, high-quality manufacturing.
+  - Own manufacturing test coverage reviews across board,
+    subsystem, system, and rack levels, ensuring comprehensive
+    structural and functional defect detection.
+
+  JDM Partnership & Manufacturing Execution
+
+  - Serve as the primary technical interface with JDM partners
+    for manufacturing test strategy, implementation, and
+    production readiness.
+  - Lead technical reviews covering manufacturing readiness,
+    test coverage, infrastructure, yield performance, capacity
+    planning, and corrective actions.
+  - Review and approve manufacturing test plans and ensure
+    consistent execution across manufacturing sites.
+
+  Manufacturing Infrastructure & Capacity Planning
+
+  - Define the manufacturing test infrastructure required to
+    support high-volume production, including:
+  - Work with JDM partners to establish manufacturing capacity
+    plans, optimize factory layouts, and ensure sufficient
+    test throughput to meet production demand.
+
+  Quality & Continuous Improvement
+
+  - Define and monitor key manufacturing metrics, including
+    First Pass Yield (FPY), retest rate, manufacturing
+    escapes, test cycle time, and throughput.
+  - Lead cross-functional root cause investigations and drive
+    corrective and preventive actions (CAPA).
+  - Establish a closed-loop quality process by partnering with
+    Data Center Operations and Sustaining Engineering to
+    analyze field failures and manufacturing escapes, ensuring
+    lessons learned are incorporated into future manufacturing
+    test strategies and diagnostic coverage.
+
+  Required Qualifications
+
+  - Bachelor’s degree in Electrical Engineering, Computer
+    Engineering, Computer Science, or a related technical
+    discipline.
+  - 10+ years of experience in manufacturing test engineering,
+    production engineering, or hardware manufacturing.
+  - 3+ years of engineering management experience, including
+    leading and developing technical teams.
+  - Experience managing teams.
+  - Extensive experience supporting high-volume server, storage,
+    networking, or AI infrastructure manufacturing.
+  - Proven experience developing manufacturing test strategies
+    from board-level (L6) through rack-level (L11)
+    manufacturing.
+  - Extensive experience working with JDM, ODM, or contract
+    manufacturing partners.
+  - Strong expertise in:
+  - Experience defining manufacturing test infrastructure,
+    fixture requirements, and production capacity planning.
+  - Strong understanding of server hardware architecture,
+    firmware, BIOS/BMC, networking, and power systems.
+  - Demonstrated success improving yield, reducing manufacturing
+    escapes, and driving structured root cause analysis.
+  - Excellent communication, leadership, and cross-functional
+    collaboration skills.
+
+  Preferred Qualifications
+
+  - Master’s degree in a relevant engineering discipline.
+  - Experience supporting hyperscale cloud or AI infrastructure
+    manufacturing.
+  - Experience with Python or Bash scripting for manufacturing
+    automation.
+  - Familiarity with Manufacturing Execution Systems (MES),
+    factory analytics, and statistical process control.
+  - Lean Manufacturing or Six Sigma certification.
+
+  Success Measures
+
+  - Deployment of a scalable manufacturing test strategy
+    spanning L6 through L11.
+  - Comprehensive manufacturing test coverage aligned with
+    product design intent and customer quality objectives.
+  - Robust manufacturing test infrastructure and capacity
+    supporting production volume without constraining
+    throughput.
+  - Improved first-pass yield, reduced manufacturing escapes,
+    and shorter test cycle times.
+  - Strong technical partnerships with internal engineering
+    organizations and JDM manufacturing partners.
+  - Continuous improvement of manufacturing quality through
+    effective integration of field and data center feedback
+    into manufacturing test strategies.
+
+  We welcome people of different backgrounds and experiences
+  and are committed to building an inclusive work environment
+  that makes Graphcore a great home for everyone. We are an
+  equal opportunity employer and want to build a work
+  environment where everyone is happy, productive and
+  respectful so they can do their best work. If you have a
+  disability or additional need that requires accommodation,
+  just let us know.
+
+  USA Benefits In addition to a competitive salary, Graphcore
+  offers flexible working and a comprehensive benefits package
+  designed to support your health, wellbeing and financial
+  future. Our benefits include medical, dental and vision
+  coverage, Flexible Spending Accounts (FSAs), Health Savings
+  Accounts (HSAs), disability and life insurance, a 401(k)
+  retirement plan, commuter benefits, wellness services and an
+  Employee Assistance Programme (EAP). We welcome people of
+  different backgrounds and experiences; we're committed to
+  building an inclusive work environment that makes Graphcore
+  a great home for everyone. We offer an equal opportunity
+  process and understand that there are visible and invisible
+  differences in all of us. We can provide a flexible approach
+  to interview and encourage you to chat to us if you require
+  any reasonable adjustments.
+industries:
+  - Artificial Intelligence
+  - Semiconductor
+posted_date: 2026-08-06
+url: "https://builtin.com/job/manufacturing-test-engineering-manager/10555988"
+source: Built In

@@ -1,0 +1,118 @@
+job_id: 10015628
+title: Software Engineer
+company: Curri
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 123 Employees
+description: |
+  Curri is seeking a Software Engineer to join the Technology
+  team as a Product Engineer with real ownership over the
+  problems they take on. Curri runs last-mile logistics for
+  national retailers and industrial suppliers across the US,
+  and our engineering culture is built around engineers who
+  pick up a problem, talk to the person living it, and ship
+  without waiting for a perfect spec. In this role, you will
+  work in weekly shipping loops across the full stack, use AI
+  tooling as a daily force multiplier, and build the habits of
+  a product engineer on a team that will invest in your
+  growth.
+
+  What you will do:
+
+  - Own engineering problems end-to-end within your scope:
+    understand the requirement, scope a solution with your
+    team, ship to production, and measure what it changed.
+  - Ship regularly in weekly loops with a clear answer to "what
+    shipped this week and what did it tell us?" every cycle.
+  - Build across the full stack as the problem demands,
+    including backend services in TypeScript, Node, Postgres,
+    NATS, and Redis alongside UI in React and React Native.
+  - Use AI tooling as a daily part of your workflow, including
+    Claude Code, Cursor, and Claude for code review, and own
+    everything you ship with it, reviewing output critically
+    before it lands in production.
+  - Leave the systems you touch better than you found them, with
+    attention to code quality, test coverage, and
+    maintainability.
+  - Get context directly from the people closest to the problem,
+    ask scope questions early, and keep stakeholders informed
+    rather than going dark mid-cycle.
+
+  What you need to have:
+
+  - 2+ years of experience building production software with a
+    product engineer orientation: you are more comfortable
+    with "here is the problem, go figure it out" than with
+    perfectly-specced tickets, and you have shipped real
+    things that real users have used.
+  - Working range across the full stack, including backend
+    systems in TypeScript or Node.js and UI work in React,
+    with the willingness to go wherever the problem leads
+    rather than staying in one lane.
+  - Active use of AI tooling in your day-to-day development,
+    whether Claude Code, Cursor, or a similar agent, with the
+    judgment to review what it produces before it ships.
+  - A habit of asking hard scope questions early and
+    communicating proactively with the people around you,
+    rather than waiting to be told what to do or going quiet
+    when something is unclear.
+  - Enough systems awareness to write code that holds up under
+    load and think past the happy path, even if you are still
+    building intuition for large-scale architecture.
+
+  Bonus points for:
+
+  - Shipped production code with Claude Code or a similar agent
+    and can describe concretely where it saved you time and
+    where it steered you wrong.
+  - Experience in a startup or small-team environment where you
+    had to turn a vague requirement into a shipped outcome
+    without much hand-holding.
+  - Exposure to distributed systems concepts such as message
+    queues, caching layers, or event-driven architecture, even
+    if you have not owned them end-to-end.
+  - Examples of improving a system rather than just adding to
+    it, such as a refactor that paid off, a performance win,
+    or a test suite that caught real bugs.
+
+  What is in it for you?
+
+  - Real ownership over engineering problems at a company that
+    will put you on real features from day one, not
+    maintenance queues or internal tooling backlogs.
+  - A genuinely AI-forward engineering culture where Claude,
+    Claude Code, Cursor, and Bedrock are in daily use, with
+    room to develop what AI-paired delivery looks like at your
+    level and beyond.
+  - Competitive salary, equity compensation, and comprehensive
+    benefits (health, dental, vision, 401K).
+  - Remote-friendly with flexibility, or based at HQ in Ventura,
+    CA.
+  - A high-growth, mission-driven environment where your work
+    has direct and measurable impact.
+
+  Who are we?
+
+  We are Curri, and our mission is to build the network and
+  software that move the world’s goods with speed,
+  intelligence, and trust. Curri provides on-demand, last-mile
+  logistics for construction and adjacent industries with our
+  nationwide fleet of cars, trucks, and flatbeds. Founded in
+  2018 and part of the YC S19 Batch, we’re solving the massive
+  inefficiencies that exist in the construction industry. Our
+  headquarters are in Ventura, CA. Learn more at curri.com.
+
+  Curri is an equal opportunity employer and complies with all
+  applicable federal, state, and local fair employment
+  practices laws. All qualified applicants will receive
+  consideration for employment. We don't discriminate based on
+  race, color, religion, sex, sexual orientation, gender
+  identity, national origin, age, disability, veteran status,
+  or any other characteristic protected by law.
+industries:
+  - Information Technology
+  - Logistics
+posted_date: 2026-08-20
+url: "https://builtin.com/job/software-engineer/10015628"
+source: Built In

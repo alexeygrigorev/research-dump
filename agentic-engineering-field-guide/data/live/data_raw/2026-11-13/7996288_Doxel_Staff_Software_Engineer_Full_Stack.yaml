@@ -1,0 +1,160 @@
+job_id: 7996288
+title: Staff Software Engineer, Full Stack
+company: Doxel
+location: CAN
+locations:
+  - CAN
+  - USA
+  - Fremont, USA
+  - Oakland, USA
+  - Berkeley, USA
+  - San Jose, USA
+  - Santa Clara, USA
+  - San Francisco, USA
+remote: true
+work_type: FULL_TIME
+company_size: 67 Employees
+description: |
+  Construction is the second-largest industry in the
+  world—nearly 4x the size of SaaS—yet it still operates
+  without the automated feedback loops that modern software
+  teams rely on. Without real-time observability, issues are
+  detected too late, contributing to over $3 Trillion in
+  annual global waste.
+
+  Doxel brings computer vision and AI to construction, giving
+  teams real-time visibility into progress, risk, and
+  execution. From hospitals to data centers, and from field
+  leaders to executive teams, Doxel is used every day to
+  support better decisions and faster delivery. Our platform
+  is trusted by industry leaders including Shell, Genentech,
+  HCA Healthcare, Kaiser, Turner, and Layton.
+
+  Doxel’s automated progress tracking solution keeps teams
+  aligned with hard facts that leave no ambiguity on where the
+  project is today, where it will be tomorrow and what
+  decisions need to be made to land it on schedule and on
+  budget. This enables our customers to deliver projects, on
+  average, 11% ahead of schedule with up to 16% savings on
+  monthly cash flow.
+
+  Backed by Insight Partners and Andreessen Horowitz and with
+  a rapidly growing team of engineers, scientists,
+  construction veterans, and Enterprise go-to-market teams,
+  we're driven to help our customers win.
+
+  Join us as we continue our journey to transform the $15T
+  Construction Industry!
+
+  The Role
+
+  As a Lead Software Engineer, you will help define and build
+  the next generation of Doxel’s project management,
+  commissioning, and field-enablement tools—systems trusted by
+  the world’s largest general contractors and owners
+  delivering mega-projects at unprecedented scale.
+
+
+
+  You’ll design and deliver full-stack applications that
+  handle massive volumes of complex field data—including
+  videos, images, structured forms, and IoT device outputs—and
+  transform them into fast, intuitive workflows for both
+  office teams and field workers. You’ll architect mobile and
+  web experiences that make capturing, reviewing, and acting
+  on this data effortless in environments where reliability,
+  speed, and clarity matter.
+
+
+
+  As a technical leader, you’ll partner closely with product,
+  design, backend, CV/ML, and platform engineering teams to
+  turn Doxel’s AI and data systems into beautifully executed
+  user experiences. You’ll provide technical leadership end to
+  end shipping 0-1 projects, as well mentoring and coaching
+  across engineering on best practices.
+
+  Your Day to Day
+
+  - You will lead the design and development of full-stack
+    applications powering project management, commissioning
+    workflows, and field data capture
+  - Build web and mobile tools that make it simple for field
+    teams to upload videos, images, structured forms, IoT
+    readings, and issue documentation
+  - Develop intuitive, high-performance UIs that handle complex
+    data streams and large-scale datasets
+  - Architect backend services and APIs that support rapid data
+    ingestion, processing, and review at enterprise scale
+
+  What Success Looks Like
+
+  - Collaborating cross-functionally with backend, CV/ML,
+    product, design, and 3D visualization teams to deliver
+    seamless end-to-end features
+  - Driving full stack and mobile engineering best practices
+    including testing, reliability, and performance
+    optimization
+  - Mentoring engineers establishing standards, reviewing
+    architecture, and ensuring high-velocity execution
+  - Contributing to technical planning, feature roadmaps, and
+    long-term architectural decisions for Doxel’s applications
+    ecosystem
+  - Being the champion for usability and field readiness
+    ensuring tools are simple, fast, and resilient in tough
+    real-world construction environments
+
+  What You Bring
+
+  - 10+ years of experience building and shipping full-stack web
+    and mobile applications
+  - Strong expertise with modern full-stack frameworks (e.g.,
+    Nuxt.js, Next.js, , or similar)
+  - Strong backend engineering experience with Typescript,
+    Python, or Java, including API development
+  - Experience architecting applications that handle large-scale
+    multimodal datasets (3d components, videos, images) and/or
+    IoT data inputs
+  - Deep experience building UX for field-facing or
+    operationally critical workflows
+  - Strong familiarity with cloud environments (AWS, GCP, or
+    Azure) and containerized infrastructure
+  - Skills in designing domain-driven data models and working
+    with OLTP/OLAP systems
+  - Prior experience leading or mentoring small engineering
+    teams
+
+  Preferred Experience
+
+  - Experience with data warehousing tools such as Redshift,
+    Snowflake, Databricks, or BigQuery
+  - Background with offline-capable architectures and mobile-
+    first data collection tools
+  - Experience with 3D visualization (three.js), geospatial
+    data, or computer-vision-powered experiences
+  - Exposure to ML/AI-driven feature development
+  - Comfort with CI/CD pipelines, observability tooling, and
+    automated testing best practices
+
+  Benefits & Company Culture
+
+  - Competitive Base Salary + Equity Package
+  - Remote first culture (for most roles)
+  - Comprehensive Health Insurance (Medical, Dental, Vision)
+  - Home Office Stipend
+  - Monthly allowance for cell phone and internet
+  - Flexible PTO, generous company holiday policy, and unlimited
+    sick days
+
+  Doxel is an equal opportunity employer and actively seeks
+  diversity at our company. All applicants will be considered
+  for employment without attention to race, color, religion,
+  sex, sexual orientation, gender identity, national origin,
+  veteran or disability status.
+industries:
+  - Artificial Intelligence
+  - Big Data
+  - Information Technology
+posted_date: 2026-08-07
+url: "https://builtin.com/job/lead-software-engineer-full-stack/7996288"
+source: Built In

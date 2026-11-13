@@ -1,0 +1,185 @@
+job_id: 12015476
+title: Manager, Site Reliability Engineering
+company: CareSource
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 3,668 Employees
+description: |
+  Job Summary: The Manager, Site Reliability Engineering leads
+  a team responsible for advancing IT operations through
+  automation, self-healing capabilities, and AI-enabled
+  solutions. This leader owns the reliability roadmap, drives
+  measurable performance against service level objectives, and
+  strengthens observability and IT Service Management (ITSM)
+  practices to improve service availability, performance, and
+  operational efficiency. Essential Functions:
+
+  - Own and deliver a multi-year reliability, observability, and
+    automation roadmap, translating enterprise priorities into
+    prioritized, measurable engineering initiatives.
+  - Establish and monitor reliability performance measures,
+    including mean time to resolve (MTTR), manual effort
+    reduction, SLO attainment, change failure rate, and
+    automated incident remediation.
+  - Lead organizational change by influencing senior
+    stakeholders and transitioning legacy, ticket-driven
+    operations toward engineering-led, automated reliability
+    practices.
+  - Champion SRE practices and a customer-centric reliability
+    culture across operations and development teams.
+  - Lead the development of automation and self-healing
+    capabilities, including runbooks, scripts, infrastructure
+    as code (IaC), automated recovery, and scaling, to reduce
+    manual effort and improve operational reliability.
+  - Lead the design, deployment, and governance of agentic AI
+    solutions for incident triage, root-cause analysis, and
+    remediation, with appropriate human oversight,
+    auditability, and defined autonomy.
+  - Apply AIOps and predictive analytics to detect anomalies,
+    correlate events, and prevent incidents before they affect
+    users.
+  - Partner with security, compliance, and AI governance teams
+    to ensure AI-enabled operations meet CareSource policy and
+    regulatory requirements.
+  - Collaborate with stakeholders and product owners to
+    translate availability targets into actionable Service
+    Level Indicators (SLIs) and Service Level Objectives
+    (SLOs), and establish and enforce error budgets that
+    balance innovation and reliability.
+  - Integrate and enhance Continuous Integration and Continuous
+    Deployment (CI/CD) pipelines to support faster, more
+    reliable releases.
+  - Lead Chaos Engineering and regular resilience testing,
+    partnering with application and infrastructure teams to
+    act on findings and sustain continuous feedback loops.
+  - Develop incident response plans, lead major incident
+    management, and conduct blameless post-incident reviews
+    that drive sustainable corrective action.
+  - Lead capacity planning using usage and performance trends to
+    forecast growth, prevent resource constraints, and support
+    cost-effective scaling.
+  - Lead the observability strategy and implementation,
+    establishing standards for telemetry, monitoring,
+    dashboards, and alerting that provide actionable, real-
+    time insight into infrastructure, applications, and
+    critical business services.
+  - Enhance ITSM, ITOM, and ServiceNow workflows to integrate
+    observability with automated incident creation,
+    enrichment, and remediation.
+  - Lead and develop site reliability and observability
+    engineers, fostering continuous learning, innovation,
+    professional growth, and AI and automation capabilities.
+  - Partner across technology teams and manage key vendor
+    relationships to align SRE and observability strategies
+    with business goals and operational readiness.
+  - Perform any other job related duties as requested.
+
+  Education and Experience:
+
+  - Bachelor's degree in Business, Computer Science or related
+    field required
+  - Equivalent years of relevant work experience may be accepted
+    in lieu of required education
+  - Six (6) years of relevant IT experience, to include
+    experience with monitoring tools such as Dynatrace, Spunk,
+    ServiceNow, Robotic Process automation required
+  - Three (3) years of IT lead or management experience required
+  - Experience designing, developing, and providing operational
+    support for distributed systems software in a
+    microservice-style infrastructure required
+  - Experience using Docker and Linux containers required
+
+  Competencies, Knowledge and Skills:
+
+  - Strong leadership skills with the ability to inspire cross-
+    functional teams and align IT initiatives with business
+    goals
+  - Deep proficiency in reliability, scalability, performance,
+    security, enterprise system architecture, toil reduction,
+    and other site reliability best practices
+  - Demonstrated ability to drive the adoption of site
+    reliability culture and practices within a team
+  - Ability to lead a small team to look for roadblocks, run
+    tests, and solve related problems
+  - Fluency in at least one programming language such as (e.g.,
+    Python, Java, .Net, etc.)
+  - Proficiency in software applications and technical processes
+    within a technical discipline (e.g., cloud, artificial
+    intelligence, machine learning, mobile, etc.)
+  - Proficiency in continuous integration and continuous
+    delivery tools (e.g., Ansible, GitLab, Terraform, etc.)
+  - Ability to communicate ideas and solutions in a clear and
+    organized manner
+  - Ability to provide clear and effective presentations
+  - Strong familiarity with ServiceNow ITOM
+  - Expert with Dynatrace, Splunk and Solar Winds Monitoring
+    Platforms
+  - Familiarity with Microsoft Azure infrastructure networking,
+    compute, and storage primitives
+  - Knowledge of code management with Git and GitHub workflows
+  - Knowledge of Splunk Search Processing Language (SPL)
+  - Splunk IT Service Intelligence platform knowledge
+  - Excellent analytical and problem-solving skills
+  - Excellent communication skills and ability to collaborate
+    with IT and business teams effectively
+  - Comfortable with a 24/7/365 always-up, always available
+    production service
+  - Familiarity with Incident management, ITIL
+
+  Licensure and Certification:
+
+  - ITIL Foundation or Practitioner certification preferred.
+    preferred
+  - Relevant cloud, Kubernetes, or SRE certifications are a
+    plus. preferred
+
+  Working Conditions:
+
+  - General office environment; may be required to sit or stand
+    for extended periods of time
+  - Travel is not typically required
+
+  Compensation Range:
+
+  $94,100.00 - $164,800.00
+
+  CareSource takes into consideration a combination of a
+  candidate’s education, training, and experience as well as
+  the position’s scope and complexity, the discretion and
+  latitude required for the role, and other external and
+  internal data when establishing a salary level. In addition
+  to base compensation, you may qualify for a bonus tied to
+  company and individual performance. We are highly invested
+  in every employee’s total well-being and offer a substantial
+  and comprehensive total rewards package.
+
+  Compensation Type (hourly/salary):
+
+  Salary
+
+  Organization Level Competencies
+
+  - Fostering a Collaborative Workplace Culture
+  - Cultivate Partnerships
+  - Develop Self and Others
+  - Drive Execution
+  - Influence Others
+  - Pursue Personal Excellence
+  - Understand the Business
+
+
+
+  This job description is not all inclusive. CareSource
+  reserves the right to amend this job description at any
+  time. CareSource is an Equal Opportunity Employer. We are
+  dedicated to fostering an environment of belonging that
+  welcomes and supports individuals of all backgrounds.#LI-GM1
+
+  Brand=CareSource
+industries:
+  - Healthtech
+  - Insurance
+posted_date: 2026-11-02
+url: "https://builtin.com/job/manager-site-reliability-engineering/12015476"
+source: Built In

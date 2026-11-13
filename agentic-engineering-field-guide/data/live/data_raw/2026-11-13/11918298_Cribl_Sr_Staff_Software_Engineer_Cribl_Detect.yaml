@@ -1,0 +1,161 @@
+job_id: 11918298
+title: Sr. Staff Software Engineer, Cribl Detect
+company: Cribl
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 1,000 Employees
+description: |
+  Join the company that’s building the telemetry
+  infrastructure for the AI era. At Cribl, we partner with IT
+  and Security teams at many of the world’s biggest
+  enterprises, including half of the Fortune 100, to bridge
+  the gap between AI ambition and infrastructure reality. As
+  the AI Platform for Telemetry, we give customers the choice,
+  control, and flexibility to manage and analyze telemetry for
+  both humans and agents, so they can build what’s next.
+
+  We’re one of the fastest‑growing private companies and a
+  leading player in a massive, fast‑moving market. With a
+  global workforce, we’re remote‑first and grounded in a
+  simple idea: software is a people business. Cribl is the
+  place where curious, collaborative people can do their best
+  work, grow fast, and bring their full selves to the herd.
+
+  Why You’ll Love This Role
+
+  Cribl’s Engineering org is where new product ideas come to
+  life. We move fast, try things out, and aren’t afraid to
+  break a few things along the way if it means learning faster
+  and building something better. This is where we experiment,
+  prototype, and turn rough ideas into real products that
+  deliver value to customers.
+
+  We’re looking for a Senior Staff Software Engineer to join
+  the Security Products team, focusing specifically on
+  building next-generation AI SOC capabilities.
+
+  While upstream detection and streaming data ingestion are
+  powered by Cribl Detect, this role owns everything that
+  happens post-detection. You will architect and build the
+  autonomous reasoning, multi-agent investigation frameworks,
+  contextual enrichment layers, and intelligent response
+  orchestrations that allow modern SOCs to operate at machine
+  speed.
+
+  This is a fully remote role, and Cribl is a remote-first
+  company. Our culture embraces the diversity of team members
+  spread across the globe.
+
+  As An Active Member Of Our Team, You Will…
+
+  - Architect post-detection workflows, including autonomous
+    triage, agentic investigation, evidence synthesis, and
+    containment orchestration.
+  - Build production-grade reasoning systems using LLMs,
+    embeddings, and context graphs to formulate hypotheses,
+    gather evidence, and deliver explainable verdicts.
+  - Work closely with Cribl Detect to ingest high-fidelity
+    detection signals and trigger automated investigations and
+    responses.
+  - Explore agentic paradigms, multi-agent frameworks, and
+    natural language SOC interfaces, rapidly validating
+    concepts through functional prototypes.
+  - Write core abstractions, design agent communication
+    protocols, review critical code, and establish strict
+    benchmarks for model accuracy, latency, and system
+    reliability.
+  - Build safe execution frameworks offering transparent
+    reasoning trails, clear chains of custody, and human-on-
+    the-loop controls.
+  - Partner tightly with product managers, security researchers,
+    and stakeholders to translate ambiguous ideas into clear
+    technical strategies and executable plans.
+  - Guide engineering talent and represent Cribl’s AI SOC vision
+    internally and externally via architecture reviews,
+    technical blogs, and discussions.
+  - This position will require stand-by, on-call, or off-hours
+    duties.
+
+  If You’ve Got It - We Want It
+
+  - Bachelor’s degree in Computer Science, Electrical
+    Engineering, or equivalent experience (Master’s preferred)
+    with 12+ years of experience building scale production
+    software.
+  - Demonstrated experience leading engineering initiatives and
+    directly building AI SOC, SOAR, or post-detection
+    automation capabilities at scale (e.g., automated triage,
+    multi-agent investigation systems, or response platforms).
+  - Deep, practical experience building and deploying
+    production-grade AI systems—utilizing LLM orchestration
+    frameworks, agent swarms, vector databases/embeddings,
+    dynamic tool calling, and RAG architectures in enterprise
+    software.
+  - Track record of designing and operating scalable, low-
+    latency distributed systems capable of handling
+    asynchronous event processing and complex, multi-system
+    workflow state machines.
+  - Deep understanding of the security analyst workflow and
+    frameworks like MITRE ATT&CK.
+  - Strong experience designing robust, extensible API
+    frameworks to interface with third-party security
+    platforms (EDR, Identity Providers, Cloud Infrastructure,
+    SIEM/SOAR).
+  - Proven capability to lead ambiguous, highly autonomous
+    initiatives from abstract concept to production rollout.
+  - High ownership mindset with a bias toward quality,
+    performance, and simplicity
+  - Clear, effective communicator—able to explain complex
+    technical ideas to engineers, partners, and customers in
+    remote, distributed teams
+  - Direct experience building autonomous agent frameworks for
+    security context.
+  - Experience with JavaScript/TypeScript, NodeJS, or Go/Python
+    in enterprise systems.
+  - Background in graph databases or contextual graph models
+    used to represent identities, endpoints, and threat
+    histories.
+  - Active open-source contributions in the AI, agentic
+    automation, or security space.
+  - No fear! Speak your mind, foster open debate, and bring a
+    low-ego mindset.
+  - Good jokes—or better yet, bad jokes.
+  - A healthy appreciation for goats
+
+  #LI-EL1 #LI-Remote
+
+  The salary for this role is dependent on geographic location
+  and will be based on the individual candidate's job-related
+  knowledge, skills, and experience. In addition to base
+  salary, for sales and some sales-adjacent roles, employees
+  are eligible to earn incentive compensation (commission).
+  For all other roles, employees are eligible to participate
+  in the Cribl Corporate Bonus Program. In addition to a
+  competitive salary, Cribl also offers a generous benefits
+  package which includes health, dental, vision, short-term
+  disability, and life insurance, paid holidays and paid time
+  off, a fertility treatment benefit, 401(k), and equity.
+
+  Base Salary Range
+
+  $230,000—$280,000 USD
+
+  Bring Your Whole Self
+
+  Diversity drives innovation, enables better decisions to
+  support our customers, and inspires change for the better.
+  We’re building a culture where differences are valued and
+  welcomed, and we work together to bring out the best in each
+  other. All qualified applicants will receive consideration
+  for employment without regard to race, color, religion, sex,
+  sexual orientation, gender identity, national origin, or any
+  other applicable legally protected characteristics in the
+  location in which the candidate is applying.
+
+  Interested in joining the Cribl herd? Learn more about the
+  smartest, funniest, most passionate goats you’ll ever meet
+  at cribl.io/about-us.
+posted_date: 2026-10-27
+url: "https://builtin.com/job/sr-staff-software-engineer-cribl-detect/11918298"
+source: Built In

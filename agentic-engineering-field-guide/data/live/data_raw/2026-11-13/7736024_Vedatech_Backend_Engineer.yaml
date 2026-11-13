@@ -1,0 +1,131 @@
+job_id: 7736024
+title: Backend Engineer
+company: Veda.tech
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 23 Employees
+description: |
+  About:
+
+  Veda is the DeFi engine powering financial apps enabling
+  platforms to seamlessly create on-chain yield products. Our
+  mission is to unlock DeFi for the world by providing
+  seamless, enterprise-grade integrations for modern finance.
+  Veda's technology powers many of DeFi's largest vault
+  products, including ether.fi Liquid, PlasmaUSD Vault,
+  Lombard DeFi Vault, and Mantle cmETH.
+
+  At $6B in TVL and 100k+ users, Veda is one of the fastest
+  growing DeFi protocols with a team passionate about DeFi and
+  dedicated to our work. This role will be high impact and
+  have the opportunity to directly shape some of the most
+  critical infrastructure in DeFi.
+
+  Role:
+
+  We’re seeking a Backend Engineer to design, build, and scale
+  the core services powering Veda’s platform. You’ll work
+  across a modern, service-based architecture to deliver
+  reliable, performant systems that power yield products for
+  some of the largest names in DeFi and fintech.
+
+  The ideal candidate is a hands-on engineer with a strong
+  sense of ownership, comfortable navigating ambiguity, and
+  experienced in taking products from concept to production.
+  You’ll work 70–80% in code, contributing directly to system
+  design, architecture, and implementation.
+
+  Responsibilities:
+
+  - Design and build scalable backend systems powering Veda’s
+    API and internal services
+  - Own projects end-to-end — from scoping and design to
+    implementation, testing, and production delivery
+  - Collaborate with product and infrastructure teams to turn
+    technical debt into modern, maintainable, and highly
+    available systems
+  - Write clean, well-tested code, and maintain strong CI/CD
+    hygiene
+  - Deploy, monitor, and scale services in production using
+    modern cloud tooling (AWS, GCP, or similar)
+  - Contribute to system design discussions covering
+    performance, reliability, and data architecture
+  - Participate in on-call rotations and incident response for
+    production systems
+  - Continuously identify and drive improvements in system
+    reliability, observability, and performance
+
+  Qualifications:
+
+  - 6+ years of professional backend engineering experience
+  - Proven experience delivering production systems end-to-end
+    (scoping → design → implementation → production)
+  - Strong programming skills in Python or another modern
+    backend language (e.g., Go, Rust, Java, C++)
+  - Solid understanding of REST APIs, relational databases
+    (Postgres or MySQL), and service-based architectures
+  - Experience with version control (Git), unit/integration
+    testing, and CI/CD pipelines
+  - Familiarity with cloud environments (AWS, GCP, Azure) and
+    containerization (Docker, Kubernetes)
+  - Experience participating in an on-call rotation or owning
+    production systems
+  - Demonstrated ability to design scalable systems and refactor
+    legacy components
+
+  Preferred Skills & Experience:
+
+  - Experience in fintech, crypto, or other high-availability
+    systems
+  - Familiarity with asynchronous task queues, event-driven
+    architecture, or distributed systems design
+  - Prior experience in startups or early-stage, high-ambiguity
+    environments
+  - Contributions to open-source projects or technical
+    leadership on significant internal initiatives
+
+  Benefits at Veda
+
+  We’re a small, tight-knit team building the infrastructure
+  that powers a new generation of financial products - on-
+  chain, composable, and accessible to anyone. We believe the
+  full potential of DeFi is still ahead of us, and we’re here
+  to help unlock it.
+
+  We also believe that great work comes from people who feel
+  trusted, supported, and aligned with the mission. Here’s how
+  we try to make that happen:
+
+  Health Coverage
+
+  We offer medical, dental, and vision coverage for employees.
+  For international contractors, we work closely to ensure
+  access to appropriate local or global health coverage.
+
+  Flexible Time Off
+
+  We don’t track vacation days. Take the time you need to rest
+  and recharge—we trust you to manage your schedule.
+
+  Remote-First by Design
+
+  Our team spans time zones and geographies. We work async,
+  with a focus on autonomy over micromanagement.
+
+  Parental Leave
+
+  Paid leave is available for new parents, whether you’re the
+  primary or secondary caregiver.
+
+  Learning & Development
+
+  We offer stipends to support ongoing learning - whether it’s
+  a course, a conference, or something else that helps you
+  grow.
+industries:
+  - Information Technology
+  - Financial Services
+posted_date: 2026-08-02
+url: "https://builtin.com/job/backend-engineer/7736024"
+source: Built In

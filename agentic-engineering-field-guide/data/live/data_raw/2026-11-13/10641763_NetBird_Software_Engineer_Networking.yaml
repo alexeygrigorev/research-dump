@@ -1,0 +1,114 @@
+job_id: 10641763
+title: Software Engineer (Networking)
+company: NetBird
+location: Berlin, DEU
+remote: true
+work_type: FULL_TIME
+company_size: 10 Employees
+description: |
+  🏢 Who we areA team from Germany with the vision to make
+  advanced network security accessible for everyone
+
+  We are a software company developing an open source zero-
+  trust network security platform that is both easy to use and
+  affordable for teams of all sizes and budgets. Our mission
+  is grounded in a simple yet powerful belief: secure private
+  networking is a fundamental right of every modern company.
+
+  Since our launch on GitHub in 2021, we have gained trust
+  among thousands of companies seeking secure and seamless
+  solutions for connecting remote employees and
+  infrastructure. By replacing traditional centralized VPNs,
+  NetBird has become a trusted choice for modern network
+  security, connecting today hundreds of thousands of users
+  and machines worldwide. Our open source, community-driven
+  approach has been a key driver of our success. We listen to
+  our users, and their input helps us make network security
+  better for everyone.
+
+  Want to see what we're working on? Check out our GitHub repo
+  at https://github.com/netbirdio/netbird or
+  https://netbird.io/knowledge-hub
+
+  ✏️ What you will do
+
+  As a Senior Software Engineer (Networking), you'll join a
+  talented team of engineers working on an open source
+  platform that redefines how companies build secure, high-
+  performance networks. Your role will involve leading the
+  development of high-performance networking code that works
+  across various platforms like Windows, macOS, and Linux.
+  Specifically, you will:
+
+  - Design, develop, and maintain a codebase with best
+    practices, ensuring high performance and reliability.
+  - Take ownership of technical decisions and ensure they align
+    with organizational goals.
+  - Collaborate with peers by reviewing code, participating in
+    design discussions, and brainstorming new projects.
+  - Advocate for product improvements and contribute to the
+    team's continuous development.
+  - Support open source users by addressing GitHub issues and
+    providing technical assistance.
+  - Occasionally participate in technical calls with customers
+    to understand and address their needs.
+
+  🔎 What we are looking for
+
+  We're looking for someone who thrives in a collaborative
+  environment and loves helping customers succeed.
+
+  Must-Haves
+
+  - 5+ years of professional software engineering experience.
+  - 2+ years of experience developing in Go.
+  - Expertise in the architecture and design of distributed
+    systems.
+  - Strong knowledge of networking concepts, including
+    protocols, routing, and tunneling.
+  - Proven experience in network performance monitoring and
+    optimization.
+  - Deep understanding of multi-threading and asynchronous
+    programming.
+  - Strong experience with unit and integration testing
+    principles.
+  - A positive and collaborative attitude towards both customers
+    and teammates.
+  - Proficiency in English with excellent communication skills.
+
+  Nice-to-Haves
+
+  - Hands-on experience with VPN solutions.
+  - Experience with REST and gRPC APIs.
+  - Passion for automation and scripting to streamline
+    repetitive tasks.
+  - Background in releasing and maintaining applications used by
+    millions of devices.
+  - Experience in cloud environments.
+  - Contributions to open source projects.
+
+   😌 What’s in for you
+
+  We know that happy and supported team members build the best
+  products. That’s why we offer:
+
+  - Comprehensive compensation package: Receive a competitive
+    base salary and equity incentives.
+  - Hybrid work environment: Enjoy the flexibility of working
+    both from our centrally located Berlin office and
+    remotely.
+  - Diverse and collaborative team: Join a team that values
+    fast, clean shipping and works together to achieve great
+    results.
+  - High level of independence: This is not a strict 9-to-6
+    role. We focus on outcomes, not the appearance of work.
+  - Growth opportunities: Be part of a rapidly growing company
+    at the forefront of the Zero Trust security revolution.
+industries:
+  - Information Technology
+  - Security
+  - Software
+  - Cybersecurity
+posted_date: 2026-08-12
+url: "https://builtin.com/job/software-engineer-networking/10641763"
+source: Built In

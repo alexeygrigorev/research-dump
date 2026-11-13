@@ -1,0 +1,179 @@
+job_id: 11696628
+title: Senior Software Engineer (Backend)
+company: vCluster
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 77 Employees
+description: |
+  As vCluster Labs’ Senior Software Engineer (Backend), you
+  aren’t just writing code; you are defining the future of
+  tenant isolation. In this role, you will serve as a core
+  architect of the vCluster Platform, tasked with navigating
+  complex Kubernetes internals to build tools used by the
+  world's leading engineering teams.
+
+  As a Senior Software Engineer (Backend), your role will
+  include:
+
+  - Kubernetes Deep-Dive: Work intimately with Kubernetes
+    internals to push the boundaries of container
+    orchestration.
+  - Go Development: Write high-performance, resilient Go code to
+    power the core logic of the vCluster platform.
+  - End-to-End Ownership: Take full ownership of your work. You
+    are self-driven and capable of managing feature
+    development from technical design to release without
+    needing constant oversight.
+  - Open Source Innovation: Engage with the community and
+    contribute to our open-source projects. You will help
+    define the next generation of tenancy models, creating
+    scalable solutions for isolation and resource sharing
+    beyond simple namespaces.
+  - Technical Problem Solving: Tackle hard engineering
+    challenges where the solution isn't always on ChatGPT,
+    requiring a deep understanding of systems architecture.
+
+  This role could be a fit for you if you bring:
+
+  - Kubernetes Mastery: Deep expertise in Kubernetes internals.
+    We value a profound understanding of how Kubernetes works
+    (architectural patterns, networking, storage).
+  - Technical Proficiency: Strong programming skills in Go.
+    While Kubernetes knowledge is paramount, you must be able
+    to translate that knowledge into clean, efficient Go code.
+  - Builder Mindset: You build things outside of work. You have
+    active GitHub projects, experiments, or open-source
+    contributions that demonstrate your passion for building.
+  - High Agency: You are highly technical and self-driven. You
+    thrive in environments where you are expected to identify
+    problems and solve them autonomously.
+  - Start-Up Grit: Experience working in a high-growth
+    environment. You are comfortable with ambiguity and eager
+    to make an impact.
+
+  Bonus points for:
+
+  - Community Contributions: A history of contributions to the
+    Kubernetes project (Upstream), including documentation
+    updates, Pull Requests (PRs), or active participation in
+    Special Interest Groups (SIGs).
+  - Startup Experience: You have been at an early-stage
+    organization where you function autonomously and strive
+    towards building something great.
+
+  About vCluster Labs
+
+  We're the #1 platform for AI infrastructure, trusted by the
+  world's fastest-growing AI cloud builders. We're a venture-
+  backed startup that's raised over $28M from top-tier
+  investors including Khosla Ventures (first investor in
+  OpenAI, GitLab, Stripe, and DoorDash), and we're in a hyper-
+  growth phase looking for motivated people to join our team.
+  Our headquarters are in San Francisco (Salesforce Tower),
+  but our team is distributed around the globe with a remote-
+  first culture.
+
+  We give AI Cloud providers and AI factories a hyperscaler-
+  like experience on their own GPU infrastructure. Our
+  platform runs the full stack an operator needs, from bare
+  metal provisioning and node lifecycle management up through
+  managed Kubernetes, Slurm, Ray, and inference clusters, so
+  they can turn raw GPUs into cluster products they can sell
+  in days instead of spending 12+ months building it
+  themselves. Today we power over 100,000 GPUs and 1 million
+  CPUs across 50+ AI clouds and Fortune 500 companies, backed
+  by a team of 40+ infrastructure engineers who build
+  alongside our customers rather than just shipping them
+  software.
+
+  We're the company behind vCluster, the open source
+  technology for tenant isolation on Kubernetes, with 11,000+
+  GitHub stars and 40M+ tenant clusters created since 2021.
+  Open source is part of our DNA. At KubeCon North America
+  2025, we launched our Infrastructure Tenancy Platform for
+  AI, a Kubernetes-native framework built for running AI, ML,
+  and GPU-intensive workloads anywhere, with an NVIDIA-
+  validated reference architecture for DGX systems.
+
+  Benefits
+
+  We offer the following benefits:
+
+  - Competitive Salary: We offer a competitive compensation
+    package, including equity.
+  - Premium Insurance: Health, dental, vision, and life
+    Insurance, including plans for you and eligible dependents
+    (benefits vary depending on country).
+  - Flexible Working Schedule:  You have a doctor’s appointment
+    or need to head to the supermarket to get groceries at
+    2pm? We won’t have an issue with that. To us, results
+    matter more than clocking in and out at the same time
+    every day.
+  - Workplace Flexibility:  We’re very flexible about where you
+    work. We know things can change in life and we’re happy to
+    adjust the work environment for you along the way.
+
+  Culture & Values
+
+  At vCluster Labs, we value and stand for:
+
+  - Make it Happen: We have a relentless bias for action and the
+    grit to push through obstacles. We do whatever it takes to
+    figure it out, put in the work, and ruthlessly prioritize
+    the actions that drive measurable impact for the business.
+  - Own the Outcome: We understand that our responsibility
+    doesn't end when a task is checked off; it ends when the
+    value is delivered. We connect our daily individual
+    actions to the broader success of the company and our
+    customers.
+  - Create Wow: We measure success by the experience we
+    generate, both inside and outside the company. For our
+    customers, this means impressive speed and intuitive
+    experiences. For our team, this means going the extra mile
+    to support one another and to continuously drive each
+    other to new heights.
+  - Open Source, Open Mind: We are actively contributing to and
+    maintaining open-source projects. Internally, we foster
+    meritocracy — the strongest ideas win, no matter who or
+    where they come from.
+  - Build Tomorrow’s Standards, Intentionally: We don't just
+    ship software; we define the state-of-the-art of tomorrow.
+    We are fearless in tearing down old approaches to build
+    something better, but we are disciplined in how we do it
+    because we know our users rely on our technology to run
+    mission-critical infrastructure platforms.
+industries:
+  - Information Technology
+  - Software
+posted_date: 2026-10-15
+url: "https://builtin.com/job/senior-software-engineer-backend/11696628"
+source: Built In

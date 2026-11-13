@@ -1,0 +1,165 @@
+job_id: 11156089
+title: Senior Frontend Engineer
+company: Coralogix
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 198 Employees
+description: |
+  Description
+
+  Coralogix is a modern, full-stack observability platform
+  transforming how businesses process and understand their
+  data. Our unique architecture powers in-stream analytics
+  without reliance on expensive indexing or hot storage. We
+  specialize in comprehensive monitoring of logs, metrics,
+  trace and security events with features such as APM, RUM,
+  SIEM, Kubernetes monitoring and more, all enhancing
+  operational efficiency and reducing observability spend by
+  up to 70%.
+
+  About Our Squad
+
+  We're building some of the most important user experiences
+  in Coralogix.
+
+  Our team owns the frontend experience for products like
+  Explore, APM, and RUM - interfaces engineers rely on every
+  day to investigate, debug, and understand their systems.
+
+  Although we're frontend-focused, we're a full-stack product
+  team. We own features end-to-end, from product discussions
+  and UX decisions to architecture, implementation, backend
+  integrations, and production.
+
+  Engineers on our team don't just implement designs - they
+  help define the product, challenge assumptions, make
+  technical decisions, and shape how users experience
+  Coralogix.
+
+  We're looking for a Senior Frontend Engineer who is a
+  builder at heart: someone who can own complex problems,
+  navigate ambiguity, make strong technical and product
+  decisions, and raise the engineering bar around them.
+
+  Work Location: 100% Remote. Candidates must be legally based
+  in a European country.
+
+  Responsibilities
+
+  - Own complex product features and technical initiatives from
+    idea to production.
+  - Design and build intuitive, high-performance user
+    experiences using Angular.
+  - Drive frontend architecture and technical decisions with
+    scalability, maintainability, performance, and user
+    experience in mind.
+  - Collaborate closely with Product, Design, Backend, and other
+    engineers to shape solutions - not just implement
+    requirements.
+  - Translate complex technical concepts and large amounts of
+    data into simple, elegant user experiences.
+  - Proactively identify opportunities to improve the product,
+    architecture, and engineering practices.
+  - Write clean, well-tested, production-ready code.
+  - Review code, mentor engineers, and help raise the technical
+    level of the team.
+  - Use AI-assisted development effectively to accelerate
+    delivery while maintaining high engineering standards.
+
+  We're Looking For Someone Who
+
+  - Loves building products, not just writing code.
+  - Takes end-to-end ownership and drives complex work to
+    completion.
+  - Has strong technical judgment and makes thoughtful
+    architectural tradeoffs.
+  - Cares deeply about UI/UX, performance, and product quality.
+  - Is comfortable with ambiguity and challenges ideas
+    constructively.
+  - Works effectively across Product, Design, Backend, and
+    Engineering.
+  - Helps other engineers grow and continuously raises the bar
+    around them.
+
+  Requirements
+
+  - 7+ years of professional frontend development experience,
+    including ownership of complex production applications.
+  - Strong experience with a major frontend framework (Angular,
+    React, or Vue).
+  - Strong proficiency in TypeScript, JavaScript, HTML and
+    CSS/SCSS.
+  - Experience designing scalable frontend architectures and
+    building complex, data-intensive applications.
+  - Strong understanding of browser fundamentals, frontend
+    performance, and modern web development practices.
+  - Strong understanding of UI/UX principles and attention to
+    detail.
+  - Experience with APIs, state management, testing, and modern
+    frontend development workflows.
+  - Strong problem-solving skills and ability to independently
+    lead complex technical work.
+  - Strong communication skills and experience working in cross-
+    functional teams.
+
+  ﻿Nice to Have
+
+  - Experience with Angular and large-scale Angular
+    applications.
+  - Experience with monorepos and tools such as Nx.
+  - Experience with observability platforms, developer tools, or
+    large-scale SaaS products.
+  - Experience with frontend performance optimization and data-
+    intensive UIs.
+  - Experience with cloud platforms such as AWS or GCP.
+  - Familiarity with backend technologies and distributed
+    systems.
+  - Experience with AI-assisted development tools and workflows.
+
+  Cultural Fit
+
+  We’re seeking candidates who are hungry, humble, and smart.
+  Coralogix fosters a culture of innovation and continuous
+  learning, where team members are encouraged to challenge the
+  status quo and contribute to our shared mission. If you
+  thrive in dynamic environments and are eager to shape the
+  future of observability solutions, we’d love to hear from
+  you.
+
+  Coralogix is an equal opportunity employer and encourages
+  applicants from all backgrounds to apply.
+industries:
+  - Machine Learning
+  - Software
+posted_date: 2026-09-28
+url: "https://builtin.com/job/senior-frontend-engineer/11156089"
+source: Built In

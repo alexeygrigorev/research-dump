@@ -1,0 +1,139 @@
+job_id: 10505499
+title: "Fullstack Software Engineer (TypeScript, C#, AWS) 12 month Maternity Cover"
+company: Houseful
+location: London, GBR
+work_type: FULL_TIME
+company_size: 737 Employees
+description: |
+  Maternity Leave Cover - Fixed Term Employee for 12 months
+
+  Logistics: Hybrid - 2 days per week in our London HQ
+
+  Alto Software Group is a B2B SaaS company that powers more
+  than half of all UK housing transactions each year. We
+  create software solutions that connect businesses and
+  consumers, delivering a one-stop shop for estate agents and
+  home builders. Our goal is to drive efficiency, speed up
+  transactions, reduce risk, and improve the end-customer
+  experience.
+
+  Our platform is built on a proven C# and .NET foundation,
+  and we're building what comes next on top of it. That means
+  new frontier AI capabilities in TypeScript, sitting
+  alongside a C# estate we're actively evolving for the next
+  era. The interesting challenge isn't just being productive
+  in both stacks,  it's knowing when each is the right tool
+  and keeping the whole system coherent as our product grows.
+  If you are passionate about how software should be built and
+  want to be in the room where those decisions get made,
+  there's never been a better time to join us.
+
+  What You'll Do
+
+  - Identify the right problems to solve across a dual-stack C#
+    and TypeScript backend, being intentional about choosing
+    the right tool for the job.
+  - Implement microfrontend web applications in React and
+    TypeScript, with an eye for component design and the UX
+    implications of what you build.
+  - Take end-to-end ownership of features from early design
+    through to production. You're in the product conversation
+    from the start, move fast from idea to working prototype
+    to learn what's worth building, and see it through to
+    delivery.
+  - Work closely with our product team and engage customers to
+    understand the problems worth solving, bringing that
+    perspective back into how you design and build.
+  - Work with AWS managed services including ECS/Fargate,
+    Lambda, SQS, DynamoDB, and DocumentDB to build and evolve
+    a scalable, event-driven architecture that performs under
+    real load.
+  - Use AI coding agents (e.g. Claude Code, Cursor) to
+    accelerate delivery and embody a genuine shift in how you
+    design, implement and review code
+  - Set a high bar for craft and collaboration, from well-
+    considered architecture decisions to clear pull requests,
+    thorough testing, and feedback that levels up the people
+    around you.
+  - Help shape how we build, not just what we build. Exploring
+    how AI can remove repetitive toil and tighten feedback
+    loops so we spend our energy on the problems worth
+    solving.
+
+  Our Technology Stack
+
+  We believe in using the right tool for the job. Our current
+  stack includes:
+
+  - Backend: TypeScript, Node.js, C#, .NET
+  - Frontend: TypeScript, React
+  - Cloud & Infrastructure: AWS (ECS, Lambda, SQS, DocumentDB,
+    DynamoDB), Terraform, SST (Infrastructure as Code)
+  - Architecture: Microservices, Microfrontends, Event-driven
+    architecture
+
+  What You Need to Be Successful
+
+  - A strong background in TypeScript and C# with experience
+    building modern, production-grade APIs and distributed
+    systems.
+  - Proven experience with asynchronous, event-driven
+    architecture and hands-on familiarity with AWS managed
+    services including ECS/Fargate, Lambda, SQS, DynamoDB, and
+    DocumentDB.
+  - Real-world experience with AI coding agents and genuine
+    opinions about where they help, where they fall short, and
+    where things are heading.
+  - You're actively experimenting with how agentic AI can remove
+    friction from the software delivery lifecycle and create
+    better product experiences.
+  - You think like a product engineer, not just a software
+    engineer. Driven by the value a feature creates rather
+    than the mechanics of how it's built, and grounded in
+    evidence to understand what customers actually need.
+  - Comfortable with ambiguity and early-stage work. You
+    prototype to learn and get feedback, and you adapt quickly
+    when the picture changes.
+  - Pragmatic about trade-offs. You can balance speed and depth,
+    manage technical debt strategically, and make the call on
+    when good enough ships and when it needs more.
+  - A collaborator who raises the bar around them, through clear
+    communication, well-written proposals, actionable
+    feedback, and a willingness to do the unglamorous work
+    that keeps a codebase healthy.
+
+  We are committed to building a diverse and inclusive team
+  and welcome applications from all backgrounds. If you have a
+  strong foundation in TypeScript or C# and everything above
+  sounds like the way you already think, we'd love to hear
+  from you.
+
+  Benefits
+
+  - Everyday Flex - greater flexibility over where and when you
+    work
+
+  - 25 days annual leave + extra days for years of service
+  - Day off for volunteering & Digital detox day
+  - Festive Closure - business closed for period between
+    Christmas and New Year
+  - Cycle to work and electric car schemes
+  - Free Calm App membership
+  - Enhanced Parental leave
+  - Fertility Treatment Financial Support
+  - Group Income Protection and private medical insurance
+  - Gym on-site in London
+  - 7.5% pension contribution by the company
+  - Discretionary annual bonus up to 10% of base salary
+  - Talent referral bonus up to £5K
+
+  We want to make ASG more welcoming, fair and representative
+  every day. We’ll consider everyone who applies for this role
+  in the same way, regardless of your ethnicity, colour,
+  national origin, religion, sexual orientation, gender,
+  gender identity, age, physical disability, neurodiversity
+  status, family or parental status, or how long you’ve spent
+  unemployed.
+posted_date: 2026-08-03
+url: "https://builtin.com/job/fullstack-software-engineer-typescript-c-aws-12-month-maternity-cover/10505499"
+source: Built In

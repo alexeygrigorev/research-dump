@@ -1,0 +1,111 @@
+job_id: 12082024
+title: Product Engineer (Frontend) (m/f/d)
+company: Particula
+location: Munich, DEU
+work_type: FULL_TIME
+company_size: 30 Employees
+description: |
+  Hi, we are Particula, the prime rating provider for digital
+  assets! Our mission? To make the market for digital assets
+  more accessible, secure and transparent for institutional
+  investors. We support issuers, trading facilities, banks and
+  asset managers to create trust, minimize risks and allocate
+  capital effectively. Join our team and shape the future of
+  the financial world with us! 👋 About the Role We are looking
+  for a product engineer to own our user-facing applications
+  end to end. We operate without dedicated designers or
+  product managers. You will work directly with internal and
+  external stakeholders as well as backend & AI engineers to
+  turn high-level goals into shipped, well-measured features.
+  This is not a ticket-closing role. You spot user friction,
+  propose a fix, build it, measure the outcome and iterate
+  quickly. You will also help shape how we build software with
+  AI agents, translating requirements into working code and
+  establishing the guardrails, automated tests and review
+  habits that keep quality high when code is AI-assisted. You
+  remain responsible for every line you ship, whether you or
+  an agent wrote it. What you will do * Ship features end to
+  end: Take concepts from conversation to production, covering
+  UX design, frontend implementation, API integration and
+  deployment. * Act as a product builder: Spot friction points
+  yourself, pitch improvements and make sure every feature
+  solves a real user need. * Make decisions with data:
+  Implement analytics, track feature adoption and iterate on
+  the numbers. * Work directly with users: Talk to internal
+  teams as well as external stakeholders, and turn
+  unstructured feedback into clear technical plans. * Own AI-
+  assisted delivery: Use and orchestrate coding agents daily.
+  Write the specs and plans, choose the patterns and approach,
+  and review generated code before you push it. * Review your
+  peers' work: Be one of the main reviewers of frontend pull
+  requests, and keep a balance between delivering working
+  functionality and keeping the review workload manageable. *
+  Own the design system: Maintain and extend the shared
+  component library and UI guidelines so the product stays
+  consistent. An external design agency will help set the
+  visual language. * Own quality and testing: Propose and set
+  up the QA and testing strategy for your area, using
+  automated E2E and component tests to ensure reliability,
+  performance and security. How we work These are fixed parts
+  of the job, and we ask candidates to read them as
+  requirements. * Delivery process: Work follows a defined
+  delivery process. Inside it, you own the open decisions in
+  your area, including solution design and implementation
+  approach. * Decision rights: Architecture, API contracts and
+  design system direction are set centrally because they are
+  shared across teams. You change them through a written
+  proposal. Once a decision is made, everyone follows it.
+  Backend engineers own the security and performance of
+  services. * Team rhythm: A daily stand-up and a biweekly
+  Friday demo. Attendance is expected. * Speed: We ship small
+  and often and iterate on the interface quickly. Quality
+  comes from tests and reviews, not from polishing before
+  release. Requirements Must have * 5+ years of commercial
+  software engineering, with evidence of owned product work:
+  features you took from problem to production and measured.
+  Experience in a fast-paced startup is a plus. * Strong
+  frontend expertise: Deep proficiency in TypeScript and a
+  modern component framework (Vue 3 / Nuxt preferred). *
+  Product and UX sense: A track record of designing clean,
+  functional interfaces and delivering features without
+  dedicated PMs or designers. * Data-driven mindset: Hands-on
+  experience setting up and using analytics tools (PostHog,
+  Amplitude, Mixpanel or similar). * Daily use of AI coding
+  agents: Active experience with agentic tools (Claude Code,
+  Copilot), a clear method for guiding them, and a clear
+  method for checking what they produce. * Testing and review
+  habits: Experience with automated E2E and UI testing
+  (Playwright, Cypress, Vitest), the ability to define a
+  testing strategy, and the discipline to review code, yours
+  and others', before it merges. * Clear communication: Fluent
+  written and spoken English, comfortable presenting ideas to
+  non-technical stakeholders and working through written
+  proposals. Strong plus * Domain background: Prior experience
+  in fintech, Web3 / digital assets or data-driven products. *
+  Design systems: Experience building or maintaining a
+  component library. * Backend / BFF capability: Experience
+  building APIs and BFF layers, ideally with PHP / Laravel. *
+  Cloud and DevOps: Practical experience with AWS
+  environments, deployments and observability. * AI tooling
+  workflow: Experience creating agent skills or CI guardrails
+  for AI-assisted development. Our stack TypeScript · Vue 3 ·
+  Nuxt · PHP · Laravel · AWS · AI-assisted development
+  workflows Benefits * Offsites with the team in exciting
+  locations * Flexible working hours in a company that relies
+  on remote work * Exciting product in a very dynamic market
+  environment as well as founding-level ownership of a key
+  growth function. * Values-based start-up culture * Many
+  opportunities to develop further and network with committed
+  people * Flat hierarchy We're a hybrid company building our
+  core development team in Europe around Central European
+  Time. The goal is to establish a hub around Munich, Germany.
+  Let’s build the next layer of trust for digital assets -
+  together!
+industries:
+  - Blockchain
+  - Fintech
+  - Software
+  - Analytics
+posted_date: 2026-11-04
+url: "https://builtin.com/job/product-engineer-frontend-m-f-d/12082024"
+source: Built In

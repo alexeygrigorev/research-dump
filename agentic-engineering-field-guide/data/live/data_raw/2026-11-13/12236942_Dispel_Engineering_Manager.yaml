@@ -1,0 +1,193 @@
+job_id: 12236942
+title: Engineering Manager
+company: Dispel
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 61 Employees
+description: |
+  Dispel builds network isolation and access infrastructure
+  for critical industries, where a breach is an operational
+  failure with real-world consequences. Our customers include
+  critical infrastructure operators, defense contractors, and
+  industrial enterprises that hold their software vendors to
+  an exceptionally high bar. The Senior Engineering Manager is
+  accountable for making that standard real.
+
+  This is a people-first, delivery-focused leadership role.
+  You will manage 6–12 engineers across one or two teams,
+  owning the full management lifecycle: hiring, onboarding,
+  career development, performance management, and the hard
+  conversations that come with it. As a direct report to the
+  VP of Engineering, you will also co-own how engineering
+  works at Dispel, participating in decisions about org
+  structure, engineering-wide practices, and multi-quarter
+  delivery strategy. Technical judgment is non-negotiable. You
+  will read pull requests, join architecture discussions, and
+  flag technical risk. You must understand what your teams are
+  building to fully enable them.
+
+  Engineering at Dispel is a collaborative effort and those
+  that show up trying to get things done and help others will
+  receive support from the team. Dispel has high aspirations
+  and we are growing quickly. We have noticed that people that
+  have been in such environments before tend to adapt better.
+  If you have not been in an environment like this before you
+  would do well to try and convince us that you can handle it
+  during your interviews.
+
+  RequirementsExecution
+
+  - Own delivery health across all active work: track project
+    status, identify blockers early, remove obstacles, and
+    escalate risks to the VP of Engineering with context and a
+    proposed path forward.
+  - Run effective team rituals (sprint planning, retrospectives,
+    standups, reviews) calibrated to what your teams actually
+    need, not a fixed process template.
+  - Conduct regular, substantive 1:1s with every direct report.
+    Maintain a clear picture of each engineer's performance,
+    goals, and career trajectory.
+  - Own performance management end to end: develop high
+    performers, address underperformance directly, and
+    document both with the specificity needed to make
+    decisions.
+  - Participate in hiring loops: source candidates, conduct
+    interviews, calibrate against the hiring bar, and
+    contribute to offer decisions with a defensible rationale.
+  - Contribute to quarterly and multi-quarter planning by
+    translating roadmap intentions into realistic capacity
+    models, surfacing dependencies, and flagging sequencing
+    risks.
+  - Maintain sufficient technical context to evaluate your
+    teams' work. This includes reading pull requests for
+    signal, joining architecture discussions, and escalating
+    technical concerns.
+  - Drive accountability for quality standards: code review
+    practices, test coverage, documentation discipline, and
+    incident response follow-through.
+  - Partner with product and project managers to align on
+    priorities, negotiate scope, and represent your teams'
+    capacity honestly.
+
+  Enabling Others
+
+  - Participate in an on-call rotation to support system
+    reliability, including responding to incidents and
+    performing after-hours troubleshooting as needed.
+  - Partner with other Engineering managers and VP of
+    Engineering on team structure, headcount planning, career
+    leveling consistency, and the definition of what good
+    looks like at each IC level.
+  - Identify patterns across your teams (recurring process
+    failures, tooling friction, onboarding gaps) and drive
+    improvements that benefit engineering beyond your teams.
+  - Refine Dispel's hiring practices: help define the hiring
+    bar, improve interview formats, and calibrate debriefs so
+    decisions are consistent and defensible.
+  - Advocate for investments your teams need: better release
+    pipelines, CI/CD improvements, developer tooling. Make the
+    case to the VP with specifics about impact and cost.
+  - Represent engineering credibly to non-engineering
+    stakeholders. Translate technical constraints into
+    language that informs business decisions without
+    oversimplifying.
+  - Model the culture you want to see: intellectual honesty,
+    directness, follow-through, and genuine care for your
+    people.
+
+  Qualifications
+
+  - 4 or more years managing software engineering teams of 5+
+    ICs in a product engineering environment.
+  - A prior career as a software engineer with enough depth to
+    understand what good engineering looks like. You do not
+    need to write code in this role, but you need to have
+    written it professionally and to have strong intuitions
+    about quality, complexity, and technical risk.
+  - Comfortable using coding agents (e.g., GitHub Copilot,
+    Claude Code) as part of your daily workflow. Addy Osmani's
+    article Agentic Engineering roughly describes Dispel's
+    stance on AI usage by engineers.
+  - Demonstrated track record of growing engineers' careers. You
+    can point to specific people you have leveled up, describe
+    how you identified their gaps, and explain what you did to
+    close them.
+  - Experience with multi-quarter planning: you have owned
+    delivery commitments spanning multiple sprint cycles and
+    know how to track them, communicate about them, and
+    recover when plans diverge from reality.
+  - Strong technical judgment: comfortable in architecture
+    reviews, able to evaluate proposals critically, and able
+    to spot when a technical decision is being made for the
+    wrong reasons.
+  - Experience managing engineers on security-critical,
+    reliability-critical, or infrastructure-adjacent software.
+    The stakes are different when the thing you ship cannot go
+    down.
+  - Demonstrated ability to operate remote-first. You have
+    managed distributed teams and understand what remote
+    management requires that in-person does not.
+  - Strong written communication. In a fully remote company,
+    writing is your primary leadership surface: 1:1 notes,
+    status updates, feedback, and engineering-wide
+    contributions all need to be clear, specific, and worth
+    reading.
+  - US work authorization required. Dispel requires
+    comprehensive background checks for all employees.
+
+  Bonus Points
+
+  - Experience at a company with a security-first product or
+    customers in regulated industries (critical
+    infrastructure, defense, industrial control systems,
+    financial services, healthcare).
+  - Familiarity with compliance frameworks such as SOC 2,
+    FedRAMP, or IEC 62443. Not as a practitioner, but as a
+    manager who understands what compliance costs a team and
+    how to resource it.
+  - Exposure to Dispel's core technology areas: cloud-native
+    infrastructure on AWS or Azure, Terraform, backend
+    services in Python, TypeScript, or Go, and
+    React/TypeScript frontends.
+  - Experience driving improvements to release infrastructure,
+    CI/CD pipelines, or developer tooling. You got the build
+    time cut in half or got automated testing enforced as a
+    gate, and you know what that takes organizationally.
+  - Prior experience working alongside a Technical Program
+    Manager or equivalent. You understand how program
+    management and engineering management divide
+    responsibilities.
+  - Familiarity with structured hiring and leveling practices:
+    rubrics, evaluation frameworks, or calibration processes
+    that make hiring and promotion decisions more consistent.
+  - A willingness to accept failure and feedback, learn and try
+    again.
+  - A passion for learning new disciplines and gaining a deep
+    understanding of how others on the team do their work.
+  - An ability to communicate clearly and succinctly both in-
+    person and over team chat.
+
+  Benefits
+
+  Why Dispel/Benefits
+
+  At Dispel you’ll be rewarded and recognized for your
+  performance in an environment that will challenge you and
+  give you clear direction on what it takes to succeed in your
+  role as well as provide development for other roles you may
+  be interested in.
+
+  - Base salary: $165,000-189,000
+  - 401(k) with company match
+  - Generous paid time off and holidays
+  - Performance bonus and equity eligible
+  - Remote work
+  - Medical, vision, dental insurance
+industries:
+  - Internet of Things
+  - Cybersecurity
+  - Defense
+posted_date: 2026-11-13
+url: "https://builtin.com/job/engineering-manager/12236942"
+source: Built In

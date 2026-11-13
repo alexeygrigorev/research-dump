@@ -1,0 +1,69 @@
+job_id: 9942987
+title: Backend Engineer
+company: NeuVerge-Tron GmbH
+location: DEU
+locations:
+  - DEU
+  - Munich, DEU
+remote: true
+work_type: FULL_TIME
+company_size: 70 Employees
+description: |
+  Responsibilities
+
+  - Independently complete module design, coding, testing, and
+    related documentation according to development standards
+    and processes.
+  - Lead or participate in the design and development of
+    foundational capabilities or common platforms.
+  - Engage in server-side development, resolve complex technical
+    challenges, continuously optimize product performance and
+    stability; actively participate in problem-solving,
+    solution optimization, and requirement/technical reviews.
+  - Lead or contribute to the delivery of large-scale business
+    projects, with the ability to handle complex business
+    scenarios; develop core code and share technical knowledge
+    or provide training to enhance team capabilities.
+  - Demonstrate strong logical thinking, communication skills,
+    teamwork, and customer-oriented mindset.
+
+  Requirements
+
+  - Bachelor’s degree or above in Computer Science or related
+    field; 6–10+ years of Java development experience,
+    including involvement in requirement analysis, system
+    design, and database design.
+  - Proficient in common Java technologies, solutions, and
+    design patterns.
+  - Familiar with JVM tuning and memory management principles;
+    expert in multithreaded programming; experienced with NIO,
+    reflection, and related technologies.
+  - Skilled in popular frameworks such as Spring, Spring Boot,
+    and MyBatis, with understanding of their principles and
+    implementation mechanisms.
+  - Familiar with microservices architecture using Spring Cloud
+    or Spring Cloud Alibaba, with practical experience.
+  - Experienced in using middleware such as Redis, Kafka, and
+    Elasticsearch.
+  - Strong database knowledge, proficient in SQL development and
+    operations; understanding of storage engines, indexing,
+    large-scale data partitioning/sharding, and SQL
+    optimization.
+  - Knowledge and hands-on experience with cloud-native
+    technologies (e.g., Docker, Kubernetes), including
+    containerization, service deployment, and troubleshooting.
+  - Experience in designing and developing high-concurrency,
+    high-availability service interfaces; passion for
+    technology and commitment to high-quality code is highly
+    valued.
+  - Strong communication and presentation skills; detail-
+    oriented, responsible, and quality-driven; optimistic and
+    proactive attitude.
+industries:
+  - Greentech
+  - Software
+  - Energy
+  - Renewable Energy
+posted_date: 2026-09-14
+url: "https://builtin.com/job/backend-engineer/9942987"
+source: Built In

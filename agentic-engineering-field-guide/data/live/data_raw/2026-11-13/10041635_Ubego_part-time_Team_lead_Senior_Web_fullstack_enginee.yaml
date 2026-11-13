@@ -1,0 +1,223 @@
+job_id: 10041635
+title: "part-time Team lead / Senior Web fullstack engineer | Side-job"
+company: Ubego
+location: GRC
+locations:
+  - GRC
+  - ARE
+  - USA
+  - ESP
+  - FRA
+  - CYP
+  - ITA
+  - POL
+  - TUR
+  - TWN
+  - ARM
+  - CZE
+  - DEU
+  - EST
+  - FIN
+  - GEO
+  - LVA
+  - BRA
+  - CAN
+  - ROU
+  - LTU
+  - ARG
+  - IRL
+  - SAU
+  - London, GBR
+  - MEX
+remote: true
+work_type: PART_TIME
+company_size: 12 Employees
+description: |
+  Ubego is a global platform where authors create scenarios in
+  editor:
+
+  - excursions
+
+  - quests
+
+  - games in real life
+
+  Consumers buy and participate in these excursions / games
+  with the mobile app.
+
+  Ubego currently works in 60+ cities, and we continue to
+  expand worldwide. In the near future, we plan to provide
+  authors and customers with augmented reality functions.
+  Ubego's goal is to create millions of quests so that
+  customers can play these games every weekend and in most
+  places around the world.
+
+  My team and I believe that Ubego will embrace the world
+  because we automatize excursions. It is just as obvious that
+  people will use their smartphones for excursions as it is
+  that autopilots will replace drivers. A cheaper, better
+  service that makes customers independent will always win.
+
+
+
+  Benefits
+
+  - We work for 7 years
+
+  - We have huge repeat purchase rate of 16%+
+
+  - We earn money and grow
+
+  - We have worldwide scalable business model
+
+  - We are team of experienced and obsessive people
+
+  - We have great company culture and ambitious goal
+
+
+
+  How we work
+
+  We work with use of Scrum methodology. There are 1 week
+  sprints followed by discussing and planning.
+
+  We are following Lean startup methodology where we actively
+  test ideas.
+
+
+
+  Responsibilities
+
+  Engineering (Core Focus)
+
+  - Design, develop, and maintain web applications (backend and
+    frontend)
+  - Lead backend development using PHP (Laravel)
+  - Lead frontend development using Angular, React, or Vue
+  - Own software architecture and technical decisions
+  - Perform code reviews (for both human and AI-generated code)
+    and maintain engineering standards
+  - Participate directly in debugging, refactoring, and
+    performance optimization
+  - Design APIs and system integrations
+
+  DevOps & Infrastructure
+
+  - Own CI/CD pipelines and release processes
+  - Manage deployments across staging and production
+    environments
+  - Improve infrastructure stability, scalability, and
+    monitoring
+  - Automate business and engineering processes
+  - Manage Linux-based infrastructure, Docker, Kubernetes, and
+    cloud services
+  - Improve build, test, and deployment automation
+  - Implement and maintain monitoring, logging, and
+    observability systems
+
+  Leadership & Product Delivery
+
+  - Act as the Team Leader for an AI-driven engineering
+    workflow—orchestrating, guiding, and reviewing the output
+    of AI agents rather than managing human coders.
+  - Define specs for AI agents, validate their code, and ensure
+    the delivery of complete, production-ready features.
+  - Conduct planning meetings, technical reviews, and
+    architecture discussions with human stakeholders.
+  - Align technical execution with business goals and ensure
+    features meet end-to-end integration testing standards.
+  - Improve engineering processes, AI harnesses, and
+    documentation.
+  - Collaborate with cross-functional teams to drive product
+    delivery.
+
+
+
+  Required Skills
+
+  Backend & Frontend
+
+  - PHP (Laravel)
+  - JavaScript / TypeScript
+  - Angular (preferred), React, or Vue
+  - MySQL
+  - REST APIs
+
+  DevOps & Infrastructure
+
+  - Linux Administration
+  - Bash Scripting
+  - Nginx
+  - Docker
+  - Kubernetes
+  - Helm
+  - CI/CD (GitLab CI, Jenkins, ArgoCD or similar)
+  - Infrastructure Automation (Ansible or similar)
+  - Networking Fundamentals (TCP/IP, iptables, ipset)
+
+  Monitoring & Reliability
+
+  - Prometheus
+  - Grafana
+  - Zabbix
+  - Elasticsearch
+  - Filebeat
+  - Kibana
+
+   Engineering Practices
+
+  - Git
+  - Code Reviews
+  - Software Architecture
+  - System Design
+  - YAML / JSON / XML
+  - Technical Documentation (Markdown)
+  - Databases
+  - MySQL Administration & Optimization
+  - MongoDB or other NoSQL Databases
+  - Tools & Platforms
+  - Jira
+  - Confluence
+  - Cloudflare
+  - Programming & Automation
+  - Python
+  - Mandatory: Heavy daily user of AI-assisted development tools
+    (GitHub Copilot, Cursor, Claude Code, Aider, etc.)
+  - Experience setting up and managing a complete AI development
+    harness for high automation
+  - AI agent programming and orchestration
+  - Nice to Have
+  - Node.js
+  - Advanced Kubernetes Experience
+  - C++ / Qt / WebAssembly
+  - Product Management Experience
+  - Project Management Experience
+  - Startup experience
+
+  We offer an option
+
+  - Up to 1 500 000 shares of Ubego (at the moment there are 11
+    500 000 shares). P shares hourly + dividends.
+
+  - Workload amount is 15-20 hours weekly. You can mix easily
+    with your office job.
+
+  - This is an equity based compensation opportunity. To apply,
+    you need to have a full-time job.
+
+
+
+  our web site: https://ubego.quest
+
+  our mobile app: https://ubego.quest/download
+
+  Send CV to wa.me/972559849254
+
+  CV can be in Russian or English language.
+industries:
+  - Gaming
+  - Mobile
+  - Travel
+posted_date: 2026-07-02
+url: "https://builtin.com/job/part-time-fullstack-developer-laravel-angular-side-job/10041635"
+source: Built In

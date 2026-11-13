@@ -1,0 +1,130 @@
+job_id: 11196824
+title: Senior Frontend Engineer
+company: Newfold Digital
+location: USA
+locations:
+  - USA
+  - CAN
+remote: true
+work_type: FULL_TIME
+company_size: 5,687 Employees
+description: |
+  Who We Are
+
+  At Bluehost, we believe all small businesses deserve the
+  opportunity to succeed online. Our mission is to give small
+  businesses the confidence to think big. We're the all-in-one
+  platform for small businesses to grow online with powerful
+  simplicity, premium performance, smart tools and human
+  support.
+
+  This role will help build the customer-facing surfaces that
+  define the Bluehost experience for millions of small
+  businesses. We're scaling fast and rebuilding as we go: new
+  architectural patterns, AI-native features, and a bar for
+  craft that keeps rising. This is a role for a builder who
+  owns outcomes end-to-end, moves ideas from concept to
+  production in days rather than sprints, and wants to help
+  redefine how our front-end systems get built and shipped.
+
+  What You'll Do & How You'll Make Your Mark
+
+  - Architect and build high-performance, production-grade UI in
+    React, Redux (or similar state management), and TypeScript
+
+  - Use AI across the delivery lifecycle, not just code
+    generation, and set the guardrails the team works inside:
+    how generated code gets reviewed, how provenance and
+    licensing are checked, and what customer data may enter a
+    prompt
+
+  - Design and build front-end interfaces that integrate AI-
+    powered features, such as chat, content generation, and
+    smart recommendations
+
+  - Own the performance, scalability, and reliability of high-
+    traffic, customer-facing applications, from bundle size to
+    render performance
+
+  - Partner closely with product, design, and backend engineers
+    to take features from concept to production quickly,
+    without sacrificing quality
+
+  - Set and enforce frontend engineering standards: component
+    reuse, design-system consistency, testing coverage, and
+    code review rigor across both squads
+
+  - Mentor mid-level and junior engineers on architecture
+    decisions, debugging technique, and modern React patterns
+
+  - Drive continuous delivery practices, shipping iteratively
+    against real user feedback instead of large, infrequent
+    releases
+
+  Who You Are & What You'll Need to Succeed
+
+  - 5+ years building and shipping modern, production-grade web
+    applications at scale
+
+  - Deep expertise in React, Redux/modern state management, and
+    TypeScript, with strong JavaScript (ES6+), HTML5, and CSS3
+    fundamentals
+
+  - AI-augmented delivery: you use AI across the delivery
+    lifecycle, not just code generation, and can say which
+    models suit which problems and where you don't use them.
+    You review AI-generated code knowing its failure modes,
+    and you have set the guardrails others work inside —
+    review expectations for generated code, provenance and
+    licensing checks, and clear boundaries for what customer
+    data enters a prompt and what a security or compliance
+    review will ask for.
+
+  - Experience integrating REST APIs and working within
+    microservices-based architectures
+
+  - Comfortable with testing frameworks (Jest/Cypress) and
+    building or maintaining component libraries and design
+    systems
+
+  - Track record of owning technical outcomes end-to-end in
+    ambiguous, fast-moving environments where speed and craft
+    both matter
+
+  - Experience operating in a high-scale SaaS or consumer
+    platform environment
+
+  - Bonus: Next.js experience and prior work integrating LLM-
+    powered or AI-driven product features
+
+  Why You'll Love Us
+
+  - Work-life balance. Meaningful work, balanced by a culture
+    that respects your time.
+
+  - A culture of belonging. We celebrate what makes each of us
+    different, with 20+ affinity groups connecting employees
+    globally.
+
+  - We care about you. Excellent Health, HSA, Dental, Vision,
+    Matching 401K, Life/AD&D/STD/LTD, Tuition Reimbursement,
+    Pet Insurance, and generous PTO.
+
+  - Where can we take you? Mentorship, new challenges, and real
+    career growth. Unfold new possibilities #OTOD!
+
+  Employment with Newfold Digital is at-will and nothing in
+  this Job Description should be interpreted or construed to
+  alter the at-will employment relationship.
+
+  This Job Description includes the essential job functions
+  required to perform the job described above, as well as
+  additional duties and responsibilities. This Job Description
+  is not an exhaustive list of all functions that the employee
+  performing this job may be required to perform. The Company
+  reserves the right to revise the Job Description at any
+  time, and to require the employee to perform functions in
+  addition to those listed above.
+posted_date: 2026-09-15
+url: "https://builtin.com/job/senior-frontend-engineer/11196824"
+source: Built In

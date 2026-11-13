@@ -1,0 +1,247 @@
+job_id: 12025612
+title: Senior Full Stack Engineer
+company: Astro (astro.com)
+location: MYS
+locations:
+  - MYS
+  - MDV
+  - Tajikistan, TJK
+  - JPN
+  - IND
+  - TUR
+  - TWN
+  - KHM
+  - PAK
+  - PHL
+  - MNG
+  - THA
+  - Laos, LAO
+  - BGD
+  - KOR
+  - USA
+  - Singapore, SGP
+remote: true
+work_type: FULL_TIME
+company_size: 5,454 Employees
+description: |
+  WHY JOIN US?
+
+  - We practice a vibrant & energetic office culture.
+  - We provide opportunities for career advancement within the
+    company.
+  - Good performance is always rewarded accordingly.
+
+  “It's our people that make Astro Malaysia’s leading
+  entertainment company. We are an inclusive employer, to
+  enable everyone at Astro to be their best. We embrace
+  differences – we celebrate it, we support it, and we thrive
+  on it for the benefit of our employees, our
+  products/services and our community. We also understand and
+  appreciate that diversity is a driver of creativity and
+  innovation, which will make our business more competitive,
+  compelling and profitable.”
+
+  JOB RESPONSIBILITIES:
+
+  What You’ll Do:
+
+
+
+  Software Development & Solution Design
+
+
+
+  - Participate in all phases of the Software Development
+    Lifecycle (SDLC).
+
+  - Design and develop high-volume, low-latency applications for
+    mission-critical systems, ensuring high availability and
+    performance.
+
+  - Define solution designs and system architectures for
+    customer-facing and backend applications.
+
+  - Develop systems with scalability, flexibility, and
+    maintainability in mind.
+
+  - Collaborate with development teams and product managers to
+    ideate and deliver software solutions.
+
+  - Improve software quality through Agile engineering
+    practices, including code reviews, unit testing, and
+    integration testing.
+
+  - Prepare and maintain architecture diagrams, technical
+    specifications, API documentation, operational guides, and
+    other engineering documents.
+
+  - Troubleshoot defects, enhance existing software, and provide
+    ongoing application support.
+
+  - Manage operational applications and databases to ensure
+    system stability and performance.
+
+  - Write and maintain effective APIs and technical
+    documentation.
+
+  - Provide support during SIT and UAT, investigating and
+    resolving technical issues.
+
+  - Conduct system performance management, application
+    vulnerability management, and software release management.
+
+  - Plan and execute production system implementations.
+
+
+
+  Cloud Engineering and System Integration
+
+
+
+  - Design, develop, and deploy enterprise cloud-based solutions
+    using AWS services, including API Gateway, Lambda, S3,
+    RDS, IAM, Cognito, SNS, SQS, EventBridge, VPC, Route 53,
+    and CloudWatch.
+
+  - Implement serverless applications using Node.js and AWS
+    Lambda, following best practices for scalability,
+    performance, resilience, and cost optimisation.
+
+  - Design and implement event-driven systems, asynchronous
+    processing, messaging solutions, and integrations with
+    internal and external platforms.
+
+  - Develop secure integrations with third-party services,
+    payment gateways, notification platforms, analytics
+    systems, and enterprise applications.
+
+  - Apply cloud architecture principles to improve system
+    availability, fault tolerance, disaster recovery,
+    observability, and operational efficiency.
+
+  - Evaluate and optimise application and infrastructure costs
+    without compromising performance or reliability.
+
+
+
+  Technical Leadership and Engineering Excellence
+
+
+
+  - Provide technical leadership in troubleshooting complex
+    production incidents, resolving performance bottlenecks,
+    and conducting root cause analysis.
+
+  - Lead technical discussions, architecture reviews, code
+    reviews, and engineering design decisions.
+
+  - Guide developers on coding standards, application
+    architecture, testing strategies, security practices, and
+    engineering best practices.
+
+  - Mentor team members, encourage knowledge sharing, and
+    support the continuous development of technical
+    capabilities across the team.
+
+  - Collaborate closely with Solution Architects, Product
+    Owners, Project Managers, Infrastructure, Security, QA,
+    and DevOps teams to ensure successful solution delivery.
+
+  - Conduct technology benchmarking and industry analysis to
+    recommend suitable technologies and align with the
+    organisation's technical strategy.
+
+  - Translate business requirements into practical, scalable,
+    and cost-effective technical solutions.
+
+  - Conceptualise, articulate, and advocate the value of
+    technology in solving real business problems.
+
+  - Provide technical guidance and recommendations to project
+    managers and stakeholders on critical issues to ensure
+    optimal business outcomes.
+
+  - Drive continuous improvement in development processes,
+    engineering standards, automation, and delivery practices.
+
+  REQUIREMENTS:
+
+  Who You Are:
+
+
+
+  - Bachelor's Degree in Computer Science, Information
+    Technology, Software Engineering, or a related discipline.
+  - Minimum 6 years of software development experience within
+    Agile teams.
+  - Strong expertise in developing RESTful APIs and
+    microservices using Node.js.
+  - At least 6 years of hands-on experience in API and
+    microservices development.
+  - Strong hands-on experience in frontend development using
+    React.js and Next.js.
+  - Proficiency in JavaScript, TypeScript, HTML5, CSS3, and
+    modern frontend development practices.
+  - Experience with UI frameworks and styling libraries such as
+    Bootstrap, Tailwind CSS, and Material UI.
+  - Strong experience in designing and developing responsive,
+    reusable, and scalable web applications.
+  - Strong experience designing and developing enterprise cloud-
+    based solutions on AWS.
+  - Hands-on experience with AWS services, including API
+    Gateway, Lambda, S3, RDS, IAM, Cognito, SNS, SQS,
+    EventBridge, VPC, EBS, Route 53, and CloudWatch.
+  - Proven experience designing and developing web, API, and
+    cloud-based solutions.
+  - Experience developing serverless applications using AWS
+    Lambda and Node.js.
+  - Strong understanding of event-driven architectures using
+    services such as SNS, SQS, and EventBridge.
+  - Proficient in relational databases, particularly MySQL,
+    including database schema design, SQL queries, indexing,
+    performance tuning, and troubleshooting.
+  - Experience with NoSQL databases such as DynamoDB or
+    equivalent.
+  - Understanding and experience in developing solutions using
+    application-layer protocols such as TCP/IP, HTTP/S, and
+    WebSockets.
+  - Ability to write automated unit and integration test cases
+    using testing frameworks and mocking libraries.
+  - Proficient in source code management tools such as Git.
+  - Strong understanding of object-oriented design principles,
+    SOLID principles, and design patterns.
+  - Familiarity with modern architecture patterns, including
+    microservices, event-driven architectures, stream
+    processing, and real-time analytics integration.
+  - Strong appreciation of non-functional requirements (NFRs),
+    including scalability, extensibility, reliability,
+    security, and performance.
+  - Working knowledge of Agile Scrum methodologies.
+  - Experience implementing CI/CD processes in AWS environments
+    is an advantage.
+  - Familiarity with modern API design standards, including
+    OpenAPI Specification, is an advantage.
+  - Experience with Docker and container-based deployments is an
+    advantage.
+  - Excellent analytical, logical, and problem-solving skills.
+  - Ability to plan and execute projects while delivering
+    quality outcomes within agreed timelines.
+  - Strong communication, stakeholder management, and
+    collaboration skills.
+  - Experience leveraging AI-assisted development tools such as
+    GitHub Copilot, Cursor, Kiro, or equivalent solutions to
+    improve productivity, code quality, testing, debugging,
+    and documentation.
+
+  It's our people that make Astro Malaysia’s leading
+  entertainment company. We are an inclusive employer, to
+  enable everyone at Astro to be their best. We embrace
+  differences – we celebrate it, we support it, and we thrive
+  on it for the benefit of our employees, our
+  products/services and our community. We also understand and
+  appreciate that diversity is a driver of creativity and
+  innovation, which will make our business more competitive,
+  compelling and profitable.
+posted_date: 2026-11-03
+url: "https://builtin.com/job/senior-full-stack-engineer/12025612"
+source: Built In

@@ -1,0 +1,207 @@
+job_id: 11366788
+title: Sr. Manager, Data Engineering
+company: Applied Systems
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 3,116 Employees
+description: |
+  Job Description Team: Corporate Data Services Salary Range:
+  $135,000-$185,000 USD Location: Remote Opportunity for
+  Impact Applied builds cloud software and AI-powered
+  solutions that are reinventing how the global insurance
+  industry operates, and we do it at a pace that keeps us
+  ahead. What you ship here reaches thousands of agencies and
+  brokers worldwide and sets the standard for what modern
+  insurance technology looks like. Applied Systems, Inc., a
+  worldwide leader in insurance technology, is currently
+  searching for an experienced Sr. Manager, Data Engineering
+  with proven experience in Data and DataOps to join our team.
+  We are on an exciting journey to build and scale our Data
+  and Analytics capabilities to enable better data-driven
+  decision making and AI capabilities across the business.
+  This role is about building the data foundation Applied's
+  business will run on. You will not be inheriting a mature
+  platform and maintaining it - you will be standing much of
+  it up, making the architectural calls, and setting the
+  standards that everything built afterward depends on. You
+  will write code, set engineering standards, and drive
+  delivery, while leading and growing our global team of Data
+  Engineers. We move quickly, priorities evolve as the
+  business learns, and the person in this seat needs to find
+  that energizing rather than unsettling. If you possess a
+  curious and proactive personality, and you are passionate
+  about data solutions that drive direct business outcomes, we
+  want to hear from you! What You'll Do Team Leadership
+
+  - Lead and mentor a growing team of data engineers, including
+    talent reviews and career development.
+  - Grow the team - own the hiring loop, and design onboarding,
+    so new engineers contribute in weeks rather than months.
+  - Own planning, estimation, prioritization, and delivery
+    tracking that aligns with leadership direction and
+    expectations.
+  - Coordinate intake and stakeholder communication for data
+    requests and roadmap planning.
+  - Set and enforce compliance with architecture standards,
+    engineering standards for code quality, testing,
+    documentation, and production readiness.
+  - Foster a culture of curiosity and continuous learning, where
+    engineers explore new technologies, share knowledge, and
+    question assumptions.
+
+  Data Pipelines and Integration
+
+  - Design, build, operationalize and maintain robust and
+    scalable data pipelines from enterprise applications,
+    internal services, and third-party APIs that support
+    business needs.
+  - Lead in designing and building production data pipelines
+    from data ingestion to consumption using GCP services,
+    Python, BigQuery, dbt, SQL, Apache Airflow, Celigo etc.
+  - Design and oversee data models in a medallion architecture.
+  - Set high standards for data validation, profiling,
+    reconciliation, and quality initiatives.
+  - Stay updated with industry trends and technologies to
+    continuously improve our data engineering practices.
+
+  AI-First Engineering  This team has an explicit mandate for
+  AI adoption. We are looking for someone already working this
+  way who can bring a team along, not someone curious about
+  getting started.
+
+  - Drive AI adoption across the team's engineering workflows -
+    be a role model, champion it, remove friction, and help
+    engineers integrate AI tools into their daily development,
+    code review, documentation, and debugging practices.
+  - Define the quality bar for AI-assisted work - what review,
+    testing, and human judgement any AI-generated code or
+    documentation must clear before it ships.
+  - Measure and report the impact of AI adoption on delivery
+    speed, quality, and engineer experience, so investment
+    decisions rest on evidence.
+  - Build data that is AI-ready by design: well-modeled, well-
+    documented, and reliable enough for agents and models to
+    consume without a human verifying every answer.
+
+  Reliability and DataOps
+
+  - Define and own SLAs for critical datasets - freshness,
+    completeness, and accuracy expectations that consumers can
+    plan around.
+  - Build monitoring and alerting for data jobs, orchestration,
+    and lakehouse health.
+  - Participate in and evolve production support, incident
+    response, and on-call rotations.
+  - Mature CI/CD, environment management, and release practices
+    for data and analytics code.
+
+  Strategic Leadership
+
+  - Translate business goals into scalable data and automation
+    solutions in partnership with both business and technology
+    stakeholders.
+  - Champion data democratization and self-service access to
+    data and analytics across the company.
+  - Evaluate and recommend tools and end-to-end solutions across
+    Analytics, Data Engineering, ML Engineering and Data
+    Governance.
+  - Apply systems thinking to identify underlying problems
+    and/or opportunities.
+  - Partner closely with data governance so what we build is
+    documented, owned, and trustworthy by design.
+
+   What We're Looking For
+
+  - 3+ years leading or managing data engineering teams, plus 5+
+    years hands-on data engineering in cloud environments.
+  - Deep hands-on GCP experience - BigQuery, Cloud
+    Composer/Airflow, dbt, Python and SQL - with working
+    knowledge of the broader stack (Dataflow, Pub/Sub, Cloud
+    Storage, Looker, Cloud IAM) and Infrastructure as Code for
+    automating IAM and Data Policy Tags.
+  - Expert level knowledge of data modeling and architecture
+    frameworks, and experience balancing design decisions
+    against cost, business needs, and future growth.
+  - Solid working understanding across all the disciplines
+    within a data team - Data Visualization, Data Governance,
+    Artificial Intelligence and Machine Learning.
+  - Strong execution habits: you create and maintain project
+    timelines, and know when things are off track before your
+    team tells you.
+  - Excellent communication skills - you can articulate
+    technical concepts to non-technical stakeholders and work
+    effectively with US-based partners across time zones.
+  - You already use AI tools (Copilot, Claude, ChatGPT, or
+    similar) daily in your own engineering work, and have
+    informed opinions about how they change workflows, code
+    quality, and team productivity.
+  - You have brought other engineers along, or are eager to -
+    team-level adoption is a leadership problem as much as a
+    tooling one.
+  - You hold a clear line on accountability: AI-assisted output
+    still gets reviewed, tested, and owned by a person.
+  - You are energized by ambiguity, comfortable deciding with
+    incomplete information, and you sequence work so value
+    lands early rather than at the end of a long build.
+  - You have built foundational platforms before, not only
+    operated established ones, and you stay effective when
+    priorities shift.
+
+  Talent shows up in a lot of different ways, and we mean
+  that. We welcome candidates from all backgrounds and
+  experience levels, including military members and their
+  spouses and those without a traditional degree or tech
+  background. If this role speaks to you, apply.  Why You'll
+  Like Working on Team Applied The best work happens when
+  smart people move fast, together. For over 40+ years,
+  Applied has built technology that solves real problems for
+  insurance professionals - and we're still pushing what's
+  possible. You'll be part of our people-first culture built
+  on trust, inclusion, and growth - where you're supported to
+  deliver, collaborate with teammates who care, and grow with
+  leaders invested in your success. How We'll Support You We
+  invest in the whole person, not just the role. Our benefits
+  and resources are built to support your health, your time,
+  and your life outside of work:
+
+  - Medical, Dental, and Vision Coverage
+  - Holiday and Vacation Time
+  - Health & Wellness Days
+  - A Bonus Day for Your Birthday
+
+   Compensation Transparency  Our targeted starting base
+  salary in the United States for this position considers a
+  variety of factors, including depth and breadth of
+  experience, skills and role scope. Depending on the role,
+  team members may also be eligible for additional
+  compensation plans (bonus and commission). Your Security
+  Matters: Our candidates' personal information and online
+  safety are top of mind. Applied communicates with candidates
+  only via a secure @appliedsystems.com email address or
+  through our official careers portal. Recruiters will never
+  request payments or ask for financial account or sensitive
+  personal information like Social Security numbers. AI
+  Utilization We leverage AI tools to streamline parts of our
+  recruitment workflow (such as resume parsing and interview
+  scheduling). However, final decisions are always conducted
+  by real humans. EEO Statement Applied Systems is proud to be
+  an Equal Employment Opportunity Employer. Diversity and
+  Inclusion is a business imperative and is a part of building
+  our brand and reputation. At Applied, we don't discriminate,
+  and we are committed to recruit, develop, retain, and
+  promote regardless of race, religion, color, national
+  origin, sexual orientation, gender identity, disability,
+  age, veteran status, and other protected status as required
+  by applicable law. #LI-Hybrid / #LI-Remote #LI-US
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Payments
+  - Software
+  - Business Intelligence
+  - Generative AI
+  - Automation
+posted_date: 2026-09-25
+url: "https://builtin.com/job/sr-manager-data-engineering/11366788"
+source: Built In

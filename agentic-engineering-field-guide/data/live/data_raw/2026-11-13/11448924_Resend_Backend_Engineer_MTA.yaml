@@ -1,0 +1,117 @@
+job_id: 11448924
+title: Backend Engineer, MTA
+company: Resend
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 22 Employees
+description: |
+  Resend is building the most accessible email platform for
+  developers. As we’ve grown to 4M+ users and continue to
+  onboard thousands of new users every day, the pressure of
+  maintaining a safe place for good senders continues to
+  build.
+
+  This role is fully remote-based in Americas or European time
+  zones, with some expected travel for team off-sites,
+  conferences, meetups, and more.
+
+  Read more about how we work, how we hire, and what we value
+  here.
+
+  In this role, you will…
+
+  - Build and operate Resend’s email transport infrastructure
+  - Work on SMTP delivery, MTA systems, routing, retries,
+    backoff strategies, and delivery controls
+  - Design systems for domain-level, provider-level, customer-
+    level, and IP-level throttling
+  - Build infrastructure for shared IP pools, dedicated IPs,
+    warmup execution, and reputation-aware routing
+  - Improve how Resend classifies bounces, deferrals, transient
+    failures, hard failures, and delivery outcomes
+  - Build tools that help the team debug delivery issues by
+    customer, domain, mailbox provider, route, IP, message
+    type, and event
+  - Help design systems that make sending behavior safer, more
+    observable, and easier to operate
+  - Translate reputation strategy into backend systems
+  - Partner with Trust & Safety and Core Sending to build
+    controls that protect Resend’s sending network from abuse
+  - Participate in incident response for sending, provider, and
+    deliverability-sensitive issues
+  - Be on-call for critical services
+
+  You will be a great fit if you...
+
+  - Have strong backend engineering experience
+  - Have worked on email, messaging, notifications,
+    communications, infrastructure, or other high-volume
+    delivery systems
+  - Understand queues, workers, retries, idempotency, rate
+    limits, backpressure, and distributed systems
+  - Have experience or strong interest in SMTP, MTAs, DNS,
+    bounces, deferrals, DNS, IP pools, and mailbox-provider
+    behavior
+  - Care about reliability, observability, operational
+    excellence, and reducing blast radius
+  - Have low ego, high ownership, and strong taste for simple
+    systems
+
+  You will be an exceptional fit if you also...
+
+  - Have experience working on applications with a high workload
+  - Know about email best practices, or are willing to learn
+    more about this space
+  - Are experienced in Typescript and Golang
+
+  What it means to join the team:
+
+  - Autonomy to "just ship it"
+  - 100% remote team with flexible working schedules
+  - Modern tech stack (Typescript, AWS, Go, Postgres, Datadog)
+  - Honest and low-ego team
+  - Ownership of problems and solutions
+  - Comp: $150,000 - $170,000 USD, commensurate with location
+    and experience
+
+  About Resend
+
+  We are building the modern email sending platform for
+  developers. We care deeply about quality, craft, and the
+  developer experience.
+
+  Our fully remote team of 50 spans 15 countries and counting.
+  We're backed by a16z, Y Combinator, and others. Meet the
+  humans →
+posted_date: 2026-09-30
+url: "https://builtin.com/job/backend-engineer-mta/11448924"
+source: Built In

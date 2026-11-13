@@ -1,0 +1,245 @@
+job_id: 10900614
+title: Backend Engineer (USA)
+company: Freehand
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 265 Employees
+description: |
+  About Freehand
+
+  Most AI companies are building tools. We're building the
+  worker.
+
+  Freehand's AI agents replace the human decision-making and
+  coordination layer that sits above enterprise software —
+  handling the analysis, negotiation, prioritization, and
+  execution that previously required armies of logisticians /
+  supply chain professionals.
+
+  Our customers include Apple, Meta, GE, Pfizer, J&J,
+  Schlumberger, Cardinal Health, and Unilever. They chose us
+  because we have a fundamentally different answer to what
+  enterprise software looks like when AI can do the job.
+
+  If you want to work on something that matters, with people
+  who will push you to be sharper than you thought you could
+  be, this is the place.
+
+  The Role & The Team
+
+  As a Backend Engineer at Freehand, you will build the
+  distributed systems, APIs, and AI agent infrastructure that
+  power AI-driven enterprise execution. You will design and
+  scale backend services that orchestrate agents, enforce
+  business rules, integrate deeply with ERPs and financial
+  systems, and ensure that every action taken by AI is secure,
+  traceable, and reliable.
+
+  This is not CRUD SaaS work. You will be building the backend
+  for autonomous systems handling real money and real risk—and
+  the observability and testing infrastructure to keep those
+  systems trustworthy at scale.
+
+
+
+  What You'll Do
+
+  •High-throughput, low-latency backend services that power AI
+  agent execution
+
+  •Workflow orchestration systems for complex, multi-step
+  enterprise processes
+
+  •Rule engines and policy enforcement layers for enterprise
+  compliance
+
+  •APIs and integrations with ERPs, procurement tools, payment
+  rails, and data providers
+
+  •Observability, audit, and traceability systems for AI-
+  driven decisions
+
+  •Secure data pipelines handling sensitive financial and
+  operational data
+
+  •Agent execution runtimes, multi-agent coordination, and
+  observability pipelines for AI-driven workflows
+
+  •Evaluation and testing harnesses to validate agent
+  behaviour, reliability, and output quality
+
+
+
+  Key Responsibilities
+
+  Backend & Systems Engineering
+
+  •Design and build scalable backend services using modern
+  system design principles
+
+  •Own critical services that manage procurement, invoice,
+  contract, and payment workflows
+
+  •Implement orchestration logic that coordinates AI agents,
+  humans, and enterprise systems
+
+  •Build resilient systems with strong guarantees around
+  idempotency, retries, and failure handling
+
+  API & Integration Development
+
+  •Build and maintain robust APIs consumed by AI services,
+  frontend apps, and external systems
+
+  •Integrate deeply with ERP systems, procurement platforms,
+  and payment gateways and financial rails
+
+  •Handle complex data normalisation and transformation across
+  enterprise systems
+
+  AI Agent Building, Observability & Testing
+
+  •Build agent execution runtimes: tool calling, context
+  management, memory, and multi-step reasoning loops
+
+  •Implement multi-agent coordination—parallel and sequential
+  workflows with human-in-the-loop escalation
+
+  •Instrument agent execution with full trace capture: tool
+  calls, LLM I/O, latency, token usage, and cost
+
+  •Design evaluation frameworks for agent output quality, task
+  success rate, and regression detection
+
+  •Build automated test harnesses for agent pipelines—unit,
+  integration, and replay-based regression tests
+
+  •Define and track agent reliability metrics: task completion
+  rate, escalation rate, cost per workflow, and SLA adherence
+
+  Reliability, Security & Compliance
+
+  •Design systems with enterprise-grade reliability,
+  monitoring, and alerting
+
+  •Implement fine-grained access controls, audit logs, and
+  data security best practices
+
+  •Ensure backend systems meet compliance requirements for
+  financial and regulated data
+
+  Performance & Scale
+
+  •Optimize backend systems for latency, throughput, and cost
+  efficiency
+
+  •Design services that scale across global customers and
+  billions of transactions
+
+  •Proactively identify and fix bottlenecks in distributed
+  systems
+
+  Required Skills & Experience
+
+  Core Backend Skills
+
+  •6-15 years experience building strong production backend
+  systems
+
+  •Strong proficiency in Python, NodeJS, Go, or similar
+  backend languages
+
+  •Deep understanding of distributed systems, APIs and
+  microservices, databases (SQL and NoSQL), and message queues
+  / event-driven architectures
+
+  System Design
+
+  •Proven experience designing scalable, fault-tolerant
+  systems
+
+  •Strong grasp of consistency, concurrency, and data
+  integrity trade-offs
+
+  •Experience building workflow engines or state-driven
+  systems is a plus
+
+  Enterprise & Data Context
+
+  •Experience working with financial systems, enterprise SaaS
+  platforms, or sensitive/regulated data
+
+  •Comfort operating in environments where backend failures
+  have a real business impact
+
+  Bonus (Nice to Have)
+
+  •Experience with multi-agent orchestration and agent-to-
+  agent communication protocols
+
+  •Familiarity with event sourcing, rule engines, or policy
+  systems
+
+  •Knowledge of production debugging at scale and
+  observability tooling
+
+  •Contributions to or experience with open-source LLM tooling
+  ecosystems
+
+  •Experience with agent observability tooling (LangSmith,
+  Arize, Helicone, or custom trace pipelines) and eval design
+
+  •Experience building LLM-powered systems in production;
+  familiarity with agent frameworks (LangChain, CrewAI, or
+  custom)
+
+  Working at Freehand
+
+  Series A, ~100 people across the US and India. Big enough to
+  have infrastructure, small enough that your work is visible.
+  We run on five core operating principles; these are not
+  values-on-a-wall, this is the exact philosophy we built our
+  AI agents on :
+
+  - Context Before Confidence. We get in, ask (a ton of)
+    questions, connect the dots ourselves and move fast. No
+    passengers, no hand-holding. The amount of confidence
+    you'll have in Week 1 is directly proportional to the
+    context strive to gain.
+  - Decisions, not Recommendations. Freehand folks decide, they
+    don't present options. You'll have real autonomy, and real
+    accountability to match.
+  - High Agency, High Trust. We won't manage you closely or ask
+    you to escalate every call. Act, share your reasoning, and
+    course-correct when needed. That's the contract.
+  - Accountability is the Product. When something goes wrong —
+    and it will — we name it, learn from it, and move on. No
+    politics, no cover. Just fix it.
+  - The Work That Remains is the Work That Matters. We actively
+    cut low-value work. What lands on your plate is there
+    because it matters — and can only be done by you.
+
+  It's a small world. Freehand employees Work Anywhere across
+  US & India (we're remote & travel-first). As and when
+  required, for this role, we will also arrange for a fully-
+  paid trip to our HQ in Chennai to meet & interact with
+  cross-functional teams.
+
+  Equal Opportunity
+
+  Freehand hires on merit — your thinking, your track record,
+  your potential — without regard to race, gender, age,
+  religion, sexual orientation, national origin, disability,
+  or any other protected characteristic. If you meet most of
+  the criteria above but not all of it, apply anyway. We care
+  more about your willingness to learn & take initiative than
+  whether your resume maps perfectly to every line.
+industries:
+  - Artificial Intelligence
+  - Enterprise Web
+  - Software
+  - Automation
+posted_date: 2026-08-28
+url: "https://builtin.com/job/backend-engineer-us/10900614"
+source: Built In

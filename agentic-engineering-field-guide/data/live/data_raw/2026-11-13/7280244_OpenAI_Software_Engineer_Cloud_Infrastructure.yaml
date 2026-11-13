@@ -1,0 +1,180 @@
+job_id: 7280244
+title: Software Engineer, Cloud Infrastructure
+company: OpenAI
+location: London, GBR
+work_type: FULL_TIME
+company_size: 4,500 Employees
+description: |
+  About the Team
+
+  Cloud Infrastructure builds the shared platforms behind
+  ChatGPT and the OpenAI API. We work across engineering and
+  product teams to make infrastructure reliable, secure and
+  easier to use as OpenAI grows.
+
+  Cloud Infrastructure at OpenAI builds and operates the
+  multi-cloud compute platform that other teams build on. Our
+  work spans cluster creation and lifecycle management,
+  upgrades, patching, compliance and the tools engineers use
+  to provision and run infrastructure. The platform supports a
+  broad range of customers, including API and chat products,
+  data systems, observability and online serving.
+
+  Our focus is the shared CPU compute foundation and its
+  platform capabilities, rather than specialized GPU
+  optimization. We build across OCI, AWS and Azure, solving
+  the practical problems of making a common platform useful
+  across different cloud environments.
+
+  OpenAI develops and deploys AI with the goal of benefiting
+  humanity. Responsible deployment and safety are central to
+  that work.
+
+
+
+  About the Role
+
+  You will build infrastructure abstractions that help teams
+  ship and scale products. This is a software engineering role
+  with end-to-end production ownership: designing
+  capabilities, writing the implementation, rolling it out and
+  improving how it operates.
+
+  We are looking for engineers who have built shared
+  infrastructure, not only deployed applications on an
+  existing platform. You should be comfortable understanding
+  users’ needs, identifying missing capabilities and turning
+  an ambiguous problem into a working system. Experience at
+  OpenAI’s scale is not a prerequisite; sound engineering
+  judgment and the ability to adapt familiar solutions to a
+  much larger environment matter.
+
+
+
+  In this role, you will:
+
+  - Build and improve the systems that create, configure and
+    manage Kubernetes clusters throughout their lifecycle,
+    including safe upgrades and ongoing maintenance.
+  - Develop reusable platform tooling and infrastructure
+    automation so internal teams can provision and use compute
+    without repeatedly solving the same underlying problems.
+  - Improve capacity management, autoscaling and resource
+    allocation, including namespace management and quotas,
+    with attention to efficient use of compute.
+  - Help make workloads and platform capabilities easier to
+    manage across clusters and cloud environments, including
+    the foundations for multi-cluster mobility.
+  - Make security, patching and compliance part of the
+    platform’s day-to-day operation, rather than separate
+    manual processes.
+  - Work with teams using the platform to understand friction,
+    prioritize improvements and build components that serve
+    multiple use cases rather than one application alone.
+  - Own the reliability of what you build, including incident
+    response through an on-call rotation, and turn operational
+    lessons into lasting improvements.
+  - Take ownership of a defined area, make progress
+    independently and seek the context or help needed to
+    unblock work. Adapt when operational needs or company
+    priorities change.
+
+  You might thrive in this role if you:
+
+  - Have at least five years of experience building core
+    infrastructure and can explain the systems you personally
+    designed, implemented and operated.
+  - Bring strong software engineering skills and experience
+    building shared cloud or cluster platforms. Kubernetes
+    experience is especially relevant; strong adjacent
+    platform-building experience can also be valuable.
+  - Have worked on problems such as cluster lifecycle,
+    infrastructure automation, capacity, autoscaling, tenancy
+    or safe production changes, with a clear understanding of
+    the tradeoffs involved.
+  - Can move between architecture and implementation, and are
+    comfortable owning a system after it reaches production.
+  - Build tools with their users in mind, balancing useful
+    abstractions with the ability to diagnose and operate the
+    underlying system.
+  - Work effectively with ambiguity, changing priorities and
+    incomplete information. You make progress, communicate
+    tradeoffs and know when to ask for help.
+  - Value a collaborative, inclusive environment where people
+    can challenge ideas directly and respectfully.
+
+  Experience that would be especially useful
+
+  - Infrastructure as code and repeatable cluster provisioning,
+    including Terraform or comparable tooling.
+  - Production Kubernetes operations, cluster and node upgrades,
+    resource isolation, quotas or autoscaling policy design.
+  - Shared platforms spanning multiple clusters or cloud
+    providers.
+  - Building platform APIs, controllers or operational
+    automation that reduce manual work. Deep upstream
+    Kubernetes specialization is not a universal prerequisite.
+
+  About OpenAI
+
+  OpenAI is an AI research and deployment company dedicated to
+  ensuring that general-purpose artificial intelligence
+  benefits all of humanity. We push the boundaries of the
+  capabilities of AI systems and seek to safely deploy them to
+  the world through our products. AI is an extremely powerful
+  tool that must be created with safety and human needs at its
+  core, and to achieve our mission, we must encompass and
+  value the many different perspectives, voices, and
+  experiences that form the full spectrum of humanity.
+
+  We are an equal opportunity employer, and we do not
+  discriminate on the basis of race, religion, color, national
+  origin, sex, sexual orientation, age, veteran status,
+  disability, genetic information, or other applicable legally
+  protected characteristic.
+
+  For additional information, please see OpenAI’s Affirmative
+  Action and Equal Employment Opportunity Policy Statement.
+
+  Background checks for applicants will be administered in
+  accordance with applicable law, and qualified applicants
+  with arrest or conviction records will be considered for
+  employment consistent with those laws, including the San
+  Francisco Fair Chance Ordinance, the Los Angeles County Fair
+  Chance Ordinance for Employers, and the California Fair
+  Chance Act, for US-based candidates. For unincorporated Los
+  Angeles County workers: we reasonably believe that criminal
+  history may have a direct, adverse and negative relationship
+  with the following job duties, potentially resulting in the
+  withdrawal of a conditional offer of employment: protect
+  computer hardware entrusted to you from theft, loss or
+  damage; return all computer hardware in your possession
+  (including the data contained therein) upon termination of
+  employment or end of assignment; and maintain the
+  confidentiality of proprietary, confidential, and non-public
+  information. In addition, job duties require access to
+  secure and protected information technology systems and
+  related data security obligations.
+
+  To notify OpenAI that you believe this job posting is non-
+  compliant, please submit a report through this form. No
+  response will be provided to inquiries unrelated to job
+  posting compliance.
+
+  We are committed to providing reasonable accommodations to
+  applicants with disabilities, and requests can be made via
+  this link.
+
+  OpenAI Global Applicant Privacy Policy
+
+  At OpenAI, we believe artificial intelligence has the
+  potential to help people solve immense global challenges,
+  and we want the upside of AI to be widely shared. Join us in
+  shaping the future of technology.
+industries:
+  - Artificial Intelligence
+  - Machine Learning
+  - Generative AI
+posted_date: 2026-08-06
+url: "https://builtin.com/job/software-engineer-infrastructure/7280244"
+source: Built In

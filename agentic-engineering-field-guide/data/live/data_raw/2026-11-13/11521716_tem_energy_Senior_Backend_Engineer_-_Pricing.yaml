@@ -1,0 +1,179 @@
+job_id: 11521716
+title: Senior Backend Engineer - Pricing
+company: tem energy
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+  - GBR
+remote: true
+work_type: FULL_TIME
+company_size: 200 Employees
+description: |
+  📈 Who We Are:
+
+  We are rebuilding the energy transaction, making it
+  transparent and fair.
+
+  We're rebuilding how energy is bought and sold. That means
+  cutting out middlemen, connecting businesses directly with
+  renewable generators, and ensuring every transaction is
+  traceable and transparent.
+
+  We're a 160+ person team - operators, data scientists,
+  engineers, customer champions and energy experts - backed by
+  top-tier investors including Lightspeed Venture Partners,
+  Hitachi Ventures, Allianz, AlbionVC and Atomico. We closed a
+  $75M Series B round in early 2026, taking our total funding
+  to $94M, and we now power energy for over 4,000 UK
+  businesses across 8,500+ sites, with over £75m in value
+  returned to businesses and generators so far.
+
+  We're a technology company solving the energy industry, not
+  an energy company. Some people call us a neo-utility, the
+  neo-bank idea, applied to energy.
+
+  The industry is noticing. We were crowned Europe's Most
+  Exciting Tech Company at the GP Bullhound Allstars awards,
+  came in at #6 on LinkedIn's Top Startups 2026 in the UK, #7
+  on the Scaling Europe 50 of Europe's fastest-growing
+  companies, and #14 on Sifted's AI 100.
+
+  Learn more about us on our website.
+
+  🎯 The Role
+
+  We're hiring a Senior Backend Engineer, Pricing.
+
+  You'll join the Pricing squad, the team behind the pricing
+  engine at the heart of RED, tem's modern utility product.
+  The systems you build price real energy contracts for
+  businesses buying electricity and renewable generators
+  selling it, so correctness shows up as money and speed shows
+  up as trust.
+
+  This is a backend, data-heavy engineering role with a
+  quant-y flavour. You'll help build our new Pricing API, make
+  prices fast, accurate and understandable, and make sure that
+  when we can't price something, we can always explain why.
+
+  In your first 12 months, you might:
+
+  - Design and ship core slices of our new Pricing API, taking
+    them from first design through to production.
+  - Consolidate pricing logic into one service with a clean
+    boundary, keeping pricing behaviour stable throughout the
+    move.
+  - Build the detection and alerting that catches bad or slow
+    prices before they ever reach a customer.
+  - Give our commercial team self-serve answers to "why can't we
+    price this?".
+  - Make pricing measurably faster for every customer quote.
+
+  🛠️ Responsibilities
+
+  - Build with impact: design and ship components of the Pricing
+    API that price real energy contracts, owning work from
+    design through to production.
+  - Make it fast: help bring the time to a first customer price
+    down dramatically, without sacrificing accuracy.
+  - Own reliability: build the error handling, observability and
+    alerting that make pricing fail loudly and explainably,
+    never silently.
+  - Sharpen the boundaries: extract and consolidate pricing
+    logic so the pricing engine owns its own behaviour end-to-
+    end.
+  - Close the loop: take your turn handling live pricing
+    questions and incidents, and turn what you learn into
+    structural fixes.
+
+  ✅ Requirements
+
+  Must-Haves
+
+  - Production backend Python: you have shipped and run an API
+    in production and been on the hook when it broke.
+  - Comfortable with FastAPI and SQL, and with data- and
+    analytics-heavy systems where the correctness of numbers
+    matters.
+  - Product engineering nous: you ask what the price is for and
+    who reads it, not just how to compute it.
+  - You build with agents: Claude or similar is part of your
+    daily workflow for writing, testing and reviewing code.
+  - You can own a project end to end - scoping, delivery,
+    quality - with a tech lead as a sounding board rather than
+    a supervisor.
+
+  Desirable
+
+  - Domain knowledge from fintech, energy pricing or neo-
+    utilities, or ad-tech.
+  - Experience working inside or alongside machine learning
+    teams.
+  - AWS and serverless patterns (Lambda, event-driven services,
+    Postgres on RDS).
+  - Polars, or a taste for making numerical code fast.
+
+  🎁 Benefits & Perks
+
+  - Competitive salary - our current band for this role is
+    [salary band] or equivalent in local currency.
+  - Stock options so everyone has ownership in our mission.
+  - 25 days holiday plus public holidays. Swap public holidays
+    for the ones that matter most to you, and enjoy your
+    birthday off.
+  - Remote first and flexible working, with clear core hours and
+    no internal meetings on Friday afternoons.
+  - Up to GBP1,200 or EUR1,400 per year for your remote setup.
+  - Up to GBP150 or EUR170 per month for wellbeing.
+
+  🤝 Interview Process
+
+  - First call with Jack on our Talent Team (30m)
+  - Behaviour Interview with the Hiring Manager (60 mins)
+  - Technical Interview with the Team (75 mins). You'll meet
+    with Engineers, discuss backend engineering for pricing
+    systems, including a practical whiteboard exercise
+  - Bar Raiser Interview with Senior stakeholder (45m)
+
+  We welcome applications from people of all backgrounds,
+  experiences, and identities, including those that are
+  traditionally underrepresented in the tech and energy
+  sectors. If you’re excited about this role but not sure you
+  meet every requirement, we’d still love to hear from you.
+  Your unique perspective could be exactly what we’re looking
+  for.
+industries:
+  - Artificial Intelligence
+  - Energy
+  - Industrial
+  - Manufacturing
+  - Renewable Energy
+posted_date: 2026-10-06
+url: "https://builtin.com/job/senior-software-engineer-pricing/11521716"
+source: Built In

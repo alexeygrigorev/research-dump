@@ -1,0 +1,170 @@
+job_id: 9271532
+title: Frontend 3D Visualization Developer
+company: Stratum AI
+location: CAN
+remote: true
+work_type: FULL_TIME
+company_size: 50 Employees
+description: |
+  Role Overview
+
+  We're seeking a skilled Frontend Developer with deep 3D
+  visualization expertise to work on an innovative web-based
+  platform for industrial data visualization and planning.
+  This role focuses on creating sophisticated 3D rendering
+  systems that transform complex spatial datasets into
+  intuitive, interactive experiences for technical and non-
+  technical users alike.
+
+  Key Responsibilities
+
+  3D Visualization Development:
+
+  - Design and implement advanced 3D visualization systems for
+    complex spatial data
+  - Create interactive 3D environments with real-time
+    manipulation capabilities
+  - Build systems capable of rendering large-scale datasets with
+    hundreds of thousands of objects
+  - Develop dynamic visualization features that respond to user
+    inputs and data changes
+
+  Performance Engineering:
+
+  - Architect rendering pipelines optimized for massive datasets
+  - Implement spatial optimization techniques for efficient
+    scene management
+  - Design progressive loading strategies and caching mechanisms
+  - Ensure smooth performance across various devices and
+    browsers
+
+  Interactive Features:
+
+  - Build intuitive 3D interaction paradigms (selection,
+    measurement, annotation)
+  - Develop collision detection and raycasting systems
+  - Create dynamic camera systems and navigation controls
+  - Implement real-time data filtering and visualization updates
+
+  Required Technical Skills
+
+  Core 3D Technologies:
+
+  - Expert-level knowledge of WebGL and GPU programming concepts
+  - Proficiency in 3D graphics libraries (Three.js, Babylon.js,
+    or similar)
+  - Understanding of 3D mathematics, transformations, and
+    projections
+  - Experience with shader programming (GLSL/WGSL)
+  - Knowledge of 3D file formats (GLTF, OBJ, FBX, etc.)
+
+  Frontend Technologies:
+
+  - Strong JavaScript/TypeScript skills
+  - Modern framework experience (React, Vue, Angular)
+  - State management for complex applications
+  - WebAssembly for performance-critical operations
+  - Web Workers for parallel processing
+
+  Data Visualization:
+
+  - Experience with data visualization libraries (D3.js, Plotly,
+    etc.)
+  - Understanding of visual encoding principles
+  - Ability to handle various data formats (JSON, CSV, binary
+    formats)
+  - Real-time data streaming and updates
+
+  Performance Optimization:
+
+  - Proficiency in spatial data structures (octrees, k-d trees,
+    BVH)
+  - Level-of-detail (LOD) and culling techniques
+  - Instanced rendering and geometry batching
+  - Memory management and garbage collection optimization
+  - Profiling and debugging 3D applications
+
+  Additional Valuable Skills
+
+  Advanced Rendering:
+
+  - Physical-based rendering (PBR) techniques
+  - Post-processing effects and pipelines
+  - Shadow mapping and lighting systems
+  - Particle systems and procedural generation
+  - VR/AR development experience
+
+  Scientific/Technical Visualization:
+
+  - Volume rendering techniques
+  - Point cloud visualization
+  - Mesh generation and manipulation
+  - Terrain rendering and heightmaps
+  - Isosurface extraction
+
+  Infrastructure & Tools:
+
+  - Cloud computing and distributed systems
+  - Containerization and microservices
+  - CI/CD pipelines for complex applications
+  - Version control with large binary assets
+  - Performance monitoring and analytics
+
+  Domain Knowledge (Plus):
+
+  - GIS and mapping technologies
+  - CAD/CAM software experience
+  - Scientific computing backgrounds
+  - Understanding of coordinate systems and projections
+  - Experience with industry-specific visualization needs
+
+  What You'll Be Building
+
+  You'll be creating a cutting-edge visualization platform
+  that handles complex spatial data at scale. The system needs
+  to provide immediate visual feedback for decision-making
+  processes, support collaborative workflows, and maintain
+  high performance even with massive datasets. The platform
+  should be accessible to both technical specialists and
+  business stakeholders, requiring careful attention to user
+  experience and interface design.
+
+  Ideal Candidate Profile
+
+  We're looking for someone who:
+
+  - Gets excited about pushing the boundaries of what's possible
+    in web-based 3D graphics
+  - Has a strong foundation in computer graphics and rendering
+    techniques
+  - Enjoys solving complex performance challenges
+  - Can balance technical excellence with practical user needs
+  - Thrives in environments requiring independent problem-
+    solving
+  - Has experience building production-ready visualization
+    systems
+
+  Technical Challenges You'll Solve
+
+  - Rendering millions of data points while maintaining
+    interactive framerates
+  - Building intuitive interfaces for complex 3D interactions
+  - Implementing real-time collaborative features in 3D spaces
+  - Creating adaptive systems that work across different devices
+    and network conditions
+  - Developing novel visualization techniques for domain-
+    specific data
+  - Architecting scalable solutions for growing datasets
+
+  This role offers the opportunity to work at the intersection
+  of cutting-edge web technologies and advanced 3D graphics,
+  creating tools that transform how organizations visualize
+  and interact with their spatial data.
+industries:
+  - Artificial Intelligence
+  - Machine Learning
+  - Software
+  - Industrial
+posted_date: 2026-08-16
+url: "https://builtin.com/job/frontend-3d-visualization-developer/9271532"
+source: Built In

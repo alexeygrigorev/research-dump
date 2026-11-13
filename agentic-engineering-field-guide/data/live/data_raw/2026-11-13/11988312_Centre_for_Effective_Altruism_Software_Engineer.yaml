@@ -1,0 +1,296 @@
+job_id: 11988312
+title: Software Engineer
+company: Centre for Effective Altruism
+location: CAN
+locations:
+  - CAN
+  - IND
+  - AUS
+  - IRL
+  - GBR
+  - Singapore, SGP
+remote: true
+work_type: FULL_TIME
+company_size: 2200 Employees
+description: |
+  We're hiring a Software Engineer to join a growing team
+  building products that reach hundreds of thousands of people
+  thinking about how to do the most good.
+
+  This is an individual contributor role on our Online Team,
+  and will be responsible for prioritizing and implementing
+  impactful technical work at CEA. This position reports to
+  the incoming Head of Digital Product. You will collaborate
+  closely with our Senior Software Engineer, Senior Product
+  Designer, and EA Forum Product Lead, along with other teams
+  at CEA as needed.
+
+  We’re aiming to hire a mid-level software engineer, but we
+  would consider hiring at the senior level for the right
+  candidate.
+
+  About CEA
+
+  The Centre for Effective Altruism (CEA) stewards the
+  movement of people putting effective altruism principles
+  into practice to solve the world's most pressing problems.
+  We’re working to build a flourishing future by applying
+  evidence, reason, and compassion to challenges like global
+  poverty, animal suffering, and existential risks.
+
+  Our work centers on growing and supporting a global
+  community of people who rigorously analyze where they can do
+  the most good – and take action on those insights. Current
+  strategic priorities include increasing understanding of
+  effective altruism and its principles, growing the number of
+  people who are motivated by EA principles to take
+  significant action to address pressing problems, and
+  diversifying funding sources for high-impact work.
+
+  We had significant success in 2025, building momentum within
+  CEA. Our headcount grew from 42 to 66 core staff.
+  Participation in our programs (e.g., events, courses,
+  groups) grew by 20-25% year over year. We merged with EA
+  Funds and are rapidly scaling up our capacity for
+  grantmaking and associated fundraising: our first Fund
+  staffed with full-time employees (EA Animal Welfare Fund),
+  raised almost as much as the previous three years combined.
+
+  In 2026, we’ve maintained ambitious momentum while laying
+  the foundations for a step-change in the wider EA
+  ecosystem’s growth trajectory from 2027 onwards.
+
+  About the Online Team
+
+  The Online Team is a small, fast-paced tech and content team
+  with the expertise to build and run web products that help
+  support and grow the number of people engaging with and
+  applying EA principles to their careers, research, and
+  donations.
+
+  We own and operate the EA Forum, and provide critical design
+  and engineering capacity for other CEA projects such as the
+  EA Newsletter, the EA Opportunities Board, and our courses.
+  Over the last few years we’ve also redesigned and rebuilt
+  effectivealtruism.org, funds.effectivealtruism.org, and
+  centreforeffectivealtruism.org.
+
+  The EA Forum in particular is one of the EA community
+  building institutions with the widest reach, serving 700K
+  annual visitors. As AI capabilities improve, we’re also
+  exploring how integrating AI into CEA’s online product
+  portfolio and internal tooling can help us have more impact.
+
+  Our team currently consists of Ollie Etherington, Senior
+  Software Engineer, Agnes Stenlund,Senior Product Designer,
+  and Toby Tremlett, EA Forum Product Lead, and we plan to
+  continue expanding in 2027.
+
+  About the role
+
+  CEA has ambitious goals for 2027 and beyond, and we need
+  more software engineering capacity in order to reach those
+  goals.
+
+  We’re now looking to hire a full-stack engineer who can help
+  make impactful improvements across all of our products.
+  You’ll be implementing new features and bug fixes for
+  various product managers, as well as proactively looking for
+  ways to improve our online products yourself. You’ll be
+  jointly responsible for DevOps, ensuring that all of our
+  sites are fast and reliable, and you’ll take part in our
+  weekly on-call rotation.
+
+  The vast majority of our code is written in TypeScript and
+  is built on Node.js, React, Next.js, Postgres, and
+  Elasticsearch. Our sites are hosted on Render, Vercel, and
+  Cloudflare, and our analytics data is stored and processed
+  in PostHog.
+
+  Some potential projects you may work on:
+
+  - We’re deep in the process of migrating the EA Forum codebase
+    over to Next.js – if you join, you can help us establish
+    the next evolution of key EA community infrastructure,
+    which we hope will set stronger foundations for many years
+    to come.
+  - We’ve recently hired product managers for the EA
+    Opportunities Board and our courses who will continue
+    driving these projects forwards – some of the changes
+    they’re planning will require engineering.
+  - EA Funds is now part of CEA, and has not had dedicated
+    technical capacity in a long time. Their team would be
+    excited to collaborate on how to make their processes more
+    efficient using AI (they already have a long list of
+    ideas!)
+  - In 2026, we’ve massively overhauled our analytics and data
+    infrastructure, and we’d be excited for a data-minded
+    engineer to continue pushing this project forward. Having
+    a strong data foundation will be crucial for CEA’s ability
+    to find product-market-impact fit to scale up our
+    products.
+  - CEA is expecting to lean into virtual products in 2027,
+    including running at least one major virtual event.
+
+  Key responsibilities
+
+  Provide engineering support for multiple CEA teams
+
+  - Implement features and fix issues in our current products to
+    support the work of others on the team.
+  - Proactively collaborate with other CEA teams to understand
+    where you can provide value and fill technical gaps, such
+    as by building internal tooling.
+  - Ship reliable, maintainable production code, and address
+    high-priority bugs when they come up. AI tools can make us
+    faster, but our work still needs to hold up over time.
+  - Ensure that we’re collecting relevant metrics and analytics
+    data, and that it can be used by non-technical members of
+    staff to inform decision-making.
+  - Share our weekly on-call rotation with our Senior Software
+    Engineer, Ollie, triaging incoming requests and responding
+    to urgent issues.
+
+  Improve engineering infrastructure
+
+  - Help maintain and improve infrastructure, monitoring,
+    deployments, and testing.
+  - Identify high-priority DX problems and develop solutions to
+    help the team work more efficiently.
+  - Make justified and cost-effective decisions about what
+    technologies and services we use to build our products.
+
+  What we’re looking for
+
+  We're hiring this role at either the Software Engineer or
+  Senior Software Engineer level. The core expectations below
+  apply to both, with additional expectations for the senior
+  level noted at the end.
+
+  Core expectations for both levels:
+
+  - Solid full-stack engineering experience. You can
+    independently build and maintain a product like an online
+    forum (frontend, backend, databases, devops, and 3rd-party
+    integrations). You explain your technical decisions
+    clearly enough that teammates can push back. As a
+    baseline, we expect you to be familiar with TypeScript,
+    React, and Postgres, and that you can pick up our other
+    technologies quickly. You write appropriate tests for new
+    functionality.
+  - Impact focus. You care about real outcomes and not just
+    shipped features. You gather data, evaluate your work, and
+    iterate quickly. You're excited to explore new
+    opportunities to use software to increase CEA’s impact.
+  - Autonomy. You're comfortable being one of two engineers in
+    the organization, and can learn new skills as needed.
+    You’re happy to own the technical-side of a project,
+    working with non-technical product managers to implement
+    ideas end-to-end, including proactively asking for support
+    when necessary.
+  - AI fluency. You’ve used AI coding agents and have developed
+    good judgment about where they help, where they fail, and
+    how to verify their output. You can use them to speed up
+    your work, but never at the expense of code architecture
+    or maintainability.
+
+  Your candidacy will be stronger the more you also bring:
+
+  - Devops. You have experience provisioning servers and
+    databases for sites serving hundreds of thousands of
+    active users. You can mitigate adversarial bot attacks,
+    and set sensible, safe caching rules.
+  - Prioritization. You back-chain from organizational strategy
+    to prioritize work on different products, and can work
+    with product owners to provide realistic and achievable
+    timelines for implementing changes and new features.
+  - Product thinking. You notice particularly good or bad user
+    experiences and reflect on what makes them so, and you can
+    combine these intuitions with targeted analytics data in
+    order to tangibly improve products.
+
+  To be considered for the Senior level of this role, we
+  require a candidate to meet the following criteria:
+
+  - Architectural ownership. You have a track record of
+    independently owning the technical direction of a
+    significant project (such as a major refactor or a new
+    product), being clear about the tradeoffs you made and how
+    you will address key risks.
+  - A track record of impact. You have a history of shipping
+    production work that mattered to real users, and can point
+    to specific cases where your work moved real outcomes.
+  - Strategic autonomy. You can take technical ambiguity and
+    turn it into a credible plan, including translating broad
+    goals into quarterly OKRs and contributing to technical
+    direction at the team level.
+
+  We can imagine being excited about candidates with a wide
+  range of different skills and experience, and encourage you
+  to apply even if you aren't sure that you're fully
+  qualified.
+
+  Other information
+
+  - This is a full-time, remote position. We prefer applicants
+    who are able to work in time zones between US Eastern Time
+    and CET.
+    - We have an office in Oxford, UK, that you would have access
+      to.
+  - Start date: January 2027 or sooner
+  - Reports to: Incoming Head of Digital Product (Joris Pijpers,
+    Chief of Staff, Community Growth in the interim)
+
+  - Compensation
+    - Software Engineer
+      - US: For this role we offer a base salary of $134,900 and a
+        10% unconditional 401k contribution.
+    - Senior Software Engineer
+      - US: For the role we offer a base salary of $166,725 and a
+        10% unconditional 401k contribution.
+    - For candidates outside the US, base salary is converted from
+      USD to your local currency using a fixed exchange rate
+    - Benefits include private health insurance, flexible work
+      hours, a $6,000 annual professional development
+      allowance, a $6,000 mental health support allowance,
+      extended parental leave, ergonomic equipment, 25 days of
+      paid vacation or country-specific time off entitlements,
+      whichever is greater.
+  - This role will involve travel. There are likely 2-4 trips
+    annually to attend team retreats and other events,
+    including international trips.
+
+  We are committed to fostering a culture of inclusion and
+  encourage individuals with diverse backgrounds and
+  experiences to apply. We especially encourage applications
+  from self-identified women and people of colour who are
+  excited about contributing to our mission. The Centre for
+  Effective Altruism is an equal opportunity employer. If you
+  need assistance or an accommodation due to a disability, or
+  have any other questions about applying, please contact
+  jobs@centreforeffectivealtruism.org or inform the recruiter
+  directly.
+
+  CEA participates in E-Verify for US employees.
+
+  We are committed to protecting your data. See our privacy
+  policy for more information.
+
+  Evaluation plan
+
+  We expect the interview process to include the following
+  steps, subject to minor changes:
+
+  - Application
+  - Screening interview
+  - Engineering interview
+  - Pair programming task
+  - Final interviews (2-3)
+  - Reference checks
+industries:
+  - Events
+  - Professional Services
+  - Social Impact
+posted_date: 2026-10-30
+url: "https://builtin.com/job/software-engineer/11988312"
+source: Built In

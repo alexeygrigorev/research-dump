@@ -1,0 +1,113 @@
+job_id: 10755540
+title: Software Engineer
+company: Sand Technologies
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 684 Employees
+description: |
+  About Sand
+
+  Sand Technologies is a global Physical AI company using data
+  and AI to make critical industries work better. We partner
+  with governments, cities and enterprises to improve how
+  essential systems operate across healthcare, water, energy,
+  telecommunications and infrastructure.
+
+  Our work delivers proven real-world impact. We have built AI
+  systems that help manage London’s water supply, supported
+  telecom network planning across hundreds of cities, and
+  developed digital healthcare platforms serving tens of
+  millions of people across Africa. From intelligent command
+  centers to AI-powered infrastructure platforms, we help
+  organizations sense, analyze and act in complex
+  environments.
+
+  Our people are ambitious, curious and relentlessly
+  practical. Our teams work alongside clients in the field,
+  solving hard problems and deploying solutions that last.
+  With colleagues across Africa, Europe, the UK and the US, we
+  operate across the full stack - from research and
+  engineering to deployment and capability building.
+
+  Our mission is simple: to harness AI to solve humanity’s
+  most pressing challenges.
+
+  About the role
+
+  We are seeking an experienced Software Engineer to join our
+  US team. As a key contributor, you will be responsible for
+  designing, building, and scaling the robust software
+  architectures that power our physical AI solutions.
+
+  While our Data Scientists and Data Engineers handle the
+  model creation and data pipelines, you will build the
+  secure, high-performance applications and APIs that bring
+  those insights to our clients. The ideal candidate will have
+  a deep background in software engineering, backend systems,
+  cloud infrastructure, and distributed architectures.
+
+  Responsibilities
+
+  - Architect and Develop Scalable Systems: Design, build, and
+    maintain robust backend services, microservices, and APIs
+    to support complex, data-driven applications.
+  - Integrate with AI & Data Ecosystems: Collaborate closely
+    with Data Scientists and Data Engineers to seamlessly
+    consume their data pipelines and integrate AI models into
+    the core software products.
+  - Manage Cloud & Infrastructure: Build and deploy applications
+    using modern cloud platforms (e.g., AWS, Azure, GCP),
+    ensuring high availability, security, and low-latency
+    performance.
+  - Drive Engineering Excellence: Champion best practices in
+    software development, including writing clean code,
+    rigorous testing, system monitoring, and maintaining CI/CD
+    pipelines.
+  - Mentor and Lead: Guide and mentor junior software engineers,
+    fostering a culture of continuous technical improvement
+    and innovation.
+
+  Requirements - Essential
+
+  - 3+ years of software engineering experience, ideally with
+    exposure to water, wastewater, utilities, or smart
+    infrastructure environments.
+  - B.Sc. or M.Sc. in Computer Science, Software Engineering, or
+    a related field.
+  - Experience working with high-volume or real-time data
+    systems; familiarity with time-series databases or
+    handling telemetry/IoT data is a massive plus.
+  - Proven track record of deploying robust software solutions
+    into production.
+  - Ability to translate complex technical concepts into
+    actionable insights for engineering and operations teams.
+  - Strong communication skills and experience working with
+    public-sector or regulated environments.
+  - Front end development (strong React and JavaScript
+    experience is essential).
+  - Back end experience (typically django/some node).
+  - Automated testing (unit/component/browser testing).
+  - APIs.
+  - Data visualisation.
+  - SQL database design + usage.
+
+  Location
+
+  This is not a remote position. This role requires 50 - 75%
+  travel to client sites for the first year.
+
+  Due to the considerable amount of virtual work and
+  interaction with colleagues and customers, especially within
+  the EMEA region, it is essential that the successful
+  applicant has the drive and ethic to succeed in working in
+  small teams physically but in larger efforts virtually.
+  Self-drive to communicate constantly using web collaboration
+  and video conferencing is essential.
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Consulting
+posted_date: 2026-08-19
+url: "https://builtin.com/job/software-engineer/10755540"
+source: Built In

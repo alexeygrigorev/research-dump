@@ -1,0 +1,94 @@
+job_id: 9723291
+title: Senior Full Stack Software Engineer
+company: Electric Air
+location: CHL
+locations:
+  - CHL
+  - PER
+  - CAN
+  - USA
+  - GUY
+  - BRA
+  - ECU
+  - MEX
+  - URY
+  - COL
+  - SUR
+  - BOL
+  - PRY
+  - ARG
+remote: true
+work_type: FULL_TIME
+company_size: 272 Employees
+description: |
+  Electric Air is building a modern home climate company.
+
+  We install heat pumps across the Bay Area and have developed
+  our own heat pump product platform, Redwood, designed around
+  simpler retrofits, thoughtful design, and a better homeowner
+  experience.
+
+  Electric Air combines:
+
+  - real-world HVAC operations
+  - product development
+  - software and technology
+  - design and branding
+  - customer experience
+
+  Working at Electric Air is collaborative, and deeply
+  rewarding. If you care about climate and modern software,
+  we’d love to meet you.
+
+  We’re looking for a senior full-stack engineer to help build
+  the core tools that power our business—from customer-facing
+  sales flows to internal operations software. You’ll work
+  closely with the CTO and CEO to ship high-impact features,
+  automate our workflows with AI and shape the engineering
+  culture from the ground up.
+
+  Our stack is React (Remix) + Django + Postgres, deployed on
+  Render.
+
+  What You’ll Do
+
+  - Own projects end-to-end, from architecture to deployment
+  - Design tools that streamline quoting, scheduling, and
+    fulfillment
+  - Integrate AI tools into our existing products
+  - Help define product scope and direction with leadership
+  - Collaborate on UX with support from our contract designer
+  - Write clean, maintainable code and contribute to code
+    reviews
+
+  What We’re Looking For
+
+  - 5+ years of experience building production software
+  - Strong full-stack skills and experience working across the
+    frontend and backend
+  - Proven ability to ship features with high product impact
+  - Comfortable working independently in a fast-moving
+    environment
+  - Strong understanding of web fundamentals
+  - Passion for our mission and interest in home electrification
+
+  Bonus Points
+
+  - Experience with React (Remix), Django, or similar tools
+  - Experience at a startup or fast-growing company
+  - Interest in climate tech, energy, or the built environment
+
+  Compensation & Benefits
+
+  - $140,000–$180,000 salary depending on experience
+  - Significant equity stake
+  - Medical, dental, and vision insurance
+  - 401(k) plan
+  - Remote within the Americas (HQ in Redwood City, CA)
+industries:
+  - Greentech
+  - Energy
+  - Renewable Energy
+posted_date: 2026-08-02
+url: "https://builtin.com/job/senior-full-stack-software-engineer/9723291"
+source: Built In

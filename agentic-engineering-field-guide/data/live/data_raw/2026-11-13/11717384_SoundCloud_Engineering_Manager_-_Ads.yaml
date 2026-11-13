@@ -1,0 +1,161 @@
+job_id: 11717384
+title: Engineering Manager - Ads
+company: SoundCloud
+location: London, GBR
+work_type: FULL_TIME
+company_size: 1,710 Employees
+description: |
+  About SoundCloud
+
+  What's next in music happens on SoundCloud first. As the
+  world’s largest open audio platform, SoundCloud is powered
+  by a connected community of creators, listeners, and
+  curators who share, discover, and influence what’s new, now,
+  and next in music and audio.
+
+  We are looking for an Engineering Manager to lead our Ads ML
+  (Machine Learning) team within the Growth, Revenue and
+  Commerce group, and to take SoundCloud's ad delivery into
+  the machine learning era.
+
+  Advertising is one of SoundCloud's core revenue streams. It
+  earns money directly, and it is also one of the main ways
+  free listeners discover and move to a paid subscription.
+  That revenue pays creators on our platform, covers content
+  costs, and keeps SoundCloud a healthy, independent company.
+  Getting ad delivery right matters to listeners, artists, and
+  the business.
+
+  Our team builds the systems that decide which ads SoundCloud
+  listeners hear and see, how many, and when. We're replacing
+  fixed rules with ML: contextual bandits and predictive
+  models (churn risk, subscription propensity, user LTV) that
+  set ad load for each listener in real time. The goal is more
+  ad revenue without hurting retention, and you'll decide how
+  far and how fast we get there.
+
+  This is a hybrid leadership role with a strong hands-on
+  component. You'll lead a team of four backend and ML
+  engineers, contribute directly to the codebase, and own the
+  technical direction of machine learning driven ad delivery.
+  You'll work closely with client engineers, data analysts,
+  and product, and report to the Director of Engineering in a
+  flat structure.
+
+  Key Responsibilities:
+
+  - Own the ML roadmap for ad delivery. Take personalised ad
+    serving (contextual bandits, churn and subscription-
+    propensity models) from experiment to production across
+    markets, and decide what the team builds next.
+  - Own the production ML stack behind ad decisions: online
+    model serving, real-time bandit decisioning, feature
+    pipelines, and model evaluation and monitoring.
+  - Build a rigorous experimentation practice for ML: offline
+    and online evaluation, A/B test design, guardrail metrics,
+    and clear ship-or-hold decisions on ad load and user LTV.
+  - Own the backend ad delivery services that turn model
+    decisions into the ads served on iOS, Android and web.
+  - Partner with client engineers, data analysts and product on
+    the roadmap, balancing revenue, retention and ad
+    inventory.
+  - Grow the team's ML depth through hiring, mentorship and
+    career development, and manage performance effectively.
+
+  Background & Experience:
+
+  - 2+ years of engineering management experience.
+  - 5+ years as a backend software developer. You're comfortable
+    writing code, discussing trade-offs and taking part in
+    system design.
+  - Hands-on experience building and running ML systems in
+    production: model serving, real-time decisioning, feature
+    pipelines, and monitoring for model drift and data
+    quality.
+  - Solid grasp of applied ML for decision-making (bandits,
+    ranking, recommendation or propensity models), deep enough
+    to challenge modelling choices and trade-offs with the
+    team.
+  - Strong experiment design skills, including statistical
+    rigour and the trade-off between short-term revenue and
+    long-term retention.
+  - Experience managing engineers, including coaching, feedback
+    and performance development.
+  - Clear communication with technical and non-technical
+    stakeholders, including explaining ML trade-offs in
+    business terms.
+
+  Bonus Points
+
+  - Experience in ad tech, ad serving or large-scale
+    experimentation on a large consumer platform.
+  - Contextual or multi-armed bandits, reinforcement learning or
+    uplift modelling in production.
+  - ML platform tooling: feature stores, model registries and
+    workflow
+  - User LTV, churn or subscription-propensity modelling.
+  - Ad standards and integrations: VAST, programmatic demand
+    (SSPs and DSPs), frequency capping.
+  - Audio or video advertising.
+  - Scala or another JVM language, and Python for ML work.
+
+  If you're excited about bringing machine learning to ad
+  delivery at scale, leading a team, and shaping how millions
+  of listeners experience ads on SoundCloud, we'd love to hear
+  from you.
+
+  About us:
+
+  - We are a multinational company with offices in the US (New
+    York and Los Angeles), Germany (Berlin), and the UK
+    (London)
+  - We provide a flexible work culture that offers the
+    opportunity to collaborate and connect in person at our
+    offices as well as accommodating work from home
+  - We are deeply committed to ensuring diversity, equity and
+    inclusion at all levels of our organization and fostering
+    a community where everyone’s voice, perspective and
+    experience is respected and heard.
+  - We believe a strong team is made by investing in employees
+    through mentorship, workshops and enrichment opportunities
+
+  Benefits:
+
+  - Interested in a gym membership, photography course or book?
+    We have a Creativity and Wellness benefit!
+  - Employee Equity Plan
+  - Generous professional development allowance
+  - Flexible vacation and public holiday policy where you can
+    take up to 35 days of PTO annually
+  - Various snacks, goodies, and 2 free lunches weekly when at
+    the office
+
+  Diversity, Equity and Inclusion at SoundCloud
+
+  SoundCloud is for everyone. Diversity and open expression
+  are fundamental to our organization; they help us lead
+  what’s next in music by understanding and empowering our
+  creators and fans, no matter their identity. We acknowledge
+  the challenges in the music industry, and strive to
+  influence an inclusive culture where everyone can contribute
+  respectfully and thrive, especially the historically
+  marginalized communities that many of our creators, fans and
+  SoundClouders identify with. We are dedicated to creating an
+  inclusive environment at SoundCloud for everyone, regardless
+  of gender identity, sexual orientation, race, ethnicity,
+  migration background, national origin, age, disability
+  status, or care-giver status.
+
+  At SoundCloud you can find your community or elevate your
+  allyship by joining a Diversity Resource Group. Diversity
+  Resource Groups are employee-organized groups focused on
+  supporting and promoting the interests of a particular
+  underrepresented community in order to build a more
+  inclusive culture at SoundCloud. Anyone can join, whether
+  you share the identity or strive to be an ally.
+industries:
+  - Music
+  - Software
+posted_date: 2026-10-16
+url: "https://builtin.com/job/engineering-manager-ads/11717384"
+source: Built In

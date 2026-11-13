@@ -1,0 +1,172 @@
+job_id: 12176192
+title: Software Engineer - Rust - Consumer
+company: Kraken Digital Asset Exchange
+location: CHL
+locations:
+  - CHL
+  - PER
+  - ESP
+  - HUN
+  - CYP
+  - POL
+  - SWE
+  - BGR
+  - BRA
+  - MEX
+  - COL
+  - ROU
+  - ARG
+  - ZAF
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 2,900 Employees
+description: |
+  Building the Future of Open Finance
+
+  Payward - the parent company behind Kraken, NinjaTrader,
+  Breakout, xStocks, Payward Services and CF Benchmarks - has
+  spent the last 15 years building one of the most modern and
+  globally accessible financial infrastructure platforms in
+  the industry, built to advance an open, global financial
+  system.
+
+  The team
+
+
+
+  Founded in 2011, Kraken is one of the world's longest-
+  standing crypto platforms, trusted by over 10 million
+  individuals and institutions across the globe. It offers
+  spot trading, margin, futures, staking, and OTC services,
+  with products built for both individual investors and
+  institutional clients.
+
+  We are currently seeking an experienced Software Engineer to
+  join our growing Consumer team. The Consumer team at Kraken
+  focuses on building applications that expose Kraken’s
+  product offering to the mass market. Trying to onboard the
+  next 100 million people to the benefits of crypto.
+
+  This role primarily involves developing features and
+  maintaining our “Consumer” applications, which consists of a
+  suite of applications aimed at offering the simplest way for
+  our customers to interact with Kraken. We expect anyone
+  applying for this role to have an extreme eye for detail, a
+  passion for building genuinely world class user experiences,
+  a “ship fast but don’t ship shit” attitude and be highly
+  self driven.
+
+
+
+  The opportunity
+
+  - Design and implement customer-facing Rust backend services
+    powering trading, payments, and crypto experiences
+  - Own features end-to-end rather than stopping at the
+    API/backend boundary, understanding customer experience,
+    frontend impact, and the product problem behind what
+    you're building.
+  - Collaborate with product teams to understand customer
+    requirements and integrate with Kraken's trading
+    infrastructure while maintaining a product-led engineering
+    focus
+  - Propose improvements and drive solutions autonomously.
+    You're not simply implementing specifications, but
+    translating evolving product requirements into resilient
+    solutions that ship valuable experiences.
+  - Use AI extensively to amplify scope and speed, moving from
+    manually writing code toward orchestrating AI and
+    validating implementation, increasingly focused on problem
+    definition, architecture, and product validation.
+
+
+
+  What you bring
+
+  - Rust/backend engineer with proficiency in network services,
+    asynchronous code, and distributed systems design (RPC
+    protocols, Kafka, event-driven architectures)
+  - Product engineering mindset. You've shipped features from
+    problem → implementation → launch → user impact, with deep
+    understanding of customer experience and product metrics
+  - AI-first development approach where AI is already
+    meaningfully incorporated into your workflow; you actively
+    use AI for coding, understanding unfamiliar codebases,
+    crossing technical boundaries, and validating
+    implementations
+  - Ownership mindset with collaborative spirit. You personally
+    drive features end-to-end, work across backend/frontend
+    boundaries and operate outside technical silos
+  - Security-first approach to system design with ability to
+    autonomously debug across the stack (OS, network,
+    application)
+  - Openness to how the engineering profession is evolving
+    because of AI, prioritizing shipping valuable products
+    over manual code writing
+
+  Nice to haves
+
+  - Full-stack experience including React/TypeScript or other
+    frontend frameworks - valuable for demonstrating cross-
+    boundary collaboration mindset
+  - Cryptocurrency or blockchain domain knowledge
+  - Experience building products at consumer-focused technology
+    companies
+
+  Unless a specific application deadline is stated in the job
+  posting, applications are accepted on an ongoing basis.
+
+  Please note, applicants are permitted to redact or remove
+  information on their resume that identifies age, date of
+  birth, or dates of attendance at or graduation from an
+  educational institution.
+
+  We consider qualified applicants with criminal histories for
+  employment on our team, assessing candidates in a manner
+  consistent with the requirements of the San Francisco Fair
+  Chance Ordinance.
+
+  Our commitment
+
+  Payward is powered by people from around the world and we
+  celebrate the diverse talents, backgrounds, contributions,
+  and unique perspectives that everyone brings to the table.
+  We hire based on merit, seeking out people with the right
+  abilities, knowledge, and skills for the job. We encourage
+  you to apply for roles where you don't fully meet the listed
+  requirements, especially if you're passionate or
+  knowledgeable about crypto.
+
+  We may ask candidates to complete job-related skills or
+  work-style assessments as part of our hiring process. These
+  assessments evaluate competencies relevant to the role and
+  are applied consistently across candidates for similar
+  positions. Results are considered alongside experience and
+  interviews, and are not the sole basis for any employment
+  decision.
+
+  As an equal opportunity employer, we don't tolerate
+  discrimination or harassment of any kind, whether based on
+  race, ethnicity, age, gender identity, citizenship,
+  religion, sexual orientation, disability, pregnancy, veteran
+  status, or any other protected characteristic as outlined by
+  federal, state, or local laws.
+
+  Stay connected
+
+  Follow us on X
+
+  Learn on the Kraken Blog
+
+  Connect on LinkedIn
+
+  Candidate Privacy Notice
+industries:
+  - Blockchain
+  - Financial Services
+  - Cryptocurrency
+  - Web3
+posted_date: 2026-11-11
+url: "https://builtin.com/job/software-engineer-rust-consumer/12176192"
+source: Built In

@@ -1,0 +1,311 @@
+job_id: 11354612
+title: Principal FDE - Software Engineer
+company: Microsoft
+location: GBR
+remote: true
+work_type: FULL_TIME
+company_size: 206,870 Employees
+description: |
+  Overview
+
+  The AI Transformation team within Microsoft Frontier Company
+  is reimagining how the company operates in the age of AI. We
+  work across the business to transform critical end-to-end
+  workflows, bringing people, AI agents, and systems together
+  to create fundamentally new ways of working.Our team brings
+  together engineering, applied AI, program leadership, and
+  business transformation to move rapidly from opportunity to
+  working solution. We operate with a builder mindset: hands-
+  on, highly collaborative, comfortable with ambiguity, and
+  biased toward action. Our goal is not simply to add AI to
+  existing processes, but to build AI-native operating models
+  and reusable solutions that improve how Microsoft Frontier
+  Company works and accelerate transformation at scale.As a
+  Principcal Engineer, you will bring strong software design
+  and engineering expertise to build AI-powered solutions that
+  transform how Microsoft Frontier Company operates. You’ll
+  work in small, multidisciplinary teams to rapidly move from
+  prototype to production, using AI and agentic coding tools
+  to build reliable applications, agents, integrations, and
+  workflows that deliver measurable operational
+  impact.Microsoft’s mission is to empower every person and
+  every organization on the planet to achieve more. As
+  employees we come together with a growth mindset, innovate
+  to empower others, and collaborate to realize our shared
+  goals. Each day we build on our values of respect,
+  integrity, and accountability to create a culture of
+  inclusion where everyone can thrive at work and beyond.
+
+  Responsibilities
+
+  Design, build, test, deploy, and operate production-grade
+  AI-powered applications, agents, services, integrations, and
+  workflows that transform how Microsoft Frontier Company
+  operates.Rapidly move from requirements and ideas to working
+  solutions, prototyping and iterating based on real-world
+  feedback while maintaining high standards for reliability,
+  performance, and maintainability.Use AI-assisted and agentic
+  coding tools throughout the software development lifecycle
+  to accelerate development, testing, debugging,
+  experimentation, and delivery.Translate business and
+  operational requirements into practical technical designs
+  and scalable implementations, working closely with
+  engineers, applied scientists, TPMs, designers, and
+  operational teams.Apply strong software engineering
+  practices including code reviews, automated testing, CI/CD,
+  observability, documentation, and operational
+  readiness.Build reusable components, accelerators, and
+  engineering patterns that enable successful solutions to
+  scale across teams and transformation scenarios.Learn and
+  adapt quickly in ambiguous, fast-moving environments,
+  experimenting with emerging AI technologies and continuously
+  improving solutions based on measurable outcomes.Apply a
+  security-first mindset and incorporate privacy, Responsible
+  AI, compliance, and Microsoft engineering requirements
+  throughout design and delivery.
+
+  Design
+
+  - Oversees, influences, and owns efforts and design
+    discussions for the overall system architecture of entire
+    products/solutions that are deeply complex and often
+    ambiguous. Owns creating proposals for architecture and
+    design documents and leads testing of hypotheses and
+    proposed solutions. Shares and acts on findings from
+    investigations, owns design decisions, and oversees the
+    less experienced team members. Leads the development of
+    design documents for designs or User Stories and
+    determines the technology that will be leveraged and how
+    they will interact. Leads design discussions with the team
+    and shares findings/learnings from investigations, owns
+    design decisions. Provides technical leadership to assure
+    system architecture meets security and compliance
+    requirements and expectations.
+  - Establishes best practices and mentors' others to create a
+    clear and articulated plan for testing and assuring
+    quality of solutions, and defines success for outcomes of
+    tests (e.g., unit tests). Identifies needs and sets
+    standards for a broad versus selected approach in testing
+    mechanisms and makes informed decisions to implement the
+    most effective tests. Provides technical leadership in
+    efforts to add new tests, remove antiquated tests, and
+    aggregate tests to improve the overall test suite across a
+    solution or product. Improves recommendations to across
+    teams. Provides expertise. Leads and mentors' others to
+    integrate automation when planning for testing.
+  - Provides technical leadership for the identification of
+    dependencies and the development of design documents for a
+    product, application, service, or platform. Leads
+    identification of other teams and technologies that will
+    be leveraged, how they will interact, and when one's
+    system may provide support to others. Leads efforts to
+    determine back-end dependencies associated with product,
+    application, service, or platform functionality for the
+    solution/product. Helps to create relationships and links
+    impacting up and downstream effects of solutions and work
+    provided to ensure appropriate security and performance,
+    driving reliability in the solutions, and optimize
+    dependency chains and retrieves across teams. Identifies
+    areas of dependency and overlap with other teams or team
+    members and drives coordination. Enables and fosters
+    cross-team communications and resolves conflicts between
+    teams.
+
+  Coding
+
+  - Leads by example and mentors' others to produce extensible
+    and maintainable code used across the company. Leads
+    efforts to optimize, debug, refactor, and reuse code to
+    improve performance and maintainability, effectiveness,
+    and return on investment (ROI). Identifies best practices
+    and coding patterns and provides deep expertise in the
+    coding and validation strategy. Creates and applies
+    metrics to drive the quality and stability of code, as
+    well as appropriate coding patterns and best practices.
+  - Acts as an expert on debugging tools, logs, telemetry, and
+    other methods, and leads verification of assumptions
+    through writing and developing code proactively before
+    issues occur and reactively as issues occur across
+    products and teams. Leverages minimal telemetry data,
+    triangulates issues, and resolves with minimal iterations.
+    Leads retrospective debugging of solutions to identify
+    root causes of problems.
+  - Provides technical leadership during code reviews for a
+    solution/product area to assure it meets the team's and
+    Microsoft’s quality standards, is reliable and accurate,
+    and is appropriate for the scale of the product feature.
+    Ensures coding standards are followed. Screens for and
+    establishes best practices in reviews and provides
+    feedback on code to drive adherence to best practices.
+
+  Implement
+
+  - Leverages deep subject-matter expertise of cross-product
+    features with appropriate stakeholders (e.g., project
+    managers) to lead multiple product's project plans,
+    release plans, and work items. Breaks down long-term
+    project vision into milestones. Guides other members for
+    project estimation and escalates only the most critical
+    issues.
+  - Leads efforts for creation and conducting of experimentation
+    to determine the effectiveness of changes, monitors
+    developments for prototyping and testing products,
+    interprets results, and decides on next steps or ship
+    decision from results. Drives identification of the
+    correct metrics for experimentation in determining
+    improving customer value.
+  - Leads the creation of implementation framework as necessary,
+    following industry standards. Leads implementation and
+    deployment of the solution in the existing framework.
+    Holds accountability for the impact of build deployments
+    on both users and other services. Optimizes deployments
+    across products and components to meet differing business
+    objectives. Leads efforts to assure that solutions are
+    deployed safely.
+
+  Reliability and Supportability
+
+  - Leads efforts in the maintenance of live service as issues
+    arise on a rotational, on-call basis. Implements and helps
+    others implement solutions and mitigations to complex
+    issues impacting the performance or functionality of Live
+    Site services. Reviews systematic issues and ensures
+    solutions. Ensures playbooks are logical and
+    understandable. Uses feedback from other solutions to
+    inform preventative measures. Reviews and writes complex
+    issues postmortem and shares insights across teams.
+  - Holds accountability as a Designated Responsible Individual
+    (DRI) and mentors' other engineers across
+    products/solutions, working on call to monitor
+    system/product/service for degradation, downtime, or
+    interruptions. Alerts stakeholders as to status and
+    initiates actions to restore system/product/service for
+    complex issues. Develops a playbook for the team to
+    resolve issues. Coordinates people and resources to ensure
+    DRI responsibilities are covered across teams. Responds
+    within Service Level Agreement (SLA) timeframe. Has line
+    of sight to incidences and plans to address emerging
+    issues. Leads efforts to reduce incident volume, looking
+    globally at incidences and providing broad resolutions.
+    Escalates issues to appropriate owners.
+  - Acts as an expert in design and integration and signs-off on
+    work of others across teams or multiple products on
+    telemetry in systems and products to provide feedback on
+    system behavior such as performance, reliability,
+    availability, usage, and implement safety mechanisms
+    resulting in iterative feedback loops resulting in
+    subsequent designs. Ensures solutions are scalable,
+    financially responsible, and meet capture/storage
+    guidelines. Sets expectations for outputs of telemetry
+    such as notifications or dashboards.
+  - Provides technical leadership in efforts to collect,
+    classify, and analyze complex data and analyses on a range
+    of metrics (e.g., health of the system, where bugs might
+    be occurring). Leads the refinement of products through
+    deeply complex data analytics and makes informed decisions
+    in engineering products through data integration.
+
+  Engineering Excellence
+
+  - Shares and teaches others best practices about new tools and
+    strategies. Leads efforts and mentors' others to build
+    software developer tools to support other programs and
+    applications to create, debug, and maintain code across
+    products. Uses open source when possible. Holds subject
+    matter expertise in other tools inside and outside areas
+    of expertise. Leads identification of internal tools and
+    creation of new tools that will be useful for creating the
+    product, determining if methods are still applicable for
+    the current solution. Shares best practices and teaches
+    others about new tools and strategies.
+  - Leads the comprehensive application of automation within
+    production and deployment across complex products. Runs
+    code in simulated or other non-production environments to
+    confirm functionality and error-free runtime across
+    complex products. Defines and develops standardized,
+    repeatable, scalable solutions to guarantee quality.
+  - Provides technical leadership through efforts to ensure the
+    correct processes are followed to achieve a high degree of
+    security, privacy, safety, and accessibility across
+    solutions and teams. Leads in developing and assures the
+    presence of visible evidence to demonstrate compliance for
+    products. Develops and maintains a deep understanding of
+    the implications of onboarding new technologies following
+    expectations of compliance at Microsoft.
+  - Remains current by investing time and effort into staying
+    abreast of current developments. Proactively seeks new
+    knowledge and adapts to new trends, technical solutions,
+    and patterns that will improve the availability,
+    reliability, efficiency, observability, and performance of
+    products while also driving consistency in monitoring and
+    operations at scale and shares knowledge with other
+    engineers.
+  - Applies, extrapolates, and helps to create best practices
+    and shares information with other engineers to reliably
+    build code that is based on well-established methods while
+    also applying best practices for new code development.
+    Provides thought leadership and maintains an up-to-date
+    understanding of both global and local regulations for
+    technologies and system applications to ensure regulations
+    are followed and met. Leads product development and
+    scaling to customer requirements and applies best
+    practices for meeting scaling needs and performance
+    expectations and holds accountability for product/solution
+    areas that do not meet expectations.
+  - Leads efforts to initiate and maintain communication with
+    key partners across Microsoft ecosystem of engineers. Acts
+    as a primary contact for leadership to ensure alignment
+    with partners' expectations. Builds partner teams across
+    Microsoft (e.g., Xbox, Office) and their end goals for
+    products to drive and achieve desirable user experiences
+    and fitting dynamic needs of partners/customers through
+    product development. Proactively escalates situations to
+    strategic network when resolving complex blockers.
+
+  Qualifications
+
+  QualificationsRequired/Minimum Qualifications:Bachelor's
+  degree in computer science or related technical field AND
+  technical engineering experience with coding in languages
+  including, but not limited to, C, C++, C#, Java, JavaScript,
+  or Python OR equivalent experience.
+
+
+
+  Software Engineering IC5 - The typical base pay range for
+  this role across United Kingdom is £ 93,500.00 - £
+  161,800.00 per year. Certain roles may be eligible for
+  benefits and other compensation.
+
+
+
+  Find additional benefits and pay information here:
+  https://careers.microsoft.com/v2/global/en/corporate-
+  pay/united-kingdom-corporate-pay.html
+
+  This position will be open for a minimum of 5 days, with
+  applications accepted on an ongoing basis until the position
+  is filled.
+
+  Microsoft is an equal opportunity employer. All qualified
+  applicants will receive consideration for employment without
+  regard to age, ancestry, citizenship, color, family or
+  medical care leave, gender identity or expression, genetic
+  information, immigration status, marital status, medical
+  condition, national origin, physical or mental disability,
+  political affiliation, protected veteran or military status,
+  race, ethnicity, religion, sex (including pregnancy), sexual
+  orientation, or any other characteristic protected by
+  applicable local laws, regulations and ordinances. If you
+  need assistance with religious accommodations and/or a
+  reasonable accommodation due to a disability during the
+  application process, read more about requesting
+  accommodations.
+industries:
+  - Software
+  - Quantum Computing
+  - Metaverse
+  - Infrastructure as a Service (IaaS)
+posted_date: 2026-11-03
+url: "https://builtin.com/job/principal-fde-software-engineer/11354612"
+source: Built In

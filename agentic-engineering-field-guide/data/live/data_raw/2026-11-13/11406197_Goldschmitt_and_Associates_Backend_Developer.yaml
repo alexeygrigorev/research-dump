@@ -1,0 +1,96 @@
+job_id: 11406197
+title: Backend Developer
+company: Goldschmitt and Associates
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 144 Employees
+description: |
+  At Goldschmitt and Associates LLC (G&A), we’re not just
+  another company—we’re a catalyst for innovation and impact,
+  and we’re inviting passionate, forward-thinking individuals
+  to join us on this journey. Recognized multiple times on the
+  Inc 5000 list of the fastest-growing companies, G&A is a
+  leader in tech transformation and system modernization for
+  some of the nation’s most important federal agencies. Our
+  culture is built on creativity and collaboration. We offer
+  flexible schedules, telework options, and an environment
+  where your ideas truly matter. At G&A, you won’t just clock
+  in—you’ll be solving real-world challenges and working on
+  projects that make a difference in the lives of millions.
+  Joining our team means becoming part of a vibrant, connected
+  community where innovation thrives, your voice is heard, and
+  your impact is felt. Whether you’re a tech enthusiast, a
+  strategic thinker, or a problem-solver, at G&A, you’ll have
+  the opportunity to level up your career while making a real-
+  world impact. If you’re ready to be part of a company that
+  values purpose as much as progress, G&A is the place for
+  you! Summary: Goldschmitt is seeking a Backend Developer.
+  This position is remote with preference given to candidates
+  who live within a commutable distance to the DMV area. The
+  anticipated salary for this position is $130,000.00-
+  $150,000.00, dependent upon experience. The anticipated
+  travel for this position is 5%. Job Duties and
+  Responsibilities:
+
+  - Design, develop, implement, and maintain enterprise/SaaS
+    applications
+  - Develop and maintain backend applications using Java, Spring
+    Boot, and related testing frameworks
+  - Design, develop, document, and maintain RESTful APIs and web
+    services
+  - Implement and manage application user authentication and
+    authorization methods
+  - Design and maintain databases, data models, queries, and
+    supporting scripts
+  - Conduct code reviews and identify opportunities to improve
+    application performance, maintainability, security, and
+    efficiency
+  - Collaborate with technical and business stakeholders to
+    identify requirements, resolve technical issues, and
+    recommend improvements
+
+  Necessary Skills and Knowledge:
+
+  - Strong backend software development experience using Java,
+    Spring Boot and related technologies
+  - Experience with relational databases and data modeling
+  - Experience with modern software development, testing,
+    deployment, and deployment practices
+
+  Minimum Qualifications:
+
+  - Possess at least 4 years of professional software
+    development experience, including enterprise software
+    and/or SaaS applications
+  - Possess a Bachelor's degree
+  - Possess the ability to pass and maintain eligibility for a
+    Public Trust investigation, including United States
+    citizenship
+  - Possess experience with the following:
+    - Programming Languages: Java
+    - Frameworks: Spring Boot, Hibernate
+    - Technologies: Web Services (REST), API Management
+    - Platforms: AWS, Docker Containers
+    - Databases: MySQL, NoSQL
+    - Tools: Git, CI/CD, Swagger/OpenAPI, JUnit
+
+  Preferred Qualifications:
+
+  - Possess experience with the following:
+    - Programming Languages: Node.js
+    - AWS Technologies: AWS GovCloud, CloudFormation, Simple
+      Notification Service (SNS), Cognito, API Gateway, ECS,
+      Application Load Balancers, Lambda Functions, CDK, IAM,
+      Secrets Manager, CloudWatch, RDS
+    - Observability: Spring Boot Actuator/Micrometer, distributed
+      tracing (X-Ray or OpenTelemetry)
+    - Databases: DB2, Redis, DynamoDB
+    - Compliance & Security: FedRAMP, ATO
+industries:
+  - Information Technology
+  - Natural Language Processing
+  - Software
+posted_date: 2026-09-28
+url: "https://builtin.com/job/backend-developer/11406197"
+source: Built In

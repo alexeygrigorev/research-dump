@@ -1,0 +1,112 @@
+job_id: 12205102
+title: Sr. Software Engineer, Core AI
+company: Navan
+location: New York, USA
+work_type: FULL_TIME
+company_size: 5,000 Employees
+description: |
+  About the Role
+
+  We are building a fleet of specialized AI services that
+  improve high-value human workflows across the company. As a
+  Senior Software Engineer, Core AI, you will design, build,
+  evaluate, and operate production-grade AI services and
+  agents. You will own work end to end—from data and context
+  design through tool use, application logic, evaluation, and
+  production monitoring.
+
+  What You’ll Do:
+
+  - Build specialized AI services: design and implement task-
+    specific services and agents, including data
+    serialization, retrieval, memory where appropriate, tool
+    integrations, and bounded multi-step reasoning.
+  - Define and evaluate quality: work with partners to make
+    expected behavior explicit, write and maintain evals
+    against representative examples, and use results to
+    measure performance against expectations.
+  - Improve quality systematically: use evaluation findings,
+    failure analysis, and production feedback to improve
+    context and data, service logic, tools, and model
+    behavior.
+  - Build for production: integrate tracing, observability,
+    versioning, monitoring, reliability practices, and success
+    metrics into the services you own.
+  - Run controlled experiments: compare models, data, and
+    implementation approaches using repeatable benchmarks so
+    improvements are attributable and reproducible.
+  - Partner on architecture: work with AI Architecture, AI Ops,
+    and Platform teams to make services secure, reliable,
+    cost-aware, and deployable at scale.
+  - Ship iteratively: move quickly from user problem to
+    prototype to production, learning from real workflow
+    outcomes.
+
+  What We’re Looking For:
+
+  - 5+ years of strong software engineering experience
+    delivering production services or products, ideally at
+    senior or staff level.
+  - Hands-on experience building AI/LLM-powered applications or
+    agents with real users or operational use.
+  - Experience with evaluation methods for AI behavior: defining
+    expected outcomes, building test sets or evals, tracking
+    regressions, and acting on results.
+  - A data-first mindset: able to shape retrieval, context, and
+    serialization to give a model the information needed for
+    the task.
+  - Good judgment about tool use, autonomy, human review,
+    failure handling, privacy, reliability, latency, and cost.
+  - A product-minded approach focused on solving specific
+    workflow problems and measuring whether the solution
+    works.
+  - Comfort learning tools and frameworks; experience with agent
+    runtimes, model APIs, MCP, tracing, or evaluation tools is
+    helpful.
+
+  The posted pay range represents the anticipated low and high
+  end of the compensation for this position and is subject to
+  change based on business need. To determine a successful
+  candidate’s starting pay, we carefully consider a variety of
+  factors, including primary work location, an evaluation of
+  the candidate’s skills and experience, market demands, and
+  internal parity. For roles with on-target-earnings (OTE),
+  the pay range includes both base salary and target incentive
+  compensation. Target incentive compensation for some roles
+  may include a ramping draw period. Compensation is higher
+  for those who exceed targets. Candidates may receive more
+  information from the recruiter.
+
+  Pay Range
+
+  $113,400—$252,000 USD
+
+  Navan uses AI-assisted Automated Employment Decision Tool
+  (Metaview) to assist with evaluating resumes against job
+  qualifications for this role. All final decisions are made
+  by human recruiters and hiring managers.
+
+  Human oversight: Metaview does not automatically reject
+  candidates or make final hiring decisions. Our recruiters
+  and hiring managers review all outputs and make the final
+  hiring decision regarding every application.
+
+  - Your rights: If you prefer to have your application reviewed
+    without AI assistance, you may request a human evaluation
+    by entering your email here. Your decision to do so will
+    not affect how your candidacy is evaluated.
+
+  Please refer to our Candidate Privacy Notice for more
+  information about our processing of personal data, and your
+  rights.
+industries:
+  - Fintech
+  - Information Technology
+  - Payments
+  - Productivity
+  - Software
+  - Travel
+  - Automation
+posted_date: 2026-11-12
+url: "https://builtin.com/job/sr-software-engineer-core-ai/12205102"
+source: Built In

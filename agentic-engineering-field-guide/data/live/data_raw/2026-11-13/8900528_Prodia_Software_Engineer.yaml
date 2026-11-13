@@ -1,0 +1,73 @@
+job_id: 8900528
+title: Software Engineer
+company: Prodia
+location: London, GBR
+remote: true
+work_type: FULL_TIME
+company_size: 10 Employees
+description: |
+  Prodia provides the fastest image and video generation in
+  the world via it's API. Engineers at Prodia build the
+  systems that make it fast, reliable, and easy for developers
+  to use.
+
+  This is a highly practical role: shipping models, features,
+  and improvements that show up directly in latency, quality,
+  and uptime.
+
+  Sample projects include…
+
+  - Optimising, testing, and integrating frontier image/video
+    models (research -> production)
+  - Building the best APIs for developers: clean ergonomics,
+    great docs, predictable behaviour
+  - Designing evals + observability: ranking outputs and
+    understanding quality changes
+  - Improving our distributed job scheduling (throughput,
+    latency, fairness, cost)
+  - Reading the latest papers to gather methods for future
+    improvements
+  - Using the newest AI/agentic tooling to speed up debugging,
+    experimentation, and iteration
+
+  You might be a fit if…
+
+  - You’re an excellent programmer and love shipping quickly
+  - You're a first principles thinker who is unfazed by hard
+    problems
+  - You're looking to learn more about machine learning at a
+    rapid pace
+  - No specific degree or background required — show us what
+    you’ve built and how you think
+
+  Bonus points for…
+
+  - Inference/GPU performance work, distributed systems, or
+    high-scale APIs
+  - Building eval/ranking pipelines or human-in-the-loop review
+    systems
+  - Strong history of open-source contributions
+
+  Benefits and perks:
+
+  - 100% remote work from anywhere in the world. No location-
+    based adjustment to your salary
+  - Autonomous work. We work collaboratively on projects, but
+    you set your own pace
+  - Health, Vision and Dental benefits for US employees. Prodia
+    covers 100% of the cost
+  - Generous tech allowance for any office setup you need
+  - Quarterly run off-sites
+
+  Compensation range:
+
+  We believe in hiring and retaining the best talent, which is
+  why we offer 75th percentile of market rates (e.g.
+  $150-300k+) and receive generous equity packages.
+industries:
+  - Artificial Intelligence
+  - Information Technology
+  - Software
+posted_date: 2026-08-04
+url: "https://builtin.com/job/software-engineer/8900528"
+source: Built In

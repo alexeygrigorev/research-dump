@@ -1,0 +1,189 @@
+job_id: 12189536
+title: Senior Software Engineer
+company: Anaconda
+location: USA
+remote: true
+work_type: FULL_TIME
+company_size: 450 Employees
+description: |
+  About AnacondaBe at the center of AI
+
+  Anaconda is built to advance AI with open source at scale,
+  giving builders and organizations the confidence to increase
+  productivity, and save time, spend and risk associated with
+  open source. 95% of the Fortune 500 including Panasonic,
+  AmTrust, Booz Allen Hamilton and over 50 million users rely
+  on the value The Anaconda AI Platform delivers through a
+  centralized approach to sourcing, securing, building, and
+  deploying AI. With 21 billion downloads and growing,
+  Anaconda has established itself as the gold standard for
+  Python, data science, and AI and the enterprise-ready
+  solution of choice for AI innovation. Anaconda is backed by
+  world-class investors including Insight Partners. Learn more
+  at https://www.anaconda.com.
+
+  Summary:
+
+  We're building the packages that millions of users and
+  thousands of enterprise customers trust to power their AI
+  and data science workflows. As Anaconda transitions from
+  Python for data science to Python for AI, supply chain
+  security has become mission-critical. Scanners, customers,
+  and automated workloads are raising the bar, and we need
+  dedicated ownership of vulnerability remediation to protect
+  our platform and the people who depend on it. You'll lead
+  remediation strategy, build automation that eliminates toil,
+  and help the team scale their security expertise so
+  knowledge isn't concentrated in a single point of failure.
+
+  What You'll Do:
+
+  - Lead remediation of high-severity and complex CVEs,
+    including deep dependency chains and ABI-sensitive
+    packages that require careful native-code debugging
+  - Make risk-based calls on whether to patch, backport,
+    upgrade, or mitigate vulnerabilities, and communicate
+    tradeoffs clearly to Security, Support, Product, and
+    leadership
+  - Design and build automation for CVE intake, package mapping,
+    patching workflows, testing pipelines, and SBOM/VEX
+    generation that measurably reduces manual effort
+  - Define remediation SLAs, metrics, and reporting so
+    leadership and cross-functional partners have reliable
+    visibility into exposure and time-to-remediate
+  - Partner with upstream maintainers to contribute fixes back
+    to the community and strengthen the broader open-source
+    ecosystem
+  - Review patches with rigor and care, coaching teammates on
+    security fundamentals, correctness, and maintainable
+    design
+  - Write clear design docs that help non-technical stakeholders
+    make informed decisions on customer-facing security
+    advisories
+  - Use AI-powered development tools to accelerate triage, patch
+    analysis, and testing while preserving strong engineering
+    fundamentals and security rigor
+
+  Your impact will be measured through:
+
+  - Growth of Anaconda's compiled package catalog and
+    reliability of the build and release pipeline.
+  - Reduction in manual, repetitive engineering work through
+    automation.
+  - Cross team adoption of packaging standards and reusable
+    components.
+  - Time to resolution for build and distribution incidents.
+
+  What You Need:
+
+  - 7+ years of professional software engineering experience
+  - 3+ years in security remediation, packaging, or release
+    engineering
+  - Strong Python expertise and deep experience with C/C++ or
+    equivalent compiled language, including debugging native
+    build and ABI issues
+  - Expert-level packaging and build experience with conda,
+    wheels, or Linux distribution packaging systems
+  - Strong command of CVE/CVSS frameworks, exploitability
+    analysis, and vulnerability scanning tools
+  - Track record of designing automation that reduced manual
+    toil at scale
+  - Proven ability to write design docs and code reviews that
+    communicate tradeoffs clearly to technical and non-
+    technical audiences
+  - Track record of coaching or mentoring engineers at any level
+  - Proficiency with AI-powered development tools to reduce toil
+    while maintaining strong fundamentals and security rigor
+
+  What Will Make You Stand Out:
+
+  - Upstream open-source contributions and hands-on CVE
+    remediation experience in public package ecosystems
+  - Supply chain security experience including SBOM, SLSA,
+    signing, or provenance tooling
+  - Experience in open-source ecosystems, package management, or
+    build and release engineering at companies with fast-
+    paced, high-impact technical environments
+  - Hands-on experience with cloud platforms, containers, or
+    GitOps tooling in production environments
+  - Experience at an AI-focused or data science company with an
+    understanding of security demands for platforms serving
+    automated workloads at scale
+  - Comfortable pushing back when timing or tradeoffs don't
+    align, and advocating for investments that reduce risk and
+    single points of failure
+  - You embody our values: 'Curious by Default', 'Build
+    Together', 'Own It', and 'Lead with Guts and Heart', and
+    our behaviors: Clarity, Care and Candor
+  - You care deeply about fostering an environment where people
+    of all backgrounds and experiences can flourish
+
+  Why You'll Like Working Here:
+
+  - You'll thrive in a high-performance environment where
+    results are recognized and rewarded
+  - Your work directly contributes to shaping the future of data
+    science, machine learning, and AI in the enterprise.
+  - You'll work alongside a collaborative team that values
+    diverse, thoughtful discussion, clarity and candor.
+  - You'll be supported by a culture that puts employees first -
+    with flexible hours, a fully remote setup, and a genuine
+    commitment to your wellbeing and growth.
+
+  The application deadline for this role is 12/30/2026;
+  applicants will be reviewed on an ongoing basis until the
+  role is filled.
+
+  The base salary range for this role is $149,500 - $179,500,
+  along with annual bonus potential, equity participation, and
+  benefits.
+
+  Our salary ranges are determined by role, level, and
+  location. Within the range, individual compensation is
+  determined by various factors, including work location, job-
+  related skills, experience, and relevant education or
+  training. Your recruiter will provide more specific details
+  on the salary range for your preferred location during the
+  hiring process.
+
+  In addition to base salary, we offer a comprehensive
+  benefits package that includes:
+
+  - Flexible Vacation Policy
+  - Medical, Dental, and Vision Insurance
+  - Short Term and Long Term Disability
+  - Paid Parental Leave
+  - Monthly Wellness Stipend
+  - Employee Assistance Program and Mental Health Resources
+
+  An Equal Opportunity Employer. All qualified applicants will
+  receive consideration for employment without regard to race,
+  color, religion, sex, sexual orientation, gender identity,
+  national origin, or protected veteran status and will not be
+  discriminated against on the basis of disability.
+
+  Anaconda, Inc. (“We”, “Us”) are committed to protecting and
+  respecting your privacy. This Privacy Notice sets out the
+  basis on which the personal data collected from you, or that
+  you provide to Us, will be processed by Us in connection
+  with Our recruitment processes.
+
+  By clicking “Submit Application”, you acknowledge you have
+  read our Privacy Policy and that Anaconda can retain your
+  application data for up to 1-year, unless otherwise stated.
+  For the purpose of the General Data Protection Regulation
+  (“GDPR”) ”) and the version of the GDPR retained in UK law
+  (the “UK GDPR”) the Data Controller is Vanessa Macilwaine.
+
+  Anaconda is an EEO/AA employer M/F/V/D.
+industries:
+  - Artificial Intelligence
+  - Big Data
+  - Machine Learning
+  - Security
+  - Software
+  - Cybersecurity
+  - Big Data Analytics
+posted_date: 2026-11-12
+url: "https://builtin.com/job/senior-software-engineer/12189536"
+source: Built In

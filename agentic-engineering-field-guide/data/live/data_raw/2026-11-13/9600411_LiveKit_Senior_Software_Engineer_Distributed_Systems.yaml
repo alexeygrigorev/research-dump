@@ -1,0 +1,143 @@
+job_id: 9600411
+title: Senior Software Engineer, Distributed Systems
+company: LiveKit
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - CAN
+  - USA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 83 Employees
+description: |
+  About LiveKit
+
+  LiveKit is revolutionizing the AI landscape by providing the
+  essential network infrastructure that powers multimodal AI
+  interfaces, enabling seamless audio and visual interactions.
+  Founded in 2021, LiveKit has rapidly grown to support over 3
+  Billion calls annually, 100,000+ developers globally, and
+  industry giants like OpenAI, Character AI, Spotify, and
+  Meta.
+
+  About This Role
+
+  We're looking for a Senior Engineer to work across some of
+  the most technically demanding parts of LiveKit's platform —
+  core services, telephony, and observability. At LiveKit, the
+  infrastructure is the product — you're not building the
+  layer underneath, you are the layer.
+
+  You'll work on problems where latency, availability, and
+  operational simplicity are critical, and where the right
+  answer often requires careful tradeoffs and outside-the-box
+  thinking. While distributed systems experience is valuable,
+  we care just as much about strong programming fundamentals,
+  sound judgment, and the ability to learn fast. The team is
+  small. Your decisions ship directly into production.
+
+  You'll thrive as a Distributed Systems Engineer if you:
+
+  - obsess with crafting code that is fast, reliable and
+    practical for the problem
+  - are known as the go-to person for tackling tough technical
+    problems
+  - work hard and can build and ship fast
+  - can clearly explain complex technical concepts to others
+  - are a fast learner, frequently picking up new languages and
+    tools
+
+  The best way to impress us is with thoughtful Issues and/or
+  PRs on our Github repos 😊
+
+  What You'll Do
+
+  - Design and evolve the core control, data, and observability
+    systems that power LiveKit Cloud
+  - Implement resilient, region-spanning architectures that
+    degrade gracefully under partial failure
+  - Build libraries, protocols, and tooling that raise
+    reliability and developer velocity across the org
+  - Diagnose and harden critical paths using metrics, tracing,
+    testing, and real-world traffic insights
+  - Shape new platform capabilities across identity, scheduling,
+    observability, and distributed state management
+  - Technologies include: Go, psrpc, gRPC, Raft, NATS,
+    Kubernetes, Prometheus, OpenTelemetry, ClickHouse
+
+  Who You Are
+
+  - You have experience designing and delivering distributed
+    systems in production
+  - You take ownership end-to-end - prototype, test, ship,
+    monitor, and iterate
+  - You're comfortable with consensus, coordination, and the
+    realities of distributed failure modes
+  - You think in terms of data flow, state, performance, and
+    correctness, and you can reduce complex systems into
+    understandable components
+  - You value clear communication, practical engineering, and
+    building systems that others enjoy working with
+
+  Nice to Have
+
+  - Go fluency — if you haven't written Go yet, you've been
+    meaning to
+  - Hands-on experience with pub/sub, RPC, or coordination
+    systems (NATS, etcd, Raft, Paxos)
+  - Exposure to real-time or low-latency infrastructure — you
+    know what microseconds feel like
+  - You've shipped observability tooling you'd actually want to
+    use (tracing, metrics, at-scale logging)
+  - In those school group projects, you did most of the work
+    (:sigh:)
+
+  We offer
+
+  - The opportunity to shape the brand of a fast-growing
+    developer platform
+  - Collaboration with a small, senior team that deeply values
+    craft and creativity
+  - Competitive salary and equity package
+  - Health, dental, and vision benefits
+  - Flexible vacation policy
+
+  LiveKit is an equal opportunity employer and does not
+  discriminate on the basis of any characteristic protected by
+  applicable law. If you require a reasonable accommodation
+  during the application or interview process, please contact
+  recruiting@livekit.io.
+industries:
+  - Artificial Intelligence
+  - Cloud
+  - Information Technology
+  - Software
+posted_date: 2026-08-22
+url: "https://builtin.com/job/distributed-systems-engineer/9600411"
+source: Built In

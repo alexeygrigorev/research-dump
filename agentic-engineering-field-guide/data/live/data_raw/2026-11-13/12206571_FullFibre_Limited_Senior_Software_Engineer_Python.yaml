@@ -1,0 +1,170 @@
+job_id: 12206571
+title: Senior Software Engineer (Python)
+company: FullFibre Limited
+location: GBR
+remote: true
+work_type: FULL_TIME
+company_size: 141 Employees
+description: |
+  Values are extremely important to our culture and success at
+  FullFibre... We are Customer Centric. Our customers are at
+  the centre of everything we do. We value, serve, and support
+  our customers with care and dedication. We are
+  Collaborative. We prioritise effective communication,
+  cooperation, and collaboration. We work as one team and
+  celebrate our shared success. We are Proud. Proud of the
+  work we do and how we do it; with integrity, pride,
+  confidence, and respect We are Agile. We embrace change. We
+  are innovative, forward thinking and adapt quickly to fast-
+  moving situations and opportunities. We are continuously
+  improving. The Senior Software Engineer will join our
+  Systems, Development and Data team to grow our software
+  engineering function and support our expansion as we support
+  the rapidly growing business in providing market-leading
+  onboarding, support, and account management experiences.
+
+  You’ll work on our estate of Python microservices (and
+  related Rust modules), web applications, and API
+  integrations - as well as working to integrate and configure
+  our SaaS and hosted platforms - to build new features,
+  understand and resolve issues, and design future work.
+  You’ll also build web frontends for some applications and
+  internal tools, and take ownership of full-stack end-to-end
+  delivery.
+
+  We do interesting stuff, as well as the more straightforward
+  bits of data plumbing – numerical routing and allocation
+  optimisation, AI image analysis from field engineers,
+  sentiment analysis, network analysis, low-level network
+  monitoring, and lots of interesting geospatial bits and
+  pieces.
+
+  As our senior software engineer, you’ll support junior
+  engineers and help them develop into great software
+  engineers. You’ll also help ensure that we keep our quality
+  standards high, and that we’re developing the right tools to
+  solve the business’ long-term challenges, even where
+  requirements and demands are unclear or changeable.  Job
+  requirements
+
+  Ideal Profile...
+
+  - At least 5 years of professional experience with modern
+    (typed, async) Python
+  - An inquiring attitude – you don’t like things you can’t
+    explain, are driven to figure stuff out if you don’t know,
+    and enjoy getting to the bottom of odd glitches and “one
+    off” events
+  - Demonstrated experience working on live systems with real
+    people’s data and services at stake, and a strong
+    appreciation of risk and change management principles
+  - The ability to collaborate with technical and operations
+    teams with a range of technical skill levels
+  - Excellent written communication skills, with strong
+    asynchronous working familiarity
+  - Significant experience with Linux system and process
+    administration, container technologies (Docker, etc)
+  - Experience with remote working in a fully distributed team
+    environment
+  - Degree-level qualification in Computer Science, Mathematics,
+    Physics; or similar equivalent professional experience
+    demonstrating your ability to work and think in a
+    structured and analytical manner
+
+  Desirable skills, knowledge, experience
+
+  - Experience with Kubernetes/Amazon EKS and GitOps/CI/CD
+    workflows, GitLab
+  - Experience with frontend frameworks such as VueJS, and
+    TypeScript (or JavaScript/NodeJS)
+  - Experience with Rust and pyO3, or similar low-level
+    languages
+  - Experience with SQL database technologies (PostgreSQL,
+    MySQL)
+  - Experience with PySpark, Databricks, Delta Lake or other
+    data warehousing technologies
+  - Experience with distributed systems engineering,
+    message/event buses such as RabbitMQ, and RESTful API
+    design
+  - Understanding of telecoms operational and business support
+    systems
+
+  Job responsibilities The Systems, Development and Data team
+  is key function of the business, responsible for all
+  internal and external facing systems, both third-party
+  (SaaS) and internally delivered solutions. We build key
+  internal and external tools, and make business processes
+  flow smoothly, automating where we can, and making end-user
+  experiences great where people need to be involved. We also
+  own business data management; we deliver complex reporting
+  outputs and maintain our data warehouse and processing
+  pipelines.
+
+  We’re a friendly and diverse team, constantly helping each
+  other out and supporting ongoing learning and development.
+  We’re remote-first, and distributed across the UK, with
+  occasional social get-togethers and workshops (usually at
+  most once per quarter).
+
+  We do use AI where it makes sense in our workflows,
+  including agentic coding systems and tools, but are
+  thoughtful when it comes to selection of tools and use of
+  automation in our day-to-day activities. The ideal applicant
+  will bring a similar curious-but-sceptical attitude, be
+  happy in a fully remote async-heavy team, and be aligned
+  with our team values of inclusivity, openness, and
+  curiosity. You’ll have a head for architecture and the big
+  picture but be happy stepping down into the detail to
+  implement required changes. You’ll be a systems thinker,
+  with experience working with distributed systems, business
+  events, real-time systems and engineering reliable systems.
+
+  You’ll be confident and happy to work independently,
+  directly speaking with stakeholders and internal customers
+  to ensure you’re delivering what they need, while ensuring
+  we stay compliant and secure. You’ll have good interpersonal
+  skills and be happy thriving in a high-velocity environment,
+  in a rapidly changing industry. Your key responsibilities as
+  Senior Software Engineer will be...
+
+  - Develop and support FullFibre’s ecosystem of microservices
+    and web applications in Python
+  - Ensure that systems delivered by the team are reliable,
+    efficient, and well instrumented
+  - Work with our DevOps engineers to ensure reliable and robust
+    deployment of your services and code on our Kubernetes
+    clusters and other environments
+  - Ensure that systems you develop and support are secure, and
+    protect customer data and privacy effectively
+  - Architect, develop, and scope new systems, services, and
+    integrations from cradle to grave
+  - Collaborate with stakeholders to build and shape roadmaps
+    and future deliverables
+  - Support and mentor junior engineers in their development
+
+  Benefits
+
+  Company Benefits...
+
+  - Base salary of up to £90,000 depending of
+    qualifications/experience.
+  - 25 days’ paid holiday plus bank holidays
+  - A day off for your birthday
+  - Pension Scheme
+  - Life assurance
+  - Private BUPA Healthcare
+  - £500 Employee Referral Scheme
+  - Enhanced family friendly policies
+  - Zzoomm Employee broadband perks inc family & friends
+  - Working with us, you will learn new skills on the job,
+    diversify your abilities and enjoy building a new future
+    for the UK’s broadband network.
+
+  FullFibre provides you with the flexibility to work in a way
+  that will help you grow and develop. As well as having clear
+  responsibilities, you will get extensive training to help
+  you develop, and you will be building a legacy here as we
+  build the Full Fibre broadband network of the future.
+posted_date: 2026-11-12
+url: "https://builtin.com/job/senior-software-engineer-python/12206571"
+source: Built In

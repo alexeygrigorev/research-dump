@@ -1,0 +1,148 @@
+job_id: 9900937
+title: Senior/Staff Backend Engineer
+company: DualEntry
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - CHL
+  - PER
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - GUY
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - BRA
+  - ECU
+  - ISL
+  - URY
+  - COL
+  - ROU
+  - SUR
+  - BOL
+  - LUX
+  - PRY
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 187 Employees
+description: |
+  About DualEntry
+
+  DualEntry is building the OS for finance.
+
+  Every business needs a financial system of record, yet the
+  world's largest fintech market ($220B+) still runs on
+  software from the 1990s. DualEntry's AI-native ERP automates
+  accounting from data entry to close, so finance teams move
+  faster, spend less and incur less risk.
+
+  In just 2 years we've raised $100M+ from Lightspeed, Khosla
+  Ventures, Contrary and Google Ventures and earned the trust
+  of customers from $5M ARR to publicly traded companies.
+
+  We hire outliers - people who have achieved difficult
+  things, in their careers or beyond. You'll find leaders,
+  colleagues who've competed at the highest levels of sport,
+  performed on Broadway, trained with UFC champions and
+  founded the country’s largest Python community.
+
+
+
+
+
+  Where You'll Create Impact
+
+  - Build!
+  - Design backend systems and APIs (Python preferred) that run
+    real-time, business-critical accounting logic
+  - Ship features end to end - architecture, CI/CD, testing,
+    monitoring, and beyond
+  - Integrate third-party tools and external systems,
+    proactively managing edge cases and risk
+
+
+
+  What Sets You Up for Success
+
+  - Hardcore work ethic and high agency
+  - 5+ years in backend engineering (language agnostic)
+  - Deep experience with complex business logic products
+  - Strong database skills: PostgreSQL, SQL, ORMs, migrations,
+    schema design
+  - Experience deploying on AWS (or similar), with solid CI/CD
+    and production-readiness fundamentals
+  - Bonus: Python and a modern web framework (FastAPI, Flask, or
+    Django)
+
+
+
+  Why You’ll Thrive Here
+
+  - Significant equity ownership in one of the top AI companies
+    in the world
+  - You’re joining early and will grow with DualEntry
+  - Your feedback shapes the product directly
+  - High-speed, high-trust environment with high expectations
+
+  Meet the Engineering Team
+
+  - Marcin took a non-existent tax structure and built it end to
+    end, setting the north star for how the team keeps
+    improving it on top of it; modular and robust, always
+    setting the bar for the rest.
+  - Puhiza grew her team from one to full capacity, while owning
+    our integration framework end to end; scaling it to
+    support migrations, integrations, and bank connections.
+    The queen of I/O on our platform.
+  - Danylo took ownership of our bank connection engine end to
+    end and rebuilt it from scratch over a weekend.
+
+  How You Operate
+
+  - Pragmatic: you like to move forward and make decisions based
+    in reality (not theory). We don't debate if Cassandra has
+    the most theoretical scalability - we use Postgres until
+    it breaks
+  - Hard working: 'You can work long, hard, or smart, but [here]
+    you can't choose two out of three' - Jeff Bezos.
+  - Curious: you love to learn, are highly curious about new
+    frameworks and solutions to engineering problems
+  - Fast-moving: you deploy daily, iterate quickly, and never
+    wait for permission
+
+  Benefits & Compensation
+
+  - Equity: $50,000 - $80,000
+  - Base salary: $140,000 - $250,000
+  - Remote-first team - the fastest team you will have ever
+    worked with
+  - Home internet, co-working space & office setup support
+  - Flexible PTO (27 days incl. public holidays)
+  - Unlimited AI token usage
+  - AI skills development & enablement
+  - Learning & development budget for courses, certifications &
+    language learning
+  - Visa sponsorship and relocation support for a move to NYC
+    (after 2 years’ tenure)
+  - In-person team meetups (our last ones: Lisbon, Vienna,
+    Warsaw, Cyprus, and more!)
+posted_date: 2026-08-16
+url: "https://builtin.com/job/senior-staff-backend-engineer-remote/9900937"
+source: Built In

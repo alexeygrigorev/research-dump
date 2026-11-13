@@ -1,0 +1,123 @@
+job_id: 9646073
+title: Full-Stack Engineer
+company: Fundamental
+location: GRC
+locations:
+  - GRC
+  - NOR
+  - ITA
+  - ESP
+  - HUN
+  - CYP
+  - FRA
+  - POL
+  - SWE
+  - TUR
+  - BEL
+  - AUT
+  - DEU
+  - DNK
+  - EST
+  - FIN
+  - HRV
+  - UKR
+  - BGR
+  - PRT
+  - ISL
+  - ROU
+  - LUX
+  - CHE
+  - NLD
+  - IRL
+  - CZE
+remote: true
+work_type: FULL_TIME
+company_size: 54 Employees
+description: |
+  About Fundamental
+
+  Fundamental is an AI research lab pioneering the future of
+  enterprise decision-making. Our flagship model, NEXUS is the
+  world's most powerful Large Tabular Model (LTM) - purpose-
+  built for the structured records that contain trillions of
+  dollars in business value. With $275m in funding from
+  leading investors and trusted by Fortune 100 companies,
+  Fundamental is giving businesses the Power to Predict.
+
+  At Fundamental, you'll work on unprecedented technical
+  challenges in foundation model development and build
+  technology that transforms how the world's largest companies
+  make decisions. This is your opportunity to be part of a
+  category-defining company from the ground-up. Join the team
+  defining the future of enterprise AI.
+
+  Key responsibilities
+
+  As a Full-Stack Engineer at Fundamental, you will be
+  responsible for developing both the front-end and back-end
+  systems that allow users to seamlessly interact with our
+  models. You will work on everything from the user interface
+  to building scalable systems that power data upload and
+  integration pipelines.
+
+  Your responsibilities will include:
+
+  - Building robust backend services and APIs for model
+    inference, including efficient batching systems and
+    optimization for large datasets
+  - Implementing state management and session persistence
+    mechanisms to maintain model context and deliver
+    consistent user experiences
+  - Designing and developing responsive, user-friendly frontends
+    for model interaction, monitoring, and configuration using
+    modern frameworks (React, Vue, or Angular)
+  - Designing event-driven architectures with pub/sub messaging
+    patterns to enable asynchronous processing and system
+    scalability
+  - Developing database connectivity layers and integration
+    points with third-party data sources (e.g., Snowflake,
+    Databricks)
+  - Creating comprehensive error handling, retry mechanisms, and
+    monitoring solutions to ensure system reliability
+  - Collaborating with MLOps and DevOps teams to optimize the
+    overall architecture and deployment pipeline
+
+  Must have
+
+  - 5+ years of experience in Full-Stack engineering roles
+  - Strong Python development experience, particularly with
+    FastAPI and the ASGI ecosystem for high-performance API
+    development
+  - Experience building full-stack applications with modern
+    frontend frameworks (React, Vue, Angular) and backend
+    systems
+  - Proficiency designing event-driven architectures using
+    pub/sub messaging patterns and integrating distributed
+    task queues (e.g., Celery) for asynchronous processing
+  - Understanding of model serving patterns (REST, gRPC, async
+    batching) and experience handling large-scale inference
+    workflows in production
+  - Knowledge of database systems (SQL/NoSQL) and integration
+    with cloud data platforms (Snowflake, Databricks)
+  - Experience with state management, session persistence, and
+    efficient data flow patterns in distributed applications
+  - Proven ability to deliver high-quality, maintainable
+    frontend code and collaborate with design/product
+    stakeholders
+
+  Benefits
+
+  - Competitive compensation with salary and equity
+  - Comprehensive health coverage for you and your dependents
+  - Paid parental leave for all new parents, inclusive of
+    adoptive and surrogate journeys
+  - Relocation support for employees moving to join the team in
+    one of our office locations
+  - A mission-driven, low-ego culture that values diversity of
+    thought, ownership, and bias toward action
+industries:
+  - Artificial Intelligence
+  - Software
+posted_date: 2026-08-12
+url: "https://builtin.com/job/full-stack-engineer/9646073"
+source: Built In

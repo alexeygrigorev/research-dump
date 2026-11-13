@@ -1,0 +1,135 @@
+job_id: 8882687
+title: "Senior / Staff Software Engineer, ML Datasets & Data Pipelines"
+company: Waabi
+location: CAN
+locations:
+  - CAN
+  - Toronto, CAN
+  - San Francisco, USA
+remote: true
+work_type: FULL_TIME
+company_size: 200 Employees
+description: |
+  Waabi, founded by AI visionary Raquel Urtasun, is the leader
+  in Physical AI. With a world-class team, we're unlocking the
+  next era of autonomous transportation with technology that's
+  powering commercial autonomous trucks and robotaxis. Waabi
+  is backed by and partners with world leaders in AI,
+  automotive, logistics, and deep tech.
+
+
+
+  With offices in Toronto, San Francisco, Dallas, and
+  Pittsburgh, Waabi is growing quickly and looking for
+  diverse, innovative and collaborative candidates who want to
+  impact the world in a positive way. To learn more visit:
+  www.waabi.ai
+
+  As a Senior/Staff Software Engineer embedded within our
+  Autonomy & Algorithms team, you will build the scalable ML
+  data pipelines necessary to train and evaluate Waabi’s
+  autonomous driving platform. Working closely with world-
+  renowned scientists and engineers, you will solve complex
+  data challenges to accelerate our launch of fully driverless
+  vehicles.
+
+
+
+  You Will..
+
+  - Design and implement data pipelines using real-world driving
+    data and Waabi World (our high-fidelity simulator) to
+    train and evaluate deep learning models.
+  - Optimize data formats, caching, and dataloading to drive
+    highly efficient ML training and evaluation at scale.
+  - Improve data sampling and composition for deep data
+    introspection to track model performance and uncover
+    critical edge-case scenarios.
+  - Champion engineering excellence by writing high-quality,
+    well-structured, and rigorously tested code.
+  - Help drive project roadmap planning, prioritization, and
+    delivery.
+
+  Qualifications:
+
+  - BS or MS in Computer Science, Machine Learning, or a related
+    technical field, with 4+ years of industry experience.
+  - Proficiency in Python and strong software engineering
+    fundamentals, including experience with deep learning
+    frameworks such as PyTorch, TensorFlow, or JAX.
+  - Hands-on experience building distributed ETL and data
+    processing pipelines.
+  - Direct experience managing ML pipelines, including dataset
+    management, dataloading, and optimization.
+  - Strong understanding of cloud job orchestration, monitoring,
+    and instrumentation best practices.
+  - A collaborative, open-minded approach with a passion for
+    tackling hard problems in autonomous technology and a
+    strong willingness to mentor others.
+
+
+
+  Bonus Points:
+
+  - Experience with optimizing large scale distributed training
+    pipelines and/or highly optimized ML inference pipelines.
+  - Experience with MapReduce (Apache Hadoop/Spark) or
+    orchestration frameworks (Apache Airflow, Apache Beam,
+    Google Cloud Dataflow, AWS Step Functions).
+  - Experience solving data challenges specific to autonomous
+    driving.
+  - Familiarity with linear algebra (projections, transforms)
+    and 3D geometry.
+  - Experience working with multimodal sensor data (e.g., LiDAR,
+    RADAR, camera).
+
+  The US yearly salary range for this role is: $148,000 -
+  $260,000 USD in addition to competitive perks & benefits.
+  Waabi (US) Inc.’s yearly salary ranges are determined based
+  on several factors in accordance with the Company’s
+  compensation practices. The salary base range is reflective
+  of the minimum and maximum target for new hire salaries for
+  the position across all US locations.  Note: The Company
+  provides additional compensation for employees in this role,
+  including equity incentive awards and an annual performance
+  bonus.
+
+
+
+  Perks/Benefits:
+
+  - Competitive compensation and equity awards.
+  - Health and Wellness benefits encompassing Medical, Dental
+    and Vision coverage (for full-time employees only).
+  - Unlimited Vacation.
+  - Flexible hours and Work from Home support.
+  - Daily drinks, snacks and catered meals (when in office).
+  - Regularly scheduled team building activities and social
+    events both on-site, off-site & virtually.
+  - As we grow, this list continues to evolve!
+
+
+
+  Waabi is a technology start-up building technologies to
+  transform the way the world moves. Join our talented team to
+  be a part of the future and to make an impact!
+
+
+
+  Waabi is an equal opportunity employer. We celebrate
+  diversity and are committed to creating a supportive,
+  inclusive, and accessible workplace for all our employees.
+  We seek applicants of all backgrounds and identities, across
+  race, color, ethnicity, national origin or ancestry, age,
+  citizenship, religion, sex, sexual orientation, gender
+  identity or expression, military or veteran status, marital
+  status, pregnancy or parental status, caregiver status,
+  disability, or any other characteristic protected by law. We
+  make workplace accommodations for qualified individuals with
+  disabilities as required by applicable law. If reasonable
+  accommodation is needed to participate in the job
+  application or interview process please let our recruiting
+  team know.
+posted_date: 2026-07-31
+url: "https://builtin.com/job/senior-staff-software-engineer-ml-datasets-data-pipelines/8882687"
+source: Built In

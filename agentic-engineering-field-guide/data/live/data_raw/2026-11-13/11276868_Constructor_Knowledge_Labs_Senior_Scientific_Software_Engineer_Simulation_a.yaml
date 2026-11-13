@@ -1,0 +1,108 @@
+job_id: 11276868
+title: Senior Scientific Software Engineer — Simulation and Machine Learning
+company: Constructor Knowledge Labs
+location: DEU
+remote: true
+work_type: FULL_TIME
+company_size: 100 Employees
+description: |
+  Location: Remote within Europe, with regular presence in
+  Bremen
+
+  Direct Reports: None; supervision of students and interns
+
+  Working Model: Remote / hybrid. Regular time on-site in
+  Bremen.
+
+  Mission
+
+  Build the simulation and model-learning engine at the centre
+  of Constructor's quantum software. The work is numerics-
+  heavy: differentiable simulation of physical systems,
+  inference of model parameters from experimental data, and
+  optimisation at scale. The role sits between physics and
+  engineering and requires genuine depth in both.
+
+  Responsibilities
+
+  Pillar 1 Simulation Engine
+
+  - Build and maintain high-performance simulation code for open
+    and closed quantum systems.
+  - Own the differentiable simulation and automatic
+    differentiation layer.
+  - Drive performance. This code runs inside optimisation loops
+    and speed decides what is possible.
+  - Maintain and extend the Julia core and its Python interface.
+
+  Success Metrics and KPIs: simulation accuracy against
+  measurement, runtime performance, API stability.
+
+  Pillar 2 Model Learning and Optimisation
+
+  - Implement parameter inference and model learning from
+    experimental data.
+  - Work on neural-network approaches to PDE solving and
+    equation discovery.
+  - Benchmark against established academic tools and publish the
+    comparison.
+
+  Success Metrics and KPIs: benchmark results, methods adopted
+  by the research group, publications.
+
+  Pillar 3 Research Collaboration
+
+  - Work with Constructor University faculty on joint research
+    and grant applications.
+  - Supervise graduate students and interns working on the
+    engine.
+  - Contribute to course material on numerical simulation and
+    machine learning for physics.
+
+  Accountability: research collaborations initiated and
+  sustained; students productive.
+
+  Requirements
+
+  Experience
+
+  - PhD or equivalent in physics, applied mathematics or
+    computational science.
+  - Strong scientific computing in Julia, Python, JAX or
+    comparable.
+  - Real numerical depth: ODE solvers, optimisation, stochastic
+    processes, automatic differentiation.
+  - Published work, or code that others rely on.
+
+  Skills & Competencies
+
+  - Able to take a method from a paper and make it fast, tested
+    and usable.
+  - Comfortable owning code quality, not only correctness.
+  - Interest in supervising students alongside the engineering.
+  - Clear technical writing.
+
+  Education & Languages
+
+  - PhD in physics, applied mathematics or computational
+    science.
+  - Fluent English.
+
+  What This Role Is (and Is Not)
+
+  This role IS
+
+  - A research-grade engineering role with a product at the end
+    of it.
+  - Central to the group's core technical asset.
+  - A role with a route into teaching and supervision if you
+    want it.
+
+  This role is NOT
+
+  - A pure research position without delivery.
+  - A general software engineering role.
+  - A role where someone else owns the numerics.
+posted_date: 2026-09-21
+url: "https://builtin.com/job/senior-scientific-software-engineer-simulation-and-machine-learning/11276868"
+source: Built In

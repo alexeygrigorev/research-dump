@@ -1,0 +1,133 @@
+job_id: 11812443
+title: Software Engineer, Agentic Systems Engineering - ThousandEyes
+company: Cisco
+location: Oeiras, PRT
+locations:
+  - Oeiras, PRT
+  - London, GBR
+work_type: FULL_TIME
+company_size: 77,500 Employees
+description: |
+  Please note that we operate a hybrid working model and this
+  role will require you to work from our offices in Oeiras at
+  least 2 days a week.
+
+  Meet the Team
+
+  Cisco ThousandEyes is a Digital Experience Assurance
+  platform that empowers organizations to deliver flawless
+  digital experiences across every network—even those they
+  don’t own. Powered by AI and an unmatched set of cloud,
+  internet, and enterprise network telemetry, ThousandEyes
+  enables IT teams to proactively detect, diagnose, and
+  remediate issues before they affect end-user experiences.
+
+  ThousandEyes is deeply integrated across the Cisco
+  technology portfolio and beyond, delivering AI-powered
+  assurance insights within Cisco’s Networking, Security,
+  Collaboration, and Observability products.
+
+  Our team develops internal AI-powered tools that help
+  software engineers work more effectively across the
+  development lifecycle. We build agentic workflows, reusable
+  skills, integrations, and supporting platforms that make it
+  easier for developers to understand complex codebases,
+  implement changes, improve quality, and automate repetitive
+  engineering tasks.
+
+  We are a collaborative, product-minded engineering team
+  working at the intersection of software development,
+  developer experience, and applied AI. You will have the
+  opportunity to experiment with emerging technologies, learn
+  from real-world usage, and turn promising ideas into
+  reliable tools used by engineering teams across the
+  organization.
+
+  Your Impact
+
+  As a Software Engineer you will:
+
+  - Design, build, test, and operate AI-powered tools and
+    services for software developers.
+  - Develop agentic workflows, reusable skills, tool
+    integrations, and orchestration capabilities.
+  - Integrate AI tools with source control, CI/CD systems, issue
+    trackers, documentation platforms, and internal developer
+    environments.
+  - Build backend services and APIs that are secure, observable,
+    reliable, and easy to maintain.
+  - Apply software engineering practices to manage the non-
+    deterministic nature of AI systems, including evaluation,
+    testing, monitoring, and feedback loops.
+  - Work directly with developers to understand their workflows,
+    identify opportunities for improvement, and iterate based
+    on real-world feedback.
+  - Contribute to technical design discussions and help evolve
+    the architecture of our AI development platform.
+  - Improve engineering processes, documentation, and
+    operational practices across the team.
+
+  Minimum Qualifications
+
+  - Software development experience using Python.
+  - Experience designing, building, testing, and operating
+    backend services or developer-facing tools.
+  - Hands-on experience designing and implementing APIs within
+    distributed software architectures.
+  - Practical experience using or developing with large language
+    models, AI coding tools, or agentic AI systems.
+  - Experience working with Git, automated testing, and
+    continuous integration and delivery workflows.
+
+  Preferred Qualifications
+
+  - Bachelor’s degree in Computer Science, Software Engineering,
+    or a related field, or equivalent practical experience.
+  - Strong problem-solving and communication skills, with the
+    ability to collaborate effectively in a cross-functional
+    team.
+  - Experience developing AI agents, reusable skills, tool-
+    calling integrations, prompts, evaluation frameworks, or
+    agent harnesses.
+  - Familiarity with retrieval-augmented generation, embeddings,
+    context management, and model evaluation.
+  - Experience building internal developer platforms, command-
+    line tools, IDE integrations, or engineering productivity
+    tooling.
+  - Knowledge of Kotlin, Java, Go or TypeScript.
+  - Understanding of Kubernetes, containers, and modern cloud
+    deployment practices.
+  - Experience with observability, security, privacy, and
+    responsible AI practices.
+  - Familiarity with relational, document-based, or vector
+    datastores.
+
+  Why Cisco?
+
+  At Cisco, we’re revolutionizing how data and infrastructure
+  connect and protect organizations in the AI era – and
+  beyond. We’ve been innovating fearlessly for 40 years to
+  create solutions that power how humans and technology work
+  together across the physical and digital worlds. These
+  solutions provide customers with unparalleled security,
+  visibility, and insights across the entire digital
+  footprint.
+
+  Fueled by the depth and breadth of our technology, we
+  experiment and create meaningful solutions. Add to that our
+  worldwide network of doers and experts, and you’ll see that
+  the opportunities to grow and build are limitless. We work
+  as a team, collaborating with empathy to make really big
+  things happen on a global scale. Because our solutions are
+  everywhere, our impact is everywhere.
+
+  We are Cisco, and our power starts with you.
+industries:
+  - Cloud
+  - Information Technology
+  - Internet of Things
+  - Professional Services
+  - Software
+posted_date: 2026-10-22
+url: "https://builtin.com/job/software-engineer-agentic-systems-engineering-thousandeyes/11812443"
+source: Built In
