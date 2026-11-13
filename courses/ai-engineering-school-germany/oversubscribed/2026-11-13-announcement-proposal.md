@@ -230,4 +230,4 @@ Image idea: a photo of the actual empty room with 15 chairs, once the room is co
 
 This still follows the book: announce, collect a signal, then release seats to the people who signalled.
 
-Background for all of this: [principles](principles.md), [positioning](positioning-and-messaging.md), [20-seat rationale](20-seat-rationale.md), [ads plan](paid-ads-channel-plan.md).
+Background for all of this: [principles](principles.md), [positioning](positioning-and-messaging.md), [15-seat rationale](15-seat-rationale.md), [ads plan](paid-ads-channel-plan.md).
