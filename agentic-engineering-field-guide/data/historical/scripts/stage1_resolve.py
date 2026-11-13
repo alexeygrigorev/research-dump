@@ -43,7 +43,7 @@ def resolve(task):
 def main():
     src = sys.argv[1]
     only = set(sys.argv[2:])  # optional YYYYMM months; default all
-    workers = 8 if src == "cc" else 1
+    workers = 2 if src == "cc" else 1  # CC 403s this host above ~5 parallel readers
     out_f = W / f"resolved_{src}.jsonl"
     done = set()
     if out_f.exists():

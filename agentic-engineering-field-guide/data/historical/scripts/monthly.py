@@ -59,7 +59,20 @@ def cdx_month(out_dir, tag, ym, params):
     """Paged Wayback CDX query restricted to one month; resumable per page."""
     out_dir.mkdir(parents=True, exist_ok=True)
     base = dict(params, **{"from": ym, "to": ym})
-    n = a.cdx(dict(base, showNumPages="true"))
+    try:
+        n = a.cdx(dict(base, showNumPages="true"))
+    except (IndexError, ValueError):
+        # showNumPages sometimes comes back empty under load: one un-paged query for the month instead
+        f = out_dir / f"{tag}_{ym}_all.jsonl"
+        if not f.exists():
+            rows = a.cdx(base)
+            tmp = f.with_suffix(".tmp")
+            with open(tmp, "w") as fh:
+                for r in rows:
+                    fh.write(json.dumps(r) + "\n")
+            tmp.rename(f)
+        print(f"{tag} {ym}: un-paged CDX, {sum(1 for _ in open(f))} captures", flush=True)
+        return
     rows_total = 0
     for p in range(n):
         f = out_dir / f"{tag}_{ym}_{p:03d}.jsonl"

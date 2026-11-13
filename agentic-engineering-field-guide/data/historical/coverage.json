@@ -93,8 +93,8 @@
   "berlin/202610": {
    "cc": 4,
    "listing": 0,
-   "union": 4,
-   "wayback": 0
+   "union": 5,
+   "wayback": 1
   },
   "berlin/202611": {
    "cc": 0,
@@ -195,8 +195,8 @@
   "london/202610": {
    "cc": 13,
    "listing": 0,
-   "union": 14,
-   "wayback": 1
+   "union": 22,
+   "wayback": 9
   },
   "london/202611": {
    "cc": 0,
@@ -297,8 +297,8 @@
   "newyork/202610": {
    "cc": 67,
    "listing": 0,
-   "union": 67,
-   "wayback": 1
+   "union": 85,
+   "wayback": 19
   },
   "newyork/202611": {
    "cc": 0,
@@ -351,13 +351,13 @@
    "wayback": 103
   },
   "202609": {
-   "wayback": 131
+   "wayback": 130
   },
   "202610": {
-   "wayback": 196
+   "wayback": 1
   },
   "202611": {
-   "wayback": 84
+   "wayback": 80
   }
  }
 }

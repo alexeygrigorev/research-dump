@@ -1,6 +1,7 @@
 """Is each region x month sample big and stable enough to draw conclusions? (Alexey t3382u, t3383u)
 
-Unit: distinct in-scope postings (job key) captured in a month, by region (UK, DE, US) and source,
+Unit: distinct in-scope postings (job key) captured in a month, by region (US, EUROPE = UK + DE +
+rest of Europe, UK, DE) and source,
 with the role bucket from the title in the URL (Workday, reed, SmartRecruiters, Welcome to the
 Jungle, Recruitee) or the Built In slug + the city resolved from the archived page.
 
@@ -19,26 +20,40 @@ Stopping criterion, per region-month (all must hold):
 
 Writes ../stability.json and prints the markdown table.
 """
-import glob, json, random
+import glob, gzip, json, random, re
 from collections import Counter, defaultdict
 from pathlib import Path
 
 import coverage
 import measure_sources as ms
+from regions import region_of, in_region
 from roles import role_of, slug_of
 
 ROOT = Path(__file__).resolve().parent.parent
 W = ROOT / "work"
 ROLES = ["software_engineer", "software_developer", "backend", "frontend", "full_stack", "engineering_manager"]
 CITY_REGION = {"london": "UK", "berlin": "DE", "newyork": "US"}
+TARGETS = ["US", "EUROPE", "UK", "DE"]
 N_MIN, TVD_MAX, NOISE_X = 300, 0.10, 2.0
 
 
 def collect():
-    """region -> month -> source -> {job_key: role}"""
+    """target region -> month -> source -> {job_key: role}
+
+    Sources: Built In (Common Crawl + Wayback; city from the resolved page), Workday (title and
+    location in the URL), reed / Welcome to the Jungle (URL), Greenhouse company boards
+    (stage1_gh_listings.py: title + location for every job of a fixed panel of companies)."""
     data = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
+
+    def add(region_code, month, source, key, role):
+        for target in TARGETS:
+            if in_region(region_code, target):
+                data[target][month][source][key] = role
+
     builtin_city = {jid: c for jid, (c, _) in coverage.job_cities().items()}
     for board, crawl, f in ms.board_files():
+        if board not in ("builtin", "workday", "reed", "wttj"):
+            continue
         for l in open(f):
             r = json.loads(l)
             if str(r.get("status")) != "200":
@@ -52,8 +67,10 @@ def collect():
                 continue
             if board == "builtin":
                 region = CITY_REGION.get(builtin_city.get(key, ""), "")
-            if region:
-                data[region][r["timestamp"][:6]][board][key] = role
+            elif board == "workday":
+                m = re.search(r"/job/([^/]+)/", r["url"])
+                region = region_of(m.group(1).replace("-", " ")) if m else ""
+            add(region, r["timestamp"][:6], board, key, role)
     for f in glob.glob(str(W / "wayback_job_cdx" / "*.jsonl")):  # Wayback Built In captures too
         for l in open(f):
             r = json.loads(l)
@@ -63,7 +80,12 @@ def collect():
             role = role_of(slug)
             region = CITY_REGION.get(builtin_city.get(jid, ""), "")
             if role and region:
-                data[region][r["timestamp"][:6]]["builtin"][jid] = role
+                add(region, r["timestamp"][:6], "builtin", jid, role)
+    for f in glob.glob(str(W / "gh_listings" / "*.jsonl.gz")):
+        for l in gzip.open(f, "rt"):
+            r = json.loads(l)
+            if r.get("role"):
+                add(r["region"], r["month"], "greenhouse", r["key"], r["role"])
     return data
 
 
@@ -92,7 +114,7 @@ def noise_tvd(p, n, reps=200, seed=0):
 def main(window=("202507", "202611")):
     data = collect()
     result = {}
-    for region in ["UK", "DE", "US"]:
+    for region in TARGETS:
         months = sorted(m for m in data[region] if window[0] <= m <= window[1])
         # dedup across months: a posting counts in the first month it was captured
         seen, per_month = set(), {}
