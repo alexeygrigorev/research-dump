@@ -3,7 +3,7 @@
 Status: draft for Alexey's review (intake t3267u / t3269u), written 2026-11-13.
 Nothing has been collected, scraped in bulk, or bought. Prices and coverage below were read from the providers' own pages on 2026-11-13; anything I could not confirm is marked "not verified".
 
-Repo for the guide: https://github.com/alexeygrigorev/agentic-engineering-field-guide (public, skeleton only, no job data).
+Repo for the guide: https://github.com/alexeygrigorev/agentic-engineering-field-guide (public, skeleton only, no job data; registered in Hub).
 
 ## Decisions I need from you
 
