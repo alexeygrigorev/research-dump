@@ -1,0 +1,3774 @@
+{
+ "total": 9760,
+ "by_scrape": {
+  "2026-02-04": {
+   "named_tool": {
+    "n": 895,
+    "k": 79,
+    "pct": 8.8
+   },
+   "practice_phrase": {
+    "n": 895,
+    "k": 74,
+    "pct": 8.3
+   },
+   "either": {
+    "n": 895,
+    "k": 115,
+    "pct": 12.8
+   },
+   "mcp": {
+    "n": 895,
+    "k": 89,
+    "pct": 9.9
+   }
+  },
+  "2026-02-27": {
+   "named_tool": {
+    "n": 870,
+    "k": 78,
+    "pct": 9.0
+   },
+   "practice_phrase": {
+    "n": 870,
+    "k": 76,
+    "pct": 8.7
+   },
+   "either": {
+    "n": 870,
+    "k": 106,
+    "pct": 12.2
+   },
+   "mcp": {
+    "n": 870,
+    "k": 105,
+    "pct": 12.1
+   }
+  },
+  "2026-03-27": {
+   "named_tool": {
+    "n": 680,
+    "k": 76,
+    "pct": 11.2
+   },
+   "practice_phrase": {
+    "n": 680,
+    "k": 71,
+    "pct": 10.4
+   },
+   "either": {
+    "n": 680,
+    "k": 109,
+    "pct": 16.0
+   },
+   "mcp": {
+    "n": 680,
+    "k": 79,
+    "pct": 11.6
+   }
+  },
+  "2026-04-22": {
+   "named_tool": {
+    "n": 645,
+    "k": 87,
+    "pct": 13.5
+   },
+   "practice_phrase": {
+    "n": 645,
+    "k": 96,
+    "pct": 14.9
+   },
+   "either": {
+    "n": 645,
+    "k": 130,
+    "pct": 20.2
+   },
+   "mcp": {
+    "n": 645,
+    "k": 87,
+    "pct": 13.5
+   }
+  },
+  "2026-05-29": {
+   "named_tool": {
+    "n": 919,
+    "k": 134,
+    "pct": 14.6
+   },
+   "practice_phrase": {
+    "n": 919,
+    "k": 130,
+    "pct": 14.1
+   },
+   "either": {
+    "n": 919,
+    "k": 184,
+    "pct": 20.0
+   },
+   "mcp": {
+    "n": 919,
+    "k": 133,
+    "pct": 14.5
+   }
+  },
+  "2026-06-25": {
+   "named_tool": {
+    "n": 888,
+    "k": 151,
+    "pct": 17.0
+   },
+   "practice_phrase": {
+    "n": 888,
+    "k": 170,
+    "pct": 19.1
+   },
+   "either": {
+    "n": 888,
+    "k": 229,
+    "pct": 25.8
+   },
+   "mcp": {
+    "n": 888,
+    "k": 149,
+    "pct": 16.8
+   }
+  },
+  "2026-07-22": {
+   "named_tool": {
+    "n": 846,
+    "k": 125,
+    "pct": 14.8
+   },
+   "practice_phrase": {
+    "n": 846,
+    "k": 145,
+    "pct": 17.1
+   },
+   "either": {
+    "n": 846,
+    "k": 189,
+    "pct": 22.3
+   },
+   "mcp": {
+    "n": 846,
+    "k": 108,
+    "pct": 12.8
+   }
+  },
+  "2026-08-25": {
+   "named_tool": {
+    "n": 1222,
+    "k": 171,
+    "pct": 14.0
+   },
+   "practice_phrase": {
+    "n": 1222,
+    "k": 233,
+    "pct": 19.1
+   },
+   "either": {
+    "n": 1222,
+    "k": 292,
+    "pct": 23.9
+   },
+   "mcp": {
+    "n": 1222,
+    "k": 209,
+    "pct": 17.1
+   }
+  },
+  "2026-09-23": {
+   "named_tool": {
+    "n": 1086,
+    "k": 149,
+    "pct": 13.7
+   },
+   "practice_phrase": {
+    "n": 1086,
+    "k": 200,
+    "pct": 18.4
+   },
+   "either": {
+    "n": 1086,
+    "k": 262,
+    "pct": 24.1
+   },
+   "mcp": {
+    "n": 1086,
+    "k": 180,
+    "pct": 16.6
+   }
+  },
+  "2026-11-06": {
+   "named_tool": {
+    "n": 1709,
+    "k": 235,
+    "pct": 13.8
+   },
+   "practice_phrase": {
+    "n": 1709,
+    "k": 351,
+    "pct": 20.5
+   },
+   "either": {
+    "n": 1709,
+    "k": 429,
+    "pct": 25.1
+   },
+   "mcp": {
+    "n": 1709,
+    "k": 343,
+    "pct": 20.1
+   }
+  }
+ },
+ "by_region": {
+  "Germany": {
+   "all": {
+    "n": 323,
+    "k": 85,
+    "pct": 26.3
+   },
+   "first3": {
+    "n": 81,
+    "k": 14,
+    "pct": 17.3
+   },
+   "last3": {
+    "n": 106,
+    "k": 41,
+    "pct": 38.7
+   }
+  },
+  "India": {
+   "all": {
+    "n": 3775,
+    "k": 674,
+    "pct": 17.9
+   },
+   "first3": {
+    "n": 857,
+    "k": 100,
+    "pct": 11.7
+   },
+   "last3": {
+    "n": 1634,
+    "k": 352,
+    "pct": 21.5
+   }
+  },
+  "Netherlands": {
+   "all": {
+    "n": 127,
+    "k": 24,
+    "pct": 18.9
+   },
+   "first3": {
+    "n": 30,
+    "k": 2,
+    "pct": 6.7
+   },
+   "last3": {
+    "n": 55,
+    "k": 18,
+    "pct": 32.7
+   }
+  },
+  "UK": {
+   "all": {
+    "n": 869,
+    "k": 215,
+    "pct": 24.7
+   },
+   "first3": {
+    "n": 244,
+    "k": 40,
+    "pct": 16.4
+   },
+   "last3": {
+    "n": 340,
+    "k": 113,
+    "pct": 33.2
+   }
+  },
+  "USA": {
+   "all": {
+    "n": 4246,
+    "k": 933,
+    "pct": 22.0
+   },
+   "first3": {
+    "n": 1094,
+    "k": 150,
+    "pct": 13.7
+   },
+   "last3": {
+    "n": 1763,
+    "k": 419,
+    "pct": 23.8
+   }
+  },
+  "other": {
+   "all": {
+    "n": 420,
+    "k": 114,
+    "pct": 27.1
+   },
+   "first3": {
+    "n": 139,
+    "k": 24,
+    "pct": 17.3
+   },
+   "last3": {
+    "n": 119,
+    "k": 40,
+    "pct": 33.6
+   }
+  }
+ },
+ "by_ai_type": {
+  "ai-first": {
+   "all": {
+    "n": 6721,
+    "k": 1391,
+    "pct": 20.7
+   },
+   "first3": {
+    "n": 1718,
+    "k": 217,
+    "pct": 12.6
+   },
+   "last3": {
+    "n": 2704,
+    "k": 688,
+    "pct": 25.4
+   }
+  },
+  "ai-support": {
+   "all": {
+    "n": 2504,
+    "k": 628,
+    "pct": 25.1
+   },
+   "first3": {
+    "n": 582,
+    "k": 108,
+    "pct": 18.6
+   },
+   "last3": {
+    "n": 1102,
+    "k": 283,
+    "pct": 25.7
+   }
+  },
+  "ml-first": {
+   "all": {
+    "n": 442,
+    "k": 22,
+    "pct": 5.0
+   },
+   "first3": {
+    "n": 137,
+    "k": 5,
+    "pct": 3.6
+   },
+   "last3": {
+    "n": 163,
+    "k": 9,
+    "pct": 5.5
+   }
+  },
+  "unknown": {
+   "all": {
+    "n": 93,
+    "k": 4,
+    "pct": 4.3
+   },
+   "first3": {
+    "n": 8,
+    "k": 0,
+    "pct": 0.0
+   },
+   "last3": {
+    "n": 48,
+    "k": 3,
+    "pct": 6.2
+   }
+  }
+ },
+ "by_family": {
+  "AI/ML/LLM in title": {
+   "all": {
+    "n": 9705,
+    "k": 2038,
+    "pct": 21.0
+   },
+   "first3": {
+    "n": 2431,
+    "k": 329,
+    "pct": 13.5
+   },
+   "last3": {
+    "n": 3998,
+    "k": 979,
+    "pct": 24.5
+   }
+  },
+  "other": {
+   "all": {
+    "n": 36,
+    "k": 3,
+    "pct": 8.3
+   },
+   "first3": {
+    "n": 8,
+    "k": 0,
+    "pct": 0.0
+   },
+   "last3": {
+    "n": 13,
+    "k": 1,
+    "pct": 7.7
+   }
+  },
+  "software/full-stack/backend/frontend": {
+   "all": {
+    "n": 19,
+    "k": 4,
+    "pct": 21.1
+   },
+   "first3": {
+    "n": 6,
+    "k": 1,
+    "pct": 16.7
+   },
+   "last3": {
+    "n": 6,
+    "k": 3,
+    "pct": 50.0
+   }
+  }
+ },
+ "tools": {
+  "Claude Code": {
+   "n": 9760,
+   "k": 711,
+   "pct": 7.3
+  },
+  "Cursor": {
+   "n": 9760,
+   "k": 722,
+   "pct": 7.4
+  },
+  "GitHub Copilot": {
+   "n": 9760,
+   "k": 472,
+   "pct": 4.8
+  },
+  "Codex": {
+   "n": 9760,
+   "k": 284,
+   "pct": 2.9
+  },
+  "Windsurf": {
+   "n": 9760,
+   "k": 67,
+   "pct": 0.7
+  },
+  "Devin": {
+   "n": 9760,
+   "k": 44,
+   "pct": 0.5
+  },
+  "Cline": {
+   "n": 9760,
+   "k": 13,
+   "pct": 0.1
+  },
+  "Aider": {
+   "n": 9760,
+   "k": 5,
+   "pct": 0.1
+  },
+  "Gemini CLI": {
+   "n": 9760,
+   "k": 7,
+   "pct": 0.1
+  },
+  "OpenCode": {
+   "n": 9760,
+   "k": 5,
+   "pct": 0.1
+  },
+  "Kiro": {
+   "n": 9760,
+   "k": 19,
+   "pct": 0.2
+  },
+  "Amazon Q": {
+   "n": 9760,
+   "k": 21,
+   "pct": 0.2
+  },
+  "Replit": {
+   "n": 9760,
+   "k": 24,
+   "pct": 0.2
+  },
+  "Lovable": {
+   "n": 9760,
+   "k": 38,
+   "pct": 0.4
+  },
+  "any 'Copilot' (incl. Microsoft/product copilots)": {
+   "n": 9760,
+   "k": 982,
+   "pct": 10.1
+  }
+ },
+ "concepts": {
+  "coding agent / coding assistant": {
+   "n": 9760,
+   "k": 520,
+   "pct": 5.3
+  },
+  "AI-assisted / AI-native development": {
+   "n": 9760,
+   "k": 1055,
+   "pct": 10.8
+  },
+  "agentic coding / development / engineering": {
+   "n": 9760,
+   "k": 302,
+   "pct": 3.1
+  },
+  "vibe coding": {
+   "n": 9760,
+   "k": 70,
+   "pct": 0.7
+  },
+  "spec-driven": {
+   "n": 9760,
+   "k": 50,
+   "pct": 0.5
+  },
+  "context engineering": {
+   "n": 9760,
+   "k": 279,
+   "pct": 2.9
+  },
+  "harness": {
+   "n": 9760,
+   "k": 182,
+   "pct": 1.9
+  },
+  "AI code review": {
+   "n": 9760,
+   "k": 25,
+   "pct": 0.3
+  },
+  "MCP": {
+   "n": 9760,
+   "k": 1482,
+   "pct": 15.2
+  },
+  "AGENTS.md / CLAUDE.md / agent skills": {
+   "n": 9760,
+   "k": 69,
+   "pct": 0.7
+  }
+ },
+ "tools_by_scrape": {
+  "2026-02-04": {
+   "Claude Code": 3.0,
+   "Cursor": 5.4,
+   "GitHub Copilot": 2.6,
+   "Codex": 1.0
+  },
+  "2026-02-27": {
+   "Claude Code": 2.3,
+   "Cursor": 5.1,
+   "GitHub Copilot": 4.4,
+   "Codex": 1.5
+  },
+  "2026-03-27": {
+   "Claude Code": 5.6,
+   "Cursor": 6.6,
+   "GitHub Copilot": 3.2,
+   "Codex": 3.2
+  },
+  "2026-04-22": {
+   "Claude Code": 6.4,
+   "Cursor": 7.4,
+   "GitHub Copilot": 5.1,
+   "Codex": 1.9
+  },
+  "2026-05-29": {
+   "Claude Code": 7.9,
+   "Cursor": 8.7,
+   "GitHub Copilot": 5.0,
+   "Codex": 2.5
+  },
+  "2026-06-25": {
+   "Claude Code": 10.0,
+   "Cursor": 10.0,
+   "GitHub Copilot": 6.3,
+   "Codex": 2.9
+  },
+  "2026-07-22": {
+   "Claude Code": 8.7,
+   "Cursor": 8.5,
+   "GitHub Copilot": 5.8,
+   "Codex": 3.4
+  },
+  "2026-08-25": {
+   "Claude Code": 8.1,
+   "Cursor": 7.9,
+   "GitHub Copilot": 5.3,
+   "Codex": 3.8
+  },
+  "2026-09-23": {
+   "Claude Code": 8.0,
+   "Cursor": 7.0,
+   "GitHub Copilot": 4.9,
+   "Codex": 3.4
+  },
+  "2026-11-06": {
+   "Claude Code": 9.5,
+   "Cursor": 7.3,
+   "GitHub Copilot": 5.1,
+   "Codex": 3.9
+  }
+ },
+ "tools_per_posting": {
+  "1": 545,
+  "2": 414,
+  "3": 260,
+  "4": 53,
+  "5": 11,
+  "6": 2
+ },
+ "tool_pairs": [
+  [
+   "Claude Code + Cursor",
+   392
+  ],
+  [
+   "Cursor + GitHub Copilot",
+   257
+  ],
+  [
+   "Claude Code + GitHub Copilot",
+   202
+  ],
+  [
+   "Claude Code + Codex",
+   187
+  ],
+  [
+   "Codex + Cursor",
+   168
+  ],
+  [
+   "Codex + GitHub Copilot",
+   63
+  ],
+  [
+   "Cursor + Windsurf",
+   56
+  ],
+  [
+   "GitHub Copilot + Windsurf",
+   31
+  ]
+ ],
+ "sample_sentences": [
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9344943",
+   "company": "Wolters Kluwer",
+   "title": "Senior Product Software Engineer (C#/ .NET Core / Gen AI / Angular OR Javascript OR Typescript OR React)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-product-software-engineer/9344943",
+   "sentence": ", GitHub Copilot)"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11968381",
+   "company": "SAP",
+   "title": "Principal AI Application Engineer - FDE Intelligent Operations",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-ai-application-engineer-fde-intelligent-operations/11968381",
+   "sentence": "AI adoption mindset, AI output quality assurance, AI- assisted development, Context engineering, Agentic"
+  },
+  {
+   "scrape": "2026-03-27",
+   "job_id": "8854109",
+   "company": "Jack & Jill AI",
+   "title": "Product Engineer (£100k-120k+ + Equity) at Warden AI",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/product-engineer-100k-120k-equity-warden-ai/8854109",
+   "sentence": "and leverage cutting-edge AI tools like Cursor and Claude"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9788270",
+   "company": "Las Vegas Sands",
+   "title": "Sr Software Development Engineer in Test - AI-First Development",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/sr-software-development-engineer-test-ai-first-development/9788270",
+   "sentence": "automation engineer who has adopted modern AI-assisted development tools as a core part of their daily workflow and"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10823813",
+   "company": "Everbridge",
+   "title": "Senior Software Engineer – Backend & AI-Enabled",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-software-engineer-backend-ai-enabled/10823813",
+   "sentence": "quickly, learn continuously, and use modern AI-assisted development practices to improve productivity and software"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11478640",
+   "company": "Fifty-Five",
+   "title": "Data Engineer (Data and AI)",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-data-engineer-data-and-ai/11478640",
+   "sentence": "- Use agentic coding tools such as Claude Code or Codex to"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8507147",
+   "company": "Fifth Dimension",
+   "title": "AI Engineer (Staff/Principal)",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer-staff-principal/8507147",
+   "sentence": "Using Claude Code, you've just"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9666601",
+   "company": "DXC Technology",
+   "title": "Senior Test Automation Engineer (Playwright & Artificial Intelligence)",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-test-automation-engineer-playwright-artificial-intelligence/9666601",
+   "sentence": "- GitHub Copilot – experience in using GitHub Copilot"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10596988",
+   "company": "phData",
+   "title": "Senior Applied AI Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-applied-ai-engineer/10596988",
+   "sentence": "- Demonstrated use of AI-assisted development tooling to"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7014809",
+   "company": "Precision For Medicine",
+   "title": "Senior AI Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-ai-engineer/7014809",
+   "sentence": "tools like GitHub Copilot, Augment, and Cursor to"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11884971",
+   "company": "Phizenix",
+   "title": "Principal AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-ai-engineer/11884971",
+   "sentence": "- Champion AI-assisted development practices across the"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "9921782",
+   "company": "EXL",
+   "title": "Lead AI Data Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/lead-ai-data-engineer/9921782",
+   "sentence": "- Coding agents / autonomous agent frameworks"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "9096220",
+   "company": "Pattern",
+   "title": "Staff AI Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/staff-ai-engineer/9096220",
+   "sentence": "like Claude Code -- driving them to produce robust, test-"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10046577",
+   "company": "HERE Technologies",
+   "title": "Sr Software Engineer ( Python, AWS, AI)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/sr-software-engineer-python-aws-ai/10046577",
+   "sentence": "- Experience using AI-assisted development tools such as"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9880729",
+   "company": "SRH University",
+   "title": "Founding Software Engineer (Backend, Cloud & AI Infrastructure)",
+   "region": "Germany",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/founding-software-engineer-backend-cloud-ai-infrastructure/9880729",
+   "sentence": "ChatGPT, Claude, Cursor or GitHub Copilot"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8065953",
+   "company": "CompuGroup Medical US",
+   "title": "Generative AI Developer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/software-developer-generative-ai/8065953",
+   "sentence": "and in an automated fassion using tools like GitHub Copilot"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9160905",
+   "company": "Life360",
+   "title": "Staff Android Engineer, AI Native (Experiences)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/staff-android-engineer-ai-native-experiences/9160905",
+   "sentence": "- Active use and development of AI coding agents in your day-"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8497687",
+   "company": "Solera Holdings",
+   "title": "AI Specialist - Senior Fullstack Engineer",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/ai-specialist-senior-fullstack-engineer/8497687",
+   "sentence": "(GitHub Copilot preferred)"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9900204",
+   "company": "Avaak",
+   "title": "Applied AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/applied-ai-engineer/9900204",
+   "sentence": ", Cursor,"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7116385",
+   "company": "Ema Unlimited",
+   "title": "CTO's Office - AI Applications Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-applications-engineer/7116385",
+   "sentence": ", Cursor, Lovable etc"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11509551",
+   "company": "Real REMAX Group",
+   "title": "Senior AI Systems Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-ai-systems-engineer/11509551",
+   "sentence": "Claude and Codex"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10513110",
+   "company": "Softchoice",
+   "title": "Execution Engineer (Full-Stack) – AI Execution Platforms",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/execution-engineer-full-stack-ai-execution-platforms/10513110",
+   "sentence": "- Experience using AI coding tools (Copilot, Cursor, ChatGPT,"
+  },
+  {
+   "scrape": "2026-03-27",
+   "job_id": "8655419",
+   "company": "OpenAsset",
+   "title": "Staff Software Engineer - AI/ML - Agentic AI",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/staff-software-engineer-ai-ml-agentic-ai/8655419",
+   "sentence": "Claude Code, platforms including AWS, Amazon Bedrock, and"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "9121540",
+   "company": "Luxury Presence",
+   "title": "Staff Software Engineer - AI Website Builder - US (Remote)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/staff-software-engineer-ai-website-builder-us-remote/9121540",
+   "sentence": "AWS, Claude Code, DynamoDB, Elasticsearch, JavaScript, Kafka, Kubernetes, Lambda, Langchain, Langfuse"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10776120",
+   "company": "Allata",
+   "title": "Senior Software Test Engineer (Automation + AI)",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-software-test-engineer-automation-ai/10776120",
+   "sentence": "AI coding assistants (GitHub Copilot, Cursor, Claude) for"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10763281",
+   "company": "JPMorganChase",
+   "title": "Java Full Stack (Java, ReactJS, AWS, and exposure to AI tools) Software Engineer II",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/java-full-stack-java-reactjs-aws-and-exposure-ai-tools-software-engineer-ii/10763281",
+   "sentence": "Life Cycle toolchain, including enterprise-authorized AI- assisted development and automation capabilities, to"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10573795",
+   "company": "Zenoti",
+   "title": "Lead Engineer - Full Stack (AI)",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/lead-engineer-full-stack-ai/10573795",
+   "sentence": "- Leverage modern AI-assisted development tools (e"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10616306",
+   "company": "Wolters Kluwer",
+   "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/f/d)",
+   "region": "Germany",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant-m-f-d/10616306",
+   "sentence": "techniques—including AI coding agents like Cursor and"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9798512",
+   "company": "Blue Yonder",
+   "title": "Architect - Emerging Technologies Engineer (Python, AI)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/architect-emerging-technologies-engineer-python-ai/9798512",
+   "sentence": "(Microsoft 365 Copilot, GitHub Copilot, Copilot Studio,"
+  },
+  {
+   "scrape": "2026-02-04",
+   "job_id": "8362758",
+   "company": "IG Group",
+   "title": "Senior Java Engineer - AI Enablement",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-java-engineer-ai-enablement/8362758",
+   "sentence": "- Build automation using Claude Code, GitHub Copilot, and LLM"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "9115293",
+   "company": "JAMS Software",
+   "title": "AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/ai-engineer/9115293",
+   "sentence": ", GitHub Copilot, ChatGPT, code generators) in daily development"
+  },
+  {
+   "scrape": "2026-02-04",
+   "job_id": "8318564",
+   "company": "Numeral",
+   "title": "Software Engineer (AI)",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/foundational-ai-engineer/8318564",
+   "sentence": "tools like n8n, Claude Code-style agents, or similar"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10471828",
+   "company": "Southern New Hampshire University",
+   "title": "Senior Software AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/senior-software-ai-engineer/10471828",
+   "sentence": "- Active user of AI development tools (GitHub Copilot, Cursor,"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11658198",
+   "company": "Core Innovation Capital",
+   "title": "Associate AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/associate-ai-engineer/11658198",
+   "sentence": "- You use Claude Code, Codex, etc"
+  },
+  {
+   "scrape": "2026-03-27",
+   "job_id": "8725053",
+   "company": "GEICO",
+   "title": "Senior Engineer - Applied AI (Java)",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-engineer-applied-ai-java/8725053",
+   "sentence": "- Utilize AI-assisted development tools (e"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9439637",
+   "company": "Life360",
+   "title": "Senior Software Engineer II AI-Native, Mobile, Developer Experience",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/senior-software-engineer-ii-ai-native-mobile-developer-experience/9439637",
+   "sentence": "Code, Cursor, and GitHub Copilot) for real, substantive"
+  },
+  {
+   "scrape": "2026-03-27",
+   "job_id": "8817556",
+   "company": "Airtable",
+   "title": "AI Analytics Engineer (Marketing Analytics)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/ai-analytics-engineer-marketing-analytics/8817556",
+   "sentence": "familiar with tools like Claude, Cursor, or ChatGPT, but one"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10393708",
+   "company": "Delta Exchange",
+   "title": "Senior Engineer AI",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-engineer-ai/10393708",
+   "sentence": "Code, Codex, Droid, etc"
+  },
+  {
+   "scrape": "2026-03-27",
+   "job_id": "8601654",
+   "company": "Nava Benefits",
+   "title": "AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/ai-engineer/8601654",
+   "sentence": "- Dev AI assistants: GitHub Copilot, Cursor, Claude Code"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10546896",
+   "company": "Nebius",
+   "title": "Senior ML Engineer (AI Research/ Portability)",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-ml-engineer-ai-research-portability/10546896",
+   "sentence": "agent skills across coding agents, editors, and other"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9526329",
+   "company": "Litify",
+   "title": "Senior Software Engineer (AI)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/senior-software-engineer-ai/9526329",
+   "sentence": "Co-pilot, Claude Code, Etc"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10490875",
+   "company": "Leidos",
+   "title": "AI Software Developer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/ai-software-developer/10490875",
+   "sentence": "- Use AI-assisted development tools to accelerate coding,"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11426154",
+   "company": "Greenway Health",
+   "title": "AI Native Software Engineer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/ai-native-software-engineer/11426154",
+   "sentence": "- Use AI-assisted development tools to generate, test,"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "10911459",
+   "company": "HubSync",
+   "title": "Staff or Senior Software Engineer, AI-Native SDLC",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/staff-or-senior-software-engineer-ai-native-sdlc/10911459",
+   "sentence": "GitHub Actions, GitHub Apps, Claude Code /"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8577829",
+   "company": "Baseten",
+   "title": "Software Engineer - AI Enablement",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/software-engineer-ai-enablement/8577829",
+   "sentence": "most dynamic AI companies, like Cursor, Notion,"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10596354",
+   "company": "JPMorganChase",
+   "title": "Lead Software Engineer - Java Full Stack, Python and AI",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/lead-software-engineer-java-full-stack-python-and-ai/10596354",
+   "sentence": "Life Cycle toolchain, including enterprise-authorized AI- assisted development and automation capabilities, to"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10801942",
+   "company": "Translucent",
+   "title": "Forward Deployed Insights Engineer (Applied AI)",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/forward-deployed-insights-engineer-applied-ai/10801942",
+   "sentence": "- Real, hands-on experience using AI-assisted coding tools"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "8964594",
+   "company": "Coralogix",
+   "title": "GTM Engineer - Automation and AI",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/gtm-engineer-automation-and-ai/8964594",
+   "sentence": "development tools (currently Claude Code), and a Snowflake-"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9684235",
+   "company": "Fifth Dimension",
+   "title": "AI Engineer (Staff/Principal)",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer-staff-principal/9684235",
+   "sentence": "Using Claude Code, you've just"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8537415",
+   "company": "Homey",
+   "title": "Junior Software Engineer (AI-Native)",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/junior-software-engineer-ai-native/8537415",
+   "sentence": "LLMs (like Claude Code, Grok, or GitHub Copilot) as their"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10421542",
+   "company": "LSEG (London Stock Exchange Group)",
+   "title": "Senior AI Engineer",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-ai-engineer/10421542",
+   "sentence": "- Claude Code, Codex, open-source agent harnesses, and GitHub Copilot, including their configuration, telemetry, and"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7576819",
+   "company": "Findem",
+   "title": "Staff Quality Assurance Engineer(QA with AI Expertise)",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/staff-quality-assurance-engineer-qa-ai-expertise/7576819",
+   "sentence": "- Hands-on experience with AI-assisted development tools such"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10505060",
+   "company": "MeridianLink",
+   "title": "AI Engineer II ( AI Platform)",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/ai-engineer-ii-ai-platform/10505060",
+   "sentence": "- Active daily use of AI-assisted development tools and"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7133812",
+   "company": "GE Vernova",
+   "title": "Sr. Staff UX/UI Engineer - AI-Powered Design Systems",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/sr-staff-ux-ui-engineer-ai-powered-design-systems/7133812",
+   "sentence": "Development Tools: VS Code, GitHub Copilot, Chrome DevTools,"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10745955",
+   "company": "Microsoft",
+   "title": "Solution Engineer - Cloud & AI Software, Dev Tools, and AI",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/solution-engineer-cloud-ai-software-dev-tools-and-ai/10745955",
+   "sentence": "at a global bank or scaling GitHub Copilot across thousands"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "9051513",
+   "company": "BlackRock",
+   "title": "Senior AI-Enabled Engineer, Vice President",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-ai-enabled-engineer-vice-president/9051513",
+   "sentence": "- Applying AI assisted development, testing, code review, and"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "9149283",
+   "company": "SimCorp",
+   "title": "Lead AI & Full Stack Software Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/lead-software-engineer-full-stack/9149283",
+   "sentence": "and AI-assisted development workflows, including tools such"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10333960",
+   "company": "Spektra Systems LLC",
+   "title": "Software Development Engineer I (Full stack - .NET, Angular, AI-Assisted Development)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/software-development-engineer-i-full-stack-net-angular-ai-assisted-development/10333960",
+   "sentence": "NET, Angular, AI-Assisted Development)"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10020642",
+   "company": "Weekday, Inc.",
+   "title": "Lead Engineer - Java, Microservices & AI",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/lead-engineer-java-microservices-ai/10020642",
+   "sentence": "- Familiarity with GitHub Copilot and AI-assisted software"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11285305",
+   "company": "Solirius Consulting",
+   "title": "AI Engineer",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer/11285305",
+   "sentence": "- AI-Assisted Development (AICA): Act as a practitioner and"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9540359",
+   "company": "PwC",
+   "title": "AI Engineer / Data Scientist, AI Sr. Manager",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/ai-engineer-data-scientist-ai-sr-manager/9540359",
+   "sentence": "AI-assisted development"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10198842",
+   "company": "DoiT",
+   "title": "Applied AI Engineer -Poland(Remote)",
+   "region": "other",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/applied-ai-engineer-poland-remote/10198842",
+   "sentence": "core to how we work in two directions: we use Claude Code"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11893531",
+   "company": "TD SYNNEX",
+   "title": "AI and Cloud Security Engineer",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-and-cloud-security-engineer/11893531",
+   "sentence": "pipelines, device-based coding agents, and homegrown"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10140894",
+   "company": "RxSense",
+   "title": "Principal Software Engineer, AI-Native",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/principal-software-engineer-ai-native/10140894",
+   "sentence": "for example with agentic coding tools such as Claude Code"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9654731",
+   "company": "Robots & Pencils",
+   "title": "Principal AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/principal-ai-engineer/9654731",
+   "sentence": "like Claude, Cursor, and other modern AI assistants to"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9482505",
+   "company": "Wealth",
+   "title": "Senior Software Engineer, AI Enablement",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-software-engineer-ai-enablement/9482505",
+   "sentence": "build with AI tools — Claude Code, Cursor, and whatever"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9205688",
+   "company": "Lucis",
+   "title": "AI engineer",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer/9205688",
+   "sentence": "· AWS (Terraform) · GitHub Actions · Claude Code + Cursor ·"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "10921051",
+   "company": "Morgan Stanley",
+   "title": "Principal Software Engineer  (AI Platform) - Parametric",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-software-engineer-ai-platform-parametric/10921051",
+   "sentence": "- Experience using AI coding tools, such as GitHub Copilot or"
+  },
+  {
+   "scrape": "2026-04-22",
+   "job_id": "8935311",
+   "company": "PointClickCare",
+   "title": "Intermediate AI-Enabled DevOps Engineer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/intermediate-ai-enabled-devops-engineer/8935311",
+   "sentence": "- Experience using AI-assisted development or operations"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11006812",
+   "company": "Juniper Square",
+   "title": "Senior Forward Deployed Engineer, Applied AI",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/senior-forward-deployed-engineer-applied-ai/11006812",
+   "sentence": "leverage AI-assisted development makes possible — while"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10559484",
+   "company": "Sopra Steria",
+   "title": "Agentic AI- Senior Software Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/agentic-ai-senior-software-engineer/10559484",
+   "sentence": "- Leverage AI-assisted development tools such as Claude Code,"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10306854",
+   "company": "JPMorganChase",
+   "title": "Software Engineer III - AI/ML Platform",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/software-engineer-iii-ai-ml-platform/10306854",
+   "sentence": "Life Cycle toolchain, including enterprise-authorized AI- assisted development and automation capabilities, to"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "8480199",
+   "company": "Trimble",
+   "title": "DevOps Engineer II- AI",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/devops-engineer-ii/8480199",
+   "sentence": "driven tools such as Microsoft Copilot or Cursor to manage"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11732953",
+   "company": "Citi",
+   "title": "FX Risk Lead Java Developer + AI (VP)",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/fx-risk-lead-java-developer-ai-vp/11732953",
+   "sentence": "ecosystem: from GitHub Copilot and Devin"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9603467",
+   "company": "Writer",
+   "title": "Software engineer, generative AI (UK)",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/software-engineer-generative-ai-uk/9603467",
+   "sentence": "Cursor, or GitHub Copilot to accelerate your engineering"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11138440",
+   "company": "Life360",
+   "title": "Senior Backend Engineer II, AI Native, Vertical Experiences",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/senior-backend-engineer-ii-ai-native-pets-things-experiences/11138440",
+   "sentence": "- Orchestrate AI coding agents daily for spec writing, code"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9436667",
+   "company": "RVO Health",
+   "title": "Staff Software Engineer, Agentic AI",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/staff-ai-engineer/9436667",
+   "sentence": "- Experience leveraging Claude Code for agentic coding"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10707755",
+   "company": "Solventum",
+   "title": "Power Platform & AI Automation Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/power-platform-ai-automation-engineer/10707755",
+   "sentence": "direction, and effective use of AI-assisted development"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "12058290",
+   "company": "Coquina Tech",
+   "title": "AI Native Founding Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-native-founding-engineer/12058290",
+   "sentence": "tools like Cursor, etc"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11215265",
+   "company": "Perficient",
+   "title": "Sr. Full Stack Engineer - NextJS, AWS, AI",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/sr-full-stack-engineer-nextjs-aws-ai/11215265",
+   "sentence": "- Leverage AI-assisted development tools to improve"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9600806",
+   "company": "Solv.",
+   "title": "Full Stack Product Engineer, AI Enabled Products",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/full-stack-product-engineer-ai-enabled-products/9600806",
+   "sentence": "- Use AI-assisted development tools to understand code,"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10295144",
+   "company": "Dscout",
+   "title": "AI Data Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/ai-data-engineer/10295144",
+   "sentence": "- Comfort using AI coding tools (Cursor, Claude Code, Copilot,"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9886859",
+   "company": "Grafana Labs",
+   "title": "Staff AI Engineer - Grafana AI/ML | USA | Remote",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/staff-ai-engineer-grafana-ai-ml-usa-remote/9886859",
+   "sentence": "We encourage pragmatic AI-assisted development: faster"
+  },
+  {
+   "scrape": "2026-02-04",
+   "job_id": "8241313",
+   "company": "AutoScout24",
+   "title": "Software Engineer / AI Enabler (m/f/d)",
+   "region": "Germany",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/software-engineer-ai-enabler-m-f-d/8241313",
+   "sentence": "(for example GitHub Copilot, ChatGPT, Cursor, OpenAI"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "12011554",
+   "company": "Virtuous",
+   "title": "Integrations Engineer, AI Services",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/integrations-engineer-ai-services/12011554",
+   "sentence": "- Use AI-assisted development deliberately and effectively"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "10660412",
+   "company": "Roche",
+   "title": "Full-Stack AI Engineer / Data Scientist – Agentic Systems",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/full-stack-ai-engineer-data-scientist-agentic-systems/10660412",
+   "sentence": ", ~6 members) powered by advanced coding agents (like"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8273831",
+   "company": "Autodesk",
+   "title": "Senior Software Engineer-  Fusion AI",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-software-engineer-fusion-ai/8273831",
+   "sentence": "- Experience with vibe coding and has extensively used Cursor"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10475423",
+   "company": "Capital on Tap",
+   "title": "AI Product Engineer",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-product-engineer/10475423",
+   "sentence": "each codebase is for AI-assisted development, and how to"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10555739",
+   "company": "Experian",
+   "title": "Senior Software Engineer - AI Tools",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/senior-software-engineer-ai-tools/10555739",
+   "sentence": ", AI-assisted coding, code generation, content"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "10230838",
+   "company": "Bullish",
+   "title": "AI Forward Deployed Engineer",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer/10230838",
+   "sentence": "You've run multiple coding agents in parallel and know how to coordinate between"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11435769",
+   "company": "Lyric (lyric.tech)",
+   "title": "Applied AI / GTM Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/revenue-operations-gtm-engineer/11435769",
+   "sentence": "From Claude Code and the Claude Agent"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9540345",
+   "company": "PwC",
+   "title": "AI Engineer / Data Scientist, AI Manager",
+   "region": "USA",
+   "ai_type": "ml-first",
+   "url": "https://www.builtinla.com/job/ai-engineer-data-scientist-ai-manager/9540345",
+   "sentence": "stay at the forefront of industry trends and champion AI- assisted development, making a significant impact on our"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9595373",
+   "company": "MUBI",
+   "title": "Senior Infrastructure Engineer (AI-First)",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-infrastructure-engineer-ai-first/9595373",
+   "sentence": "- Prototype rapidly using AI-assisted development workflows"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9629056",
+   "company": "Kaufman Rossin",
+   "title": "Automation Engineer - Workflow and AI Agents",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/automation-engineer-workflow-and-ai-agents/9629056",
+   "sentence": "- Experience using AI coding assistants (GitHub Copilot,"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10649252",
+   "company": "DeepHealth",
+   "title": "Junior Software Engineer, Clinical AI",
+   "region": "Netherlands",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/junior-software-engineer-clinical-ai/10649252",
+   "sentence": "Cursor (required)"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "9278704",
+   "company": "Autodesk",
+   "title": "Principal Full Stack AI Engineer (LLMs, Agentic AI & React/Typescript)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-engineer-full-stack-react-java-aws/9278704",
+   "sentence": "Claude Code, Cursor,"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11219748",
+   "company": "Cloudflare",
+   "title": "Senior Customer Engineer, Start Up AI",
+   "region": "Germany",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-customer-engineer-digital-natives/11219748",
+   "sentence": "Orchestration & Workflow Automation: Use AI agents, coding agents, Large Language Models (LLMs), and internal platforms"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8015535",
+   "company": "VeeFriends",
+   "title": "Data Engineer (AI & Analytics Platform)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/integration-engineer-shopify-apis/8015535",
+   "sentence": "Experience using AI coding tools (like Cursor) to move fast"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11581119",
+   "company": "Keeper Security, Inc.",
+   "title": "Senior Software Development Test Engineer (SDET), AI & Automation",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/software-development-test-engineer-sdet-ai-automation/11581119",
+   "sentence": "- Use AI-assisted tools such as Claude, ChatGPT, GitHub Copilot or similar platforms to improve automation"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "8504260",
+   "company": "Optum",
+   "title": "Software Engineer - AI, C# or Java, React, SQL Server",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/software-engineer-ai-c-or-java-react-sql-server/8504260",
+   "sentence": "- AI first mindset with Github Copilot OR using similar tools"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11947831",
+   "company": "MetTel",
+   "title": "Senior Software Engineer -AI",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-software-engineer-office-nyc/11947831",
+   "sentence": "Claude Code, GitHub Copilot, Cursor, OpenAI, Anthropic, and"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9331104",
+   "company": "Vagaro",
+   "title": "Full Stack Engineer (AI-First)",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/full-stack-engineer-ai-first/9331104",
+   "sentence": "- Use AI coding tools (Claude Code, Copilot, Cursor, etc"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10232032",
+   "company": "Atlas Systems",
+   "title": "Forward Deployment Engineer (AI Solutions)-BK",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/forward-deployment-engineer-ai-solutions-bk/10232032",
+   "sentence": "- Leverage AI-assisted development tools and coding copilots"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11003661",
+   "company": "Inari Medical",
+   "title": "Engineer, Automations (AI/ML),Technical support",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/engineer-automations-ai-ml-technical-support/11003661",
+   "sentence": "- Experience developing with AI tools such as Cursor,"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "10426394",
+   "company": "Micron Technology",
+   "title": "Staff AI Engineer, SMAI",
+   "region": "India",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/sr-engineer-software-development-smai/10426394",
+   "sentence": ", GitHub Copilot, Claude Code)"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7763023",
+   "company": "myKaarma",
+   "title": "Software Engineer 1 (AI/ML)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/software-engineer-1-al-ml/7763023",
+   "sentence": "source models, Codex, Cursor IDE"
+  },
+  {
+   "scrape": "2026-02-27",
+   "job_id": "7133871",
+   "company": "GE Vernova",
+   "title": "Principal AI Software Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/principal-ai-software-engineer/7133871",
+   "sentence": "Multi-region deployments Development Tools: GitHub Copilot,"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11148835",
+   "company": "Hines",
+   "title": "AI Embedded Business Automation Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-embedded-business-automation-engineer/11148835",
+   "sentence": "- Experience using AI-assisted development tools and building"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11022918",
+   "company": "JPMorganChase",
+   "title": "Lead Software Engineer - AI Engineering",
+   "region": "UK",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/lead-software-engineer-ai-engineering/11022918",
+   "sentence": "Life Cycle toolchain, including enterprise-authorized AI- assisted development and automation capabilities"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9528966",
+   "company": "ERM",
+   "title": "AI Solutions Engineer",
+   "region": "other",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-solutions-engineer/9528966",
+   "sentence": "ChatGPT, GitHub Copilot, Cursor, Claude)"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10819251",
+   "company": "Money Forward, Inc.",
+   "title": "AI Engineer  – Innovation & Productivity (Chennai)",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer-innovation-productivity-chennai/10819251",
+   "sentence": "- AI-assisted engineering (Claude Code, Cursor, Copilot-style"
+  },
+  {
+   "scrape": "2026-08-25",
+   "job_id": "10576149",
+   "company": "Nebius",
+   "title": "AI Full-Stack Developer",
+   "region": "Germany",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-full-stack-developer/10576149",
+   "sentence": "- Proven ability to use AI-assisted coding tools effectively"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "12098170",
+   "company": "The Hartford Financial Services Group, Inc.",
+   "title": "IND Senior Associate/ Engineer - AI Engineering",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ind-senior-associate-engineer-ai-engineering/12098170",
+   "sentence": "GitHub Copilot, Copilot Chat, AI assistants"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "10908724",
+   "company": "Tristone Strategic Partners LLP",
+   "title": "AI Engineer",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/ai-engineer/10908724",
+   "sentence": "coding tools such as Claude Code or ChatGPT Codex"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11488005",
+   "company": "Robots & Pencils",
+   "title": "Sr. AI Data Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/sr-data-engineer/11488005",
+   "sentence": "tools like Claude and Cursor to ship higher-quality work"
+  },
+  {
+   "scrape": "2026-07-22",
+   "job_id": "10101779",
+   "company": "Elevance Health",
+   "title": "AI-Native Software Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/ai-native-software-engineer/10101779",
+   "sentence": "- Daily or weekly use of AI coding tools such as GitHub Copilot, Cursor, Claude Code, ChatGPT, Codex-style agents,"
+  },
+  {
+   "scrape": "2026-05-29",
+   "job_id": "9417884",
+   "company": "Exactera",
+   "title": "Principal AI Engineer",
+   "region": "USA",
+   "ai_type": "ai-first",
+   "url": "https://www.builtinla.com/job/principal-ai-engineer/9417884",
+   "sentence": "- Hands-on use of AI development tools (Claude Code, Cursor,"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "11078218",
+   "company": "Socure",
+   "title": "AI Enablement Engineer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/ai-enablement-engineer/11078218",
+   "sentence": "Gamma, Cursor, and related platforms to create content,"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9751515",
+   "company": "Phygtl Inc",
+   "title": "Founding Engineer Persistent Spatial Worlds (Unity + AI)",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/founding-engineer-persistent-spatial-worlds-unity-ai/9751515",
+   "sentence": "- integrate AI-assisted development workflows"
+  },
+  {
+   "scrape": "2026-11-06",
+   "job_id": "11807032",
+   "company": "FyerX",
+   "title": "Senior Principal Engineer – Agentic AI",
+   "region": "India",
+   "ai_type": "ai-first",
+   "url": "https://builtin.com/job/senior-principal-engineer-agentic-ai/11807032",
+   "sentence": "- Familiarity with Claude Code, GitHub Copilot, or Cursor"
+  },
+  {
+   "scrape": "2026-09-23",
+   "job_id": "10731086",
+   "company": "Modo Energy",
+   "title": "Frontend Engineer (AI/Platform)",
+   "region": "UK",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/frontend-engineer-ko-terminal/10731086",
+   "sentence": "for rapid, AI-assisted development, and you'll build against"
+  },
+  {
+   "scrape": "2026-06-25",
+   "job_id": "9620630",
+   "company": "Yahoo",
+   "title": "Principal/Staff AI Enablement Engineer",
+   "region": "USA",
+   "ai_type": "ai-support",
+   "url": "https://www.builtinla.com/job/principal-staff-ai-enablement-engineer/9620630",
+   "sentence": "- Evaluate emerging AI tools and coding agents (e"
+  },
+  {
+   "scrape": "2026-02-04",
+   "job_id": "7798691",
+   "company": "Wolters Kluwer",
+   "title": "Full Stack Engineer (Libra - Legal AI Assistant) (m/f/d)",
+   "region": "Germany",
+   "ai_type": "ai-support",
+   "url": "https://builtin.com/job/full-stack-engineer-libra-legal-ai-assistant-m-f-d/7798691",
+   "sentence": "- Experience using AI coding agents like Cursor or Claude"
+  }
+ ],
+ "themes": {
+  "review / verify AI output": {
+   "signal": 7.4,
+   "rest": 0.6
+  },
+  "testing (unit/integration/e2e/TDD)": {
+   "signal": 19.6,
+   "rest": 11.0
+  },
+  "CI/CD": {
+   "signal": 45.9,
+   "rest": 34.3
+  },
+  "code review": {
+   "signal": 25.2,
+   "rest": 12.0
+  },
+  "system design / architecture": {
+   "signal": 65.1,
+   "rest": 56.4
+  },
+  "observability / monitoring": {
+   "signal": 51.3,
+   "rest": 49.3
+  },
+  "security": {
+   "signal": 48.3,
+   "rest": 39.6
+  },
+  "Docker / Kubernetes": {
+   "signal": 30.0,
+   "rest": 30.1
+  },
+  "evals / evaluation": {
+   "signal": 45.8,
+   "rest": 41.9
+  },
+  "productivity framing": {
+   "signal": 60.6,
+   "rest": 31.7
+  }
+ },
+ "window_themes": {
+  "workflows / automation / pipelines": {
+   "k": 1376,
+   "pct": 67.3
+  },
+  "wording: required / proficient / hands-on": {
+   "k": 1098,
+   "pct": 53.7
+  },
+  "review / verify / validate / quality": {
+   "k": 989,
+   "pct": 48.4
+  },
+  "productivity / velocity / speed": {
+   "k": 927,
+   "pct": 45.3
+  },
+  "wording: preferred / bonus / familiarity": {
+   "k": 793,
+   "pct": 38.8
+  },
+  "testing": {
+   "k": 735,
+   "pct": 35.9
+  },
+  "security / guardrails / governance": {
+   "k": 723,
+   "pct": 35.4
+  },
+  "specs / requirements / planning": {
+   "k": 626,
+   "pct": 30.6
+  },
+  "teach / champion / enable others": {
+   "k": 584,
+   "pct": 28.6
+  },
+  "prompting": {
+   "k": 439,
+   "pct": 21.5
+  },
+  "multi-agent / orchestration / parallel": {
+   "k": 430,
+   "pct": 21.0
+  },
+  "daily use": {
+   "k": 402,
+   "pct": 19.7
+  },
+  "context / instruction files / rules": {
+   "k": 301,
+   "pct": 14.7
+  },
+  "measure impact / metrics": {
+   "k": 292,
+   "pct": 14.3
+  },
+  "MCP / skills / hooks / plugins": {
+   "k": 242,
+   "pct": 11.8
+  }
+ },
+ "seniority": {
+  "signal": {
+   "no level word": 40.8,
+   "senior": 32.0,
+   "staff / principal / lead / architect / manager+": 25.7,
+   "junior / entry / intern / associate": 1.5
+  },
+  "rest": {
+   "no level word": 49.5,
+   "senior": 27.3,
+   "staff / principal / lead / architect / manager+": 21.1,
+   "junior / entry / intern / associate": 2.1
+  }
+ },
+ "title_cluster": {
+  "n": 364,
+  "by_scrape": {
+   "2026-02-04": {
+    "n": 895,
+    "k": 15,
+    "pct": 1.7
+   },
+   "2026-02-27": {
+    "n": 870,
+    "k": 18,
+    "pct": 2.1
+   },
+   "2026-03-27": {
+    "n": 680,
+    "k": 18,
+    "pct": 2.6
+   },
+   "2026-04-22": {
+    "n": 645,
+    "k": 26,
+    "pct": 4.0
+   },
+   "2026-05-29": {
+    "n": 919,
+    "k": 42,
+    "pct": 4.6
+   },
+   "2026-06-25": {
+    "n": 888,
+    "k": 42,
+    "pct": 4.7
+   },
+   "2026-07-22": {
+    "n": 846,
+    "k": 41,
+    "pct": 4.8
+   },
+   "2026-08-25": {
+    "n": 1222,
+    "k": 49,
+    "pct": 4.0
+   },
+   "2026-09-23": {
+    "n": 1086,
+    "k": 44,
+    "pct": 4.1
+   },
+   "2026-11-06": {
+    "n": 1709,
+    "k": 69,
+    "pct": 4.0
+   }
+  },
+  "labels": [
+   [
+    "ai native",
+    139
+   ],
+   [
+    "ai enablement",
+    90
+   ],
+   [
+    "ai first",
+    34
+   ],
+   [
+    "ai enabled",
+    31
+   ],
+   [
+    "developer experience",
+    19
+   ],
+   [
+    "ai assisted",
+    18
+   ],
+   [
+    "agentic engineer",
+    14
+   ],
+   [
+    "ai augmented",
+    10
+   ],
+   [
+    "developer productivity",
+    9
+   ]
+  ],
+  "germany": [
+   {
+    "scrape": "2026-04-22",
+    "job_id": "8990334",
+    "company": "GetYourGuide",
+    "title": "Senior AI Enablement Engineer",
+    "location": "Berlin, DEU",
+    "url": "https://builtin.com/job/senior-ai-enablement-engineer/8990334"
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9513090",
+    "company": "voize",
+    "title": "AI Enablement Engineer (m/f/d)",
+    "location": "Berlin, DEU",
+    "url": "https://builtin.com/job/ai-enablement-engineer/9513090"
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9586468",
+    "company": "Payrails",
+    "title": "Mid level AI Enablement Engineer",
+    "location": "Berlin, DEU",
+    "url": "https://builtin.com/job/ai-enablement-engineer/9586468"
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9763092",
+    "company": "SCHWAPe Shared Service GmbH",
+    "title": "Senior Fullstack Engineer (AI-Native, DRI) - Native German (m/w/d)",
+    "location": "Berlin, DEU",
+    "url": "https://builtin.com/job/senior-fullstack-engineer-ai-native-dri-native-german-m-w-d/9763092"
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11369908",
+    "company": "Accenture",
+    "title": "AI Native Software Engineer – Data & AI",
+    "location": "Hamburg, DEU",
+    "url": "https://builtin.com/job/junior-ai-native-software-engineer-all-genders/11369908"
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11894527",
+    "company": "qlub",
+    "title": "Senior Software Engineer, AI-Native Development",
+    "location": "Berlin, DEU",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-native-development/11894527"
+   }
+  ],
+  "signal_share_inside_cluster": {
+   "n": 364,
+   "k": 247,
+   "pct": 67.9
+  }
+ },
+ "title_hits": [
+  [
+   "forward deployed",
+   246
+  ],
+  [
+   "ai-native",
+   72
+  ],
+  [
+   "ai native",
+   65
+  ],
+  [
+   "ai-assisted",
+   15
+  ],
+  [
+   "agentic engineer",
+   12
+  ],
+  [
+   "developer productivity",
+   9
+  ],
+  [
+   "ai developer tool",
+   7
+  ],
+  [
+   "ai assisted",
+   3
+  ],
+  [
+   "claude code",
+   3
+  ],
+  [
+   "agentic software",
+   1
+  ]
+ ],
+ "agentic_titles": [
+  "(Senior) Product Manager, Agentic AI IDEs (Developer Tools)-Tech Foundations — Delivery Hero (2026-05-29)",
+  "AI Agentic Engineer — Vrinda International (2026-09-23)",
+  "AI Application Engineer - LangGraph & Agentic AI — Belmont Lavan Ltd (2026-09-23)",
+  "AI Architect / Lead Engineer (Agentic AI Platform) — TaskUs (2026-04-22)",
+  "AI Automation Engineer (Agentic AI) — Pramira (2026-11-06)",
+  "AI Automation Specialist / Agentic Workflow Engineer — UNIS (2026-06-25)",
+  "AI Developer / AI Engineer – Agentic AI, LLM & Predictive Analytics — KATBOTZ LLC (2026-05-29)",
+  "AI Enabled Modernization - Agentic Software Engineer - Vice President (New York, NY) — Goldman Sachs (2026-11-06)",
+  "AI Engineer (Agentic AI / MCP) — S&P Global (2026-05-29)",
+  "AI Engineer (Agentic AI | GenAI | LLM) — Vrinda International (2026-09-23)",
+  "AI Engineer (Agentic Operations) - NLP — Rocket Software (2026-02-27)",
+  "AI Engineer (GenAI / Hyperscaler / Agentic AI) — Nexaminds (2026-02-27)",
+  "AI Engineer (Python + GenAI + Agentic AI) — Vrinda International (2026-09-23)",
+  "AI Engineer - Agentic & Generative AI — SPAR Solutions (2026-07-22)",
+  "AI Engineer - Agentic AI & LLMOps — StratLytics Consulting Private Limited (2026-06-25)",
+  "AI Engineer - Agentic Systems — DNV (2026-09-23)",
+  "AI Engineer - Generative & Agentic AI — BDO CANADA (2026-04-22)",
+  "AI Engineer - Voice & Agentic Systems — weya AI (2026-11-06)",
+  "AI Engineer 4  (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-09-23)",
+  "AI Engineer 4 (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-09-23)",
+  "AI Engineer 4 (Gen AI Platform Services: Agentic AI) — Capital One (2026-11-06)",
+  "AI Engineer 4 (Gen AI Platform Services: Agentic AI, Agent Guardrails, Agent Evaluation, Agent Memory) — Capital One (2026-09-23)",
+  "AI Engineer 4 (Gen AI Platform Services: Agentic AI, Agent Guardrails, Agent Evaluation, Agent Memory) — Capital One (2026-11-06)",
+  "AI Engineer 4 (Gen AI Platform Services: Agentic AI, Guardrails, Evaluation) — Capital One (2026-11-06)",
+  "AI Engineer 4 (Gen AI Platform Services: Agentic Systems) — Capital One (2026-11-06)",
+  "AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-09-23)",
+  "AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-11-06)",
+  "AI Engineer 4 (MLX, Agentic AI, Gen AI workflows, GraphRAG) — Capital One (2026-11-06)",
+  "AI Engineer 5 ((AI Foundations, LLM Core and Agentic AI) — Capital One (2026-09-23)",
+  "AI Engineer 5 (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-09-23)",
+  "AI Engineer 5 (Gen AI Platform Services - Agentic AI) — Capital One (2026-09-23)",
+  "AI Engineer 5 (Gen AI Platform Services - Agentic Systems) — Capital One (2026-09-23)",
+  "AI Engineer 5 (Gen AI Platform Services: Agentic AI) — Capital One (2026-11-06)",
+  "AI Engineer 5 (Gen AI Platform Services: Agentic AI, Guardrails, Evaluation) — Capital One (2026-09-23)",
+  "AI Engineer 5 (Gen AI Platform Services: Agentic AI, Guardrails, Evaluation) — Capital One (2026-11-06)",
+  "AI Engineer 5 (Gen AI Platform Services: Agentic Systems) — Capital One (2026-11-06)",
+  "AI Engineer 5 (Gen AI SDK: Agentic AI, Guardrails, Evaluation) — Capital One (2026-11-06)",
+  "AI Engineer 5 (GenAI Platform, Agentic Infrastructure) — Capital One (2026-11-06)",
+  "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-09-23)",
+  "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-11-06)",
+  "AI Engineer III - Agentic AI — American Express (2026-06-25)",
+  "AI Engineer | Agentic AI & GenAI — Vrinda International (2026-09-23)",
+  "AI Engineer | Agentic Systems — Machinify (2026-05-29)",
+  "AI Engineer – Agentic AI & Cloud Discovery — Pragmatike (2026-09-23)",
+  "AI Engineer – Agentic AI & GraphRAG — Agivant Technologies India Private Limited (2026-08-25)",
+  "AI Engineer – Agentic AI | Bedrock, LangChain & LangGraph — Synechron (2026-11-06)",
+  "AI Engineer – Agentic AI | Offshore — Photon (2026-09-23)",
+  "AI Engineer – Azure GenAI / Agentic AI — TALPRO INDIA PRIVATE LIMITED (2026-09-23)",
+  "AI Engineer – Generative & Agentic AI — TALPRO INDIA PRIVATE LIMITED (2026-08-25)",
+  "AI Engineer, Agentic Systems -Python- -Assistant Vice President — Citi (2026-08-25)",
+  "AI Lead / Lead AI Engineer - Enterprise GenAI & Agentic AI — Infotel UK Consulting (2026-06-25)",
+  "AI Ops/ IT Automation Engineer (Agentic AI ITSM) — Convera (2026-03-27)",
+  "AI Phone - Agentic Engineer — BJAK (2026-11-06)",
+  "AI Platform Engineer (LLM / Agentic Systems) — TaskUs (2026-04-22)",
+  "AI Platform Engineer, Agentic Interfaces — IFS (2026-11-06)",
+  "AI Platform and Agentic Engineer — Intel (2026-09-23)",
+  "AI Platform and Agentic Engineer — Intel (2026-11-06)",
+  "AI Principal SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems -10358 — Extreme Networks (2026-09-23)",
+  "AI Principal SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems — Extreme Networks (2026-08-25)",
+  "AI Product Engineer - Agentic AI Platforms (Financial Services) — Capgemini (2026-03-27)",
+  "AI Prompt Engineer / Agentic AI Engineer — Confisa International Group (2026-11-06)",
+  "AI Research Engineer (Agentic Post-training) - 100% Remote Worldwide — Tether.io (2026-05-29)",
+  "AI Security Engineer (Agentic Systems) — ClearRoute (2026-11-06)",
+  "AI Security Engineer III - Agentic AI & Security Automation — American Express (2026-11-06)",
+  "AI Software Engineer (Agentic AI) — Exavalu (2026-08-25)",
+  "AI Solutions Engineer (Generative AI & Agentic AI) — EVERSANA (2026-11-06)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems — Extreme Networks (2026-08-25)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10354 — Extreme Networks (2026-09-23)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10355 — Extreme Networks (2026-09-23)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10360 — Extreme Networks (2026-09-23)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10361 — Extreme Networks (2026-09-23)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10362 — Extreme Networks (2026-09-23)",
+  "AI Staff SW Systems Engineer -AI Infra -Distributed Systems,Microservice, AI Infrastructure,Agentic systems-10363 — Extreme Networks (2026-09-23)",
+  "AI System Quality Assurance Engineer – Data & Agentic AI — ChiStats (2026-08-25)",
+  "AI or ML Engineer - Agentic AI — Optum (2026-07-22)",
+  "AI/ML Engineer — Agentic Systems (ID 1423) — Marketscope (2026-11-06)",
+  "AVP - Microsoft Copilot and Agentic AI Engineer - IT Infrastructure — Jefferies (2026-11-06)",
+  "AWS Amazon Connect Agentic AI Engineer — The Motley Fool (2026-05-29)",
+  "Acceleration Center- Agentic AI and Machine Learning Developer- Experienced Associate — PwC (2026-08-25)",
+  "Acceleration Center- Agentic AI and Machine Learning Developer- Senior Associate — PwC (2026-08-25)",
+  "Agentic & Generative AI developer — Sutherland (2026-09-23)",
+  "Agentic AI & Python Data Engineer — Citi (2026-05-29)",
+  "Agentic AI & RPA Developer — Hewlett Packard Enterprise (2026-08-25)",
+  "Agentic AI + RPA Developer - 1967 — Medline Industries (2026-08-25)",
+  "Agentic AI - Lead Engineer — Ford Motor Company (2026-03-27)",
+  "Agentic AI / Generative AI Engineer — Vrinda International (2026-09-23)",
+  "Agentic AI / Python Engineer — Workiy (2026-11-06)",
+  "Agentic AI Automation Developer — Trane Technologies (2026-08-25)",
+  "Agentic AI Data Engineer — EXL (2026-08-25)",
+  "Agentic AI Data Engineer — Kyndryl (2026-07-22)",
+  "Agentic AI Developer (Python) — ClearRoute (2026-08-25)",
+  "Agentic AI Developer (n8n & Workflow Automation) — WeblineIndia (2026-08-25)",
+  "Agentic AI Developer - Assistant Vice President — Citi (2026-05-29)",
+  "Agentic AI Developer / Engineer — Frazier & Deeter, LLC (2026-03-27)",
+  "Agentic AI Developer — Kyndryl (2026-03-27)",
+  "Agentic AI Developer — NucleusTeq (2026-05-29)",
+  "Agentic AI Developer — Sutherland (2026-05-29)",
+  "Agentic AI Developer — Sutherland (2026-08-25)",
+  "Agentic AI Developer — Sutherland (2026-09-23)",
+  "Agentic AI Developer — T-Systems ICT India Pvt. Ltd. (2026-09-23)",
+  "Agentic AI Developer — Weekday, Inc. (2026-11-06)",
+  "Agentic AI Developer — nCircle Tech (2026-11-06)",
+  "Agentic AI Engineer (Horizon AI) — STN Inc (2026-11-06)",
+  "Agentic AI Engineer (ID:4001) — STAFIDE (2026-08-25)",
+  "Agentic AI Engineer (ITSM & Enterprise Automation) — Convera (2026-08-25)",
+  "Agentic AI Engineer (Remote, 6-Month Contract) — Accuris (2026-03-27)",
+  "Agentic AI Engineer (n8n Workflow Automation) — Vrinda International (2026-11-06)",
+  "Agentic AI Engineer - Core Platforms — American Express (2026-11-06)",
+  "Agentic AI Engineer / Software Engineer - AI Applications (Remote US) — Yurts (2026-07-22)",
+  "Agentic AI Engineer / Software Engineer - AI Applications (Remote US) — Yurts (2026-09-23)",
+  "Agentic AI Engineer III - Cybersecurity — American Express (2026-07-22)",
+  "Agentic AI Engineer — AlgoLeap Technologies Private Limited (2026-06-25)",
+  "Agentic AI Engineer — Benchling (2026-08-25)",
+  "Agentic AI Engineer — Catapult (2026-08-25)",
+  "Agentic AI Engineer — DeepSeas (2026-06-25)",
+  "Agentic AI Engineer — EXL (2026-07-22)",
+  "Agentic AI Engineer — Eigen Labs (2026-04-22)",
+  "Agentic AI Engineer — Elastic (2026-08-25)",
+  "Agentic AI Engineer — Experian (2026-05-29)",
+  "Agentic AI Engineer — Flatworld Solutions (2026-11-06)",
+  "Agentic AI Engineer — General Dynamics Information Technology (2026-08-25)",
+  "Agentic AI Engineer — HP (2026-11-06)",
+  "Agentic AI Engineer — Kyndryl (2026-04-22)",
+  "Agentic AI Engineer — Netomi (2026-02-27)",
+  "Agentic AI Engineer — Perceptive (2026-08-25)",
+  "Agentic AI Engineer — Rimini Street (2026-03-27)",
+  "Agentic AI Engineer — Rimini Street (2026-09-23)",
+  "Agentic AI Engineer — Tiger Analytics (2026-05-29)",
+  "Agentic AI Engineer — TraceLink (2026-02-27)",
+  "Agentic AI Engineer — TraceLink (2026-03-27)",
+  "Agentic AI Engineer — Training Basket (2026-11-06)",
+  "Agentic AI Engineer — Trilagen (2026-11-06)",
+  "Agentic AI Engineer — Truviq Systems Private Limited (2026-09-23)",
+  "Agentic AI Engineer — Weekday, Inc. (2026-09-23)",
+  "Agentic AI Engineer — Whitespace (inthewhitespace.com) (2026-04-22)",
+  "Agentic AI Engineer, AI Automation — Mintel (2026-05-29)",
+  "Agentic AI Engineer, AI Automation — Mintel (2026-08-25)",
+  "Agentic AI Infrastructure Engineer II - Core Platforms — American Express (2026-11-06)",
+  "Agentic AI Integration Engineer (Remote) — Blue Acorn iCi (2026-07-22)",
+  "Agentic AI Senior Software Engineer — S&P Global (2026-02-04)",
+  "Agentic AI Solutions Engineer — NTT DATA (2026-02-27)",
+  "Agentic AI Sr. Engineer — Eli Lilly and Company (2026-05-29)",
+  "Agentic AI Systems Engineer — Applied Materials (2026-04-22)",
+  "Agentic AI software engineer — Hewlett Packard Enterprise (2026-09-23)",
+  "Agentic AI- Senior Software Engineer — Sopra Steria (2026-08-25)",
+  "Agentic AI/ Prompt Engineer — EXL (2026-09-23)",
+  "Agentic Artificial Intelligence (AI) Engineer - Talent Pipeline (Remote - US) — Atmosera (2026-02-04)",
+  "Agentic Artificial Intelligence Engineer — Trimble (2026-02-27)",
+  "Applied AI Engineer (Agentic Workflows) - India — Built In (2026-02-27)",
+  "Applied AI Engineer - Agentic Systems - Senior Associate — JPMorganChase (2026-08-25)",
+  "Applied AI Engineer – Agentic Workflows — Cohere AI (2026-02-04)",
+  "Applied AI ML Lead - Machine Learning Engineer - Agentic Commerce — JPMorganChase (2026-11-06)",
+  "Applied AI Principal/Staff Engineer (Agentic Systems & Reputation Intelligence) - India — Built In (2026-05-29)",
+  "Associate - Agentic AI - Data analytics engineer — Harman (2026-05-29)",
+  "Associate Distinguished Engineer (Agentic AI Architect) — Nagarro (2026-06-25)",
+  "Associate Distinguished Engineer (Agentic AI Architect) — Nagarro (2026-07-22)",
+  "Associate Distinguished Engineer (Solution Architect - GenAI + RAG + Agentic AI) — Nagarro (2026-09-23)",
+  "Associate Distinguished Engineer - AI, Data Science & Agentic Solutions — Nagarro (2026-02-04)",
+  "Associate Engineer - Agentic AI Developer — Sutherland (2026-03-27)",
+  "Associate Engineer - Agentic AI Developer — Sutherland (2026-05-29)",
+  "Associate Staff Engineer, Agentic AI — Nagarro (2026-02-27)",
+  "Backend Engineer, Agentic AI (Senior/Staff Level) — Granted (2026-02-04)",
+  "Bilingual Agentic AI and NLU Engineer (English & Spanish) — Genesys (2026-06-25)",
+  "Binance Accelerator Program - LLM Recommendation & Agentic AI Engineer — Binance (2026-08-25)",
+  "Business Solutions Engineer, (Agentic AI) — Airbnb (2026-02-27)",
+  "Corporate Vice President - Release Train Engineer (RTE) - Agentic AI Web Application — New York Life Insurance Company (2026-09-23)",
+  "D&T Machine Learning Engineer II (Agentic Ai/MLOps) — General Mills (2026-09-23)",
+  "DCX Agentic AI Engineer — Alation (2026-08-25)",
+  "Developer - Agentic AI — Intangles (2026-09-23)",
+  "Director, Agentic AI Infrastructure & Orchestration Engineer — Complex NTWRK (2026-03-27)",
+  "Distinguished AI Engineer (Agentic AI Platform) — Capital One (2026-05-29)",
+  "Distinguished AI Engineer (Agentic AI Platform) — Capital One (2026-06-25)",
+  "Distinguished Engineer (Agentic AI) — HERE Technologies (2026-05-29)",
+  "Engineer - Agentic AI Developer — Sutherland (2026-03-27)",
+  "Forward AI Engineer - Agentic AI — Avathon (2026-11-06)",
+  "Forward Deploy Engineer || IDP & GTM || AI & Agentic — IFS (2026-08-25)",
+  "Forward Deployed Engineer & Agentic Workflow Engineer – AI Innovation & Transformation — CrossCountry Consulting (2026-08-25)",
+  "Forward Deployed Engineer (Agentic AI) — Rimini Street (2026-06-25)",
+  "Forward Deployed Engineer - AI & Agentic Engineer — Kyndryl (2026-09-23)",
+  "Forward Deployed Engineer - Agentic AI for Clinical Development — Medable (2026-05-29)",
+  "Forward Deployed Engineer - Lead AI & Agentic Engineer — Kyndryl (2026-09-23)",
+  "Forward Deployed Engineer | Agentic AI — DeepL (2026-02-04)",
+  "Forward Deployed Engineer – Agentic AI for Clinical Development — Medable (2026-02-27)",
+  "Forward Deployed Engineer – Agentic AI — Solvd, Inc. (2026-08-25)",
+  "Forward Deployed Engineer, AI and Agentic SDLC — GitLab (2026-09-23)",
+  "Forward Deployment Engineer - AI & Agentic Solutions — Visionary Integration Professionals (2026-08-25)",
+  "Forward Deployment Engineer - Agentic AI — Diligent (2026-04-22)",
+  "Founding Software Engineer - Agentic AI (Remote) — Glacis (2026-04-22)",
+  "Frontend Engineer - Agentic AI — CUBE (cube.global) (2026-08-25)",
+  "Frontend Engineer - Agentic AI — Hawk (2026-11-06)",
+  "Full Stack Agentic AI Engineer — Kyndryl (2026-07-22)",
+  "Full Stack Engineer (AI & Agentic AI Systems) – Assistant Vice President — Citi (2026-03-27)",
+  "Full Stack Engineer (AI & Agentic AI Systems) — Citi (2026-04-22)",
+  "Full Stack Engineer (Agentic AI) — Accellor (2026-03-27)",
+  "Full Stack Engineer, Agentic AI — Lazer Technologies (2026-02-04)",
+  "Full Stack Engineer, Agentic AI — Lazer Technologies (2026-11-06)",
+  "Full Stack Software Engineer - Agentic AI Startup — NinjaTech AI (2026-02-04)",
+  "Full-Stack AI Engineer (Prompt Engineering & Agentic Systems) Python, Azure — Cyderes (cyderes.com) (2026-02-27)",
+  "Full-Stack AI Engineer / Data Scientist – Agentic Systems — Roche (2026-08-25)",
+  "Full-Stack AI Engineer / Data Scientist – Agentic Systems — Roche (2026-09-23)",
+  "Full-Stack Software Engineer (Frontend, Backend & Cloud) – Applied & Agentic AI Systems — Roche (2026-08-25)",
+  "Fullstack AI Quality Engineer – Applied & Agentic AI Systems — Roche (2026-11-06)",
+  "Fullstack Data Engineer - Applied & Agentic AI Systems — Roche (2026-09-23)",
+  "GenAI & Agentic AI Developer — Kyndryl (2026-02-27)",
+  "GenAI / Agentic AI Engineer (US) — TD Bank (2026-05-29)",
+  "GenAI / Agentic AI Engineer — Arting Digital (2026-08-25)",
+  "GenAI Engineer – LLM, RAG, Agentic AI & MLOps — Synechron (2026-11-06)",
+  "Google Cloud Generative AI Engineer (Vertex AI & Agentic AI) — Capgemini (2026-08-25)",
+  "Graduate Agentic AI Engineer — Ericsson (2026-05-29)",
+  "Hiring: AI Engineer | Agentic AI, AWS Bedrock AgentCore & Langfuse | 15+ Years — TMS LLC (2026-11-06)",
+  "Innovation, Data & Analytics Team, AI/ML Engineer (Agentic Systems) — Pfizer (2026-09-23)",
+  "Integrations Engineer, Agentic AI Platform — Trimble (2026-02-27)",
+  "Intelligent Automation Developer II - UiPath/Agentic AI — CareSource (2026-04-22)",
+  "Java Gen AI/Agentic AI implementations Senior Developer — Citigroup (2026-11-06)",
+  "Jr. AI Engineer (GenAI / Hyperscaler / Agentic AI) — Nexaminds (2026-03-27)",
+  "Jr. Agentic AI Engineer — Proclink (2026-11-06)",
+  "LLM & Agentic AI Performance Engineer — Intel (2026-11-06)",
+  "Lead / Manager Agentic AI Engineer - Claude Code & Codex — Blend360 (2026-08-25)",
+  "Lead AI Engineer ( MLX, Gen AI Platform Services, Agentic AI) — Capital One (2026-04-22)",
+  "Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-02-04)",
+  "Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-04-22)",
+  "Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-05-29)",
+  "Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-09-23)",
+  "Lead AI Engineer (Gen AI Platform, Agentic AI & LLM Infrastructure & Orchestration) — Capital One (2026-03-27)",
+  "Lead AI Engineer (GenAI Platform, AI Foundations, LLM Core and Agentic AI) — Capital One (2026-06-25)",
+  "Lead AI Engineer (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-04-22)",
+  "Lead AI Engineer (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-05-29)",
+  "Lead AI Engineer (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-07-22)",
+  "Lead AI Engineer - Agentic Engineering — Blend360 (2026-08-25)",
+  "Lead AI Engineer - Agentic Engineering — Blend360 (2026-11-06)",
+  "Lead AI Engineer, NLQ & Agentic Systems — Upwork (2026-04-22)",
+  "Lead AI Engineer- Data and AI Platform (Agentic Development) — Visa Inc, (2026-02-27)",
+  "Lead AI/ML Engineer(MCP , terraform, Agentic Protocols,LLMs) — Optum (2026-08-25)",
+  "Lead Agentic AI Engineer — CodeRoad (2026-11-06)",
+  "Lead Agentic AI Engineer — Ecolab (2026-02-27)",
+  "Lead Agentic AI Engineer — HERE Technologies (2026-05-29)",
+  "Lead Agentic AI Engineer — Trimble (2026-02-27)",
+  "Lead Agentic AI Engineer — Trimble (2026-04-22)",
+  "Lead Agentic AI Engineer — Trimble (2026-05-29)",
+  "Lead Agentic AI Engineer/Architect — dentsu (2026-08-25)",
+  "Lead Agentic Artificial Intelligence Engineer — Trimble (2026-05-29)",
+  "Lead Engineer ( Agentic AI) — Yubi (2026-11-06)",
+  "Lead Engineer - Agentic AI — DataZymes Analytics Pvt. Ltd. (2026-08-25)",
+  "Lead Engineer – Agentic AI — QualMinds (2026-11-06)",
+  "Lead Engineer – GenAI, Agentic AI, and Knowledge Graph Architect — EXL (2026-08-25)",
+  "Lead Engineer, Agentic AI Workflows — Nexthop AI (2026-06-25)",
+  "Lead Java and Agentic AI Engineer - Capital Markets — Wells Fargo (2026-02-27)",
+  "Lead Java and Agentic AI Engineer - Capital Markets — Wells Fargo (2026-04-22)",
+  "Lead Product Marketing Engineer - Agentic AI Transformation — DataRobot (2026-03-27)",
+  "Lead Software Engineer - full stack (java/.net) + AI/GenAI/Agentic AI — Wells Fargo (2026-02-27)",
+  "Lead Software Engineer Agentic AI Solutions , Java or Python — JPMorganChase (2026-11-06)",
+  "Lead Software Engineer, DevOps / MLOps (Agentic Workflows, AI/ML Guardrails, Kubernetes, Python, AWS) — Capital One (2026-04-22)",
+  "Lead Software Engineer: Cloud Infrastructure & Platform Engineering (Java, Python, Agentic AI) — JPMorganChase (2026-08-25)",
+  "MLOps & Agentic Platform Engineer (AI Infrastructure) — Hyphen Connect Limited (2026-06-25)",
+  "Machine Learning Engineer (II-III), Space Agentic AI — True Anomaly (2026-09-23)",
+  "Machine Learning Engineer - Agentic AI & Reinforcement Learning — Viridien (2026-11-06)",
+  "Machine Learning Engineer III (Full-Stack Gen AI & Agentic Systems) — Expedia Group (2026-04-22)",
+  "Machine Learning Engineer, Agentic AI — Zillow (2026-03-27)",
+  "Machine Learning Infrastructure Engineer - LLM & Agentic AI — Stellar Cyber (2026-11-06)",
+  "Manager – Forward Deployed Engineer, Agentic AI — Blend360 (2026-08-25)",
+  "Marketing Engineer, AI and Agentic Systems — Sidetrade (2026-05-29)",
+  "Moveworks Agentic AI Developer Remote - Texas — Templar Shield (2026-08-25)",
+  "PHI - Principal Engineer – Agentic AI Insurance Core — Prudential plc (2026-02-27)",
+  "Pricipal engineer/agentic ai — Weekday, Inc. (2026-08-25)",
+  "Principal / Distinguished Engineer , Agentic AI — Netskope (2026-02-27)",
+  "Principal AI / Automation Engineer – Agentic GTM Systems — Multiplier (2026-02-27)",
+  "Principal Agentic AI Engineer — Exavalu (2026-08-25)",
+  "Principal Agentic AI Engineer — HERE Technologies (2026-05-29)",
+  "Principal Agentic AI Engineer — HERE Technologies (2026-08-25)",
+  "Principal Agentic AI Engineer — Zeta Global (2026-03-27)",
+  "Principal Engineer (Agentic AI) — Yubi (2026-08-25)",
+  "Principal Engineer (Java/Agentic AI), Software Engineering — Saviynt (2026-02-27)",
+  "Principal Engineer - Gen AI, LLM, RAG, Agentic AI — Wells Fargo (2026-09-23)",
+  "Principal Engineer - Java Full Stack-Generative AI, Agentic AI — Wells Fargo (2026-09-23)",
+  "Principal Engineer – Agentic AI for Network & Security Operations | 15+ years, Bangalore — Cisco (2026-11-06)",
+  "Principal Engineer, Agentic AI — Nagarro (2026-09-23)",
+  "Principal Engineer, Agentic AI — WebPT (2026-02-27)",
+  "Principal Engineer, Generative & Agentic AI — Zip Co (2026-02-04)",
+  "Principal Forward Deployed Engineer - Agentic AI — OutSystems (2026-03-27)",
+  "Principal Full Stack AI Engineer (LLMs, Agentic AI & React/Typescript) — Autodesk (2026-07-22)",
+  "Principal GenAI & Agentic AI Engineer — Sabre Corporation (2026-08-25)",
+  "Principal Machine Learning Engineer, Agentic AI — Zillow (2026-02-04)",
+  "Principal Machine Learning Engineer, Agentic AI — Zillow (2026-03-27)",
+  "Principal Platform Engineer || Agentic AI || Identity and Access Management — IFS (2026-08-25)",
+  "Principal Platform Engineer || Agentic AI || Internal Developer Platform (IDP) — IFS (2026-08-25)",
+  "Principal Software Engineer (Generative AI, Agentic AI, ML models) — Zillion Technologies, Inc. (2026-02-27)",
+  "Principal Software Engineer (Java & Agentic AI) — Securonix (2026-09-23)",
+  "Principal Software Engineer - Agentic AI — Pulumi (2026-03-27)",
+  "Principal Software Engineer - Agentic AI — Red Hat (2026-05-29)",
+  "Principal Software Engineer, Applied AI - Hybrid  (LLM, Agentic, Claude Code, MCP) — Factset (2026-11-06)",
+  "Principal Software Engineer-Agentic AI — Autodesk (2026-02-27)",
+  "Principal Test Engineer – Agentic AI (Remote) — Businessolver (2026-08-25)",
+  "Professional Services Technical Operations Engineer - Agentic AI (Remote) — CrowdStrike (2026-08-25)",
+  "Python - Agentic AI Developer — Calpion Inc. (2026-08-25)",
+  "Python AI Engineer – LLM & Agentic AI (Finance Data Platform) — Wissen Technology (2026-11-06)",
+  "Python Developer GenAI & Agentic AI (m/f/d) — Nagarro (2026-07-22)",
+  "Python with Agentic AI & GenAI Engineer — Sutherland (2026-04-22)",
+  "Research Engineer (Agentic Behavior – Kotlin AI Value Stream) — JetBrains (2026-04-22)",
+  "Risk Architecture- Agentic AI and Machine Learning Developer- Experienced Associate — PwC (2026-05-29)",
+  "Risk Architecture- Agentic AI and Machine Learning Developer- Senior Associate — PwC (2026-05-29)",
+  "SDE - 1 | Fullstack Developer | Backend & Agentic AI — Fynd (2026-11-06)",
+  "SR Agentic AI Engineer — Assent (2026-11-06)",
+  "Salesforce AI & Agentic Engineer - 4+ Years — Zensar Technologies (2026-04-22)",
+  "Senior AI & Automation Engineer (6+ years Generative AI, Agentic AI, LLMs, Python, APIs, MCP) — Western Digital (2026-04-22)",
+  "Senior AI & Automation Engineer (6+ years Generative AI, Agentic AI, LLMs, Python, APIs, MCP) — Western Digital (2026-05-29)",
+  "Senior AI & Automation Engineer (6+ years Generative AI, Agentic AI, LLMs, Python, APIs, MCP) — Western Digital (2026-06-25)",
+  "Senior AI & Automation Engineer (Generative AI, Agentic AI, LLMs, Python, APIs, MCP) — Western Digital (2026-02-27)",
+  "Senior AI Agentic Engineer — Profile Software (2026-08-25)",
+  "Senior AI Engineer  (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-02-04)",
+  "Senior AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-02-04)",
+  "Senior AI Engineer (Gen AI Platform Services, Agentic Systems) — Capital One (2026-02-04)",
+  "Senior AI Engineer (Generative AI & Agentic Systems) — WonderBotz (2026-09-23)",
+  "Senior AI Engineer - Agentic & Generative AI — SPAR Solutions (2026-07-22)",
+  "Senior AI Engineer - Agentic Systems — N-iX (2026-09-23)",
+  "Senior AI Engineer / Data Scientist (Agentic AI) — SRM Technologies (2026-08-25)",
+  "Senior AI Engineer I - Agentic AI — American Express (2026-06-25)",
+  "Senior AI Engineer – Agentic Platform Lead — Voyager Technologies (2026-02-04)",
+  "Senior AI Engineer – Agentic Platform — Amtech Software (2026-09-23)",
+  "Senior AI Engineer, Agentic AI for Finance — Everpure (2026-11-06)",
+  "Senior AI Engineer, Agentic AI — Applied Materials (2026-09-23)",
+  "Senior AI Engineer, Agentic Platform — WorkWave (2026-11-06)",
+  "Senior AI Engineer, Agentic Systems — AI Technology Partners (2026-02-04)",
+  "Senior AI Engineer, Agentic Systems — AI Technology Partners (2026-04-22)",
+  "Senior AI Engineer, Conversational AI & Agentic Systems — Blooming Health (2026-02-04)",
+  "Senior AI Engineer, Enterprise Agentic Solutions — Solventum (2026-06-25)",
+  "Senior AI/Agentic Engineer — Synthesized (2026-07-22)",
+  "Senior AI/ML Engineer - LLM, RAG, Agentic AI — Optum (2026-07-22)",
+  "Senior AWS Agentic AI Developer (Contractor) — Munchkin, Inc. (2026-11-06)",
+  "Senior Agentic AI Architect/Engineer — Rockwell Automation (2026-05-29)",
+  "Senior Agentic AI Developer — CAI (cai.io). (2026-09-23)",
+  "Senior Agentic AI Developer — Coretek Services (2026-11-06)",
+  "Senior Agentic AI Engineer (Python)_Boston — Photon (2026-08-25)",
+  "Senior Agentic AI Engineer - Core Platforms — American Express (2026-11-06)",
+  "Senior Agentic AI Engineer - Vice President — Citi (2026-09-23)",
+  "Senior Agentic AI Engineer ID80140 — AgileEngine (2026-08-25)",
+  "Senior Agentic AI Engineer — Alternative Path (2026-11-06)",
+  "Senior Agentic AI Engineer — CUBE (cube.global) (2026-09-23)",
+  "Senior Agentic AI Engineer — Elsevier (2026-11-06)",
+  "Senior Agentic AI Engineer — ImagineX Consulting (2026-11-06)",
+  "Senior Agentic AI Engineer — Perceptive (2026-08-25)",
+  "Senior Agentic AI Engineer — RELX (2026-11-06)",
+  "Senior Agentic AI Engineer — Scopely (2026-08-25)",
+  "Senior Agentic AI Engineer — Trimble (2026-04-22)",
+  "Senior Agentic AI Engineer — Trimble (2026-05-29)",
+  "Senior Agentic AI Engineer — Zeta Global (2026-03-27)",
+  "Senior Agentic AI Infrastructure Engineer I - Core Platforms — American Express (2026-11-06)",
+  "Senior Agentic AI Software Developer — Kentro (2026-02-27)",
+  "Senior Agentic AI Software Engineer — LTS (2026-08-25)",
+  "Senior Agentic Engineer, AI Platform — Nightfall AI (2026-08-25)",
+  "Senior Backend Engineer — Distributed Systems & Agentic AI — Sumo Logic (2026-07-22)",
+  "Senior Developer Agentic AI — S&P Global (2026-02-27)",
+  "Senior Developer Agentic AI — S&P Global (2026-08-25)",
+  "Senior Engineer - AI & Agentic Sandbox — BlueRock.io (2026-02-27)",
+  "Senior Engineer - Agentic AI — Saviynt (2026-02-27)",
+  "Senior Engineer, Agentic AI & MLOps Engineering (5-8 years) — Sandisk Corporation (2026-08-25)",
+  "Senior Engineer, Agentic AI — Circles (circles.co) (2026-04-22)",
+  "Senior Front-End Agentic AI Engineer — LTS (2026-08-25)",
+  "Senior Full Stack Agentic AI Developer — Capstone Integrated Solutions (2026-07-22)",
+  "Senior Full Stack Engineer (Agentic AI) — Hawk (2026-06-25)",
+  "Senior Full Stack Java Developer – Agentic AI / AI-Assisted Development — Synthlane Technologies (2026-09-23)",
+  "Senior Full-Stack AI Agentic Engineer — NEORIS (2026-06-25)",
+  "Senior Full-Stack Product Engineer — Agentic AI Applications — Agivant Technologies India Private Limited (2026-08-25)",
+  "Senior GenAI/Agentic AI Engineer — Weekday, Inc. (2026-07-22)",
+  "Senior Generative AI Engineer - Agentic Infrastructure — Proof of Skill (2026-09-23)",
+  "Senior Generative AI Engineer-Python and Agentic AI — Citi (2026-07-22)",
+  "Senior High Performance AI Engineer, Agentic AI — NVIDIA (2026-09-23)",
+  "Senior LLM and Agentic AI Engineer - Assistant Vice President — Citigroup (2026-11-06)",
+  "Senior Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-02-04)",
+  "Senior Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-02-27)",
+  "Senior Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-05-29)",
+  "Senior Lead AI Engineer (AI Foundations, LLM Core and Agentic AI) — Capital One (2026-09-23)",
+  "Senior Lead AI Engineer (Gen AI Platform Services, Agentic AI) — Capital One (2026-02-27)",
+  "Senior Lead AI Engineer (Gen AI Platform Services, Agentic AI) — Capital One (2026-04-22)",
+  "Senior Lead AI Engineer (GenAI Platform, Agentic Infrastructure) — Capital One (2026-06-25)",
+  "Senior Lead AI Engineer (MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-07-22)",
+  "Senior Lead AI Engineer - (Gen AI Platform Services, Agentic AI) — Capital One (2026-08-25)",
+  "Senior Lead AI Engineer(MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-05-29)",
+  "Senior Lead AI Engineer(MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-06-25)",
+  "Senior Lead AI Engineer(MLX, Agentic AI, Gen AI platform Services) — Capital One (2026-07-22)",
+  "Senior ML Engineer (LLM, Agentic AI) — Nisos (2026-02-04)",
+  "Senior Machine Learning Engineer (Agentic AI) — Zscaler (2026-05-29)",
+  "Senior Machine Learning Engineer (Full-Stack Gen AI & Agentic Systems) — Expedia Group (2026-04-22)",
+  "Senior Principal Engineer - Agentic AI — Ditto (2026-11-06)",
+  "Senior Principal Engineer – Agentic AI — FyerX (2026-11-06)",
+  "Senior Principal Systems Development Engineer- Python & AI, Agentic AI — Dell Technologies (2026-02-27)",
+  "Senior Principal, AI Software Engineer– Agentic & Industry Solutions — Genesys (2026-07-22)",
+  "Senior Product Software Engineer (Agentic AI) - Hybrid (NYC) R0054891 — Wolters Kluwer (2026-03-27)",
+  "Senior QA Engineer, AI Agents & Agentic Workflows — QAD (2026-11-06)",
+  "Senior Security Engineer, Agentic AI — Trail of Bits (2026-03-27)",
+  "Senior Site-Reliability Engineer (Agentic AI) — Securonix (2026-02-27)",
+  "Senior Software Development Engineer (AI & Agentic Systems) — Jamf (2026-08-25)",
+  "Senior Software Engineer (Agentic / AI Insurance SaaS) — EvolutionIQ (2026-02-04)",
+  "Senior Software Engineer (Agentic AI Automation) — S&P Global (2026-05-29)",
+  "Senior Software Engineer (Agentic AI) — Saviynt (2026-05-29)",
+  "Senior Software Engineer (Agentic AI) — Yubi (2026-08-25)",
+  "Senior Software Engineer (Java & Agentic AI) — Securonix (2026-05-29)",
+  "Senior Software Engineer (Java FullStack + Agentic Ai) — Altisource (2026-06-25)",
+  "Senior Software Engineer (Java/Agentic AI), Software Engineering — Saviynt (2026-02-27)",
+  "Senior Software Engineer (Python & Agentic AI) — Factset (2026-05-29)",
+  "Senior Software Engineer - Agentic AI Applications — Serko Limited (2026-09-23)"
+ ],
+ "agentic_title_count": 538,
+ "germany": {
+  "n": 323,
+  "either": {
+   "n": 323,
+   "k": 85,
+   "pct": 26.3
+  },
+  "named": {
+   "n": 323,
+   "k": 55,
+   "pct": 17.0
+  },
+  "examples": [
+   {
+    "scrape": "2026-02-04",
+    "job_id": "7521540",
+    "company": "Xsolla",
+    "title": "Full Stack AI Engineer",
+    "url": "https://builtin.com/job/full-stack-ai-engineer/7521540",
+    "tools": [
+     "Claude Code",
+     "Lovable"
+    ],
+    "concepts": [
+     "context engineering",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-02-04",
+    "job_id": "7798691",
+    "company": "Wolters Kluwer",
+    "title": "Full Stack Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/full-stack-engineer-libra-legal-ai-assistant-m-f-d/7798691",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-02-04",
+    "job_id": "8241313",
+    "company": "AutoScout24",
+    "title": "Software Engineer / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/software-engineer-ai-enabler-m-f-d/8241313",
+    "tools": [
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-02-04",
+    "job_id": "8254408",
+    "company": "Snowflake",
+    "title": "AI Account Engineer - Activation",
+    "url": "https://builtin.com/job/ai-account-engineer-activation/8254408",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-02-04",
+    "job_id": "8273513",
+    "company": "Wolters Kluwer",
+    "title": "AI Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/ai-engineer/8273513",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-02-04",
+    "job_id": "8276358",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant/8276358",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-02-27",
+    "job_id": "8224673",
+    "company": "Babbel",
+    "title": "Principal Software Engineer - Fullstack, AI (all genders)",
+    "url": "https://builtin.com/job/principal-fullstack-engineer-all-genders/8224673",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-02-27",
+    "job_id": "8477104",
+    "company": "Parity Technologies",
+    "title": "Product Engineer (AI)",
+    "url": "https://builtin.com/job/product-engineer-ai/8477104",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-02-27",
+    "job_id": "8517321",
+    "company": "AutoScout24",
+    "title": "Senior Software Engineer / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-enabler-m-f-d/8517321",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-03-27",
+    "job_id": "8241310",
+    "company": "AutoScout24",
+    "title": "Senior Software Engineer / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/software-engineer-ai-enabler-m-f-d/8241310",
+    "tools": [
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-03-27",
+    "job_id": "8660713",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant-m-f-d/8660713",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-03-27",
+    "job_id": "8716022",
+    "company": "AutoScout24",
+    "title": "Senior Software Engineer - iOS, AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-ios-m-f-d/8716022",
+    "tools": [
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-03-27",
+    "job_id": "8716028",
+    "company": "AutoScout24",
+    "title": "Senior Software Engineer - Android, AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-android-m-f-d/8716028",
+    "tools": [
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-03-27",
+    "job_id": "8855331",
+    "company": "Hawk",
+    "title": "Senior UX/UI Engineer (Agentic AI)",
+    "url": "https://builtin.com/job/senior-ux-ui-engineer-agentic-ai/8855331",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-04-22",
+    "job_id": "9081457",
+    "company": "Intercom",
+    "title": "AI Infrastructure Engineer",
+    "url": "https://builtin.com/job/ai-infrastructure-engineer/9081457",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "8036765",
+    "company": "Intercom",
+    "title": "Staff Product Engineer, AI",
+    "url": "https://builtin.com/job/staff-product-engineer-ai/8036765",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9151498",
+    "company": "RepRisk",
+    "title": "Senior AI Engineer",
+    "url": "https://builtin.com/job/senior-ai-engineer/9151498",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9162545",
+    "company": "HERE Technologies",
+    "title": "Lead Software Engineer (AI/ML)",
+    "url": "https://builtin.com/job/lead-software-engineer-ai-ml/9162545",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9226812",
+    "company": "1GLOBAL",
+    "title": "Senior AI Engineer",
+    "url": "https://builtin.com/job/senior-ai-engineer/9226812",
+    "tools": [
+     "Claude Code",
+     "Codex"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9267396",
+    "company": "Langdock",
+    "title": "AI Adoption Engineer - m/f/d",
+    "url": "https://builtin.com/job/ai-adoption-engineer-m-f-d/9267396",
+    "tools": [],
+    "concepts": [
+     "agentic coding / development / engineering",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9314142",
+    "company": "Nebius",
+    "title": "AI Full-Stack Developer",
+    "url": "https://builtin.com/job/ai-full-stack-developer/9314142",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9373587",
+    "company": "TextCortex AI",
+    "title": "Senior Frontend Engineer at TextCortex AI",
+    "url": "https://builtin.com/job/senior-frontend-engineer-textcortex-ai/9373587",
+    "tools": [
+     "Cursor",
+     "GitHub Copilot"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9415777",
+    "company": "FREENOW",
+    "title": "Senior Backend Engineer - Support and AI (F/M/D)",
+    "url": "https://builtin.com/job/senior-backend-engineer-support-and-ai-f-m-d/9415777",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9426458",
+    "company": "Toast",
+    "title": "Senior Principal Software Engineer, AI Agents (Dublin, Ireland)",
+    "url": "https://builtin.com/job/senior-principal-software-engineer-ai-agents-dublin-ireland/9426458",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "spec-driven"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9435009",
+    "company": "Toast",
+    "title": "Senior Principal Software Engineer - AI Pod",
+    "url": "https://builtin.com/job/senior-principal-software-engineer-ai-pod/9435009",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-05-29",
+    "job_id": "9523336",
+    "company": "Delivery Hero",
+    "title": "(Senior) Product Manager, Agentic AI IDEs (Developer Tools)-Tech Foundations",
+    "url": "https://builtin.com/job/senior-product-manager-agentic-ai-ides-developer-tools-tech-foundations/9523336",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9136556",
+    "company": "Hawk",
+    "title": "Senior Full Stack Engineer (Agentic AI)",
+    "url": "https://builtin.com/job/senior-full-stack-engineer/9136556",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9290929",
+    "company": "H2O.ai",
+    "title": "AI Engineer",
+    "url": "https://builtin.com/job/ai-engineer/9290929",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9611924",
+    "company": "Toast",
+    "title": "Principal Software Engineer - AI Pod (Dublin, Ireland)",
+    "url": "https://builtin.com/job/principal-software-engineer-ai-pod-dublin-ireland/9611924",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9645521",
+    "company": "NICE",
+    "title": "Senior Sales Engineer - AI Agents (DACH)",
+    "url": "https://builtin.com/job/senior-sales-engineer-ai-agents-dach/9645521",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Replit",
+     "Lovable"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "vibe coding"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9681837",
+    "company": "Tripledot Studios",
+    "title": "Lead Playable Ads Developer, AI & Automation",
+    "url": "https://builtin.com/job/lead-playable-developer/9681837",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9763092",
+    "company": "SCHWAPe Shared Service GmbH",
+    "title": "Senior Fullstack Engineer (AI-Native, DRI) - Native German (m/w/d)",
+    "url": "https://builtin.com/job/senior-fullstack-engineer-ai-native-dri-native-german-m-w-d/9763092",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9775127",
+    "company": "Nagarro",
+    "title": "Senior Gen-AI Engineer",
+    "url": "https://builtin.com/job/senior-gen-ai-engineer/9775127",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9782679",
+    "company": "Aroundhome",
+    "title": "Senior Data Engineer (Modern Data Platform & AI) (all genders) | Berlin, hybrid or remote",
+    "url": "https://builtin.com/job/senior-data-engineer-modern-data-platform-ai-all-genders-berlin-hybrid-or-remote/9782679",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9863769",
+    "company": "Delivery Hero",
+    "title": "Senior Technical Product Manager, Agentic AI IDEs (Developer Tools)-Tech Foundations",
+    "url": "https://builtin.com/job/senior-technical-product-manager-agentic-ai-ides-developer-tools-tech-foundations/9863769",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9880729",
+    "company": "SRH University",
+    "title": "Founding Software Engineer (Backend, Cloud & AI Infrastructure)",
+    "url": "https://builtin.com/job/founding-software-engineer-backend-cloud-ai-infrastructure/9880729",
+    "tools": [
+     "Cursor",
+     "GitHub Copilot"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-06-25",
+    "job_id": "9909220",
+    "company": "Control Risks",
+    "title": "Senior AI Engineer",
+    "url": "https://builtin.com/job/senior-ai-engineer/9909220",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "AGENTS.md / CLAUDE.md / agent skills"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "10217977",
+    "company": "Microsoft",
+    "title": "Software Engineer II - Azure AI Services",
+    "url": "https://builtin.com/job/software-engineer-ii-azure-ai-services/10217977",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "10232717",
+    "company": "Vinted",
+    "title": "Staff Engineer, AI, Engineering Experience",
+    "url": "https://builtin.com/job/staff-engineer-ai-engineering-experience/10232717",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "Codex"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "10249397",
+    "company": "REF Digital",
+    "title": "Product Engineer (Full-Stack) | AI Product Development",
+    "url": "https://builtin.com/job/product-engineer-full-stack-ai-product-development/10249397",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "10270344",
+    "company": "HERE Technologies",
+    "title": "Lead Software Engineer (AI/ML)",
+    "url": "https://builtin.com/job/lead-software-engineer-ai-ml/10270344",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "9964120",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/w/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant-m-w-d/9964120",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "9996864",
+    "company": "Wolters Kluwer",
+    "title": "Senior Full Stack Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-full-stack-engineer-libra-legal-ai-assistant-m-f-d/9996864",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-07-22",
+    "job_id": "9996927",
+    "company": "Wolters Kluwer",
+    "title": "Senior Front-end Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-front-end-engineer-libra-legal-ai-assistant-m-f-d/9996927",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10063184",
+    "company": "Wolters Kluwer",
+    "title": "Senior Software Engineer (Libra - Legal AI Assistant) (m/w/d)",
+    "url": "https://builtin.com/job/senior-software-engineer/10063184",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10113400",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/w/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant-m-w-d/10113400",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10445682",
+    "company": "CUBE (cube.global)",
+    "title": "Frontend Engineer - Agentic AI",
+    "url": "https://builtin.com/job/frontend-engineer-agentic-ai/10445682",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10501652",
+    "company": "NICE",
+    "title": "Senior AI Software Engineer",
+    "url": "https://builtin.com/job/senior-ai-software-engineer/10501652",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "Codex"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10576149",
+    "company": "Nebius",
+    "title": "AI Full-Stack Developer",
+    "url": "https://builtin.com/job/ai-full-stack-developer/10576149",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10616289",
+    "company": "Wolters Kluwer",
+    "title": "Lead Software Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/lead-software-engineer-libra-legal-ai-assistant-m-f-d/10616289",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10616306",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-libra-legal-ai-assistant-m-f-d/10616306",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10761103",
+    "company": "Black Semiconductor",
+    "title": "Full Stack Developer - AI Integration (f/m/d)",
+    "url": "https://builtin.com/job/full-stack-developer-ai-integration-f-m-d/10761103",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10788157",
+    "company": "LeasingMarkt.de",
+    "title": "Senior Software Engineer  / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-enabler-m-f-d/10788157",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-08-25",
+    "job_id": "10818632",
+    "company": "Rematiq GmbH",
+    "title": "Senior AI Engineer",
+    "url": "https://builtin.com/job/senior-ai-engineer/10818632",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "10867506",
+    "company": "CUBE (cube.global)",
+    "title": "Senior Agentic AI Engineer",
+    "url": "https://builtin.com/job/senior-agentic-ai-engineer/10867506",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "10870596",
+    "company": "NICE",
+    "title": "Senior Sales Engineer - AI Agents (DACH)",
+    "url": "https://builtin.com/job/senior-sales-engineer-ai-agents-dach/10870596",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Replit",
+     "Lovable"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "vibe coding"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11011060",
+    "company": "Camunda",
+    "title": "Senior GTM Systems AI and Automation Engineer",
+    "url": "https://builtin.com/job/senior-gtm-systems-ai-and-automation-engineer/11011060",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11051886",
+    "company": "JetBrains",
+    "title": "Staff/Lead Software Developer (AI Agents & Integrations)",
+    "url": "https://builtin.com/job/staff-lead-software-developer-ai-agents-integrations/11051886",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11101569",
+    "company": "Checkly",
+    "title": "Senior Product Engineer (DevTools & AI reliability, remote)",
+    "url": "https://builtin.com/job/senior-product-engineer-devtools-ai-reliability-remote/11101569",
+    "tools": [
+     "Codex"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11101761",
+    "company": "Almedia",
+    "title": "AI Engineer - Data",
+    "url": "https://builtin.com/job/ai-engineer-data/11101761",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "context engineering"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11195042",
+    "company": "Soda",
+    "title": "AI Content Engineer",
+    "url": "https://builtin.com/job/ai-content-engineer/11195042",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "MCP",
+     "AGENTS.md / CLAUDE.md / agent skills"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11233326",
+    "company": "Integral Services GmbH",
+    "title": "Senior AI Engineer (f/m/d)",
+    "url": "https://builtin.com/job/senior-ai-engineer-f-m-d/11233326",
+    "tools": [
+     "Cursor",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "11275545",
+    "company": "NICE",
+    "title": "Senior Sales Engineer - AI Agents (Poland, CEE)",
+    "url": "https://builtin.com/job/senior-sales-engineer-ai-agents-poland-cee/11275545",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Replit",
+     "Lovable"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "vibe coding"
+    ]
+   },
+   {
+    "scrape": "2026-09-23",
+    "job_id": "9774994",
+    "company": "JetBrains",
+    "title": "AI Technical Lead - Developer Tooling",
+    "url": "https://builtin.com/job/ai-technical-lead-c-ecosystem/9774994",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11219748",
+    "company": "Cloudflare",
+    "title": "Senior Customer Engineer, Start Up AI",
+    "url": "https://builtin.com/job/principal-customer-engineer-digital-natives/11219748",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11369908",
+    "company": "Accenture",
+    "title": "AI Native Software Engineer – Data & AI",
+    "url": "https://builtin.com/job/junior-ai-native-software-engineer-all-genders/11369908",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11578275",
+    "company": "Wolters Kluwer",
+    "title": "Senior Software Engineer (Libra - Legal AI Assistant) (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-libra-legal-ai-assistant-m-f-d/11578275",
+    "tools": [
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11688559",
+    "company": "Hawk",
+    "title": "Frontend Engineer - Agentic AI",
+    "url": "https://builtin.com/job/frontend-engineer-agentic-ai/11688559",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11748182",
+    "company": "Kuro",
+    "title": "Staff Software Engineer - AI",
+    "url": "https://builtin.com/job/staff-software-engineer-ai/11748182",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11894527",
+    "company": "qlub",
+    "title": "Senior Software Engineer, AI-Native Development",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-native-development/11894527",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11935502",
+    "company": "LeasingMarkt.de",
+    "title": "Senior Software Engineer  / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-enabler-m-f-d/11935502",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11940489",
+    "company": "Engelhart",
+    "title": "Applied AI Engineer",
+    "url": "https://builtin.com/job/applied-ai-engineer/11940489",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "MCP",
+     "AGENTS.md / CLAUDE.md / agent skills"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "11951083",
+    "company": "Vicoland GmbH",
+    "title": "Lead Product Engineer - AI",
+    "url": "https://builtin.com/job/lead-product-engineer-ai/11951083",
+    "tools": [
+     "Claude Code",
+     "Cursor"
+    ],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "context engineering"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12004810",
+    "company": "Prodlane GmbH",
+    "title": "(Senior) AI Engineer (m/f/d) – Remote",
+    "url": "https://builtin.com/job/senior-ai-engineer-m-f-d-remote/12004810",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12004811",
+    "company": "Prodlane GmbH",
+    "title": "(Senior) Product Engineer – AI (m/f/d) – Remote",
+    "url": "https://builtin.com/job/senior-product-engineer-ai-m-f-d-remote/12004811",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12004812",
+    "company": "Prodlane GmbH",
+    "title": "(Senior) Software Engineer – AI (m/f/d) – Remote",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-m-f-d-remote/12004812",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12005495",
+    "company": "Microsoft",
+    "title": "Senior Data and Cloud Engineer, AI for Science",
+    "url": "https://builtin.com/job/senior-data-and-cloud-engineer-ai-science/12005495",
+    "tools": [],
+    "concepts": [
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12005499",
+    "company": "Microsoft",
+    "title": "Senior Research Engineer Machine Learning, AI for Science",
+    "url": "https://builtin.com/job/senior-research-engineer-machine-learning-ai-science/12005499",
+    "tools": [],
+    "concepts": [
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12005502",
+    "company": "Microsoft",
+    "title": "Senior Software Engineer, AI for Science",
+    "url": "https://builtin.com/job/senior-software-engineer-ai-science/12005502",
+    "tools": [],
+    "concepts": [
+     "agentic coding / development / engineering"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12034458",
+    "company": "Truvio",
+    "title": "AI Engineer",
+    "url": "https://builtin.com/job/ai-engineer/12034458",
+    "tools": [],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12067785",
+    "company": "TAC",
+    "title": "Lead Engineer (gn) @ AI Venture, Berlin",
+    "url": "https://builtin.com/job/lead-engineer-gn-ai-venture-berlin/12067785",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12068732",
+    "company": "Atlantic and FoodLabs",
+    "title": "Lead Engineer (gn) @ AI Venture, Berlin",
+    "url": "https://builtin.com/job/lead-engineer-gn-ai-venture-berlin/12068732",
+    "tools": [
+     "Claude Code"
+    ],
+    "concepts": [
+     "coding agent / coding assistant",
+     "AI-assisted / AI-native development",
+     "agentic coding / development / engineering",
+     "harness"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12081139",
+    "company": "Inviso Corporation",
+    "title": "Applied AI Engineer - Germany",
+    "url": "https://builtin.com/job/applied-ai-engineer-germany/12081139",
+    "tools": [],
+    "concepts": [
+     "AI-assisted / AI-native development",
+     "MCP"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "12095896",
+    "company": "Wolters Kluwer",
+    "title": "Senior AI Evals Engineer (AI Quality & Safety) - Libra-Legal AI Assistant (m/w/d)",
+    "url": "https://builtin.com/job/senior-ai-evals-engineer-ai-quality-safety-libra-legal-ai-assistant-m-w-d/12095896",
+    "tools": [
+     "Claude Code",
+     "Cursor",
+     "Codex"
+    ],
+    "concepts": [
+     "coding agent / coding assistant"
+    ]
+   },
+   {
+    "scrape": "2026-11-06",
+    "job_id": "8480405",
+    "company": "AutoScout24",
+    "title": "Senior Software Engineer / AI Enabler (m/f/d)",
+    "url": "https://builtin.com/job/software-engineer-ai-enabler-m-f-d/8480405",
+    "tools": [
+     "Cursor",
+     "GitHub Copilot",
+     "Codex"
+    ],
+    "concepts": []
+   }
+  ]
+ }
+}
