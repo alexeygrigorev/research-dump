@@ -25,3 +25,5 @@ sha1(title|company|description[:2000]) across ids and sources.
 Month = month of the first archive capture. Known gaps: Common Crawl captured few builtin
 pages in 2026-07..09 (see `work/logs/measure.txt`), and the Greenhouse/Ashby boards were read
 for one crawl only (2025-11), which inflates that month. The `work/` cache itself is not in git.
+
+Cleaned version: see `../QUALITY_REPORT.md` and `../clean/` (t3450u).
