@@ -1,6 +1,6 @@
 # 3. Preparing Data for RAG
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -58,7 +58,7 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | :---- | :---- | :---- |
 | 3.1 | From raw files to documents | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`; LZ `01-agentic-rag/09-data-ingestion.md` |
 | 3.2 | Chunking documents | BC `03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
-| 3.3 | Transcripts: long unstructured text | BC `v2/02-rag-usecases-tech/03-youtube/02–05` |
+| 3.3 | Transcripts: long unstructured text | BC `v2/02-rag-usecases-tech/03-youtube/02-05` |
 | 3.4 | PDFs: extracting text | BC `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; FG Document Processing (16.0%) |
 | 3.5 | Structuring content with an LLM | BC `04-books/03-structured-output.md`; `03-youtube/04-structured-output.md` |
 | 3.6 | Processing everything in parallel | BC `04-books/06-processing-all-pages.md`, `07-parallel-processing.md` |

@@ -1,10 +1,10 @@
 # 7. Agent Frameworks, Tools and MCP
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 7 lessons, 2-3 hours.
 
 ## Summary
 
-After writing the loop by hand, learners move to the market-leading framework stack: **LangChain** (21.1% of all jobs; 76.8% of framework adopters) and **LangGraph** (14.4% overall; 71.0% of framework adopters; #1 co-occurring pair at 3.5x lift). They design typed tools for workflow automation, stream agent events, connect agents through the **Model Context Protocol (MCP)**—the fastest-rising skill in the field guide (9.9% → 20.4%)—and compare with PydanticAI.
+After writing the loop by hand, learners move to the market-leading framework stack: **LangChain** (21.1% of all jobs; 76.8% of framework adopters) and **LangGraph** (14.4% overall; 71.0% of framework adopters; #1 co-occurring pair at 3.5x lift). They design typed tools for workflow automation, stream agent events, connect agents through the **Model Context Protocol (MCP)**, the fastest-rising skill in the field guide (9.9% → 20.4%), and compare with PydanticAI.
 
 ## Learning objectives
 
@@ -63,4 +63,4 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 7.4 | The agent in LangChain and LangGraph | FG LangChain (76.8% share) + LangGraph (71.0% share); LZ `16-other-frameworks.md` |
 | 7.5 | Watching the agent work: events and streaming | BC `03-agent-frameworks/06-event-stream-handlers.md` (adapted to LangGraph streaming) |
 | 7.6 | Model Context Protocol (MCP): local servers | BC `v2/03-agents/07-mcp/02-stdio-transport.md`; FG MCP (9.9% → 20.4%) |
-| 7.7 | Comparing frameworks: LangGraph vs PydanticAI | BC `03-agent-frameworks/05-pydantic-ai.md`, `06-agent-frameworks-alternatives/02–04` |
+| 7.7 | Comparing frameworks: LangGraph vs PydanticAI | BC `03-agent-frameworks/05-pydantic-ai.md`, `06-agent-frameworks-alternatives/02-04` |

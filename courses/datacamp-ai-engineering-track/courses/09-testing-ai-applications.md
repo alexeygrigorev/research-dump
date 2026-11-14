@@ -1,6 +1,6 @@
 # 9. Testing AI Applications
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Quality. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Quality. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -48,7 +48,7 @@ Python 3.13; `pytest`, `uv` (versions TBC), `langgraph`, `pydantic-ai>=1.55.0`, 
 
 ### Notes
 
-Tests call real models, so they are non-deterministic and cost money: the course must say this openly and keep the suite small. Tool-call and message-inspection assertions should work cleanly with the LangGraph/LangChain agent from courses 7–8.
+Tests call real models, so they are non-deterministic and cost money: the course must say this openly and keep the suite small. Tool-call and message-inspection assertions should work cleanly with the LangGraph/LangChain agent from courses 7-8.
 
 ## Lesson outline and source map
 
@@ -61,5 +61,5 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 9.3 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
 | 9.4 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
 | 9.5 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
-| 9.6 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03–05` |
+| 9.6 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
 | 9.7 | Tracking costs | BC `03-testing/06-tracking-costs.md` |

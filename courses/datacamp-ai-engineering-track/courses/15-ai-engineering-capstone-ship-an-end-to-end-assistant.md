@@ -1,10 +1,10 @@
 # 15. AI Engineering Capstone: Ship an End-to-End Assistant
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 6. Capstone. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 6. Capstone. 7 lessons, 2-3 hours.
 
 ## Summary
 
-Learners build one complete enterprise workflow & document-processing assistant from a new dataset—combining the full **integrator stack** (91.7% of AI-First roles), **evaluation** (69.3% in Nov), and **production ops** (71.0% GenAI+Ops). Each lesson adds one layer: ingestion, hybrid retrieval, LangGraph agent with MCP/action tools, guardrails, `pytest` and evaluation table, FastAPI/UI, OpenTelemetry monitoring, and Docker deployment.
+Learners build one complete enterprise workflow & document-processing assistant from a new dataset, combining the full **integrator stack** (91.7% of AI-First roles), **evaluation** (69.3% in Nov), and **production ops** (71.0% GenAI+Ops). Each lesson adds one layer: ingestion, hybrid retrieval, LangGraph agent with MCP/action tools, guardrails, `pytest` and evaluation table, FastAPI/UI, OpenTelemetry monitoring, and Docker deployment.
 
 ## Learning objectives
 
@@ -29,7 +29,7 @@ Theory and application
 
 ### Syntax / functionality involved
 
-Everything from courses 1–14: ingestion and chunking, hybrid retrieval, LangGraph agent with MCP/action tools, guardrails, `pytest` and judge tests, evaluation table, OpenTelemetry logging and dashboard, FastAPI + Docker, README
+Everything from courses 1-14: ingestion and chunking, hybrid retrieval, LangGraph agent with MCP/action tools, guardrails, `pytest` and judge tests, evaluation table, OpenTelemetry logging and dashboard, FastAPI + Docker, README
 
 ### How it's used in the exercises
 
@@ -37,7 +37,7 @@ The learner receives an enterprise workflow/document dataset and a problem state
 
 ### Model / release
 
-Python 3.13; same packages as courses 2–13 (`minsearch>=0.1.0`, `sentence-transformers>=5.5.0`, `langchain`, `langgraph`, `openai>=2.38.0`, `fastapi`, `pytest` TBC, `streamlit>=1.58.0`, `pandas>=3.0.3`). Model chosen by the learner and justified by evaluation.
+Python 3.13; same packages as courses 2-13 (`minsearch>=0.1.0`, `sentence-transformers>=5.5.0`, `langchain`, `langgraph`, `openai>=2.38.0`, `fastapi`, `pytest` TBC, `streamlit>=1.58.0`, `pandas>=3.0.3`). Model chosen by the learner and justified by evaluation.
 
 ### Source material
 
@@ -48,7 +48,7 @@ Python 3.13; same packages as courses 2–13 (`minsearch>=0.1.0`, `sentence-tran
 
 ### Notes
 
-Use a different dataset from the running example of courses 2–11 (focused on enterprise workflow automation and document processing) so the learner cannot copy earlier code. Pick it from a top field-guide domain with public data. Finance is the largest (3,877 use-case mentions), and `portfolio/07-project-ideas.md` suggests invoice extraction and reconciliation (structured output + RAG over agreements). The checklist combines the LLM Zoomcamp project evaluation criteria with the FG portfolio signals: an evaluation set of 20–50 cases (easy, messy, out-of-scope, refusal, citation), metrics matched to the task (citation correctness, field accuracy, tool-choice accuracy, cost/latency), a local log with the portfolio log fields, and a README that records decisions and trade-offs.
+Use a different dataset from the running example of courses 2-11 (focused on enterprise workflow automation and document processing) so the learner cannot copy earlier code. Pick it from a top field-guide domain with public data. Finance is the largest (3,877 use-case mentions), and `portfolio/07-project-ideas.md` suggests invoice extraction and reconciliation (structured output + RAG over agreements). The checklist combines the LLM Zoomcamp project evaluation criteria with the FG portfolio signals: an evaluation set of 20-50 cases (easy, messy, out-of-scope, refusal, citation), metrics matched to the task (citation correctness, field accuracy, tool-choice accuracy, cost/latency), a local log with the portfolio log fields, and a README that records decisions and trade-offs.
 
 ## Lesson outline and source map
 

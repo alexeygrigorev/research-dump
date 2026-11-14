@@ -1,6 +1,6 @@
 # 2. Building Your First RAG Application
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -43,7 +43,7 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): RAG 40.1% overall (56.0% AI-First, rising 32.8% → 38.2%), Finding Information in Company Data 32.5% of jobs (3,899 mentions; 28.3% → 31.7% Feb to Nov), RAG app builder archetype 26.6%
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "RAG and Search" block; "RAG patterns" are "must have". The FG practice projects (FAQ assistant, document Q&A) match the running example.
-- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 03–10
+- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 03-10
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: Foundation: LLMs, RAG and Search; Week 2: FAQ Assistant, Reusable RAG class
 
 ### Notes

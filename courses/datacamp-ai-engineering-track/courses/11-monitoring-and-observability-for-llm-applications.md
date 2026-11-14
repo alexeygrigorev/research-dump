@@ -1,6 +1,6 @@
 # 11. Monitoring and Observability for LLM Applications
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -58,7 +58,7 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 11.1 | What to monitor in an LLM application | LZ `05-monitoring/01-intro.md`, `04-metrics.md`; FG Observability (23.6% AI-First) |
-| 11.2 | Logging interactions to SQLite/PostgreSQL | LZ `05-database.md`, `06-querying.md`; BC `v2/05-monitoring/04-diy-logging/02–04` |
+| 11.2 | Logging interactions to SQLite/PostgreSQL | LZ `05-database.md`, `06-querying.md`; BC `v2/05-monitoring/04-diy-logging/02-04` |
 | 11.3 | Tracing agent runs with OpenTelemetry | BC `v2/05-monitoring/03-jaeger/01-logfire-jaeger.md`; `02-logfire/03-grouping-traces.md` |
 | 11.4 | User feedback | LZ `08-user-feedback.md`; BC `02-logfire/04-tracking-user-feedback.md` |
 | 11.5 | Cost, latency and an online judge | LZ `09-built-in-judge.md`; BC `04-diy-logging/07-online-judge.md` |

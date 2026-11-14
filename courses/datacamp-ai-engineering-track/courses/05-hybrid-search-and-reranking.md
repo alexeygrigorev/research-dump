@@ -1,6 +1,6 @@
 # 5. Hybrid Search and Reranking
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 6 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 6 lessons, 2-3 hours.
 
 ## Summary
 

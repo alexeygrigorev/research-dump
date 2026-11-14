@@ -1,6 +1,6 @@
 # 4. Vector Search and Embeddings
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2-3 hours.
 
 ## Summary
 
