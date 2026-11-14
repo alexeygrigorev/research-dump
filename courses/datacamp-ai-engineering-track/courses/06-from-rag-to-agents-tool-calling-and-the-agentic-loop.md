@@ -1,6 +1,6 @@
 # 6. From RAG to Agents: Tool Calling and the Agentic Loop
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2-3 hours.
 
 ## Summary
 
@@ -43,7 +43,7 @@ Python 3.13; `openai>=2.38.0`, `minsearch>=0.1.0`. A small model with tool calli
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Agents (any) 56.2% (74.0% AI-First), Agent builder archetype 29.9%, Function Calling 15.1% (9.6% → 18.5%, +0.88 pp/scrape), RAG + Agents together 51.0% of AI-First, agents responsibility in 53.3% of all jobs (55.8% in Nov)
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "AI Agents" block starts with function calling and "the agentic tool-call loop" before frameworks, the same order as courses 6 → 7.
-- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 11–14
+- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 11-14
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 3: Agent Basics; Alternatives to OpenAI: Tool Calling
 
 ### Notes

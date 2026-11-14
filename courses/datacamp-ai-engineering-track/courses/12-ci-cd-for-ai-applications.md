@@ -1,6 +1,6 @@
 # 12. CI/CD for AI Applications
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
 ## Summary
 
@@ -45,7 +45,7 @@ Python 3.13; Gitea and `act_runner` (versions TBC), Docker, `pytest` (version TB
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Testing, CI/CD, code quality - expected of every engineer"; CI/CD is "high value" and Docker "must have".
 - Alexey's instruction for this track (use a local alternative for CI/CD)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Testing for Agents, Test Judges (what the pipeline runs); Week 6 evaluation (the quality gate)
-- MLOps Zoomcamp Module 6 Best Practices (CI/CD with GitHub Actions) — to be confirmed as source
+- MLOps Zoomcamp Module 6 Best Practices (CI/CD with GitHub Actions), to be confirmed as source
 
 ### Notes
 

@@ -1,6 +1,6 @@
 # 14. Deploying AI Applications with Kubernetes
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
 ## Summary
 
@@ -15,7 +15,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Why here
 
-Reuses the Docker image from courses 12–13 and covers the container orchestration skill demanded in nearly a quarter of all AI engineering jobs.
+Reuses the Docker image from courses 12-13 and covers the container orchestration skill demanded in nearly a quarter of all AI engineering jobs.
 
 ## Transformation
 
@@ -44,11 +44,11 @@ The learner creates a `kind` cluster, loads the image, writes the manifests one 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Kubernetes 23.6% (2,307 jobs; rising 18.6% → 23.8% in AI-First; 28.3% in AI-Support), Docker 24.2%, GenAI + Ops 71.0% AI-First
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Docker and Kubernetes - containerization and orchestration"; Kubernetes is "high value".
 - Alexey's instruction for this track (Kubernetes as a separate course)
-- Machine Learning Zoomcamp Module 10 Kubernetes (`github.com/DataTalksClub/machine-learning-zoomcamp`, `10-kubernetes`) — to be confirmed as source
+- Machine Learning Zoomcamp Module 10 Kubernetes (`github.com/DataTalksClub/machine-learning-zoomcamp`, `10-kubernetes`), to be confirmed as source
 
 ### Notes
 
-No-subscription constraint: fully local with `kind` (or `minikube`), no cloud account. Needs Docker inside the exercise environment — to confirm with DataCamp. Kubernetes is not covered in LLM Zoomcamp or the Buildcamp; the outline follows Alexey's ML Zoomcamp Kubernetes module adapted to an LLM service and needs his review.
+No-subscription constraint: fully local with `kind` (or `minikube`), no cloud account. Needs Docker inside the exercise environment, to confirm with DataCamp. Kubernetes is not covered in LLM Zoomcamp or the Buildcamp; the outline follows Alexey's ML Zoomcamp Kubernetes module adapted to an LLM service and needs his review.
 
 ## Lesson outline and source map
 

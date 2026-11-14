@@ -1,6 +1,6 @@
 # 8. Multi-Agent Patterns and Guardrails
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 7 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -44,7 +44,7 @@ Python 3.13; `langgraph`, `langchain-core` (versions TBC), `pydantic-ai>=1.55.0`
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Agentic Workflows 32.8% (3,199 jobs), LangGraph 71.0% of framework adopters, Guardrails 19.8% AI-First (10.2% → 17.5% overall, +0.77 pp/scrape), Security/Safety/Compliance 38.8% of all jobs (37.5% in Nov), Automating Manual Workflows 58.8%
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Multi-agent systems - routing, pipelines, coordination" (AI Agents block) and "Guardrails - safety constraints for agents" (Production block); multi-agent patterns are a "differentiator".
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Multi-Agent Systems (Groups 1–4), Agentic Graphs; Week 7: Guardrails with PydanticAI, Guardrails with OpenAI Agents SDK
+- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Multi-Agent Systems (Groups 1-4), Agentic Graphs; Week 7: Guardrails with PydanticAI, Guardrails with OpenAI Agents SDK
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `03-orchestration/02-context-engineering.md`, `07-multi-agent.md`
 
 ### Notes
@@ -58,9 +58,9 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 8.1 | Workflows vs agents | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md`; LZ `03-orchestration/02-context-engineering.md` |
-| 8.2 | Routing: conditional edges, agents as tools, handoffs | BC `06-multi-agent/03–06`; LangGraph `StateGraph` |
-| 8.3 | Pipelines: prompt chaining and plan-and-execute | BC `06-multi-agent/07–10` |
-| 8.4 | Feedback: human in the loop and evaluator-optimizer | BC `06-multi-agent/11–14` |
-| 8.5 | Coordination: parallelization and orchestrator-workers | BC `06-multi-agent/15–18`; LZ `03-orchestration/07-multi-agent.md` |
-| 8.6 | Input guardrails | BC `v2/07-project-bonus/05-guardrails-pydantic/01–03`; FG Guardrails (17.5%) |
-| 8.7 | Output guardrails and when not to go multi-agent | BC `v2/07-project-bonus/04-guardrails-sdk/01–02` |
+| 8.2 | Routing: conditional edges, agents as tools, handoffs | BC `06-multi-agent/03-06`; LangGraph `StateGraph` |
+| 8.3 | Pipelines: prompt chaining and plan-and-execute | BC `06-multi-agent/07-10` |
+| 8.4 | Feedback: human in the loop and evaluator-optimizer | BC `06-multi-agent/11-14` |
+| 8.5 | Coordination: parallelization and orchestrator-workers | BC `06-multi-agent/15-18`; LZ `03-orchestration/07-multi-agent.md` |
+| 8.6 | Input guardrails | BC `v2/07-project-bonus/05-guardrails-pydantic/01-03`; FG Guardrails (17.5%) |
+| 8.7 | Output guardrails and when not to go multi-agent | BC `v2/07-project-bonus/04-guardrails-sdk/01-02` |
