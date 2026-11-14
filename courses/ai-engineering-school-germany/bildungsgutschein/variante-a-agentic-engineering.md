@@ -73,7 +73,8 @@ No prior experience with a coding agent is needed. This is the AI Dev Tools Zoom
 - Weekly: the assessed output in the table below, plus a live walkthrough in which the participant explains the change, shows the checks and answers questions.
 - Three checkpoints without AI (weeks 2, 6 and 9): read code, find a bug, review a diff. Reason: in Anthropic's 2026 trial the AI group scored lower on a follow-up quiz, most of all in debugging ([research.md](research.md#61-what-the-sources-say)).
 - Midterm (week 8): first version deployed, with three peer reviews and a teacher review.
-- Final (week 16): product, launch report, technical defence. The rubric starts from the Zoomcamp's 12 project criteria ([project/README.md](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/project/README.md)).
+- Final (week 15): product, launch report, technical defence. The rubric starts from the Zoomcamp's 12 project criteria ([project/README.md](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/project/README.md)).
+- Hiring prep (week 16): peer mock interviews, algorithm-style coding drills without AI, a documented take-home assignment, and a project presentation. Training and interview practice only; no job-placement promises.
 
 **Certificate.** Provider certificate "Agentic Engineering" listing the modules with UE, the assessment forms and the result. The AZAV format still has to be created.
 
@@ -97,8 +98,8 @@ No prior experience with a coding agent is needed. This is the AI Dev Tools Zoom
 | 12 | A12 Connecting agents to tools through MCP | 40 | Connect an agent to external tools. Build a small tool server. Decide between MCP, a command-line tool and a skill | MCP clients and servers, local and remote, permissions and security. Building a server for a project tool. Current protocol version. 4 UE reserve for what changed | Product tools exposed through MCP and used by the agent, with documented access and limits | ADTZ [2025 module 3](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/cohorts/2025/03-mcp), to be updated to the 2026 protocol · **Write** |
 | 13 | A13 Agent teams, loops and parallel work | 40 | Define agent roles and how work moves between them. Run a loop with a checkable stop condition. Run tasks in parallel without conflicts | Orchestrator, PM, engineer, QA and on-call roles. Goal loops and stop conditions. Git worktrees. Headless and background runs, issue-to-pull-request in CI. Cost of the process compared with a single session | A backlog batch worked through by an agent team, with QA verdicts on the issues. One task run headless in CI | ADTZ modules 1 and 5 · [I Built an AI Agent Team](https://aishippingblog.com/p/i-built-an-ai-agent-team-for-software) · [My Experiments with Claude Code](https://aishippingblog.com/p/my-experiments-with-claude-code) · **Write** for agents in CI |
 | 14 | A14 The agentic software factory | 40 | Set up and configure a factory: spec, tasks, build, tests, review, release. Define when it stops and asks a person. Keep it maintainable | Assembling weeks 3–13 into one configured setup. Escalation rules. Factory maintenance, comprehension debt. Usage limits, model choice and cost. Auditing a repository for agent readiness. The same workflow in a second agent. 4 UE reserve for what changed | Configured factory on the product, a written operating guide, and one task repeated in a second agent with notes on the differences | [Dark Software Factories](https://aishippingblog.com/p/dark-software-factories) · [Six Projects That Didn't Make It](https://aishippingblog.com/p/six-projects-that-didnt-make-it) · [Trends in Agentic Engineering](https://aishippingblog.com/p/trends-in-agentic-engineering) · **Write** |
-| 15 | A15 Capstone: users, feedback, improvement | 40 | Have people try the product. Separate problems from feature requests. Ship tested improvements | Test sessions with real users, feedback triage, prioritising, changelog, usage tracking | Improved product released through the pipeline, with a changelog and the evidence of testing | ADTZ [project](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/project/README.md) · [AI Design for Non-Designers](https://aishippingblog.com/p/ai-design-for-non-designers) |
-| 16 | A16 Capstone: release, evidence and defence | 40 | Present the product and show how changes were tested and released. Defend design decisions | Peer review, launch report, technical defence, interview-style discussion | **Final:** product, launch report, defence | ADTZ project criteria |
+| 15 | A15 Capstone: users, feedback, release and defence | 40 | Have people try the product, ship tested improvements, publish the launch report and defend design decisions | Test sessions with real users, feedback triage, prioritising, changelog, peer review, launch report, technical defence | Improved product released through the pipeline, launch report and technical defence | ADTZ [project](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/project/README.md) · [AI Design for Non-Designers](https://aishippingblog.com/p/ai-design-for-non-designers) · ADTZ project criteria |
+| 16 | A16 Technical interviews and hiring prep | 40 | Prepare systematically for technical interviews, solve algorithm-style coding rounds without AI, deliver scoped take-home assignments, present projects and run peer mocks | How to prepare (prep plan, company-type differences, no-AI vs AI-assisted round rules, self-presentation blurb). Algorithm-style coding rounds (now asked even for QA roles) without AI tools, complexity and edge cases. Take-home/test assignments (scoping 2–3 h or multi-day tasks, documenting trade-offs, testing edge cases, short walkthrough). Presenting your projects (5-minute pitch, design decisions, what broke). Peer mock interviews with each other (coding, project deep-dive, behavioral/SAIL). No job-placement promises | Solved algorithm-style coding drills (without AI), a documented take-home/test assignment, a 5-minute project presentation, and at least two peer mock interviews with written feedback | [AI Engineering Field Guide: Interview](https://github.com/alexeygrigorev/ai-engineering-field-guide/tree/main/interview) (`01-interview-process.md`, `03-get-hired.md`, `05-trends.md`) · **Write** |
 | | **Total** | **640** | | | | |
 
 ### Extension weeks
@@ -123,7 +124,8 @@ Each is 40 UE and is placed before the capstone. They are added in this order. E
 | Deploy, logs and metrics | 8, 10 |
 | MCP and reusable workflows | 11, 12 |
 | Agentic software factory | 13, 14 |
-| Final project | 15, 16 |
+| Final project | 15 |
+| Technical interviews and hiring prep | 16 |
 
 ## Why this order
 
@@ -161,5 +163,6 @@ Existing material is recorded video and articles. Every week needs a live lesson
 - week 12 (MCP on the 2026 protocol)
 - week 13 (agents in CI)
 - week 14 (factory operation, cost, agent readiness)
+- week 16 (interview prep, algorithm-style coding drills, take-home briefs, mock-interview rubrics)
 - the prepared repository with seeded bugs
 - all extension weeks
