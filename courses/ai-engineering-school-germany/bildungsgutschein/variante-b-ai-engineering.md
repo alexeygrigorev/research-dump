@@ -80,7 +80,8 @@ No machine-learning background, advanced mathematics or GPU is needed. These are
 - Weekly: the assessed output in the table below, plus a live walkthrough.
 - Three checkpoints without AI (weeks 2, 6 and 11): write a retrieval function, trace a tool-call loop by hand, label a set of outputs.
 - Midterm (week 8): deployed assistant with cited answers and one tool, three peer reviews and a teacher review.
-- Final (week 16): deployed assistant, evaluation report, technical defence. The rubric starts from the LLM Zoomcamp project criteria ([project.md](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md)) and adds criteria it lacks: tools, agent evaluation, tests, guardrails and deployment.
+- Final (week 15): deployed assistant, evaluation report, technical defence. The rubric starts from the LLM Zoomcamp project criteria ([project.md](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md)) and adds criteria it lacks: tools, agent evaluation, tests, guardrails and deployment.
+- Hiring prep (week 16): peer mock interviews, algorithm-style coding drills without AI, a documented take-home assignment, and a project presentation. Training and interview practice only; no job-placement promises.
 
 **Certificate.** Provider certificate "AI Engineering" listing the modules with UE, the assessment forms and the result. The AZAV format still has to be created.
 
@@ -104,8 +105,8 @@ No machine-learning background, advanced mathematics or GPU is needed. These are
 | 12 | B12 Tracing, observability and monitoring | 40 | Trace model and tool calls. Monitor quality and drift in production. Collect user feedback | OpenTelemetry, LLM-native observability (`Langfuse` / `LangSmith` / `Logfire`), storing traces, feedback, online judging, Grafana dashboards. 4 UE reserve for what changed | Traces and a monitoring dashboard for the deployed assistant | **FG**: Observability 20.7% (23.6% AI-First), Monitoring 15.4%, LLM-native eval/obs 26.7% → 34.5% · LLMZ [unit 5](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/05-monitoring) · Buildcamp week 5 |
 | 13 | B13 Cost, latency and model choice | 40 | Measure cost and latency per request. Reduce both without losing quality. Choose a model by measurement | Token accounting, prompt/semantic caching, batching, routing between provider and open/small models, timeouts, retries and fallbacks | Cost and latency report with one measured improvement and a tested fallback | **FG**: Deploy/production 78.3% (inference/serving falling 19.8% → 13.5%: focus on API routing & caching, not GPU clusters) · LLMZ unit 5 (cost records) · **Write** |
 | 14 | B14 Safety: guardrails, injection and compliance | 40 | Explain prompt injection and limit its damage. Add and test guardrails. Name the obligations that apply to the product | Input and output guardrails, least privilege for tools, keeping credentials out of reach, OWASP lists for LLM and agentic applications, personal data, the EU AI Act's dates and duties for engineers. 4 UE reserve for what changed | Threat sketch, tested guardrails and a short list of compliance points for the project | **FG**: Guardrails 19.8% AI-First (10.2% → 17.5% overall), Security/Safety/Compliance 37.5% Nov responsibilities · **Write** (prompt injection is missing in both sources; guardrails exist as a workshop) |
-| 15 | B15 Capstone: build and measure | 40 | Build the final assistant for one concrete enterprise workflow/document use case. Show where it works and where it fails | Scoping, test users, evaluation on realistic tasks (integrator + eval + ops stack) | Capstone build with evaluation evidence | **FG**: Integrator stack 91.7% AI-First, RAG+Agents 51.0%, Eval 69.3%, Ops 71.0% · LLMZ [project](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md) · Buildcamp capstone |
-| 16 | B16 Capstone: improve, review and defend | 40 | Improve from measurements and feedback. Defend design and measurement choices | A documented improvement, peer review, technical defence, demo | **Final:** deployed assistant, evaluation report, defence | **FG**: Production & Eval focus · LLMZ project criteria · Buildcamp demo day |
+| 15 | B15 Capstone: build, evaluate, improve and defend | 40 | Build the final assistant for one concrete enterprise workflow/document use case, measure it, ship improvements and defend design choices | Scoping, test users, evaluation on realistic tasks, documented improvement, peer review, technical defence, demo | **Final:** deployed assistant, evaluation report, defence | **FG**: Integrator stack 91.7% AI-First, RAG+Agents 51.0%, Eval 69.3%, Ops 71.0% · LLMZ [project](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md) · Buildcamp capstone & demo day |
+| 16 | B16 Technical interviews and hiring prep | 40 | Prepare systematically for AI/LLM and QA-automation interviews, solve algorithm-style coding rounds without AI, deliver scoped take-home assignments, present AI systems and run peer mocks | How to prepare (prep plan, role/company differences, no-AI vs AI-assisted round rules, self-presentation blurb). Algorithm-style coding rounds (now asked even for QA roles) and Python depth without AI tools. Take-home/test assignments (bounded RAG/agent or coding tasks, eval harness, trade-off notes). Presenting your projects (architecture, eval evidence, cost/latency trade-offs, failure modes). Peer mock interviews with each other (coding, AI system design, project deep-dive, behavioral/SAIL). No job-placement promises | Solved algorithm-style coding drills (without AI), a documented take-home/test assignment, a 5-minute project presentation, and at least two peer mock interviews with written feedback | [AI Engineering Field Guide: Interview](https://github.com/alexeygrigorev/ai-engineering-field-guide/tree/main/interview) (`01-interview-process.md`, `03-get-hired.md`, `05-trends.md`) · **Write** |
 | | **Total** | **640** | | | | |
 
 ### Extension weeks
@@ -130,7 +131,8 @@ Each is 40 UE and is placed before the capstone. They are added in this order. E
 | Evaluation, comparison, regressions | 5, 10, 11 |
 | Deployment and tracing | 8, 12 |
 | Quality, latency, cost, safe failure | 12, 13, 14 |
-| Final project | 15, 16 |
+| Final project | 15 |
+| Technical interviews and hiring prep | 16 |
 
 ## Why this order
 
@@ -166,5 +168,6 @@ Existing material is recorded video, notebooks and text lessons. Every week need
 - week 10 (CI/CD for LLM tests)
 - week 13 (cost, latency, model choice)
 - week 14 (prompt injection, guardrails, compliance)
+- week 16 (interview prep, algorithm-style coding drills, take-home briefs, mock-interview rubrics)
 - the extended capstone rubric
 - all extension weeks (including X3 Kubernetes/IaC)
