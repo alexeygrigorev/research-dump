@@ -42,6 +42,7 @@ Python 3.13; `minsearch>=0.1.0`, `sentence-transformers>=5.5.0`, `pandas>=3.0.3`
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): RAG 40.1% (49% pull in vector DBs), LangChain 21.1% (29.1% AI-First), Model/LLM Evaluation (61.8% AI-First)
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Evaluating retrieval quality" sits in the FG Evaluation block; LangChain is "high value".
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 6 Best Practices: `02-hybrid-search.md`, `03-reranking.md`, `04-langchain.md`; Module 4: `05-search-metrics.md`, `06-search-tuning.md`
 
 ### Notes

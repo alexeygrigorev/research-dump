@@ -4,7 +4,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Summary
 
-Observability (2,018 jobs; 23.6% AI-First) and Monitoring (1,414 jobs; 15.4% AI-First) are core production requirements, with LLM-native observability/eval tooling rising to 34.5%. Learners log every interaction to SQLite/PostgreSQL, trace agent runs with OpenTelemetry, collect user feedback, track cost and latency, run an online judge, and build a dashboard.
+Observability (2,018 jobs; 23.6% AI-First) and Monitoring (1,414 jobs; 15.4% AI-First) are core production requirements, with LLM-native eval tooling (LangSmith, Langfuse, Guardrails, LLM Evaluation) rising to 34.5%. Learners log every interaction to SQLite/PostgreSQL, trace agent runs with OpenTelemetry, collect user feedback, track cost and latency, run an online judge, and build a dashboard.
 
 ## Learning objectives
 
@@ -16,7 +16,7 @@ Observability (2,018 jobs; 23.6% AI-First) and Monitoring (1,414 jobs; 15.4% AI-
 
 ## Why here
 
-Opens the Production stage (71.0% of AI-First roles combine GenAI + Ops; deploy/production in 78.3% of responsibilities): it needs the application, judges and cost tracking from earlier courses, and its logs feed back into evaluation.
+Opens the Production stage (71.0% of AI-First roles combine GenAI + Ops; deploy/production in 77.8% of jobs' responsibilities, monitoring/maintenance in 63.8%): it needs the application, judges and cost tracking from earlier courses, and its logs feed back into evaluation.
 
 ## Transformation
 
@@ -42,7 +42,8 @@ Python 3.13; `streamlit>=1.58.0`, `pandas>=3.0.3`, `psycopg[binary]>=3.3.4` or `
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Observability 2,018 jobs (23.6% AI-First), Monitoring 1,414 jobs (15.4% AI-First), LLM-native eval/observability 26.7% → 34.5%, Deploy/production 78.3%, Monitoring/maintenance 64.3%, PostgreSQL 1,020 jobs
+- **FG** (AI Engineering Field Guide, 9,760 jobs): Observability 2,018 jobs (23.6% AI-First), Monitoring 1,414 jobs (15.4% AI-First), LLM-native eval tooling 26.7% → 34.5%, Deploy/production 77.8% (14,574 mentions), Monitoring/maintenance 63.8% (10,052 mentions), PostgreSQL 1,020 jobs
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Monitoring and Observability" block (OpenTelemetry/Jaeger tracing, cost and usage, user feedback, Grafana dashboards). `portfolio/04-polishing.md` log fields used for the log schema in 11.2: request ID, model, prompt version, retrieved sources, tool calls, validation errors, latency, tokens, cost, feedback.
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 5 Monitoring (all lessons)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 5: DIY Logging and Monitoring, Pydantic Logfire and Jaeger, Logfire
 

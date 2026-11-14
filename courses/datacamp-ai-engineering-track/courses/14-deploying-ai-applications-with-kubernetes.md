@@ -42,6 +42,7 @@ The learner creates a `kind` cluster, loads the image, writes the manifests one 
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Kubernetes 23.6% (2,307 jobs; rising 18.6% → 23.8% in AI-First; 28.3% in AI-Support), Docker 24.2%, GenAI + Ops 71.0% AI-First
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Docker and Kubernetes - containerization and orchestration"; Kubernetes is "high value".
 - Alexey's instruction for this track (Kubernetes as a separate course)
 - Machine Learning Zoomcamp Module 10 Kubernetes (`github.com/DataTalksClub/machine-learning-zoomcamp`, `10-kubernetes`) — to be confirmed as source
 

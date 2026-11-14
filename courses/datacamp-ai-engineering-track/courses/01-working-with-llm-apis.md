@@ -41,7 +41,8 @@ Python 3.13; `openai>=2.15.0`, `anthropic>=0.76.0`, `pydantic` (version TBC), `p
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Python 71.6% (75.9% AI-First), Prompt Engineering 34.8% (rising 26.1% → 34.2%), APIs 2,515 jobs, OpenAI API 14.6%, integrator stack 91.7% of AI-First roles in Nov
+- **FG** (AI Engineering Field Guide, 9,760 jobs): Python 71.6% (75.9% AI-First), Prompt Engineering 34.8% (rising 26.1% → 34.2%), APIs 2,515 jobs, OpenAI API 14.6%, integrator stack 91.7% of AI-First roles in Nov, integrating APIs and services in 55.8% of responsibilities vs self-hosting models 3.1%, prompt engineering in 21.5% of responsibilities
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "LLM Fundamentals" block = OpenAI/Anthropic APIs, structured output, prompt engineering, which is this course. Python and prompt engineering are "must have".
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: OpenAI API (Responses API), Structured output, OpenAI Alternatives
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `01-agentic-rag/07-llm.md`
 

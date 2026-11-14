@@ -41,7 +41,8 @@ Python 3.13; `python-frontmatter>=1.1.0`, `pymupdf>=1.26.7`, `sqlitesearch>=0.0.
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Document Processing 13.3% → 16.0%, Data and Pipelines responsibilities 19.7% → 29.7% (+10.0 pp), SQL 14.6% (rising 11.1% → 14.9%)
+- **FG** (AI Engineering Field Guide, 9,760 jobs): Document Processing 13.3% → 16.0%, Data and Pipelines responsibilities 19.7% → 29.7% (+10.0 pp), SQL 14.6% (rising 11.1% → 14.9%), data processing responsibility in 23.2% of all jobs (3,161 mentions)
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "RAG and Search" includes chunking and processing PDFs, YouTube transcripts and web pages; "Production" includes parallel processing for large datasets (lesson on thread pools).
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: Getting data from GitHub, Chunking documents; Week 2: YouTube Transcripts, Books
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `01-agentic-rag/09-data-ingestion.md`; `07-project-example/07-chunking.md`; workshop `cohorts/2026/workshops/dlt.md`
 

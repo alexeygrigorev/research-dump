@@ -42,6 +42,7 @@ Python 3.13; `sentence-transformers>=5.5.0`, `minsearch>=0.1.0`, `sqlitesearch>=
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Vector Databases 2,201 jobs (#1 database skill), PostgreSQL 1,020 (#2), Pinecone 678, Weaviate 463, Embeddings 16.3% (23.2% AI-First; 36% co-occurrence with RAG), SQL 14.6%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): PostgreSQL is "the default database"; vector databases (Pinecone, Weaviate, Qdrant, pgvector) are a "differentiator".
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 2 Vector Search (all lessons)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: Search Bonus Materials: Vector search; Week 2: Vector Search with Qdrant
 

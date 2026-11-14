@@ -42,6 +42,7 @@ Python 3.13; `fastapi` and `uvicorn` (versions TBC), `streamlit>=1.58.0`, Docker
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): AWS 39.3% (#1 cloud, 41.8% AI-First) > Azure 29.7% > GCP 29.1%; GenAI + Web 59.2%; Backend 61.0%; APIs 2,515, REST APIs 1,630, FastAPI 928; Docker 24.2%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): FastAPI is "the most common Python web framework for AI" (high value); one cloud platform and Docker are "must have"; "Deployment - like Streamlit for prototypes" (Production block).
 - Alexey's instruction for this track (one cloud provider, separate from Kubernetes)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 7: Deployment (Streamlit, Render, AWS); Week 4: Streamlit application; Week 7: complete example `10-deployment.md`
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `07-project-example/04-interface.md`; `05-monitoring/13-docker-compose.md`
