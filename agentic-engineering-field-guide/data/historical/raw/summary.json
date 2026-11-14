@@ -1,0 +1,60 @@
+{
+  "funnel": {
+    "builtin_cached_pages": 10275,
+    "builtin_drop_no_jobposting": 104,
+    "builtin_drop_out_of_scope_role": 164,
+    "builtin_in_scope_captures": 10007,
+    "greenhouse_records": 23676,
+    "ashby_records": 280,
+    "all_in_scope_captures": 12519,
+    "dedup_by_source_job_id": 12366,
+    "dedup_by_content_hash": 11359,
+    "with_full_text_200plus_chars": 11350,
+    "in_window_since_2025-11": 8453
+  },
+  "by_source_archive": {
+    "ashby/cc": 27,
+    "builtin/cc": 8756,
+    "builtin/wb": 481,
+    "greenhouse/cc": 2095
+  },
+  "by_month": {
+    "2025-07": 740,
+    "2025-08": 657,
+    "2025-09": 689,
+    "2025-10": 820,
+    "2025-11": 3040,
+    "2025-12": 775,
+    "2026-01": 691,
+    "2026-02": 591,
+    "2026-03": 578,
+    "2026-04": 574,
+    "2026-05": 763,
+    "2026-06": 675,
+    "2026-07": 13,
+    "2026-08": 7,
+    "2026-09": 4,
+    "2026-10": 742
+  },
+  "by_role": {
+    "software_engineer": 6116,
+    "full_stack": 1445,
+    "backend": 1423,
+    "engineering_manager": 1202,
+    "frontend": 948,
+    "software_developer": 225
+  },
+  "by_region": {
+    "US": 6339,
+    "IN": 1037,
+    "EU": 824,
+    "CA": 703,
+    "REMOTE": 483,
+    "APAC": 414,
+    "LATAM": 399,
+    "MEA": 360,
+    "UK": 336,
+    "UNKNOWN": 317,
+    "DE": 147
+  }
+}
