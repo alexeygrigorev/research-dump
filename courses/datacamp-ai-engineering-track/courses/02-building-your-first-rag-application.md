@@ -4,7 +4,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. 
 
 ## Summary
 
-An LLM does not know your company's internal data. Learners build a retrieval-augmented assistant (RAG appears in 40.1% of all jobs and 56.0% of AI-First roles; finding information in company data appears in 43.8% of jobs) over an internal knowledge base: search first, put the results into the prompt, then ask the model.
+An LLM does not know your company's internal data. Learners build a retrieval-augmented assistant (RAG appears in 40.1% of all jobs and 56.0% of AI-First roles; finding information in company data is a use case in 32.5% of jobs, up from 28.3% to 31.7% between February and November) over an internal knowledge base: search first, put the results into the prompt, then ask the model.
 
 ## Learning objectives
 
@@ -41,7 +41,8 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): RAG 40.1% overall (56.0% AI-First, rising 32.8% → 38.2%), Finding Information in Company Data 43.8% of jobs, RAG app builder archetype 26.6%
+- **FG** (AI Engineering Field Guide, 9,760 jobs): RAG 40.1% overall (56.0% AI-First, rising 32.8% → 38.2%), Finding Information in Company Data 32.5% of jobs (3,899 mentions; 28.3% → 31.7% Feb to Nov), RAG app builder archetype 26.6%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "RAG and Search" block; "RAG patterns" are "must have". The FG practice projects (FAQ assistant, document Q&A) match the running example.
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 03–10
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: Foundation: LLMs, RAG and Search; Week 2: FAQ Assistant, Reusable RAG class
 

@@ -16,7 +16,7 @@ One agent with many tools gets unreliable. Learners build stateful multi-agent w
 
 ## Why here
 
-Needs LangGraph/framework skills (course 7). Closes the Agents stage by combining enterprise workflow automation (58.8% of jobs) with safety, security, and guardrails (37.5% security/compliance responsibilities in Nov).
+Needs LangGraph/framework skills (course 7). Closes the Agents stage by combining enterprise workflow automation (58.8% of jobs) with safety, security, and guardrails (security/compliance responsibilities: 38.8% of all jobs, 37.5% in Nov).
 
 ## Transformation
 
@@ -42,7 +42,8 @@ Python 3.13; `langgraph`, `langchain-core` (versions TBC), `pydantic-ai>=1.55.0`
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Agentic Workflows 32.8% (3,199 jobs), LangGraph 71.0% of framework adopters, Guardrails 19.8% AI-First (10.2% → 17.5% overall, +0.77 pp/scrape), Security/Safety/Compliance 37.5%, Automating Manual Workflows 58.8%
+- **FG** (AI Engineering Field Guide, 9,760 jobs): Agentic Workflows 32.8% (3,199 jobs), LangGraph 71.0% of framework adopters, Guardrails 19.8% AI-First (10.2% → 17.5% overall, +0.77 pp/scrape), Security/Safety/Compliance 38.8% of all jobs (37.5% in Nov), Automating Manual Workflows 58.8%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Multi-agent systems - routing, pipelines, coordination" (AI Agents block) and "Guardrails - safety constraints for agents" (Production block); multi-agent patterns are a "differentiator".
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Multi-Agent Systems (Groups 1–4), Agentic Graphs; Week 7: Guardrails with PydanticAI, Guardrails with OpenAI Agents SDK
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `03-orchestration/02-context-engineering.md`, `07-multi-agent.md`
 

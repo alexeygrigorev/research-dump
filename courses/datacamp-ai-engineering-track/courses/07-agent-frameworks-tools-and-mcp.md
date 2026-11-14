@@ -43,6 +43,7 @@ Python 3.13; `langchain`, `langgraph`, `langchain-openai`, `mcp` Python SDK (ver
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): LangChain 21.1% (76.8% of framework adopters), LangGraph 14.4% (71.0% of framework adopters; #1 pair at 3.5x lift), MCP 15.6% (9.9% → 20.4%, #1 fastest-rising skill), Automating Manual Workflows 58.8%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): frameworks listed as PydanticAI, OpenAI Agents SDK, LangChain and Google ADK; "LangChain or PydanticAI" is "high value" and LangGraph is a "differentiator", which supports LangChain/LangGraph as primary with a PydanticAI comparison. MCP ("creating tools for other agents") is in the core block.
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 3: Agent Frameworks, Other Agent Frameworks, Model-Context Protocol (MCP)
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `01-agentic-rag/15-frameworks.md`, `16-other-frameworks.md`
 

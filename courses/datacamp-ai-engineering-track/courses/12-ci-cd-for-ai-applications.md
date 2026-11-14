@@ -4,7 +4,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Summary
 
-**CI/CD** is the #2 non-Python skill in the field guide (**36.9%** of all jobs; 3,603 postings), and **Docker** appears in **24.2%** (2,366 postings). Tests and evaluations only help if they run on every change. Learners set up a local Git server with a pipeline runner and build a pipeline that runs `pytest`, enforces an evaluation quality gate, and builds a container image.
+**CI/CD** is the most-requested ops skill in the field guide (**36.9%** of all jobs; 3,603 postings, ahead of Docker and Kubernetes), and **Docker** appears in **24.2%** (2,366 postings). Tests and evaluations only help if they run on every change. Learners set up a local Git server with a pipeline runner and build a pipeline that runs `pytest`, enforces an evaluation quality gate, and builds a container image.
 
 ## Learning objectives
 
@@ -42,6 +42,7 @@ Python 3.13; Gitea and `act_runner` (versions TBC), Docker, `pytest` (version TB
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): CI/CD 36.9% (3,603 jobs; 36.7% AI-First, 40.7% AI-Support), Docker 24.2% (2,366 jobs), Evaluation & Testing 79.0% of Nov responsibilities
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Testing, CI/CD, code quality - expected of every engineer"; CI/CD is "high value" and Docker "must have".
 - Alexey's instruction for this track (use a local alternative for CI/CD)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Testing for Agents, Test Judges (what the pipeline runs); Week 6 evaluation (the quality gate)
 - MLOps Zoomcamp Module 6 Best Practices (CI/CD with GitHub Actions) — to be confirmed as source

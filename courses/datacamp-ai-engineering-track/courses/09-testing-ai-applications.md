@@ -43,6 +43,7 @@ Python 3.13; `pytest`, `uv` (versions TBC), `langgraph`, `pydantic-ai>=1.55.0`, 
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Evaluation & Testing in 79.0% of Nov responsibilities (+9.6 pp), LLM Evaluation 33.5% AI-First (20.3% → 26.6% overall)
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Testing" block (tests for tool calls and output quality, LLM-as-judge) and "Converting notebooks to production projects" (Production block). `portfolio/04-polishing.md`: deterministic behaviour tested with one `pytest` command.
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Preparing the Project, Testing for Agents, Test Judges
 
 ### Notes

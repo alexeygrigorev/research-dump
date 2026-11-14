@@ -41,7 +41,8 @@ Python 3.13; `pandas>=3.0.3`, `openai>=2.38.0`, `langgraph` / `pydantic-ai>=1.55
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Evaluation #1 differentiator (61.8% AI-First → 69.3% Nov), LLM Evaluation 33.5% AI-First (20.3% → 26.6% overall), LLM-native eval tooling (LangSmith, Langfuse, LLM Evaluation) 26.7% → 34.5%
+- **FG** (AI Engineering Field Guide, 9,760 jobs): Evaluation #1 differentiator (61.8% AI-First → 69.3% Nov), LLM Evaluation 33.5% AI-First (20.3% → 26.6% overall), LLM-native eval tooling (LangSmith, Langfuse, Guardrails, LLM Evaluation) 26.7% → 34.5%, Evaluation and quality in 71.3% of jobs' responsibilities (12,132 mentions)
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Evaluation" block (offline evaluation, retrieval evaluation, synthetic data, prompt optimization from eval results). `portfolio/04-polishing.md`: start with 20–50 cases covering easy, messy, out-of-scope, refusal and citation cases, and save dated results in the repo.
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 4 Evaluation (all lessons)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 6: Measure: Offline Evaluation for Agents, Synthetic Evaluation Data
 

@@ -42,12 +42,13 @@ Python 3.13; same packages as courses 2–13 (`minsearch>=0.1.0`, `sentence-tran
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Integrator stack 91.7% AI-First, GenAI + Ops 71.0%, Evaluation 69.3% Nov, Automating Manual Workflows 58.8%, Internal Operational Efficiency 57.5%, Agentic Systems 49.9%
+- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): portfolio signals used as the capstone checklist (real user and problem, realistic inputs, clear output, tests, evaluation, logging, reproducible setup, README with decisions and trade-offs); 86.9% of AI-First roles need skills beyond GenAI and 71.0% need production/ops skills (`portfolio/01`); top domains finance 3,877, healthcare 2,380, legal/regulatory 1,798 mentions (`portfolio/02`); finance candidates such as invoice extraction and reconciliation (`portfolio/07`).
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 7 End-to-End Project (`project.md`)
 - **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 7: End-To-End Project Example; Project guidelines, Evaluation criteria, Documentation tips
 
 ### Notes
 
-Use a different dataset from the running example of courses 2–11 (focused on enterprise workflow automation and document processing) so the learner cannot copy earlier code. The LLM Zoomcamp project evaluation criteria can be reused as the checklist.
+Use a different dataset from the running example of courses 2–11 (focused on enterprise workflow automation and document processing) so the learner cannot copy earlier code. Pick it from a top field-guide domain with public data. Finance is the largest (3,877 use-case mentions), and `portfolio/07-project-ideas.md` suggests invoice extraction and reconciliation (structured output + RAG over agreements). The checklist combines the LLM Zoomcamp project evaluation criteria with the FG portfolio signals: an evaluation set of 20–50 cases (easy, messy, out-of-scope, refusal, citation), metrics matched to the task (citation correctness, field accuracy, tool-choice accuracy, cost/latency), a local log with the portfolio log fields, and a README that records decisions and trade-offs.
 
 ## Lesson outline and source map
 
