@@ -1,0 +1,9 @@
+{
+  "historical_rows": 11292,
+  "live_listing_rows": 6215,
+  "live_detail_files": 6214,
+  "live_upstream_commit": "59126d538145ec21faed82bc648cbd5536048de3",
+  "historical_input_sha256": "7b61296d8c381bd73286089a4dc9f6ea07b3922673143bfc493ea8729d01db20",
+  "live_csv_sha256": "b0dae5af553f42de2391c82c03a6d3c0ce0a25797fc2d3966f2c09d63d61fb82",
+  "live_detail_manifest_sha256": "b06b43dd249ec3a1c8114f0047c76902ef95f102574adf4a3bbf4cabef9fb4f1"
+}
