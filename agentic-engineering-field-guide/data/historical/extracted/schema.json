@@ -1,0 +1,208 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "role": {
+      "enum": [
+        "software_engineer",
+        "frontend",
+        "backend",
+        "fullstack",
+        "data_ml",
+        "devops_sre",
+        "qa_sdet",
+        "engineering_manager",
+        "other",
+        "unknown"
+      ]
+    },
+    "seniority": {
+      "enum": [
+        "intern",
+        "junior",
+        "mid",
+        "senior",
+        "staff",
+        "principal",
+        "lead",
+        "manager",
+        "unknown"
+      ]
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requirement": {
+            "enum": [
+              "required",
+              "preferred",
+              "mentioned"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "name",
+          "requirement",
+          "evidence"
+        ]
+      }
+    },
+    "ai_mentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "context": {
+            "enum": [
+              "developer_tool",
+              "product_work",
+              "general"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "name",
+          "context",
+          "evidence"
+        ]
+      }
+    },
+    "experience": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "max_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "min_years",
+        "max_years",
+        "evidence"
+      ]
+    },
+    "workplace": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "remote",
+            "hybrid",
+            "office",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "mode",
+        "evidence"
+      ]
+    },
+    "salary": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "max": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period": {
+          "enum": [
+            "hour",
+            "month",
+            "year",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "min",
+        "max",
+        "currency",
+        "period",
+        "evidence"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "role",
+    "seniority",
+    "skills",
+    "ai_mentions",
+    "experience",
+    "workplace",
+    "salary",
+    "language"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

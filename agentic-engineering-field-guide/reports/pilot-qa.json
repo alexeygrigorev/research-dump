@@ -1,0 +1,193 @@
+{
+  "method": "Human-model manual comparison of description, title and extracted fields: fixed first 10 historical and first 10 live pilot rows; source text and complete outputs in pilot.json. No independent LLM grader used. Literal grounding and schema are separately checked by code.",
+  "decision": "Proceed for descriptive skill/AI mention analysis with explicit caveats; not a validated census of mandatory skills or precise role/context categories. No manual overrides were applied to model outputs.",
+  "limitations": [
+    "Small convenience review sample, not an accuracy confidence interval",
+    "Alternative/example skills are often over-labeled required",
+    "One clear coarse-role error; some AI-context and seniority ambiguity",
+    "Experience alternatives and preferred ranges require reading evidence",
+    "Currency and salary period deliberately remain unknown without explicit support"
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "dataset": "historical",
+      "vacancy_id": "builtin:11029078",
+      "title": "Lead Front-End Software Engineer – AI Products (React / TypeScript)",
+      "text_hash": "5c52a4b477a2e3860b16ec18f62d0cfb2c3f8b3faf9e1f235590729feca8c14b",
+      "manually_reviewed": true,
+      "assessment": "Grounded skills, 6+ years and AI product work. Salary uses the envelope across three US locations; currency and period remain unknown without explicit support."
+    },
+    {
+      "index": 2,
+      "dataset": "historical",
+      "vacancy_id": "builtin:11127453",
+      "title": "Software Developer - Product",
+      "text_hash": "7f46ff5e7637160d61e362d3e0f19585860118d8dd2e3e1404a5ceb656c4086f",
+      "manually_reviewed": true,
+      "assessment": "No AI/pay invented; reports-to senior/principal is not assigned to the candidate. Skill list is not exhaustive."
+    },
+    {
+      "index": 3,
+      "dataset": "historical",
+      "vacancy_id": "builtin:7315658",
+      "title": "Senior Software Engineer, Bolt",
+      "text_hash": "e5ea62a4f607cf8a6441ba6d9b74fb3fdea0d14f358bd192b9aee2bacf60e60e",
+      "manually_reviewed": true,
+      "assessment": "C++ or Rust is an alternative, but C++ still labeled required. Experience and salary bounds grounded; office attendance explicit. Title supplies senior level."
+    },
+    {
+      "index": 4,
+      "dataset": "historical",
+      "vacancy_id": "builtin:6223388",
+      "title": "Senior DGX Cloud AI Infrastructure Software Engineer",
+      "text_hash": "03ff63770196d50df15acd7b683add51845091c483ed3962fb8f42b58c8d12ce",
+      "manually_reviewed": true,
+      "assessment": "Infrastructure role is a coarse devops_sre classification; explicit LLM/GenAI and eight years grounded. Multi-level salary envelope retained, period unknown."
+    },
+    {
+      "index": 5,
+      "dataset": "historical",
+      "vacancy_id": "builtin:7063006",
+      "title": "Staff Software Engineer, Data and Analytics",
+      "text_hash": "2482c2818bf9b89fd0cabb36dcaa585354ac48ac5ffd7dc2b9d4979c9d3f699a",
+      "manually_reviewed": true,
+      "assessment": "Role classified other despite clear data-engineering work: role classification error. Staff title retained independently; skill/experience/AI mentions grounded."
+    },
+    {
+      "index": 6,
+      "dataset": "historical",
+      "vacancy_id": "builtin:11893224",
+      "title": "Sr Software Engineer",
+      "text_hash": "f139b365c24eca0e6792570d361465f1c463eee477941e602e5390da8d6ae4f8",
+      "manually_reviewed": true,
+      "assessment": "Cloud and database examples over-labeled required. Mention presence is supported; strict mandatory labels are unreliable."
+    },
+    {
+      "index": 7,
+      "dataset": "historical",
+      "vacancy_id": "greenhouse:5499505004",
+      "title": "Software Engineer, Deployment Infrastructure",
+      "text_hash": "cbadf1045f93248dde2a6fda20e0435e234178b105528c5216554c9b2a9a9139",
+      "manually_reviewed": true,
+      "assessment": "Deployment infrastructure classified backend; seniority interpretation is ambiguous and should be treated cautiously. General AI marketing correctly does not imply developer-tool use."
+    },
+    {
+      "index": 8,
+      "dataset": "historical",
+      "vacancy_id": "builtin:8729625",
+      "title": "Senior Software Engineer, Unity",
+      "text_hash": "d66aebc1a3f17e2b4bbbc4d49ecaebe2ba45aed770d96f60a0104837ef697f61",
+      "manually_reviewed": true,
+      "assessment": "Unity/C# and three years grounded; company AI statement classified general, not a named coding tool."
+    },
+    {
+      "index": 9,
+      "dataset": "historical",
+      "vacancy_id": "builtin:7928994",
+      "title": "Senior Software Engineer, Backend - Java",
+      "text_hash": "d41be00c757f7f82239ee609d92a105c39e01c65edb95b372f917fe3a11c254b",
+      "manually_reviewed": true,
+      "assessment": "Company Applied AI marketing classified product_work; general would be more conservative. Java role and five years grounded."
+    },
+    {
+      "index": 10,
+      "dataset": "historical",
+      "vacancy_id": "builtin:2530806",
+      "title": "Junior Backend Developer (Golang)",
+      "text_hash": "590f16fb2344f75d5286d29ff53dacdd98f3f68376985fda67f34f5786357780",
+      "manually_reviewed": true,
+      "assessment": "Two-to-three years is one alternative to a degree/portfolio, not an unconditional minimum; Go is an advantage as well as the role language. Evidence retains the alternatives."
+    },
+    {
+      "index": 11,
+      "dataset": "live",
+      "vacancy_id": "builtin:9691914",
+      "title": "Software Engineer",
+      "text_hash": "9fc7b0db7a05475c70af696035588ecc51aa99e4535e23e6aac4acd9bc2b959a",
+      "manually_reviewed": true,
+      "assessment": "Fullstack, explicit in-person policy and 120k–220k supported. PostgreSQL preference labeled required; currency/period left unspecified."
+    },
+    {
+      "index": 12,
+      "dataset": "live",
+      "vacancy_id": "builtin:11766083",
+      "title": "Backend Engineers (Mid & Senior) - Product Engineering",
+      "text_hash": "352257b79a73e8380d44b15048c49e998137cfc327be964a2eb8b0404bb3a8a3",
+      "manually_reviewed": true,
+      "assessment": "Mid & Senior combined posting: title rule picks senior, not evidence that every opening is senior. Hybrid benefit is role-dependent; retain as uncertain description mention."
+    },
+    {
+      "index": 13,
+      "dataset": "live",
+      "vacancy_id": "builtin:11051220",
+      "title": "Full Stack Engineer",
+      "text_hash": "22208457a135eb5b733f99f2241c9c2ac5bef28893fd7b68bff3b5f3c6e88068",
+      "manually_reviewed": true,
+      "assessment": "React/TypeScript stack and generative-AI developer tools grounded. Salary 80k–250k/year supported; currency unknown."
+    },
+    {
+      "index": 14,
+      "dataset": "live",
+      "vacancy_id": "builtin:12042117",
+      "title": "Software Engineer, Enterprise Platform Engineering",
+      "text_hash": "afffaf62832cbb7a0ba87c223d1a569d4d89567191b5f52451886cf7ac8bbc1b",
+      "manually_reviewed": true,
+      "assessment": "Explicit one-year minimum captured; 5–12 preferred range retained in evidence. GenAI internal-platform adoption as developer_tool is broad; salary recovered by protective boilerplate rule."
+    },
+    {
+      "index": 15,
+      "dataset": "live",
+      "vacancy_id": "builtin:10371956",
+      "title": "Senior Software Engineer (Serverless)",
+      "text_hash": "5c56e14b01a4537226644350d42dcf942255a21815bd92c96c710001143ac88c",
+      "manually_reviewed": true,
+      "assessment": "Serverless/AI product work, seven years and hybrid explicit. Go or willingness to switch is over-labeled mandatory Go."
+    },
+    {
+      "index": 16,
+      "dataset": "live",
+      "vacancy_id": "builtin:10297594",
+      "title": "Senior Full Stack Software Engineer",
+      "text_hash": "90fdaf5581dbec9e4aee240e226c5ad1e9b5d086542f3abc159f9138d5bc72d1",
+      "manually_reviewed": true,
+      "assessment": "Five-to-eight years, on-site and Node/React/AWS supported. AI agents and ML are product work; no fabricated LLM label."
+    },
+    {
+      "index": 17,
+      "dataset": "live",
+      "vacancy_id": "builtin:1560787",
+      "title": "Senior Software Engineer",
+      "text_hash": "bcaf42e4f6a50ffffbf12819a5c0c2157098684e8f9c2a2986f150a3727eb147",
+      "manually_reviewed": true,
+      "assessment": "Eight years overall and three years stack experience distinguished. AWS Lambda example over-labeled required; skill presence grounded."
+    },
+    {
+      "index": 18,
+      "dataset": "live",
+      "vacancy_id": "builtin:11909982",
+      "title": "Senior Full Stack Engineer",
+      "text_hash": "5b464e1b176a40f74b9d0f270a32d16580611a71a1028523a3470128dca8db81",
+      "manually_reviewed": true,
+      "assessment": "Five years, remote and explicit annual pay grounded. Go/Python alternatives both labeled required. Generic AI coding tools do not imply a named vendor."
+    },
+    {
+      "index": 19,
+      "dataset": "live",
+      "vacancy_id": "builtin:12134835",
+      "title": "Software Engineer, AI (Early Career)",
+      "text_hash": "5c5eff1d08aa6fcf712f086a96f843e4e204f39bd4df860b980a9bde10385eab",
+      "manually_reviewed": true,
+      "assessment": "One-year professional or one-to-two-year AI-building alternatives supported. TypeScript/Python alternatives over-labeled required; LLM judges are eval/product work more than coding-tool use."
+    },
+    {
+      "index": 20,
+      "dataset": "live",
+      "vacancy_id": "builtin:9897034",
+      "title": "Full Stack Software Engineer",
+      "text_hash": "54c0337406ae0812eb0caf671870bebc63d4e841a8846d6f9d6a8f3b0df4cebe",
+      "manually_reviewed": true,
+      "assessment": "Five years, Python/TypeScript/React and pay bounds supported. Headquarters-only office inference reset to unknown. Company AI mention is broad product context."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: Vacancy extraction validation
+on:
+  push:
+    paths:
+      - 'agentic-engineering-field-guide/scripts/**'
+      - 'agentic-engineering-field-guide/data/historical/extracted/**'
+      - 'agentic-engineering-field-guide/data/live/extracted/**'
+      - 'agentic-engineering-field-guide/reports/**'
+      - '.github/workflows/jobs-extractor.yml'
+  pull_request:
+    paths:
+      - 'agentic-engineering-field-guide/scripts/**'
+      - 'agentic-engineering-field-guide/data/historical/extracted/**'
+      - 'agentic-engineering-field-guide/data/live/extracted/**'
+      - 'agentic-engineering-field-guide/reports/**'
+      - '.github/workflows/jobs-extractor.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pyyaml matplotlib jsonschema
+      - run: python agentic-engineering-field-guide/scripts/check_extraction.py --pilot-only
+      - name: Validate full outputs when available
+        if: ${{ hashFiles('agentic-engineering-field-guide/data/historical/extracted/vacancies.jsonl.gz') != '' }}
+        run: python agentic-engineering-field-guide/scripts/check_extraction.py
