@@ -1,0 +1,817 @@
+month,group,label,posts,text_posts,percent
+2025-12,ai_tools,Claude,0,214,0.0
+2025-12,ai_tools,Copilot,2,214,0.935
+2025-12,ai_tools,Cursor,5,214,2.336
+2025-12,ai_tools,LLM,24,214,11.215
+2025-12,ai_tools,agentic,11,214,5.14
+2025-12,technologies,AWS,22,214,10.28
+2025-12,technologies,C#,8,214,3.738
+2025-12,technologies,C++,4,214,1.869
+2025-12,technologies,Django,4,214,1.869
+2025-12,technologies,Docker,10,214,4.673
+2025-12,technologies,Elixir,0,214,0.0
+2025-12,technologies,Go,15,214,7.009
+2025-12,technologies,Java,7,214,3.271
+2025-12,technologies,JavaScript,5,214,2.336
+2025-12,technologies,Kotlin,6,214,2.804
+2025-12,technologies,Kubernetes,16,214,7.477
+2025-12,technologies,Next.js,15,214,7.009
+2025-12,technologies,Node.js,12,214,5.607
+2025-12,technologies,PostgreSQL,44,214,20.561
+2025-12,technologies,PyTorch,6,214,2.804
+2025-12,technologies,Python,47,214,21.963
+2025-12,technologies,React,45,214,21.028
+2025-12,technologies,Ruby,8,214,3.738
+2025-12,technologies,Rust,15,214,7.009
+2025-12,technologies,SQL,7,214,3.271
+2025-12,technologies,Scala,2,214,0.935
+2025-12,technologies,Swift,4,214,1.869
+2025-12,technologies,TensorFlow,0,214,0.0
+2025-12,technologies,TypeScript,40,214,18.692
+2025-12,locations,Amsterdam,1,214,0.467
+2025-12,locations,Austin,3,214,1.402
+2025-12,locations,Australia (country),1,214,0.467
+2025-12,locations,Bengaluru,0,214,0.0
+2025-12,locations,Berlin,4,214,1.869
+2025-12,locations,Boston,1,214,0.467
+2025-12,locations,Canada (country),10,214,4.673
+2025-12,locations,Dublin,0,214,0.0
+2025-12,locations,Europe (region),11,214,5.14
+2025-12,locations,Germany (country),3,214,1.402
+2025-12,locations,India (country),3,214,1.402
+2025-12,locations,London,12,214,5.607
+2025-12,locations,Los Angeles,1,214,0.467
+2025-12,locations,Munich,0,214,0.0
+2025-12,locations,New York,32,214,14.953
+2025-12,locations,Paris,0,214,0.0
+2025-12,locations,San Francisco / Bay Area,33,214,15.421
+2025-12,locations,Seattle,4,214,1.869
+2025-12,locations,Singapore,1,214,0.467
+2025-12,locations,Stockholm,2,214,0.935
+2025-12,locations,Sydney,0,214,0.0
+2025-12,locations,Tokyo,1,214,0.467
+2025-12,locations,Toronto,2,214,0.935
+2025-12,locations,UK (country),8,214,3.738
+2025-12,locations,USA (country),43,214,20.093
+2025-12,locations,Vancouver,3,214,1.402
+2025-12,locations,Zurich,0,214,0.0
+2025-12,roles,AI / ML,117,214,54.673
+2025-12,roles,Backend,58,214,27.103
+2025-12,roles,Data,8,214,3.738
+2025-12,roles,DevOps / SRE / infrastructure,22,214,10.28
+2025-12,roles,Frontend,30,214,14.019
+2025-12,roles,Full stack,64,214,29.907
+2025-12,roles,Management / leadership,21,214,9.813
+2025-12,roles,Mobile,5,214,2.336
+2025-12,roles,Product,7,214,3.271
+2025-12,roles,QA / testing,1,214,0.467
+2025-12,roles,Security,1,214,0.467
+2025-12,roles,Software engineer / developer,60,214,28.037
+2026-01,ai_tools,Claude,5,155,3.226
+2026-01,ai_tools,Copilot,3,155,1.935
+2026-01,ai_tools,Cursor,2,155,1.29
+2026-01,ai_tools,LLM,22,155,14.194
+2026-01,ai_tools,agentic,10,155,6.452
+2026-01,technologies,AWS,26,155,16.774
+2026-01,technologies,C#,0,155,0.0
+2026-01,technologies,C++,6,155,3.871
+2026-01,technologies,Django,4,155,2.581
+2026-01,technologies,Docker,11,155,7.097
+2026-01,technologies,Elixir,0,155,0.0
+2026-01,technologies,Go,13,155,8.387
+2026-01,technologies,Java,2,155,1.29
+2026-01,technologies,JavaScript,5,155,3.226
+2026-01,technologies,Kotlin,1,155,0.645
+2026-01,technologies,Kubernetes,13,155,8.387
+2026-01,technologies,Next.js,11,155,7.097
+2026-01,technologies,Node.js,16,155,10.323
+2026-01,technologies,PostgreSQL,28,155,18.065
+2026-01,technologies,PyTorch,3,155,1.935
+2026-01,technologies,Python,37,155,23.871
+2026-01,technologies,React,38,155,24.516
+2026-01,technologies,Ruby,4,155,2.581
+2026-01,technologies,Rust,9,155,5.806
+2026-01,technologies,SQL,9,155,5.806
+2026-01,technologies,Scala,0,155,0.0
+2026-01,technologies,Swift,1,155,0.645
+2026-01,technologies,TensorFlow,1,155,0.645
+2026-01,technologies,TypeScript,32,155,20.645
+2026-01,locations,Amsterdam,0,155,0.0
+2026-01,locations,Austin,4,155,2.581
+2026-01,locations,Australia (country),0,155,0.0
+2026-01,locations,Bengaluru,2,155,1.29
+2026-01,locations,Berlin,2,155,1.29
+2026-01,locations,Boston,1,155,0.645
+2026-01,locations,Canada (country),3,155,1.935
+2026-01,locations,Dublin,0,155,0.0
+2026-01,locations,Europe (region),10,155,6.452
+2026-01,locations,Germany (country),0,155,0.0
+2026-01,locations,India (country),5,155,3.226
+2026-01,locations,London,5,155,3.226
+2026-01,locations,Los Angeles,0,155,0.0
+2026-01,locations,Munich,0,155,0.0
+2026-01,locations,New York,17,155,10.968
+2026-01,locations,Paris,1,155,0.645
+2026-01,locations,San Francisco / Bay Area,26,155,16.774
+2026-01,locations,Seattle,0,155,0.0
+2026-01,locations,Singapore,0,155,0.0
+2026-01,locations,Stockholm,2,155,1.29
+2026-01,locations,Sydney,0,155,0.0
+2026-01,locations,Tokyo,0,155,0.0
+2026-01,locations,Toronto,1,155,0.645
+2026-01,locations,UK (country),5,155,3.226
+2026-01,locations,USA (country),37,155,23.871
+2026-01,locations,Vancouver,1,155,0.645
+2026-01,locations,Zurich,0,155,0.0
+2026-01,roles,AI / ML,89,155,57.419
+2026-01,roles,Backend,36,155,23.226
+2026-01,roles,Data,9,155,5.806
+2026-01,roles,DevOps / SRE / infrastructure,23,155,14.839
+2026-01,roles,Frontend,19,155,12.258
+2026-01,roles,Full stack,45,155,29.032
+2026-01,roles,Management / leadership,19,155,12.258
+2026-01,roles,Mobile,3,155,1.935
+2026-01,roles,Product,7,155,4.516
+2026-01,roles,QA / testing,1,155,0.645
+2026-01,roles,Security,1,155,0.645
+2026-01,roles,Software engineer / developer,49,155,31.613
+2026-02,ai_tools,Claude,14,268,5.224
+2026-02,ai_tools,Copilot,4,268,1.493
+2026-02,ai_tools,Cursor,13,268,4.851
+2026-02,ai_tools,LLM,27,268,10.075
+2026-02,ai_tools,agentic,10,268,3.731
+2026-02,technologies,AWS,45,268,16.791
+2026-02,technologies,C#,2,268,0.746
+2026-02,technologies,C++,7,268,2.612
+2026-02,technologies,Django,8,268,2.985
+2026-02,technologies,Docker,13,268,4.851
+2026-02,technologies,Elixir,4,268,1.493
+2026-02,technologies,Go,18,268,6.716
+2026-02,technologies,Java,6,268,2.239
+2026-02,technologies,JavaScript,7,268,2.612
+2026-02,technologies,Kotlin,2,268,0.746
+2026-02,technologies,Kubernetes,26,268,9.701
+2026-02,technologies,Next.js,14,268,5.224
+2026-02,technologies,Node.js,15,268,5.597
+2026-02,technologies,PostgreSQL,50,268,18.657
+2026-02,technologies,PyTorch,2,268,0.746
+2026-02,technologies,Python,59,268,22.015
+2026-02,technologies,React,62,268,23.134
+2026-02,technologies,Ruby,12,268,4.478
+2026-02,technologies,Rust,22,268,8.209
+2026-02,technologies,SQL,11,268,4.104
+2026-02,technologies,Scala,0,268,0.0
+2026-02,technologies,Swift,5,268,1.866
+2026-02,technologies,TensorFlow,0,268,0.0
+2026-02,technologies,TypeScript,68,268,25.373
+2026-02,locations,Amsterdam,2,268,0.746
+2026-02,locations,Austin,7,268,2.612
+2026-02,locations,Australia (country),2,268,0.746
+2026-02,locations,Bengaluru,4,268,1.493
+2026-02,locations,Berlin,5,268,1.866
+2026-02,locations,Boston,5,268,1.866
+2026-02,locations,Canada (country),11,268,4.104
+2026-02,locations,Dublin,0,268,0.0
+2026-02,locations,Europe (region),26,268,9.701
+2026-02,locations,Germany (country),4,268,1.493
+2026-02,locations,India (country),5,268,1.866
+2026-02,locations,London,16,268,5.97
+2026-02,locations,Los Angeles,3,268,1.119
+2026-02,locations,Munich,5,268,1.866
+2026-02,locations,New York,27,268,10.075
+2026-02,locations,Paris,4,268,1.493
+2026-02,locations,San Francisco / Bay Area,35,268,13.06
+2026-02,locations,Seattle,3,268,1.119
+2026-02,locations,Singapore,0,268,0.0
+2026-02,locations,Stockholm,2,268,0.746
+2026-02,locations,Sydney,1,268,0.373
+2026-02,locations,Tokyo,0,268,0.0
+2026-02,locations,Toronto,6,268,2.239
+2026-02,locations,UK (country),15,268,5.597
+2026-02,locations,USA (country),61,268,22.761
+2026-02,locations,Vancouver,0,268,0.0
+2026-02,locations,Zurich,3,268,1.119
+2026-02,roles,AI / ML,146,268,54.478
+2026-02,roles,Backend,69,268,25.746
+2026-02,roles,Data,16,268,5.97
+2026-02,roles,DevOps / SRE / infrastructure,30,268,11.194
+2026-02,roles,Frontend,40,268,14.925
+2026-02,roles,Full stack,73,268,27.239
+2026-02,roles,Management / leadership,24,268,8.955
+2026-02,roles,Mobile,10,268,3.731
+2026-02,roles,Product,15,268,5.597
+2026-02,roles,QA / testing,9,268,3.358
+2026-02,roles,Security,2,268,0.746
+2026-02,roles,Software engineer / developer,72,268,26.866
+2026-03,ai_tools,Claude,11,203,5.419
+2026-03,ai_tools,Copilot,3,203,1.478
+2026-03,ai_tools,Cursor,8,203,3.941
+2026-03,ai_tools,LLM,21,203,10.345
+2026-03,ai_tools,agentic,13,203,6.404
+2026-03,technologies,AWS,30,203,14.778
+2026-03,technologies,C#,1,203,0.493
+2026-03,technologies,C++,12,203,5.911
+2026-03,technologies,Django,9,203,4.433
+2026-03,technologies,Docker,15,203,7.389
+2026-03,technologies,Elixir,2,203,0.985
+2026-03,technologies,Go,12,203,5.911
+2026-03,technologies,Java,4,203,1.97
+2026-03,technologies,JavaScript,9,203,4.433
+2026-03,technologies,Kotlin,2,203,0.985
+2026-03,technologies,Kubernetes,18,203,8.867
+2026-03,technologies,Next.js,13,203,6.404
+2026-03,technologies,Node.js,17,203,8.374
+2026-03,technologies,PostgreSQL,43,203,21.182
+2026-03,technologies,PyTorch,4,203,1.97
+2026-03,technologies,Python,45,203,22.167
+2026-03,technologies,React,52,203,25.616
+2026-03,technologies,Ruby,11,203,5.419
+2026-03,technologies,Rust,11,203,5.419
+2026-03,technologies,SQL,8,203,3.941
+2026-03,technologies,Scala,2,203,0.985
+2026-03,technologies,Swift,3,203,1.478
+2026-03,technologies,TensorFlow,3,203,1.478
+2026-03,technologies,TypeScript,45,203,22.167
+2026-03,locations,Amsterdam,3,203,1.478
+2026-03,locations,Austin,4,203,1.97
+2026-03,locations,Australia (country),0,203,0.0
+2026-03,locations,Bengaluru,1,203,0.493
+2026-03,locations,Berlin,6,203,2.956
+2026-03,locations,Boston,4,203,1.97
+2026-03,locations,Canada (country),5,203,2.463
+2026-03,locations,Dublin,0,203,0.0
+2026-03,locations,Europe (region),17,203,8.374
+2026-03,locations,Germany (country),8,203,3.941
+2026-03,locations,India (country),1,203,0.493
+2026-03,locations,London,9,203,4.433
+2026-03,locations,Los Angeles,2,203,0.985
+2026-03,locations,Munich,3,203,1.478
+2026-03,locations,New York,24,203,11.823
+2026-03,locations,Paris,3,203,1.478
+2026-03,locations,San Francisco / Bay Area,26,203,12.808
+2026-03,locations,Seattle,7,203,3.448
+2026-03,locations,Singapore,0,203,0.0
+2026-03,locations,Stockholm,3,203,1.478
+2026-03,locations,Sydney,0,203,0.0
+2026-03,locations,Tokyo,0,203,0.0
+2026-03,locations,Toronto,2,203,0.985
+2026-03,locations,UK (country),12,203,5.911
+2026-03,locations,USA (country),30,203,14.778
+2026-03,locations,Vancouver,2,203,0.985
+2026-03,locations,Zurich,0,203,0.0
+2026-03,roles,AI / ML,115,203,56.65
+2026-03,roles,Backend,50,203,24.631
+2026-03,roles,Data,11,203,5.419
+2026-03,roles,DevOps / SRE / infrastructure,25,203,12.315
+2026-03,roles,Frontend,26,203,12.808
+2026-03,roles,Full stack,49,203,24.138
+2026-03,roles,Management / leadership,16,203,7.882
+2026-03,roles,Mobile,3,203,1.478
+2026-03,roles,Product,8,203,3.941
+2026-03,roles,QA / testing,5,203,2.463
+2026-03,roles,Security,2,203,0.985
+2026-03,roles,Software engineer / developer,63,203,31.034
+2026-04,ai_tools,Claude,16,212,7.547
+2026-04,ai_tools,Copilot,0,212,0.0
+2026-04,ai_tools,Cursor,5,212,2.358
+2026-04,ai_tools,LLM,37,212,17.453
+2026-04,ai_tools,agentic,21,212,9.906
+2026-04,technologies,AWS,32,212,15.094
+2026-04,technologies,C#,4,212,1.887
+2026-04,technologies,C++,10,212,4.717
+2026-04,technologies,Django,7,212,3.302
+2026-04,technologies,Docker,15,212,7.075
+2026-04,technologies,Elixir,2,212,0.943
+2026-04,technologies,Go,14,212,6.604
+2026-04,technologies,Java,9,212,4.245
+2026-04,technologies,JavaScript,8,212,3.774
+2026-04,technologies,Kotlin,2,212,0.943
+2026-04,technologies,Kubernetes,15,212,7.075
+2026-04,technologies,Next.js,15,212,7.075
+2026-04,technologies,Node.js,14,212,6.604
+2026-04,technologies,PostgreSQL,38,212,17.925
+2026-04,technologies,PyTorch,3,212,1.415
+2026-04,technologies,Python,62,212,29.245
+2026-04,technologies,React,46,212,21.698
+2026-04,technologies,Ruby,5,212,2.358
+2026-04,technologies,Rust,15,212,7.075
+2026-04,technologies,SQL,11,212,5.189
+2026-04,technologies,Scala,1,212,0.472
+2026-04,technologies,Swift,1,212,0.472
+2026-04,technologies,TensorFlow,0,212,0.0
+2026-04,technologies,TypeScript,48,212,22.642
+2026-04,locations,Amsterdam,0,212,0.0
+2026-04,locations,Austin,7,212,3.302
+2026-04,locations,Australia (country),0,212,0.0
+2026-04,locations,Bengaluru,1,212,0.472
+2026-04,locations,Berlin,4,212,1.887
+2026-04,locations,Boston,2,212,0.943
+2026-04,locations,Canada (country),4,212,1.887
+2026-04,locations,Dublin,2,212,0.943
+2026-04,locations,Europe (region),16,212,7.547
+2026-04,locations,Germany (country),6,212,2.83
+2026-04,locations,India (country),4,212,1.887
+2026-04,locations,London,11,212,5.189
+2026-04,locations,Los Angeles,2,212,0.943
+2026-04,locations,Munich,0,212,0.0
+2026-04,locations,New York,31,212,14.623
+2026-04,locations,Paris,0,212,0.0
+2026-04,locations,San Francisco / Bay Area,33,212,15.566
+2026-04,locations,Seattle,4,212,1.887
+2026-04,locations,Singapore,1,212,0.472
+2026-04,locations,Stockholm,2,212,0.943
+2026-04,locations,Sydney,0,212,0.0
+2026-04,locations,Tokyo,0,212,0.0
+2026-04,locations,Toronto,5,212,2.358
+2026-04,locations,UK (country),11,212,5.189
+2026-04,locations,USA (country),34,212,16.038
+2026-04,locations,Vancouver,2,212,0.943
+2026-04,locations,Zurich,2,212,0.943
+2026-04,roles,AI / ML,127,212,59.906
+2026-04,roles,Backend,59,212,27.83
+2026-04,roles,Data,14,212,6.604
+2026-04,roles,DevOps / SRE / infrastructure,22,212,10.377
+2026-04,roles,Frontend,27,212,12.736
+2026-04,roles,Full stack,60,212,28.302
+2026-04,roles,Management / leadership,30,212,14.151
+2026-04,roles,Mobile,2,212,0.943
+2026-04,roles,Product,5,212,2.358
+2026-04,roles,QA / testing,6,212,2.83
+2026-04,roles,Security,4,212,1.887
+2026-04,roles,Software engineer / developer,61,212,28.774
+2026-05,ai_tools,Claude,11,191,5.759
+2026-05,ai_tools,Copilot,2,191,1.047
+2026-05,ai_tools,Cursor,3,191,1.571
+2026-05,ai_tools,LLM,26,191,13.613
+2026-05,ai_tools,agentic,15,191,7.853
+2026-05,technologies,AWS,38,191,19.895
+2026-05,technologies,C#,3,191,1.571
+2026-05,technologies,C++,8,191,4.188
+2026-05,technologies,Django,6,191,3.141
+2026-05,technologies,Docker,8,191,4.188
+2026-05,technologies,Elixir,3,191,1.571
+2026-05,technologies,Go,20,191,10.471
+2026-05,technologies,Java,5,191,2.618
+2026-05,technologies,JavaScript,8,191,4.188
+2026-05,technologies,Kotlin,1,191,0.524
+2026-05,technologies,Kubernetes,13,191,6.806
+2026-05,technologies,Next.js,13,191,6.806
+2026-05,technologies,Node.js,13,191,6.806
+2026-05,technologies,PostgreSQL,36,191,18.848
+2026-05,technologies,PyTorch,6,191,3.141
+2026-05,technologies,Python,53,191,27.749
+2026-05,technologies,React,39,191,20.419
+2026-05,technologies,Ruby,8,191,4.188
+2026-05,technologies,Rust,18,191,9.424
+2026-05,technologies,SQL,4,191,2.094
+2026-05,technologies,Scala,3,191,1.571
+2026-05,technologies,Swift,1,191,0.524
+2026-05,technologies,TensorFlow,3,191,1.571
+2026-05,technologies,TypeScript,43,191,22.513
+2026-05,locations,Amsterdam,3,191,1.571
+2026-05,locations,Austin,4,191,2.094
+2026-05,locations,Australia (country),0,191,0.0
+2026-05,locations,Bengaluru,1,191,0.524
+2026-05,locations,Berlin,4,191,2.094
+2026-05,locations,Boston,5,191,2.618
+2026-05,locations,Canada (country),10,191,5.236
+2026-05,locations,Dublin,2,191,1.047
+2026-05,locations,Europe (region),11,191,5.759
+2026-05,locations,Germany (country),1,191,0.524
+2026-05,locations,India (country),6,191,3.141
+2026-05,locations,London,7,191,3.665
+2026-05,locations,Los Angeles,3,191,1.571
+2026-05,locations,Munich,1,191,0.524
+2026-05,locations,New York,18,191,9.424
+2026-05,locations,Paris,3,191,1.571
+2026-05,locations,San Francisco / Bay Area,26,191,13.613
+2026-05,locations,Seattle,3,191,1.571
+2026-05,locations,Singapore,1,191,0.524
+2026-05,locations,Stockholm,0,191,0.0
+2026-05,locations,Sydney,0,191,0.0
+2026-05,locations,Tokyo,2,191,1.047
+2026-05,locations,Toronto,10,191,5.236
+2026-05,locations,UK (country),5,191,2.618
+2026-05,locations,USA (country),44,191,23.037
+2026-05,locations,Vancouver,1,191,0.524
+2026-05,locations,Zurich,2,191,1.047
+2026-05,roles,AI / ML,106,191,55.497
+2026-05,roles,Backend,38,191,19.895
+2026-05,roles,Data,14,191,7.33
+2026-05,roles,DevOps / SRE / infrastructure,29,191,15.183
+2026-05,roles,Frontend,22,191,11.518
+2026-05,roles,Full stack,52,191,27.225
+2026-05,roles,Management / leadership,20,191,10.471
+2026-05,roles,Mobile,4,191,2.094
+2026-05,roles,Product,9,191,4.712
+2026-05,roles,QA / testing,2,191,1.047
+2026-05,roles,Security,1,191,0.524
+2026-05,roles,Software engineer / developer,45,191,23.56
+2026-06,ai_tools,Claude,18,197,9.137
+2026-06,ai_tools,Copilot,2,197,1.015
+2026-06,ai_tools,Cursor,6,197,3.046
+2026-06,ai_tools,LLM,27,197,13.706
+2026-06,ai_tools,agentic,23,197,11.675
+2026-06,technologies,AWS,24,197,12.183
+2026-06,technologies,C#,1,197,0.508
+2026-06,technologies,C++,5,197,2.538
+2026-06,technologies,Django,7,197,3.553
+2026-06,technologies,Docker,12,197,6.091
+2026-06,technologies,Elixir,2,197,1.015
+2026-06,technologies,Go,19,197,9.645
+2026-06,technologies,Java,5,197,2.538
+2026-06,technologies,JavaScript,3,197,1.523
+2026-06,technologies,Kotlin,6,197,3.046
+2026-06,technologies,Kubernetes,15,197,7.614
+2026-06,technologies,Next.js,16,197,8.122
+2026-06,technologies,Node.js,9,197,4.569
+2026-06,technologies,PostgreSQL,33,197,16.751
+2026-06,technologies,PyTorch,1,197,0.508
+2026-06,technologies,Python,46,197,23.35
+2026-06,technologies,React,46,197,23.35
+2026-06,technologies,Ruby,7,197,3.553
+2026-06,technologies,Rust,11,197,5.584
+2026-06,technologies,SQL,9,197,4.569
+2026-06,technologies,Scala,2,197,1.015
+2026-06,technologies,Swift,2,197,1.015
+2026-06,technologies,TensorFlow,0,197,0.0
+2026-06,technologies,TypeScript,41,197,20.812
+2026-06,locations,Amsterdam,3,197,1.523
+2026-06,locations,Austin,2,197,1.015
+2026-06,locations,Australia (country),1,197,0.508
+2026-06,locations,Bengaluru,0,197,0.0
+2026-06,locations,Berlin,3,197,1.523
+2026-06,locations,Boston,5,197,2.538
+2026-06,locations,Canada (country),9,197,4.569
+2026-06,locations,Dublin,2,197,1.015
+2026-06,locations,Europe (region),9,197,4.569
+2026-06,locations,Germany (country),6,197,3.046
+2026-06,locations,India (country),2,197,1.015
+2026-06,locations,London,13,197,6.599
+2026-06,locations,Los Angeles,1,197,0.508
+2026-06,locations,Munich,1,197,0.508
+2026-06,locations,New York,21,197,10.66
+2026-06,locations,Paris,4,197,2.03
+2026-06,locations,San Francisco / Bay Area,30,197,15.228
+2026-06,locations,Seattle,5,197,2.538
+2026-06,locations,Singapore,0,197,0.0
+2026-06,locations,Stockholm,4,197,2.03
+2026-06,locations,Sydney,1,197,0.508
+2026-06,locations,Tokyo,1,197,0.508
+2026-06,locations,Toronto,4,197,2.03
+2026-06,locations,UK (country),4,197,2.03
+2026-06,locations,USA (country),45,197,22.843
+2026-06,locations,Vancouver,4,197,2.03
+2026-06,locations,Zurich,0,197,0.0
+2026-06,roles,AI / ML,120,197,60.914
+2026-06,roles,Backend,44,197,22.335
+2026-06,roles,Data,14,197,7.107
+2026-06,roles,DevOps / SRE / infrastructure,24,197,12.183
+2026-06,roles,Frontend,15,197,7.614
+2026-06,roles,Full stack,61,197,30.964
+2026-06,roles,Management / leadership,18,197,9.137
+2026-06,roles,Mobile,5,197,2.538
+2026-06,roles,Product,9,197,4.569
+2026-06,roles,QA / testing,3,197,1.523
+2026-06,roles,Security,5,197,2.538
+2026-06,roles,Software engineer / developer,53,197,26.904
+2026-07,ai_tools,Claude,9,145,6.207
+2026-07,ai_tools,Copilot,2,145,1.379
+2026-07,ai_tools,Cursor,5,145,3.448
+2026-07,ai_tools,LLM,13,145,8.966
+2026-07,ai_tools,agentic,12,145,8.276
+2026-07,technologies,AWS,23,145,15.862
+2026-07,technologies,C#,8,145,5.517
+2026-07,technologies,C++,7,145,4.828
+2026-07,technologies,Django,3,145,2.069
+2026-07,technologies,Docker,4,145,2.759
+2026-07,technologies,Elixir,3,145,2.069
+2026-07,technologies,Go,8,145,5.517
+2026-07,technologies,Java,6,145,4.138
+2026-07,technologies,JavaScript,3,145,2.069
+2026-07,technologies,Kotlin,3,145,2.069
+2026-07,technologies,Kubernetes,12,145,8.276
+2026-07,technologies,Next.js,7,145,4.828
+2026-07,technologies,Node.js,10,145,6.897
+2026-07,technologies,PostgreSQL,25,145,17.241
+2026-07,technologies,PyTorch,2,145,1.379
+2026-07,technologies,Python,28,145,19.31
+2026-07,technologies,React,33,145,22.759
+2026-07,technologies,Ruby,9,145,6.207
+2026-07,technologies,Rust,16,145,11.034
+2026-07,technologies,SQL,7,145,4.828
+2026-07,technologies,Scala,2,145,1.379
+2026-07,technologies,Swift,2,145,1.379
+2026-07,technologies,TensorFlow,1,145,0.69
+2026-07,technologies,TypeScript,35,145,24.138
+2026-07,locations,Amsterdam,1,145,0.69
+2026-07,locations,Austin,1,145,0.69
+2026-07,locations,Australia (country),0,145,0.0
+2026-07,locations,Bengaluru,2,145,1.379
+2026-07,locations,Berlin,4,145,2.759
+2026-07,locations,Boston,3,145,2.069
+2026-07,locations,Canada (country),3,145,2.069
+2026-07,locations,Dublin,0,145,0.0
+2026-07,locations,Europe (region),14,145,9.655
+2026-07,locations,Germany (country),3,145,2.069
+2026-07,locations,India (country),2,145,1.379
+2026-07,locations,London,8,145,5.517
+2026-07,locations,Los Angeles,0,145,0.0
+2026-07,locations,Munich,2,145,1.379
+2026-07,locations,New York,21,145,14.483
+2026-07,locations,Paris,4,145,2.759
+2026-07,locations,San Francisco / Bay Area,24,145,16.552
+2026-07,locations,Seattle,4,145,2.759
+2026-07,locations,Singapore,0,145,0.0
+2026-07,locations,Stockholm,2,145,1.379
+2026-07,locations,Sydney,0,145,0.0
+2026-07,locations,Tokyo,1,145,0.69
+2026-07,locations,Toronto,2,145,1.379
+2026-07,locations,UK (country),2,145,1.379
+2026-07,locations,USA (country),27,145,18.621
+2026-07,locations,Vancouver,0,145,0.0
+2026-07,locations,Zurich,1,145,0.69
+2026-07,roles,AI / ML,84,145,57.931
+2026-07,roles,Backend,35,145,24.138
+2026-07,roles,Data,5,145,3.448
+2026-07,roles,DevOps / SRE / infrastructure,18,145,12.414
+2026-07,roles,Frontend,15,145,10.345
+2026-07,roles,Full stack,26,145,17.931
+2026-07,roles,Management / leadership,17,145,11.724
+2026-07,roles,Mobile,2,145,1.379
+2026-07,roles,Product,6,145,4.138
+2026-07,roles,QA / testing,6,145,4.138
+2026-07,roles,Security,1,145,0.69
+2026-07,roles,Software engineer / developer,39,145,26.897
+2026-08,ai_tools,Claude,11,135,8.148
+2026-08,ai_tools,Copilot,3,135,2.222
+2026-08,ai_tools,Cursor,2,135,1.481
+2026-08,ai_tools,LLM,27,135,20.0
+2026-08,ai_tools,agentic,11,135,8.148
+2026-08,technologies,AWS,30,135,22.222
+2026-08,technologies,C#,0,135,0.0
+2026-08,technologies,C++,9,135,6.667
+2026-08,technologies,Django,2,135,1.481
+2026-08,technologies,Docker,13,135,9.63
+2026-08,technologies,Elixir,1,135,0.741
+2026-08,technologies,Go,7,135,5.185
+2026-08,technologies,Java,4,135,2.963
+2026-08,technologies,JavaScript,3,135,2.222
+2026-08,technologies,Kotlin,1,135,0.741
+2026-08,technologies,Kubernetes,17,135,12.593
+2026-08,technologies,Next.js,9,135,6.667
+2026-08,technologies,Node.js,13,135,9.63
+2026-08,technologies,PostgreSQL,34,135,25.185
+2026-08,technologies,PyTorch,5,135,3.704
+2026-08,technologies,Python,43,135,31.852
+2026-08,technologies,React,27,135,20.0
+2026-08,technologies,Ruby,9,135,6.667
+2026-08,technologies,Rust,10,135,7.407
+2026-08,technologies,SQL,9,135,6.667
+2026-08,technologies,Scala,2,135,1.481
+2026-08,technologies,Swift,2,135,1.481
+2026-08,technologies,TensorFlow,2,135,1.481
+2026-08,technologies,TypeScript,36,135,26.667
+2026-08,locations,Amsterdam,1,135,0.741
+2026-08,locations,Austin,0,135,0.0
+2026-08,locations,Australia (country),1,135,0.741
+2026-08,locations,Bengaluru,0,135,0.0
+2026-08,locations,Berlin,4,135,2.963
+2026-08,locations,Boston,3,135,2.222
+2026-08,locations,Canada (country),4,135,2.963
+2026-08,locations,Dublin,0,135,0.0
+2026-08,locations,Europe (region),10,135,7.407
+2026-08,locations,Germany (country),3,135,2.222
+2026-08,locations,India (country),2,135,1.481
+2026-08,locations,London,6,135,4.444
+2026-08,locations,Los Angeles,1,135,0.741
+2026-08,locations,Munich,1,135,0.741
+2026-08,locations,New York,14,135,10.37
+2026-08,locations,Paris,2,135,1.481
+2026-08,locations,San Francisco / Bay Area,14,135,10.37
+2026-08,locations,Seattle,5,135,3.704
+2026-08,locations,Singapore,0,135,0.0
+2026-08,locations,Stockholm,1,135,0.741
+2026-08,locations,Sydney,1,135,0.741
+2026-08,locations,Tokyo,0,135,0.0
+2026-08,locations,Toronto,4,135,2.963
+2026-08,locations,UK (country),8,135,5.926
+2026-08,locations,USA (country),32,135,23.704
+2026-08,locations,Vancouver,0,135,0.0
+2026-08,locations,Zurich,0,135,0.0
+2026-08,roles,AI / ML,92,135,68.148
+2026-08,roles,Backend,37,135,27.407
+2026-08,roles,Data,10,135,7.407
+2026-08,roles,DevOps / SRE / infrastructure,17,135,12.593
+2026-08,roles,Frontend,20,135,14.815
+2026-08,roles,Full stack,36,135,26.667
+2026-08,roles,Management / leadership,13,135,9.63
+2026-08,roles,Mobile,3,135,2.222
+2026-08,roles,Product,4,135,2.963
+2026-08,roles,QA / testing,5,135,3.704
+2026-08,roles,Security,4,135,2.963
+2026-08,roles,Software engineer / developer,31,135,22.963
+2026-09,ai_tools,Claude,9,137,6.569
+2026-09,ai_tools,Copilot,2,137,1.46
+2026-09,ai_tools,Cursor,4,137,2.92
+2026-09,ai_tools,LLM,23,137,16.788
+2026-09,ai_tools,agentic,17,137,12.409
+2026-09,technologies,AWS,20,137,14.599
+2026-09,technologies,C#,4,137,2.92
+2026-09,technologies,C++,8,137,5.839
+2026-09,technologies,Django,3,137,2.19
+2026-09,technologies,Docker,13,137,9.489
+2026-09,technologies,Elixir,1,137,0.73
+2026-09,technologies,Go,12,137,8.759
+2026-09,technologies,Java,5,137,3.65
+2026-09,technologies,JavaScript,10,137,7.299
+2026-09,technologies,Kotlin,2,137,1.46
+2026-09,technologies,Kubernetes,15,137,10.949
+2026-09,technologies,Next.js,8,137,5.839
+2026-09,technologies,Node.js,8,137,5.839
+2026-09,technologies,PostgreSQL,23,137,16.788
+2026-09,technologies,PyTorch,2,137,1.46
+2026-09,technologies,Python,42,137,30.657
+2026-09,technologies,React,28,137,20.438
+2026-09,technologies,Ruby,4,137,2.92
+2026-09,technologies,Rust,10,137,7.299
+2026-09,technologies,SQL,9,137,6.569
+2026-09,technologies,Scala,1,137,0.73
+2026-09,technologies,Swift,4,137,2.92
+2026-09,technologies,TensorFlow,0,137,0.0
+2026-09,technologies,TypeScript,30,137,21.898
+2026-09,locations,Amsterdam,2,137,1.46
+2026-09,locations,Austin,1,137,0.73
+2026-09,locations,Australia (country),0,137,0.0
+2026-09,locations,Bengaluru,1,137,0.73
+2026-09,locations,Berlin,4,137,2.92
+2026-09,locations,Boston,1,137,0.73
+2026-09,locations,Canada (country),7,137,5.109
+2026-09,locations,Dublin,0,137,0.0
+2026-09,locations,Europe (region),6,137,4.38
+2026-09,locations,Germany (country),4,137,2.92
+2026-09,locations,India (country),1,137,0.73
+2026-09,locations,London,3,137,2.19
+2026-09,locations,Los Angeles,0,137,0.0
+2026-09,locations,Munich,0,137,0.0
+2026-09,locations,New York,11,137,8.029
+2026-09,locations,Paris,0,137,0.0
+2026-09,locations,San Francisco / Bay Area,20,137,14.599
+2026-09,locations,Seattle,3,137,2.19
+2026-09,locations,Singapore,0,137,0.0
+2026-09,locations,Stockholm,1,137,0.73
+2026-09,locations,Sydney,0,137,0.0
+2026-09,locations,Tokyo,0,137,0.0
+2026-09,locations,Toronto,2,137,1.46
+2026-09,locations,UK (country),4,137,2.92
+2026-09,locations,USA (country),43,137,31.387
+2026-09,locations,Vancouver,0,137,0.0
+2026-09,locations,Zurich,2,137,1.46
+2026-09,roles,AI / ML,87,137,63.504
+2026-09,roles,Backend,33,137,24.088
+2026-09,roles,Data,10,137,7.299
+2026-09,roles,DevOps / SRE / infrastructure,18,137,13.139
+2026-09,roles,Frontend,12,137,8.759
+2026-09,roles,Full stack,27,137,19.708
+2026-09,roles,Management / leadership,13,137,9.489
+2026-09,roles,Mobile,3,137,2.19
+2026-09,roles,Product,6,137,4.38
+2026-09,roles,QA / testing,2,137,1.46
+2026-09,roles,Security,6,137,4.38
+2026-09,roles,Software engineer / developer,39,137,28.467
+2026-10,ai_tools,Claude,10,155,6.452
+2026-10,ai_tools,Copilot,3,155,1.935
+2026-10,ai_tools,Cursor,6,155,3.871
+2026-10,ai_tools,LLM,21,155,13.548
+2026-10,ai_tools,agentic,18,155,11.613
+2026-10,technologies,AWS,21,155,13.548
+2026-10,technologies,C#,3,155,1.935
+2026-10,technologies,C++,5,155,3.226
+2026-10,technologies,Django,1,155,0.645
+2026-10,technologies,Docker,5,155,3.226
+2026-10,technologies,Elixir,1,155,0.645
+2026-10,technologies,Go,13,155,8.387
+2026-10,technologies,Java,5,155,3.226
+2026-10,technologies,JavaScript,6,155,3.871
+2026-10,technologies,Kotlin,2,155,1.29
+2026-10,technologies,Kubernetes,12,155,7.742
+2026-10,technologies,Next.js,11,155,7.097
+2026-10,technologies,Node.js,8,155,5.161
+2026-10,technologies,PostgreSQL,27,155,17.419
+2026-10,technologies,PyTorch,2,155,1.29
+2026-10,technologies,Python,30,155,19.355
+2026-10,technologies,React,35,155,22.581
+2026-10,technologies,Ruby,2,155,1.29
+2026-10,technologies,Rust,13,155,8.387
+2026-10,technologies,SQL,12,155,7.742
+2026-10,technologies,Scala,1,155,0.645
+2026-10,technologies,Swift,4,155,2.581
+2026-10,technologies,TensorFlow,0,155,0.0
+2026-10,technologies,TypeScript,36,155,23.226
+2026-10,locations,Amsterdam,0,155,0.0
+2026-10,locations,Austin,5,155,3.226
+2026-10,locations,Australia (country),2,155,1.29
+2026-10,locations,Bengaluru,1,155,0.645
+2026-10,locations,Berlin,9,155,5.806
+2026-10,locations,Boston,1,155,0.645
+2026-10,locations,Canada (country),9,155,5.806
+2026-10,locations,Dublin,1,155,0.645
+2026-10,locations,Europe (region),11,155,7.097
+2026-10,locations,Germany (country),9,155,5.806
+2026-10,locations,India (country),4,155,2.581
+2026-10,locations,London,8,155,5.161
+2026-10,locations,Los Angeles,2,155,1.29
+2026-10,locations,Munich,2,155,1.29
+2026-10,locations,New York,12,155,7.742
+2026-10,locations,Paris,2,155,1.29
+2026-10,locations,San Francisco / Bay Area,29,155,18.71
+2026-10,locations,Seattle,4,155,2.581
+2026-10,locations,Singapore,1,155,0.645
+2026-10,locations,Stockholm,0,155,0.0
+2026-10,locations,Sydney,1,155,0.645
+2026-10,locations,Tokyo,1,155,0.645
+2026-10,locations,Toronto,1,155,0.645
+2026-10,locations,UK (country),12,155,7.742
+2026-10,locations,USA (country),34,155,21.935
+2026-10,locations,Vancouver,0,155,0.0
+2026-10,locations,Zurich,2,155,1.29
+2026-10,roles,AI / ML,93,155,60.0
+2026-10,roles,Backend,19,155,12.258
+2026-10,roles,Data,5,155,3.226
+2026-10,roles,DevOps / SRE / infrastructure,13,155,8.387
+2026-10,roles,Frontend,7,155,4.516
+2026-10,roles,Full stack,29,155,18.71
+2026-10,roles,Management / leadership,17,155,10.968
+2026-10,roles,Mobile,3,155,1.935
+2026-10,roles,Product,4,155,2.581
+2026-10,roles,QA / testing,1,155,0.645
+2026-10,roles,Security,4,155,2.581
+2026-10,roles,Software engineer / developer,44,155,28.387
+2026-11,ai_tools,Claude,12,166,7.229
+2026-11,ai_tools,Copilot,1,166,0.602
+2026-11,ai_tools,Cursor,3,166,1.807
+2026-11,ai_tools,LLM,25,166,15.06
+2026-11,ai_tools,agentic,15,166,9.036
+2026-11,technologies,AWS,25,166,15.06
+2026-11,technologies,C#,4,166,2.41
+2026-11,technologies,C++,11,166,6.627
+2026-11,technologies,Django,4,166,2.41
+2026-11,technologies,Docker,11,166,6.627
+2026-11,technologies,Elixir,0,166,0.0
+2026-11,technologies,Go,9,166,5.422
+2026-11,technologies,Java,7,166,4.217
+2026-11,technologies,JavaScript,5,166,3.012
+2026-11,technologies,Kotlin,2,166,1.205
+2026-11,technologies,Kubernetes,9,166,5.422
+2026-11,technologies,Next.js,12,166,7.229
+2026-11,technologies,Node.js,11,166,6.627
+2026-11,technologies,PostgreSQL,28,166,16.867
+2026-11,technologies,PyTorch,7,166,4.217
+2026-11,technologies,Python,43,166,25.904
+2026-11,technologies,React,32,166,19.277
+2026-11,technologies,Ruby,4,166,2.41
+2026-11,technologies,Rust,12,166,7.229
+2026-11,technologies,SQL,6,166,3.614
+2026-11,technologies,Scala,0,166,0.0
+2026-11,technologies,Swift,2,166,1.205
+2026-11,technologies,TensorFlow,3,166,1.807
+2026-11,technologies,TypeScript,36,166,21.687
+2026-11,locations,Amsterdam,1,166,0.602
+2026-11,locations,Austin,1,166,0.602
+2026-11,locations,Australia (country),0,166,0.0
+2026-11,locations,Bengaluru,1,166,0.602
+2026-11,locations,Berlin,5,166,3.012
+2026-11,locations,Boston,0,166,0.0
+2026-11,locations,Canada (country),6,166,3.614
+2026-11,locations,Dublin,0,166,0.0
+2026-11,locations,Europe (region),13,166,7.831
+2026-11,locations,Germany (country),5,166,3.012
+2026-11,locations,India (country),5,166,3.012
+2026-11,locations,London,10,166,6.024
+2026-11,locations,Los Angeles,1,166,0.602
+2026-11,locations,Munich,0,166,0.0
+2026-11,locations,New York,17,166,10.241
+2026-11,locations,Paris,1,166,0.602
+2026-11,locations,San Francisco / Bay Area,13,166,7.831
+2026-11,locations,Seattle,2,166,1.205
+2026-11,locations,Singapore,0,166,0.0
+2026-11,locations,Stockholm,2,166,1.205
+2026-11,locations,Sydney,0,166,0.0
+2026-11,locations,Tokyo,2,166,1.205
+2026-11,locations,Toronto,2,166,1.205
+2026-11,locations,UK (country),11,166,6.627
+2026-11,locations,USA (country),48,166,28.916
+2026-11,locations,Vancouver,0,166,0.0
+2026-11,locations,Zurich,0,166,0.0
+2026-11,roles,AI / ML,102,166,61.446
+2026-11,roles,Backend,34,166,20.482
+2026-11,roles,Data,16,166,9.639
+2026-11,roles,DevOps / SRE / infrastructure,20,166,12.048
+2026-11,roles,Frontend,20,166,12.048
+2026-11,roles,Full stack,25,166,15.06
+2026-11,roles,Management / leadership,22,166,13.253
+2026-11,roles,Mobile,3,166,1.807
+2026-11,roles,Product,7,166,4.217
+2026-11,roles,QA / testing,2,166,1.205
+2026-11,roles,Security,4,166,2.41
+2026-11,roles,Software engineer / developer,29,166,17.47

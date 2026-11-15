@@ -1,0 +1,6786 @@
+{
+  "months": [
+    {
+      "month": "2025-12",
+      "thread_id": 46108941,
+      "partial": false,
+      "total_posts": 378,
+      "all_comments": 531,
+      "replies": 153,
+      "text_posts": 377,
+      "empty_posts": 1,
+      "reposts_removed": 163,
+      "unique_posts": 215,
+      "remote": 108,
+      "onsite": 69,
+      "hybrid": 46,
+      "remote_only": 94,
+      "onsite_only": 55,
+      "both": 14,
+      "unspecified": 52,
+      "unique_text_posts": 214,
+      "any_ai_tool": 35
+    },
+    {
+      "month": "2026-01",
+      "thread_id": 46466074,
+      "partial": false,
+      "total_posts": 256,
+      "all_comments": 391,
+      "replies": 135,
+      "text_posts": 256,
+      "empty_posts": 0,
+      "reposts_removed": 101,
+      "unique_posts": 155,
+      "remote": 78,
+      "onsite": 51,
+      "hybrid": 30,
+      "remote_only": 74,
+      "onsite_only": 47,
+      "both": 4,
+      "unspecified": 30,
+      "unique_text_posts": 155,
+      "any_ai_tool": 35
+    },
+    {
+      "month": "2026-02",
+      "thread_id": 46857488,
+      "partial": false,
+      "total_posts": 410,
+      "all_comments": 577,
+      "replies": 167,
+      "text_posts": 410,
+      "empty_posts": 0,
+      "reposts_removed": 142,
+      "unique_posts": 268,
+      "remote": 138,
+      "onsite": 91,
+      "hybrid": 40,
+      "remote_only": 123,
+      "onsite_only": 76,
+      "both": 15,
+      "unspecified": 54,
+      "unique_text_posts": 268,
+      "any_ai_tool": 47
+    },
+    {
+      "month": "2026-03",
+      "thread_id": 47219668,
+      "partial": false,
+      "total_posts": 315,
+      "all_comments": 452,
+      "replies": 137,
+      "text_posts": 315,
+      "empty_posts": 0,
+      "reposts_removed": 112,
+      "unique_posts": 203,
+      "remote": 103,
+      "onsite": 78,
+      "hybrid": 44,
+      "remote_only": 89,
+      "onsite_only": 64,
+      "both": 14,
+      "unspecified": 36,
+      "unique_text_posts": 203,
+      "any_ai_tool": 43
+    },
+    {
+      "month": "2026-04",
+      "thread_id": 47601859,
+      "partial": false,
+      "total_posts": 326,
+      "all_comments": 441,
+      "replies": 115,
+      "text_posts": 326,
+      "empty_posts": 0,
+      "reposts_removed": 114,
+      "unique_posts": 212,
+      "remote": 105,
+      "onsite": 69,
+      "hybrid": 46,
+      "remote_only": 94,
+      "onsite_only": 58,
+      "both": 11,
+      "unspecified": 49,
+      "unique_text_posts": 212,
+      "any_ai_tool": 56
+    },
+    {
+      "month": "2026-05",
+      "thread_id": 47975571,
+      "partial": false,
+      "total_posts": 317,
+      "all_comments": 514,
+      "replies": 197,
+      "text_posts": 317,
+      "empty_posts": 0,
+      "reposts_removed": 126,
+      "unique_posts": 191,
+      "remote": 97,
+      "onsite": 61,
+      "hybrid": 46,
+      "remote_only": 86,
+      "onsite_only": 50,
+      "both": 11,
+      "unspecified": 44,
+      "unique_text_posts": 191,
+      "any_ai_tool": 43
+    },
+    {
+      "month": "2026-06",
+      "thread_id": 48357725,
+      "partial": false,
+      "total_posts": 312,
+      "all_comments": 472,
+      "replies": 160,
+      "text_posts": 312,
+      "empty_posts": 0,
+      "reposts_removed": 115,
+      "unique_posts": 197,
+      "remote": 96,
+      "onsite": 61,
+      "hybrid": 38,
+      "remote_only": 88,
+      "onsite_only": 53,
+      "both": 8,
+      "unspecified": 48,
+      "unique_text_posts": 197,
+      "any_ai_tool": 55
+    },
+    {
+      "month": "2026-07",
+      "thread_id": 48747976,
+      "partial": false,
+      "total_posts": 255,
+      "all_comments": 395,
+      "replies": 140,
+      "text_posts": 255,
+      "empty_posts": 0,
+      "reposts_removed": 110,
+      "unique_posts": 145,
+      "remote": 66,
+      "onsite": 56,
+      "hybrid": 27,
+      "remote_only": 60,
+      "onsite_only": 50,
+      "both": 6,
+      "unspecified": 29,
+      "unique_text_posts": 145,
+      "any_ai_tool": 33
+    },
+    {
+      "month": "2026-08",
+      "thread_id": 49156683,
+      "partial": false,
+      "total_posts": 224,
+      "all_comments": 351,
+      "replies": 127,
+      "text_posts": 224,
+      "empty_posts": 0,
+      "reposts_removed": 89,
+      "unique_posts": 135,
+      "remote": 59,
+      "onsite": 52,
+      "hybrid": 35,
+      "remote_only": 49,
+      "onsite_only": 42,
+      "both": 10,
+      "unspecified": 34,
+      "unique_text_posts": 135,
+      "any_ai_tool": 45
+    },
+    {
+      "month": "2026-09",
+      "thread_id": 49522897,
+      "partial": false,
+      "total_posts": 247,
+      "all_comments": 366,
+      "replies": 119,
+      "text_posts": 247,
+      "empty_posts": 0,
+      "reposts_removed": 110,
+      "unique_posts": 137,
+      "remote": 79,
+      "onsite": 52,
+      "hybrid": 29,
+      "remote_only": 66,
+      "onsite_only": 39,
+      "both": 13,
+      "unspecified": 19,
+      "unique_text_posts": 137,
+      "any_ai_tool": 42
+    },
+    {
+      "month": "2026-10",
+      "thread_id": 49922569,
+      "partial": false,
+      "total_posts": 253,
+      "all_comments": 352,
+      "replies": 99,
+      "text_posts": 253,
+      "empty_posts": 0,
+      "reposts_removed": 98,
+      "unique_posts": 155,
+      "remote": 85,
+      "onsite": 48,
+      "hybrid": 25,
+      "remote_only": 78,
+      "onsite_only": 41,
+      "both": 7,
+      "unspecified": 29,
+      "unique_text_posts": 155,
+      "any_ai_tool": 42
+    },
+    {
+      "month": "2026-11",
+      "thread_id": 50338728,
+      "partial": true,
+      "total_posts": 244,
+      "all_comments": 363,
+      "replies": 119,
+      "text_posts": 244,
+      "empty_posts": 0,
+      "reposts_removed": 78,
+      "unique_posts": 166,
+      "remote": 94,
+      "onsite": 53,
+      "hybrid": 29,
+      "remote_only": 84,
+      "onsite_only": 43,
+      "both": 10,
+      "unspecified": 29,
+      "unique_text_posts": 166,
+      "any_ai_tool": 42
+    }
+  ],
+  "mentions": [
+    {
+      "month": "2025-12",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 2,
+      "text_posts": 214,
+      "percent": 0.935
+    },
+    {
+      "month": "2025-12",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 5,
+      "text_posts": 214,
+      "percent": 2.336
+    },
+    {
+      "month": "2025-12",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 24,
+      "text_posts": 214,
+      "percent": 11.215
+    },
+    {
+      "month": "2025-12",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 11,
+      "text_posts": 214,
+      "percent": 5.14
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 22,
+      "text_posts": 214,
+      "percent": 10.28
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 8,
+      "text_posts": 214,
+      "percent": 3.738
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 4,
+      "text_posts": 214,
+      "percent": 1.869
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 4,
+      "text_posts": 214,
+      "percent": 1.869
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 10,
+      "text_posts": 214,
+      "percent": 4.673
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 15,
+      "text_posts": 214,
+      "percent": 7.009
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 7,
+      "text_posts": 214,
+      "percent": 3.271
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 5,
+      "text_posts": 214,
+      "percent": 2.336
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 6,
+      "text_posts": 214,
+      "percent": 2.804
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 16,
+      "text_posts": 214,
+      "percent": 7.477
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 15,
+      "text_posts": 214,
+      "percent": 7.009
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 12,
+      "text_posts": 214,
+      "percent": 5.607
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 44,
+      "text_posts": 214,
+      "percent": 20.561
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 6,
+      "text_posts": 214,
+      "percent": 2.804
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 47,
+      "text_posts": 214,
+      "percent": 21.963
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "React",
+      "posts": 45,
+      "text_posts": 214,
+      "percent": 21.028
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 8,
+      "text_posts": 214,
+      "percent": 3.738
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 15,
+      "text_posts": 214,
+      "percent": 7.009
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 7,
+      "text_posts": 214,
+      "percent": 3.271
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 2,
+      "text_posts": 214,
+      "percent": 0.935
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 4,
+      "text_posts": 214,
+      "percent": 1.869
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 40,
+      "text_posts": 214,
+      "percent": 18.692
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 3,
+      "text_posts": 214,
+      "percent": 1.402
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 214,
+      "percent": 1.869
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 10,
+      "text_posts": 214,
+      "percent": 4.673
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 11,
+      "text_posts": 214,
+      "percent": 5.14
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 3,
+      "text_posts": 214,
+      "percent": 1.402
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 3,
+      "text_posts": 214,
+      "percent": 1.402
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "London",
+      "posts": 12,
+      "text_posts": 214,
+      "percent": 5.607
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "New York",
+      "posts": 32,
+      "text_posts": 214,
+      "percent": 14.953
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 33,
+      "text_posts": 214,
+      "percent": 15.421
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 4,
+      "text_posts": 214,
+      "percent": 1.869
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 214,
+      "percent": 0.935
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 2,
+      "text_posts": 214,
+      "percent": 0.935
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 8,
+      "text_posts": 214,
+      "percent": 3.738
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 43,
+      "text_posts": 214,
+      "percent": 20.093
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 3,
+      "text_posts": 214,
+      "percent": 1.402
+    },
+    {
+      "month": "2025-12",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 214,
+      "percent": 0.0
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 117,
+      "text_posts": 214,
+      "percent": 54.673
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 58,
+      "text_posts": 214,
+      "percent": 27.103
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Data",
+      "posts": 8,
+      "text_posts": 214,
+      "percent": 3.738
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 22,
+      "text_posts": 214,
+      "percent": 10.28
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 30,
+      "text_posts": 214,
+      "percent": 14.019
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 64,
+      "text_posts": 214,
+      "percent": 29.907
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 21,
+      "text_posts": 214,
+      "percent": 9.813
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 5,
+      "text_posts": 214,
+      "percent": 2.336
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Product",
+      "posts": 7,
+      "text_posts": 214,
+      "percent": 3.271
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Security",
+      "posts": 1,
+      "text_posts": 214,
+      "percent": 0.467
+    },
+    {
+      "month": "2025-12",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 60,
+      "text_posts": 214,
+      "percent": 28.037
+    },
+    {
+      "month": "2026-01",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-01",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-01",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-01",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 22,
+      "text_posts": 155,
+      "percent": 14.194
+    },
+    {
+      "month": "2026-01",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 10,
+      "text_posts": 155,
+      "percent": 6.452
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 26,
+      "text_posts": 155,
+      "percent": 16.774
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 6,
+      "text_posts": 155,
+      "percent": 3.871
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 11,
+      "text_posts": 155,
+      "percent": 7.097
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 13,
+      "text_posts": 155,
+      "percent": 8.387
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 13,
+      "text_posts": 155,
+      "percent": 8.387
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 11,
+      "text_posts": 155,
+      "percent": 7.097
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 16,
+      "text_posts": 155,
+      "percent": 10.323
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 28,
+      "text_posts": 155,
+      "percent": 18.065
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 37,
+      "text_posts": 155,
+      "percent": 23.871
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "React",
+      "posts": 38,
+      "text_posts": 155,
+      "percent": 24.516
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 32,
+      "text_posts": 155,
+      "percent": 20.645
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 10,
+      "text_posts": 155,
+      "percent": 6.452
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "London",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "New York",
+      "posts": 17,
+      "text_posts": 155,
+      "percent": 10.968
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 26,
+      "text_posts": 155,
+      "percent": 16.774
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 37,
+      "text_posts": 155,
+      "percent": 23.871
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 89,
+      "text_posts": 155,
+      "percent": 57.419
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 36,
+      "text_posts": 155,
+      "percent": 23.226
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Data",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 23,
+      "text_posts": 155,
+      "percent": 14.839
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 19,
+      "text_posts": 155,
+      "percent": 12.258
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 45,
+      "text_posts": 155,
+      "percent": 29.032
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 19,
+      "text_posts": 155,
+      "percent": 12.258
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Product",
+      "posts": 7,
+      "text_posts": 155,
+      "percent": 4.516
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Security",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-01",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 49,
+      "text_posts": 155,
+      "percent": 31.613
+    },
+    {
+      "month": "2026-02",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 14,
+      "text_posts": 268,
+      "percent": 5.224
+    },
+    {
+      "month": "2026-02",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 4,
+      "text_posts": 268,
+      "percent": 1.493
+    },
+    {
+      "month": "2026-02",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 13,
+      "text_posts": 268,
+      "percent": 4.851
+    },
+    {
+      "month": "2026-02",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 27,
+      "text_posts": 268,
+      "percent": 10.075
+    },
+    {
+      "month": "2026-02",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 10,
+      "text_posts": 268,
+      "percent": 3.731
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 45,
+      "text_posts": 268,
+      "percent": 16.791
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 7,
+      "text_posts": 268,
+      "percent": 2.612
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 8,
+      "text_posts": 268,
+      "percent": 2.985
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 13,
+      "text_posts": 268,
+      "percent": 4.851
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 4,
+      "text_posts": 268,
+      "percent": 1.493
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 18,
+      "text_posts": 268,
+      "percent": 6.716
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 6,
+      "text_posts": 268,
+      "percent": 2.239
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 7,
+      "text_posts": 268,
+      "percent": 2.612
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 26,
+      "text_posts": 268,
+      "percent": 9.701
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 14,
+      "text_posts": 268,
+      "percent": 5.224
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 15,
+      "text_posts": 268,
+      "percent": 5.597
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 50,
+      "text_posts": 268,
+      "percent": 18.657
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 59,
+      "text_posts": 268,
+      "percent": 22.015
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "React",
+      "posts": 62,
+      "text_posts": 268,
+      "percent": 23.134
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 12,
+      "text_posts": 268,
+      "percent": 4.478
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 22,
+      "text_posts": 268,
+      "percent": 8.209
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 11,
+      "text_posts": 268,
+      "percent": 4.104
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 5,
+      "text_posts": 268,
+      "percent": 1.866
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 68,
+      "text_posts": 268,
+      "percent": 25.373
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 7,
+      "text_posts": 268,
+      "percent": 2.612
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 4,
+      "text_posts": 268,
+      "percent": 1.493
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 5,
+      "text_posts": 268,
+      "percent": 1.866
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 5,
+      "text_posts": 268,
+      "percent": 1.866
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 11,
+      "text_posts": 268,
+      "percent": 4.104
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 26,
+      "text_posts": 268,
+      "percent": 9.701
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 4,
+      "text_posts": 268,
+      "percent": 1.493
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 5,
+      "text_posts": 268,
+      "percent": 1.866
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "London",
+      "posts": 16,
+      "text_posts": 268,
+      "percent": 5.97
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 3,
+      "text_posts": 268,
+      "percent": 1.119
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 5,
+      "text_posts": 268,
+      "percent": 1.866
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "New York",
+      "posts": 27,
+      "text_posts": 268,
+      "percent": 10.075
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 4,
+      "text_posts": 268,
+      "percent": 1.493
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 35,
+      "text_posts": 268,
+      "percent": 13.06
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 3,
+      "text_posts": 268,
+      "percent": 1.119
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 1,
+      "text_posts": 268,
+      "percent": 0.373
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 6,
+      "text_posts": 268,
+      "percent": 2.239
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 15,
+      "text_posts": 268,
+      "percent": 5.597
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 61,
+      "text_posts": 268,
+      "percent": 22.761
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 268,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-02",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 3,
+      "text_posts": 268,
+      "percent": 1.119
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 146,
+      "text_posts": 268,
+      "percent": 54.478
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 69,
+      "text_posts": 268,
+      "percent": 25.746
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Data",
+      "posts": 16,
+      "text_posts": 268,
+      "percent": 5.97
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 30,
+      "text_posts": 268,
+      "percent": 11.194
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 40,
+      "text_posts": 268,
+      "percent": 14.925
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 73,
+      "text_posts": 268,
+      "percent": 27.239
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 24,
+      "text_posts": 268,
+      "percent": 8.955
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 10,
+      "text_posts": 268,
+      "percent": 3.731
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Product",
+      "posts": 15,
+      "text_posts": 268,
+      "percent": 5.597
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 9,
+      "text_posts": 268,
+      "percent": 3.358
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Security",
+      "posts": 2,
+      "text_posts": 268,
+      "percent": 0.746
+    },
+    {
+      "month": "2026-02",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 72,
+      "text_posts": 268,
+      "percent": 26.866
+    },
+    {
+      "month": "2026-03",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 11,
+      "text_posts": 203,
+      "percent": 5.419
+    },
+    {
+      "month": "2026-03",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 8,
+      "text_posts": 203,
+      "percent": 3.941
+    },
+    {
+      "month": "2026-03",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 21,
+      "text_posts": 203,
+      "percent": 10.345
+    },
+    {
+      "month": "2026-03",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 13,
+      "text_posts": 203,
+      "percent": 6.404
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 30,
+      "text_posts": 203,
+      "percent": 14.778
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 1,
+      "text_posts": 203,
+      "percent": 0.493
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 12,
+      "text_posts": 203,
+      "percent": 5.911
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 9,
+      "text_posts": 203,
+      "percent": 4.433
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 15,
+      "text_posts": 203,
+      "percent": 7.389
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 12,
+      "text_posts": 203,
+      "percent": 5.911
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 4,
+      "text_posts": 203,
+      "percent": 1.97
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 9,
+      "text_posts": 203,
+      "percent": 4.433
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 18,
+      "text_posts": 203,
+      "percent": 8.867
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 13,
+      "text_posts": 203,
+      "percent": 6.404
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 17,
+      "text_posts": 203,
+      "percent": 8.374
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 43,
+      "text_posts": 203,
+      "percent": 21.182
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 4,
+      "text_posts": 203,
+      "percent": 1.97
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 45,
+      "text_posts": 203,
+      "percent": 22.167
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "React",
+      "posts": 52,
+      "text_posts": 203,
+      "percent": 25.616
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 11,
+      "text_posts": 203,
+      "percent": 5.419
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 11,
+      "text_posts": 203,
+      "percent": 5.419
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 8,
+      "text_posts": 203,
+      "percent": 3.941
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 45,
+      "text_posts": 203,
+      "percent": 22.167
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 4,
+      "text_posts": 203,
+      "percent": 1.97
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 203,
+      "percent": 0.493
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 6,
+      "text_posts": 203,
+      "percent": 2.956
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 4,
+      "text_posts": 203,
+      "percent": 1.97
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 5,
+      "text_posts": 203,
+      "percent": 2.463
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 17,
+      "text_posts": 203,
+      "percent": 8.374
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 8,
+      "text_posts": 203,
+      "percent": 3.941
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 1,
+      "text_posts": 203,
+      "percent": 0.493
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "London",
+      "posts": 9,
+      "text_posts": 203,
+      "percent": 4.433
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "New York",
+      "posts": 24,
+      "text_posts": 203,
+      "percent": 11.823
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 26,
+      "text_posts": 203,
+      "percent": 12.808
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 7,
+      "text_posts": 203,
+      "percent": 3.448
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 12,
+      "text_posts": 203,
+      "percent": 5.911
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 30,
+      "text_posts": 203,
+      "percent": 14.778
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 203,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 115,
+      "text_posts": 203,
+      "percent": 56.65
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 50,
+      "text_posts": 203,
+      "percent": 24.631
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Data",
+      "posts": 11,
+      "text_posts": 203,
+      "percent": 5.419
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 25,
+      "text_posts": 203,
+      "percent": 12.315
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 26,
+      "text_posts": 203,
+      "percent": 12.808
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 49,
+      "text_posts": 203,
+      "percent": 24.138
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 16,
+      "text_posts": 203,
+      "percent": 7.882
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 203,
+      "percent": 1.478
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Product",
+      "posts": 8,
+      "text_posts": 203,
+      "percent": 3.941
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 5,
+      "text_posts": 203,
+      "percent": 2.463
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Security",
+      "posts": 2,
+      "text_posts": 203,
+      "percent": 0.985
+    },
+    {
+      "month": "2026-03",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 63,
+      "text_posts": 203,
+      "percent": 31.034
+    },
+    {
+      "month": "2026-04",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 16,
+      "text_posts": 212,
+      "percent": 7.547
+    },
+    {
+      "month": "2026-04",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 5,
+      "text_posts": 212,
+      "percent": 2.358
+    },
+    {
+      "month": "2026-04",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 37,
+      "text_posts": 212,
+      "percent": 17.453
+    },
+    {
+      "month": "2026-04",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 21,
+      "text_posts": 212,
+      "percent": 9.906
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 32,
+      "text_posts": 212,
+      "percent": 15.094
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 10,
+      "text_posts": 212,
+      "percent": 4.717
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 7,
+      "text_posts": 212,
+      "percent": 3.302
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 15,
+      "text_posts": 212,
+      "percent": 7.075
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 14,
+      "text_posts": 212,
+      "percent": 6.604
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 9,
+      "text_posts": 212,
+      "percent": 4.245
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 8,
+      "text_posts": 212,
+      "percent": 3.774
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 15,
+      "text_posts": 212,
+      "percent": 7.075
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 15,
+      "text_posts": 212,
+      "percent": 7.075
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 14,
+      "text_posts": 212,
+      "percent": 6.604
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 38,
+      "text_posts": 212,
+      "percent": 17.925
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 3,
+      "text_posts": 212,
+      "percent": 1.415
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 62,
+      "text_posts": 212,
+      "percent": 29.245
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "React",
+      "posts": 46,
+      "text_posts": 212,
+      "percent": 21.698
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 5,
+      "text_posts": 212,
+      "percent": 2.358
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 15,
+      "text_posts": 212,
+      "percent": 7.075
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 11,
+      "text_posts": 212,
+      "percent": 5.189
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 1,
+      "text_posts": 212,
+      "percent": 0.472
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 1,
+      "text_posts": 212,
+      "percent": 0.472
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 48,
+      "text_posts": 212,
+      "percent": 22.642
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 7,
+      "text_posts": 212,
+      "percent": 3.302
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 212,
+      "percent": 0.472
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 16,
+      "text_posts": 212,
+      "percent": 7.547
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 6,
+      "text_posts": 212,
+      "percent": 2.83
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "London",
+      "posts": 11,
+      "text_posts": 212,
+      "percent": 5.189
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "New York",
+      "posts": 31,
+      "text_posts": 212,
+      "percent": 14.623
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 33,
+      "text_posts": 212,
+      "percent": 15.566
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 1,
+      "text_posts": 212,
+      "percent": 0.472
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 212,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 5,
+      "text_posts": 212,
+      "percent": 2.358
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 11,
+      "text_posts": 212,
+      "percent": 5.189
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 34,
+      "text_posts": 212,
+      "percent": 16.038
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 127,
+      "text_posts": 212,
+      "percent": 59.906
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 59,
+      "text_posts": 212,
+      "percent": 27.83
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Data",
+      "posts": 14,
+      "text_posts": 212,
+      "percent": 6.604
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 22,
+      "text_posts": 212,
+      "percent": 10.377
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 27,
+      "text_posts": 212,
+      "percent": 12.736
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 60,
+      "text_posts": 212,
+      "percent": 28.302
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 30,
+      "text_posts": 212,
+      "percent": 14.151
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 2,
+      "text_posts": 212,
+      "percent": 0.943
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Product",
+      "posts": 5,
+      "text_posts": 212,
+      "percent": 2.358
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 6,
+      "text_posts": 212,
+      "percent": 2.83
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Security",
+      "posts": 4,
+      "text_posts": 212,
+      "percent": 1.887
+    },
+    {
+      "month": "2026-04",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 61,
+      "text_posts": 212,
+      "percent": 28.774
+    },
+    {
+      "month": "2026-05",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 11,
+      "text_posts": 191,
+      "percent": 5.759
+    },
+    {
+      "month": "2026-05",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 2,
+      "text_posts": 191,
+      "percent": 1.047
+    },
+    {
+      "month": "2026-05",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 26,
+      "text_posts": 191,
+      "percent": 13.613
+    },
+    {
+      "month": "2026-05",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 15,
+      "text_posts": 191,
+      "percent": 7.853
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 38,
+      "text_posts": 191,
+      "percent": 19.895
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 8,
+      "text_posts": 191,
+      "percent": 4.188
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 6,
+      "text_posts": 191,
+      "percent": 3.141
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 8,
+      "text_posts": 191,
+      "percent": 4.188
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 20,
+      "text_posts": 191,
+      "percent": 10.471
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 5,
+      "text_posts": 191,
+      "percent": 2.618
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 8,
+      "text_posts": 191,
+      "percent": 4.188
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 13,
+      "text_posts": 191,
+      "percent": 6.806
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 13,
+      "text_posts": 191,
+      "percent": 6.806
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 13,
+      "text_posts": 191,
+      "percent": 6.806
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 36,
+      "text_posts": 191,
+      "percent": 18.848
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 6,
+      "text_posts": 191,
+      "percent": 3.141
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 53,
+      "text_posts": 191,
+      "percent": 27.749
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "React",
+      "posts": 39,
+      "text_posts": 191,
+      "percent": 20.419
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 8,
+      "text_posts": 191,
+      "percent": 4.188
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 18,
+      "text_posts": 191,
+      "percent": 9.424
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 4,
+      "text_posts": 191,
+      "percent": 2.094
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 43,
+      "text_posts": 191,
+      "percent": 22.513
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 4,
+      "text_posts": 191,
+      "percent": 2.094
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 191,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 191,
+      "percent": 2.094
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 5,
+      "text_posts": 191,
+      "percent": 2.618
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 10,
+      "text_posts": 191,
+      "percent": 5.236
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 2,
+      "text_posts": 191,
+      "percent": 1.047
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 11,
+      "text_posts": 191,
+      "percent": 5.759
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 6,
+      "text_posts": 191,
+      "percent": 3.141
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "London",
+      "posts": 7,
+      "text_posts": 191,
+      "percent": 3.665
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "New York",
+      "posts": 18,
+      "text_posts": 191,
+      "percent": 9.424
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 26,
+      "text_posts": 191,
+      "percent": 13.613
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 3,
+      "text_posts": 191,
+      "percent": 1.571
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 0,
+      "text_posts": 191,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 191,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 2,
+      "text_posts": 191,
+      "percent": 1.047
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 10,
+      "text_posts": 191,
+      "percent": 5.236
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 5,
+      "text_posts": 191,
+      "percent": 2.618
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 44,
+      "text_posts": 191,
+      "percent": 23.037
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 2,
+      "text_posts": 191,
+      "percent": 1.047
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 106,
+      "text_posts": 191,
+      "percent": 55.497
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 38,
+      "text_posts": 191,
+      "percent": 19.895
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Data",
+      "posts": 14,
+      "text_posts": 191,
+      "percent": 7.33
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 29,
+      "text_posts": 191,
+      "percent": 15.183
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 22,
+      "text_posts": 191,
+      "percent": 11.518
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 52,
+      "text_posts": 191,
+      "percent": 27.225
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 20,
+      "text_posts": 191,
+      "percent": 10.471
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 4,
+      "text_posts": 191,
+      "percent": 2.094
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Product",
+      "posts": 9,
+      "text_posts": 191,
+      "percent": 4.712
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 2,
+      "text_posts": 191,
+      "percent": 1.047
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Security",
+      "posts": 1,
+      "text_posts": 191,
+      "percent": 0.524
+    },
+    {
+      "month": "2026-05",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 45,
+      "text_posts": 191,
+      "percent": 23.56
+    },
+    {
+      "month": "2026-06",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 18,
+      "text_posts": 197,
+      "percent": 9.137
+    },
+    {
+      "month": "2026-06",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 6,
+      "text_posts": 197,
+      "percent": 3.046
+    },
+    {
+      "month": "2026-06",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 27,
+      "text_posts": 197,
+      "percent": 13.706
+    },
+    {
+      "month": "2026-06",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 23,
+      "text_posts": 197,
+      "percent": 11.675
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 24,
+      "text_posts": 197,
+      "percent": 12.183
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 7,
+      "text_posts": 197,
+      "percent": 3.553
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 12,
+      "text_posts": 197,
+      "percent": 6.091
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 19,
+      "text_posts": 197,
+      "percent": 9.645
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 3,
+      "text_posts": 197,
+      "percent": 1.523
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 6,
+      "text_posts": 197,
+      "percent": 3.046
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 15,
+      "text_posts": 197,
+      "percent": 7.614
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 16,
+      "text_posts": 197,
+      "percent": 8.122
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 9,
+      "text_posts": 197,
+      "percent": 4.569
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 33,
+      "text_posts": 197,
+      "percent": 16.751
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 46,
+      "text_posts": 197,
+      "percent": 23.35
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "React",
+      "posts": 46,
+      "text_posts": 197,
+      "percent": 23.35
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 7,
+      "text_posts": 197,
+      "percent": 3.553
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 11,
+      "text_posts": 197,
+      "percent": 5.584
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 9,
+      "text_posts": 197,
+      "percent": 4.569
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 197,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-06",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 41,
+      "text_posts": 197,
+      "percent": 20.812
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 3,
+      "text_posts": 197,
+      "percent": 1.523
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 0,
+      "text_posts": 197,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 3,
+      "text_posts": 197,
+      "percent": 1.523
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 9,
+      "text_posts": 197,
+      "percent": 4.569
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 9,
+      "text_posts": 197,
+      "percent": 4.569
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 6,
+      "text_posts": 197,
+      "percent": 3.046
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 2,
+      "text_posts": 197,
+      "percent": 1.015
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "London",
+      "posts": 13,
+      "text_posts": 197,
+      "percent": 6.599
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "New York",
+      "posts": 21,
+      "text_posts": 197,
+      "percent": 10.66
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 4,
+      "text_posts": 197,
+      "percent": 2.03
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 30,
+      "text_posts": 197,
+      "percent": 15.228
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 197,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 4,
+      "text_posts": 197,
+      "percent": 2.03
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 1,
+      "text_posts": 197,
+      "percent": 0.508
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 4,
+      "text_posts": 197,
+      "percent": 2.03
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 4,
+      "text_posts": 197,
+      "percent": 2.03
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 45,
+      "text_posts": 197,
+      "percent": 22.843
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 4,
+      "text_posts": 197,
+      "percent": 2.03
+    },
+    {
+      "month": "2026-06",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 197,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 120,
+      "text_posts": 197,
+      "percent": 60.914
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 44,
+      "text_posts": 197,
+      "percent": 22.335
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Data",
+      "posts": 14,
+      "text_posts": 197,
+      "percent": 7.107
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 24,
+      "text_posts": 197,
+      "percent": 12.183
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 15,
+      "text_posts": 197,
+      "percent": 7.614
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 61,
+      "text_posts": 197,
+      "percent": 30.964
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 18,
+      "text_posts": 197,
+      "percent": 9.137
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Product",
+      "posts": 9,
+      "text_posts": 197,
+      "percent": 4.569
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 3,
+      "text_posts": 197,
+      "percent": 1.523
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Security",
+      "posts": 5,
+      "text_posts": 197,
+      "percent": 2.538
+    },
+    {
+      "month": "2026-06",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 53,
+      "text_posts": 197,
+      "percent": 26.904
+    },
+    {
+      "month": "2026-07",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 9,
+      "text_posts": 145,
+      "percent": 6.207
+    },
+    {
+      "month": "2026-07",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 5,
+      "text_posts": 145,
+      "percent": 3.448
+    },
+    {
+      "month": "2026-07",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 13,
+      "text_posts": 145,
+      "percent": 8.966
+    },
+    {
+      "month": "2026-07",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 12,
+      "text_posts": 145,
+      "percent": 8.276
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 23,
+      "text_posts": 145,
+      "percent": 15.862
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 8,
+      "text_posts": 145,
+      "percent": 5.517
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 7,
+      "text_posts": 145,
+      "percent": 4.828
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 4,
+      "text_posts": 145,
+      "percent": 2.759
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 8,
+      "text_posts": 145,
+      "percent": 5.517
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 6,
+      "text_posts": 145,
+      "percent": 4.138
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 12,
+      "text_posts": 145,
+      "percent": 8.276
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 7,
+      "text_posts": 145,
+      "percent": 4.828
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 10,
+      "text_posts": 145,
+      "percent": 6.897
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 25,
+      "text_posts": 145,
+      "percent": 17.241
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 28,
+      "text_posts": 145,
+      "percent": 19.31
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "React",
+      "posts": 33,
+      "text_posts": 145,
+      "percent": 22.759
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 9,
+      "text_posts": 145,
+      "percent": 6.207
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 16,
+      "text_posts": 145,
+      "percent": 11.034
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 7,
+      "text_posts": 145,
+      "percent": 4.828
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 35,
+      "text_posts": 145,
+      "percent": 24.138
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 145,
+      "percent": 2.759
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 14,
+      "text_posts": 145,
+      "percent": 9.655
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 3,
+      "text_posts": 145,
+      "percent": 2.069
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "London",
+      "posts": 8,
+      "text_posts": 145,
+      "percent": 5.517
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "New York",
+      "posts": 21,
+      "text_posts": 145,
+      "percent": 14.483
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 4,
+      "text_posts": 145,
+      "percent": 2.759
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 24,
+      "text_posts": 145,
+      "percent": 16.552
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 4,
+      "text_posts": 145,
+      "percent": 2.759
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 27,
+      "text_posts": 145,
+      "percent": 18.621
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 145,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-07",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 84,
+      "text_posts": 145,
+      "percent": 57.931
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 35,
+      "text_posts": 145,
+      "percent": 24.138
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Data",
+      "posts": 5,
+      "text_posts": 145,
+      "percent": 3.448
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 18,
+      "text_posts": 145,
+      "percent": 12.414
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 15,
+      "text_posts": 145,
+      "percent": 10.345
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 26,
+      "text_posts": 145,
+      "percent": 17.931
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 17,
+      "text_posts": 145,
+      "percent": 11.724
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 2,
+      "text_posts": 145,
+      "percent": 1.379
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Product",
+      "posts": 6,
+      "text_posts": 145,
+      "percent": 4.138
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 6,
+      "text_posts": 145,
+      "percent": 4.138
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Security",
+      "posts": 1,
+      "text_posts": 145,
+      "percent": 0.69
+    },
+    {
+      "month": "2026-07",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 39,
+      "text_posts": 145,
+      "percent": 26.897
+    },
+    {
+      "month": "2026-08",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 11,
+      "text_posts": 135,
+      "percent": 8.148
+    },
+    {
+      "month": "2026-08",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 3,
+      "text_posts": 135,
+      "percent": 2.222
+    },
+    {
+      "month": "2026-08",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 27,
+      "text_posts": 135,
+      "percent": 20.0
+    },
+    {
+      "month": "2026-08",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 11,
+      "text_posts": 135,
+      "percent": 8.148
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 30,
+      "text_posts": 135,
+      "percent": 22.222
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 9,
+      "text_posts": 135,
+      "percent": 6.667
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 13,
+      "text_posts": 135,
+      "percent": 9.63
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 7,
+      "text_posts": 135,
+      "percent": 5.185
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 3,
+      "text_posts": 135,
+      "percent": 2.222
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 17,
+      "text_posts": 135,
+      "percent": 12.593
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 9,
+      "text_posts": 135,
+      "percent": 6.667
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 13,
+      "text_posts": 135,
+      "percent": 9.63
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 34,
+      "text_posts": 135,
+      "percent": 25.185
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 5,
+      "text_posts": 135,
+      "percent": 3.704
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 43,
+      "text_posts": 135,
+      "percent": 31.852
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "React",
+      "posts": 27,
+      "text_posts": 135,
+      "percent": 20.0
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 9,
+      "text_posts": 135,
+      "percent": 6.667
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 10,
+      "text_posts": 135,
+      "percent": 7.407
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 9,
+      "text_posts": 135,
+      "percent": 6.667
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 36,
+      "text_posts": 135,
+      "percent": 26.667
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 3,
+      "text_posts": 135,
+      "percent": 2.222
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 10,
+      "text_posts": 135,
+      "percent": 7.407
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 3,
+      "text_posts": 135,
+      "percent": 2.222
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "London",
+      "posts": 6,
+      "text_posts": 135,
+      "percent": 4.444
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "New York",
+      "posts": 14,
+      "text_posts": 135,
+      "percent": 10.37
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 2,
+      "text_posts": 135,
+      "percent": 1.481
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 14,
+      "text_posts": 135,
+      "percent": 10.37
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 5,
+      "text_posts": 135,
+      "percent": 3.704
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 1,
+      "text_posts": 135,
+      "percent": 0.741
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 8,
+      "text_posts": 135,
+      "percent": 5.926
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 32,
+      "text_posts": 135,
+      "percent": 23.704
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 135,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 92,
+      "text_posts": 135,
+      "percent": 68.148
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 37,
+      "text_posts": 135,
+      "percent": 27.407
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Data",
+      "posts": 10,
+      "text_posts": 135,
+      "percent": 7.407
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 17,
+      "text_posts": 135,
+      "percent": 12.593
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 20,
+      "text_posts": 135,
+      "percent": 14.815
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 36,
+      "text_posts": 135,
+      "percent": 26.667
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 13,
+      "text_posts": 135,
+      "percent": 9.63
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 135,
+      "percent": 2.222
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Product",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 5,
+      "text_posts": 135,
+      "percent": 3.704
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Security",
+      "posts": 4,
+      "text_posts": 135,
+      "percent": 2.963
+    },
+    {
+      "month": "2026-08",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 31,
+      "text_posts": 135,
+      "percent": 22.963
+    },
+    {
+      "month": "2026-09",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 9,
+      "text_posts": 137,
+      "percent": 6.569
+    },
+    {
+      "month": "2026-09",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 23,
+      "text_posts": 137,
+      "percent": 16.788
+    },
+    {
+      "month": "2026-09",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 17,
+      "text_posts": 137,
+      "percent": 12.409
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 20,
+      "text_posts": 137,
+      "percent": 14.599
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 8,
+      "text_posts": 137,
+      "percent": 5.839
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 3,
+      "text_posts": 137,
+      "percent": 2.19
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 13,
+      "text_posts": 137,
+      "percent": 9.489
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 12,
+      "text_posts": 137,
+      "percent": 8.759
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 5,
+      "text_posts": 137,
+      "percent": 3.65
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 10,
+      "text_posts": 137,
+      "percent": 7.299
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 15,
+      "text_posts": 137,
+      "percent": 10.949
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 8,
+      "text_posts": 137,
+      "percent": 5.839
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 8,
+      "text_posts": 137,
+      "percent": 5.839
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 23,
+      "text_posts": 137,
+      "percent": 16.788
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 42,
+      "text_posts": 137,
+      "percent": 30.657
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "React",
+      "posts": 28,
+      "text_posts": 137,
+      "percent": 20.438
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 10,
+      "text_posts": 137,
+      "percent": 7.299
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 9,
+      "text_posts": 137,
+      "percent": 6.569
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 30,
+      "text_posts": 137,
+      "percent": 21.898
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 7,
+      "text_posts": 137,
+      "percent": 5.109
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 6,
+      "text_posts": 137,
+      "percent": 4.38
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "London",
+      "posts": 3,
+      "text_posts": 137,
+      "percent": 2.19
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "New York",
+      "posts": 11,
+      "text_posts": 137,
+      "percent": 8.029
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 20,
+      "text_posts": 137,
+      "percent": 14.599
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 3,
+      "text_posts": 137,
+      "percent": 2.19
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 1,
+      "text_posts": 137,
+      "percent": 0.73
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 4,
+      "text_posts": 137,
+      "percent": 2.92
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 43,
+      "text_posts": 137,
+      "percent": 31.387
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 137,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-09",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 87,
+      "text_posts": 137,
+      "percent": 63.504
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 33,
+      "text_posts": 137,
+      "percent": 24.088
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Data",
+      "posts": 10,
+      "text_posts": 137,
+      "percent": 7.299
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 18,
+      "text_posts": 137,
+      "percent": 13.139
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 12,
+      "text_posts": 137,
+      "percent": 8.759
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 27,
+      "text_posts": 137,
+      "percent": 19.708
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 13,
+      "text_posts": 137,
+      "percent": 9.489
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 137,
+      "percent": 2.19
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Product",
+      "posts": 6,
+      "text_posts": 137,
+      "percent": 4.38
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 2,
+      "text_posts": 137,
+      "percent": 1.46
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Security",
+      "posts": 6,
+      "text_posts": 137,
+      "percent": 4.38
+    },
+    {
+      "month": "2026-09",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 39,
+      "text_posts": 137,
+      "percent": 28.467
+    },
+    {
+      "month": "2026-10",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 10,
+      "text_posts": 155,
+      "percent": 6.452
+    },
+    {
+      "month": "2026-10",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-10",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 6,
+      "text_posts": 155,
+      "percent": 3.871
+    },
+    {
+      "month": "2026-10",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 21,
+      "text_posts": 155,
+      "percent": 13.548
+    },
+    {
+      "month": "2026-10",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 18,
+      "text_posts": 155,
+      "percent": 11.613
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 21,
+      "text_posts": 155,
+      "percent": 13.548
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 13,
+      "text_posts": 155,
+      "percent": 8.387
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 6,
+      "text_posts": 155,
+      "percent": 3.871
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 12,
+      "text_posts": 155,
+      "percent": 7.742
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 11,
+      "text_posts": 155,
+      "percent": 7.097
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 8,
+      "text_posts": 155,
+      "percent": 5.161
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 27,
+      "text_posts": 155,
+      "percent": 17.419
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 30,
+      "text_posts": 155,
+      "percent": 19.355
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "React",
+      "posts": 35,
+      "text_posts": 155,
+      "percent": 22.581
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 13,
+      "text_posts": 155,
+      "percent": 8.387
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 12,
+      "text_posts": 155,
+      "percent": 7.742
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-10",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 36,
+      "text_posts": 155,
+      "percent": 23.226
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 11,
+      "text_posts": 155,
+      "percent": 7.097
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 9,
+      "text_posts": 155,
+      "percent": 5.806
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "London",
+      "posts": 8,
+      "text_posts": 155,
+      "percent": 5.161
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "New York",
+      "posts": 12,
+      "text_posts": 155,
+      "percent": 7.742
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 29,
+      "text_posts": 155,
+      "percent": 18.71
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 12,
+      "text_posts": 155,
+      "percent": 7.742
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 34,
+      "text_posts": 155,
+      "percent": 21.935
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 155,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-10",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 2,
+      "text_posts": 155,
+      "percent": 1.29
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 93,
+      "text_posts": 155,
+      "percent": 60.0
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 19,
+      "text_posts": 155,
+      "percent": 12.258
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Data",
+      "posts": 5,
+      "text_posts": 155,
+      "percent": 3.226
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 13,
+      "text_posts": 155,
+      "percent": 8.387
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 7,
+      "text_posts": 155,
+      "percent": 4.516
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 29,
+      "text_posts": 155,
+      "percent": 18.71
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 17,
+      "text_posts": 155,
+      "percent": 10.968
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 155,
+      "percent": 1.935
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Product",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 1,
+      "text_posts": 155,
+      "percent": 0.645
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Security",
+      "posts": 4,
+      "text_posts": 155,
+      "percent": 2.581
+    },
+    {
+      "month": "2026-10",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 44,
+      "text_posts": 155,
+      "percent": 28.387
+    },
+    {
+      "month": "2026-11",
+      "group": "ai_tools",
+      "label": "Claude",
+      "posts": 12,
+      "text_posts": 166,
+      "percent": 7.229
+    },
+    {
+      "month": "2026-11",
+      "group": "ai_tools",
+      "label": "Copilot",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "ai_tools",
+      "label": "Cursor",
+      "posts": 3,
+      "text_posts": 166,
+      "percent": 1.807
+    },
+    {
+      "month": "2026-11",
+      "group": "ai_tools",
+      "label": "LLM",
+      "posts": 25,
+      "text_posts": 166,
+      "percent": 15.06
+    },
+    {
+      "month": "2026-11",
+      "group": "ai_tools",
+      "label": "agentic",
+      "posts": 15,
+      "text_posts": 166,
+      "percent": 9.036
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "AWS",
+      "posts": 25,
+      "text_posts": 166,
+      "percent": 15.06
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "C#",
+      "posts": 4,
+      "text_posts": 166,
+      "percent": 2.41
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "C++",
+      "posts": 11,
+      "text_posts": 166,
+      "percent": 6.627
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Django",
+      "posts": 4,
+      "text_posts": 166,
+      "percent": 2.41
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Docker",
+      "posts": 11,
+      "text_posts": 166,
+      "percent": 6.627
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Elixir",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Go",
+      "posts": 9,
+      "text_posts": 166,
+      "percent": 5.422
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Java",
+      "posts": 7,
+      "text_posts": 166,
+      "percent": 4.217
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "JavaScript",
+      "posts": 5,
+      "text_posts": 166,
+      "percent": 3.012
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Kotlin",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Kubernetes",
+      "posts": 9,
+      "text_posts": 166,
+      "percent": 5.422
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Next.js",
+      "posts": 12,
+      "text_posts": 166,
+      "percent": 7.229
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Node.js",
+      "posts": 11,
+      "text_posts": 166,
+      "percent": 6.627
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "PostgreSQL",
+      "posts": 28,
+      "text_posts": 166,
+      "percent": 16.867
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "PyTorch",
+      "posts": 7,
+      "text_posts": 166,
+      "percent": 4.217
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Python",
+      "posts": 43,
+      "text_posts": 166,
+      "percent": 25.904
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "React",
+      "posts": 32,
+      "text_posts": 166,
+      "percent": 19.277
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Ruby",
+      "posts": 4,
+      "text_posts": 166,
+      "percent": 2.41
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Rust",
+      "posts": 12,
+      "text_posts": 166,
+      "percent": 7.229
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "SQL",
+      "posts": 6,
+      "text_posts": 166,
+      "percent": 3.614
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Scala",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "Swift",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "TensorFlow",
+      "posts": 3,
+      "text_posts": 166,
+      "percent": 1.807
+    },
+    {
+      "month": "2026-11",
+      "group": "technologies",
+      "label": "TypeScript",
+      "posts": 36,
+      "text_posts": 166,
+      "percent": 21.687
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Amsterdam",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Austin",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Australia (country)",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Bengaluru",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Berlin",
+      "posts": 5,
+      "text_posts": 166,
+      "percent": 3.012
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Boston",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Canada (country)",
+      "posts": 6,
+      "text_posts": 166,
+      "percent": 3.614
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Dublin",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Europe (region)",
+      "posts": 13,
+      "text_posts": 166,
+      "percent": 7.831
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Germany (country)",
+      "posts": 5,
+      "text_posts": 166,
+      "percent": 3.012
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "India (country)",
+      "posts": 5,
+      "text_posts": 166,
+      "percent": 3.012
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "London",
+      "posts": 10,
+      "text_posts": 166,
+      "percent": 6.024
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Los Angeles",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Munich",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "New York",
+      "posts": 17,
+      "text_posts": 166,
+      "percent": 10.241
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Paris",
+      "posts": 1,
+      "text_posts": 166,
+      "percent": 0.602
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "San Francisco / Bay Area",
+      "posts": 13,
+      "text_posts": 166,
+      "percent": 7.831
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Seattle",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Singapore",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Stockholm",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Sydney",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Tokyo",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Toronto",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "UK (country)",
+      "posts": 11,
+      "text_posts": 166,
+      "percent": 6.627
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "USA (country)",
+      "posts": 48,
+      "text_posts": 166,
+      "percent": 28.916
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Vancouver",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "locations",
+      "label": "Zurich",
+      "posts": 0,
+      "text_posts": 166,
+      "percent": 0.0
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "AI / ML",
+      "posts": 102,
+      "text_posts": 166,
+      "percent": 61.446
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Backend",
+      "posts": 34,
+      "text_posts": 166,
+      "percent": 20.482
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Data",
+      "posts": 16,
+      "text_posts": 166,
+      "percent": 9.639
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "DevOps / SRE / infrastructure",
+      "posts": 20,
+      "text_posts": 166,
+      "percent": 12.048
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Frontend",
+      "posts": 20,
+      "text_posts": 166,
+      "percent": 12.048
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Full stack",
+      "posts": 25,
+      "text_posts": 166,
+      "percent": 15.06
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Management / leadership",
+      "posts": 22,
+      "text_posts": 166,
+      "percent": 13.253
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Mobile",
+      "posts": 3,
+      "text_posts": 166,
+      "percent": 1.807
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Product",
+      "posts": 7,
+      "text_posts": 166,
+      "percent": 4.217
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "QA / testing",
+      "posts": 2,
+      "text_posts": 166,
+      "percent": 1.205
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Security",
+      "posts": 4,
+      "text_posts": 166,
+      "percent": 2.41
+    },
+    {
+      "month": "2026-11",
+      "group": "roles",
+      "label": "Software engineer / developer",
+      "posts": 29,
+      "text_posts": 166,
+      "percent": 17.47
+    }
+  ]
+}

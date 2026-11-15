@@ -1,0 +1,27 @@
+name: HN hiring snapshot
+on:
+  pull_request:
+    paths:
+      - 'agentic-engineering-field-guide/data/hn-hiring/**'
+      - '.github/workflows/hn-hiring.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agentic-engineering-field-guide/data/hn-hiring/**'
+      - '.github/workflows/hn-hiring.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source integrity, classifications and exact offline reproduction
+        run: |
+          python -m unittest discover -s agentic-engineering-field-guide/data/hn-hiring -p 'test_*.py' -v
+          python agentic-engineering-field-guide/data/hn-hiring/analyze.py
+          git diff --exit-code -- agentic-engineering-field-guide/data/hn-hiring
