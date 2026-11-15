@@ -31,4 +31,3 @@ def loc_region(loc, bld):
         return ISO3[m.group(1)]
     r = bld.region([loc], False)
     return None if r in ('UNKNOWN', 'REMOTE') else r
-
