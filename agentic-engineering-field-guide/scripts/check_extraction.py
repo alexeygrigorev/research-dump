@@ -4,7 +4,7 @@ import argparse, collections, gzip, json, tempfile, contextlib, io
 import report_jobs
 from pathlib import Path
 from jsonschema import Draft202012Validator
-from extract_jobs import MODEL, ROOT, validate
+from extract_jobs import MODEL, ROOT, validate, normalize_result
 from report_jobs import WINDOWS, dedup, stats
 
 def fixtures():
@@ -20,6 +20,17 @@ def fixtures():
     assert len(canonical)==1 and canonical[0]['original_posted_date']=='2025-11-03'
     canonical,_=dedup([row('9','')]);assert canonical[0]['original_posted_date'] is None
     assert not any(lo <= (canonical[0]['original_posted_date'] or '') <= hi for lo,hi in WINDOWS.values())
+    def extracted(salary):
+        return dict(role='software_engineer',seniority='unknown',skills=[],ai_mentions=[],experience=dict(min_years=None,max_years=None,evidence=None),workplace=dict(mode='unknown',evidence=None),salary=salary,language='en')
+    for text,lo,hi,period in [('$4,500 to $5,800 per week',4500,5800,'week'),('$150-220k depending on seniority',150000,220000,'unknown')]:
+        d=extracted(dict(min=lo,max=hi,currency=None,period=period,evidence=text));validate(d,text)
+    text='We are headquartered in Manhattan. AI-native platform.'
+    d=extracted(dict(min=None,max=None,currency=None,period='unknown',evidence=None))
+    d['workplace']=dict(mode='office',evidence='We are headquartered in Manhattan.')
+    d['ai_mentions']=[dict(name='LLM',context='product_work',evidence='AI-native platform.')]
+    normalized=normalize_result(dict(status='ok',extracted=d),text)['extracted']
+    assert normalized['workplace']['mode']=='unknown' and not normalized['ai_mentions']
+
 
 
 def report_smoke():
