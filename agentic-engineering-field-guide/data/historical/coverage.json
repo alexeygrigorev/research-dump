@@ -307,6 +307,79 @@
    "wayback": 0
   }
  },
+ "raw_julsep_fill": {
+  "capture_month": {
+   "2026-07": {
+    "after_clean": 596,
+    "after_raw": 597,
+    "before": 13,
+    "by_source_raw": {
+     "ashby/cc": 86,
+     "builtin/cc": 13,
+     "builtin/wb": 99,
+     "greenhouse/cc": 399
+    }
+   },
+   "2026-08": {
+    "after_clean": 597,
+    "after_raw": 597,
+    "before": 7,
+    "by_source_raw": {
+     "ashby/cc": 77,
+     "builtin/cc": 6,
+     "builtin/wb": 81,
+     "greenhouse/cc": 433
+    }
+   },
+   "2026-09": {
+    "after_clean": 581,
+    "after_raw": 581,
+    "before": 4,
+    "by_source_raw": {
+     "ashby/cc": 84,
+     "builtin/cc": 5,
+     "builtin/wb": 114,
+     "greenhouse/cc": 378
+    }
+   }
+  },
+  "dedup_rule": "d1: (source, job_id/url) earliest posted_date/capture (-368); d2: content_hash (-128); d3_reposts_t3593u: normalized (company, title, locations) earliest posted_date (-484); clean_raw dedupe2 (-53)",
+  "posted_month": {
+   "2026-07": {
+    "after_clean": 446,
+    "after_raw": 446,
+    "before": 3,
+    "by_source_raw": {
+     "ashby/cc": 42,
+     "builtin/cc": 2,
+     "builtin/wb": 105,
+     "greenhouse/cc": 297
+    }
+   },
+   "2026-08": {
+    "after_clean": 592,
+    "after_raw": 592,
+    "before": 264,
+    "by_source_raw": {
+     "ashby/cc": 22,
+     "builtin/cc": 242,
+     "builtin/wb": 127,
+     "greenhouse/cc": 201
+    }
+   },
+   "2026-09": {
+    "after_clean": 328,
+    "after_raw": 328,
+    "before": 268,
+    "by_source_raw": {
+     "ashby/cc": 2,
+     "builtin/cc": 228,
+     "builtin/wb": 90,
+     "greenhouse/cc": 8
+    }
+   }
+  }
+ },
  "unresolved_in_scope_links": {
   "202507": {
    "wayback": 613
