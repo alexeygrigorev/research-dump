@@ -1,0 +1,63 @@
+name: Historical Data CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate-historical-dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile-check historical scripts
+        run: |
+          python3 -m py_compile agentic-engineering-field-guide/data/historical/scripts/*.py
+
+      - name: Validate historical JSON metadata and dataset invariants
+        run: |
+          python3 - <<'PY'
+          import gzip
+          import json
+          from pathlib import Path
+
+          base = Path("agentic-engineering-field-guide/data/historical")
+
+          for name in ["coverage.json", "manifest.json", "stability.json", "source_measurement.json"]:
+              data = json.loads((base / name).read_text(encoding="utf-8"))
+              assert isinstance(data, (dict, list)), f"{name} must be JSON object or array"
+
+          coverage = json.loads((base / "coverage.json").read_text(encoding="utf-8"))
+          assert "raw_julsep_fill" in coverage, "coverage.json missing raw_julsep_fill"
+
+          expected_roles = {
+              "backend",
+              "engineering_manager",
+              "frontend",
+              "full_stack",
+              "software_developer",
+              "software_engineer",
+          }
+
+          for split in ["raw", "clean"]:
+              path = base / split / "vacancies.jsonl.gz"
+              assert path.exists(), f"Missing {path}"
+              with gzip.open(path, "rt", encoding="utf-8") as f:
+                  rows = [json.loads(line) for line in f]
+              assert len(rows) > 0, f"{split} has no rows"
+              if split == "raw":
+                  key_sets = {tuple(sorted(r.keys())) for r in rows}
+                  assert len(key_sets) == 1, f"{split} has inconsistent schemas: {len(key_sets)}"
+                  assert len(next(iter(key_sets))) == 24, f"{split} schema does not have 24 keys"
+              ids = [r["vacancy_id"] for r in rows]
+              assert len(ids) == len(set(ids)), f"{split} has duplicate vacancy_ids"
+              roles = {r["role"] for r in rows}
+              assert roles == expected_roles, f"{split} unexpected roles: {roles}"
+              print(f"{split}: {len(rows)} rows, 0 duplicate vacancy_ids, 6 roles OK")
+          PY
