@@ -19,7 +19,7 @@
 | ai_mentions | array of `{name, context: developer_tool/product_work/general, evidence}` | [] |
 | experience | `{min_years, max_years, evidence}`; explicit candidate work experience | null values |
 | workplace | `{mode: remote/hybrid/office/unknown, evidence}`; description only | unknown / null |
-| salary | `{min, max, currency, period: hour/month/year/unknown, evidence}`; explicit base pay, no conversion | null values / unknown period |
+| salary | `{min, max, currency, period: hour/day/week/month/year/unknown, evidence}`; explicit base pay, no conversion | null values / unknown period |
 | language | ISO language code | unknown |
 
 Every non-null evidence string is matched across whitespace and hyphen line wraps, mapped back to the exact source span, then validated as an exact substring of the text sent to the model. This verifies grounding, not semantic correctness: the 20-row manual pilot check separately reviews interpretation. Extracted names are model-normalized; report aggregation normalizes Unicode, case and punctuation only, so aliases can remain split. Empty AI arrays mean no explicit mention extracted, not proof that a company does not use AI.
@@ -44,7 +44,7 @@ Cost uses provider-reported input, cached-input, and output token counts. [Z.ai 
 
 ## Conservative normalization and QA limits
 
-`normalizer_version=conservative-v1` and `normalization_notes` explain deterministic adjustments after each model response (including cache hits). Unsupported seniority becomes unknown; explicit title seniority is preferred only in reports. Salary currency is null unless its code or an unambiguous currency expression is present in the source. Salary period becomes unknown unless the salary evidence states it. Office attendance inferred solely from headquarters location becomes unknown. Named LLM/developer tools require support in their evidence. The raw model cache retains the original reply. Salary `k`/`m` notation is expanded when checking numeric grounding.
+`normalizer_version=conservative-v1` and `normalization_notes` explain deterministic adjustments after each model response (including cache hits). Unsupported seniority becomes unknown; explicit title seniority is preferred only in reports. Salary currency is null unless its code or an unambiguous currency expression is present in the source. Salary period becomes unknown unless the salary evidence states it. Office attendance inferred solely from headquarters location becomes unknown. Named LLM/developer tools require support in their evidence. The raw model cache retains the original reply. Salary `k`/`m` notation, including a shared suffix such as 150–220k, is expanded when checking numeric grounding.
 
 Boilerplate paragraphs containing requirement/qualification/skills/responsibility markers are preserved. If stripping leaves fewer than 200 characters, the original normalized description is retained (except board tags), avoiding loss of short or single-paragraph postings. `description_chars` and `extraction_chars` record the effect. This deliberately keeps some legal/company language to protect job requirements. General company AI marketing can still enter the broad AI-mention metric; it is distinct from developer-tool mentions.
 

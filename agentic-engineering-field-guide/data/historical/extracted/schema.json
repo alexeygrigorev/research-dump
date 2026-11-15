@@ -169,6 +169,8 @@
         "period": {
           "enum": [
             "hour",
+          "day",
+          "week",
             "month",
             "year",
             "unknown"
