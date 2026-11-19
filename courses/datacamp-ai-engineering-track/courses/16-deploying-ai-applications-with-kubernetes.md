@@ -1,4 +1,4 @@
-# 17. Deploying AI Applications with Kubernetes
+# 16. Deploying AI Applications with Kubernetes
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
@@ -58,9 +58,47 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 17.1 | Why Kubernetes for an AI application | new; ML Zoomcamp `10-kubernetes`; FG Kubernetes (23.6%) |
-| 17.2 | A local cluster with kind | ML Zoomcamp `10-kubernetes` |
-| 17.3 | Deployments and pods | ML Zoomcamp `10-kubernetes` |
-| 17.4 | Services and reaching the application | ML Zoomcamp `10-kubernetes` |
-| 17.5 | Secrets and configuration for API keys | new |
-| 17.6 | Scaling, rolling updates and rollbacks | new |
+| 16.1 | Why Kubernetes for an AI application | new; ML Zoomcamp `10-kubernetes`; FG Kubernetes (23.6%) |
+| 16.2 | A local cluster with kind | ML Zoomcamp `10-kubernetes` |
+| 16.3 | Deployments and pods | ML Zoomcamp `10-kubernetes` |
+| 16.4 | Services and reaching the application | ML Zoomcamp `10-kubernetes` |
+| 16.5 | Secrets and configuration for API keys | new |
+| 16.6 | Scaling, rolling updates and rollbacks | new |
+
+## Detailed lesson outline
+
+### 16.1 Why Kubernetes for an AI application
+
+Map the existing container service to Pods, a Deployment, and a Service.
+
+**Check.** Identify which object owns replicas and which provides a stable endpoint.
+
+### 16.2 A local cluster with kind
+
+Create a kind cluster and load the application image, or inspect supplied cluster output.
+
+**Check.** Verify node readiness and the image reference used by the workload.
+
+### 16.3 Deployments and pods
+
+Apply the Deployment and inspect a failing Pod using status and logs.
+
+**Check.** Identify the mismatch in a supplied failure and verify the corrected manifest.
+
+### 16.4 Services and reaching the application
+
+Create a Service and forward its port to the local machine.
+
+**Check.** Call the health endpoint and verify the Service points to the expected Pods.
+
+### 16.5 Secrets and configuration for API keys
+
+Wire non-secret settings through a ConfigMap and a placeholder key through a Secret.
+
+**Check.** Verify both environment variable references in the Deployment manifest.
+
+### 16.6 Scaling, rolling updates and rollbacks
+
+Scale the Deployment, update its image tag, and roll back after a failing readiness check.
+
+**Check.** Verify the restored version and replica readiness from rollout output.

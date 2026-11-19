@@ -1,4 +1,4 @@
-# 15. CI/CD for AI Applications
+# 14. CI/CD for AI Applications
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
@@ -55,11 +55,51 @@ The local run uses a supplied checkout and Docker-capable runner. Exercises can 
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
+I don't like the titles they are bad
+
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 15.1 | Why AI applications need CI/CD | new; builds on BC `v2/04-testing`; FG CI/CD (36.9%) |
-| 15.2 | Run a workflow locally with act | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 15.3 | Add tests to the push workflow | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; BC `v2/04-testing/03-testing` |
-| 15.4 | Secrets, cost and flaky LLM tests in CI | new; BC `03-testing/06-tracking-costs.md`, `04-llm-judges/05-improving-judge-tests.md` |
-| 15.5 | Evaluation as a quality gate | new; evaluation content from BC `v2/06-evaluation/02-measure/06-running-evals.md` |
-| 15.6 | Build a tagged image after checks pass | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; FG Docker (24.2%) |
+| 14.1 | Why AI applications need CI/CD | new; builds on BC `v2/04-testing`; FG CI/CD (36.9%) | I don't like titles that start with WHY etc let's find all of them and replace
+| 14.2 | Run a workflow locally with act | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 | focus on what how tech 
+| 14.3 | Add tests to the push workflow | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; BC `v2/04-testing/03-testing` | 
+| 14.4 | Secrets, cost and flaky LLM tests in CI | new; BC `03-testing/06-tracking-costs.md`, `04-llm-judges/05-improving-judge-tests.md` |
+| 14.5 | Evaluation as a quality gate | new; evaluation content from BC `v2/06-evaluation/02-measure/06-running-evals.md` |
+| 14.6 | Build a tagged image after checks pass | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; FG Docker (24.2%) |
+
+## Detailed lesson outline
+
+### 14.1 Why AI applications need CI/CD
+
+Inspect a change that breaks the assistant and map which check should stop it before image build.
+
+**Check.** Order tests, evaluation, and image build in a workflow.
+
+### 14.2 Run a workflow locally with act
+
+Run a sample GitHub Actions-compatible workflow on the supplied checkout using act.
+
+**Check.** Locate the local job result and verify a step completed.
+
+### 14.3 Add tests to the push workflow
+
+Add a pytest job to the push workflow and exercise it with good and broken fixtures.
+
+**Check.** Check the expected pass and failure statuses.
+
+### 14.4 Secrets, cost and flaky LLM tests in CI
+
+Configure test inputs and secrets. Use scripted models for required checks and isolate optional live checks.
+
+**Check.** Run the required checks without live credentials.
+
+### 14.5 Evaluation as a quality gate
+
+Implement an evaluation gate from a fixed metrics report and agreed thresholds.
+
+**Check.** Verify exit status for a passing fixture and a regression.
+
+### 14.6 Build a tagged image after checks pass
+
+Build a tagged Docker image after the checks pass.
+
+**Check.** Verify the expected tag and confirm the build step is skipped when a required check fails.

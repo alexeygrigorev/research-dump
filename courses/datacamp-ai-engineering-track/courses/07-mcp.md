@@ -1,4 +1,4 @@
-# 8. Model Context Protocol (MCP)
+# 7. Model Context Protocol (MCP)
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
 
@@ -53,8 +53,40 @@ Use a bundled server executable wherever the lesson environment supports subproc
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 8.1 | Hosts, clients, and servers | BC `v2/03-agents/07-mcp/01-section-overview.md` |
-| 8.2 | Exposing tools over stdio | BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
-| 8.3 | Discovering and calling tools | BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
-| 8.4 | Connecting MCP tools to a LangChain agent | Adapted from BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
-| 8.5 | Handling tool errors | New exercise extending the local MCP server |
+| 7.1 | Hosts, clients, and servers | BC `v2/03-agents/07-mcp/01-section-overview.md` |
+| 7.2 | Exposing tools over stdio | BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
+| 7.3 | Discovering and calling tools | BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
+| 7.4 | Connecting MCP tools to a LangChain agent | Adapted from BC `v2/03-agents/07-mcp/02-stdio-transport.md` |
+| 7.5 | Handling tool errors | New exercise extending the local MCP server |
+
+## Detailed lesson outline
+
+### 7.1 Hosts, clients, and servers
+
+Map the host, MCP client, and tool server in a local support-assistant diagram.
+
+**Check.** Trace a lookup request and its response through all three components.
+
+### 7.2 Exposing tools over stdio
+
+Expose a read-only article lookup from a local MCP server over stdio.
+
+**Check.** Start the server and verify the tool appears in its advertised tool list.
+
+### 7.3 Discovering and calling tools
+
+Connect a standalone MCP client, list the tool schema, and fetch a known article.
+
+**Check.** Check the returned title and document ID.
+
+### 7.4 Connecting MCP tools to a LangChain agent
+
+Load the server tool into the LangChain assistant and ask a question that needs the article.
+
+**Check.** Verify that the agent calls the MCP tool and cites its result.
+
+### 7.5 Handling tool errors
+
+Simulate a bad argument and a server failure. Return enough detail for the caller to understand each failure.
+
+**Check.** Check that neither case produces an invented article or successful result.

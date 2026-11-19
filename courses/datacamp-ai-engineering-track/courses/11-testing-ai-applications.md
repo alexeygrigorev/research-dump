@@ -1,4 +1,4 @@
-# 12. Testing AI Applications
+# 11. Testing AI Applications
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
 
@@ -51,7 +51,7 @@ Use scripted model outputs for graded tests. Demonstrate a live judge run separa
 
 ## Exercise adapted from the Buildcamp
 
-Use the search-and-fetch agent from course 6 in place of the homework’s DuckDB SQL agent. Have learners write pytest assertions for tool names and arguments using a scripted response, then apply a judge rubric to a grounded answer and an unsupported answer. Grade the tool assertions and expected rubric outcomes with fixed responses.
+Use the search-and-fetch agent from the tool-calling course in place of the homework’s DuckDB SQL agent. Have learners write pytest assertions for tool names and arguments using a scripted response, then apply a judge rubric to a grounded answer and an unsupported answer. Grade the tool assertions and expected rubric outcomes with fixed responses.
 
 [Buildcamp Week 4 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing/homework/01-homework.md)
 
@@ -61,9 +61,47 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 12.1 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
-| 12.2 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
-| 12.3 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
-| 12.4 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
-| 12.5 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
-| 12.6 | Tracking costs | BC `03-testing/06-tracking-costs.md` |
+| 11.1 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
+| 11.2 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
+| 11.3 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
+| 11.4 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
+| 11.5 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
+| 11.6 | Tracking costs | BC `03-testing/06-tracking-costs.md` |
+
+## Detailed lesson outline
+
+### 11.1 Writing the first test
+
+Write a pytest test for a known support question using a scripted model response.
+
+**Check.** Show a failure with a deliberately incorrect expected answer, then restore the correct assertion.
+
+### 11.2 Testing tool calls
+
+Capture the agent’s tool calls and assert the names, arguments, and order.
+
+**Check.** Use a wrong-ID response to confirm the test detects the regression.
+
+### 11.3 Refactoring tests and testing output quality
+
+Refactor repeated setup into fixtures and add assertions for output schema and citations.
+
+**Check.** Verify that a bad citation fails independently of the tool call assertions.
+
+### 11.4 Creating an LLM judge
+
+Define a judge that returns a verdict and reason using a grounding rubric.
+
+**Check.** Apply it to scripted examples of grounded and unsupported answers.
+
+### 11.5 Coming up with test cases and fixing the agent
+
+Turn a reported assistant failure into a reproducible case, adjust the instructions, and run the suite again.
+
+**Check.** Verify that the new case passes alongside the original cases.
+
+### 11.6 Tracking costs
+
+Read token counts from a recorded judge run and compute total cost with the supplied price table.
+
+**Check.** Compare the test-run total against expected costs.

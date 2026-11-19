@@ -1,4 +1,4 @@
-# 5. Processing PDFs with LLMs
+# 4. Processing PDFs with LLMs
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 6 lessons, 2-3 hours.
 
@@ -58,11 +58,51 @@ Extract a text-based PDF to Markdown, preserve page references, and validate a p
 
 All paths are relative to the Buildcamp repository.
 
+TODO let's make titles more concrete like what exactly are we extracting now not clear
+
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 5.1 | Extract text and page numbers from a PDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
-| 5.2 | Inspect and clean the Markdown extract | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; `v2/01-foundation/homework/01-homework.md` |
-| 5.3 | Extract policy records with structured output | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
-| 5.4 | Process a document page by page | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
-| 5.5 | Process pages concurrently and record failures | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
-| 5.6 | Export validated records with page citations | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
+| 4.1 | Extract text and page numbers from a PDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` | TOOD remove page numbders
+| 4.2 | Inspect and clean the Markdown extract | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; `v2/01-foundation/homework/01-homework.md` |
+| 4.3 | Extract policy records with structured output | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
+| 4.4 | Process a document page by page | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
+| 4.5 | Process pages concurrently and record failures | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
+| 4.6 | Export validated records with page citations | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
+
+## Detailed lesson outline
+
+### 4.1 Extract text and page numbers from a PDF
+
+Open a text-based PDF and extract the text and page number for selected pages.
+
+**Check.** Compare the extract with the original pages.
+
+### 4.2 Inspect and clean the Markdown extract
+
+Inspect a Markdown extract with repeated headers and broken line wraps. Clean those artifacts while keeping section text.
+
+**Check.** Verify that the page heading and a target passage survive cleanup.
+
+### 4.3 Extract policy records with structured output
+
+Pass an extracted policy page to the model and parse a typed record using the schema from the exercise.
+
+**Check.** Check the normalized fields and that omitted information remains absent.
+
+### 4.4 Process a document page by page
+
+Run the extraction over every page and attach each record to its page of origin.
+
+**Check.** Verify that no page is skipped and the record points back to the right page.
+
+### 4.5 Process pages concurrently and record failures
+
+Process pages with bounded concurrency and use a fixture that fails on one page.
+
+**Check.** Confirm that successful pages are retained and the failed page is recorded.
+
+### 4.6 Export validated records with page citations
+
+Export validated records as JSONL with the PDF name and page citation.
+
+**Check.** Reload the export and match a cited field to the precise page.

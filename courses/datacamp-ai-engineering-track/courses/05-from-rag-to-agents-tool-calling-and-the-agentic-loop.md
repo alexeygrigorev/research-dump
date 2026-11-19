@@ -1,4 +1,6 @@
-# 6. From RAG to Agents: Tool Calling and the Agentic Loop
+# 5. From RAG to Agents: Tool Calling and the Agentic Loop
+
+let's call it agent basics: ...
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
 
@@ -62,8 +64,40 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 6.1 | From RAG to agents | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) |
-| 6.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
-| 6.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
-| 6.4 | Carrying conversation history across turns | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
-| 6.5 | Handling tool errors and limiting iterations | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` |
+| 5.1 | From RAG to agents | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) | when rag is not enough mabe 
+| 5.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
+| 5.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
+| 5.4 | Carrying conversation history across turns | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
+| 5.5 | Handling tool errors and limiting iterations | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` | should the name be more cnsise
+
+## Detailed lesson outline
+
+### 5.1 From RAG to agents
+
+Compare an assistant that always searches up front with one that can choose to search or fetch a known section by ID.
+
+**Check.** Explain which tool each of two example requests needs.
+
+### 5.2 Function calling
+
+Define OpenAI function schemas for searching documents and fetching by ID. Decode a scripted tool call into a Python invocation.
+
+**Check.** Verify the selected function and parsed arguments.
+
+### 5.3 The agentic tool-call loop
+
+Implement the loop that executes tool calls and returns their results to the model. Try a search followed by a fetch.
+
+**Check.** Assert the call order, fetched ID, and final response.
+
+### 5.4 Carrying conversation history across turns
+
+Ask about a support procedure, then refer to it with “Who handles that?” on the next turn.
+
+**Check.** Check that the follow-up retains the relevant history and resolves the reference.
+
+### 5.5 Handling tool errors and limiting iterations
+
+Return a controlled error for an unknown ID and impose a maximum number of tool rounds.
+
+**Check.** Verify the assistant reports the failed lookup and stops when the limit is reached.

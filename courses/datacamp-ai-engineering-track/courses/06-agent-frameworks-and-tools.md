@@ -1,4 +1,4 @@
-# 7. Building Agents with LangChain
+# 6. Building Agents with LangChain and Pydantic AI
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2-3 hours.
 
@@ -50,9 +50,50 @@ Python 3.13, LangChain, the LangChain OpenAI integration, and PydanticAI for the
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 7.1 | Building a LangChain agent | BC `v2/03-agents/03-agent-frameworks/02-toyaikit.md`; LZ `01-agentic-rag/15-frameworks.md` |
-| 7.2 | Defining tools | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md` |
-| 7.3 | Adding a workflow tool | BC `v2/03-agents/03-agent-frameworks/04-beyond-agentic-rag.md` |
-| 7.4 | Returning structured results | BC `v2/01-foundation/04-structured-output/01-structured-output.md` |
-| 7.5 | Streaming | BC `v2/03-agents/03-agent-frameworks/06-event-stream-handlers.md` |
-| 7.6 | Building a small agent with PydanticAI | BC `v2/03-agents/03-agent-frameworks/05-pydantic-ai.md` |
+| 6.1 | Building a LangChain agent | BC `v2/03-agents/03-agent-frameworks/02-toyaikit.md`; LZ `01-agentic-rag/15-frameworks.md` |
+| 6.2 | Defining tools | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md` |
+| 6.3 | Adding a workflow tool | BC `v2/03-agents/03-agent-frameworks/04-beyond-agentic-rag.md` |
+| 6.4 | Returning structured results | BC `v2/01-foundation/04-structured-output/01-structured-output.md` |
+| 6.5 | Streaming | BC `v2/03-agents/03-agent-frameworks/06-event-stream-handlers.md` |
+| 6.6 | Building a small agent with PydanticAI | BC `v2/03-agents/03-agent-frameworks/05-pydantic-ai.md` |
+
+## Detailed lesson outline
+
+### 6.1 Building a LangChain agent
+
+Port the support assistant’s manual tool loop to a LangChain agent with the same search tool.
+
+**Check.** Run a fixed request and verify it still reaches the expected tool.
+
+### 6.2 Defining tools
+
+Define typed tools for searching and fetching support articles. Write descriptions that tell the agent when to use each tool.
+
+**Check.** Validate a correct invocation and reject malformed arguments.
+
+### 6.3 Adding a workflow tool
+
+Add a tool that drafts a support ticket in a local fixture. Give the agent a request that needs follow-up.
+
+**Check.** Check the draft contains the issue and supporting reference.
+
+### 6.4 Returning structured results
+
+Define a structured answer containing a response and supporting source IDs.
+
+**Check.** Parse the agent result and verify the schema and cited IDs.
+
+### 6.5 Streaming
+
+Subscribe to streamed agent events and display the answer as text arrives.
+
+**Check.** Reconstruct the final answer from the stream and identify the tool event.
+
+### 6.6 Building a small agent with PydanticAI
+
+Build a small PydanticAI agent around the same read-only lookup function.
+
+**Check.** Run the same fixture and identify where tool registration and output types are defined.
+
+
+can we actually give them more tools not just read

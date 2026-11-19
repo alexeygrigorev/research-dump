@@ -1,4 +1,4 @@
-# 14. Evaluating RAG and Agents
+# 13. Evaluating RAG and Agents
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 7 lessons, 2-3 hours.
 
@@ -62,10 +62,54 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 14.1 | Why evaluate: offline, online and LLM-native evals | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) |
-| 14.2 | Ground truth and synthetic questions | LZ `02-ground-truth.md`, `03-ground-truth-batch.md`; BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` |
-| 14.3 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` |
-| 14.4 | Evaluating answers and faithfulness | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
-| 14.5 | LLM as a judge and judge alignment | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` |
-| 14.6 | Evaluating agents on scenarios | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` |
-| 14.7 | Using results to choose a version | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` |
+| 13.1 | Why evaluate: offline, online and LLM-native evals | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) | too long
+| 13.2 | Ground truth and synthetic questions | LZ `02-ground-truth.md`, `03-ground-truth-batch.md`; BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` | split into GT and synthetic data see AI BC 
+| 13.3 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` | 
+| 13.4 | Evaluating answers | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` | more concrete
+| 13.5 | LLM as a judge and judge alignment | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` | split or rename
+| 13.6 | Evaluating agents on scenarios | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` | i thikn it's more like testing? 
+| 13.7 | Using results to choose a version | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` | better title
+
+## Detailed lesson outline
+
+### 13.1 Why evaluate: offline, online and LLM-native evals
+
+Review a fixed benchmark, user feedback, and a production trace. Decide which evidence answers an offline or online quality question.
+
+**Check.** Match each evidence source to the decision it can support.
+
+### 13.2 Ground truth and synthetic questions
+
+Add human-labeled and synthetic queries to a small dataset with expected answers and source IDs.
+
+**Check.** Spot-check a generated query against its assigned source before admitting it.
+
+### 13.3 Evaluating retrieval
+
+Run retrieval against the dataset and calculate hit rate and mean reciprocal rank.
+
+**Check.** Verify metrics against a fixture with known ranks and inspect a missed source.
+
+### 13.4 Evaluating answers and faithfulness
+
+Score answers for correctness and support from retrieved text.
+
+**Check.** Identify a fluent answer that makes a claim outside its cited passage.
+
+### 13.5 LLM as a judge and judge alignment
+
+Compare an LLM judge with human labels and revise its rubric after examining disagreements.
+
+**Check.** Check agreement on a held-out set after the revision.
+
+### 13.6 Evaluating agents on scenarios
+
+Replay multi-step agent requests with expected tool calls and approval behavior.
+
+**Check.** Check both final outputs and intermediate steps for a saved run.
+
+### 13.7 Using results to choose a version
+
+Compare two versions on a common dataset with quality, cost, and latency results.
+
+**Check.** Choose a version using stated criteria and point to specific cases that influenced the decision.

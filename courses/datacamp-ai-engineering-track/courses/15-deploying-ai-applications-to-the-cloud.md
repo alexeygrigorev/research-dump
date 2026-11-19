@@ -1,5 +1,5 @@
-# 16. Deploying AI Applications to the Cloud
-
+# 15. Deploying AI Applications to the Cloud
+ let's actually only do kubernetes merge them 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
 ## Summary
@@ -60,9 +60,47 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 16.1 | From script to service: a FastAPI endpoint | BC `v2/07-project-bonus/03-complete-example/05-creating-app.md`; FG FastAPI (928 jobs) |
-| 16.2 | A simple UI with streaming | BC `v2/04-testing/02-preparing-project/06-streamlit.md`, `03-streaming.md`; LZ `07-project-example/04-interface.md` |
-| 16.3 | Containerizing the application | LZ `05-monitoring/13-docker-compose.md`; BC `03-complete-example/10-deployment.md` |
-| 16.4 | Configuration and secrets | BC `03-complete-example/02-setup.md` |
-| 16.5 | Deploy an image to ECS and promote it to production | Course Management Platform `5a3a95b` deployment scripts; AI Dev Tools Zoomcamp `articles/04-devops.md` |
-| 16.6 | Verify service health with deployment events, logs, and traces | AI Dev Tools Zoomcamp `articles/04-devops.md`; reuses the track’s OpenTelemetry instrumentation |
+| 15.1 | From script to service: a FastAPI endpoint | BC `v2/07-project-bonus/03-complete-example/05-creating-app.md`; FG FastAPI (928 jobs) |
+| 15.2 | A simple UI with streaming | BC `v2/04-testing/02-preparing-project/06-streamlit.md`, `03-streaming.md`; LZ `07-project-example/04-interface.md` |
+| 15.3 | Containerizing the application | LZ `05-monitoring/13-docker-compose.md`; BC `03-complete-example/10-deployment.md` |
+| 15.4 | Configuration and secrets | BC `03-complete-example/02-setup.md` |
+| 15.5 | Deploy an image to ECS and promote it to production | Course Management Platform `5a3a95b` deployment scripts; AI Dev Tools Zoomcamp `articles/04-devops.md` |
+| 15.6 | Verify service health with deployment events, logs, and traces | AI Dev Tools Zoomcamp `articles/04-devops.md`; reuses the track’s OpenTelemetry instrumentation |
+
+## Detailed lesson outline
+
+### 15.1 From script to service: a FastAPI endpoint
+
+Expose the project’s answer function through a FastAPI endpoint with typed request and response bodies.
+
+**Check.** Submit a sample question and check the response schema.
+
+### 15.2 A simple UI with streaming
+
+Connect a simple UI to the streaming endpoint and display the answer incrementally.
+
+**Check.** Replay a recorded stream and verify the final text and sources.
+
+### 15.3 Containerizing the application
+
+Write a Dockerfile, build the image, and start the service with local fixture configuration.
+
+**Check.** Send a request to the container and verify the health endpoint.
+
+### 15.4 Configuration and secrets
+
+Prepare separate development and production configuration, with credentials supplied at runtime.
+
+**Check.** Inspect image and config fixtures to verify credentials stay outside the build.
+
+### 15.5 Deploy an image to ECS and promote it to production
+
+Prepare an ECR image reference and ECS task and service settings for Fargate. Promote the tested image using the deployment artifacts.
+
+**Check.** Check that development and production refer to the same tested image and their own settings.
+
+### 15.6 Verify service health with deployment events, logs, and traces
+
+Read service events, health checks, application logs, and a trace for a supplied deployment run.
+
+**Check.** Determine whether rollout succeeded and tie a sample request to its trace.
