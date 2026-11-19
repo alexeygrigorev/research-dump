@@ -1,10 +1,10 @@
-# 16. Deploying AI Applications with Kubernetes
+# 15. Deploying AI Applications with Kubernetes
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
 ## Summary
 
-**Kubernetes** appears in **23.6%** of all postings (2,307 jobs; rising 18.6% → 23.8% in AI-First, 28.3% in AI-Support, and 43% in platform/infra roles). Learners deploy the containerized FastAPI/agent service from the cloud deployment course to a local Kubernetes cluster (`kind`), manage API keys as Secrets, scale replicas, roll out a new version and roll it back.
+**Kubernetes** appears in **23.6%** of all postings (2,307 jobs; rising 18.6% → 23.8% in AI-First, 28.3% in AI-Support, and 43% in platform/infra roles). Learners deploy the containerized FastAPI/agent service from CI/CD to a local Kubernetes cluster (`kind`), manage API keys as Secrets, scale replicas, roll out a new version and roll it back.
 
 ## Learning objectives
 
@@ -15,11 +15,11 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Why here
 
-Reuses the Docker image from the CI/CD and cloud deployment courses and covers the container orchestration skill demanded in nearly a quarter of all AI engineering jobs.
+Reuses the Docker image from CI/CD and covers the container orchestration skill demanded in nearly a quarter of all AI engineering jobs.
 
 ## Transformation
 
-From "I can deploy one container to a managed service" to "I can run, scale and update my AI application on Kubernetes."
+From "I can build and test a service container" to "I can run, scale and update my AI application on Kubernetes."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ The learner creates a `kind` cluster, loads the image, writes the manifests one 
 
 ### Model / release
 
-`kind` and `kubectl` (versions TBC), Docker, Python 3.13 application image from the cloud deployment course. Small model.
+`kind` and `kubectl` (versions TBC), Docker, Python 3.13 application image from CI/CD. Small model.
 
 ### Source material
 
@@ -54,50 +54,48 @@ Use a local `kind` cluster in a Docker-capable exercise environment or a preprov
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 16.1 | Why Kubernetes for an AI application | new; ML Zoomcamp `10-kubernetes`; FG Kubernetes (23.6%) |
-| 16.2 | A local cluster with kind | ML Zoomcamp `10-kubernetes` |
-| 16.3 | Deployments and pods | ML Zoomcamp `10-kubernetes` |
-| 16.4 | Services and reaching the application | ML Zoomcamp `10-kubernetes` |
-| 16.5 | Secrets and configuration for API keys | new |
-| 16.6 | Scaling, rolling updates and rollbacks | new |
+| 15.1 | Map the assistant service to Kubernetes resources | new; ML Zoomcamp `10-kubernetes`; FG Kubernetes (23.6%) |
+| 15.2 | A local cluster with kind | ML Zoomcamp `10-kubernetes` |
+| 15.3 | Deployments and pods | ML Zoomcamp `10-kubernetes` |
+| 15.4 | Services and reaching the application | ML Zoomcamp `10-kubernetes` |
+| 15.5 | Secrets and configuration for API keys | new |
+| 15.6 | Scaling, rolling updates and rollbacks | new |
 
 ## Detailed lesson outline
 
-### 16.1 Why Kubernetes for an AI application
+### 15.1 Map the assistant service to Kubernetes resources
 
 Map the existing container service to Pods, a Deployment, and a Service.
 
 **Check.** Identify which object owns replicas and which provides a stable endpoint.
 
-### 16.2 A local cluster with kind
+### 15.2 A local cluster with kind
 
 Create a kind cluster and load the application image, or inspect supplied cluster output.
 
 **Check.** Verify node readiness and the image reference used by the workload.
 
-### 16.3 Deployments and pods
+### 15.3 Deployments and pods
 
 Apply the Deployment and inspect a failing Pod using status and logs.
 
 **Check.** Identify the mismatch in a supplied failure and verify the corrected manifest.
 
-### 16.4 Services and reaching the application
+### 15.4 Services and reaching the application
 
 Create a Service and forward its port to the local machine.
 
 **Check.** Call the health endpoint and verify the Service points to the expected Pods.
 
-### 16.5 Secrets and configuration for API keys
+### 15.5 Secrets and configuration for API keys
 
 Wire non-secret settings through a ConfigMap and a placeholder key through a Secret.
 
 **Check.** Verify both environment variable references in the Deployment manifest.
 
-### 16.6 Scaling, rolling updates and rollbacks
+### 15.6 Scaling, rolling updates and rollbacks
 
 Scale the Deployment, update its image tag, and roll back after a failing readiness check.
 

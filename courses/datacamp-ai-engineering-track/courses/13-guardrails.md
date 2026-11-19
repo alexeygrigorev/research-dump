@@ -1,8 +1,7 @@
-# 9. Guardrails for AI Agents
+# 13. Guardrails for AI Agents
 
-let's do this after evals
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 5 lessons, 2-3 hours.
 
 ## Summary
 
@@ -52,39 +51,39 @@ Python 3.13, LangChain or LangGraph for the existing assistant, and Pydantic for
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 9.1 | Turning policy into checks | BC `v2/07-project-bonus/05-guardrails-pydantic/01-introduction.md` |
-| 9.2 | Validating requests | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md` |
-| 9.3 | Checking tool arguments and permissions | BC `v2/07-project-bonus/05-guardrails-pydantic/02-guardrails-tool-calls.md` |
-| 9.4 | Approval before a workflow action | BC `v2/04-testing/06-multi-agent/11-14` |
-| 9.5 | Checking outputs and citations | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md`; new citation exercise |
+| 13.1 | Turning policy into checks | BC `v2/07-project-bonus/05-guardrails-pydantic/01-introduction.md` |
+| 13.2 | Validating requests | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md` |
+| 13.3 | Checking tool arguments and permissions | BC `v2/07-project-bonus/05-guardrails-pydantic/02-guardrails-tool-calls.md` |
+| 13.4 | Approval before a workflow action | BC `v2/04-testing/06-multi-agent/11-14` |
+| 13.5 | Checking outputs and citations | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md`; new citation exercise |
 
 ## Detailed lesson outline
 
-### 9.1 Turning policy into checks
+### 13.1 Turning policy into checks
 
 Turn a support policy into rules for allowed requests, ticket creation, and citing sources.
 
 **Check.** Map a supplied set of requests to allow, block, or ask for approval.
 
-### 9.2 Validating requests
+### 13.2 Validating requests
 
 Add a request validator for prohibited fields and unsupported request types.
 
 **Check.** Check both a valid request and one containing disallowed data.
 
-### 9.3 Checking tool arguments and permissions
+### 13.3 Checking tool arguments and permissions
 
 Validate tool arguments and permissions before dispatch in a simulated support system.
 
 **Check.** Verify that an unauthorized ticket action never reaches the tool.
 
-### 9.4 Approval before a workflow action
+### 13.4 Approval before a workflow action
 
 Pause a draft ticket workflow for review and resume it with an approval or rejection.
 
 **Check.** Verify execution occurs only after approval.
 
-### 9.5 Checking outputs and citations
+### 13.5 Checking outputs and citations
 
 Validate the structured answer and check its citations against the retrieved IDs.
 

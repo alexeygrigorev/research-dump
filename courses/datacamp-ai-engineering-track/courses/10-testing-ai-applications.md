@@ -1,4 +1,4 @@
-# 11. Testing AI Applications
+# 10. Testing AI Applications
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
 
@@ -57,50 +57,48 @@ Use the search-and-fetch agent from the tool-calling course in place of the home
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 11.1 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
-| 11.2 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
-| 11.3 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
-| 11.4 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
-| 11.5 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
-| 11.6 | Tracking costs | BC `03-testing/06-tracking-costs.md` |
+| 10.1 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
+| 10.2 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
+| 10.3 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
+| 10.4 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
+| 10.5 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
+| 10.6 | Tracking costs | BC `03-testing/06-tracking-costs.md` |
 
 ## Detailed lesson outline
 
-### 11.1 Writing the first test
+### 10.1 Writing the first test
 
 Write a pytest test for a known support question using a scripted model response.
 
 **Check.** Show a failure with a deliberately incorrect expected answer, then restore the correct assertion.
 
-### 11.2 Testing tool calls
+### 10.2 Testing tool calls
 
 Capture the agent’s tool calls and assert the names, arguments, and order.
 
 **Check.** Use a wrong-ID response to confirm the test detects the regression.
 
-### 11.3 Refactoring tests and testing output quality
+### 10.3 Refactoring tests and testing output quality
 
 Refactor repeated setup into fixtures and add assertions for output schema and citations.
 
 **Check.** Verify that a bad citation fails independently of the tool call assertions.
 
-### 11.4 Creating an LLM judge
+### 10.4 Creating an LLM judge
 
 Define a judge that returns a verdict and reason using a grounding rubric.
 
 **Check.** Apply it to scripted examples of grounded and unsupported answers.
 
-### 11.5 Coming up with test cases and fixing the agent
+### 10.5 Coming up with test cases and fixing the agent
 
 Turn a reported assistant failure into a reproducible case, adjust the instructions, and run the suite again.
 
 **Check.** Verify that the new case passes alongside the original cases.
 
-### 11.6 Tracking costs
+### 10.6 Tracking costs
 
 Read token counts from a recorded judge run and compute total cost with the supplied price table.
 

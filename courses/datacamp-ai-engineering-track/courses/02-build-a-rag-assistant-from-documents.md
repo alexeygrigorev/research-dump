@@ -58,25 +58,24 @@ Have learners split the speaker handbook into chunks, index them with MinSearch,
 
 ## Lesson outline and source map
 
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 2.1 | Build a first grounded answer | LZ `01-agentic-rag/03-rag.md`; BC `v2/01-foundation/03-rag/04-rag.md` | I don't undestand it 
-| 2.2 | Load and split the handbook | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`, `07-chunking-documents.md` | split -> chunk
+| 2.1 | Answer a question using a handbook excerpt | LZ `01-agentic-rag/03-rag.md`; BC `v2/01-foundation/03-rag/04-rag.md` |
+| 2.2 | Load and chunk the speaker handbook | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`, `07-chunking-documents.md` |
 | 2.3 | Choose chunk size and overlap | BC `v2/01-foundation/03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
-| 2.4 | Index and search the chunks | LZ `01-agentic-rag/05-search.md`; BC `v2/01-foundation/03-rag/06-indexing-with-minsearch.md` | indexing the data
+| 2.4 | Index handbook chunks with MinSearch | LZ `01-agentic-rag/05-search.md`; BC `v2/01-foundation/03-rag/06-indexing-with-minsearch.md` |
 | 2.5 | Generate answers with citations | LZ `01-agentic-rag/06-building-prompt.md`, `07-llm.md`, `08-rag-helper.md` |
-| 2.6 | Diagnose retrieval failures | LZ `01-agentic-rag/10-rag-next-steps.md`; BC `v2/01-foundation/03-rag/07-chunking-documents.md` | what's that not clear
+| 2.6 | Debug missed handbook sections | LZ `01-agentic-rag/10-rag-next-steps.md`; BC `v2/01-foundation/03-rag/07-chunking-documents.md` |
 
 ## Detailed lesson outline
 
-### 2.1 Build a first grounded answer
+### 2.1 Answer a question using a handbook excerpt
 
 Ask when final slides are due, then repeat the request with the “Final Slides” excerpt from lesson 1.1. Walk through how retrieval will supply that excerpt automatically.
 
 **Check.** Identify the exact sentence that supports the answer.
 
-### 2.2 Load and split the handbook
+### 2.2 Load and chunk the speaker handbook
 
 Read the fictional conference’s Markdown handbook and its frontmatter. Split it by headings and preserve the document ID, section ID, and heading path for sections such as “Draft Slides,” “Final Slides,” and “Speaker Check-in.”
 
@@ -88,7 +87,7 @@ Apply two chunk sizes and overlaps to a longer slide-submission section. Inspect
 
 **Check.** Show which configuration keeps the full submission instruction together.
 
-### 2.4 Index and search the chunks
+### 2.4 Index handbook chunks with MinSearch
 
 Build a MinSearch index on chunk titles and text. Query where to upload final slides and inspect the ranked source IDs.
 
@@ -100,11 +99,10 @@ Build a reusable function that retrieves chunks, formats them with their section
 
 **Check.** Check that the deadline answer cites “Final Slides” and that the reimbursement answer reports insufficient evidence.
 
-### 2.6 Diagnose retrieval failures
+### 2.6 Debug missed handbook sections
 
 Compare a lookup where chunking separates the due date from the upload instructions with a paraphrase that keyword search misses. Inspect the retrieved text before changing either step.
 
 **Check.** Identify which failure calls for changing the chunking and which motivates the next course on vector search.
 
-purpose for that? 
-
+purpose for that?

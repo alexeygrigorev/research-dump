@@ -1,6 +1,5 @@
-# 5. From RAG to Agents: Tool Calling and the Agentic Loop
+# 5. Agent Basics: Tool Calling and the Agent Loop
 
-let's call it agent basics: ...
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
 
@@ -60,19 +59,17 @@ Adapt the Wikipedia agent homework to the internal knowledge base with two read-
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 5.1 | From RAG to agents | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) | when rag is not enough mabe 
+| 5.1 | Choose between fixed retrieval and tool calling | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) |
 | 5.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
 | 5.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
 | 5.4 | Carrying conversation history across turns | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
-| 5.5 | Handling tool errors and limiting iterations | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` | should the name be more cnsise
+| 5.5 | Handle tool errors and stop the loop | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` |
 
 ## Detailed lesson outline
 
-### 5.1 From RAG to agents
+### 5.1 Choose between fixed retrieval and tool calling
 
 Compare an assistant that always searches up front with one that can choose to search or fetch a known section by ID.
 
@@ -96,7 +93,7 @@ Ask about a support procedure, then refer to it with “Who handles that?” on 
 
 **Check.** Check that the follow-up retains the relevant history and resolves the reference.
 
-### 5.5 Handling tool errors and limiting iterations
+### 5.5 Handle tool errors and stop the loop
 
 Return a controlled error for an unknown ID and impose a maximum number of tool rounds.
 

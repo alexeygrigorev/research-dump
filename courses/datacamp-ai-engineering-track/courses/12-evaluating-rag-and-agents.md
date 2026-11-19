@@ -1,6 +1,6 @@
-# 13. Evaluating RAG and Agents
+# 12. Evaluating RAG and Agents
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 7 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2-3 hours.
 
 ## Summary
 
@@ -58,57 +58,62 @@ Adapt the recipe assistant homework to a batch of internal knowledge requests. L
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 13.1 | Why evaluate: offline, online and LLM-native evals | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) | too long
-| 13.2 | Ground truth and synthetic questions | LZ `02-ground-truth.md`, `03-ground-truth-batch.md`; BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` | split into GT and synthetic data see AI BC 
-| 13.3 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` | 
-| 13.4 | Evaluating answers | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` | more concrete
-| 13.5 | LLM as a judge and judge alignment | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` | split or rename
-| 13.6 | Evaluating agents on scenarios | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` | i thikn it's more like testing? 
-| 13.7 | Using results to choose a version | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` | better title
+| 12.1 | Offline and online evaluation | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) |
+| 12.2 | Build a ground-truth dataset | LZ `04-evaluation/02-ground-truth.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
+| 12.3 | Generate and review synthetic questions | BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` |
+| 12.4 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` |
+| 12.5 | Score answer accuracy and grounding | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
+| 12.6 | Calibrate an LLM judge against human labels | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` |
+| 12.7 | Measure agent task success | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` |
+| 12.8 | Compare assistant versions | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` |
 
 ## Detailed lesson outline
 
-### 13.1 Why evaluate: offline, online and LLM-native evals
+### 12.1 Offline and online evaluation
 
 Review a fixed benchmark, user feedback, and a production trace. Decide which evidence answers an offline or online quality question.
 
 **Check.** Match each evidence source to the decision it can support.
 
-### 13.2 Ground truth and synthetic questions
+### 12.2 Build a ground-truth dataset
 
-Add human-labeled and synthetic queries to a small dataset with expected answers and source IDs.
+Write human-labeled handbook or support questions with expected answers and supporting source IDs. Include an unanswered question.
 
-**Check.** Spot-check a generated query against its assigned source before admitting it.
+**Check.** Verify that each supported answer is backed by its assigned source.
 
-### 13.3 Evaluating retrieval
+### 12.3 Generate and review synthetic questions
+
+Generate paraphrases and harder questions from labeled sources, then review them before adding them to the benchmark.
+
+**Check.** Reject a generated question whose assigned text cannot support its answer.
+
+### 12.4 Evaluating retrieval
 
 Run retrieval against the dataset and calculate hit rate and mean reciprocal rank.
 
 **Check.** Verify metrics against a fixture with known ranks and inspect a missed source.
 
-### 13.4 Evaluating answers and faithfulness
+### 12.5 Score answer accuracy and grounding
 
 Score answers for correctness and support from retrieved text.
 
 **Check.** Identify a fluent answer that makes a claim outside its cited passage.
 
-### 13.5 LLM as a judge and judge alignment
+### 12.6 Calibrate an LLM judge against human labels
 
 Compare an LLM judge with human labels and revise its rubric after examining disagreements.
 
 **Check.** Check agreement on a held-out set after the revision.
 
-### 13.6 Evaluating agents on scenarios
+### 12.7 Measure agent task success
 
-Replay multi-step agent requests with expected tool calls and approval behavior.
+Run a held-out set of support scenarios against an agent version. Score outcomes such as correct routing, appropriate tool use, and completing the task with evidence.
 
-**Check.** Check both final outputs and intermediate steps for a saved run.
+**Check.** Report task success across the dataset and identify which failure type drives the result.
 
-### 13.7 Using results to choose a version
+### 12.8 Compare assistant versions
 
 Compare two versions on a common dataset with quality, cost, and latency results.
 

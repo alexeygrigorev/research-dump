@@ -51,49 +51,47 @@ Python 3.13, LangGraph, and the LangChain OpenAI integration. Use scripted resul
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 8.1 | Workflows and agents | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
-| 8.2 | State, nodes, and edges in LangGraph | BC Week 4 Agentic Graphs |
-| 8.3 | Routing and handoffs | BC `v2/04-testing/06-multi-agent/03-06` |
-| 8.4 | Pipelines and prompt chaining | BC `v2/04-testing/06-multi-agent/07-10` |
-| 8.5 | Evaluator-optimizer loops | BC `v2/04-testing/06-multi-agent/11-14` |
-| 8.6 | Parallel workers and coordination | BC `v2/04-testing/06-multi-agent/15-18`; LZ `03-orchestration/07-multi-agent.md` |
+| 8.1 | Choose a workflow or a team of agents | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
+| 8.2 | Pass typed state between LangGraph nodes | BC Week 4 Agentic Graphs |
+| 8.3 | Route requests to specialist agents | BC `v2/04-testing/06-multi-agent/03-06` |
+| 8.4 | Delegate tasks to specialists from a supervisor | BC Week 4 Multi-Agent Systems; [DeepLearning.AI course](https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai) |
+| 8.5 | Revise unsupported drafts with a retry limit | BC `v2/04-testing/06-multi-agent/11-14` |
+| 8.6 | Run independent specialists in parallel | BC Week 4 coordination; [Anthropic workflow patterns](https://www.anthropic.com/research/building-effective-agents) |
 
 ## Detailed lesson outline
 
-TODO let's think better about it and research what other courses teach and what other materials cover
+### 8.1 Choose a workflow or a team of agents
 
-### 8.1 Workflows and agents
+Use a single-agent support baseline for three requests: one known lookup, one request for a specialist, and one that needs two specialists. Decide which requests justify delegation.
 
-Classify support requests that can follow a fixed sequence and requests that need the model to choose tools.
+**Check.** Explain the choice for each request using tool scope and coordination cost.
 
-**Check.** Draw the steps for one request of each type.
-
-### 8.2 State, nodes, and edges in LangGraph
+### 8.2 Pass typed state between LangGraph nodes
 
 Represent the request and retrieved evidence in graph state. Connect a retrieval node to an answer node.
 
 **Check.** Run the graph and inspect the state passed between nodes.
 
-### 8.3 Routing and handoffs
+### 8.3 Route requests to specialist agents
 
 Route requests to a device-support worker or a software-access worker based on the classified intent.
 
 **Check.** Check both routes and the fallback for an ambiguous request.
 
-### 8.4 Pipelines and prompt chaining
+### 8.4 Delegate tasks to specialists from a supervisor
 
-Chain a lookup step and a drafting step so the second consumes a typed result from the first.
+Give a supervisor access to two specialist agents with distinct tools. Have it handle an access request that also depends on device eligibility by passing each worker only the relevant context.
 
-**Check.** Verify that the draft references the handoff data.
+**Check.** Verify which specialist received each task and trace the claims in the combined reply to worker results.
 
-### 8.5 Evaluator-optimizer loops
+### 8.5 Revise unsupported drafts with a retry limit
 
 Evaluate a draft for supporting citations and send it back for revision within a fixed retry limit.
 
 **Check.** Verify that one bad draft is revised and repeated failure ends the loop.
 
-### 8.6 Parallel workers and coordination
+### 8.6 Run independent specialists in parallel
 
-Run two independent lookups in parallel and merge their results in a coordinator node.
+Have two specialists retrieve device and software requirements concurrently. Merge their evidence, then compare the answer and dispatch count with the single-agent baseline.
 
-**Check.** Check that both findings appear in the merged evidence with their source IDs.
+**Check.** Verify that both source IDs survive the merge and describe when parallel work is worth the extra calls.

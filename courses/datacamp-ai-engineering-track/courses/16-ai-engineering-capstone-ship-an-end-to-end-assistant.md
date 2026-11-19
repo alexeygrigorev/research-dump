@@ -1,4 +1,4 @@
-# 17. AI Engineering Capstone: Ship an End-to-End Assistant
+# 16. AI Engineering Capstone: Ship an End-to-End Assistant
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 6. Capstone. 7 lessons, 2-3 hours.
 
@@ -60,57 +60,55 @@ Use My Daily Tasks to show how tools, an agent, tests, tracing, evaluation, and 
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 17.1 | Define the invoice review workflow | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
-| 17.2 | Extract invoice fields and retrieve agreement clauses | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
-| 17.3 | Check purchase orders and gate review ticket creation | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
-| 17.4 | Tests and offline evaluation | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
-| 17.5 | FastAPI service and UI | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
-| 17.6 | OpenTelemetry traces and Langfuse | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
-| 17.7 | Docker deployment and documentation | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
+| 16.1 | Define the invoice review workflow | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
+| 16.2 | Extract invoice fields and retrieve agreement clauses | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
+| 16.3 | Check purchase orders and gate review ticket creation | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
+| 16.4 | Tests and offline evaluation | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
+| 16.5 | FastAPI service and UI | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
+| 16.6 | OpenTelemetry traces and Langfuse | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
+| 16.7 | Docker deployment and documentation | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
 
 ## Detailed lesson outline
 
-### 17.1 Define the invoice review workflow
+### 16.1 Define the invoice review workflow
 
 Inspect sample invoices, supplier agreements, and the purchase-order CSV. Define a typed review record and decide when evidence is insufficient.
 
 **Check.** Classify a clean invoice, a mismatch, and a missing-evidence case.
 
-### 17.2 Extract invoice fields and retrieve agreement clauses
+### 16.2 Extract invoice fields and retrieve agreement clauses
 
 Extract typed invoice fields and retrieve the payment terms from the matching agreement.
 
 **Check.** Check field accuracy and the cited agreement section against a held-out fixture.
 
-### 17.3 Check purchase orders and gate review ticket creation
+### 16.3 Check purchase orders and gate review ticket creation
 
 Compare invoice values with purchase-order records and require approval before drafting a review ticket.
 
 **Check.** Verify the flagged discrepancy, supporting evidence, and behavior when approval is rejected.
 
-### 17.4 Tests and offline evaluation
+### 16.4 Tests and offline evaluation
 
 Write tests for deterministic comparisons and run offline evaluation across clean, missing-evidence, duplicate, and mismatch cases.
 
 **Check.** Report field accuracy, citation correctness, and tool and approval behavior.
 
-### 17.5 FastAPI service and UI
+### 16.5 FastAPI service and UI
 
 Expose invoice review through FastAPI and add a view of the review record and cited evidence.
 
 **Check.** Submit a fixture and confirm a reviewer can inspect the reasons for each flag.
 
-### 17.6 OpenTelemetry traces and Langfuse
+### 16.6 OpenTelemetry traces and Langfuse
 
 Trace PDF extraction, retrieval, comparison, and the approval gate with OpenTelemetry and inspect a run in Langfuse.
 
 **Check.** Use the trace to explain why a held-out invoice was flagged.
 
-### 17.7 Docker deployment and documentation
+### 16.7 Docker deployment and documentation
 
 Build and run the container, and document setup, checks, and known limitations in the project README.
 

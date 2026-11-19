@@ -52,11 +52,9 @@ Embeddings are computed locally (no GPU, per LLM Zoomcamp). `pgvector` needs a P
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 3.1 | Why keyword search is not enough | LZ `02-vector-search/01-intro.md` |
+| 3.1 | Find the limits of keyword search | LZ `02-vector-search/01-intro.md` |
 | 3.2 | Embeddings | LZ `02-embeddings.md`; FG Embeddings (23.2% AI-First) |
 | 3.3 | Embedding a dataset | LZ `03-embeddings-dataset.md`; `09-onnx-embedder.md` |
 | 3.4 | Vector search from scratch | LZ `04-vector-search.md`; BC `v2/01-foundation/05-advanced-search/02-vector-search.md` |
@@ -67,7 +65,7 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 ## Detailed lesson outline
 
-### 3.1 Why keyword search is not enough
+### 3.1 Find the limits of keyword search
 
 Search the conference speaker handbook for a paraphrase such as “send in my deck” when the source says “upload final slides.”
 
