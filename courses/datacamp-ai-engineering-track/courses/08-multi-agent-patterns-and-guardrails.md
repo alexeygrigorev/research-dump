@@ -1,5 +1,7 @@
 # 8. Multi-Agent Patterns and Guardrails
 
+TODO pslit guardrails and multi-agent patterns
+
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 7 lessons, 2-3 hours.
 
 ## Summary

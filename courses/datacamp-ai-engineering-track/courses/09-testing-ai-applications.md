@@ -50,13 +50,19 @@ Python 3.13; `pytest`, `uv` (versions TBC), `langgraph`, `pydantic-ai>=1.55.0`, 
 
 Tests call real models, so they are non-deterministic and cost money: the course must say this openly and keep the suite small. Tool-call and message-inspection assertions should work cleanly with the LangGraph/LangChain agent from courses 7-8.
 
+## Exercise adapted from the Buildcamp
+
+Use the search-and-fetch agent from course 6 in place of the homework’s DuckDB SQL agent. Have learners write pytest assertions for tool names and arguments using a scripted response, then apply a judge rubric to a grounded answer and an unsupported answer. Grade the tool assertions and expected rubric outcomes with fixed responses.
+
+[Buildcamp Week 4 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing/homework/01-homework.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 9.1 | From notebook to Python project | BC `v2/04-testing/02-preparing-project/02-converting-to-project.md` |
+| 9.1 | From notebook to Python project | BC `v2/04-testing/02-preparing-project/02-converting-to-project.md` | TODO let's have it in a separate course how to go from notebooks to proper course projects
 | 9.2 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
 | 9.3 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
 | 9.4 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |

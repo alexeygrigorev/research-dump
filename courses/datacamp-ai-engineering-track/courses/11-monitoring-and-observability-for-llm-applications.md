@@ -51,9 +51,17 @@ Python 3.13; `streamlit>=1.58.0`, `pandas>=3.0.3`, `psycopg[binary]>=3.3.4` or `
 
 No-subscription constraint: the Buildcamp uses Logfire (hosted account); this plan uses the self-hosted route from the same material (OpenTelemetry → Jaeger or self-hosted Langfuse-compatible trace store, SQLite/PostgreSQL + Streamlit/Grafana). Grafana and Jaeger need local services; if not available, keep SQLite + Streamlit.
 
+## Exercise adapted from the Buildcamp
+
+Adapt the trivia agent exercise to a multi-turn internal support session. Have learners group model and tool spans by turn, join the turns using a session ID, and calculate the session cost from token counts and a supplied price table. Use bundled trace records for grading and ask learners to identify which call accounts for the most latency.
+
+[Buildcamp Week 5 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/05-monitoring/homework/01-homework.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
+
+TODO let's focus on otel and langfuse 
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |

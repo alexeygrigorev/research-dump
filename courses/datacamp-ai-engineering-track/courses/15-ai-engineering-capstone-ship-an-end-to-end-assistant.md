@@ -50,9 +50,17 @@ Python 3.13; same packages as courses 2-13 (`minsearch>=0.1.0`, `sentence-transf
 
 Use a different dataset from the running example of courses 2-11 (focused on enterprise workflow automation and document processing) so the learner cannot copy earlier code. Pick it from a top field-guide domain with public data. Finance is the largest (3,877 use-case mentions), and `portfolio/07-project-ideas.md` suggests invoice extraction and reconciliation (structured output + RAG over agreements). The checklist combines the LLM Zoomcamp project evaluation criteria with the FG portfolio signals: an evaluation set of 20-50 cases (easy, messy, out-of-scope, refusal, citation), metrics matched to the task (citation correctness, field accuracy, tool-choice accuracy, cost/latency), a local log with the portfolio log fields, and a README that records decisions and trade-offs.
 
+## Exercise adapted from the Buildcamp
+
+Use My Daily Tasks to show how tools, an agent, tests, tracing, evaluation, and a service fit together. For the assessed build, give learners a fresh invoice and agreement dataset and ask them to extract invoice fields, retrieve matching payment terms, and flag discrepancies for review. Require a runnable container, a trace of a sample run, and a short evaluation report covering field accuracy, citation correctness, and tool choice.
+
+[Buildcamp Week 7 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/07-project-bonus/03-complete-example/01-intro-overview.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
+
+TODO what exactly the assistant will do?
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |

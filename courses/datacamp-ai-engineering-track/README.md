@@ -47,6 +47,20 @@ The capstone (course 15) uses the FG portfolio checklist: a real user and proble
 
 The FG role-specific guides (`learning-paths/from-*.md`) set the entry level: backend engineers reach productive AI-engineer level in 2-3 months and data engineers in 3-4, so the track assumes working Python and teaches no general ML.
 
+## Exercises adapted from the AI Engineering Buildcamp
+
+The Buildcamp homework gives the track a sequence of practical exercises. Learners build the internal knowledge assistant, add tools, then use the same assistant to practice testing, evaluation, and tracing. The capstone uses the Buildcamp’s My Daily Tasks project as a worked example before learners apply the same build sequence to an invoice reconciliation assistant.
+
+| DataCamp course | Buildcamp week | DataCamp exercise |
+| :---- | :---- | :---- |
+| [2](courses/02-building-your-first-rag-application.md#exercise-adapted-from-the-buildcamp) | 1 | Build a searchable FAQ and assemble a grounded answer. |
+| [3](courses/03-preparing-data-for-rag.md#exercise-adapted-from-the-buildcamp) | 1 | Turn a PDF into searchable chunks and structured records. |
+| [6](courses/06-from-rag-to-agents-tool-calling-and-the-agentic-loop.md#exercise-adapted-from-the-buildcamp) | 3 | Implement and inspect a search-then-fetch tool loop. |
+| [9](courses/09-testing-ai-applications.md#exercise-adapted-from-the-buildcamp) | 4 | Test the agent’s tool calls and judge its answers. |
+| [10](courses/10-evaluating-rag-and-agents.md#exercise-adapted-from-the-buildcamp) | 6 | Calibrate a judge against human labels before comparing agent versions. |
+| [11](courses/11-monitoring-and-observability-for-llm-applications.md#exercise-adapted-from-the-buildcamp) | 5 | Reconstruct an assistant session from traces and calculate its cost. |
+| [15](courses/15-ai-engineering-capstone-ship-an-end-to-end-assistant.md#exercise-adapted-from-the-buildcamp) | 7 | Ship a new assistant using the My Daily Tasks project as a worked example. |
+
 ## Layout of this folder
 
 - This README: the track plan in the brief's table layout (track table, then Build Details for all 15 courses), and the open questions.

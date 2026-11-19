@@ -1,5 +1,7 @@
 # 10. Evaluating RAG and Agents
 
+TODO let's do it after tracing and monitoring 
+
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Quality. 7 lessons, 2-3 hours.
 
 ## Summary
@@ -49,6 +51,12 @@ Python 3.13; `pandas>=3.0.3`, `openai>=2.38.0`, `langgraph` / `pydantic-ai>=1.55
 ### Notes
 
 Dataset sizes must stay small (tens of questions) to keep API cost and run time inside a 20-30 minute lesson; a pre-computed larger result file can be provided for analysis. Also introduces how LLM-native eval workflows (e.g., Langfuse/LangSmith-style dataset & experiment tables) replace classic MLOps eval tools.
+
+## Exercise adapted from the Buildcamp
+
+Adapt the recipe assistant homework to a batch of internal knowledge requests. Learners label a small set of fixed answers, compare their labels with a judge’s verdicts, and revise the rubric after inspecting disagreements. Provide a separate labeled set to check whether agreement improves. Use the checked rubric to compare two assistant versions on the same scenarios.
+
+[Buildcamp Week 6 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/06-evaluation/homework/01-homework.md)
 
 ## Lesson outline and source map
 

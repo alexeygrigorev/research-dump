@@ -61,5 +61,5 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 13.2 | A simple UI with streaming | BC `v2/04-testing/02-preparing-project/06-streamlit.md`, `03-streaming.md`; LZ `07-project-example/04-interface.md` |
 | 13.3 | Containerizing the application | LZ `05-monitoring/13-docker-compose.md`; BC `03-complete-example/10-deployment.md` |
 | 13.4 | Configuration and secrets | BC `03-complete-example/02-setup.md` |
-| 13.5 | Deploying to AWS | BC `v2/07-project-bonus/06-deployment/03-aws.md`; FG AWS (39.3%) |
-| 13.6 | Checking the deployment: logs, health, cost | BC `06-deployment/03-aws.md`; new |
+| 13.5 | Deploying to AWS | BC `v2/07-project-bonus/06-deployment/03-aws.md`; FG AWS (39.3%) | here I probably want to cover ECS as "production ready" approach - use the approach I used to use for deploying datatalksclub cmp (find it in git history) and also check ai dev tools for dev/prod etc
+| 13.6 | Checking the deployment: logs, health, cost | BC `06-deployment/03-aws.md`; new | - connect to monitoring

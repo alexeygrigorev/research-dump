@@ -55,10 +55,12 @@ No-subscription constraint: GitHub Actions is excluded by the brief. Choice: Git
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
+TODO this needs rework check AI dev tools module and homework where we covered CI/CD as one of the parts
+
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 12.1 | Why AI applications need CI/CD | new; builds on BC `v2/04-testing`; FG CI/CD (36.9%) |
-| 12.2 | A local Git server and runner | new |
+| 12.2 | A local Git server and runner | new | ? not sure about it - let's use local a CI/CD alternative to github  but let's not have a local git
 | 12.3 | The first pipeline: running tests on push | new; test content from BC `v2/04-testing/03-testing` |
 | 12.4 | Secrets, cost and flaky LLM tests in CI | new; BC `03-testing/06-tracking-costs.md`, `04-llm-judges/05-improving-judge-tests.md` |
 | 12.5 | Evaluation as a quality gate | new; evaluation content from BC `v2/06-evaluation/02-measure/06-running-evals.md` |

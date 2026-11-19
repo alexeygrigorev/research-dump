@@ -1,4 +1,4 @@
-# 5. Hybrid Search and Reranking
+# 5. Hybrid Search and Reranking - TODO I don't think it's relevant let's drop
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 6 lessons, 2-3 hours.
 
@@ -58,6 +58,6 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 5.1 | Where each search type fails | LZ `06-best-practices/01-intro.md` |
 | 5.2 | Hybrid search | LZ `06-best-practices/02-hybrid-search.md` |
 | 5.3 | Measuring retrieval: hit rate and MRR | LZ `04-evaluation/05-search-metrics.md`; FG Evaluation (61.8% AI-First) |
-| 5.4 | Reranking | LZ `06-best-practices/03-reranking.md` |
-| 5.5 | Tuning search parameters | LZ `04-evaluation/06-search-tuning.md` |
-| 5.6 | The same pipeline in LangChain | LZ `06-best-practices/04-langchain.md`; FG LangChain (21.1%) |
+| 5.4 | Reranking | LZ `06-best-practices/03-reranking.md` | TODO cna drop 
+| 5.5 | Tuning search parameters | LZ `04-evaluation/06-search-tuning.md` | TODO too early 
+| 5.6 | The same pipeline in LangChain | LZ `06-best-practices/04-langchain.md`; FG LangChain (21.1%) | TODO remove not needed 

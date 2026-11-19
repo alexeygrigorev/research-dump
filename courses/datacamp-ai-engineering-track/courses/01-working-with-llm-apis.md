@@ -54,10 +54,12 @@ Bedrock, Groq and Gemini lessons are dropped because DataCamp does not provide t
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
+Let's use only openai and let's also see what we can get more from my existing course and let's not call it prompt enginering 
+
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 1.1 | Your first LLM call from Python | BC `v2/01-foundation/03-rag/03-openai-api.md`; LZ `01-agentic-rag/07-llm.md` |
-| 1.2 | Prompt engineering: instructions, messages and history | BC `03-openai-api.md`; FG Prompt Engineering (34.8%) |
+| 1.2 | Prompt engineering: instructions, messages and history | BC `03-openai-api.md`; FG Prompt Engineering (34.8%) | 
 | 1.3 | Tokens, cost and choosing the most efficient model | BC `v2/04-testing/03-testing/06-tracking-costs.md` (cost idea introduced early) |
 | 1.4 | Other providers: Chat Completions and Anthropic | BC `v2/01-foundation/06-alternatives/02-chat-completions.md`, `04-anthropic.md` |
 | 1.5 | Structured output with Pydantic | BC `v2/01-foundation/04-structured-output/01-structured-output.md` |

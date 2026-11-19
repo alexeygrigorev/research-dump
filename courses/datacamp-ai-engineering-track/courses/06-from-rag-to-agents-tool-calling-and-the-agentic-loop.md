@@ -50,6 +50,12 @@ Python 3.13; `openai>=2.38.0`, `minsearch>=0.1.0`. A small model with tool calli
 
 No framework in this course on purpose. One lesson repeats tool calling with a second provider to keep the concept portable.
 
+## Exercise adapted from the Buildcamp
+
+Adapt the Wikipedia agent homework to the internal knowledge base with two read-only tools: search for documents and fetch one by ID. Provide scripted model responses for a direct fetch and a search followed by a fetch. Learners dispatch each tool, return its result to the model, and stop when the model produces a final answer. Grade the tool sequence, the ID passed to fetch, and the termination condition.
+
+[Buildcamp Week 3 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/03-agents/homework/01-homework.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
@@ -59,6 +65,6 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 6.1 | From RAG to agents | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) |
 | 6.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
 | 6.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
-| 6.4 | A conversational Q&A and workflow loop | BC `02-agent-basics/04-qna-loop.md` |
-| 6.5 | Tool calling with other providers | BC `v2/03-agents/05-openai-alternatives/04-chat-completions.md`, `05-anthropic.md` |
-| 6.6 | Agent or pipeline? Cost and control | BC `02-agent-basics/06-visual-summary.md`; LZ `10-rag-next-steps.md` |
+| 6.4 | A conversational Q&A and workflow loop | BC `02-agent-basics/04-qna-loop.md` | TODO not clear what's that
+| 6.5 | Tool calling with other providers | BC `v2/03-agents/05-openai-alternatives/04-chat-completions.md`, `05-anthropic.md` | TODO let's actually not do other providers just openai 
+| 6.6 | Agent or pipeline? Cost and control | BC `02-agent-basics/06-visual-summary.md`; LZ `10-rag-next-steps.md` | TODO split maybe?

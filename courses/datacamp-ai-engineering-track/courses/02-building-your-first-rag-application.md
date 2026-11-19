@@ -50,6 +50,12 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 
 `minsearch` is Alexey's small in-memory search library: no server, runs inside the exercise environment. Dataset must ship with the course (the source fetches it from GitHub). Framing emphasizes internal company knowledge bases over consumer Q&A (which fell -13.8 pp in the field guide between Feb and Nov).
 
+## Exercise adapted from the Buildcamp
+
+Give learners pre-chunked FAQ entries from the internal knowledge base. Have them index the entries with MinSearch, inspect which entries a question retrieves, and turn those entries into a prompt. Grade the retrieved entry IDs and prompt context with fixed fixtures. Include an unanswered question so learners can check how the assistant responds when its sources are insufficient.
+
+[Buildcamp Week 1 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.

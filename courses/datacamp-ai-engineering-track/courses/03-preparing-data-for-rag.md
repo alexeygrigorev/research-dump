@@ -50,16 +50,22 @@ Python 3.13; `python-frontmatter>=1.1.0`, `pymupdf>=1.26.7`, `sqlitesearch>=0.0.
 
 Source lessons download from GitHub and YouTube; here the raw files (docs, one transcript, one PDF) must be bundled with the course. The `dlt` workshop is listed as optional source only.
 
+## Exercise adapted from the Buildcamp
+
+Bundle a text-based PDF and an expected Markdown extract. Have learners convert the PDF to Markdown, split it by section, preserve document and section identifiers, and validate an extracted record with the schema from course 1. Grade chunk boundaries, metadata, and the validated record against fixtures.
+
+[Buildcamp Week 1 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md)
+
 ## Lesson outline and source map
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 3.1 | From raw files to documents | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`; LZ `01-agentic-rag/09-data-ingestion.md` |
+| 3.1 | From raw files to documents | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`; LZ `01-agentic-rag/09-data-ingestion.md` | TODO title not clear
 | 3.2 | Chunking documents | BC `03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
-| 3.3 | Transcripts: long unstructured text | BC `v2/02-rag-usecases-tech/03-youtube/02-05` |
-| 3.4 | PDFs: extracting text | BC `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; FG Document Processing (16.0%) |
+| 3.3 | Transcripts: long unstructured text | BC `v2/02-rag-usecases-tech/03-youtube/02-05` | TODO let's remove that 
+| 3.4 | PDFs: extracting text | BC `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; FG Document Processing (16.0%) | TODO separate course (let's do something similar to the book extractoin module in AIBC - with focus on PDF processing)
 | 3.5 | Structuring content with an LLM | BC `04-books/03-structured-output.md`; `03-youtube/04-structured-output.md` |
 | 3.6 | Processing everything in parallel | BC `04-books/06-processing-all-pages.md`, `07-parallel-processing.md` |
-| 3.7 | Persistent indexes | BC `04-books/09-external-databases.md`, `10-persistent-rag.md` |
+| 3.7 | Persistent indexes | BC `04-books/09-external-databases.md`, `10-persistent-rag.md` | TODO not sure how it's relevant for preparing data for rag 

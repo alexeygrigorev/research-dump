@@ -55,12 +55,15 @@ Python 3.13; `langchain`, `langgraph`, `langchain-openai`, `mcp` Python SDK (ver
 
 FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
 
+TODO let's do it in the same way as in my course but with focus on langchain not pydantic ai
+langgraph could be a separate module at the end like advanced one
+
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 7.1 | Why frameworks: the loop you no longer write | LZ `01-agentic-rag/15-frameworks.md`; BC `v2/03-agents/03-agent-frameworks/02-toyaikit.md` |
-| 7.2 | Tools as Python functions and typed schemas | BC `03-agent-frameworks/03-tools-class.md`; LangChain `@tool` |
+| 7.1 | Why frameworks: the loop you no longer write | LZ `01-agentic-rag/15-frameworks.md`; BC `v2/03-agents/03-agent-frameworks/02-toyaikit.md` | TODO slop title
+| 7.2 | Tools as Python functions and typed schemas | BC `03-agent-frameworks/03-tools-class.md`; LangChain `@tool` | 
 | 7.3 | Beyond agentic RAG: tools that act | BC `03-agent-frameworks/04-beyond-agentic-rag.md`; FG Automation (58.8%) |
 | 7.4 | The agent in LangChain and LangGraph | FG LangChain (76.8% share) + LangGraph (71.0% share); LZ `16-other-frameworks.md` |
-| 7.5 | Watching the agent work: events and streaming | BC `03-agent-frameworks/06-event-stream-handlers.md` (adapted to LangGraph streaming) |
-| 7.6 | Model Context Protocol (MCP): local servers | BC `v2/03-agents/07-mcp/02-stdio-transport.md`; FG MCP (9.9% → 20.4%) |
-| 7.7 | Comparing frameworks: LangGraph vs PydanticAI | BC `03-agent-frameworks/05-pydantic-ai.md`, `06-agent-frameworks-alternatives/02-04` |
+| 7.5 | Watching the agent work: events and streaming | BC `03-agent-frameworks/06-event-stream-handlers.md` (adapted to LangGraph streaming) | TODO too complicated call it streaming
+| 7.6 | Model Context Protocol (MCP): local servers | BC `v2/03-agents/07-mcp/02-stdio-transport.md`; FG MCP (9.9% → 20.4%) | TODO seapate course
+| 7.7 | Comparing frameworks: LangGraph vs PydanticAI | BC `03-agent-frameworks/05-pydantic-ai.md`, `06-agent-frameworks-alternatives/02-04` | # let's do a lesson on pydantic
