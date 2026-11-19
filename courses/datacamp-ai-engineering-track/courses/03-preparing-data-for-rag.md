@@ -1,25 +1,25 @@
 # 3. Preparing Data for RAG
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 5 lessons, 2-3 hours.
 
 ## Summary
 
-Real enterprise knowledge bases are documentation sites, transcripts and PDFs, not clean FAQ files (document processing rose from 13.3% to 16.0% of jobs; data and pipelines responsibilities jumped +10.0 pp to 29.7%). Learners ingest these sources, split them into chunks, use an LLM to clean and structure the content, and store it in a persistent index.
+Learners turn the fictional IT help desk's Markdown documentation into the searchable records used by the RAG assistant. They normalize content, preserve source references and test how chunk boundaries affect retrieval.
 
 ## Learning objectives
 
-- Load documentation, transcripts and PDF text into a common document format
-- Chunk long documents and judge how chunk size and overlap affect retrieval
-- Use structured output to extract clean, typed records from messy content
-- Process many documents in parallel and persist the index between runs
+- Load Markdown documents and frontmatter into a common record format
+- Split documentation by section or with a sliding window
+- Preserve stable document and chunk IDs along with headings and source references
+- Export valid chunk records and compare retrieval on two chunking configurations
 
 ## Why here
 
-Course 2 used a ready-made dataset; before improving search, learners need the data-ingestion and document-processing pipeline that real jobs require.
+Learners start with pre-chunked FAQ entries in the previous course. Here they build the data preparation step needed when new documentation arrives.
 
 ## Transformation
 
-From "my assistant works on a prepared dataset" to "I can turn raw enterprise documents into a searchable knowledge base."
+From loading prepared FAQ entries to producing searchable, citable records from raw documentation.
 
 ## Theory or application
 
@@ -29,43 +29,32 @@ Theory and application
 
 ### Syntax / functionality involved
 
-Markdown/frontmatter parsing, sliding-window chunking, section-based chunking, PyMuPDF text extraction, structured output for page/transcript records, `concurrent.futures` thread pools, `sqlitesearch` persistent index
+Markdown and frontmatter parsing, document metadata, section-aware chunking, sliding windows with overlap, JSONL export, and retrieval with an in-memory MinSearch index.
 
 ### How it's used in the exercises
 
-The learner parses a folder of markdown docs, compares search results before and after chunking, extracts text from a PDF chapter and structures it with an LLM, runs the processing over all pages in parallel, and saves the result to a SQLite-backed index.
+Learners load a bundled folder of help desk policy and troubleshooting pages, split a long section with a sliding window, and attach stable IDs and source headings. They export the records and inspect which chunks are retrieved for a small fixed query set.
 
 ### Model / release
 
-Python 3.13; `python-frontmatter>=1.1.0`, `pymupdf>=1.26.7`, `sqlitesearch>=0.0.5`, `minsearch>=0.1.0`, `openai>=2.38.0`, `tqdm>=4.67.3`. Cheapest model with structured output.
+Python 3.13, `python-frontmatter>=1.1.0` and `minsearch>=0.1.0`. The exercise compares search results using the existing keyword index.
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Document Processing 13.3% → 16.0%, Data and Pipelines responsibilities 19.7% → 29.7% (+10.0 pp), SQL 14.6% (rising 11.1% → 14.9%), data processing responsibility in 23.2% of all jobs (3,161 mentions)
-- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "RAG and Search" includes chunking and processing PDFs, YouTube transcripts and web pages; "Production" includes parallel processing for large datasets (lesson on thread pools).
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 1: Getting data from GitHub, Chunking documents; Week 2: YouTube Transcripts, Books
-- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) `01-agentic-rag/09-data-ingestion.md`; `07-project-example/07-chunking.md`; workshop `cohorts/2026/workshops/dlt.md`
+- **FG**: Document processing rose from 13.3% to 16.0% of postings between February and November. The RAG and Search learning path covers preparing and chunking source documents.
+- **BC**: Week 1, getting documentation data and chunking documents.
+- **LZ**: `01-agentic-rag/09-data-ingestion.md` and `07-project-example/07-chunking.md`.
 
 ### Notes
 
-Source lessons download from GitHub and YouTube; here the raw files (docs, one transcript, one PDF) must be bundled with the course. The `dlt` workshop is listed as optional source only.
-
-## Exercise adapted from the Buildcamp
-
-Bundle a text-based PDF and an expected Markdown extract. Have learners convert the PDF to Markdown, split it by section, preserve document and section identifiers, and validate an extracted record with the schema from course 1. Grade chunk boundaries, metadata, and the validated record against fixtures.
-
-[Buildcamp Week 1 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md)
+Bundle the raw Markdown pages, expected JSONL record schema, and a fixed query set with expected source sections.
 
 ## Lesson outline and source map
 
-FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Buildcamp path. `'new'` = no lesson in LZ or BC.
-
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 3.1 | From raw files to documents | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`; LZ `01-agentic-rag/09-data-ingestion.md` | TODO title not clear
-| 3.2 | Chunking documents | BC `03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
-| 3.3 | Transcripts: long unstructured text | BC `v2/02-rag-usecases-tech/03-youtube/02-05` | TODO let's remove that 
-| 3.4 | PDFs: extracting text | BC `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; FG Document Processing (16.0%) | TODO separate course (let's do something similar to the book extractoin module in AIBC - with focus on PDF processing)
-| 3.5 | Structuring content with an LLM | BC `04-books/03-structured-output.md`; `03-youtube/04-structured-output.md` |
-| 3.6 | Processing everything in parallel | BC `04-books/06-processing-all-pages.md`, `07-parallel-processing.md` |
-| 3.7 | Persistent indexes | BC `04-books/09-external-databases.md`, `10-persistent-rag.md` | TODO not sure how it's relevant for preparing data for rag 
+| 3.1 | Load Markdown documentation and frontmatter | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`; LZ `01-agentic-rag/09-data-ingestion.md` |
+| 3.2 | Split documents by heading | BC `v2/01-foundation/03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
+| 3.3 | Set chunk size and overlap | BC `v2/01-foundation/03-rag/07-chunking-documents.md` |
+| 3.4 | Export chunks with source metadata | BC `v2/01-foundation/03-rag/07-chunking-documents.md`; LZ `01-agentic-rag/09-data-ingestion.md` |
+| 3.5 | Check which chunks retrieval returns | BC `v2/01-foundation/03-rag/06-indexing-with-minsearch.md`; LZ `07-project-example/07-chunking.md` |

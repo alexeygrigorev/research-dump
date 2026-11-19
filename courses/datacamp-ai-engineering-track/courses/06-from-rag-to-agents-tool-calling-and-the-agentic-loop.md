@@ -1,6 +1,6 @@
 # 6. From RAG to Agents: Tool Calling and the Agentic Loop
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
 
 ## Summary
 
@@ -11,7 +11,7 @@ In RAG the developer decides when to search; in an agent (56.2% of all jobs, 74.
 - Describe a tool to an LLM with a function schema and execute the call it requests
 - Implement the agentic loop: call the model, run tools, return results, repeat until done
 - Convert a fixed RAG pipeline into agentic RAG that can search and act across steps
-- Decide when a fixed pipeline is enough and when an agent is worth the extra cost
+- Carry conversation history across turns and limit how many times the agent can call tools
 
 ## Why here
 
@@ -33,22 +33,22 @@ Tool/function definitions (JSON schema), `function_call` and `function_call_outp
 
 ### How it's used in the exercises
 
-The learner writes the search and action function schemas, sends a request, inspects the tool call the model returns, executes it and sends the result back. They then wrap these steps in a loop and compare the agent's answers and number of LLM calls with the fixed RAG pipeline.
+The learner writes the search and fetch function schemas, sends a request, inspects the tool call the model returns, executes it and sends the result back. They then wrap these steps in a loop and compare the agent's answers and number of LLM calls with the fixed RAG pipeline.
 
 ### Model / release
 
-Python 3.13; `openai>=2.38.0`, `minsearch>=0.1.0`. A small model with tool calling (OpenAI, Claude or DeepSeek).
+Python 3.13; `openai>=2.38.0`, `minsearch>=0.1.0`. A small OpenAI model with tool calling through the Responses API.
 
 ### Source material
 
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Agents (any) 56.2% (74.0% AI-First), Agent builder archetype 29.9%, Function Calling 15.1% (9.6% → 18.5%, +0.88 pp/scrape), RAG + Agents together 51.0% of AI-First, agents responsibility in 53.3% of all jobs (55.8% in Nov)
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "AI Agents" block starts with function calling and "the agentic tool-call loop" before frameworks, the same order as courses 6 → 7.
 - **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 11-14
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 3: Agent Basics; Alternatives to OpenAI: Tool Calling
+- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 3: Agent Basics
 
 ### Notes
 
-No framework in this course on purpose. One lesson repeats tool calling with a second provider to keep the concept portable.
+Exercises use the OpenAI SDK directly. The multi-agent course revisits when to choose a fixed pipeline.
 
 ## Exercise adapted from the Buildcamp
 
@@ -65,6 +65,5 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 | 6.1 | From RAG to agents | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) |
 | 6.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
 | 6.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
-| 6.4 | A conversational Q&A and workflow loop | BC `02-agent-basics/04-qna-loop.md` | TODO not clear what's that
-| 6.5 | Tool calling with other providers | BC `v2/03-agents/05-openai-alternatives/04-chat-completions.md`, `05-anthropic.md` | TODO let's actually not do other providers just openai 
-| 6.6 | Agent or pipeline? Cost and control | BC `02-agent-basics/06-visual-summary.md`; LZ `10-rag-next-steps.md` | TODO split maybe?
+| 6.4 | Carrying conversation history across turns | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
+| 6.5 | Handling tool errors and limiting iterations | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` |

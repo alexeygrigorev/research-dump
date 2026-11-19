@@ -1,6 +1,6 @@
 # 4. Vector Search and Embeddings
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval. 7 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -33,7 +33,7 @@ Theory and application
 
 ### How it's used in the exercises
 
-The learner embeds sentences and compares similarities by hand, embeds the document dataset, runs the same queries through keyword and vector search and compares results, swaps vector search into RAG, and queries a persistent vector database.
+The learner embeds sentences and compares similarities by hand, embeds the help desk documents, compares search results on keyword-heavy queries and paraphrases using labeled expected source IDs, swaps vector search into RAG, and queries a persistent vector database.
 
 ### Model / release
 

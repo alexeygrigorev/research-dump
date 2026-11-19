@@ -1,8 +1,6 @@
-# 10. Evaluating RAG and Agents
+# 14. Evaluating RAG and Agents
 
-TODO let's do it after tracing and monitoring 
-
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Quality. 7 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 7 lessons, 2-3 hours.
 
 ## Summary
 
@@ -17,7 +15,7 @@ Tests say whether something broke; evaluation says how good the system is. **Eva
 
 ## Why here
 
-Follows testing (judges are already familiar) and directly addresses the market's #1 differentiator before online monitoring, where the same judges run on live traffic.
+Uses the tests and traces from the preceding courses. Learners turn representative trace examples into offline scenarios, then measure changes before they reach deployment.
 
 ## Transformation
 
@@ -64,10 +62,10 @@ FG = AI Engineering Field Guide, LZ = LLM Zoomcamp path, BC = AI Engineering Bui
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 10.1 | Why evaluate: offline, online and LLM-native evals | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) |
-| 10.2 | Ground truth and synthetic questions | LZ `02-ground-truth.md`, `03-ground-truth-batch.md`; BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` |
-| 10.3 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` |
-| 10.4 | Evaluating answers and faithfulness | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
-| 10.5 | LLM as a judge and judge alignment | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` |
-| 10.6 | Evaluating agents on scenarios | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` |
-| 10.7 | Using results to choose a version | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` |
+| 14.1 | Why evaluate: offline, online and LLM-native evals | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) |
+| 14.2 | Ground truth and synthetic questions | LZ `02-ground-truth.md`, `03-ground-truth-batch.md`; BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` |
+| 14.3 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` |
+| 14.4 | Evaluating answers and faithfulness | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
+| 14.5 | LLM as a judge and judge alignment | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` |
+| 14.6 | Evaluating agents on scenarios | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` |
+| 14.7 | Using results to choose a version | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` |

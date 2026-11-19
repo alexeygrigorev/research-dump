@@ -33,7 +33,7 @@ Theory and application
 
 ### How it's used in the exercises
 
-The learner loads an internal documentation/FAQ dataset, builds an index, runs searches and inspects the results, writes the grounded prompt template, and connects the three steps. They then ask questions the plain LLM gets wrong and see the grounded answer.
+The learner loads a bundled FAQ dataset for a fictional internal IT help desk, builds an index, runs searches and inspects the results, writes the grounded prompt template, and connects the three steps. They then ask questions the plain LLM gets wrong and see the grounded answer.
 
 ### Model / release
 
@@ -48,7 +48,7 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 
 ### Notes
 
-`minsearch` is Alexey's small in-memory search library: no server, runs inside the exercise environment. Dataset must ship with the course (the source fetches it from GitHub). Framing emphasizes internal company knowledge bases over consumer Q&A (which fell -13.8 pp in the field guide between Feb and Nov).
+`minsearch` is Alexey's small in-memory search library: no server, runs inside the exercise environment. Bundle pre-chunked JSON entries covering onboarding, software access and device support. Use stable document and section IDs so learners can cite the same sources in later retrieval, agent and evaluation exercises. Include cases with insufficient evidence in the accompanying question set.
 
 ## Exercise adapted from the Buildcamp
 
