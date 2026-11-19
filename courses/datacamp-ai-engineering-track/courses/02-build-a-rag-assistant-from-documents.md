@@ -4,18 +4,18 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. 
 
 ## Summary
 
-An LLM does not know your company's internal data. Learners build a retrieval-augmented assistant (RAG appears in 40.1% of all jobs and 56.0% of AI-First roles; finding information in company data is a use case in 32.5% of jobs, up from 28.3% to 31.7% between February and November) over an internal knowledge base: search first, put the results into the prompt, then ask the model.
+In course 1, someone had to find the handbook excerpt before the model could answer. Here learners build a retrieval-augmented generation (RAG) assistant that finds the relevant sections itself, cites them in its answer, and tells the speaker when the handbook leaves a question open.
 
 ## Learning objectives
 
-- Explain why RAG is needed for proprietary data and describe its search, prompt and LLM steps
+- Trace an answer to the passage retrieved for a speaker’s question
 - Load Markdown, chunk it while preserving source metadata, and index it for keyword search
 - Build a prompt that grounds the answer in retrieved context
 - Assemble search, prompt and LLM into one reusable RAG pipeline
 
 ## Why here
 
-RAG is the most common named pattern in AI engineering postings and the running example for retrieval, agents, evaluation and monitoring later in the track.
+Learners already know how to ask a model a question about one passage. Searching the full handbook gives them a working keyword baseline for the vector search course.
 
 ## Transformation
 
@@ -48,7 +48,7 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 
 ### Notes
 
-`minsearch` is Alexey's small in-memory search library: no server, runs inside the exercise environment. Bundle Markdown pages covering slide submission, rehearsal scheduling, and speaker check-in. Use stable document and section IDs so learners can cite the same sources in later retrieval, agent and evaluation exercises. Include cases with insufficient evidence in the accompanying question set.
+MinSearch runs in memory. Bundle Markdown pages covering slide submission, rehearsal scheduling, and speaker check-in. Give each section a stable source ID that can be cited after re-chunking. Reuse these IDs in course 3.
 
 ## Exercise adapted from the Buildcamp
 
@@ -60,49 +60,47 @@ Have learners split the speaker handbook into chunks, index them with MinSearch,
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 2.1 | Answer a question using a handbook excerpt | LZ `01-agentic-rag/03-rag.md`; BC `v2/01-foundation/03-rag/04-rag.md` |
-| 2.2 | Load and chunk the speaker handbook | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`, `07-chunking-documents.md` |
-| 2.3 | Choose chunk size and overlap | BC `v2/01-foundation/03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
-| 2.4 | Index handbook chunks with MinSearch | LZ `01-agentic-rag/05-search.md`; BC `v2/01-foundation/03-rag/06-indexing-with-minsearch.md` |
-| 2.5 | Generate answers with citations | LZ `01-agentic-rag/06-building-prompt.md`, `07-llm.md`, `08-rag-helper.md` |
-| 2.6 | Debug missed handbook sections | LZ `01-agentic-rag/10-rag-next-steps.md`; BC `v2/01-foundation/03-rag/07-chunking-documents.md` |
+| 2.1 | Answering a Question from the Handbook | LZ `01-agentic-rag/03-rag.md`; BC `v2/01-foundation/03-rag/04-rag.md` |
+| 2.2 | Loading and Chunking the Speaker Handbook | BC `v2/01-foundation/03-rag/05-getting-documentation-data.md`, `07-chunking-documents.md` |
+| 2.3 | Choosing Chunk Size and Overlap | BC `v2/01-foundation/03-rag/07-chunking-documents.md`; LZ `07-project-example/07-chunking.md` |
+| 2.4 | Indexing Handbook Chunks | LZ `01-agentic-rag/05-search.md`; BC `v2/01-foundation/03-rag/06-indexing-with-minsearch.md` |
+| 2.5 | Generating Answers with Citations | LZ `01-agentic-rag/06-building-prompt.md`, `07-llm.md` |
+| 2.6 | Putting the RAG Pipeline Together | LZ `01-agentic-rag/08-rag-helper.md`; BC `v2/02-rag-usecases-tech/01-overview/02-rag-class.md` |
 
 ## Detailed lesson outline
 
-### 2.1 Answer a question using a handbook excerpt
+### 2.1 Answering a Question from the Handbook
 
-Ask when final slides are due, then repeat the request with the “Final Slides” excerpt from lesson 1.1. Walk through how retrieval will supply that excerpt automatically.
+Give learners the “Draft Slides,” “Final Slides,” and “Speaker Check-in” sections. A speaker asks where to upload the final deck. Select the passage that should go into the request from course 1. Inspect a worked RAG call and locate where search made that selection.
 
-**Check.** Identify the exact sentence that supports the answer.
+**Check.** Match the retrieved section, the text included in the prompt, and the sentence that supports the upload destination. Explain what would go wrong if search returned only “Draft Slides.”
 
-### 2.2 Load and chunk the speaker handbook
+### 2.2 Loading and Chunking the Speaker Handbook
 
 Read the fictional conference’s Markdown handbook and its frontmatter. Split it by headings and preserve the document ID, section ID, and heading path for sections such as “Draft Slides,” “Final Slides,” and “Speaker Check-in.”
 
 **Check.** Trace a split section to its original heading and confirm that its ID survives export and reload.
 
-### 2.3 Choose chunk size and overlap
+### 2.3 Choosing Chunk Size and Overlap
 
-Apply two chunk sizes and overlaps to a longer slide-submission section. Inspect where the due date and upload instructions land and keep source IDs alongside each chunk.
+Chunk a longer submission section with a fixed window. Its deadline and upload instructions fall on opposite sides of a boundary. Try a larger window, then restore the original size and add overlap. Give each chunk its own ID and keep the parent section ID for citations.
 
-**Check.** Show which configuration keeps the full submission instruction together.
+**Check.** Select a configuration that returns both facts in one chunk within a supplied length limit. Show the evidence and how much repeated text the overlap introduced.
 
-### 2.4 Index handbook chunks with MinSearch
+### 2.4 Indexing Handbook Chunks
 
 Build a MinSearch index on chunk titles and text. Query where to upload final slides and inspect the ranked source IDs.
 
 **Check.** Verify that “Final Slides” ranks above “Draft Slides” on the supplied query.
 
-### 2.5 Generate answers with citations
+### 2.5 Generating Answers with Citations
 
-Build a reusable function that retrieves chunks, formats them with their section IDs, and sends a grounded prompt through the OpenAI API. Ask one question about the slide deadline and one about travel reimbursement, which the handbook does not cover.
+Write an answer function that takes a question and retrieved chunks as inputs. Format each passage with its section ID. Ask the model to cite the supporting section and to say when the passages give insufficient information. Try the function with final-slide instructions, then with irrelevant passages for a travel reimbursement question.
 
-**Check.** Check that the deadline answer cites “Final Slides” and that the reimbursement answer reports insufficient evidence.
+**Check.** Inspect the formatted prompt and two recorded answers. Accept a deadline answer only if the cited passage supports the date. For reimbursement, identify the answer that leaves the question open.
 
-### 2.6 Debug missed handbook sections
+### 2.6 Putting the RAG Pipeline Together
 
-Compare a lookup where chunking separates the due date from the upload instructions with a paraphrase that keyword search misses. Inspect the retrieved text before changing either step.
+Implement `ask_handbook(question)` by passing the question to the index from lesson 2.4 and its results to the answer function from 2.5. A second speaker asks about check-in. The function should now find the check-in instructions without anyone selecting a passage for it.
 
-**Check.** Identify which failure calls for changing the chunking and which motivates the next course on vector search.
-
-purpose for that?
+**Check.** Run slide submission, check-in, and reimbursement questions against the bundled index and a recorded model. Inspect the chunks passed to generation on each call. Verify that the first two answers cite their respective sections and the third reports insufficient information.

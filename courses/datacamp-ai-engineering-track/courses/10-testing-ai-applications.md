@@ -1,25 +1,25 @@
 # 10. Testing AI Applications
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2–3 hours.
 
 ## Summary
 
-A notebook that works once is not an application. Evaluation & Testing appears in **79.0%** of November job responsibilities (+9.6 pp since Feb), and LLM Evaluation is in 33.5% of AI-First roles. Learners start with the assistant’s Python project and write `pytest` suites for tool calls, output properties, and LLM-judge behaviour.
+The speaker assistant returns a plausible deadline even when a change makes it fetch the wrong handbook section. Learners write tests that catch the mistake at three places in the Python project: the tool call, the citation returned by the API, and the factual claim in the answer. They finish with a regression suite they can run with one command.
 
 ## Learning objectives
 
-- Write `pytest` tests that check which tools an agent called and with what arguments
-- Write tests for output properties such as citations, schemas and code blocks
-- Create an LLM judge and use it inside `pytest`
-- Track the token cost of a test run
+- Write a pytest fixture that exercises the real agent loop with scripted model turns
+- Assert a relationship between tool arguments, returned evidence, and citations
+- Use a structured LLM judge to check a claim that a schema accepts
+- Reproduce a reported failure and account for the cost of a live test run
 
 ## Why here
 
-The preceding course supplies a runnable Python project. Its tests cover behavior that later changes to the assistant could break.
+Course 9 provides an importable assistant and an HTTP endpoint. A regression test gives the maintainer a repeatable example of a broken requirement. Course 12 measures how often requirements hold across a collection of speaker requests.
 
 ## Transformation
 
-From "it worked when I tried it" to "I have a test suite that tells me when my agent breaks."
+Learners can change the assistant, run `uv run pytest`, and use the failed assertion to locate the behavior they changed.
 
 ## Theory or application
 
@@ -29,77 +29,70 @@ Theory and application
 
 ### Syntax / functionality involved
 
-`pytest` tests and fixtures, inspecting agent/LangGraph message history for tool calls, assertion helpers, LLM judge with structured output (pass/fail + reasoning), usage and cost accounting
+Pytest fixtures, parameterized cases, scripted model turns, tool-call records, FastAPI test client, Pydantic, judge rubrics, token accounting.
 
 ### How it's used in the exercises
 
-The learner writes a first test, adds tool-call tests, then writes a judge prompt, runs the `pytest` suite, sees a failure, fixes the agent instructions and reruns. At the end they print the cost of the run.
+Supply the module from course 9, two similar handbook sections (“Draft Slides” and “Final Slides”), recorded model turns, and a local tool-call recorder. Learners call the production answer function. Their tests inspect the arguments that actually reached the tools and the response that reached the HTTP client. For the judge exercise they also receive paired human labels and recorded judge responses.
 
 ### Model / release
 
-Python 3.13; `pytest`, `uv` (versions TBC), `langgraph`, `pydantic-ai>=1.55.0`, `openai>=2.38.0`. Small model for the agent; the judge may use a different model (discussed in the lesson).
+Python 3.13, pytest, FastAPI's test client, Pydantic, uv, and the assistant's existing model integration. Run one live judging demonstration with a supplied budget. Graded examples replay recorded model turns.
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Evaluation & Testing in 79.0% of Nov responsibilities (+9.6 pp), LLM Evaluation 33.5% AI-First (20.3% → 26.6% overall)
-- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Testing" block (tests for tool calls and output quality, LLM-as-judge) and "Converting notebooks to production projects" (Production block). `portfolio/04-polishing.md`: deterministic behaviour tested with one `pytest` command.
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 4: Preparing the Project, Testing for Agents, Test Judges
-
-### Notes
-
-Use scripted model outputs for graded tests. Demonstrate a live judge run separately and track its token use.
+- The AI Engineering Field Guide reports evaluation and testing in 79.0% of November job responsibilities. Its portfolio guide asks for a deterministic test suite with one entry point.
+- Buildcamp Week 4 covers testing tools, output properties, LLM judges, and costs. [Buildcamp testing lessons](https://github.com/alexeygrigorev/ai-bootcamp/tree/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing)
 
 ## Exercise adapted from the Buildcamp
 
-Use the search-and-fetch agent from the tool-calling course in place of the homework’s DuckDB SQL agent. Have learners write pytest assertions for tool names and arguments using a scripted response, then apply a judge rubric to a grounded answer and an unsupported answer. Grade the tool assertions and expected rubric outcomes with fixed responses.
-
-[Buildcamp Week 4 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing/homework/01-homework.md)
+The original SQL exercise checks which tools ran and what they produced. Here search returns a section ID, fetch accepts that ID, and the speaker receives a cited deadline. Learners deliberately introduce a bad fetch argument, a missing citation, and an invented deadline. Each failure should point to a different assertion. [Buildcamp Week 4 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing/homework/01-homework.md)
 
 ## Lesson outline and source map
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 10.1 | Writing the first test | BC `v2/04-testing/03-testing/02-first-test.md` |
-| 10.2 | Testing tool calls | BC `03-testing/03-testing-tool-calls.md` |
-| 10.3 | Refactoring tests and testing output quality | BC `03-testing/04-refactoring-tests.md`, `05-testing-output-quality.md` |
-| 10.4 | Creating an LLM judge | BC `v2/04-testing/04-llm-judges/02-creating-judge.md`; FG LLM Evaluation (33.5% AI-First) |
-| 10.5 | Coming up with test cases and fixing the agent | BC `04-llm-judges/03-05` |
-| 10.6 | Tracking costs | BC `03-testing/06-tracking-costs.md` |
+| 10.1 | Writing a Test for a Missing Citation | BC Week 4 `03-testing/02-first-test.md` |
+| 10.2 | Testing Tool Calls and Arguments | BC `03-testing/03-testing-tool-calls.md` |
+| 10.3 | Testing the Answer and Its Citations | BC `03-testing/04-refactoring-tests.md` and `05-testing-output-quality.md` |
+| 10.4 | Checking Answer Grounding with an LLM Judge | BC `04-llm-judges/02-creating-judge.md` |
+| 10.5 | Testing Follow-Up Questions | BC `04-llm-judges/03-thinking-about-test-cases.md` and `05-improving-judge-tests.md` |
+| 10.6 | Tracking the Cost of Model Tests | BC `03-testing/06-tracking-costs.md` |
 
 ## Detailed lesson outline
 
-### 10.1 Writing the first test
+### 10.1 Writing a Test for a Missing Citation
 
-Write a pytest test for a known support question using a scripted model response.
+Compare two responses to the final-slides question. Both state the right date, but one loses the source ID when the application constructs the response. Invoke the answer function with a local handbook and a scripted model. Write an assertion for the expected section ID.
 
-**Check.** Show a failure with a deliberately incorrect expected answer, then restore the correct assertion.
+**Check.** Run the same test against the working and broken response builders. Show the actual and expected source IDs in the failure output.
 
-### 10.2 Testing tool calls
+### 10.2 Testing Tool Calls and Arguments
 
-Capture the agent’s tool calls and assert the names, arguments, and order.
+Record calls at the tool boundary. For an open question, verify that fetch receives an ID returned by search. For “Show me section X,” exercise the valid direct-fetch path. Use a second handbook fixture with different IDs.
 
-**Check.** Use a wrong-ID response to confirm the test detects the regression.
+**Check.** Make the dispatcher substitute the draft-slides ID for the selected final-slides ID. The tool assertion must fail even when the recorded model still produces a plausible deadline.
 
-### 10.3 Refactoring tests and testing output quality
+### 10.3 Testing the Answer and Its Citations
 
-Refactor repeated setup into fixtures and add assertions for output schema and citations.
+Move repeated setup into fixtures. Send the question through the API's test client. Validate the response schema and check that citations identify sections actually fetched during that request. Parameterize two supported phrasings and an out-of-scope question on travel reimbursement.
 
-**Check.** Verify that a bad citation fails independently of the tool call assertions.
+**Check.** Both supported answers pass with different wording. A well-formed response citing an unfetched section fails. The reimbursement case returns an explicit insufficient-evidence answer without a fabricated source.
 
-### 10.4 Creating an LLM judge
+### 10.4 Checking Answer Grounding with an LLM Judge
 
-Define a judge that returns a verdict and reason using a grounding rubric.
+Give a judge the speaker's question, fetched text and answer. Ask for a verdict and the specific claim that lacks support. Compare a paraphrase of the real deadline with an otherwise identical answer claiming speakers have a one-week extension. Both carry the correct citation ID.
 
-**Check.** Apply it to scripted examples of grounded and unsupported answers.
+**Check.** Label both answers by hand, then inspect a recorded judge response for each. Write the pytest assertion that fails on an unsupported claim and displays the reason. Capture the constructed judge request to verify that both the answer and supporting passage reached it.
 
-### 10.5 Coming up with test cases and fixing the agent
+### 10.5 Testing Follow-Up Questions
 
-Turn a reported assistant failure into a reproducible case, adjust the instructions, and run the suite again.
+A speaker first asks about draft slides, then asks about final slides. The application carries the previous response's source IDs into the follow-up. Encode both turns in a regression test, find the code that accumulates citations, and scope the response's citations to the current answer.
 
-**Check.** Verify that the new case passes alongside the original cases.
+**Check.** Demonstrate that the test fails on the original implementation and passes after the fix. The final answer cites only “Final Slides,” while the conversation history still contains the first turn.
 
-### 10.6 Tracking costs
+### 10.6 Tracking the Cost of Model Tests
 
-Read token counts from a recorded judge run and compute total cost with the supplied price table.
+Compare an offline regression run with a recorded live run of the same cases. Attribute input and output tokens to assistant and judge calls, including one retry. Apply the supplied per-model rates.
 
-**Check.** Compare the test-run total against expected costs.
+**Check.** Report assistant cost, judge cost, and total for the live run. Identify the case responsible for the retry from its call records. Verify the offline suite made zero provider calls.

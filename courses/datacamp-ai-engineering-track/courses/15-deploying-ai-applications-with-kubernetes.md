@@ -4,14 +4,14 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Summary
 
-**Kubernetes** appears in **23.6%** of all postings (2,307 jobs; rising 18.6% → 23.8% in AI-First, 28.3% in AI-Support, and 43% in platform/infra roles). Learners deploy the containerized FastAPI/agent service from CI/CD to a local Kubernetes cluster (`kind`), manage API keys as Secrets, scale replicas, roll out a new version and roll it back.
+**Kubernetes** appears in **23.6%** of all postings (2,307 jobs; rising 18.6% → 23.8% in AI-First, 28.3% in AI-Support, and 43% in platform/infra roles). Learners deploy the containerized FastAPI/agent service from CI/CD to a local Kubernetes cluster (`kind`), supply runtime settings and credentials, then roll out a version and roll it back.
 
 ## Learning objectives
 
 - Explain pods, deployments and services and write their manifests
 - Run a local cluster and deploy a containerized LLM application to it
 - Manage API keys and configuration with Secrets and ConfigMaps
-- Scale the application and perform a rolling update and a rollback
+- Use readiness to verify a rolling update and restore a healthy image after a failed rollout
 
 ## Why here
 
@@ -19,7 +19,7 @@ Reuses the Docker image from CI/CD and covers the container orchestration skill 
 
 ## Transformation
 
-From "I can build and test a service container" to "I can run, scale and update my AI application on Kubernetes."
+From "I can build and test a service container" to "I can deploy, update and recover my AI application on Kubernetes."
 
 ## Theory or application
 
@@ -29,11 +29,11 @@ Theory and application
 
 ### Syntax / functionality involved
 
-`kind` cluster, `kubectl apply/get/logs/port-forward`, Deployment, Service, Secret, ConfigMap, readiness probes, replicas, rollout and rollback
+`kind` cluster, `kubectl apply/get/logs/port-forward`, Deployment, Service, Secret, ConfigMap, readiness probes, rollout and rollback
 
 ### How it's used in the exercises
 
-The learner creates a `kind` cluster, loads the image, writes the manifests one by one, port-forwards to the service and sends a question, then changes the image tag and watches the rollout and rollback.
+Deploy the read-only speaker handbook endpoint from CI. Use readiness, a Service, and a smoke request to verify the rollout. Ticket submission stays in the local simulated workflow because the deployment exercise has no shared durable store.
 
 ### Model / release
 
@@ -41,6 +41,7 @@ The learner creates a `kind` cluster, loads the image, writes the manifests one 
 
 ### Source material
 
+- [Kubernetes rollout and rollback](https://kubernetes.io/docs/tasks/run-application/update-deployment-rolling/) and [port-forward reference](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/)
 - **FG** (AI Engineering Field Guide, 9,760 jobs): Kubernetes 23.6% (2,307 jobs; rising 18.6% → 23.8% in AI-First; 28.3% in AI-Support), Docker 24.2%, GenAI + Ops 71.0% AI-First
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Docker and Kubernetes - containerization and orchestration"; Kubernetes is "high value".
 - Alexey's instruction for this track (Kubernetes as a separate course)
@@ -56,47 +57,47 @@ Use a local `kind` cluster in a Docker-capable exercise environment or a preprov
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 15.1 | Map the assistant service to Kubernetes resources | new; ML Zoomcamp `10-kubernetes`; FG Kubernetes (23.6%) |
-| 15.2 | A local cluster with kind | ML Zoomcamp `10-kubernetes` |
-| 15.3 | Deployments and pods | ML Zoomcamp `10-kubernetes` |
-| 15.4 | Services and reaching the application | ML Zoomcamp `10-kubernetes` |
-| 15.5 | Secrets and configuration for API keys | new |
-| 15.6 | Scaling, rolling updates and rollbacks | new |
+| 15.1 | Introduction to Kubernetes | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.2 | Setting Up a Local Kubernetes Cluster | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.3 | Deploying the Assistant | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.4 | Connecting to the Deployed Assistant | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.5 | Configuring the Assistant | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.6 | Updating and Rolling Back the Assistant | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
-### 15.1 Map the assistant service to Kubernetes resources
+### 15.1 Introduction to Kubernetes
 
-Map the existing container service to Pods, a Deployment, and a Service.
+Inspect a running Deployment, its Pods, and a Service. See how the Service selects Pods, then follow one HTTP request through a local port-forward to a selected Pod.
 
-**Check.** Identify which object owns replicas and which provides a stable endpoint.
+**Check.** Identify which object keeps a replica running and which gives clients a stable target.
 
-### 15.2 A local cluster with kind
+### 15.2 Setting Up a Local Kubernetes Cluster
 
-Create a kind cluster and load the application image, or inspect supplied cluster output.
+Create a local Kubernetes cluster with kind or use the preprovisioned environment. Load the exact image tag produced by the CI lesson.
 
-**Check.** Verify node readiness and the image reference used by the workload.
+**Check.** Check node readiness and verify the image referenced by the Deployment is available.
 
-### 15.3 Deployments and pods
+### 15.3 Deploying the Assistant
 
-Apply the Deployment and inspect a failing Pod using status and logs.
+Write or complete the Deployment with matching labels, a container port, and a readiness probe. Use a supplied bad image or probe configuration to practice diagnosis.
 
-**Check.** Identify the mismatch in a supplied failure and verify the corrected manifest.
+**Check.** Explain the failed state using recorded events or logs, then verify the corrected Pod is ready.
 
-### 15.4 Services and reaching the application
+### 15.4 Connecting to the Deployed Assistant
 
-Create a Service and forward its port to the local machine.
+Add a Service selector and port mapping. Forward the Service port to the learner’s machine and submit a speaker handbook question.
 
-**Check.** Call the health endpoint and verify the Service points to the expected Pods.
+**Check.** Verify that the Service has a ready backend and that the response cites the expected section.
 
-### 15.5 Secrets and configuration for API keys
+### 15.5 Configuring the Assistant
 
-Wire non-secret settings through a ConfigMap and a placeholder key through a Secret.
+Pass the assistant’s non-secret settings through a ConfigMap and a placeholder credential through a Secret reference. Keep the exercised endpoint read-only and its fixtures local to the service.
 
-**Check.** Verify both environment variable references in the Deployment manifest.
+**Check.** Change a harmless runtime setting and verify its effect after restarting the workload. With a dummy credential, confirm the application sees the Secret reference without showing its value in normal output.
 
-### 15.6 Scaling, rolling updates and rollbacks
+### 15.6 Updating and Rolling Back the Assistant
 
-Scale the Deployment, update its image tag, and roll back after a failing readiness check.
+Update to a new image tag, wait on readiness, then diagnose a supplied bad update and roll back. Use the same request as a smoke check after rollback.
 
-**Check.** Verify the restored version and replica readiness from rollout output.
+**Check.** Verify the restored image tag, ready replicas, and successful response after rollback.

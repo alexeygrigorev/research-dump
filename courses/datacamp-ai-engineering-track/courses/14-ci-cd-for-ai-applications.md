@@ -15,7 +15,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Why here
 
-Needs the test suite (9), evaluation set (10) and directly teaches the CI/CD + Docker skills required across both AI-First (36.7% CI/CD) and AI-Support (40.7% CI/CD) roles.
+The Python projects course supplies the Dockerfile, testing supplies the regression suite, and evaluation supplies the benchmark. This course ties those inputs to the versioned image used in Kubernetes.
 
 ## Transformation
 
@@ -33,7 +33,7 @@ Local checkout, `act`, GitHub Actions workflow YAML (events, jobs, steps, job de
 
 ### How it's used in the exercises
 
-The learner writes a workflow for the application and invokes its push event locally with `act`. A broken prompt fixture fails the evaluation gate and skips the image build. After fixing the prompt, the learner reruns the workflow, checks the tagged image, and identifies what would be promoted to a deployment environment.
+The learner writes a workflow for the application and invokes its push event locally with `act`. A broken tool call fails the deterministic tests. A separate change that drops a citation fails a small benchmark run against the candidate. A passing run produces an image tagged with the tested commit.
 
 ### Model / release
 
@@ -41,6 +41,7 @@ Python 3.13; `act`, Docker, `pytest`, and `uv`. Graded runs use fixtures for mod
 
 ### Source material
 
+- [Local workflow runner usage](https://nektosact.com/usage/index.html)
 - **FG** (AI Engineering Field Guide, 9,760 jobs): CI/CD 36.9% (3,603 jobs; 36.7% AI-First, 40.7% AI-Support), Docker 24.2% (2,366 jobs), Evaluation & Testing 79.0% of Nov responsibilities
 - **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Testing, CI/CD, code quality - expected of every engineer"; CI/CD is "high value" and Docker "must have".
 - Alexey's instruction for this track (use a local alternative for CI/CD)
@@ -55,47 +56,47 @@ The local run uses a supplied checkout and Docker-capable runner. Exercises can 
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 14.1 | Design a test-to-build workflow | new; builds on BC `v2/04-testing`; FG CI/CD (36.9%) |
-| 14.2 | Run a local CI workflow with act | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 14.3 | Run pytest on push | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; BC `v2/04-testing/03-testing` |
-| 14.4 | Configure secrets and model fixtures | new; BC `03-testing/06-tracking-costs.md`, `04-llm-judges/05-improving-judge-tests.md` |
-| 14.5 | Fail CI on an evaluation regression | new; evaluation content from BC `v2/06-evaluation/02-measure/06-running-evals.md` |
-| 14.6 | Build a versioned Docker image | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; FG Docker (24.2%) |
+| 14.1 | Following a Code Change through CI | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.2 | Running the Workflow Locally | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.3 | Running Assistant Tests on Every Push | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
+| 14.4 | Running CI Checks without API Credentials | Buildcamp Week 4 judge and cost exercises |
+| 14.5 | Blocking Builds When Evaluation Scores Drop | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
+| 14.6 | Building a Docker Image for the Tested Commit | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
-### 14.1 Design a test-to-build workflow
+### 14.1 Following a Code Change through CI
 
-Inspect a change that breaks the assistant and map which check should stop it before image build.
+Start with two recorded runs of the same change workflow. One fails a model-independent test and produces no release image. The other passes its checks and produces a tagged image.
 
-**Check.** Order tests, evaluation, and image build in a workflow.
+**Check.** Using the run output, identify the failed command, the skipped job, and the image produced by the successful run.
 
-### 14.2 Run a local CI workflow with act
+### 14.2 Running the Workflow Locally
 
-Run a sample GitHub Actions-compatible workflow on the supplied checkout using act.
+Read the GitHub Actions-compatible workflow YAML and invoke it on the current checkout with act, a local runner for that workflow format. Use the supplied checkout and Docker-capable environment, or inspect the recorded run.
 
-**Check.** Locate the local job result and verify a step completed.
+**Check.** Find the push event, job, and completed command in the output.
 
-### 14.3 Run pytest on push
+### 14.3 Running Assistant Tests on Every Push
 
-Add a pytest job to the push workflow and exercise it with good and broken fixtures.
+Add the existing pytest suite to the automatic workflow. Run a valid change and one that sends the wrong tool argument.
 
-**Check.** Check the expected pass and failure statuses.
+**Check.** Show the test failure and verify that downstream jobs do not start.
 
-### 14.4 Configure secrets and model fixtures
+### 14.4 Running CI Checks without API Credentials
 
-Configure test inputs and secrets. Use scripted models for required checks and isolate optional live checks.
+Run the required checks with scripted model and judge responses. Examine where credentials would enter a separately triggered live scoring job.
 
-**Check.** Run the required checks without live credentials.
+**Check.** Verify that the required run succeeds without credentials and that no secret values appear in job output.
 
-### 14.5 Fail CI on an evaluation regression
+### 14.5 Blocking Builds When Evaluation Scores Drop
 
-Implement an evaluation gate from a fixed metrics report and agreed thresholds.
+Run a small benchmark against the current checkout with recorded model dependencies and assertions against the actual answers and citations. Attach the candidate commit to the report and pass it to the threshold command. A fixture with duplicate or omitted citations gives learners a version that fails on quality even when its ordinary tests pass.
 
-**Check.** Verify exit status for a passing fixture and a regression.
+**Check.** Check that the candidate regression stops packaging and that a stale report for another commit cannot be reused.
 
-### 14.6 Build a versioned Docker image
+### 14.6 Building a Docker Image for the Tested Commit
 
-Build a tagged Docker image after the checks pass.
+Build the existing Dockerfile only after the required jobs pass. Tag the image with the commit ID and hand that tag to the Kubernetes exercise.
 
-**Check.** Verify the expected tag and confirm the build step is skipped when a required check fails.
+**Check.** Verify that the tag identifies the tested revision and that a failing run does not produce an eligible release image.

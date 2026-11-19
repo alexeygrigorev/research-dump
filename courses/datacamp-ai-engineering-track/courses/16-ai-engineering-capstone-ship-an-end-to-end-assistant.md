@@ -15,7 +15,7 @@ Learners build an accounts payable assistant that checks incoming invoices again
 
 ## Why here
 
-Final course: it combines every earlier stage on a new enterprise automation and document-processing problem (the top real-world use cases in the field guide).
+This is a transfer exercise. Learners apply the extraction, retrieval, testing, and release workflow they practiced with conference support to a new task with financial records and explicit review rules.
 
 ## Transformation
 
@@ -33,9 +33,9 @@ PDF extraction with page metadata, typed invoice fields, agreement retrieval, pu
 
 ### How it's used in the exercises
 
-The learner receives fictional invoice PDFs, supplier agreements and a purchase order CSV. They extract the invoice number, supplier ID, purchase order ID, amount, currency and dates into a typed record. They retrieve the applicable payment terms with agreement and page citations and run deterministic checks for duplicate invoices, missing purchase orders, total or currency mismatches, and inconsistent payment terms.
+The learner receives fictional invoice PDFs, supplier agreements a purchase order CSV, and a seeded ledger of previously reviewed invoices. They extract the invoice number, supplier ID, purchase order ID, amount, currency and dates into a typed record. They select the agreement effective for the supplier and invoice date, then retrieve payment terms with agreement and page citations and run deterministic checks for duplicate supplier–invoice pairs, missing purchase orders, total or currency mismatches, and inconsistent payment terms.
 
-The assistant returns a JSON review record with the extracted fields, cited evidence, discrepancy reasons and a review status. Incomplete evidence is flagged for review. The workflow can write a draft review ticket to a sandbox after human approval.
+The assistant returns a JSON review record with the extracted fields, cited evidence, discrepancy reasons and a review status. Incomplete evidence is flagged for review. The workflow prepares a draft and submits the approved version to a sandbox at most once.
 
 ### Model / release
 
@@ -50,7 +50,7 @@ Python 3.13; reuse the earlier courses’ dependencies (`minsearch>=0.1.0`, `sen
 
 ### Notes
 
-Bundle 20–50 evaluation cases with clean invoices, duplicates, mismatches, missing evidence, and out-of-scope requests. Keep a held-out subset for final checks. Grade field accuracy, cited evidence, discrepancy classification and approval behavior. Record token usage and latency from sample traces and document the setup and trade-offs in the README.
+For the 2–3 hour guided build, supply a starter with the web shell, tool adapters, deployment manifest, and fixture runner already wired. Learners implement field extraction, evidence selection, reconciliation, and the approval gate. Bundle 20–50 cases and reserve a held-out subset for final checks. Grade field accuracy, citations, discrepancy decisions, and approval behavior separately. The deployment check runs locally, with a kind manifest and saved rollout output as a fallback.
 
 ## Exercise adapted from the Buildcamp
 
@@ -62,54 +62,54 @@ Use My Daily Tasks to show how tools, an agent, tests, tracing, evaluation, and 
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 16.1 | Define the invoice review workflow | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
-| 16.2 | Extract invoice fields and retrieve agreement clauses | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
-| 16.3 | Check purchase orders and gate review ticket creation | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
-| 16.4 | Tests and offline evaluation | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
-| 16.5 | FastAPI service and UI | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
-| 16.6 | OpenTelemetry traces and Langfuse | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
-| 16.7 | Docker deployment and documentation | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
+| 16.1 | Designing the Invoice Review Workflow | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
+| 16.2 | Extracting Invoice Fields and Finding Payment Terms | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
+| 16.3 | Checking Discrepancies and Approving Review Tickets | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
+| 16.4 | Testing and Evaluating Invoice Reviews | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
+| 16.5 | Serving Review Records through FastAPI | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
+| 16.6 | Tracing an Invoice Review in Langfuse | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
+| 16.7 | Deploying the Invoice Review Assistant | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
 
 ## Detailed lesson outline
 
-### 16.1 Define the invoice review workflow
+### 16.1 Designing the Invoice Review Workflow
 
-Inspect sample invoices, supplier agreements, and the purchase-order CSV. Define a typed review record and decide when evidence is insufficient.
+Inspect an invoice for 1,250 USD against a purchase order for 1,200 USD and an agreement that specifies Net 30. Examine the expected review record before coding. Define the fields, discrepancy reason, and evidence references needed for a reviewer to act.
 
 **Check.** Classify a clean invoice, a mismatch, and a missing-evidence case.
 
-### 16.2 Extract invoice fields and retrieve agreement clauses
+### 16.2 Extracting Invoice Fields and Finding Payment Terms
 
-Extract typed invoice fields and retrieve the payment terms from the matching agreement.
+Extract typed invoice fields. Choose the supplier agreement applicable on the invoice date, then retrieve its payment clause and evidence.
 
-**Check.** Check field accuracy and the cited agreement section against a held-out fixture.
+**Check.** Verify each extracted field against the invoice and the cited terms against the agreement on a development fixture. Reserve held-out cases for the final evaluation.
 
-### 16.3 Check purchase orders and gate review ticket creation
+### 16.3 Checking Discrepancies and Approving Review Tickets
 
-Compare invoice values with purchase-order records and require approval before drafting a review ticket.
+Compare normalized invoice values with purchase orders and the invoice ledger. Include two suppliers that reuse the same invoice number. Draft a proposed review ticket locally. Require approval of that exact draft before submitting it to the sandbox.
 
-**Check.** Verify the flagged discrepancy, supporting evidence, and behavior when approval is rejected.
+**Check.** Verify the flagged discrepancy and supporting evidence, then show that a rejected or changed draft creates no ticket and an approved retry creates only one.
 
-### 16.4 Tests and offline evaluation
+### 16.4 Testing and Evaluating Invoice Reviews
 
 Write tests for deterministic comparisons and run offline evaluation across clean, missing-evidence, duplicate, and mismatch cases.
 
 **Check.** Report field accuracy, citation correctness, and tool and approval behavior.
 
-### 16.5 FastAPI service and UI
+### 16.5 Serving Review Records through FastAPI
 
-Expose invoice review through FastAPI and add a view of the review record and cited evidence.
+Connect the workflow to the supplied FastAPI endpoint and review view. Render a review record with discrepancy reasons and the cited evidence.
 
 **Check.** Submit a fixture and confirm a reviewer can inspect the reasons for each flag.
 
-### 16.6 OpenTelemetry traces and Langfuse
+### 16.6 Tracing an Invoice Review in Langfuse
 
 Trace PDF extraction, retrieval, comparison, and the approval gate with OpenTelemetry and inspect a run in Langfuse.
 
-**Check.** Use the trace to explain why a held-out invoice was flagged.
+**Check.** Use the trace to explain why a development invoice was flagged.
 
-### 16.7 Docker deployment and documentation
+### 16.7 Deploying the Invoice Review Assistant
 
-Build and run the container, and document setup, checks, and known limitations in the project README.
+Use the supplied CI and deployment templates to package the passing revision. Smoke-test that version on kind or use the fixture runtime when cluster access is unavailable. Document setup, checks, and known limitations in the project README.
 
-**Check.** Reproduce a sample review from the documented commands and preserve the resulting record and trace evidence.
+**Check.** Reproduce a sample review from the documented commands. Attach the final version’s held-out evaluation report and retain the sample record and trace.

@@ -1,26 +1,25 @@
 # 5. Agent Basics: Tool Calling and the Agent Loop
 
-
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2–3 hours.
 
 ## Summary
 
-In RAG the developer decides when to search; in an agent (56.2% of all jobs, 74.0% of AI-First roles) the model decides. Learners implement function calling (9.6% → 18.5%, #2 fastest-rising skill) and the tool-call loop by hand, turning fixed RAG into agentic RAG (RAG + Agents together rose from 33.1% to 51.0% of AI-First postings).
+A speaker asks “How do I move my rehearsal?” The handbook index can find candidate sections, but the assistant needs the full passage to cite the procedure. When the speaker supplies a section ID, it can fetch the passage directly. Learners give a model both tools and write the Python loop that executes its choices.
 
 ## Learning objectives
 
-- Describe a tool to an LLM with a function schema and execute the call it requests
-- Implement the agentic loop: call the model, run tools, return results, repeat until done
-- Convert a fixed RAG pipeline into agentic RAG that can search and act across steps
-- Carry conversation history across turns and limit how many times the agent can call tools
+- Describe search and fetch functions with tool schemas and dispatch a model's request to Python.
+- Return results to the matching tool calls and continue until the model answers.
+- Preserve the evidence and conversation history needed for a follow-up.
+- Report a missing section and stop a run that repeatedly requests tools.
 
 ## Why here
 
-First agents course: Agent builder is the #1 role archetype (29.9%), and RAG + Agents together now appear in 51.0% of AI-First jobs. Building the loop from scratch makes frameworks transparent in course 7.
+Courses 2–4 supply an index and stable source IDs. This course changes who chooses the next retrieval step. The loop becomes the reference implementation when learners adopt LangChain in course 6.
 
 ## Transformation
 
-From "my code tells the LLM what to do at each step" to "I can build an agent that decides which tools to call and when."
+Learners can trace how a speaker's question becomes a tool request, a Python result and a cited answer.
 
 ## Theory or application
 
@@ -30,71 +29,64 @@ Theory and application
 
 ### Syntax / functionality involved
 
-Tool/function definitions (JSON schema), `function_call` and `function_call_output` messages, the `while`-loop over tool calls, conversation state, stop conditions and iteration limits
+OpenAI Responses API function schemas, JSON arguments, dispatch by tool name, `function_call_output`, call IDs, message history and a tool-round limit.
 
 ### How it's used in the exercises
 
-The learner writes the search and fetch function schemas, sends a request, inspects the tool call the model returns, executes it and sends the result back. They then wrap these steps in a loop and compare the agent's answers and number of LLM calls with the fixed RAG pipeline.
+Provide the index and two functions. Search returns section headings and IDs. Fetch returns the passage and its source ID. Learners implement the dispatcher and loop, then inspect the recorded inputs to each model call. The scripted model requests the next step only after receiving the expected tool result.
 
 ### Model / release
 
-Python 3.13; `openai>=2.38.0`, `minsearch>=0.1.0`. A small OpenAI model with tool calling through the Responses API.
+Python 3.13, OpenAI Python SDK and MinSearch from course 2. Demonstrate tool selection with a small tool-calling model. Graded runs use scripted Responses API turns.
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Agents (any) 56.2% (74.0% AI-First), Agent builder archetype 29.9%, Function Calling 15.1% (9.6% → 18.5%, +0.88 pp/scrape), RAG + Agents together 51.0% of AI-First, agents responsibility in 53.3% of all jobs (55.8% in Nov)
-- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "AI Agents" block starts with function calling and "the agentic tool-call loop" before frameworks, the same order as courses 6 → 7.
-- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 1 Agentic RAG, lessons 11-14
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 3: Agent Basics
-
-### Notes
-
-Exercises use the OpenAI SDK directly. The multi-agent course revisits when to choose a fixed pipeline.
+- **BC** Week 3 Agent Basics, especially the agentic loop, Q&A loop and Wikipedia homework.
+- **LZ** Module 1 Agentic RAG, lessons 11–14.
+- **FG** The AI Agents learning path starts with function calling and the tool-call loop. Agents and RAG appear together in 51.0% of the sampled AI-First postings in November.
 
 ## Exercise adapted from the Buildcamp
 
-Adapt the Wikipedia agent homework to the internal knowledge base with two read-only tools: search for documents and fetch one by ID. Provide scripted model responses for a direct fetch and a search followed by a fetch. Learners dispatch each tool, return its result to the model, and stop when the model produces a final answer. Grade the tool sequence, the ID passed to fetch, and the termination condition.
-
-[Buildcamp Week 3 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/03-agents/homework/01-homework.md)
+The Buildcamp homework searches Wikipedia for a page and fetches the selected page. Here a speaker gives either a handbook section ID or a question in their own words. Learners must pass the ID returned by search into fetch, pair each result with the original call ID, and stop after the cited answer. The fixture supplies different IDs on a second run to catch hard-coded arguments. [Buildcamp Week 3 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/03-agents/homework/01-homework.md)
 
 ## Lesson outline and source map
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 5.1 | Choose between fixed retrieval and tool calling | LZ `01-agentic-rag/11-agents-intro.md`, `12-rag-revision.md`; FG Agents (56.2%) |
-| 5.2 | Function calling | LZ `13-function-calling.md`; BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md`; FG Function Calling (18.5% Nov) |
-| 5.3 | The agentic tool-call loop | LZ `14-agentic-loop.md`; BC `02-agent-basics/03-agentic-loop.md` |
-| 5.4 | Carrying conversation history across turns | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
-| 5.5 | Handle tool errors and stop the loop | new; extends BC `v2/03-agents/02-agent-basics/03-agentic-loop.md` |
+| 5.1 | Giving the RAG Assistant Search Tools | LZ `01-agentic-rag/11-agents-intro.md` and `12-rag-revision.md` |
+| 5.2 | Dispatching a Model Tool Call in Python | BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md` |
+| 5.3 | Building the Agent Loop | BC `v2/03-agents/02-agent-basics/03-agentic-loop.md`, LZ `01-agentic-rag/14-agentic-loop.md` |
+| 5.4 | Handling Follow-Up Questions | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
+| 5.5 | Handling Tool Errors and Stopping the Agent | New exercise extending the BC agent loop |
 
 ## Detailed lesson outline
 
-### 5.1 Choose between fixed retrieval and tool calling
+### 5.1 Giving the RAG Assistant Search Tools
 
-Compare an assistant that always searches up front with one that can choose to search or fetch a known section by ID.
+Run the fixed RAG pipeline from course 2 on a rehearsal policy question. Compare its trace with an agent's traces for the same question and for “Show me the section you just cited.”
 
-**Check.** Explain which tool each of two example requests needs.
+**Check.** Mark the first step where the two approaches choose differently. Explain when a section ID lets the agent skip search.
 
-### 5.2 Function calling
+### 5.2 Dispatching a Model Tool Call in Python
 
-Define OpenAI function schemas for searching documents and fetching by ID. Decode a scripted tool call into a Python invocation.
+Describe the inputs to search and fetch. Inspect a model request to fetch a section, parse its JSON arguments, call the matching Python function and return its result.
 
-**Check.** Verify the selected function and parsed arguments.
+**Check.** Inspect the dispatch log and outgoing message. The arguments must reach the right function and the result must carry the model's call ID.
 
-### 5.3 The agentic tool-call loop
+### 5.3 Building the Agent Loop
 
-Implement the loop that executes tool calls and returns their results to the model. Try a search followed by a fetch.
+Execute each requested tool call, add its output to the conversation, and call the model again. Stop when it provides the answer. Try both a known section and a rehearsal question that requires search followed by fetch.
 
-**Check.** Assert the call order, fetched ID, and final response.
+**Check.** Verify each tool sequence, the ID passed from search to fetch and the source cited in the final answer. A completed answer must end the run.
 
-### 5.4 Carrying conversation history across turns
+### 5.4 Handling Follow-Up Questions
 
-Ask about a support procedure, then refer to it with “Who handles that?” on the next turn.
+After answering a question about moving a rehearsal, handle “Who do I contact about that?” Carry the previous question, retrieved passage and response into the follow-up.
 
-**Check.** Check that the follow-up retains the relevant history and resolves the reference.
+**Check.** Inspect the second turn for the earlier evidence and match the contact in the answer to the cited passage. Start a fresh conversation and verify that it has its own history.
 
-### 5.5 Handle tool errors and stop the loop
+### 5.5 Handling Tool Errors and Stopping the Agent
 
-Return a controlled error for an unknown ID and impose a maximum number of tool rounds.
+Handle a fetch for an unknown section. In a separate fixture, the model keeps requesting the same lookup. Add a round limit and return a clear incomplete status when the budget runs out.
 
-**Check.** Verify the assistant reports the failed lookup and stops when the limit is reached.
+**Check.** Verify the first case returns an error to the model for the matching call. Count tool executions in the repeating case and confirm the run stops at the configured limit.

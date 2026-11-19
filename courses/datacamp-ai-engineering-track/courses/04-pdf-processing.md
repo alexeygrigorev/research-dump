@@ -4,18 +4,18 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. 
 
 ## Summary
 
-Learners convert a text-based handbook PDF into typed records that retain supporting excerpts. The exercises follow the Buildcamp chapter on books from text extraction through structured output and batch processing.
+The conference organizer needs a submission checklist from the PDF edition of the speaker handbook. Learners recover slide and bio instructions from prose and a deadline table, extract typed records across the handbook, and trace each item on the checklist to its source.
 
 ## Learning objectives
 
-- Extract Markdown from a PDF and preserve document IDs
-- Choose the pages to process and check for empty or incomplete extracts
-- Use structured output and Pydantic to turn page text into validated records
-- Process a group of pages and export records with their source references and extraction errors
+- Extract text from a PDF and check table rows against the rendered handbook
+- Reassemble a submission instruction that crosses a page break
+- Use structured output and supporting excerpts to verify deliverables, deadlines, and upload destinations
+- Process independent sections concurrently and use the resulting records to build a deadline checklist
 
 ## Why here
 
-The preceding RAG preparation work establishes the shape of a searchable document record. This course handles PDF-specific extraction and teaches the typed document pipeline used for invoice processing in the capstone.
+The Markdown handbook supplied headings and source IDs. Its PDF edition puts some of the same facts in table cells or across page breaks. Learners need to recover those relationships before trusting a parsed date, a skill they will use again on invoices in the capstone.
 
 ## Transformation
 
@@ -29,11 +29,11 @@ Theory and application
 
 ### Syntax / functionality involved
 
-PyMuPDF page extraction, Markdown, Pydantic schemas, structured output, bounded thread pools, and JSONL.
+PyMuPDF text and table extraction, Pydantic schemas, structured output, bounded thread pools, and JSONL.
 
 ### How it's used in the exercises
 
-Learners extract the text from the conference speaker handbook PDF, then use a typed schema to extract speaker deliverables, deadlines, and submission destinations. They run the code over multiple pages, record failed extractions by page, and export JSONL for later indexing. Assessment checks the supporting excerpts, field values and error records against fixtures.
+Learners extract sections from the conference speaker handbook PDF and check them against the rendered document. They adapt the deliverable schema from course 1, process sections in parallel, and use the saved records to show an organizer what is due and which dates still need confirmation.
 
 ### Model / release
 
@@ -46,59 +46,59 @@ Python 3.13, `pymupdf>=1.26.7`, `openai>=2.38.0` and Pydantic. Use a small OpenA
 
 ### Notes
 
-Bundle a text-based PDF with a table, a multi-page submission section and an empty page so learners can verify extraction quality before parsing.
+Bundle a text-based PDF with a ruled deadline table, a submission instruction continued on the next page, and a blank page. Supply the matching handbook section IDs and recorded model calls for grading.
 
 ## Exercise adapted from the Buildcamp
 
-Extract a text-based PDF to Markdown, retain the supporting text, and validate a speaker deliverable with a Pydantic schema. Extend the exercise to several pages, then grade extraction boundaries, supporting excerpts and validated records against fixtures.
+The Buildcamp’s books chapter extracts one page into a schema, processes the book, then uses the stored results. For the speaker handbook, process one submission section at a time so a page break cannot separate a deadline from its destination. The organizer’s checklist is the test of whether the stored facts are usable.
 
-[Buildcamp Week 1 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md)
+[Buildcamp PDF extraction homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md) · [Buildcamp parallel processing lesson](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/02-rag-usecases-tech/04-books/07-parallel-processing.md)
 
 ## Lesson outline and source map
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 4.1 | Extract text from the speaker handbook PDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
-| 4.2 | Clean headers and line breaks in the extracted text | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md`; `v2/01-foundation/homework/01-homework.md` |
-| 4.3 | Extract speaker deliverables and deadlines | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
-| 4.4 | Extract records from all handbook pages | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
-| 4.5 | Retry failed PDF extractions | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
-| 4.6 | Export speaker deliverables as JSONL | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` |
+| 4.1 | Extracting Text from a PDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
+| 4.2 | Reading Deadlines from PDF Tables | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` (layout motivates extraction checks); new table exercise |
+| 4.3 | Extracting Speaker Deliverables and Deadlines | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
+| 4.4 | Extracting Instructions across Page Breaks | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` (whole-document pass); new continuation exercise |
+| 4.5 | Processing PDF Sections in Parallel | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
+| 4.6 | Building the Speaker Submission Checklist | `v2/02-rag-usecases-tech/04-books/08-rag.md` (reuse stored records); new checklist exercise |
 
 ## Detailed lesson outline
 
-### 4.1 Extract text from the speaker handbook PDF
+### 4.1 Extracting Text from a PDF
 
-Extract text from the PDF version of the conference speaker handbook and compare it with the rendered handbook.
+Open the PDF edition with PyMuPDF, extract text from each page, and retain its order and document ID. Compare an ordinary paragraph, a blank page, and the submission table with the rendered PDF.
 
-**Check.** Confirm the final-slides instructions appear in the extract.
+**Check.** Locate the final-slides heading and identify which extract needs its row order checked before the text can be used.
 
-### 4.2 Clean headers and line breaks in the extracted text
+### 4.2 Reading Deadlines from PDF Tables
 
-Remove repeating headers and repair line wraps before passing the text to the model.
+The organizer spots a draft deadline next to the final-slides label in a flattened text extract. Read the ruled table as rows with PyMuPDF, remove its repeated header, and keep the deliverable beside its own deadline. Compare both rows with the rendered table.
 
-**Check.** Verify that cleaning preserves the upload instructions and deadline.
+**Check.** Recover both draft and final deadlines, including October 15, 2027 for final slides. A result that swaps two valid dates fails this check.
 
-### 4.3 Extract speaker deliverables and deadlines
+### 4.3 Extracting Speaker Deliverables and Deadlines
 
-Use a Pydantic schema with deliverable, due date, and submission destination to parse slide and bio instructions.
+Apply the deliverable schema from course 1 to the recovered table rows and the bio instructions. Add the section ID in Python and ask for the supporting text alongside the extracted fields. Compare parsed records with the source to catch a validly formatted date assigned to the wrong deliverable.
 
-**Check.** Match extracted values to the handbook and check that an omitted date stays null.
+**Check.** Identify the unsupported date in a pair of schema-valid records, match the correct one to its row, and leave the bio deadline empty where the handbook omits it.
 
-### 4.4 Extract records from all handbook pages
+### 4.4 Extracting Instructions across Page Breaks
 
-Run typed extraction over the complete PDF and collect records.
+The final-slides instructions start near the bottom of a page and the portal destination continues on the next. Walk the pages in order, drop the repeated running header, and append continuation text to the current section until the next section heading. Run the extractor on each complete section.
 
-**Check.** Compare the collected deliverables with the supplied expected set.
+**Check.** Recover one final-slides deliverable with both its deadline and its destination. Confirm that the blank page produces no deliverable and the following section keeps its own ID.
 
-### 4.5 Retry failed PDF extractions
+### 4.5 Processing PDF Sections in Parallel
 
-Process PDF pages with bounded concurrency and save failed inputs for a retry.
+Run the model calls on the prepared sections with a small thread pool. Let one recorded request fail while the others finish. Attach the section ID to each result as it arrives and rerun the failed section.
 
-**Check.** Verify that a retry adds the missing record without duplicating successful records.
+**Check.** Use a recorded run to compare sequential and overlapping calls. Deliver results in a different order and verify that the records still match their sources and only the failed section is submitted twice.
 
-### 4.6 Export speaker deliverables as JSONL
+### 4.6 Building the Speaker Submission Checklist
 
-Write the validated records with the handbook document ID and supporting text.
+The organizer asks which materials are due by October 16, 2027 and which still need a confirmed date. Save the extracted records as JSONL and reload them. Join the deadline-table rows to the submission instructions by deliverable, keeping the source excerpt for each field. Show one checklist item per deliverable and group the undated items separately.
 
-**Check.** Reload the file and match a deadline to the corresponding passage.
+**Check.** Find final slides once on the dated list and the speaker bio among the undated items. Follow the final-slides entry back to the PDF to verify both the deadline and the portal destination.

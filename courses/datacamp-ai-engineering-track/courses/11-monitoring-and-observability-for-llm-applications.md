@@ -1,26 +1,25 @@
 # 11. Monitoring and Observability for LLM Applications
 
-
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2–3 hours.
 
 ## Summary
 
-Learners instrument the internal support assistant with OpenTelemetry and use Langfuse to inspect requests, diagnose slow calls, and connect feedback to traces.
+A speaker receives a correct answer eight seconds after asking when slides are due. The API log says the request succeeded. Was the delay in handbook search, a failed tool call, or generation? Learners follow one request from the endpoint through the agent's calls, add OpenTelemetry timing records, and use Langfuse to investigate latency, cost, and a speaker's complaint.
 
 ## Learning objectives
 
-- Create nested spans for assistant requests, retrieval, tools, and model calls
-- Export traces over OTLP/HTTP to Langfuse and inspect failures and latency
-- Track token usage and estimated cost across a session
-- Attach feedback and select representative traces for offline evaluation
+- Explain a trace by following one request through its timed operations, or spans
+- Instrument retrieval, tools, and model calls and export their spans to Langfuse
+- Diagnose a retry and calculate model costs for a multi-turn session
+- Link a speaker's rating to the answer they saw and turn a confirmed failure into an evaluation case
 
 ## Why here
 
-Testing establishes expected behavior. Tracing shows where real runs diverge and gives learners examples to turn into scenarios in the next course.
+The tests from course 10 can reproduce known failures. This course helps learners investigate an individual run whose cause they do not yet know. Course 12 uses examples discovered in those runs to build an evaluation dataset.
 
 ## Transformation
 
-From "I don't know what my application does after I ship it" to "I can trace every request, what it cost, and whether users were happy."
+Given a complaint, learners can find the affected turn, identify the step responsible, and gather evidence for a fix.
 
 ## Theory or application
 
@@ -30,90 +29,83 @@ Theory and application
 
 ### Syntax / functionality involved
 
-OpenTelemetry spans and attributes, OTLP/HTTP export, Langfuse trace views and scores, trace and session IDs, model usage and latency.
+OpenTelemetry spans, timestamps, parent and trace IDs, OTLP over HTTP, Langfuse traces and feedback scores, session IDs, model token usage.
 
 ### How it's used in the exercises
 
-Instrument the assistant with a parent span for the request and child spans for retrieval, tool calls, and generation. Inspect a slow trace in Langfuse, compute the cost of its session, and associate a feedback score with the trace.
+Supply a two-turn speaker session, an unrelated request at nearly the same time, and their exported traces. One turn is slow because a handbook fetch times out and retries. Another cites the draft deadline in an answer about final slides. Learners first reproduce a trace with instrumented Python code, then diagnose the recorded incidents and attach a thumbs-down to the answer that prompted it.
 
 ### Model / release
 
-Python 3.13, OpenTelemetry Python SDK, Langfuse tracing SDK or a compatible OTLP/HTTP exporter, and the assistant’s existing model.
+Python 3.13, OpenTelemetry Python SDK, an OTLP/HTTP exporter, Langfuse, and the existing assistant. Grade learner instrumentation with an in-memory exporter and provide a captured Langfuse session for offline analysis.
 
 ### Source material
 
-- Buildcamp Week 5, Pydantic Logfire and Jaeger, grouping traces, and feedback. Adapt the same workflow to Langfuse.
-- [Langfuse OpenTelemetry ingestion documentation](https://langfuse.com/docs/api-and-data-platform/features/public-api)
-
-### Notes
-
-Grade instrumentation against a local in-memory span exporter and assess trace analysis against bundled traces. Use an instructor-provided or self-hosted Langfuse instance for the live walkthrough.
+Buildcamp Week 5 covers grouping calls, tracking user feedback and downloading traces. The DataCamp exercises use the same questions with Langfuse as the trace backend. [Buildcamp monitoring](https://github.com/alexeygrigorev/ai-bootcamp/tree/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/05-monitoring) · [Langfuse tracing quickstart](https://langfuse.com/docs/observability/get-started) · [Langfuse observability data model](https://langfuse.com/docs/observability/data-model)
 
 ## Exercise adapted from the Buildcamp
 
-Adapt the trivia agent exercise to a multi-turn internal support session. Have learners group model and tool spans by turn, join the turns using a session ID, and calculate the session cost from token counts and a supplied price table. Use bundled trace records for grading and ask learners to identify which call accounts for the most latency.
-
-[Buildcamp Week 5 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/05-monitoring/homework/01-homework.md)
+In the trivia homework, students group and price calls to an agent. Here they find the cost of two turns of a speaker conversation, including a retried model call in a separate pricing example. They also explain how a response with an HTTP success code can contain a recoverable tool error. [Buildcamp Week 5 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/05-monitoring/homework/01-homework.md)
 
 ## Lesson outline and source map
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 11.1 | Read an assistant trace | BC Week 5 overview |
-| 11.2 | Instrument retrieval spans | BC `v2/05-monitoring/03-jaeger/01-logfire-jaeger.md` |
-| 11.3 | Instrument model and tool spans | BC `v2/05-monitoring/03-jaeger/01-logfire-jaeger.md` |
-| 11.4 | Export traces to Langfuse | [Langfuse tracing quickstart](https://langfuse.com/docs/observability/get-started) |
-| 11.5 | Inspect a trace for errors and latency | BC `v2/05-monitoring/02-logfire/03-grouping-traces.md` |
-| 11.6 | Track model usage and session cost | BC Week 5 homework |
-| 11.7 | Attach feedback to a trace | BC `v2/05-monitoring/02-logfire/04-tracking-user-feedback.md` |
-| 11.8 | Select traces for offline evaluation | BC `v2/05-monitoring/02-logfire/05-downloading-data.md` |
+| 11.1 | Tracing a Slow Speaker Question | BC Week 5 overview and `02-logfire/02-logfire-observability.md` |
+| 11.2 | Tracing Handbook Search with OpenTelemetry | BC `03-jaeger/01-logfire-jaeger.md` |
+| 11.3 | Tracing Model and Tool Calls | BC `03-jaeger/01-logfire-jaeger.md` |
+| 11.4 | Viewing Assistant Traces in Langfuse | Langfuse tracing quickstart |
+| 11.5 | Finding Timeouts and Retries in a Trace | BC `02-logfire/03-grouping-traces.md` |
+| 11.6 | Measuring Token Usage and Cost across a Session | BC Week 5 homework |
+| 11.7 | Connecting Speaker Feedback to an Answer | BC `02-logfire/04-tracking-user-feedback.md` |
+| 11.8 | Creating Evaluation Cases from Traces | BC `02-logfire/05-downloading-data.md` |
 
 ## Detailed lesson outline
 
-### 11.1 Read an assistant trace
+### 11.1 Tracing a Slow Speaker Question
 
-Inspect a sample assistant run and identify request, retrieval, tool, and model operations.
+See the question, the answer, an eight-second request log entry, and a timeline of that request. A trace groups the operations for the request. Each span records when one operation began and ended. Follow the request through model selection, handbook lookup, and generation.
 
-**Check.** Map them into a trace with parent and child spans.
+**Check.** Use the start and end times to identify the slow lookup. Explain how an eight-second request can contain a five-second child span without taking thirteen seconds.
 
-### 11.2 Instrument retrieval spans
+### 11.2 Tracing Handbook Search with OpenTelemetry
 
-Add a span to the retrieval operation and record its source IDs.
+Start a request span around the answer function. Inside it, wrap the real search operation in a child span. Add the number of matches and the returned section IDs so a missed retrieval can be investigated later.
 
-**Check.** Check that the span is a child of the request and identifies the returned sources.
+**Check.** Run one search that finds “Final Slides” and another with no matches. Inspect the exported spans for parent IDs, distinct trace IDs across requests, and the different retrieval results.
 
-### 11.3 Instrument model and tool spans
+### 11.3 Tracing Model and Tool Calls
 
-Add separate spans for generation and tool execution and capture them in a local exporter.
+Extend the same trace to model calls and tool dispatch. When the agent invokes search as a tool, put the retrieval span inside the tool span. Record usage on each model call. Capture a simulated fetch timeout on the failed attempt and the successful retry as a separate attempt.
 
-**Check.** Verify nesting, model usage metadata, and the status of a failed tool call.
+**Check.** Reconstruct both attempts from the local export. The failed fetch carries the error, the later fetch returns evidence, and the request completes successfully.
 
-### 11.4 Export traces to Langfuse
+### 11.4 Viewing Assistant Traces in Langfuse
 
-Configure OTLP export for a provided Langfuse instance or inspect a saved trace and its exporter settings.
+Configure the supplied service's OTLP/HTTP exporter for a class Langfuse instance. Send two near-simultaneous questions, capture the trace ID associated with each response, and find the final-slides lookup in the trace view.
 
-**Check.** Match the received trace to the request ID and nested spans.
+**Check.** Match one response to its exported trace and its retrieved section by ID. For offline grading, perform the same match against the captured export.
 
-### 11.5 Inspect a trace for errors and latency
+### 11.5 Finding Timeouts and Retries in a Trace
 
-Inspect a trace with a slow model call and a failed tool.
+Compare a normal request with a slow request for the same question. Both eventually cite the correct passage. Use the timestamps of the failed fetch, retry, and final model call to account for the extra wall-clock time.
 
-**Check.** Identify which span accounts for the delay and which records the error.
+**Check.** Name the operation to investigate first, quantify the additional delay against the normal run, and quote the recorded error that explains it.
 
-### 11.6 Track model usage and session cost
+### 11.6 Measuring Token Usage and Cost across a Session
 
-Group traces by session and compute cost from token counts and a provided price table.
+Group two speaker turns by session ID. Use each model call's own input and output counts and the supplied per-model rates. The pricing fixture includes a charged retry and a nearby turn belonging to another speaker.
 
-**Check.** Compare the calculated session total with the fixture total.
+**Check.** Report the cost of each turn and their combined cost. Show which call was counted twice in a supplied incorrect total and which unrelated trace belongs outside the session.
 
-### 11.7 Attach feedback to a trace
+### 11.7 Connecting Speaker Feedback to an Answer
 
-Attach a feedback score to a traced answer through the supplied Langfuse workflow.
+A speaker rates the first answer after the second reply has arrived. The feedback event carries the original answer's trace ID. Write a Langfuse score with that ID and inspect the answer and handbook passage together.
 
-**Check.** Verify the score references the intended trace ID.
+**Check.** Demonstrate that the rating lands on the first turn. Compare the speaker's requested deliverable with the section retrieved and explain whether the complaint points to a real error.
 
-### 11.8 Select traces for offline evaluation
+### 11.8 Creating Evaluation Cases from Traces
 
-Pick representative success, failure, and insufficient-evidence traces and turn them into offline cases.
+Use the confirmed draft-versus-final mix-up to write a replayable case. Keep the question, handbook version, correct source ID, expected behavior and originating trace ID. Verify the expected deadline against the handbook. Add a successful lookup and a genuinely unanswerable request from the supplied traces.
 
-**Check.** Verify each case contains sanitized input, expected behavior, and a source trace ID.
+**Check.** Another learner can label each expected outcome using the supplied handbook alone. The three cases retain their trace IDs and omit speaker identifiers.

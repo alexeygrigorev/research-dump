@@ -5,7 +5,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. 
 
 ## Summary
 
-Learners add policy checks to the internal support assistant. They validate requests, enforce tool permissions before execution, route ticket submission to human approval, and check the assistant's output before returning it.
+Learners add policy checks to the conference speaker support assistant. They validate requests, enforce tool permissions before execution, route ticket submission to explicit approval for the reviewed draft, and check the assistant's output before returning it.
 
 ## Learning objectives
 
@@ -17,7 +17,7 @@ Learners add policy checks to the internal support assistant. They validate requ
 
 ## Why here
 
-The earlier agent courses give learners a workflow with retrieval and action tools. Learners can see which boundary catches each policy violation before integrating those checks into the capstone.
+The evaluation course establishes a baseline. Learners add controls, rerun representative cases, and check whether safeguards block disallowed actions while still serving legitimate speakers. The invoice capstone reuses the approval boundary.
 
 ## Transformation
 
@@ -35,7 +35,7 @@ Typed validation, policy functions, tool preconditions, human approval, structur
 
 ### How it's used in the exercises
 
-Give learners a small support policy and a local ticket store. They validate requests before routing, check permission and approval before changing the store, and verify citation IDs against the evidence returned by the search tools. Bundle allowed and denied requests, an approval and a rejection, and a knowledge document containing an instruction to submit a ticket. Grade the returned decision and inspect the fixture store to verify which requests caused a write.
+Give learners the speaker handbook and a simulated speaker ticket store. Drafts stay in the current workflow. Only approved submissions write to the ticket store. They validate requests before routing, check permission and approval before changing the store, and verify citation IDs against the evidence returned by the search tools. Bundle allowed and denied requests, an approval and a rejection, and a knowledge document containing an instruction to submit a ticket. Grade the returned decision and inspect the fixture store to verify which requests caused a write.
 
 ### Model / release
 
@@ -43,6 +43,8 @@ Python 3.13, LangChain or LangGraph for the existing assistant, and Pydantic for
 
 ### Source material
 
+- Alexey’s May workshop, `2026/05/2026-05-26-agent-with-guardrails` in `ai-shipping-labs-workshops-raw`, uses a Zoomcamp FAQ agent to introduce input and output checks. Reuse the progression with speaker support.
+- Alexey’s January workshop, `2026/01/2026-01-06-guardrails-for-ai-agents` in the same repository, covers tool-based guardrails. Keep approvals and permissions in application code.
 - **BC** Week 7 Guardrails, `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md` and `v2/07-project-bonus/05-guardrails-pydantic/02-guardrails-tool-calls.md`. Adapt the policy and tool-call patterns to the existing assistant.
 - **BC** Week 4 Multi-Agent Systems, human-in-the-loop exercises.
 - **FG** Guardrails appear in 19.8% of AI-First roles and rose from 10.2% to 17.5% of all roles during the sampled period.
@@ -51,40 +53,40 @@ Python 3.13, LangChain or LangGraph for the existing assistant, and Pydantic for
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 13.1 | Turning policy into checks | BC `v2/07-project-bonus/05-guardrails-pydantic/01-introduction.md` |
-| 13.2 | Validating requests | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md` |
-| 13.3 | Checking tool arguments and permissions | BC `v2/07-project-bonus/05-guardrails-pydantic/02-guardrails-tool-calls.md` |
-| 13.4 | Approval before a workflow action | BC `v2/04-testing/06-multi-agent/11-14` |
-| 13.5 | Checking outputs and citations | BC `v2/07-project-bonus/04-guardrails-sdk/02-guardrails-sdk.md`; new citation exercise |
+| 13.1 | Setting Limits for the Speaker Support Assistant | May 2026 guardrails workshop `01-overview.md` |
+| 13.2 | Blocking Off-Topic Requests | May 2026 guardrails workshop `05-input-guardrails.md` |
+| 13.3 | Checking Permissions before Ticket Submission | January 2026 guardrails workshop `09-tool-based-guardrails.md` |
+| 13.4 | Getting Approval for a Ticket Draft | Buildcamp Week 4 human-in-the-loop exercises |
+| 13.5 | Checking Replies for Unsupported Promises | May 2026 guardrails workshop `07-output-guardrails.md`, `08-multiple-guardrails.md` |
 
 ## Detailed lesson outline
 
-### 13.1 Turning policy into checks
+### 13.1 Setting Limits for the Speaker Support Assistant
 
-Turn a support policy into rules for allowed requests, ticket creation, and citing sources.
+Compare three runs of the existing assistant: a valid rehearsal question, an unrelated request, and a response that promises an extension the handbook does not authorize. Identify where each decision belongs in the request, tool, and reply flow.
 
-**Check.** Map a supplied set of requests to allow, block, or ask for approval.
+**Check.** Assign each case an expected outcome and the boundary responsible for enforcing it.
 
-### 13.2 Validating requests
+### 13.2 Blocking Off-Topic Requests
 
-Add a request validator for prohibited fields and unsupported request types.
+Add a typed topic and intent decision before the agent runs. Use scripted verdicts to exercise the route, then inspect a borderline speaker question.
 
-**Check.** Check both a valid request and one containing disallowed data.
+**Check.** Confirm an unrelated request does not reach retrieval and a relevant one still reaches the assistant.
 
-### 13.3 Checking tool arguments and permissions
+### 13.3 Checking Permissions before Ticket Submission
 
-Validate tool arguments and permissions before dispatch in a simulated support system.
+Allow the assistant to prepare a local draft. Bind a draft to its authenticated speaker. Route a request about that speaker’s own rehearsal to approval and deny a request to file a ticket for another speaker. Test a handbook passage that tries to instruct the assistant to submit a ticket.
 
-**Check.** Verify that an unauthorized ticket action never reaches the tool.
+**Check.** Verify that the authorized request reaches approval, the cross-speaker request is denied, and neither request writes a ticket at this step.
 
-### 13.4 Approval before a workflow action
+### 13.4 Getting Approval for a Ticket Draft
 
-Pause a draft ticket workflow for review and resume it with an approval or rejection.
+Show the reviewer the proposed ticket, record approval for that draft version, and resume the workflow. Run fixtures for rejection, a changed draft, and a retry of an approved submission.
 
-**Check.** Verify execution occurs only after approval.
+**Check.** Verify one write for the approved version and zero writes when rejected or changed after approval.
 
-### 13.5 Checking outputs and citations
+### 13.5 Checking Replies for Unsupported Promises
 
-Validate the structured answer and check its citations against the retrieved IDs.
+Check the completed answer before returning it. Check both a citation outside the retrieved evidence and an extension promise that cites a real retrieved section without support for that promise. Use the held-out cases from evaluation to compare the guarded and baseline assistants.
 
-**Check.** Reject a fixture that cites an article absent from the evidence.
+**Check.** Verify that unsafe replies are withheld and report any valid answers the new checks reject.

@@ -1,25 +1,26 @@
 # 12. Evaluating RAG and Agents
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2–3 hours.
 
 ## Summary
 
-Tests say whether something broke; evaluation says how good the system is. **Evaluation is the #1 hiring differentiator** in the field guide: **61.8%** of AI-First roles require evaluation skills (climbing from 55.9% in Feb to **69.3%** in Nov), and LLM-native eval tooling rose from 26.7% to 34.5%. Learners build golden and synthetic datasets, measure retrieval and answer quality (including faithfulness/hallucinations), align an LLM judge with human labels, and compare system versions.
+A proposed change helps the conference assistant find handbook sections for paraphrased questions. Does it also help a speaker get an accurate answer or a usable support-ticket draft? Learners compare two versions in two parts. First they score retrieval and the claims made from the retrieved passages. Then they run complete speaker requests and check what the agent actually accomplished. Both parts feed one release decision.
 
 ## Learning objectives
 
-- Build an evaluation dataset from real and synthetic questions
-- Measure retrieval quality and answer quality (including faithfulness/hallucinations) separately
-- Create an LLM judge and check its agreement with human labels
-- Run an evaluation over two versions of a system and decide which one ships
+- Construct a small, human-checked evaluation set from traces and synthetic questions
+- Measure retrieval hit rate and rank, answer correctness, grounding, and appropriate abstention
+- Calibrate an answer judge against held-out human labels
+- Score agent tasks from their answers, tool records, and final local state
+- Compare assistant versions on the same cases and report the quality and cost trade-off
 
 ## Why here
 
-Uses the tests and traces from the preceding courses. Learners turn representative trace examples into offline scenarios, then measure changes before they reach deployment.
+Course 10 supplies the test suite and a first judge rubric. Course 11 supplies examples of real failure modes. Learners now ask how frequently each version succeeds across several kinds of speaker requests. The resulting metrics report becomes the input to the quality check in course 14.
 
 ## Transformation
 
-From "the answers look fine to me" to "I can measure how good my application is and prove that a change improved it."
+Learners can defend a decision to ship or hold a change, identify the group of speakers affected, and point to individual cases that explain a metric.
 
 ## Theory or application
 
@@ -29,92 +30,89 @@ Theory and application
 
 ### Syntax / functionality involved
 
-Ground-truth generation with an LLM, batch runs over a dataset, hit rate/MRR, LLM-as-a-judge with structured output (faithfulness, relevance, correctness), judge-vs-human agreement, comparing prompts and models in a results table
+Labeled case records, ranked section IDs, hit rate@k and mean reciprocal rank@k, claim-level rubrics, judge agreement, local tool-state snapshots, paired version reports.
 
 ### How it's used in the exercises
 
-The learner generates synthetic questions for documents, runs two prompt/model variants over them, hand-labels a small sample, writes a judge, checks where the judge disagrees with their labels and fixes the judge prompt, then picks the winning version from the evaluation table.
+Supply two assistant versions, a frozen handbook, a local ticket-draft tool, and recorded outputs for roughly two dozen cases. Include direct lookups, paraphrases, questions the handbook cannot answer, and requests to draft a ticket. Each case has a stable ID. Both versions receive the same starting state. Keep scenario families together when splitting development and held-out cases so paraphrases of one question cannot leak into both sets.
 
 ### Model / release
 
-Python 3.13; `pandas>=3.0.3`, `openai>=2.38.0`, `langgraph` / `pydantic-ai>=1.55.0`, `tqdm>=4.67.3`, `minsearch>=0.1.0`. Cheap model for generation; the judge model is a lesson topic.
+Python 3.13, pandas, the course 9 project, and an inexpensive model for demonstrating synthetic questions and judging. Provide recorded candidates, answers, tool events, judge outputs, token counts and timings so the graded comparison is reproducible.
 
 ### Source material
 
-- **FG** (AI Engineering Field Guide, 9,760 jobs): Evaluation #1 differentiator (61.8% AI-First → 69.3% Nov), LLM Evaluation 33.5% AI-First (20.3% → 26.6% overall), LLM-native eval tooling (LangSmith, Langfuse, Guardrails, LLM Evaluation) 26.7% → 34.5%, Evaluation and quality in 71.3% of jobs' responsibilities (12,132 mentions)
-- **FG learning paths / portfolio** (`learning-paths/README.md`, `portfolio/`, commit `1556dcb2`): "Evaluation" block (offline evaluation, retrieval evaluation, synthetic data, prompt optimization from eval results). `portfolio/04-polishing.md`: start with 20-50 cases covering easy, messy, out-of-scope, refusal and citation cases, and save dated results in the repo.
-- **LZ**: LLM Zoomcamp (`github.com/DataTalksClub/llm-zoomcamp`) Module 4 Evaluation (all lessons)
-- **BC**: AI Engineering Buildcamp (`ai-engineering-buildcamp/curriculum.md`) Week 6: Measure: Offline Evaluation for Agents, Synthetic Evaluation Data
-
-### Notes
-
-Dataset sizes must stay small (tens of questions) to keep API cost and run time inside a 20-30 minute lesson; a pre-computed larger result file can be provided for analysis. Also introduces how LLM-native eval workflows (e.g., Langfuse/LangSmith-style dataset & experiment tables) replace classic MLOps eval tools.
+- LLM Zoomcamp Module 4 covers ground truth, search metrics, RAG answer quality and agent trajectories. [LLM Zoomcamp evaluation](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/04-evaluation)
+- Buildcamp Week 6 covers running scenarios, human-labeled datasets, judge alignment and synthetic questions. [Buildcamp evaluation](https://github.com/alexeygrigorev/ai-bootcamp/tree/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/06-evaluation)
+- The AI Engineering Field Guide identifies evaluation as a differentiating skill in AI-first roles. Its portfolio guide recommends a small case set that includes messy questions, missing evidence and citations.
 
 ## Exercise adapted from the Buildcamp
 
-Adapt the recipe assistant homework to a batch of internal knowledge requests. Learners label a small set of fixed answers, compare their labels with a judge’s verdicts, and revise the rubric after inspecting disagreements. Provide a separate labeled set to check whether agreement improves. Use the checked rubric to compare two assistant versions on the same scenarios.
-
-[Buildcamp Week 6 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/06-evaluation/homework/01-homework.md)
+Adapt the recipe-assistant exercise to speaker questions and ticket drafts. Label claims using the handbook, inspect disagreements with a judge, and freeze the revised rubric. On fresh cases, compare which version retrieved evidence, answered correctly and completed the requested task. Keep the results keyed by case ID so an instructor can trace a score back to its evidence. [Buildcamp Week 6 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/06-evaluation/homework/01-homework.md)
 
 ## Lesson outline and source map
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 12.1 | Offline and online evaluation | LZ `04-evaluation/01-intro.md`, `11-evaluation-intro.md`; FG Eval (69.3% Nov) |
-| 12.2 | Build a ground-truth dataset | LZ `04-evaluation/02-ground-truth.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
-| 12.3 | Generate and review synthetic questions | BC `v2/06-evaluation/03-synthetic-data/02-generating-questions.md` |
-| 12.4 | Evaluating retrieval | LZ `04-search-evaluation.md`, `05-search-metrics.md` |
-| 12.5 | Score answer accuracy and grounding | LZ `12-rag-answers.md`; BC `v2/06-evaluation/02-measure/04-gold-standard-dataset.md` |
-| 12.6 | Calibrate an LLM judge against human labels | LZ `13-llm-as-judge.md`; BC `02-measure/05-judge-alignment.md` |
-| 12.7 | Measure agent task success | LZ `14-agent-evaluation.md`; BC `02-measure/03-running-scenarios.md`, `06-running-evals.md` |
-| 12.8 | Compare assistant versions | LZ `06-search-tuning.md`; BC `03-synthetic-data/04-judging-synthetic-data.md` |
+| 12.1 | Building a Benchmark for Handbook Questions | LZ `04-evaluation/01-intro.md`, `02-ground-truth.md`. BC Week 6 `02-measure/04-gold-standard-dataset.md` |
+| 12.2 | Generating and Reviewing Synthetic Questions | BC `03-synthetic-data/02-generating-questions.md` |
+| 12.3 | Measuring Retrieval Quality | LZ `04-search-evaluation.md` and `05-search-metrics.md` |
+| 12.4 | Scoring Grounded Answers and Calibrating the Judge | LZ `12-rag-answers.md` and `13-llm-as-judge.md`. BC `02-measure/05-judge-alignment.md` |
+| 12.5 | Defining Success for Agent Tasks | LZ `14-agent-evaluation.md`. BC `02-measure/03-running-scenarios.md` |
+| 12.6 | Replaying Agent Scenarios and Inspecting Tool State | BC `02-measure/03-running-scenarios.md` and `06-running-evals.md` |
+| 12.7 | Measuring Task Success and Analyzing Failures | LZ `14-agent-evaluation.md`. BC `02-measure/06-running-evals.md` |
+| 12.8 | Comparing Assistant Versions before Release | LZ `06-search-tuning.md`. BC `03-synthetic-data/04-judging-synthetic-data.md` |
 
 ## Detailed lesson outline
 
-### 12.1 Offline and online evaluation
+**Part 1. Evaluating handbook retrieval and answers**
 
-Review a fixed benchmark, user feedback, and a production trace. Decide which evidence answers an offline or online quality question.
+### 12.1 Building a Benchmark for Handbook Questions
 
-**Check.** Match each evidence source to the decision it can support.
+Start with a release report in which both versions pass the deadline regression test, but one retrieves the wrong section for several paraphrases. Trace one report row to its source. Turn the course 11 examples into labeled cases with a case ID, question, expected fact or abstention, and acceptable handbook section IDs. A speaker rating helps select a case. A human checks its label against the frozen handbook.
 
-### 12.2 Build a ground-truth dataset
+**Check.** Label the final-slides deadline and the unanswered travel-reimbursement question. Explain which one belongs in the retrieval hit-rate denominator and how to score the other answer.
 
-Write human-labeled handbook or support questions with expected answers and supporting source IDs. Include an unanswered question.
+### 12.2 Generating and Reviewing Synthetic Questions
 
-**Check.** Verify that each supported answer is backed by its assigned source.
+Ask for paraphrases and harder questions from a handbook passage. Review the generated questions and reference answers for ambiguity, near-duplicates and invented facts. Group accepted variants by the underlying request before reserving families for a final comparison.
 
-### 12.3 Generate and review synthetic questions
+**Check.** Reject a candidate that assumes travel reimbursement and correct a reference answer that confuses draft and final deadlines. Verify that all variants of a single underlying request stay on one side of the split.
 
-Generate paraphrases and harder questions from labeled sources, then review them before adding them to the benchmark.
+### 12.3 Measuring Retrieval Quality
 
-**Check.** Reject a generated question whose assigned text cannot support its answer.
+Run both retrievers on the labeled lookup cases. Record the rank of the first acceptable section within the top three results. Calculate hit rate@3 and mean reciprocal rank@3, giving a miss zero credit.
 
-### 12.4 Evaluating retrieval
+**Check.** For three answerable cases whose first relevant sections rank first, third, and outside the top three, derive a hit rate of 2/3 and an MRR of 4/9. Inspect a case whose section moved up even though its hit indicator stayed the same.
 
-Run retrieval against the dataset and calculate hit rate and mean reciprocal rank.
+### 12.4 Scoring Grounded Answers and Calibrating the Judge
 
-**Check.** Verify metrics against a fixture with known ranks and inspect a missed source.
+Label answer correctness against the reference fact, and grounding against the passages actually supplied to the model. Score abstention separately on unanswered cases. Reuse the claim rubric from course 10. Inspect human–judge disagreements on a calibration sample, revise the rubric, and measure agreement on untouched labels.
 
-### 12.5 Score answer accuracy and grounding
+**Check.** Score one answer that gives the correct final deadline after retrieving only draft instructions and one that invents a deadline extension. Show a false pass by the judge and report held-out agreement as a count and denominator.
 
-Score answers for correctness and support from retrieved text.
+**Part 2. Evaluating complete agent tasks**
 
-**Check.** Identify a fluent answer that makes a claim outside its cited passage.
+### 12.5 Defining Success for Agent Tasks
 
-### 12.6 Calibrate an LLM judge against human labels
+For “When are slides due?”, success means a supported answer. For “Draft a support ticket asking for a later rehearsal,” it means a usable local draft reflecting the speaker's request. For an ambiguous ticket request, the expected outcome is a clarification with no draft created. Give each scenario its starting state, allowed actions and observable end condition.
 
-Compare an LLM judge with human labels and revise its rubric after examining disagreements.
+**Check.** Compare two valid paths to the same draft, then score a third run whose reply says “I drafted it” but leaves the draft store empty. Identify which evidence settles each outcome.
 
-**Check.** Check agreement on a held-out set after the revision.
+### 12.6 Replaying Agent Scenarios and Inspecting Tool State
 
-### 12.7 Measure agent task success
+Reset the local tool store before each scenario. Run the baseline and candidate against the same scripted inputs and record the reply, tool events, and resulting draft state for each version. Use the frozen answer rubric for question-answering tasks and direct state checks for draft creation.
 
-Run a held-out set of support scenarios against an agent version. Score outcomes such as correct routing, appropriate tool use, and completing the task with evidence.
+**Check.** Reverse execution order and rerun two cases with the same starting state. Their success labels must remain the same. Flag a duplicate draft even though the final reply reads correctly.
 
-**Check.** Report task success across the dataset and identify which failure type drives the result.
+### 12.7 Measuring Task Success and Analyzing Failures
 
-### 12.8 Compare assistant versions
+Compute success separately for lookups, unsupported questions, and draft or clarification requests. For failed cases, follow the tool records and retrieved passages to identify the first consequential mistake: a missed source, an unsupported claim, or an incorrect tool action.
 
-Compare two versions on a common dataset with quality, cost, and latency results.
+**Check.** Report a numerator and denominator for each task group. Identify two failed requests that sound equally confident but require different fixes. Show the evidence behind each diagnosis.
 
-**Check.** Choose a version using stated criteria and point to specific cases that influenced the decision.
+### 12.8 Comparing Assistant Versions before Release
+
+Compare the two versions on the held-out cases with the same handbook, starting tool state, and frozen rubric. Join outcomes by case ID. Report retrieval rank, answer quality, task success, cost and latency. Apply release criteria supplied before scoring, including a minimum draft-task success rate.
+
+**Check.** Make a ship-or-hold decision on a fixture where better retrieval conceals a decline in correct drafts. Show the threshold calculation and a changed case that explains it. Save the per-version counts, denominators and threshold results in a machine-readable report for CI.

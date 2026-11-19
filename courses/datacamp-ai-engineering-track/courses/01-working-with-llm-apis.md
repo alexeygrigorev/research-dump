@@ -4,7 +4,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. 
 
 ## Summary
 
-Learners use the OpenAI Responses API from Python. They send instructions and conversation messages, read token usage, and extract validated fields from a document. The examples adapt the Buildcamp’s documentation assistant to the track’s internal knowledge base.
+Learners use the OpenAI Responses API from Python to answer a speaker’s question about a conference handbook. They carry an answer into a follow-up turn, read token usage, and extract dates and submission instructions from the same handbook.
 
 ## Learning objectives
 
@@ -49,16 +49,16 @@ Python 3.13, `openai>=2.15.0`, Pydantic, and `python-dotenv>=1.2.1`. Use a small
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 1.1 | Your first OpenAI API call from Python | BC `v2/01-foundation/03-rag/03-openai-api.md`; LZ `01-agentic-rag/07-llm.md` |
-| 1.2 | Instructions and conversation history | BC `v2/01-foundation/03-rag/03-openai-api.md` |
-| 1.3 | Token usage and cost | BC `v2/04-testing/03-testing/06-tracking-costs.md` |
-| 1.4 | Structured output with Pydantic | BC `v2/01-foundation/04-structured-output/01-structured-output.md` |
-| 1.5 | Turn text into structured records | BC `v2/01-foundation/04-structured-output/02-documentation-rag-structured-output.md` |
-| 1.6 | Streaming responses | BC `v2/01-foundation/04-structured-output/03-streaming-structured-output.md` |
+| 1.1 | Making Your First OpenAI API Call | BC `v2/01-foundation/03-rag/03-openai-api.md`; LZ `01-agentic-rag/07-llm.md` |
+| 1.2 | Giving the Model Instructions and Conversation History | BC `v2/01-foundation/03-rag/03-openai-api.md` |
+| 1.3 | Estimating the Cost of a Request | BC `v2/04-testing/03-testing/06-tracking-costs.md` |
+| 1.4 | Getting Structured Output with Pydantic | BC `v2/01-foundation/04-structured-output/01-structured-output.md` |
+| 1.5 | Turning Text into Structured Records | BC `v2/01-foundation/04-structured-output/02-documentation-rag-structured-output.md` |
+| 1.6 | Streaming an OpenAI Response | BC `v2/01-foundation/04-structured-output/03-streaming-structured-output.md` |
 
 ## Detailed lesson outline
 
-### 1.1 Your first OpenAI API call from Python
+### 1.1 Making Your First OpenAI API Call
 
 Start with the speaker handbook excerpt below. Build a Responses API request that asks when final slides are due, then read the answer from the response.
 
@@ -66,31 +66,31 @@ Start with the speaker handbook excerpt below. Build a Responses API request tha
 
 **Check.** Inspect the request payload and extract the answer from a recorded API response.
 
-### 1.2 Instructions and conversation history
+### 1.2 Giving the Model Instructions and Conversation History
 
 Ask when final slides are due, then follow up with “Where do I upload them?” Add instructions to answer from the supplied handbook and carry the original question and answer into the next request.
 
 **Check.** Check that the payload includes the relevant history and that the follow-up is interpreted as a question about where to upload final slides.
 
-### 1.3 Token usage and cost
+### 1.3 Estimating the Cost of a Request
 
-Read input and output token counts from a recorded response. Use a supplied per-million-token price table to estimate the cost of both turns.
+Read the input and output token counts for both turns. Use the supplied per-million-token rates to price the exchange. Compare recorded answers and usage for three models on those same questions.
 
-**Check.** Compare the input, output, and total costs with expected values.
+**Check.** Calculate each model’s total cost and select the least expensive one that gives both the correct deadline and the upload destination.
 
-### 1.4 Structured output with Pydantic
+### 1.4 Getting Structured Output with Pydantic
 
-Start with a simple calendar message that explicitly states an event name and date. Define an event schema, request a parsed response, and read the returned fields as Python values.
+Start with a rehearsal announcement from the handbook that gives the event name and date. Define an event schema, request a parsed response, and read the returned fields as Python values.
 
 **Check.** Check the parsed name and date, and inspect the validation error from a fixture with an invalid date.
 
-### 1.5 Turn text into structured records
+### 1.5 Turning Text into Structured Records
 
 Use excerpts about final slides and speaker bios to build records containing a deliverable, due date, and submission destination. Normalize explicit dates and permit null for fields the excerpt omits.
 
 **Check.** Run fixtures with complete and incomplete information. Check that an absent due date stays null and that an explicit date parses correctly.
 
-### 1.6 Streaming responses
+### 1.6 Streaming an OpenAI Response
 
 Stream a short speaker handbook answer and display text as events arrive. Collect the deltas from a recorded event stream to reconstruct the finished answer.
 
