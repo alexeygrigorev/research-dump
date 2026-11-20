@@ -56,46 +56,46 @@ The local run uses a supplied checkout and Docker-capable runner. Exercises can 
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 14.1 | Following a Code Change through CI | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 14.2 | Running the Workflow Locally | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 14.3 | Running Assistant Tests on Every Push | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
-| 14.4 | Running CI Checks without API Credentials | Buildcamp Week 4 judge and cost exercises |
-| 14.5 | Blocking Builds When Evaluation Scores Drop | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
-| 14.6 | Building a Docker Image for the Tested Commit | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.1 | Introduction to CI/CD | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.2 | Running CI Locally | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.3 | Automating Tests | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
+| 14.4 | CI without API Keys | Buildcamp Week 4 judge and cost exercises |
+| 14.5 | Evaluation Gates | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
+| 14.6 | Building Versioned Images | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
-### 14.1 Following a Code Change through CI
+### 14.1 Introduction to CI/CD
 
 Start with two recorded runs of the same change workflow. One fails a model-independent test and produces no release image. The other passes its checks and produces a tagged image.
 
 **Check.** Using the run output, identify the failed command, the skipped job, and the image produced by the successful run.
 
-### 14.2 Running the Workflow Locally
+### 14.2 Running CI Locally
 
 Read the GitHub Actions-compatible workflow YAML and invoke it on the current checkout with act, a local runner for that workflow format. Use the supplied checkout and Docker-capable environment, or inspect the recorded run.
 
 **Check.** Find the push event, job, and completed command in the output.
 
-### 14.3 Running Assistant Tests on Every Push
+### 14.3 Automating Tests
 
 Add the existing pytest suite to the automatic workflow. Run a valid change and one that sends the wrong tool argument.
 
 **Check.** Show the test failure and verify that downstream jobs do not start.
 
-### 14.4 Running CI Checks without API Credentials
+### 14.4 CI without API Keys
 
 Run the required checks with scripted model and judge responses. Examine where credentials would enter a separately triggered live scoring job.
 
 **Check.** Verify that the required run succeeds without credentials and that no secret values appear in job output.
 
-### 14.5 Blocking Builds When Evaluation Scores Drop
+### 14.5 Evaluation Gates
 
 Run a small benchmark against the current checkout with recorded model dependencies and assertions against the actual answers and citations. Attach the candidate commit to the report and pass it to the threshold command. A fixture with duplicate or omitted citations gives learners a version that fails on quality even when its ordinary tests pass.
 
 **Check.** Check that the candidate regression stops packaging and that a stale report for another commit cannot be reused.
 
-### 14.6 Building a Docker Image for the Tested Commit
+### 14.6 Building Versioned Images
 
 Build the existing Dockerfile only after the required jobs pass. Tag the image with the commit ID and hand that tag to the Kubernetes exercise.
 

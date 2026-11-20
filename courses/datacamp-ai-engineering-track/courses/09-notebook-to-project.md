@@ -1,4 +1,4 @@
-# 9. From Notebooks to Python Projects
+# 9. Productionizing AI Applications
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 5 lessons, 2–3 hours.
 
@@ -47,39 +47,39 @@ The ML Zoomcamp workshop takes a churn prediction from a notebook to a Python sc
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 9.1 | Moving the Assistant from a Notebook to a Python Script | ML Zoomcamp Module 5 workshop, starter notebook and script conversion. BC Week 4, converting to a project |
-| 9.2 | Loading the Handbook Index at Startup | ML Zoomcamp 5.2, saving and loading. Course 3.7, persistent SQLite search |
-| 9.3 | Serving Answers with FastAPI | ML Zoomcamp workshop, `predict.py` and `test.py`. BC Week 4, structured output |
-| 9.4 | Locking Python Dependencies with uv | ML Zoomcamp workshop, `pyproject.toml` and `uv.lock` |
-| 9.5 | Running the Assistant in Docker | ML Zoomcamp workshop, Dockerfile and client request |
+| 9.1 | From Notebooks to Modules | ML Zoomcamp Module 5 workshop, starter notebook and script conversion. BC Week 4, converting to a project |
+| 9.2 | Loading Application Resources | ML Zoomcamp 5.2, saving and loading. Course 3.7, persistent SQLite search |
+| 9.3 | Serving with FastAPI | ML Zoomcamp workshop, `predict.py` and `test.py`. BC Week 4, structured output |
+| 9.4 | Dependency Management with uv | ML Zoomcamp workshop, `pyproject.toml` and `uv.lock` |
+| 9.5 | Containerizing with Docker | ML Zoomcamp workshop, Dockerfile and client request |
 
 ## Detailed lesson outline
 
-### 9.1 Moving the Assistant from a Notebook to a Python Script
+### 9.1 From Notebooks to Modules
 
 Run the final-slides example in the supplied notebook. Read a sample HTTP request and response for the same question to see what the conference website will need. Move the existing tool functions and the LangChain answer function into a Python package. Take the model client and search dependency as arguments so a script can use the small starter fixtures.
 
 **Check.** From another Python process, import the answer function and call it twice with different questions. The import makes zero model calls. Each call uses its own question and returns the associated answer and source IDs.
 
-### 9.2 Loading the Handbook Index at Startup
+### 9.2 Loading Application Resources
 
 The notebook prepared its search data in earlier cells. Configure the script to open the SQLite index from course 3, embed the question with the matching local model, and fetch the text of the highest-ranked section by ID.
 
 **Check.** Start from a directory outside the package and ask “Where do I send my deck?” Resolve the returned ID against the stored section and show the upload instructions. Point the script at a missing index and check that startup identifies the missing file.
 
-### 9.3 Serving Answers with FastAPI
+### 9.3 Serving with FastAPI
 
 Load the search and model dependencies at startup. Define a Pydantic request with a required question and the course 6 response with answer text, source IDs and an optional draft ID. Call the same answer function from `POST /answer` and expose `GET /health` for a startup check.
 
 **Check.** Send the deadline question from a separate client. Its response contains October 15, 2027 and a citation to “Final Slides.” A recorded draft request also returns the ID in the local store. Send a request missing the question and verify that validation rejects it before the model is called.
 
-### 9.4 Locking Python Dependencies with uv
+### 9.4 Dependency Management with uv
 
 Declare the libraries the service imports in `pyproject.toml`, generate `uv.lock`, and recreate the environment with `uv sync --locked` in a clean checkout. Document how to select the recorded client and locate the two search assets.
 
 **Check.** Start the API from that checkout and rerun the client request. Inspect a checkout with a dependency declaration changed after locking and identify why the locked install stops.
 
-### 9.5 Running the Assistant in Docker
+### 9.5 Containerizing with Docker
 
 Write a Dockerfile that installs the locked dependencies, copies the package and search assets, and starts Uvicorn. Build the image from a clean checkout, publish the service port and call it from the host.
 

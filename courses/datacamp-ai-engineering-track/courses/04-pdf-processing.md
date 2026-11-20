@@ -58,46 +58,46 @@ The Buildcamp’s books chapter extracts one page into a schema, processes the b
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 4.1 | Extracting Text from a PDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
-| 4.2 | Reading Deadlines from PDF Tables | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` (layout motivates extraction checks); new table exercise |
-| 4.3 | Extracting Speaker Deliverables and Deadlines | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
-| 4.4 | Extracting Instructions across Page Breaks | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` (whole-document pass); new continuation exercise |
-| 4.5 | Processing PDF Sections in Parallel | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
-| 4.6 | Building the Speaker Submission Checklist | `v2/02-rag-usecases-tech/04-books/08-rag.md` (reuse stored records); new checklist exercise |
+| 4.1 | PDF Extraction with PyMuPDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
+| 4.2 | Extracting PDF Tables | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` (layout motivates extraction checks); new table exercise |
+| 4.3 | Extraction with Source Evidence | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
+| 4.4 | Handling Page Breaks | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` (whole-document pass); new continuation exercise |
+| 4.5 | Parallel Extraction | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
+| 4.6 | Storing Extracted Records | `v2/02-rag-usecases-tech/04-books/08-rag.md` (reuse stored records); new checklist exercise |
 
 ## Detailed lesson outline
 
-### 4.1 Extracting Text from a PDF
+### 4.1 PDF Extraction with PyMuPDF
 
 Open the PDF edition with PyMuPDF, extract text from each page, and retain its order and document ID. Compare an ordinary paragraph, a blank page, and the submission table with the rendered PDF.
 
 **Check.** Locate the final-slides heading and identify which extract needs its row order checked before the text can be used.
 
-### 4.2 Reading Deadlines from PDF Tables
+### 4.2 Extracting PDF Tables
 
 The organizer spots a draft deadline next to the final-slides label in a flattened text extract. Read the ruled table as rows with PyMuPDF, remove its repeated header, and keep the deliverable beside its own deadline. Compare both rows with the rendered table.
 
 **Check.** Recover both draft and final deadlines, including October 15, 2027 for final slides. A result that swaps two valid dates fails this check.
 
-### 4.3 Extracting Speaker Deliverables and Deadlines
+### 4.3 Extraction with Source Evidence
 
 Apply the deliverable schema from course 1 to the recovered table rows and the bio instructions. Add the section ID in Python and ask for the supporting text alongside the extracted fields. Compare parsed records with the source to catch a validly formatted date assigned to the wrong deliverable.
 
 **Check.** Identify the unsupported date in a pair of schema-valid records, match the correct one to its row, and leave the bio deadline empty where the handbook omits it.
 
-### 4.4 Extracting Instructions across Page Breaks
+### 4.4 Handling Page Breaks
 
 The final-slides instructions start near the bottom of a page and the portal destination continues on the next. Walk the pages in order, drop the repeated running header, and append continuation text to the current section until the next section heading. Run the extractor on each complete section.
 
 **Check.** Recover one final-slides deliverable with both its deadline and its destination. Confirm that the blank page produces no deliverable and the following section keeps its own ID.
 
-### 4.5 Processing PDF Sections in Parallel
+### 4.5 Parallel Extraction
 
 Run the model calls on the prepared sections with a small thread pool. Let one recorded request fail while the others finish. Attach the section ID to each result as it arrives and rerun the failed section.
 
 **Check.** Use a recorded run to compare sequential and overlapping calls. Deliver results in a different order and verify that the records still match their sources and only the failed section is submitted twice.
 
-### 4.6 Building the Speaker Submission Checklist
+### 4.6 Storing Extracted Records
 
 The organizer asks which materials are due by October 16, 2027 and which still need a confirmed date. Save the extracted records as JSONL and reload them. Join the deadline-table rows to the submission instructions by deliverable, keeping the source excerpt for each field. Show one checklist item per deliverable and group the undated items separately.
 

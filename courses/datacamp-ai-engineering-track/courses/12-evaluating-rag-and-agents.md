@@ -1,6 +1,6 @@
 # 12. Evaluating RAG and Agents
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 11 lessons, 2–3 hours.
 
 ## Summary
 
@@ -54,26 +54,29 @@ Adapt the recipe-assistant exercise to speaker questions and ticket drafts. Labe
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 12.1 | Building a Benchmark for Handbook Questions | LZ `04-evaluation/01-intro.md`, `02-ground-truth.md`. BC Week 6 `02-measure/04-gold-standard-dataset.md` |
-| 12.2 | Generating and Reviewing Synthetic Questions | BC `03-synthetic-data/02-generating-questions.md` |
+| 12.1 | Building Ground Truth | LZ `04-evaluation/01-intro.md`, `02-ground-truth.md`. BC Week 6 `02-measure/04-gold-standard-dataset.md` |
+| 12.2 | Generating Synthetic Questions | BC `03-synthetic-data/02-generating-questions.md` |
 | 12.3 | Measuring Retrieval Quality | LZ `04-search-evaluation.md` and `05-search-metrics.md` |
-| 12.4 | Scoring Grounded Answers and Calibrating the Judge | LZ `12-rag-answers.md` and `13-llm-as-judge.md`. BC `02-measure/05-judge-alignment.md` |
-| 12.5 | Defining Success for Agent Tasks | LZ `14-agent-evaluation.md`. BC `02-measure/03-running-scenarios.md` |
-| 12.6 | Replaying Agent Scenarios and Inspecting Tool State | BC `02-measure/03-running-scenarios.md` and `06-running-evals.md` |
-| 12.7 | Measuring Task Success and Analyzing Failures | LZ `14-agent-evaluation.md`. BC `02-measure/06-running-evals.md` |
-| 12.8 | Comparing Assistant Versions before Release | LZ `06-search-tuning.md`. BC `03-synthetic-data/04-judging-synthetic-data.md` |
+| 12.4 | Evaluating RAG Answers | LZ `12-rag-answers.md` and `13-llm-as-judge.md`. BC `02-measure/05-judge-alignment.md` |
+| 12.5 | Calibrating LLM Judges | LZ `12-rag-answers.md` and `13-llm-as-judge.md`. BC `02-measure/05-judge-alignment.md` |
+| 12.6 | Agent Success Criteria | LZ `14-agent-evaluation.md`. BC `02-measure/03-running-scenarios.md` |
+| 12.7 | Running Agent Scenarios | BC `02-measure/03-running-scenarios.md` and `06-running-evals.md` |
+| 12.8 | Checking Tool State | BC `02-measure/03-running-scenarios.md` and `06-running-evals.md` |
+| 12.9 | Measuring Task Success | LZ `14-agent-evaluation.md`. BC `02-measure/06-running-evals.md` |
+| 12.10 | Error Analysis | LZ `14-agent-evaluation.md`. BC `02-measure/06-running-evals.md` |
+| 12.11 | Comparing System Versions | LZ `06-search-tuning.md`. BC `03-synthetic-data/04-judging-synthetic-data.md` |
 
 ## Detailed lesson outline
 
-**Part 1. Evaluating handbook retrieval and answers**
+**Part 1. Evaluating RAG**
 
-### 12.1 Building a Benchmark for Handbook Questions
+### 12.1 Building Ground Truth
 
 Start with a release report in which both versions pass the deadline regression test, but one retrieves the wrong section for several paraphrases. Trace one report row to its source. Turn the course 11 examples into labeled cases with a case ID, question, expected fact or abstention, and acceptable handbook section IDs. A speaker rating helps select a case. A human checks its label against the frozen handbook.
 
 **Check.** Label the final-slides deadline and the unanswered travel-reimbursement question. Explain which one belongs in the retrieval hit-rate denominator and how to score the other answer.
 
-### 12.2 Generating and Reviewing Synthetic Questions
+### 12.2 Generating Synthetic Questions
 
 Ask for paraphrases and harder questions from a handbook passage. Review the generated questions and reference answers for ambiguity, near-duplicates and invented facts. Group accepted variants by the underlying request before reserving families for a final comparison.
 
@@ -85,33 +88,53 @@ Run both retrievers on the labeled lookup cases. Record the rank of the first ac
 
 **Check.** For three answerable cases whose first relevant sections rank first, third, and outside the top three, derive a hit rate of 2/3 and an MRR of 4/9. Inspect a case whose section moved up even though its hit indicator stayed the same.
 
-### 12.4 Scoring Grounded Answers and Calibrating the Judge
+### 12.4 Evaluating RAG Answers
 
-Label answer correctness against the reference fact, and grounding against the passages actually supplied to the model. Score abstention separately on unanswered cases. Reuse the claim rubric from course 10. Inspect human–judge disagreements on a calibration sample, revise the rubric, and measure agreement on untouched labels.
+Score answer correctness against the reference fact, and grounding against the passages supplied to the model. Score abstention separately on unanswered cases. Reuse the claim rubric from course 10.
 
-**Check.** Score one answer that gives the correct final deadline after retrieving only draft instructions and one that invents a deadline extension. Show a false pass by the judge and report held-out agreement as a count and denominator.
+**Check.** Score an answer that gives the correct final deadline after retrieving only draft instructions, and one that invents a deadline extension.
 
-**Part 2. Evaluating complete agent tasks**
+### 12.5 Calibrating LLM Judges
 
-### 12.5 Defining Success for Agent Tasks
+Compare judge verdicts with human labels on a calibration sample. Inspect disagreements, revise the rubric, and measure agreement on untouched labels.
+
+**Check.** Show a false pass by the judge and report held-out agreement as a count and denominator.
+
+**Part 2. Evaluating agents**
+
+### 12.6 Agent Success Criteria
 
 For “When are slides due?”, success means a supported answer. For “Draft a support ticket asking for a later rehearsal,” it means a usable local draft reflecting the speaker's request. For an ambiguous ticket request, the expected outcome is a clarification with no draft created. Give each scenario its starting state, allowed actions and observable end condition.
 
 **Check.** Compare two valid paths to the same draft, then score a third run whose reply says “I drafted it” but leaves the draft store empty. Identify which evidence settles each outcome.
 
-### 12.6 Replaying Agent Scenarios and Inspecting Tool State
+These criteria define what the next lessons measure: task completion must be observable in answers or tool state.
 
-Reset the local tool store before each scenario. Run the baseline and candidate against the same scripted inputs and record the reply, tool events, and resulting draft state for each version. Use the frozen answer rubric for question-answering tasks and direct state checks for draft creation.
+### 12.7 Running Agent Scenarios
 
-**Check.** Reverse execution order and rerun two cases with the same starting state. Their success labels must remain the same. Flag a duplicate draft even though the final reply reads correctly.
+Give each scenario a starting state and scripted inputs. Reset the local tool store before each run. Run the baseline and candidate on the same cases and record replies and tool events.
 
-### 12.7 Measuring Task Success and Analyzing Failures
+**Check.** Reverse execution order and verify that both versions still receive the same starting state.
 
-Compute success separately for lookups, unsupported questions, and draft or clarification requests. For failed cases, follow the tool records and retrieved passages to identify the first consequential mistake: a missed source, an unsupported claim, or an incorrect tool action.
+### 12.8 Checking Tool State
 
-**Check.** Report a numerator and denominator for each task group. Identify two failed requests that sound equally confident but require different fixes. Show the evidence behind each diagnosis.
+Inspect the final draft store after each scenario. Use direct state checks for draft creation and the frozen answer rubric for question-answering tasks.
 
-### 12.8 Comparing Assistant Versions before Release
+**Check.** Flag a duplicate draft and a run that says it created a draft but leaves the store empty.
+
+### 12.9 Measuring Task Success
+
+Compute task success separately for lookups, unsupported questions, and draft or clarification requests. Apply the success criteria defined before running the scenarios.
+
+**Check.** Report a numerator and denominator for each task group.
+
+### 12.10 Error Analysis
+
+For failed cases, follow tool records and retrieved passages to identify the first consequential mistake: a missed source, an unsupported claim, or an incorrect tool action.
+
+**Check.** Diagnose two failed requests that sound equally confident but need different fixes. Show the evidence behind each diagnosis.
+
+### 12.11 Comparing System Versions
 
 Compare the two versions on the held-out cases with the same handbook, starting tool state, and frozen rubric. Join outcomes by case ID. Report retrieval rank, answer quality, task success, cost and latency. Apply release criteria supplied before scoring, including a minimum draft-task success rate.
 

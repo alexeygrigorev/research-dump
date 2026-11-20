@@ -49,39 +49,39 @@ Python 3.13, Python MCP SDK and the course 6 LangChain stack with a compatible M
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 7.1 | Sharing Tools with MCP | BC `v2/03-agents/07-mcp/01-section-overview.md`, MCP architecture |
-| 7.2 | Discovering and Calling Tools with an MCP Client | MCP tool discovery and execution examples |
-| 7.3 | Building an MCP Server for the Handbook | BC `v2/03-agents/07-mcp/02-stdio-transport.md` and `old/02-agents/50-mcp.md` |
-| 7.4 | Connecting the MCP Server to the LangChain Agent | LangChain MCP integration, adapted to the course 6 assistant |
-| 7.5 | Diagnosing Tool Calls and Connection Failures | New exercise using the handbook server and client |
+| 7.1 | Introduction to MCP | BC `v2/03-agents/07-mcp/01-section-overview.md`, MCP architecture |
+| 7.2 | MCP Clients | MCP tool discovery and execution examples |
+| 7.3 | Building an MCP Server | BC `v2/03-agents/07-mcp/02-stdio-transport.md` and `old/02-agents/50-mcp.md` |
+| 7.4 | MCP Tools in LangChain | LangChain MCP integration, adapted to the course 6 assistant |
+| 7.5 | Debugging MCP Connections | New exercise using the handbook server and client |
 
 ## Detailed lesson outline
 
-### 7.1 Sharing Tools with MCP
+### 7.1 Introduction to MCP
 
 Watch the organizer's script and the speaker assistant look up the same handbook section through a supplied server. Follow one request from the host application through its client to the process that owns the handbook index.
 
 **Check.** Label the three roles in the trace and identify which component reads the handbook and which chooses the tool for the speaker's question.
 
-### 7.2 Discovering and Calling Tools with an MCP Client
+### 7.2 MCP Clients
 
 Connect the organizer's script to the supplied server. List its tools and inspect the input schema for fetch. Use the client to search for rehearsal policy and fetch the section by the returned ID.
 
 **Check.** Inspect the outgoing call and returned passage. The argument name must match the discovered schema and the section ID must come from the search response.
 
-### 7.3 Building an MCP Server for the Handbook
+### 7.3 Building an MCP Server
 
 Wrap course 5's search and fetch functions as server tools. Give each its typed arguments and description. Use the provided launcher to run the server over stdio, then point the organizer's script at it.
 
 **Check.** From the client, discover both tools and retrieve a section added to the local handbook fixture. Match its ID and text to the new fixture entry.
 
-### 7.4 Connecting the MCP Server to the LangChain Agent
+### 7.4 MCP Tools in LangChain
 
 Register the discovered handbook tools alongside the assistant's local schedule and draft tools. Ask how a speaker can change a rehearsal, then ask for their current slot.
 
 **Check.** Inspect the server and local tool logs. The policy question must fetch the cited section from the server. The booking lookup must use the local schedule and return the fixture slot.
 
-### 7.5 Diagnosing Tool Calls and Connection Failures
+### 7.5 Debugging MCP Connections
 
 Compare a call for a missing section with a call made while the server is unavailable. Use the client evidence to identify where each failure occurred and give the speaker an appropriate response.
 

@@ -1,4 +1,4 @@
-# 16. AI Engineering Capstone: Ship an End-to-End Assistant
+# 16. AI Engineering Capstone
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 6. Capstone. 7 lessons, 2-3 hours.
 
@@ -62,53 +62,53 @@ Use My Daily Tasks to show how tools, an agent, tests, tracing, evaluation, and 
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 16.1 | Designing the Invoice Review Workflow | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
-| 16.2 | Extracting Invoice Fields and Finding Payment Terms | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
-| 16.3 | Checking Discrepancies and Approving Review Tickets | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
-| 16.4 | Testing and Evaluating Invoice Reviews | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
-| 16.5 | Serving Review Records through FastAPI | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
-| 16.6 | Tracing an Invoice Review in Langfuse | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
-| 16.7 | Deploying the Invoice Review Assistant | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
+| 16.1 | Workflow Design | LZ `07-project-example/01-intro.md`; `project.md`; FG Use Cases |
+| 16.2 | Extraction and Retrieval | LZ `07-project-example/07-chunking.md`, `02-evaluating-retrieval.md` |
+| 16.3 | Checks and Approvals | BC `v2/07-project-bonus/03-complete-example/03-tools.md`, `04-agent.md` |
+| 16.4 | Testing and Evaluation | LZ `03-evaluating-rag.md`; BC `03-complete-example/06-testing.md`, `07-test-judges.md`, `09-evals-otel.md` |
+| 16.5 | FastAPI Integration | LZ `04-interface.md`; BC `03-complete-example/05-creating-app.md` |
+| 16.6 | Workflow Tracing | LZ `05-monitoring.md`; BC `03-complete-example/08-logfire.md` |
+| 16.7 | Deployment and Documentation | BC `03-complete-example/10-deployment.md`; `v2/07-project-bonus/02-project-work/04-documentation-tips.md`; LZ `06-summary.md` |
 
 ## Detailed lesson outline
 
-### 16.1 Designing the Invoice Review Workflow
+### 16.1 Workflow Design
 
 Inspect an invoice for 1,250 USD against a purchase order for 1,200 USD and an agreement that specifies Net 30. Examine the expected review record before coding. Define the fields, discrepancy reason, and evidence references needed for a reviewer to act.
 
 **Check.** Classify a clean invoice, a mismatch, and a missing-evidence case.
 
-### 16.2 Extracting Invoice Fields and Finding Payment Terms
+### 16.2 Extraction and Retrieval
 
 Extract typed invoice fields. Choose the supplier agreement applicable on the invoice date, then retrieve its payment clause and evidence.
 
 **Check.** Verify each extracted field against the invoice and the cited terms against the agreement on a development fixture. Reserve held-out cases for the final evaluation.
 
-### 16.3 Checking Discrepancies and Approving Review Tickets
+### 16.3 Checks and Approvals
 
 Compare normalized invoice values with purchase orders and the invoice ledger. Include two suppliers that reuse the same invoice number. Draft a proposed review ticket locally. Require approval of that exact draft before submitting it to the sandbox.
 
 **Check.** Verify the flagged discrepancy and supporting evidence, then show that a rejected or changed draft creates no ticket and an approved retry creates only one.
 
-### 16.4 Testing and Evaluating Invoice Reviews
+### 16.4 Testing and Evaluation
 
 Write tests for deterministic comparisons and run offline evaluation across clean, missing-evidence, duplicate, and mismatch cases.
 
 **Check.** Report field accuracy, citation correctness, and tool and approval behavior.
 
-### 16.5 Serving Review Records through FastAPI
+### 16.5 FastAPI Integration
 
 Connect the workflow to the supplied FastAPI endpoint and review view. Render a review record with discrepancy reasons and the cited evidence.
 
 **Check.** Submit a fixture and confirm a reviewer can inspect the reasons for each flag.
 
-### 16.6 Tracing an Invoice Review in Langfuse
+### 16.6 Workflow Tracing
 
 Trace PDF extraction, retrieval, comparison, and the approval gate with OpenTelemetry and inspect a run in Langfuse.
 
 **Check.** Use the trace to explain why a development invoice was flagged.
 
-### 16.7 Deploying the Invoice Review Assistant
+### 16.7 Deployment and Documentation
 
 Use the supplied CI and deployment templates to package the passing revision. Smoke-test that version on kind or use the fixture runtime when cluster access is unavailable. Document setup, checks, and known limitations in the project README.
 

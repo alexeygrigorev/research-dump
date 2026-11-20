@@ -58,11 +58,11 @@ Use a local `kind` cluster in a Docker-capable exercise environment or a preprov
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 15.1 | Introduction to Kubernetes | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.2 | Setting Up a Local Kubernetes Cluster | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.3 | Deploying the Assistant | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.4 | Connecting to the Deployed Assistant | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.5 | Configuring the Assistant | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 15.6 | Updating and Rolling Back the Assistant | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.2 | Local Kubernetes with kind | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.3 | Deployments and Readiness | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.4 | Kubernetes Services | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.5 | ConfigMaps and Secrets | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.6 | Updates and Rollbacks | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
@@ -72,31 +72,31 @@ Inspect a running Deployment, its Pods, and a Service. See how the Service selec
 
 **Check.** Identify which object keeps a replica running and which gives clients a stable target.
 
-### 15.2 Setting Up a Local Kubernetes Cluster
+### 15.2 Local Kubernetes with kind
 
 Create a local Kubernetes cluster with kind or use the preprovisioned environment. Load the exact image tag produced by the CI lesson.
 
 **Check.** Check node readiness and verify the image referenced by the Deployment is available.
 
-### 15.3 Deploying the Assistant
+### 15.3 Deployments and Readiness
 
 Write or complete the Deployment with matching labels, a container port, and a readiness probe. Use a supplied bad image or probe configuration to practice diagnosis.
 
 **Check.** Explain the failed state using recorded events or logs, then verify the corrected Pod is ready.
 
-### 15.4 Connecting to the Deployed Assistant
+### 15.4 Kubernetes Services
 
 Add a Service selector and port mapping. Forward the Service port to the learner’s machine and submit a speaker handbook question.
 
 **Check.** Verify that the Service has a ready backend and that the response cites the expected section.
 
-### 15.5 Configuring the Assistant
+### 15.5 ConfigMaps and Secrets
 
 Pass the assistant’s non-secret settings through a ConfigMap and a placeholder credential through a Secret reference. Keep the exercised endpoint read-only and its fixtures local to the service.
 
 **Check.** Change a harmless runtime setting and verify its effect after restarting the workload. With a dummy credential, confirm the application sees the Secret reference without showing its value in normal output.
 
-### 15.6 Updating and Rolling Back the Assistant
+### 15.6 Updates and Rollbacks
 
 Update to a new image tag, wait on readiness, then diagnose a supplied bad update and roll back. Use the same request as a smoke check after rollback.
 

@@ -49,46 +49,46 @@ Python 3.13, LangChain, its OpenAI integration, Pydantic and Pydantic AI. The ex
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 6.1 | Building a Handbook Agent with LangChain | BC `v2/03-agents/06-agent-frameworks-alternatives/03-langchain.md`, LZ `01-agentic-rag/15-frameworks.md` |
-| 6.2 | Adding a Rehearsal Lookup Tool | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md`, adapted to schedule data |
-| 6.3 | Creating and Editing Ticket Drafts | New workflow exercise extending the BC tool collection |
-| 6.4 | Returning Structured Answers from the Agent | BC `v2/03-agents/02-agent-basics/05-structured-output.md` |
-| 6.5 | Streaming Answers and Tool Events | BC `v2/03-agents/03-agent-frameworks/06-event-stream-handlers.md` |
-| 6.6 | Building the Ticket Drafting Agent with PydanticAI | BC `v2/03-agents/03-agent-frameworks/05-pydantic-ai.md` |
+| 6.1 | Agents with LangChain | BC `v2/03-agents/06-agent-frameworks-alternatives/03-langchain.md`, LZ `01-agentic-rag/15-frameworks.md` |
+| 6.2 | Typed Lookup Tools | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md`, adapted to schedule data |
+| 6.3 | Creating and Updating Records | New workflow exercise extending the BC tool collection |
+| 6.4 | Structured Agent Output | BC `v2/03-agents/02-agent-basics/05-structured-output.md` |
+| 6.5 | Streaming Agent Events | BC `v2/03-agents/03-agent-frameworks/06-event-stream-handlers.md` |
+| 6.6 | Agents with Pydantic AI | BC `v2/03-agents/03-agent-frameworks/05-pydantic-ai.md` |
 
 ## Detailed lesson outline
 
-### 6.1 Building a Handbook Agent with LangChain
+### 6.1 Agents with LangChain
 
 Register course 5's search and fetch functions with a LangChain agent. Run the same rehearsal-policy question. Match the tool request, result and final message to the steps in the manual loop.
 
 **Check.** Compare the two traces. In each, the fetched section ID must come from the search results and appear in the answer.
 
-### 6.2 Adding a Rehearsal Lookup Tool
+### 6.2 Typed Lookup Tools
 
 Add a typed tool that takes a speaker ID and returns that speaker's rehearsal slot, time and room. Write a description that distinguishes an individual booking from general handbook policy.
 
 **Check.** Inspect the advertised schema. Call the tool for two speakers and an unknown ID. Verify that each known booking comes from the matching row and that the missing booking is reported.
 
-### 6.3 Creating and Editing Ticket Drafts
+### 6.3 Creating and Updating Records
 
 Implement create and update tools around the supplied draft store. Ask for a draft about a rehearsal conflict, then say “Add that I can do Friday afternoon.” Pass the first tool's draft ID into the update.
 
 **Check.** Inspect the store. It must contain one draft with the correction and original references. An update for an unknown ID must return an error and leave existing drafts intact.
 
-### 6.4 Returning Structured Answers from the Agent
+### 6.4 Structured Agent Output
 
 Define a reply with answer text, source IDs and an optional draft ID. Return it from a handbook-only request and from a request to draft a ticket.
 
 **Check.** Parse both replies. Match cited sections to the fetched evidence and the returned draft ID to the stored draft. The handbook-only request should leave the store empty.
 
-### 6.5 Streaming Answers and Tool Events
+### 6.5 Streaming Agent Events
 
 Add a stream consumer to the rehearsal lookup. Show that the booking arrived, then display answer text as it becomes available. Use a supplied sequence of events that includes tool-call arguments and a tool result.
 
 **Check.** Verify that the progress message follows the tool result, assembled answer text matches the completed response, and tool-call arguments stay out of the speaker-facing text.
 
-### 6.6 Building the Ticket Drafting Agent with PydanticAI
+### 6.6 Agents with Pydantic AI
 
 Use a starter Pydantic AI agent. Register the existing rehearsal lookup and draft-creation functions and declare the same reply type. Replay the request against a fresh draft store.
 

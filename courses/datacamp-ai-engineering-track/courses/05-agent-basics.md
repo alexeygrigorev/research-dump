@@ -1,6 +1,6 @@
 # 5. Agent Basics: Tool Calling and the Agent Loop
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 5 lessons, 2–3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
 
 ## Summary
 
@@ -53,40 +53,47 @@ The Buildcamp homework searches Wikipedia for a page and fetches the selected pa
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 5.1 | Giving the RAG Assistant Search Tools | LZ `01-agentic-rag/11-agents-intro.md` and `12-rag-revision.md` |
-| 5.2 | Dispatching a Model Tool Call in Python | BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md` |
-| 5.3 | Building the Agent Loop | BC `v2/03-agents/02-agent-basics/03-agentic-loop.md`, LZ `01-agentic-rag/14-agentic-loop.md` |
-| 5.4 | Handling Follow-Up Questions | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
-| 5.5 | Handling Tool Errors and Stopping the Agent | New exercise extending the BC agent loop |
+| 5.1 | Why Agents? | LZ `01-agentic-rag/11-agents-intro.md` and `12-rag-revision.md` |
+| 5.2 | Tool Calling in Python | BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md` |
+| 5.3 | The Tool Call Loop | BC `v2/03-agents/02-agent-basics/03-agentic-loop.md`, LZ `01-agentic-rag/14-agentic-loop.md` |
+| 5.4 | The Conversation Loop | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
+| 5.5 | Handling Tool Errors | New exercise extending the BC agent loop |
+| 5.6 | Limiting Agent Runs | New exercise extending the BC agent loop |
 
 ## Detailed lesson outline
 
-### 5.1 Giving the RAG Assistant Search Tools
+### 5.1 Why Agents?
 
 Run the fixed RAG pipeline from course 2 on a rehearsal policy question. Compare its trace with an agent's traces for the same question and for “Show me the section you just cited.”
 
 **Check.** Mark the first step where the two approaches choose differently. Explain when a section ID lets the agent skip search.
 
-### 5.2 Dispatching a Model Tool Call in Python
+### 5.2 Tool Calling in Python
 
 Describe the inputs to search and fetch. Inspect a model request to fetch a section, parse its JSON arguments, call the matching Python function and return its result.
 
 **Check.** Inspect the dispatch log and outgoing message. The arguments must reach the right function and the result must carry the model's call ID.
 
-### 5.3 Building the Agent Loop
+### 5.3 The Tool Call Loop
 
 Execute each requested tool call, add its output to the conversation, and call the model again. Stop when it provides the answer. Try both a known section and a rehearsal question that requires search followed by fetch.
 
 **Check.** Verify each tool sequence, the ID passed from search to fetch and the source cited in the final answer. A completed answer must end the run.
 
-### 5.4 Handling Follow-Up Questions
+### 5.4 The Conversation Loop
 
 After answering a question about moving a rehearsal, handle “Who do I contact about that?” Carry the previous question, retrieved passage and response into the follow-up.
 
 **Check.** Inspect the second turn for the earlier evidence and match the contact in the answer to the cited passage. Start a fresh conversation and verify that it has its own history.
 
-### 5.5 Handling Tool Errors and Stopping the Agent
+### 5.5 Handling Tool Errors
 
-Handle a fetch for an unknown section. In a separate fixture, the model keeps requesting the same lookup. Add a round limit and return a clear incomplete status when the budget runs out.
+Handle a fetch for an unknown section. Return the error to the model with the matching call ID so it can explain the missing evidence.
 
-**Check.** Verify the first case returns an error to the model for the matching call. Count tool executions in the repeating case and confirm the run stops at the configured limit.
+**Check.** Verify that the error is attached to the failed call and does not become a successful lookup result.
+
+### 5.6 Limiting Agent Runs
+
+Run a fixture in which the model repeatedly requests the same lookup. Add a round limit and return an incomplete status when the budget runs out.
+
+**Check.** Count tool executions and confirm the run stops at the configured limit.

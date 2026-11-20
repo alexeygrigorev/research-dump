@@ -52,46 +52,46 @@ The original SQL exercise checks which tools ran and what they produced. Here se
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 10.1 | Writing a Test for a Missing Citation | BC Week 4 `03-testing/02-first-test.md` |
-| 10.2 | Testing Tool Calls and Arguments | BC `03-testing/03-testing-tool-calls.md` |
-| 10.3 | Testing the Answer and Its Citations | BC `03-testing/04-refactoring-tests.md` and `05-testing-output-quality.md` |
-| 10.4 | Checking Answer Grounding with an LLM Judge | BC `04-llm-judges/02-creating-judge.md` |
-| 10.5 | Testing Follow-Up Questions | BC `04-llm-judges/03-thinking-about-test-cases.md` and `05-improving-judge-tests.md` |
-| 10.6 | Tracking the Cost of Model Tests | BC `03-testing/06-tracking-costs.md` |
+| 10.1 | Agent Tests with pytest | BC Week 4 `03-testing/02-first-test.md` |
+| 10.2 | Testing Tool Calls | BC `03-testing/03-testing-tool-calls.md` |
+| 10.3 | Testing Output Quality | BC `03-testing/04-refactoring-tests.md` and `05-testing-output-quality.md` |
+| 10.4 | LLM Judges | BC `04-llm-judges/02-creating-judge.md` |
+| 10.5 | Multi-Turn Regression Tests | BC `04-llm-judges/03-thinking-about-test-cases.md` and `05-improving-judge-tests.md` |
+| 10.6 | Test Costs | BC `03-testing/06-tracking-costs.md` |
 
 ## Detailed lesson outline
 
-### 10.1 Writing a Test for a Missing Citation
+### 10.1 Agent Tests with pytest
 
 Compare two responses to the final-slides question. Both state the right date, but one loses the source ID when the application constructs the response. Invoke the answer function with a local handbook and a scripted model. Write an assertion for the expected section ID.
 
 **Check.** Run the same test against the working and broken response builders. Show the actual and expected source IDs in the failure output.
 
-### 10.2 Testing Tool Calls and Arguments
+### 10.2 Testing Tool Calls
 
 Record calls at the tool boundary. For an open question, verify that fetch receives an ID returned by search. For “Show me section X,” exercise the valid direct-fetch path. Use a second handbook fixture with different IDs.
 
 **Check.** Make the dispatcher substitute the draft-slides ID for the selected final-slides ID. The tool assertion must fail even when the recorded model still produces a plausible deadline.
 
-### 10.3 Testing the Answer and Its Citations
+### 10.3 Testing Output Quality
 
 Move repeated setup into fixtures. Send the question through the API's test client. Validate the response schema and check that citations identify sections actually fetched during that request. Parameterize two supported phrasings and an out-of-scope question on travel reimbursement.
 
 **Check.** Both supported answers pass with different wording. A well-formed response citing an unfetched section fails. The reimbursement case returns an explicit insufficient-evidence answer without a fabricated source.
 
-### 10.4 Checking Answer Grounding with an LLM Judge
+### 10.4 LLM Judges
 
 Give a judge the speaker's question, fetched text and answer. Ask for a verdict and the specific claim that lacks support. Compare a paraphrase of the real deadline with an otherwise identical answer claiming speakers have a one-week extension. Both carry the correct citation ID.
 
 **Check.** Label both answers by hand, then inspect a recorded judge response for each. Write the pytest assertion that fails on an unsupported claim and displays the reason. Capture the constructed judge request to verify that both the answer and supporting passage reached it.
 
-### 10.5 Testing Follow-Up Questions
+### 10.5 Multi-Turn Regression Tests
 
 A speaker first asks about draft slides, then asks about final slides. The application carries the previous response's source IDs into the follow-up. Encode both turns in a regression test, find the code that accumulates citations, and scope the response's citations to the current answer.
 
 **Check.** Demonstrate that the test fails on the original implementation and passes after the fix. The final answer cites only “Final Slides,” while the conversation history still contains the first turn.
 
-### 10.6 Tracking the Cost of Model Tests
+### 10.6 Test Costs
 
 Compare an offline regression run with a recorded live run of the same cases. Attribute input and output tokens to assistant and judge calls, including one retry. Apply the supplied per-model rates.
 

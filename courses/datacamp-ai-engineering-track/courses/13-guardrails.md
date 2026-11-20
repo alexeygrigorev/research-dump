@@ -1,7 +1,7 @@
 # 13. Guardrails for AI Agents
 
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 5 lessons, 2-3 hours.
+Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
 
 ## Summary
 
@@ -53,39 +53,46 @@ Python 3.13, LangChain or LangGraph for the existing assistant, and Pydantic for
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 13.1 | Setting Limits for the Speaker Support Assistant | May 2026 guardrails workshop `01-overview.md` |
-| 13.2 | Blocking Off-Topic Requests | May 2026 guardrails workshop `05-input-guardrails.md` |
-| 13.3 | Checking Permissions before Ticket Submission | January 2026 guardrails workshop `09-tool-based-guardrails.md` |
-| 13.4 | Getting Approval for a Ticket Draft | Buildcamp Week 4 human-in-the-loop exercises |
-| 13.5 | Checking Replies for Unsupported Promises | May 2026 guardrails workshop `07-output-guardrails.md`, `08-multiple-guardrails.md` |
+| 13.1 | Introduction to Guardrails | May 2026 guardrails workshop `01-overview.md` |
+| 13.2 | Input Guardrails | May 2026 guardrails workshop `05-input-guardrails.md` |
+| 13.3 | Tool Permissions | January 2026 guardrails workshop `09-tool-based-guardrails.md` |
+| 13.4 | Human Approval | Buildcamp Week 4 human-in-the-loop exercises |
+| 13.5 | Preventing Duplicate Actions | Buildcamp Week 4 human-in-the-loop exercises; new retry exercise |
+| 13.6 | Output Guardrails | May 2026 guardrails workshop `07-output-guardrails.md`, `08-multiple-guardrails.md` |
 
 ## Detailed lesson outline
 
-### 13.1 Setting Limits for the Speaker Support Assistant
+### 13.1 Introduction to Guardrails
 
 Compare three runs of the existing assistant: a valid rehearsal question, an unrelated request, and a response that promises an extension the handbook does not authorize. Identify where each decision belongs in the request, tool, and reply flow.
 
 **Check.** Assign each case an expected outcome and the boundary responsible for enforcing it.
 
-### 13.2 Blocking Off-Topic Requests
+### 13.2 Input Guardrails
 
 Add a typed topic and intent decision before the agent runs. Use scripted verdicts to exercise the route, then inspect a borderline speaker question.
 
 **Check.** Confirm an unrelated request does not reach retrieval and a relevant one still reaches the assistant.
 
-### 13.3 Checking Permissions before Ticket Submission
+### 13.3 Tool Permissions
 
 Allow the assistant to prepare a local draft. Bind a draft to its authenticated speaker. Route a request about that speaker’s own rehearsal to approval and deny a request to file a ticket for another speaker. Test a handbook passage that tries to instruct the assistant to submit a ticket.
 
 **Check.** Verify that the authorized request reaches approval, the cross-speaker request is denied, and neither request writes a ticket at this step.
 
-### 13.4 Getting Approval for a Ticket Draft
+### 13.4 Human Approval
 
-Show the reviewer the proposed ticket, record approval for that draft version, and resume the workflow. Run fixtures for rejection, a changed draft, and a retry of an approved submission.
+Show the reviewer the proposed ticket, record approval for that draft version, and resume the workflow. Run fixtures for approval, rejection, and a changed draft.
 
-**Check.** Verify one write for the approved version and zero writes when rejected or changed after approval.
+**Check.** Verify that rejected drafts and drafts changed after approval cannot be submitted.
 
-### 13.5 Checking Replies for Unsupported Promises
+### 13.5 Preventing Duplicate Actions
+
+Retry an approved submission after a simulated lost response. Associate the operation with a stable identifier and reuse the recorded result when the same submission is retried.
+
+**Check.** Verify that repeated submission of the approved draft creates one ticket, while a rejected or changed draft creates none.
+
+### 13.6 Output Guardrails
 
 Check the completed answer before returning it. Check both a citation outside the retrieved evidence and an extension promise that cites a real retrieved section without support for that promise. Use the held-out cases from evaluation to compare the guarded and baseline assistants.
 

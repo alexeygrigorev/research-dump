@@ -49,46 +49,46 @@ Python 3.13, LangGraph and the LangChain stack from course 6. Supply tool fixtur
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 8.1 | Handling a Rehearsal Conflict with One Agent | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
-| 8.2 | Building a Booking Workflow with LangGraph | BC `v2/04-testing/08-agentic-graphs/05-langgraph.md` |
-| 8.3 | Routing Questions to Policy and Booking Agents | BC `v2/04-testing/06-multi-agent/04-1a-simple-routing.md` |
-| 8.4 | Coordinating Agents to Resolve a Rehearsal Conflict | BC `v2/04-testing/06-multi-agent/05-1b-agents-as-tools.md` and `17-4b-orchestrator-workers.md` |
-| 8.5 | Reviewing and Revising a Ticket Draft | BC `v2/04-testing/06-multi-agent/13-3b-fixed-evaluator.md` |
-| 8.6 | Running Policy and Booking Checks in Parallel | BC `v2/04-testing/06-multi-agent/16-4a-parallelization.md`, LZ `03-orchestration/07-multi-agent.md` |
+| 8.1 | Choosing an Agent Architecture | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
+| 8.2 | Graph State with LangGraph | BC `v2/04-testing/08-agentic-graphs/05-langgraph.md` |
+| 8.3 | Routing to Specialist Agents | BC `v2/04-testing/06-multi-agent/04-1a-simple-routing.md` |
+| 8.4 | Supervisor and Worker Agents | BC `v2/04-testing/06-multi-agent/05-1b-agents-as-tools.md` and `17-4b-orchestrator-workers.md` |
+| 8.5 | Evaluator Loops | BC `v2/04-testing/06-multi-agent/13-3b-fixed-evaluator.md` |
+| 8.6 | Parallel Agents | BC `v2/04-testing/06-multi-agent/16-4a-parallelization.md`, LZ `03-orchestration/07-multi-agent.md` |
 
 ## Detailed lesson outline
 
-### 8.1 Handling a Rehearsal Conflict with One Agent
+### 8.1 Choosing an Agent Architecture
 
 Compare a known-slot lookup with the compound rehearsal request. Run the lookup function and the course 6 agent, then inspect a supplied compound-answer trace in which the agent correctly quotes policy but overlooks which slot the speaker booked.
 
 **Check.** Mark the evidence each request needs and locate the first missing result in the trace. Decide where a fixed lookup suffices and what a specialist would need to return to improve the incomplete answer.
 
-### 8.2 Building a Booking Workflow with LangGraph
+### 8.2 Graph State with LangGraph
 
 Build a small fixed graph for “When is my rehearsal?” Carry the speaker ID into the booking lookup and its result into a reply node. Inspect the state after each step. This gives learners working graph mechanics before they add any agents.
 
 **Check.** Run two speaker IDs. Verify the booking read by the reply node belongs to the current request and includes the source row ID.
 
-### 8.3 Routing Questions to Policy and Booking Agents
+### 8.3 Routing to Specialist Agents
 
 Wrap the handbook and schedule tools in separate agents, each with its own instructions and tool access. Add a router for a single policy or booking question. Route “Can you check that for me?” to a clarification when the topic is missing.
 
 **Check.** Inspect three traces. Only the selected specialist should run on each clear request, and both tool logs should be empty on the clarification path.
 
-### 8.4 Coordinating Agents to Resolve a Rehearsal Conflict
+### 8.4 Supervisor and Worker Agents
 
 Extend the graph to handle the compound request. A supervisor delegates the change procedure to the policy agent and the speaker's current slot to the schedule agent. It combines their results into a proposed ticket with the current booking, requested change and contact named in the policy.
 
 **Check.** Inspect the task sent to each worker and the proposed ticket. Match the change procedure to the returned handbook section and the booking to its schedule row. If the speaker ID is missing, the assistant should ask for it before drafting a ticket.
 
-### 8.5 Reviewing and Revising a Ticket Draft
+### 8.5 Evaluator Loops
 
 Give a reviewer the proposed ticket and the two pieces of evidence. An exercise draft claims that the new time is confirmed. Use the reviewer's feedback to revise it into a request for a change. Only an accepted draft reaches the local draft store.
 
 **Check.** Run an accepted draft, a corrected draft and a draft that keeps failing review. Check the number of revisions, the terminal status and the store. Repeated failure must stop at the limit without saving a draft.
 
-### 8.6 Running Policy and Booking Checks in Parallel
+### 8.6 Parallel Agents
 
 For a compound request with a known speaker ID, dispatch the two independent lookups together. Give each branch its own state field and join both results before drafting. Run the fixed, single-agent and specialist designs on the same small set of requests using the same tools and success criteria.
 
