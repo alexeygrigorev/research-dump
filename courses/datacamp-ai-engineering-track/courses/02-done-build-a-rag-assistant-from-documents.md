@@ -1,25 +1,25 @@
 # 2. Build a RAG Assistant from Documents - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-In course 1, someone had to find the handbook excerpt before the model could answer. Here learners build a retrieval-augmented generation (RAG) assistant that finds the relevant sections itself, cites them in its answer, and tells the speaker when the handbook leaves a question open.
+Learners build a retrieval-augmented generation pipeline over a collection of documents. They load and chunk text, retrieve relevant passages, and generate answers grounded in those passages. They learn to preserve citations and recognize questions the available evidence cannot answer.
 
 ## Learning objectives
 
-- Trace an answer to the passage retrieved for a speaker’s question
-- Load Markdown, chunk it while preserving source metadata, and index it for keyword search
-- Build a prompt that grounds the answer in retrieved context
-- Assemble search, prompt and LLM into one reusable RAG pipeline
+- Load and chunk documents while retaining source metadata
+- Build a keyword-search index and inspect its results
+- Construct prompts grounded in retrieved context
+- Return cited answers or identify insufficient evidence
 
 ## Why here
 
-Learners already know how to ask a model a question about one passage. Searching the full handbook gives them a working keyword baseline for the vector search course.
+Builds on API calls by adding document retrieval, creating a baseline for semantic search.
 
 ## Transformation
 
-From "I can call an LLM" to "I can build an assistant that answers questions from proprietary documents."
+From "I can ask a model about one passage" to "I can build a pipeline that finds and cites relevant documents."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ Learners start with the fictional conference speaker handbook introduced in cour
 
 ### Model / release
 
-Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small chat model.
+Python 3.13. `openai==3.57.0`, `pydantic==2.14.4`, `minsearch==0.2.0`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
@@ -49,12 +49,6 @@ Python 3.13; `minsearch>=0.1.0`, `openai>=2.38.0`, `requests>=2.28.1`. Any small
 ### Notes
 
 MinSearch runs in memory. Bundle Markdown pages covering slide submission, rehearsal scheduling, and speaker check-in. Give each section a stable source ID that can be cited after re-chunking. Reuse these IDs in course 3.
-
-## Exercise adapted from the Buildcamp
-
-Have learners split the speaker handbook into chunks, index them with MinSearch, and assemble a prompt from the retrieved chunks. Grade the retrieved entry IDs and prompt context with fixed fixtures. Include an unanswered question so learners can check how the assistant responds when its sources are insufficient.
-
-[Buildcamp Week 1 source](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md)
 
 ## Lesson outline and source map
 

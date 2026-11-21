@@ -1,25 +1,25 @@
-# 8. Multi-Agent Patterns with LangGraph - DONE
+# 8. Multi-Agent Patterns - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-“Can I move my rehearsal? If so, draft a ticket with my current slot and the change procedure.” One answer needs two kinds of evidence. The handbook says who can change a booking. The schedule says which booking belongs to this speaker. Learners build a LangGraph workflow that delegates those questions, brings the findings together and catches a draft that promises an unconfirmed change. They compare its results and cost with the single agent from course 6.
+Learners decide when a fixed workflow, one agent, or specialist agents are appropriate. They represent shared state, route requests, combine worker findings, and bound review loops. They compare correctness, cost, and latency before choosing an architecture.
 
 ## Learning objectives
 
-- Choose a fixed lookup, a single tool-using agent or a team of agents for a speaker request.
-- Represent the request, policy evidence and booking in graph state and route work to the appropriate specialist.
-- Delegate parts of a compound request and combine the workers' findings into one grounded reply.
-- Bound a draft-review loop and measure when independent workers benefit from parallel execution.
+- Choose an orchestration approach for a defined task
+- Represent workflow state and route work to specialist agents
+- Combine worker results without losing supporting evidence
+- Bound review loops and compare parallel and sequential execution
 
 ## Why here
 
-Course 6 supplies a single agent, the handbook and schedule tools, and a ticket draft function. Learners can now ask whether giving different workers their own instructions, evidence and tools improves a specific task. Course 7's MCP handbook tools or the equivalent local fixtures provide the same policy evidence.
+Requires working tools and agents so architectural choices can be assessed on observed behavior.
 
 ## Transformation
 
-Learners can trace who answered each part of a request, where evidence was lost, and whether the additional agents earned their cost.
+From "I can build one agent" to "I can choose and evaluate a workflow for a compound task."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ The policy agent may search and fetch handbook sections. The schedule agent may 
 
 ### Model / release
 
-Python 3.13, LangGraph and the LangChain stack from course 6. Supply tool fixtures, scripted specialist and supervisor responses, and recorded timings for the comparison. Grade wiring, evidence, outcomes and call counts.
+Python 3.13. `langchain==1.5.2`, `langchain-openai==1.8.5`, `langgraph==1.2.24`, `pydantic==2.14.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 

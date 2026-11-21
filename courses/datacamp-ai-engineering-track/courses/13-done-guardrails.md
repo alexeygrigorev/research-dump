@@ -1,27 +1,26 @@
 # 13. Guardrails for AI Agents - DONE
 
-
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-Learners add policy checks to the conference speaker support assistant. They validate requests, enforce tool permissions before execution, route ticket submission to explicit approval for the reviewed draft, and check the assistant's output before returning it.
+Learners add runtime controls to an agent whose quality they can already measure. They check inputs and outputs, restrict tool actions, and require human approval before selected writes. They evaluate whether the controls block disallowed behavior while still allowing valid requests.
 
 ## Learning objectives
 
-- Translate an application policy into checks at the input, tool, and output boundaries
-- Validate tool arguments and enforce permissions using trusted application data
-- Pause for a human decision before a workflow action writes to a ticket store
-- Validate output fields and check cited document IDs against retrieved evidence
-- Verify behavior on allowed, rejected, and approval-required requests
+- Place checks at input, output, and tool boundaries
+- Enforce tool permissions with trusted application data
+- Require approval for the exact action being submitted
+- Prevent repeated submission of the same approved action
+- Measure blocked violations and incorrectly blocked valid requests
 
 ## Why here
 
-The evaluation course establishes a baseline. Learners add controls, rerun representative cases, and check whether safeguards block disallowed actions while still serving legitimate speakers. The invoice capstone reuses the approval boundary.
+Builds on the evaluation baseline so safeguards can be assessed for both protection and usability.
 
 ## Transformation
 
-From building an assistant that can use tools to enforcing when it may use them and what it may return.
+From "my agent can use tools" to "I can enforce when it may act and what it may return."
 
 ## Theory or application
 
@@ -39,7 +38,7 @@ Give learners the speaker handbook and a simulated speaker ticket store. Drafts 
 
 ### Model / release
 
-Python 3.13, LangChain or LangGraph for the existing assistant, and Pydantic for structured validation. Use deterministic cases to grade policy enforcement.
+Python 3.13. `langchain==1.5.2`, `langchain-openai==1.8.5`, `langgraph==1.2.24`, `pydantic==2.14.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 

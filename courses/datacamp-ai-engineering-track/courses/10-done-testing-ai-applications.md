@@ -1,25 +1,25 @@
 # 10. Testing AI Applications - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2–3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-The speaker assistant returns a plausible deadline even when a change makes it fetch the wrong handbook section. Learners write tests that catch the mistake at three places in the Python project: the tool call, the citation returned by the API, and the factual claim in the answer. They finish with a regression suite they can run with one command.
+Learners write tests for the behavior of an AI application. They check tool calls and output contracts, use a judge for claims that require semantic assessment, and reproduce failures across conversation turns. They finish with a regression suite and an understanding of its model-call costs.
 
 ## Learning objectives
 
-- Write a pytest fixture that exercises the real agent loop with scripted model turns
-- Assert a relationship between tool arguments, returned evidence, and citations
-- Use a structured LLM judge to check a claim that a schema accepts
-- Reproduce a reported failure and account for the cost of a live test run
+- Write regression tests around agent and API behavior
+- Check tool arguments and output contracts
+- Use an LLM judge to assess answer quality
+- Test multi-turn behavior and account for live-test costs
 
 ## Why here
 
-Course 9 provides an importable assistant and an HTTP endpoint. A regression test gives the maintainer a repeatable example of a broken requirement. Course 12 measures how often requirements hold across a collection of speaker requests.
+Starts from importable application code so failures can be reproduced and caught on subsequent changes.
 
 ## Transformation
 
-Learners can change the assistant, run `uv run pytest`, and use the failed assertion to locate the behavior they changed.
+From "I check answers manually" to "I can run tests that catch a known regression."
 
 ## Theory or application
 
@@ -37,16 +37,12 @@ Supply the module from course 9, two similar handbook sections (“Draft Slides�
 
 ### Model / release
 
-Python 3.13, pytest, FastAPI's test client, Pydantic, uv, and the assistant's existing model integration. Run one live judging demonstration with a supplied budget. Graded examples replay recorded model turns.
+Python 3.13. `pytest==9.2.0`, `httpx==0.28.1`, `openai==3.57.0`, `pydantic==2.14.4`, `fastapi==0.165.0`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
 - The AI Engineering Field Guide reports evaluation and testing in 79.0% of November job responsibilities. Its portfolio guide asks for a deterministic test suite with one entry point.
 - Buildcamp Week 4 covers testing tools, output properties, LLM judges, and costs. [Buildcamp testing lessons](https://github.com/alexeygrigorev/ai-bootcamp/tree/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing)
-
-## Exercise adapted from the Buildcamp
-
-The original SQL exercise checks which tools ran and what they produced. Here search returns a section ID, fetch accepts that ID, and the speaker receives a cited deadline. Learners deliberately introduce a bad fetch argument, a missing citation, and an invented deadline. Each failure should point to a different assertion. [Buildcamp Week 4 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/04-testing/homework/01-homework.md)
 
 ## Lesson outline and source map
 
@@ -61,7 +57,7 @@ The original SQL exercise checks which tools ran and what they produced. Here se
 
 ## Detailed lesson outline
 
-### 10.1 Agent Tests with pytest
+### 10.1 Testing Agents
 
 Compare two responses to the final-slides question. Both state the right date, but one loses the source ID when the application constructs the response. Invoke the answer function with a local handbook and a scripted model. Write an assertion for the expected section ID.
 
@@ -85,7 +81,7 @@ Give a judge the speaker's question, fetched text and answer. Ask for a verdict 
 
 **Check.** Label both answers by hand, then inspect a recorded judge response for each. Write the pytest assertion that fails on an unsupported claim and displays the reason. Capture the constructed judge request to verify that both the answer and supporting passage reached it.
 
-### 10.5 Multi-Turn Regression Tests
+### 10.5 Multi-Turn Tests
 
 A speaker first asks about draft slides, then asks about final slides. The application carries the previous response's source IDs into the follow-up. Encode both turns in a regression test, find the code that accumulates citations, and scope the response's citations to the current answer.
 

@@ -4,22 +4,22 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. 
 
 ## Summary
 
-A speaker asks, “I can't make my rehearsal. What should I do, and can you draft a ticket?” Learners build a LangChain agent that can answer the policy question, look up a slot and prepare an editable ticket. They reuse the tool functions in a small Pydantic AI port to see which parts depend on the framework.
+Learners build an agent using typed Python tools and an agent framework. They add read and write operations, validate structured replies, and stream progress. They reuse the tools in a small alternative-framework implementation to identify which parts depend on the framework.
 
 ## Learning objectives
 
-- Replace the manual loop with a LangChain agent and recognize its tool requests and results in the message history.
-- Define typed tools for handbook retrieval, schedule lookup and editing ticket drafts.
-- Return a typed reply with the source IDs and draft ID that support it.
-- Stream tool progress and answer text, and port a draft workflow to Pydantic AI.
+- Register typed read and write tools with an agent framework
+- Return validated structured agent output
+- Stream tool progress and answer text
+- Reuse tool functions in another framework and compare the implementations
 
 ## Why here
 
-Course 5 supplies the manual loop, retrieval tools and a known-good trace. The LangChain implementation becomes the assistant used for tool integration in course 7 and for the project and quality courses.
+Builds on the manual loop so learners can recognize what a framework manages. Supplies the agent and tool functions used by the MCP and workflow courses.
 
 ## Transformation
 
-A speaker can use the assistant to prepare a ticket, ask for a correction and see which draft was updated.
+From "I can write an agent loop" to "I can build a tool-using agent with reusable functions and validated output."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ Supply a small rehearsal schedule and an in-memory draft store alongside the han
 
 ### Model / release
 
-Python 3.13, LangChain, its OpenAI integration, Pydantic and Pydantic AI. The exercise harness supplies framework-compatible scripted models and fresh schedule and draft fixtures.
+Python 3.13. `openai==3.57.0`, `pydantic==2.14.4`, `langchain==1.5.2`, `langchain-openai==1.8.5`, `pydantic-ai-slim==2.71.0`. Use DataCamp-funded model API calls; no fixed model release is required. MCP processes run locally over stdio and require no external account.
 
 ### Source material
 

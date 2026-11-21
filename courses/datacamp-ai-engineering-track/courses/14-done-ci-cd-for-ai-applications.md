@@ -1,25 +1,25 @@
 # 14. CI/CD for AI Applications - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-**CI/CD** is the most-requested ops skill in the field guide (**36.9%** of all jobs; 3,603 postings, ahead of Docker and Kubernetes), and **Docker** appears in **24.2%** (2,366 postings). Tests and evaluations only help if they run on every change. Learners run a workflow locally with `act` to run `pytest`, enforce an evaluation quality gate, and build a tagged container image.
+Learners automate the checks needed to release an AI application. They run a local pipeline that executes tests, calls live models for evaluation, and stops when quality falls below the agreed criteria. A passing run produces a container image tied to the tested revision.
 
 ## Learning objectives
 
-- Write and run a push-triggered workflow locally with unit tests and live-model evaluations
-- Add an evaluation step that fails the pipeline when quality drops below a threshold
-- Handle API keys, cost limits and non-deterministic tests in CI
-- Build and tag a Docker image as a pipeline step
+- Define and run a local CI workflow
+- Manage model credentials and evaluation budgets
+- Block packaging when tests or evaluations fail
+- Build and tag an image for the tested revision
 
 ## Why here
 
-The Python projects course supplies the Dockerfile, testing supplies the regression suite, and evaluation supplies the benchmark. This course ties those inputs to the versioned image used in Kubernetes.
+Combines the application, regression suite, and evaluation report into a repeatable release process.
 
 ## Transformation
 
-From "I run tests on my laptop when I remember" to "every change to my AI application is tested, evaluated and packaged automatically."
+From "I run checks by hand" to "each change is checked and packaged through a repeatable pipeline."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ The learner writes a workflow for the application and invokes its push event loc
 
 ### Model / release
 
-Python 3.13; `act`, Docker, `pytest`, and `uv`. Live evaluation runs use configured model and judge credentials with a small case set and a supplied cost limit. Where network access is unavailable, grade workflow configuration and interpretation of saved run logs.
+Python 3.13. `pytest==9.2.0`, `uv==0.13.9`, `PyYAML==6.0.4`, `openai==3.57.0`, `pydantic==2.14.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required. Docker and local runtime tools are supplied by the exercise workspace; see [Runtime requirements](../runtime.md).
 
 ### Source material
 
@@ -50,7 +50,7 @@ Python 3.13; `act`, Docker, `pytest`, and `uv`. Live evaluation runs use configu
 
 ### Notes
 
-The local run uses a supplied checkout and Docker-capable runner. Exercises can grade the workflow and interpret paired failure/success run logs where container execution is unavailable. Run deterministic unit checks on every change and use a budgeted evaluation job for real model and judge calls. Preserve per-case results, usage, and the evaluated commit so failures can be investigated.
+Use a local workflow runner with a supplied checkout and Docker socket. No GitHub account, hosted Actions runner, or repository push is required. Use workspace-injected model credentials and real model/judge calls for evaluation; apply the supplied cost limit.
 
 ## Lesson outline and source map
 

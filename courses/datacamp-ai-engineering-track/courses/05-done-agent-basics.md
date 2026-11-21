@@ -1,25 +1,25 @@
 # 5. Agent Basics: Tool Calling and the Agent Loop - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-A speaker asks “How do I move my rehearsal?” The handbook index can find candidate sections, but the assistant needs the full passage to cite the procedure. When the speaker supplies a section ID, it can fetch the passage directly. Learners give a model both tools and write the Python loop that executes its choices.
+Learners give an LLM tools and build the loop that executes its choices. They connect tool calls to Python functions, return results to the model, and preserve the history needed for follow-up questions. They also handle tool failures and set limits on runs that do not finish.
 
 ## Learning objectives
 
-- Describe search and fetch functions with tool schemas and dispatch a model's request to Python.
-- Return results to the matching tool calls and continue until the model answers.
-- Preserve the evidence and conversation history needed for a follow-up.
-- Report a missing section and stop a run that repeatedly requests tools.
+- Describe callable tools with input schemas
+- Execute model-selected tool calls and return matching results
+- Maintain tool and conversation loops across turns
+- Handle tool errors and stop runs at a defined limit
 
 ## Why here
 
-Courses 2–4 supply an index and stable source IDs. This course changes who chooses the next retrieval step. The loop becomes the reference implementation when learners adopt LangChain in course 6.
+Moves from a fixed retrieval pipeline to model-selected actions before introducing framework abstractions.
 
 ## Transformation
 
-Learners can trace how a speaker's question becomes a tool request, a Python result and a cited answer.
+From "I can run a fixed pipeline" to "I can implement and inspect an agent loop."
 
 ## Theory or application
 
@@ -37,17 +37,13 @@ Provide the index and two functions. Search returns section headings and IDs. Fe
 
 ### Model / release
 
-Python 3.13, OpenAI Python SDK and MinSearch from course 2. Demonstrate tool selection with a small tool-calling model. Graded runs use scripted Responses API turns.
+Python 3.13. `openai==3.57.0`, `pydantic==2.14.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
 - **BC** Week 3 Agent Basics, especially the agentic loop, Q&A loop and Wikipedia homework.
 - **LZ** Module 1 Agentic RAG, lessons 11–14.
 - **FG** The AI Agents learning path starts with function calling and the tool-call loop. Agents and RAG appear together in 51.0% of the sampled AI-First postings in November.
-
-## Exercise adapted from the Buildcamp
-
-The Buildcamp homework searches Wikipedia for a page and fetches the selected page. Here a speaker gives either a handbook section ID or a question in their own words. Learners must pass the ID returned by search into fetch, pair each result with the original call ID, and stop after the cited answer. The fixture supplies different IDs on a second run to catch hard-coded arguments. [Buildcamp Week 3 homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/03-agents/homework/01-homework.md)
 
 ## Lesson outline and source map
 

@@ -1,25 +1,25 @@
 # 1. Working with LLM APIs - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 1. Foundations. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-Learners use the OpenAI Responses API from Python to answer a speaker’s question about a conference handbook. They carry an answer into a follow-up turn, read token usage, and extract dates and submission instructions from the same handbook.
+Learners move from asking an LLM questions to calling it from Python. They control instructions and conversation history, compare model costs, and turn model responses into validated data. By the end, they can build a small program that handles structured and streamed responses.
 
 ## Learning objectives
 
-- Call an LLM from Python and control its behaviour with instructions and message history
-- Estimate token usage and cost and pick the cheapest model that does the job
-- Define a Pydantic schema and get validated structured output from a model
-- Stream a response and handle an incomplete result
+- Call an LLM API with instructions and conversation history
+- Compare model quality and token costs for a defined task
+- Extract and validate structured data with a typed schema
+- Assemble a streamed response and handle an incomplete result
 
 ## Why here
 
-RAG, tool calling, and model-based evaluation all depend on sending requests and handling model responses. The document example prepares learners to add retrieval in the next course.
+Introduces the request and response mechanics used by retrieval, tool calling, and model-based evaluation.
 
 ## Transformation
 
-From using an LLM through a chat window to calling OpenAI from Python and validating the response.
+From "I can use an LLM in a chat window" to "I can call a model from Python and validate its response."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ The learner sends a request about a supplied conference speaker handbook excerpt
 
 ### Model / release
 
-Python 3.13, `openai>=2.15.0`, Pydantic, and `python-dotenv>=1.2.1`. Use a small OpenAI model that supports structured output.
+Python 3.13. `openai==3.57.0`, `pydantic==2.14.4`, `python-dotenv==1.2.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
