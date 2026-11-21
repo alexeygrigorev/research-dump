@@ -1,0 +1,61 @@
+[00:00:00] Okay, right now. I'm at Vipcon conference, um, I have a workshop, and I forgot to start recording, so I want to quickly give an overview of what I did. So we started with.
+[00:00:13] Uh, an app. The app is for decide which restaurant to use, where to go. So, I use chargpt for specifying the requirements.
+[00:00:23] Um.
+[00:00:24] And then I created the specular file. I put this MD file.
+[00:00:29] Um.
+[00:00:31] And git.
+[00:00:34] And then. From that, I knew slowball to create the front and the reason I use lovable is because they have all these Design Systems.
+[00:00:44] I am not. I'm more like a back-end engineer than a front-end engineer, so I try to stay away from from them as much as possible, and the reason I like lovable is because it makes reasonable defaults.
+[00:00:56] Choices when it comes to creating interfaces.
+[00:01:02] So, but then there was annoying thing with.
+[00:01:04] Lovable. It used Super Bass backhand, even though I asked it not to use any backend. It still used it.
+[00:01:11] So, then I had to remove it.
+[00:01:13] Um, also, this is what we did in the workshop.
+[00:01:17] Uh, so then once the initial version was fine.
+[00:01:21] I, um, I also said that I would I prefer to start a new session for each thing. It's the first session I had include was, hey, there is this. Oh yeah, I exported from lovable exported to GitHub.
+[00:01:36] Uh, and then I added the GitHub link to.
+[00:01:41] Without will to another link to the workshop repo.
+[00:01:45] To.
+[00:01:47] Add this to front end, right, and then fix a few things, then remove the back end that was session number one. Session number two include was?
+[00:01:57] Um.
+[00:01:58] Uh, yeah, what was that?
+[00:02:02] Now, fixing something it's allowable actually stopped.
+[00:02:06] The while working through the first prompt, it used more credits than each when I had available.
+[00:02:13] So some things didn't finish. So I asked Claude to finish it. The interface cloth prepared was not good. So then I had to start another session to make it better. And then, also, at this point, I.
+[00:02:27] I was talking about.
+[00:02:29] An orchestrator implementer pattern.
+[00:02:33] So, I started the session of cloth with Senate.
+[00:02:37] And then I gave it a task, and I asked it to use an oppos sub agent for implementing this. So this is the benefit is like, I also talked about context Windows, and this is the reason I did like starting new sessions in every.
+[00:02:54] Um.
+[00:02:55] For every task, but manually.
+[00:02:57] I don't necessarily want to do this, and then when I use some agents, it's kind of the same, right? So, but the the orchestrator session is prompting.
+[00:03:05] And the sub agents, right? So then I just give it a task, and then it prompts. It starts as agent.
+[00:03:13] And then I get a fresh session every time, and then I just I just interact with the orchestrator agent.
+[00:03:21] All right, and then, um, I'm not a designer for me. It's hard to.
+[00:03:26] Choose the the right design, so I don't know how to arrange elements properly. That's why.
+[00:03:33] What I did is I asked Claude to give me three options to choose from right. So then it came up with three designs.
+[00:03:40] I told it that I don't like the two column layout, so then I didn't use it so it created different layouts.
+[00:03:48] And.
+[00:03:51] And then I chose one, and I said, okay, let's stick to this. Remove all the other interfaces, uh, yeah. Another thing I mentioned is.
+[00:03:59] Uh, when Implement apps, I like to have the what I called.
+[00:04:06] Api web API priority, meaning that everything I can do through web. I also should be able to do through API, so for that.
+[00:04:19] Uh, like if I?
+[00:04:22] Include this in the design from the very beginning. It's helpful because then.
+[00:04:28] Because when we designed the front and back-end interaction, we already know what kind of actions we can perform.
+[00:04:34] And these actions can be due down through.
+[00:04:39] Uh, both front-end API, right? So, it doesn't really matter. Who is the client if the the web has also become web becomes the client one of the clients? So, all the things we do?
+[00:04:50] Uh, should be possible to do through through API.
+[00:04:54] And this is where we stopped. And then, for front end, I said, like, I don't really care about the the Technologies I just want to have reasonable defaults and lovable is giving me these defaults. So it gives me react. It gives me 10 stack. It gives me it like it gives me time in CSS, so these defaults are good.
+[00:05:12] But when it comes to backend, I have an opinion. So previously, I did a lot of stuff in Python, so that's why, for me, I prefer to Python. But like?
+[00:05:24] People. They can use Java or go or whatever they are comfortable with. But yeah, usually, I prefer to use Technologies.
+[00:05:30] I am familiar with. So, for that, I'm going to use Python, so I think that was the recap.
+[00:05:36] Uh, probably. There are some other things I mentioned.
+[00:05:39] Um, oh yeah, so when creating the prompt at the beginning, the specification I asked it to create a kind of handoff document for the agent, and then chargpt created a lot of implementation details that I didn't want to have.
+[00:05:55] So, in my specs, I want to focus on the product details product specification rather than implementation details. That's why I also spend time some time cleaning the implementation details, so they don't.
+[00:06:09] Um, he. This doesn't influence the agent down the line, right? Because I don't think he was necessary at the beginning.
+[00:06:16] I just wanted to focus on.
+[00:06:19] Um.
+[00:06:20] Yeah.
+[00:06:22] Uh, focus on the user experience on design and products like these kind of things.
+[00:06:30] Which is why it was very important for me to get this specification through change PT.
+[00:06:35] Okay, so that was it? Um, for the first session.

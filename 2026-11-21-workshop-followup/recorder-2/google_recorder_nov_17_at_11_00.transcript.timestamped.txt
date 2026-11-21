@@ -1,0 +1,941 @@
+[00:00:00] Because I think it's still.
+[00:00:06] But I think I can just conceptually discuss what we want to do.
+[00:00:10] So, we have the front end.
+[00:00:13] And now, I want to have the add to add back, back end, and one of the things I mentioned is that I want to have. From what I call, like the?
+[00:00:24] Front-End API parity.
+[00:00:26] The idea. There is all the actions I can do from here. I can also do through API.
+[00:00:33] And this is could be important because I like automating things a lot.
+[00:00:38] And, for example, one of the things here that we did. I asked Paige, and hey, can you please add these top 10 restaurants in the friedrichstrasse area?
+[00:00:47] Um, so then these things if I have API. So then I can easily automate them, so I don't need to go and add restaurants manually.
+[00:00:56] I can just ask my agent to do this. That's why I really like doing it this way.
+[00:01:02] Um, so this is something I want to take into account. Now, when I will develop backend?
+[00:01:07] So that every action that we do is going to be like front end is going to be just one of the clients right, but there could be other clients.
+[00:01:17] The client could be like, for example, we can have a command line too for this.
+[00:01:22] But hope to say, like, okay, this is for designers, but for I.T people for developers, maybe they want to do this from the terminal, right?
+[00:01:31] Uh, but other things.
+[00:01:32] Usually in my applications. Like, for example, this website that where we host the materials for today's Workshop.
+[00:01:40] Um, so for this website, I have the same thing, and I have the CLI application.
+[00:01:46] That I can use for managing this content. Like, every time I need to create an event here, like, there are some events here.
+[00:01:54] Um, I just use CLI. I just.
+[00:01:56] Get, uh, just tell my agent, hey, I want to create this event.
+[00:01:59] This is going to be the description and my agent goes and creates it because it has.
+[00:02:05] Api access.
+[00:02:06] So that that is why?
+[00:02:09] Uh, for our application here. I want to let me close it.
+[00:02:13] For our application here. I want to have the same thing because it's very, very convenient.
+[00:02:18] So, now I'm going to.
+[00:02:21] Get my orchestrator.
+[00:02:24] Um.
+[00:02:26] And so remember, I told you that I prefer to do things.
+[00:02:29] Like every new task, I prefer to start in a new session.
+[00:02:34] Um, but I, I don't need to do this here, because, like I would just create.
+[00:02:40] So?
+[00:02:46] So, now I want to say.
+[00:02:49] And check that it's English.
+[00:02:52] So, now I want to start implementing backend for this front-end, but the way I want to do this is, I first want to extract the all the API calls that we have. Like, I want to analyze the front end that we have right now.
+[00:03:07] And see what kind of calls it's going to make to backend.
+[00:03:12] And then I want to create a specification file that describes the our API using the open API format.
+[00:03:19] Um, and what I want to have is, I want to have.
+[00:03:25] Api. I want the front-end to be the client of this backend, but also in the future.
+[00:03:30] I want to have other clients like I want to perhaps have a CLI client, or I want my agents to use API directly. So, all the actions that front-end can make. I want also to be able to make through this API.
+[00:03:45] Um, so let's design this API first.
+[00:03:48] And I want to use open AI open API format.
+[00:03:53] It's one title.
+[00:03:54] Sorry, that's a scores instead of calls. Yeah, whatever. It's a bigger sound. Yes, it will figure this out. And, uh, like?
+[00:04:02] I give it enough context and the way we speak.
+[00:04:06] Is sometimes redundant because I think I repeated repeated two times that I want to have open API format.
+[00:04:13] And even yeah, open API here. Open an API here and then let me stop it. Oh, please use sub agents for that.
+[00:04:25] Yeah, so then it must figure out, uh?
+[00:04:31] Um, because I want these two stars from the clean slate, I want to start it from the clean, clear context without any other things, the the the sessions. This AI systems they tend to work better, like I didn't really need Opus for that because I think it started opposed because previously I asked for Opus.
+[00:04:49] So here, like Sonat, who would do because it's not like a very complicated task?
+[00:04:55] So we'll use. I would use Opus for things where I would need to think about, like user experience, or I would need to design something.
+[00:05:04] Design, like, also design in terms of user experience, but also or user interface or design in terms of, like how components of the system will look like.
+[00:05:15] So this tasks that require, like, thinking, right. So, then I need a smarter model, but for simple things.
+[00:05:22] Like finding all the API calls that frontal is making and then putting them documenting them in opening API. Like, you don't need a very smart model.
+[00:05:33] Okay, um. So now, this is what it's doing, um.
+[00:05:38] So it said it will create.
+[00:05:42] Api slash open API Yaml file.
+[00:05:47] And that's this for for us is just to to.
+[00:05:52] To Define what our API will look like so later. I don't necessarily want to keep this file up to date all the time, because from that, from that file, what I want to do is I want to.
+[00:06:03] Uh, did it actually finish? Oh, no, it's still doing this. So, after that, um, once we have this open API specification from that, we will create backend, right? But then, when things change in the back end, we need to go back and update this yaml file, right? So, I don't necessarily want to do this, but now I want to have like Clarity of what exactly I want to implement.
+[00:06:26] And especially when we have multiple teams working on these things. Like, there is a team that is working on front end. There is a team that is working on backend.
+[00:06:33] This open API helps us communicate with each other, right? So, I find it very helpful to to help this.
+[00:06:42] Um, but then many Frameworks, the including the one that we are going to use. I want to use fast API.
+[00:06:48] So they already expose all the.
+[00:06:51] Um.
+[00:06:53] Http, all the standpoints that we are going to create. They already expose it as open API. Well, you will see it later.
+[00:07:02] Okay.
+[00:07:03] So, I think it's still creating it.
+[00:07:06] So, it's checking.
+[00:07:09] Right. Now, that's why I said, like, I don't think we really need Opus for that because?
+[00:07:14] It needs to go through a lot of files.
+[00:07:17] Uh, and needs to analyze them. And for that, like, you want to have a cheaper model.
+[00:07:23] And when you need to go through.
+[00:07:25] A lot of source code and then find something in resource code.
+[00:07:30] You don't really need a smart model for that.
+[00:07:33] Right, you need a smart model when you want to.
+[00:07:37] Um, think about, like, creating something new, right, or?
+[00:07:41] Also, smart model is helpful when you want to find, like.
+[00:07:45] Um.
+[00:07:46] Things to improve in the code. So, then you can look at the code and analyze, but typically, if I want to just.
+[00:07:52] Can just come through the gold and find things there. I would use a smaller model.
+[00:07:56] But um, I think it's still.
+[00:08:00] I mean, it's okay.
+[00:08:03] So, I hope it finishes Monday.
+[00:08:07] So it is right in the document right now, at least. This is what it's saying.
+[00:08:14] Mm, but I still don't see the document, but this is just a yaml file.
+[00:08:19] I also don't want to spend like a lot of time reading this hello file.
+[00:08:23] Um, typically, there are hm systems that they can generate engineering nice from them. Maybe I don't know how many of you worked in back-end development or still work, so you, you know, Swagger and open API, yeah.
+[00:08:38] Stop. So this is just a convenient way of.
+[00:08:42] Defining how your backend works, which is language agnostic, like it can be any language Java or node.js or python doesn't matter.
+[00:08:57] Okay. And then, I'm like, the result is a yaml file.
+[00:09:01] And, um, yeah, it's kind of boring to just read through this yaml file. But for us, it will be the basis for our backend, so the backend will not need to analyze the front end in order to understand what to implement because we will already have the contract, right?
+[00:09:16] So this open API contract?
+[00:09:19] Uh, will be that contract that, like, it's kind of it, kind of condenses all the interactions.
+[00:09:25] Between front and back end or between, like, whatever client and backend in one single file. Then, for now, this file is going to be like this source of Truth.
+[00:09:34] Eventually, when it's implemented, I don't know why it's taking so much time.
+[00:09:53] There is also the seat restaurants.
+[00:10:15] And so I don't know, like, why I was doing this. It's taken really long time. Okay, finally.
+[00:10:25] So, this is how it looks like, I mean, yes, it's long and boring document.
+[00:10:31] But the important thing here is that we, you see, like these paths. So these are all the end points.
+[00:10:37] And we, they describe, okay, what happens if you sign the cat request there?
+[00:10:42] Uh, what? Um, what happens if you send a patch request there? And so on, right? So, everything is described.
+[00:10:48] And.
+[00:10:50] Like, if I had more time, maybe I could also go through this?
+[00:10:53] But for me.
+[00:10:55] Like, it's not the point. It's just the point is that?
+[00:10:59] We have these endpoints described, so there is authentication endpoints.
+[00:11:04] There are other endpoints right, and then there are also schemas.
+[00:11:08] These chemists are all this data.
+[00:11:12] Classes.
+[00:11:15] Where do we have?
+[00:11:18] Yeah.
+[00:11:19] So basically both front and back end will have the same.
+[00:11:24] Language of communicating with each other, right, based on these things?
+[00:11:30] Yeah.
+[00:11:34] Okay, so now it is done so.
+[00:11:39] It's still doing some stuff. Okay, yeah, I guess it's just checking that it's actually correct format.
+[00:11:51] You know, it's not a small document.
+[00:11:57] Um.
+[00:12:00] Oops!
+[00:12:14] Okay, and I think, like, for you or what you can do here, like all the steps that?
+[00:12:20] I also improvise a little bit, but like the major steps are here. So, for example, this part four, this open API spec from the front end.
+[00:12:29] Um.
+[00:12:31] This is the prompt that you could used to right.
+[00:12:32] So, create open API that uproot that specifies the back end of this. So, I added a few more things right now.
+[00:12:39] Um, that are not in this in this document.
+[00:12:42] Um, like about this API priority, because I just find it really convenient and by when I was creating this.
+[00:12:51] This Workshop document, like, I wasn't thinking that it could be a very useful addition.
+[00:12:58] But also then to like. If you want, you can give me your email, and then I will send updated multiple materials for this Workshop.
+[00:13:07] But anyways, like, right now, if I'm too fast speaking, then you can just copy some bronze from here or later.
+[00:13:14] Maybe when you try to work through this Workshop, like afterwards.
+[00:13:19] You can just go through these things.
+[00:13:21] Okay, so let's see where we are.
+[00:13:25] The desire. The API aspect is written. Both validators are accepted whatever.
+[00:13:33] There are some open questions for me. How long should sign in last?
+[00:13:39] Final 30 base.
+[00:13:42] Um, so today's rest decide yourself.
+[00:13:50] I mean, this actually was a product question. Should be brilliant starter restaurant release date. The default for new teams?
+[00:13:57] Uh, no.
+[00:14:03] Like, that was just for me to kind of see the data.
+[00:14:06] Um, let's use it only for.
+[00:14:10] Seen him.
+[00:14:14] Seeding the test data.
+[00:14:17] Database.
+[00:14:19] Let's look a little bit.
+[00:14:25] Okay.
+[00:14:28] So, it's updating some things here. But in the meantime, in the meantime, I want to.
+[00:14:34] Um, in the meantime, I want to start implementing the backend. So, now we have the specification.
+[00:14:39] And I want you to use this specification. I want you to start a sub agent. Just use the net, don't need to start on post.
+[00:14:46] Um, I want you to use this specification to implement a fast API backend.
+[00:14:53] Um, this fast API backend should only use mock data for now. So, let's not create a real database. Let's just have more database.
+[00:15:03] Um.
+[00:15:07] Yeah, and the reason I do this. The reason I ask for more database by the way the prompt is here. I think this is part five.
+[00:15:15] Nick so, um?
+[00:15:19] Then, maybe I should also add this that it should be.
+[00:15:22] Each.
+[00:15:24] Go to.
+[00:15:29] And then, um.
+[00:15:31] Yeah, I'll just copy these things.
+[00:15:36] So, um?
+[00:15:38] The reason I don't want to?
+[00:15:42] To have in memory store and no database yet is because now I have the front end and I want to make sure that my front end can't communicate with the back end, right?
+[00:15:50] If I now start creating this database, create this modeling. I will spend a lot of time on that part.
+[00:15:57] Uh, but at the end, like it will say, okay, everything is done. But then, I start testing the application and nothing works, right? So, I want to spend now time on, uh, just making sure, okay.
+[00:16:08] There is some backend.
+[00:16:10] So previously, it was a mocked back end. So, all the interactions in this app they were happening, okay, or is my app actually? Yeah. So here everything was happening, kind of in local storage, right? It was a mock mock.
+[00:16:25] Backhand. Now I want to replace the small backhand with real backhand, but I don't want to create a database yet.
+[00:16:31] So that's why I say.
+[00:16:33] Let's just use in memory storage for now because I want to focus on integrating this with the backend. So, once this integration is working. Once everything is fine, then we can actually go and Implement real database.
+[00:16:48] Um, yeah.
+[00:16:52] So, eventually, instead of dictating all these things, I could have just, you know, used this prompt from part number five.
+[00:17:02] And, um, yeah. So, um, how many of, you know, fast API?
+[00:17:08] Okay, not so many. Well, do you at least know that it exists?
+[00:17:12] Yeah.
+[00:17:13] So fast API is just a python framework for creating back-ends.
+[00:17:18] It doesn't really matter which one you use. Just use one that, like, if you also don't care, you can just let.
+[00:17:26] Agent decide agent would probably use typescript or something like this, I don't know.
+[00:17:34] Uh, in the end, it doesn't really matter. As I said, I just, I like, python. I have experience in Python, so that's why I decided to use fast API because this is the most popular python backend.
+[00:17:46] Like library for backends.
+[00:17:48] Um, but yeah, and then it doesn't really matter.
+[00:17:51] Like, if you're more familiar with Java, you can use Java. If you're more familiar with go, you can use, go, nor attempt. You can just use whatever.
+[00:18:00] Oh, okay, um, but for me. Um, also, like, as I said, the important part was here to use this mock store for now.
+[00:18:10] And I know that in fast API, it's very easy to do.
+[00:18:16] And I think this one is.
+[00:18:19] Less important, but already I say, hey, let's make sure that we actually have authentication.
+[00:18:27] And this is technical. This is specific to fast API.
+[00:18:30] Um.
+[00:18:32] This is how fast API.
+[00:18:35] Stores like they have this.
+[00:18:39] Primitives for like rotors, models, or authentication, right? So then it's, it's helpful to start organizing the code and.
+[00:18:49] Let me see what we have actually.
+[00:18:51] We already have the backup folder.
+[00:18:54] Right now, it uses. I don't think I mentioned that I want to use for.
+[00:18:59] Pour backhand.
+[00:19:02] I want to use UV.
+[00:19:05] I didn't mention that, so UV is a package manager for python.
+[00:19:09] Um, the usual one is like people.
+[00:19:13] Then you need to create the virtual environment you need to install all the libraries.
+[00:19:17] So, UV is just more convenient, so UV is.
+[00:19:21] Kind of like.
+[00:19:23] Npm in note?
+[00:19:26] Um, so I forgot to add this instruction. I think it was somewhere here in the instructions.
+[00:19:32] Yeah, I, I already said, I'm here.
+[00:19:36] I created a folder myself and I did UV init.
+[00:19:41] Um.
+[00:19:42] If you don't have it, this is how you install it.
+[00:19:45] People install EV, and then you have TV, but I think I have UV already. Yeah.
+[00:19:55] So, um, it's.
+[00:19:59] I noticed that and I remembered about that because it created this VF folder. So this is a virtual environment.
+[00:20:06] Um, like both.
+[00:20:08] Um, front and backhand. They create this virtual environments to make sure that the packages that we install in the front that they don't interfere with each other and in Python.
+[00:20:20] Uv is just the most convenient library routine that it's the fastest one.
+[00:20:25] Um, yeah, sorry. I like it a lot.
+[00:20:27] Um, and then this is like, how it looks like, so it creates this by project Tomo with dependencies.
+[00:20:33] So, we use past API and some other things like, I don't.
+[00:20:37] Pretty. I don't think it really matters, but installs.
+[00:20:45] Okay, let me see.
+[00:20:49] So, yeah, now we just wait.
+[00:20:53] For it to fish.
+[00:20:56] So we have the app.
+[00:20:58] Uh, we have.
+[00:21:00] Matters are our.
+[00:21:03] Um, they're going to put like all this.
+[00:21:08] All these fruits.
+[00:21:10] Here, like this paths.
+[00:21:16] And I think I asked to use on that for this, right?
+[00:21:20] Uh, let me see. Yeah, so it didn't mention which kind of agent it is there. Its default and default is the same as the current session, so my current session is.
+[00:21:30] So, then it also uses. Yeah, I've started this on a sub agent.
+[00:21:34] Because I don't think like this is, it doesn't really require anything.
+[00:21:39] But smart, per se, um, because it is already specification. And then, if you have the clear specification.
+[00:21:47] You don't need like a smart model.
+[00:21:52] And with Sonat, you can just get so much more done than with Opus.
+[00:22:06] So, yeah, I guess. Now, now we just need to wait.
+[00:22:11] Um.
+[00:22:15] Okay, so injectable clock, so tests on the schedule controls now. Okay, well, I guess it's needed.
+[00:22:25] Does anyone of you do Java?
+[00:22:31] Scotland.
+[00:22:32] Cotton, maybe not.
+[00:22:36] My original background. So I was a Java developer for a couple of years.
+[00:22:41] And then I switch to data science. So in data science, people don't use Java. We usually use Python.
+[00:22:47] Yeah, but like, I remember, um.
+[00:22:50] A lot of things like that were happening in Java.
+[00:22:52] Like, if you want to?
+[00:22:55] Test something you would create a class clock and you would inject it. So I usually don't see this code in Python, which is why I'm a bit surprised, but like.
+[00:23:05] Attend. Like, maybe it's better if you if I just close it and for us.
+[00:23:11] Right now, it doesn't really matter.
+[00:23:14] Uh, it may better later.
+[00:23:16] Um.
+[00:23:17] But for, for right. Now, what we create is a prototype, right? So, we want to get this prototype to do what we want.
+[00:23:25] And we don't necessarily care much about, like the internals, at least. This is how I see it, so I don't want to spend a lot of time saying, hey, like?
+[00:23:34] This is some weird stuff like, why, why we do this? I don't think this is the right time for this. Like, okay, maybe this code is not great?
+[00:23:44] I don't even know why we need this kind of stuff here, but
+[00:23:48] It probably exists for a reason, and I just want to leave the H and B and do whatever it needs.
+[00:23:54] Um, and I wanted to focus more on like the bigger picture, so it's like we can think of a product manager. So the product manager or a technical product manager?
+[00:24:05] Um, they don't.
+[00:24:07] Sit near the developer and looking. They don't look at the code that the developer writes, right?
+[00:24:12] So, they more, they provide like more.
+[00:24:15] Um.
+[00:24:16] We say what the app should do rather than how it should do, right? So, even though, like, here, I give some more technical instructions?
+[00:24:26] So I can. I think of myself as a product manager, slash architecture.
+[00:24:30] Architect that can give, like, okay, here.
+[00:24:33] We use this technology here. We use that technology, but I don't really like babysit agents and see that the age and the code it creates is really what I want.
+[00:24:42] No, I mean, it's really because, like.
+[00:24:47] I was very picky about my call, like when I was a developer like I was a big fan of his book.
+[00:24:53] Clean.
+[00:24:56] From Uncle Bob.
+[00:24:58] Uh, this book is in Java, and it's like from 2010 or something. I don't remember, well, maybe earlier.
+[00:25:06] This is such a good book, and I was like, kind of Zealed, like I was.
+[00:25:12] Very big fan of that, and I really wanted to make sure that the code I have really like Falls.
+[00:25:18] All the rules from this book?
+[00:25:20] And.
+[00:25:21] I was also young, right around 20 years old, so I was, like, all the code must be clean and understandable, right? So, like, I annoy other people when I think that they call this not like up to the standards.
+[00:25:36] But now, like, um.
+[00:25:39] Probably, this quote violates every single rule from that book, um.
+[00:25:44] So, for me, it's better not to look at this.
+[00:25:46] Otherwise, I just spent too much time trying to make sure that the agents create code. I, like, at the end, it doesn't really matter. Like, what matters at this step, in my opinion, is that the code actually works?
+[00:25:58] And this models. These modern models are quite good at that, so the code quality for my standards. Maybe it's bad, but it doesn't really matter. So I let I learned to accept it and let it go.
+[00:26:13] And what really matters is that it actually works.
+[00:26:15] Right so, and these models they are good at writing tests too.
+[00:26:20] Again, if I look at these tests, I kind of want to cry, but it's a better not to look, but at least it's testable, right. At least they are tested. They are covered with tests.
+[00:26:31] And they work and the way I.
+[00:26:35] Actually, check. This application is more, like, okay, I'm a user.
+[00:26:38] Um, called this board. Does it do what I want?
+[00:26:42] So also in the production environments could be reliable enough, and if you put enough effort into testing.
+[00:26:52] Yes, so we can talk about this attempt. But yes, so you can have like a team of patients.
+[00:26:57] You can have like a QA engineer whose job would be to to make sure it works right, like, like a real team, but except of real people, they would be agents.
+[00:27:07] But here, what we are creating right now is a prototype, right? We are going to deploy this prototype, and it's also possible to make sure that this prototype can serve real users, right? But then, at some point, like when you have, I don't know 100 requests per second. Maybe this will not work, right?
+[00:27:24] And then you will need to redesign. Maybe you will actually need to look at the code, but realistically, how many applications?
+[00:27:32] Survive to that point or not survive. But, like, see this amount of traffic. So, in most cases, um, like, I don't know, this website that I have.
+[00:27:42] It has maybe?
+[00:27:44] Thousand clicks per day.
+[00:27:46] From humans. There are a lot of clicks from Bots.
+[00:27:49] Um, but like from real humans, it's a lot less. And then, like, you don't really need.
+[00:27:56] Like, you know, proper software that can scale?
+[00:28:00] To handle this traffic. Oh, you need like a small computer that can run python, and you can forgive some efficiencies right until you like hit lots of traffic.
+[00:28:13] You. You can also specify these decoding strategy that you want before the implementation. Yes, you can specify this strategies too, of course. But, like again, as I said, like, what I want to have is a prototype that does what I need, right? And then, I can worry about scaling later when it is actually needed. So, what we will do today is we will implement the dicks backend.
+[00:28:35] We will also see how to deploy. It will make it easier to deploy.
+[00:28:39] Um, and then we see if users come right. If users come, then we can start thinking. Okay, now how do we solve this amount of users. At the beginning, it will work fine, but like, once you have a lot of users.
+[00:28:51] Because.
+[00:28:53] The agents made some decisions like about the database design about the code design about, like these things.
+[00:29:00] That will not necessarily be scalable.
+[00:29:03] Right, but this is a problem I want to worry later, not now. So now, I just want to focus on making it work.
+[00:29:10] And then, later, when we see traffic, we can actually just ask agents hey, like, it looks like our system is low.
+[00:29:15] Can you go and figure out what's the problem, right? And it will find the bottlenecks. It will try to profile our code and we'll say, okay, this is ineffective. We should do it this way, right? But I don't want to spend time with this now.
+[00:29:29] Okay, so let's see what we, it's still doing this.
+[00:29:33] So, it's writing some tests.
+[00:29:35] Um.
+[00:29:37] But from what I see, we have.
+[00:29:40] Quite a lot of code. Look, I'm surprised to see.
+[00:29:43] Like, also. The the thing is with these models, these modern models like sonnet 5.5 or almost 5.5, their variables.
+[00:29:52] So, they like to create a lot of code.
+[00:29:55] Um.
+[00:29:56] And I'm pretty sure that, like, 50 of this code is not really needed.
+[00:30:02] Uh, but also like.
+[00:30:04] Whatever.
+[00:30:08] Because it was both sorry, maybe should be tried using the book about clean code. Yeah, I mean, you can. You can say, hey, like, think about every line of code. Like, I think it will really need it.
+[00:30:22] Use the best practices from the book.
+[00:30:25] And use this. I know solid principles used. Don't repeat yourself principle. Like, you can just list things you wanted to use.
+[00:30:33] Um.
+[00:30:34] But yeah, sometimes it's just you don't have time for this, or you don't have enough tokens for that. Like, for example, with your.
+[00:30:42] For pilot subscription.
+[00:30:43] Like, if you try doing these things like that, like, you run out of the subscription pretty quickly. Yes, but also Uncle Paul is the person that, like, a huge proponent, started being with the agent coding?
+[00:30:56] Yeah, yeah. So, so, Uncle Bob says that.
+[00:31:01] He doesn't read code anymore. Yeah, but he makes sure that.
+[00:31:05] The code is actually up to his standards.
+[00:31:09] Right, and then he can enforce this. He can make sure that the agents produce the the code that is up to the standards.
+[00:31:15] Yeah.
+[00:31:16] Are you just touching?
+[00:31:21] Okay, let's see where we are now.
+[00:31:23] Yeah, I think it's still doing the the tests.
+[00:31:27] Sse stream endpoint. Okay, so clearly, it's doing a lot of stuff, um.
+[00:31:34] I'm a product manager okay, like?
+[00:31:37] I just. They do what they need to do in order to make it work.
+[00:31:41] Um, is just longer than I want, but like, there's some code.
+[00:31:47] Which is fine. The interesting one is store here.
+[00:31:51] So this memory store and the main logic, right? So right now.
+[00:31:55] Um.
+[00:31:56] To have this store right, and this store is just a bunch of dictionaries, right? So right now, we don't have any persistence.
+[00:32:05] Um, later, we'll replace it with a real database, but for now, it's just a bunch of dictionaries, because, as I said for me, now, the focus is to make sure that the front end and back end can interact properly with each other.
+[00:32:18] And then I can think. Okay, now they interact if it works.
+[00:32:23] Can I add proper backend here and?
+[00:32:28] Because we have some abstraction store later. All I need to do to have proper persistence is just Implement this. Maybe this will be another class that will be called, like a database store or something like this.
+[00:32:43] That would, instead of using dictionaries, it would just go to the database and.
+[00:32:48] Fetch it from from there.
+[00:32:53] I must say, it's that the code is like, not.
+[00:32:58] Who could be worse?
+[00:33:01] I don't know what is this finalized, but I guess this is like, when we want to say, okay, now, where do we actually go, then it calls this finalized, so it already put some logic in the store.
+[00:33:13] Like, as somebody who's a big fan of.
+[00:33:15] Uncompoc and other people.
+[00:33:17] Like, you don't really put business logic into your.
+[00:33:20] Um, store. But whatever?
+[00:33:23] Okay, I have not seen this.
+[00:33:26] Like story supposed only to fetch data and process data, right? I'm not process like fetch data and write it back, but then there is another kind of entity we call them services.
+[00:33:35] That does the business logic? And according to, like the best practices?
+[00:33:42] Well, it's done, so not. This instance is not implemented, uh?
+[00:33:46] For me, tend to push, and then in the meantime, what I will do.
+[00:33:50] Is, I will check it.
+[00:33:55] Is the back and decorated?
+[00:34:01] Content, if not.
+[00:34:05] Let's start.
+[00:34:06] As some agent. For that, let me see what actually I have in the prompt, so this would be.
+[00:34:12] Connects from the back end.
+[00:34:15] Switch the front end to use the real backhand client. Okay, we were kind of doing this.
+[00:34:22] So not yet. Yeah, so that's what I thought. Now we have the back end and I can probably.
+[00:34:30] Start the backend, so let me see.
+[00:34:33] How I do this?
+[00:34:39] So?
+[00:34:41] Um, yeah, I don't know how to do this. There is probably a comment that I can use, but what I like doing?
+[00:34:47] Is, I like probably the rhythmic and dance. Yeah, it says you need to do this round, unicorn, unicorn, whatever.
+[00:34:55] Um, instead of remembering that.
+[00:34:58] What I want to do is I can say.
+[00:35:02] So, I want you to create a make file that lets me run backend and front-end easily. So, I want to do something like, make frontend that would run front-end. I want to also have a comment make backend that would run backend.
+[00:35:18] So, I want to create a make file.
+[00:35:19] So, then, instead of thinking, like, how do I start this? So, I need to, firstly, to backend, then run this UV run UV corn app.main create app Factory Port like?
+[00:35:32] So long.
+[00:35:33] Like, even if I remember this just typing, this is just so much time. So for me, it's much easier to just write, make backup.
+[00:35:41] And then, I don't need to memorize it. And then, obviously, it doesn't really matter what kind of Technologies we use. Like, if we use Java if we use go. If we use Python for me, it's always make backend right and then backend works.
+[00:35:56] Um.
+[00:35:57] Yeah, so let me do something I need to go on the block, make back end.
+[00:36:03] And now bacon is working.
+[00:36:06] So, unicorn is running here.
+[00:36:10] And we don't have anything in the root, but we have something in docks.
+[00:36:16] So, docs is this open API.
+[00:36:20] Interface for fast API, so fast API has Swagger built-in or open API built in. So, this is the same thing as we.
+[00:36:28] Created here. This open API, except it's built in inside backend inside our fast API.
+[00:36:37] And actually. By now, we don't really need this file anymore because what we can do is we have this open API Json right. So then, this is the this is the specification that is based on the actual implementation. Not all the platforms, not all the Frameworks actually give you this.
+[00:36:56] Capability, like this option of this this option, right? But since class API first API, does that?
+[00:37:03] Um, yeah, we can just rely on this thing and not really care about this open API, I think.
+[00:37:11] Right, but it was still like, I think it's still useful.
+[00:37:14] Um, to use this specification and then later. If your backend doesn't support this open API out of the box, you will also need to spend some time.
+[00:37:23] Maintaining it, so making sure it doesn't get out of sync with the with the back end.
+[00:37:29] Right, but with fast API, we don't need to worry about this because it is. It's automatically generated by, based on all these.
+[00:37:39] Root as we have these roots.
+[00:37:43] And then API router, so you just scans through all of them.
+[00:37:48] And build this file. So, um?
+[00:37:52] I don't know if we can actually test it. So, let's see.
+[00:37:56] Uh, try it out.
+[00:38:01] And then it says I'm not signed in. So then I need to sign in.
+[00:38:07] Um, can I do this here? Maybe?
+[00:38:10] Try it out, so I need to know my email and password, so I think we have some seed data, right?
+[00:38:17] Um.
+[00:38:21] Where is the C data?
+[00:38:29] So, Anna is the admin.
+[00:38:34] And the password for Anna is.
+[00:38:38] Um.
+[00:38:39] I'm not sure if we are sending actually the the password. Okay.
+[00:38:46] I mean, it's https, so it should be safe, right?
+[00:38:51] And then.
+[00:38:53] We get the response body.
+[00:38:55] We have the token, and this is what we're going to use for actually communicating with a backend.
+[00:39:01] So, this is the token.
+[00:39:04] And now, if I check.
+[00:39:07] Me here.
+[00:39:10] Excuse. Like, somehow I need to add.
+[00:39:17] But I'm trying to figure out like how it works.
+[00:39:22] Do I not need to specify?
+[00:39:25] Okay, I mean, in somehow, it recorded this somewhere here with this token, I guess.
+[00:39:32] But anyways, like, this is what our client is going to do, right? So, first, we are going, uh, we're going to authenticate.
+[00:39:38] And then we are going to like when we send the request to me, we are going to get.
+[00:39:46] Like the actual user, so I was expecting that I would need to put this token in header somewhere, but?
+[00:39:53] So?
+[00:39:56] I just want to quickly check. Is it okay to send?
+[00:40:02] A password as plain.
+[00:40:05] Takes over.
+[00:40:07] Https. I think it should be fine, like what we are doing here, is. We're sending this in in request in Json.
+[00:40:15] Um, yes, that's the standard approach, and that's nearly what every site does.
+[00:40:24] What matters is what happens on the server, hash it right away.
+[00:40:28] Um, yeah, and probably you want to do this because, like, you have the salt and the salt?
+[00:40:33] Is something you want to hide. You don't want to expose it to the user.
+[00:40:40] Things that aren't worth?
+[00:40:47] So anyone who captures it can log in. There's no security or https. Hey, that's no secret. Okay.
+[00:40:53] I just wanted to double check.
+[00:40:58] So our backend works. And there is a session that I think it finished.
+[00:41:05] Front end, right? So now, um?
+[00:41:09] I have the back end that runs here.
+[00:41:13] And then I have the front end.
+[00:41:19] So I don't know. Can I actually stop?
+[00:41:22] Oh yeah, so I'll stop it and I'll do. I'll go one level up and then do make.
+[00:41:29] Front end.
+[00:41:44] And now we need to check that things work.
+[00:41:50] Um.
+[00:41:51] Sign in.
+[00:41:52] Then. I think it was Anna, right, and uh.
+[00:42:05] Team not found back to your teams.
+[00:42:12] So, I don't know if it's a problem. The team is not found.
+[00:42:16] Uh, maybe I'll ask.
+[00:42:20] When I log in, yes, and I get Team, not font.
+[00:42:35] And by the way, um, since plenty of you are not from Germany, but if you want to try real German food.
+[00:42:42] Maximilian is the it's not far from here. I think I can just go towards, uh, what to start with that, like, I think it's one or two stops from here.
+[00:42:53] Like, it's like real German food. This is, like, yeah.
+[00:43:00] But you'll have like?
+[00:43:01] I don't know if they have vegetarian options, but like, you have a big piece of meat and then, like rock coil, like it's cabbage, a red cabbage.
+[00:43:26] So, um?
+[00:43:28] Yeah, it looks like, so I will just quickly check. I'll press F12.
+[00:43:37] I'll just refresh.
+[00:43:40] And I want to see, like, what is happening?
+[00:43:43] It says three hydrated, but some attributes of the server render the HTML didn't match the clan properties. I have no idea what is that? I think it could be because I use some extensions.
+[00:43:58] Because I.
+[00:44:00] Use expansions.
+[00:44:03] I run some agent.
+[00:44:09] So, usually I check this. I press F12 to see what is happening.
+[00:44:13] All right. So, then, if I see some error messages like, I want to make sure that, um?
+[00:44:17] They're fixed, and I also go to network.
+[00:44:20] Any Network. Like, for example, teams, I can check what what we are actually sending.
+[00:44:25] So, first thing I want to check is that?
+[00:44:28] It's actually sending a request to backend, and the second thing I want to see is.
+[00:44:34] What do we get back, right? So, we're getting like some response.
+[00:44:39] So, there are some items. Um, yeah, raw admin team whatever, like, it doesn't really matter.
+[00:44:45] What would we get back? The important thing is, we are sending something to.
+[00:44:51] Um, keep this endpoint, and we're getting something back.
+[00:44:55] That's part of the past idea. No, no, like, this is, I'm in home. No, so I press F12 F12 and then, like, one thing is console.
+[00:45:06] This is where the apps can write some. So, if there is an error, I can see it right. And then I saw this error. Um, I think this error is because, like, I have some extensions that are kind of interfering with the app.
+[00:45:21] Like, I still have no idea what hydration means.
+[00:45:24] It's such a weird tone.
+[00:45:26] Um, but yeah, apparently something was not hydrated, so it needed to be hydrated.
+[00:45:31] And then the other tab that I check is Network, right? So right now, it didn't request anything but Styles.css, but the one when I click sign in.
+[00:45:42] And it's.
+[00:45:44] Okay, that's not what I wanted.
+[00:45:50] And now I want to login as Anna.
+[00:45:52] And this is the passport.
+[00:45:54] By signing. So, what I can check?
+[00:45:59] What was happening here? So, then, for signing?
+[00:46:01] Um, I sent a post request to this route to this URL.
+[00:46:07] Right?
+[00:46:14] Right?
+[00:46:16] So now!
+[00:46:18] There was another one for teams, right? So then it sends the requests for teams and then got back response, and then I don't need to create a team. So I have the design crew and?
+[00:46:32] Yeah, so this is the four rating now, so.
+[00:46:36] Um.
+[00:46:41] So these people where people want to go.
+[00:46:45] Because you're never. Even when you start a sub agent, is that too? Like to get a new contact, or you don't need that. He's created out of the context. Yes, so like the reason I want to start some patience is because, like, there is a lot of um?
+[00:47:00] History here about, like the past decisions, like?
+[00:47:03] And the agent. The sub agent doesn't really need that, right? It's more efficient. It's more efficient if it starts. It starts with clean context, but this is just to say token size, but also because it's better, it's buff. Okay, yeah, it's better, because it doesn't get distracted, and second is, like, every time you make a request like. Now, when I'm continuing this conversation, this entire history is included in the context. Right? So, then, like all these things?
+[00:47:32] A part of my request, right? So then I spend tokens every time I type something, even though so here is cached tokens.
+[00:47:40] So, it's not necessarily as bad as like, you know, sending the entire request without. So, this, this the previous of the previous conversation is hashed.
+[00:47:49] And I think it's discounted like 90 or something. So whatever you want to make a small change that actually have nothing to do with the previous. Yes, we started something yeah, so you can either just start a new session and type here, but I like this approach. When I have this orchestrator an orchestrator like for simple things, it can just do something in line, but for more complicated things, it would start a sub agent.
+[00:48:13] And.
+[00:48:14] Later, we'll also talk about teams.
+[00:48:16] We already had a question, like, how to make sure that the quality is ready. So, then, like, you can assign different roles to the sub agents.
+[00:48:26] But from what I see now, it works right. So this is the winner.
+[00:48:31] Um, okay, what is already closed?
+[00:48:35] I guess, because it's.
+[00:48:38] 11, 49, so this was the time to.
+[00:48:43] Actually go on it.
+[00:48:45] And here we can add restaurants.
+[00:48:48] Okay, so um.
+[00:48:50] Now, the next step would be, so let me check.
+[00:48:55] We have the make file.
+[00:48:58] Great! So we have. I can do make frontend make backend. I can run tests.
+[00:49:03] Okay.
+[00:49:06] And then front end and back end. They can talk to each other so.
+[00:49:11] Now, let's commit and push.
+[00:49:15] Do you want me to commit all of it? So what I also do is we can create this file called agents MD.
+[00:49:22] Right. So these are the instructions that all the agents see.
+[00:49:27] So, when we start the sub agent, when we start new agents like they automatically read this. So, what I can see here? What I can write here is make the regular.
+[00:49:36] And focused commits.
+[00:49:39] So, like it will grow. This file will grow, but I don't want to ask it to commit every time.
+[00:49:46] So, I just wanted to automatically commit. And then, I say, my creditor and focus commit, so it makes small commits.
+[00:49:52] So then I can also kind of Trace the decisions, like and see.
+[00:49:59] Things that like, not like one bunk blank commit for, like all the changes, like I have been doing so far, but like, for every small change, the book is a very common.
+[00:50:10] And you can also instruct agents to write good commit messages.
+[00:50:15] Oftentimes, it's not really needed. They are good at writing commit messages, so you you can see, like?
+[00:50:20] Um.
+[00:50:21] You can see the decisions, like why we mentioned made certain decisions so you can use this as a backlog?
+[00:50:28] I really felt the agents to use this.
+[00:50:31] I use it automatically. It uses it automatically, so it recognizes yes, yes.
+[00:50:39] Um.
+[00:50:41] So, um, previously, clot would not recognize this. So, for cloth, you would need to create commode.v file.
+[00:50:50] Um, and then the the rest of the world would use agents at MD.
+[00:50:54] But now recently, I think it was a few months ago now.
+[00:50:58] Hot also supports Asian solubility.
+[00:51:01] For now, you don't need to to keep two pumps.
+[00:51:08] Yeah, one surprise. It had also picked a root level agency that I didn't trade okay.
+[00:51:14] Um, but there was, I think there was also agents that didn't be from lower ball.
+[00:51:21] Which I think I can just do.
+[00:51:27] Okay, um, so now we have backend. Now we have the front end, the back end front end can talk to each other.
+[00:51:35] But still, like. Now, if I?
+[00:51:38] If I now stop this server and start again because we have this mocked database?
+[00:51:43] Uh, its dictionaries, everything is memory. It will be reset, right?
+[00:51:47] So what I want to do now is, I want to have persistence, so I want to have real database.
+[00:51:52] And I want to have one database that I would use for local testing and another database that I would use for actual production. So, for local database, I would use sqlite.
+[00:52:03] It's very lightweight database. It's just a single file. It's very convenient.
+[00:52:08] Um.
+[00:52:09] But when, when I go to production, I don't want to use that. I want to use like a proper database, which will be postgres SQL, so it means that I need some sort of.
+[00:52:20] Database access layer.
+[00:52:23] Um, some object relations object relational mapping.
+[00:52:27] Um, that can also easily connect to different backends to different databases right in Python. This project is called SQL Alchemy. There are many of them. One of them is SQL Alchemy. It's like hibernating Java, or like there are many of them.
+[00:52:42] So this is what I want to use.
+[00:52:45] So, my prompt would be.
+[00:52:48] No, when I go here, real persistence with the skill. So, replace the in-memory store with a database using light and SQL Alchemy. So, this is the library I mentioned.
+[00:53:00] Um, we see gold emulator switching to another database.
+[00:53:04] A different database will be super easy.
+[00:53:07] And.
+[00:53:08] Okay, use environment variable to configure which the server should connect to. I don't think it's really necessary. You could figure it out.
+[00:53:16] Itself, but I'll keep it and make it database agnostic later. We will add support for other databases, for example, postgres.
+[00:53:23] And this line, even though we use SQL Alchemy sometimes. What they can do is they can use some features from.
+[00:53:30] From sqlite that are not?
+[00:53:35] So?
+[00:53:39] So I want?
+[00:53:41] At the very beginning, I want to tell it to only use to make it database agnostic. So, then later, switching is easier. The agents will still figure it out. Like, let's say, at the beginning, if we use sqlite only, and we all don't add this line.
+[00:53:57] Will, they will create some code and the code might use some sqlite specific features right and later when we Port it to postgres. They will see this, and they will fix it, right? But we are just going to save some time and the reason I'm adding this line is because I have been there.
+[00:54:12] It has happened to me, so then I'm kind of. I just want to be.
+[00:54:17] That's why I have this line, so it will still work.
+[00:54:22] The agents will figure out and make a database agnostic later, but since I know it could happen, I can just ask it at the very beginning to make a database agnostic, but the important part is here.
+[00:54:31] So, let's replace the in-memory store with a database.
+[00:54:35] And then also say I want to use circulite, and I want to use SQL Alchemy.
+[00:54:40] So, let me.
+[00:54:44] And I'll say super agent just in case.
+[00:54:49] Um, because, like what can happen, is that so that?
+[00:54:54] It's not the smartest model, so sometimes it can just forget that I prefer to work through.
+[00:54:59] Sort of agents and decide to implement it.
+[00:55:24] Okay, so it started to someone. Send that sub agent to replace the memory store with SQL items.
+[00:55:30] Um, yeah.
+[00:55:34] Okay. And now, yeah, we just wait. So what we will do next? What's the time? Um, so what we will do next is once it works for us, the plan is to make it available somewhere.
+[00:55:48] So we will containerize it. Then, we will also connect it to postgres.
+[00:55:54] And then we'll figure out where we can host it.
+[00:55:56] So in my plan, I want to host it in AWS, but we can also decide like, maybe we want to do something else.
+[00:56:03] Because I also have some free credits from Google Cloud. I don't have free credits from AWS, but we can decide where we want to post it, but at the end, it doesn't really matter like these agents.
+[00:56:13] They are really good at.
+[00:56:16] Working with pretty much anything so you can also?
+[00:56:20] Like, if you don't have any strong opinion and you just want to host it somewhere, you can just ask it. Hey, like?
+[00:56:27] I have this application. Where can I put it? Like, we would say, okay.
+[00:56:30] These are the options.
+[00:56:31] You can also see here. I don't really want to spend any money.
+[00:56:34] On this, and then it will also suggest your turn like options with like a free trial or free accounts.
+[00:56:45] Okay, let me see what we're doing right now. Yeah, so they are creating this.
+[00:56:53] We can actually check the code.
+[00:56:58] Yeah, where's my? Yeah.
+[00:57:01] So we have backhand and app, and inside we had store. So I guess what is happening right now? It's creating a new meditation for this store.
+[00:57:10] Right. So here, I still see.
+[00:57:13] Um.
+[00:57:15] Dictionaries.
+[00:57:18] So, maybe right now, it's just analyzing the code in order to create, like, another store recommendation.
+[00:57:32] Also, I seem that.
+[00:57:36] So I use Visual Studio code and and these things like Pi test cache. They are.
+[00:57:42] Great! It means that they're not going to be committed, but this thing is not great.
+[00:57:47] So we forgot to put it in. Oh no, it is actually in getting all for some reason.
+[00:57:52] It just doesn't.
+[00:57:54] Doesn't? I like it.
+[00:57:59] Yeah, because we we don't want to commit this order to to it.
+[00:58:14] Okay.
+[00:58:16] You just want to know what it's good.
+[00:58:30] So it creates this backhand FTB model. Okay?
+[00:58:35] So, we have backhand.
+[00:58:39] Fdb, okay, make sense. So before it was just a store.
+[00:58:44] And now we have DB, so we have portals, and these models are this SQL Alchemy models. So this is?
+[00:58:51] Um.
+[00:58:53] The table description that is database agnostic and then SQL Alchemy can just create these tables in any database.
+[00:59:08] Okay, so we have these models we have.
+[00:59:12] Session.
+[00:59:14] Types. Okay, whatever?
+[00:59:19] And this migration is also like an important thing, right? Because we will change our schemas, we will change our tables. So then it wants to?
+[00:59:28] Um, be able to update the database. I didn't even ask for that and just knew that this is something we need to do.
+[00:59:35] So, then accused alembic for that.
+[00:59:37] Which is, like, I think it's thunderplane. Buy something to do this.
+[00:59:42] But interestingly, like, previously, like, even half a year ago. I would need the agent to instruct to do this, like to think, like, hey, like, who want to add these migrations?
+[00:59:52] But now, they just.
+[00:59:53] Know that this is an important thing, and then they included.
+[00:59:57] That's pretty good.
+[01:00:08] Are you using products for this?
+[01:00:10] How's the how does this work? It's fine.
+[01:00:14] It's okay.
+[01:00:16] Because, like in codex, you, I don't think you can actually do this. Like, I don't know if you can actually pick, like hook inside the agents.
+[01:00:23] At least in the terminal app. What I think if you use the?
+[01:00:28] This thing. I think you can actually.
+[01:00:32] Through the desktop interface, I think you can check what the solventions will do.
+[01:00:38] By using a terminal or desktop desktop vs code. Oh, I see, I see.
+[01:00:44] Can it starts of agents?
+[01:00:48] I didn't try that. Okay.
+[01:01:11] Okay, what is really strange? It's using Bosch to edit files.
+[01:01:15] I don't know why it's doing that.
+[01:01:17] But like, as long as it works, it's fine.
+[01:01:40] Yeah, well, usually like when this happens, and I need to wait for the thing. I usually run multiple projects in parallel.
+[01:01:47] Right. So, then, while one is thinking, then I can switch to another one.
+[01:01:50] Like, I don't know if this contact switching is actually good.
+[01:01:55] Yeah, what you should I do with Overcoat? It's pork, the session, and the worker on both functionalities at the same time for the same application. Okay, can you please repeat it?
+[01:02:14] Conversation. Yeah, so you can. You can work on maybe two features.
+[01:02:21] At the same time.
+[01:02:30] So, what I do is I just have two two terminal windows?
+[01:02:34] And in the one I work on one project and another. It's another project.
+[01:02:39] But also this contact switching. I don't think it's like, actually, good for my brain.
+[01:02:43] Um, because I think I'm?
+[01:02:46] Less focused.
+[01:02:48] But, on the other hand, like I'm just sitting and waiting.
+[01:02:50] So, what I'm going to do now?
+[01:02:54] That's, that's why, like, I kind of. I'm kind of forced to to do this contact switching.
+[01:03:01] Okay, well, he's doing something, so let it finish.
+[01:03:05] There are no questions online.
+[01:03:19] As to what extent are you using these things at work, like, do you use them extensively or to focus and full extent?
+[01:03:28] Like, is this session useful for you like, is, if you're already using this at work, like?
+[01:03:33] I don't know. You probably know many things already right to me. Personally, I mean, yeah. These are things that we already do, although it's, uh, you know, a lot. Another another project that's like 15 years old, so it's not like, start out where you, you know, do this from the beginning, but, uh, yeah, I mean, you can pick up.
+[01:03:52] Several things that are okay.
+[01:03:54] So, what is there in your code base, like, is it like Java or PHP page? Okay.
+[01:04:04] Okay, I'm sorry.
+[01:04:07] Did you have this, uh? Like, PHP was recently hacked, right? There was this zero day vulnerability.
+[01:04:14] Uh, I mean.
+[01:04:16] It came out.
+[01:04:19] The night before we saw that, and the only thing that we did was it was very soon. It was identified what was the exploit, and then we actually just like, run, um.
+[01:04:32] Network level disabled any sort of okay?
+[01:04:37] Permission to, you know, to anybody to get those endpoints. And that's it.
+[01:04:40] And like, it's good in the four, four. In the afternoon, it was already fixed. It was patched, and you patch version. So, did you have to shut down your server? No, like, I said, it's just like on a network level. I've seen several, um, endpoints that could have been.
+[01:04:57] You know, infected, and we just, you know?
+[01:05:00] We're doing some 500 or whatever for them.
+[01:05:09] Websites apps to all the libraries you cannot get for primary day. But yeah, yeah, I heard about this in Germany. Also, many sites for two down.
+[01:05:21] Okay, I think we finished.
+[01:05:24] So, um?
+[01:05:27] I don't know if I need to.
+[01:05:32] Out, just in case update. So, what I see here is that when I do make backhand, there is this minus minus reload. I think it means that it automatically when there are changes in the code. It would reload the code so it picks up the changes automatically, but I still like sometimes when the changes are big.
+[01:05:48] Like, for example, going from.
+[01:05:51] Um.
+[01:05:52] In memories for to, like, a persistent store, like I would still prefer to stop the the process and start the game, because I think this is a big change. It's not like a small change.
+[01:06:06] Okay, so let us check.
+[01:06:10] So probably like my authentications will not work.
+[01:06:13] Yes, because like all the tokens that were created.
+[01:06:18] They don't exist anymore.
+[01:06:21] No, I'll need to.
+[01:06:26] Authenticate again.
+[01:06:28] So, what is on?
+[01:06:34] Passport of this?
+[01:06:37] Okay, so it still works. Uh, so now I assume that these things go through.
+[01:06:43] Um.
+[01:06:45] Through the persistent storage, so I want to test it that it actually works. So, I want to do test.
+[01:07:00] Um, so many few things.
+[01:07:03] Okay, can I just do like this? Okay.
+[01:07:05] Restaurant is added.
+[01:07:07] Um.
+[01:07:09] So now, when, um, for the day the wooding is closed?
+[01:07:15] But I have the test restaurant. So, what I want to do now is I want to.
+[01:07:21] What are these things?
+[01:07:28] Like how president they didn't see this?
+[01:07:34] So, I'll start begin.
+[01:07:47] Okay, the test restaurant is still there, so it means that we actually use the.
+[01:07:52] Persistent storage.
+[01:07:54] And the files are.
+[01:07:58] The database, I think, should be somewhere. Where is it actually?
+[01:08:04] And this this vsve.db.
+[01:08:08] Database.
+[01:08:10] Um.
+[01:08:12] They can also install an extension to to read it.
+[01:08:15] Uh, maybe I can try to quickly do this?
+[01:08:18] A secret.
+[01:08:29] Let's see.
+[01:08:38] Secured. No, maybe it doesn't recognize that. Okay, no. So, like, there is some database, we know what is in this database.
+[01:08:48] Um.
+[01:08:49] So, this is persistent.
+[01:08:51] Um, so the next step I want to do is I want to package everything inside Docker.
+[01:08:57] Right? So this, like, Chittens and Docker, and then also add postgres, right?
+[01:09:01] So now.
+[01:09:03] I'm going to do these two things.
+[01:09:06] Uh, and.
+[01:09:08] So, what we do now is this is something we'll do in parallel. So, what we need to do now is we need to run backend here.
+[01:09:16] And we need to run front end here as two separate processes.
+[01:09:20] So, this is file for development.
+[01:09:21] But when you go to production, you typically want your backend to serve your front end, right? So you don't, uh, well, at least on smaller scale applications.
+[01:09:31] You want them to be in one container, so which means that you want to package all this code.
+[01:09:38] Inside some static files.
+[01:09:41] You want to take the static files you want to put them inside your backend, and then you want to teach your backend to service files, right? And then, instead of two Services, you only have one. So, I want to do this right now in in one prompt, so I want to.
+[01:09:57] Um.
+[01:09:58] Create a Docker Docker container.
+[01:10:01] With multiple steps, the first step would actually prepare the environment that is needed to building for building the the front end. It will begin the front end and then the other container would take this build front end and put it inside backhand. So, then, the back end can serve it, and we do it with one prompt.
+[01:10:21] So the prompt?
+[01:10:23] Create a Docker file that builds the front-end width node, then builds python image with backend with front-end static files. Back-end should serve the front end.
+[01:10:33] Which is what we are going to do.
+[01:10:36] Um, and then I'll just do.
+[01:10:40] So agent.
+[01:10:44] Um, so we're not doing postgres yet, so once we have this in a docker file, and then we will.
+[01:10:51] At a postgres container, too, so that we will have two containers running together. One will be our application. Another one will postgres. We'll connect them.
+[01:11:00] And once it works, we will see where we can deploy it.
+[01:11:07] So, I have started some sub agent to build a single image Docker, how it won't commit anything.
+[01:11:13] Um.
+[01:11:14] Let's commit.
+[01:11:16] So, I think that the sub agent is actually.
+[01:11:20] Should be able to read these agents, but?
+[01:11:25] See agents.
+[01:11:41] Okay, we don't really need to push it right now. As long as we commit, it's fine.
+[01:11:48] And this SPA built, so this react applications. We will also refer to them as single page applications, right, because internally, the way it's implemented, is kind of one page that is being redrawn.
+[01:12:02] Um.
+[01:12:04] So, yeah, it's. It's doing this kind of stuff right now, so it's building it.
+[01:12:09] So, then it gets like a bunch of JavaScript files, a bunch of HTML files, and CSS files that we can use in our backend to software, so these files are static. They don't really change. So for us, the backend we need to learn how to, or we'll need to add this.
+[01:12:26] Capability of serving static piles.
+[01:12:31] So, let me actually see. Did we create a Docker file yet? No yet?
+[01:12:41] But yeah, we have this new configuration now static directory.
+[01:12:46] Which is interacted with, uh, page application index plus assets to serve it.
+[01:12:53] Uh, index HTML.
+[01:12:56] Okay.
+[01:13:05] And what did we change here?
+[01:13:08] This is not the reason I like to.
+[01:13:10] Make regular commits. Lucky for some reasons, I want to inspect code because, like, right now, I just want to know what exactly it's doing so, then I can also comment. It's not going to just sit in in silence, right?
+[01:13:20] So then I can see what actually changed, right? Because like.
+[01:13:36] I think, um, it's making it possible for us to actually build this application.
+[01:13:44] So probably there are some things that need to happen before. It can do this, so I'll just leave it.
+[01:13:51] And then we have a Docker file.
+[01:13:54] With two stages.
+[01:13:57] Okay, so the stage number one is we build the static front end.
+[01:14:02] I have no idea what is SSR Nitro, but okay?
+[01:14:10] So we have node.
+[01:14:12] So, we get the package we run install. I don't know what is CI?
+[01:14:18] It's some sort of like.
+[01:14:21] Install, whatever, see, I don't know.
+[01:14:23] But the important part is this one right? We run npm run build static, so then we have this static files.
+[01:14:31] And then this one python.
+[01:14:34] So, here we install UV.
+[01:14:36] And then we copy.
+[01:14:39] Here. Yeah, so we add all the all the backend stuff and then from front end from this stage.
+[01:14:48] We built.
+[01:14:51] The files. We put them into the app static, so these are static files. So then?
+[01:14:57] I don't know why we need this.
+[01:15:06] Um.
+[01:15:09] Yeah, so right now, everything is run actually here through the database.
+[01:15:14] And this is probably needed. Maybe so that we can?
+[01:15:19] Do the mapping.
+[01:15:22] Because usually like when we run?
+[01:15:24] These Docker files. They are kind of run under root.
+[01:15:27] So, I guess.
+[01:15:29] Okay, I'll.
+[01:15:30] We can, of course, check later why this line is needed. And this is what I would do because doctors so.
+[01:15:36] Important thing to to understand what actually goes in the final build.
+[01:15:51] Um, yeah, so this volume. Yeah, that's why I think this line exists so we can actually into the volume mapping without.
+[01:16:00] Making it own by root, I assume.
+[01:16:04] Um.
+[01:16:08] Defuses to start.
+[01:16:11] Okay.
+[01:16:12] Some all looks fine.
+[01:16:18] So, I think it's.
+[01:16:22] I want to push it.
+[01:16:24] And.
+[01:16:26] So, to start, I need to start to do make Docker build.
+[01:16:33] So, I stop, please.
+[01:16:35] And I stop this. So now I want to start them actually in one container.
+[01:16:43] Make the curve.
+[01:16:49] Okay, I need to start my Docker Docker desk.
+[01:16:59] I usually don't start it automatically because it.
+[01:17:03] Uses Florida from.
+[01:17:06] Like on Linux, it doesn't, right? But on Windows, it kind of needs some sort of like virtual.
+[01:17:14] Machine.
+[01:17:15] So it uses some RAM.
+[01:17:18] But I'm kind of used to the fact that Docker is simply there, always running. That's why I keep forgetting that I need to to start.
+[01:17:36] So, what we do now is we are doing this.
+[01:17:41] For building this file. Actually, I want to see what exactly is in Dockerbit. Yeah, it's Docker build, and then the tag is.
+[01:17:52] Wswe.
+[01:17:56] I guess this is the name of our application. I don't even remember what it means.
+[01:18:03] What should we eat? Yes, right?
+[01:18:09] Because I noticed that it also practices everything with.
+[01:18:14] If you see, like, all the settings are prefixed.
+[01:18:23] Okay.
+[01:18:24] Yeah, so that the first step is done. So now, it's in the second step.
+[01:18:33] I don't know. I think it's it was doing them in parallel. Interesting.
+[01:18:39] It was runtime and front end. Okay.
+[01:18:43] I did not know that Docker can do these things in parallel, but anyways, we built this. So now I can do Docker runes in the comments.
+[01:18:53] Doctor run, so it would start this thing on Port 8000, and it would do mapping.
+[01:19:04] Ah, so this is like it will create an internal volume.
+[01:19:09] That is called like that.
+[01:19:12] He would map to data.
+[01:19:19] So it will not be the same data as we have here in backend, right. It will be a different a fresh database.
+[01:19:31] Whatever it should be running.
+[01:19:42] Okay and?
+[01:19:45] I think it was on an example.
+[01:19:48] The impossible. It was past World one, two, three.
+[01:19:52] No, I don't want to say passport, and um.
+[01:19:59] Okay, I think.
+[01:20:02] We don't have the word here. Okay.
+[01:20:06] Um, and that restaurant that I added is not saved because.
+[01:20:11] It's a new address.
+[01:20:14] Okay, so now we have this container, and so we have still one hour. No, no, sorry, actually, 10 minutes. Yeah.
+[01:20:25] But I kind of feel hungry, um?
+[01:20:28] But, um. So, maybe in this 10 minutes, what we can quickly do is, uh, now we can add postgres.
+[01:20:35] So right now, we are still using, uh, sqlite. So, it creates this, uh?
+[01:20:42] Volume mapping. It was this.
+[01:20:45] Database there, but what I want to do now is I want to run a separate container with postgres.
+[01:20:51] And I want to make sure that we use that.
+[01:20:54] So, let me see how we actually Implement this because I think in the workshop here in this Workshop document, I run it separately.
+[01:21:02] So, I start a postgres container.
+[01:21:05] And then I say, okay. Now I have this container.
+[01:21:08] Let's, let's use it.
+[01:21:12] Right, but I think like I can just let it figure this out.
+[01:21:16] We will eventually use Docker compose too, so I will just see how exactly it starts. I will not be surprised if it just figures out okay, like.
+[01:21:24] Now, I want to.
+[01:21:27] Put all these things together in one Docker compose, so it's easier to to run.
+[01:21:32] So let's see, so I'm going to just copy this problem I want to. I want this app to use postgres, not just SQL white. Add the postgres driver as a dependency, so SQL Alchemy can connect it and run it against the post address container above.
+[01:21:46] Okay, well, I am probably since I do this.
+[01:21:50] I need.
+[01:21:53] Also say that.
+[01:21:56] Uh, but it uses the old things snake Arena. I also ask to just eat with the new app you please.
+[01:22:07] Arena with.
+[01:22:11] What should we?
+[01:22:16] Even though, yeah, it says containerable, but it's below whatever.
+[01:22:22] I don't know what is the latest version of postgres, though?
+[01:22:25] Is it 17 already? Oh, it's 18, and here I use 16.
+[01:22:34] That's fine.
+[01:22:37] So, I've started a son, native agent to exposure support. I just did a container command to the new app container.
+[01:22:43] Yeah, okay.
+[01:22:46] So, it's not doing any, um?
+[01:22:49] Docker compose stuff yet?
+[01:22:57] Um, but it will.
+[01:22:59] Here in the make file, it will add new targets.
+[01:23:05] Let's make TB up, maybe down.
+[01:23:11] So he just came up with this plan, and now the agent will implement that.
+[01:23:17] Integral will probably take.
+[01:23:21] Hopefully less than 10 minutes. But yeah, right now, what we can do is just.
+[01:23:25] Maybe you have some discussions and then go eat?
+[01:23:34] How is it so far you managed to follow or?
+[01:23:38] Do you use compilot?
+[01:23:41] Yeah, I, I guess after a car College, but?
+[01:23:45] Okay, I just, uh, listening to it. So, Coco pilot, it also shows how much money you spend. I really see the number.
+[01:23:57] And I got like two left, so it's very quickly, okay.
+[01:24:03] But anyway, I I'm, I don't manage to have to share a lot of sport eight thousand. Okay, yeah. So, I think one credit in GitHub compiled is like one dollar.
+[01:24:16] So, for ten dollars, you get 15 credits.
+[01:24:19] I mean, like, it's 15 yeah.
+[01:24:21] But then, what kind of quantity is on Cincinnati or office?
+[01:24:33] So, Haiku or Luna Luna 6 Max would be better in your case because, like, then it can last more. Yeah.
+[01:24:41] Um, well, maybe for the rest. Like, since you say, only two credits are left.
+[01:24:48] You'll probably need to switch to something else.
+[01:24:53] Maybe. Also, I might plant lovely. Yeah.
+[01:24:58] Okay, probably not use the same lost accounts from GitHub.
+[01:25:07] Different accounts. Still, yes, this is different.
+[01:25:30] They're here for the entire conference.
+[01:25:34] No.
+[01:25:38] I think it's.
+[01:25:40] It's like five days.
+[01:25:42] So, we'll also have a talk on Thursday.
+[01:25:46] After afternoon.
+[01:25:49] So, the talk will be about. I'll briefly talk about these things.
+[01:25:53] So, now we use only one agent. Like, we have the orchestrator and we have the we use of agents, but these sub agents can have different roles.
+[01:26:03] Right, so they could be like you can have a product manager you can have, like a software engineer. You can have a Q engineer.
+[01:26:09] Like at the end, I'll briefly mention this. But if you want to know more about this on Thursday, it will be a talk. It will not be like a workshop where I can.
+[01:26:20] Where I will talk about like the the this approach of how you can create an engineering team.
+[01:26:26] And how you make sure that the quality of the code and the quality of the product is still good. Like, how can you have agents verify the output of other agents?
+[01:26:36] Um, and how you set up the process for these things.
+[01:26:39] So, don't remember the time exactly because it's going to be like 3 P.M or something.
+[01:26:47] Yeah, it's 2, 15.
+[01:26:52] So, scaling AI agents, teams, agent teams without quality compromises.
+[01:26:56] Say, I help you to come up with this title.
+[01:27:05] I said an idea of what I want to talk about, and then I just used, I think.
+[01:27:11] Open the eyes, saying hey, like. This is the idea what is the best way of?
+[01:27:16] Preparing the talk that would reflect what I want to show.
+[01:27:20] And suggested me, like around 10.
+[01:27:23] Then, I said. Okay, this one looks good, but can we tweak it and then eventually this what we used okay?
+[01:27:29] Um, so command.
+[01:27:32] Make TV up.
+[01:27:36] Link TB up.
+[01:27:41] Okay, so this is the command.
+[01:27:43] To be up. It will start.
+[01:27:47] These database.
+[01:27:49] Okay, that is a very long command, so we definitely want to switch to.
+[01:27:55] To Docker compose later.
+[01:28:01] Okay.
+[01:28:02] So this thing is ready and.
+[01:28:06] Back in Fiji. Okay, so this is what we want to run now.
+[01:28:12] Uh, so here backhand would actually run. Uh, so we're not running in Docker yet, so we would run.
+[01:28:21] Uh, without Docker.
+[01:28:23] But we would use this postgres URL.
+[01:28:27] Okay, little Forks.
+[01:28:30] All right. So this is, we say, okay, this is the database URL.
+[01:28:34] Which is postgres?
+[01:28:36] Uh, we have the user the password.
+[01:28:41] Yeah, so this long command?
+[01:28:44] And now.
+[01:28:48] Because we run this locally, the static files are not served. Right? So, then, I actually need to run.
+[01:28:55] Uh, front-end two.
+[01:29:03] So front and fronts where okay, 880.
+[01:29:07] So now, this thing.
+[01:29:10] Should go to postgres, and I don't know. In postgres, if we have the the seed data.
+[01:29:21] A world 23, so maybe we don't have Anna yet?
+[01:29:26] Could not reach the server. Okay?
+[01:29:29] So, then I pressed F12.
+[01:29:33] Figure this out, so sign in.
+[01:29:36] Able to load.
+[01:29:38] Response data. Okay, something doesn't work.
+[01:29:41] Um, but I think maybe we figured this out after the break. Um, I can also just tell the agent that.
+[01:29:49] Okay, this is a problem we have right now.
+[01:29:52] Um, but yeah, I don't think this problem is interesting. It's more like a technical problem.
+[01:29:56] So, now I suggest that we take a break and we'll come back.
+[01:30:04] In one hour, so the break is from 12 30 to 13 30.
+[01:30:09] And I will quickly now prompt it saying, hey, like?
+[01:30:12] It doesn't work.
+[01:30:18] Physical, don't make mistakes. Yeah.
+[01:30:30] Maybe, of course.
+[01:30:32] The boys use change.
+[01:30:43] Where is the lunch?
+[01:30:46] Restaurant.
+[01:30:52] It depends.
