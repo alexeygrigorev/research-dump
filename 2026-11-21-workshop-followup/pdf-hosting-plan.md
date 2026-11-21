@@ -4,14 +4,16 @@
 
 Attendees who already left their email via the Tuesday or Thursday QR code must receive a **direct PDF download link** with **no Maven email gate**, and without making any DNS or CloudFront changes for `datatalks.club`.
 
-## Recommended Option: `alexeygrigorev/course-downloadables` (GitHub Raw)
+## Active Hosting: `alexeygrigorev/research-dump` (Public GitHub Raw)
 
-1. Add the two kit directories (`tuesday-full-stack-vibe-coding-kit/` and `thursday-agentic-quality-control-kit/`) to the public `github.com/alexeygrigorev/course-downloadables` repository (alongside `idea-to-production-kit/` and `coding-agent-setup-kit/`).
-2. Use the direct GitHub raw URLs (zero new infrastructure, zero DNS/CloudFront changes, instant HTTPS download):
-   - Tuesday PDF:
-     `https://github.com/alexeygrigorev/course-downloadables/raw/main/tuesday-full-stack-vibe-coding-kit/full-stack-vibe-coding-kit.pdf`
-   - Thursday PDF:
-     `https://github.com/alexeygrigorev/course-downloadables/raw/main/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf`
+`alexeygrigorev/course-downloadables` is a private repository, so its raw URLs are not publicly accessible without GitHub authentication. `alexeygrigorev/research-dump` is public, requires zero new infrastructure and zero DNS/CloudFront changes for `datatalks.club`, and serves both PDFs directly over HTTPS with no Maven email gate:
+
+- Tuesday PDF:
+  `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/tuesday-full-stack-vibe-coding-kit/full-stack-vibe-coding-kit.pdf`
+- Thursday PDF:
+  `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf`
+
+(If `alexeygrigorev/course-downloadables` is made public later, or if Orin prefers `aishippinglabs.com`, the same kit directories can be mirrored there.)
 
 ## Alternative Option: `aishippinglabs.com` Static Downloads
 
