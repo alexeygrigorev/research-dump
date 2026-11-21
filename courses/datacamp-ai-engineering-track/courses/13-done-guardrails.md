@@ -1,4 +1,4 @@
-# 13. Guardrails for AI Agents
+# 13. Guardrails for AI Agents - DONE
 
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.

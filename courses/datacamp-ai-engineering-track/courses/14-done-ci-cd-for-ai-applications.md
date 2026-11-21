@@ -1,4 +1,4 @@
-# 14. CI/CD for AI Applications
+# 14. CI/CD for AI Applications - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
@@ -8,7 +8,7 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. 
 
 ## Learning objectives
 
-- Write and run a push-triggered workflow locally with deterministic unit and LLM-judge fixtures
+- Write and run a push-triggered workflow locally with unit tests and live-model evaluations
 - Add an evaluation step that fails the pipeline when quality drops below a threshold
 - Handle API keys, cost limits and non-deterministic tests in CI
 - Build and tag a Docker image as a pipeline step
@@ -37,7 +37,7 @@ The learner writes a workflow for the application and invokes its push event loc
 
 ### Model / release
 
-Python 3.13; `act`, Docker, `pytest`, and `uv`. Graded runs use fixtures for model and judge responses.
+Python 3.13; `act`, Docker, `pytest`, and `uv`. Live evaluation runs use configured model and judge credentials with a small case set and a supplied cost limit. Where network access is unavailable, grade workflow configuration and interpretation of saved run logs.
 
 ### Source material
 
@@ -50,7 +50,7 @@ Python 3.13; `act`, Docker, `pytest`, and `uv`. Graded runs use fixtures for mod
 
 ### Notes
 
-The local run uses a supplied checkout and Docker-capable runner. Exercises can grade the workflow and interpret paired failure/success run logs where container execution is unavailable. Use deterministic checks on every run and discuss a separate budgeted live-model evaluation job.
+The local run uses a supplied checkout and Docker-capable runner. Exercises can grade the workflow and interpret paired failure/success run logs where container execution is unavailable. Run deterministic unit checks on every change and use a budgeted evaluation job for real model and judge calls. Preserve per-case results, usage, and the evaluated commit so failures can be investigated.
 
 ## Lesson outline and source map
 
@@ -59,9 +59,9 @@ The local run uses a supplied checkout and Docker-capable runner. Exercises can 
 | 14.1 | Introduction to CI/CD | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 | 14.2 | Running CI Locally | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 | 14.3 | Running Tests in CI | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
-| 14.4 | CI without API Keys | Buildcamp Week 4 judge and cost exercises |
-| 14.5 | Enforcing Evaluation Thresholds | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
-| 14.6 | Building Docker Images | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.4 | Managing API Keys in CI | Buildcamp Week 4 judge and cost exercises |
+| 14.5 | Running Evaluations in CI | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
+| 14.6 | Building and Tagging Docker Images | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
@@ -83,19 +83,19 @@ Add the existing pytest suite to the automatic workflow. Run a valid change and 
 
 **Check.** Show the test failure and verify that downstream jobs do not start.
 
-### 14.4 CI without API Keys
+### 14.4 Managing API Keys in CI
 
-Run the required checks with scripted model and judge responses. Examine where credentials would enter a separately triggered live scoring job.
+Pass model and judge credentials to the evaluation job through CI secrets or the local runner's secret configuration. Keep credentials out of the workflow file and logs. Use a small evaluation set and a supplied spending limit for real API calls.
 
-**Check.** Verify that the required run succeeds without credentials and that no secret values appear in job output.
+**Check.** Verify that the evaluation job can authenticate, that a missing key produces a clear configuration failure, and that secret values do not appear in run output.
 
-### 14.5 Enforcing Evaluation Thresholds
+### 14.5 Running Evaluations in CI
 
-Run a small benchmark against the current checkout with recorded model dependencies and assertions against the actual answers and citations. Attach the candidate commit to the report and pass it to the threshold command. A fixture with duplicate or omitted citations gives learners a version that fails on quality even when its ordinary tests pass.
+Run a small benchmark against the current checkout using real model and judge calls, with checks against the actual answers and citations. Attach the candidate commit to the report and pass it to the threshold command. A supplied candidate change drops required citations, giving learners a version whose citation checks fail even when its ordinary tests pass.
 
 **Check.** Check that the candidate regression stops packaging and that a stale report for another commit cannot be reused.
 
-### 14.6 Building Docker Images
+### 14.6 Building and Tagging Docker Images
 
 Build the existing Dockerfile only after the required jobs pass. Tag the image with the commit ID and hand that tag to the Kubernetes exercise.
 

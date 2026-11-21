@@ -1,4 +1,4 @@
-# 15. Deploying AI Applications with Kubernetes
+# 15. Deploying AI Applications with Kubernetes - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
 
@@ -61,8 +61,8 @@ Use a local `kind` cluster in a Docker-capable exercise environment or a preprov
 | 15.2 | Local Kubernetes with kind | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
 | 15.3 | Kubernetes Deployments and Readiness | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
 | 15.4 | Kubernetes Services | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.5 | ConfigMaps and Secrets | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 15.6 | Rolling Updates and Rollbacks | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.5 | Application Configuration | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.6 | Updates and Rollbacks | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
@@ -90,13 +90,13 @@ Add a Service selector and port mapping. Forward the Service port to the learner
 
 **Check.** Verify that the Service has a ready backend and that the response cites the expected section.
 
-### 15.5 ConfigMaps and Secrets
+### 15.5 Application Configuration
 
 Pass the assistant’s non-secret settings through a ConfigMap and a placeholder credential through a Secret reference. Keep the exercised endpoint read-only and its fixtures local to the service.
 
 **Check.** Change a harmless runtime setting and verify its effect after restarting the workload. With a dummy credential, confirm the application sees the Secret reference without showing its value in normal output.
 
-### 15.6 Rolling Updates and Rollbacks
+### 15.6 Updates and Rollbacks
 
 Update to a new image tag, wait on readiness, then diagnose a supplied bad update and roll back. Use the same request as a smoke check after rollback.
 
