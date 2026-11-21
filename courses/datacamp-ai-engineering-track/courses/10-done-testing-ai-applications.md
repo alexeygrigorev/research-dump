@@ -1,4 +1,4 @@
-# 10. Testing AI Applications
+# 10. Testing AI Applications - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2–3 hours.
 
@@ -52,12 +52,12 @@ The original SQL exercise checks which tools ran and what they produced. Here se
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 10.1 | Agent Tests with pytest | BC Week 4 `03-testing/02-first-test.md` |
+| 10.1 | Testing Agents | BC Week 4 `03-testing/02-first-test.md` |
 | 10.2 | Testing Tool Calls | BC `03-testing/03-testing-tool-calls.md` |
 | 10.3 | Testing Output Quality | BC `03-testing/04-refactoring-tests.md` and `05-testing-output-quality.md` |
 | 10.4 | LLM Judges | BC `04-llm-judges/02-creating-judge.md` |
-| 10.5 | Multi-Turn Regression Tests | BC `04-llm-judges/03-thinking-about-test-cases.md` and `05-improving-judge-tests.md` |
-| 10.6 | Test Costs | BC `03-testing/06-tracking-costs.md` |
+| 10.5 | Multi-Turn Tests | BC `04-llm-judges/03-thinking-about-test-cases.md` and `05-improving-judge-tests.md` |
+| 10.6 | Tracking Test Costs | BC `03-testing/06-tracking-costs.md` |
 
 ## Detailed lesson outline
 
@@ -91,7 +91,7 @@ A speaker first asks about draft slides, then asks about final slides. The appli
 
 **Check.** Demonstrate that the test fails on the original implementation and passes after the fix. The final answer cites only “Final Slides,” while the conversation history still contains the first turn.
 
-### 10.6 Test Costs
+### 10.6 Tracking Test Costs
 
 Compare an offline regression run with a recorded live run of the same cases. Attribute input and output tokens to assistant and judge calls, including one retry. Apply the supplied per-model rates.
 

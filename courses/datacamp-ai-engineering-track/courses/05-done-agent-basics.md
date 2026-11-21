@@ -1,4 +1,4 @@
-# 5. Agent Basics: Tool Calling and the Agent Loop
+# 5. Agent Basics: Tool Calling and the Agent Loop - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
 
@@ -53,7 +53,7 @@ The Buildcamp homework searches Wikipedia for a page and fetches the selected pa
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 5.1 | Why Agents? | LZ `01-agentic-rag/11-agents-intro.md` and `12-rag-revision.md` |
+| 5.1 | Introduction to Agents | LZ `01-agentic-rag/11-agents-intro.md` and `12-rag-revision.md` |
 | 5.2 | Tool Calling in Python | BC `v2/03-agents/02-agent-basics/02-agentic-rag-tool-calling.md` |
 | 5.3 | The Tool Call Loop | BC `v2/03-agents/02-agent-basics/03-agentic-loop.md`, LZ `01-agentic-rag/14-agentic-loop.md` |
 | 5.4 | The Conversation Loop | BC `v2/03-agents/02-agent-basics/04-qna-loop.md` |
@@ -62,7 +62,7 @@ The Buildcamp homework searches Wikipedia for a page and fetches the selected pa
 
 ## Detailed lesson outline
 
-### 5.1 Why Agents?
+### 5.1 Introduction to Agents
 
 Run the fixed RAG pipeline from course 2 on a rehearsal policy question. Compare its trace with an agent's traces for the same question and for “Show me the section you just cited.”
 

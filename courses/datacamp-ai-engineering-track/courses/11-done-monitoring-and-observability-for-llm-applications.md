@@ -1,4 +1,4 @@
-# 11. Monitoring and Observability for LLM Applications
+# 11. Monitoring and Observability for LLM Applications - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 8 lessons, 2–3 hours.
 
@@ -55,11 +55,11 @@ Replace the workshop FAQ corpus with the speaker handbook. Keep its progression:
 | 11.1 | Introduction to LLM Observability | Workshop `README.md` |
 | 11.2 | Setting Up Langfuse | Workshop `README.md`, `app.py` |
 | 11.3 | Tracing Agents and Tools | Workshop `agent.py`, `search.py` |
-| 11.4 | Inspecting Traces | Workshop `README.md`, `agent.py` |
-| 11.5 | Debugging Slow Requests | Buildcamp Week 5; new timeout fixture |
-| 11.6 | Session Costs | Buildcamp Week 5 homework |
-| 11.7 | Feedback and Human Review | Workshop `evals/setup_review_queue.py`; Buildcamp user feedback |
-| 11.8 | From Traces to Datasets | Workshop `evals/queue_to_dataset.py` |
+| 11.4 | Inspecting Agent Traces | Workshop `README.md`, `agent.py` |
+| 11.5 | Tracking Tokens and Costs | Buildcamp Week 5 homework |
+| 11.6 | User Feedback | Buildcamp user feedback |
+| 11.7 | Human Review | Workshop `evals/setup_review_queue.py` |
+| 11.8 | Building Datasets from Traces | Workshop `evals/queue_to_dataset.py` |
 
 ## Detailed lesson outline
 
@@ -81,31 +81,31 @@ Add `@observe` to the agent, tool, and retrieval functions, following the worksh
 
 **Check.** Verify that each observation belongs to the correct run and that tool arguments and retrieved source IDs are visible.
 
-### 11.4 Inspecting Traces
+### 11.4 Inspecting Agent Traces
 
 Compare two questions sent close together. Follow one run through its model calls, tool calls, retrieved passages, and final answer.
 
 **Check.** Use trace and observation IDs to match each answer to its evidence without mixing the two requests.
 
-### 11.5 Debugging Slow Requests
-
-Compare a normal request with a slow request containing a simulated fetch timeout and retry. Inspect errors and observation timings.
-
-**Check.** Identify the failed attempt and successful retry, and account for the extra wall-clock time without adding overlapping durations twice.
-
-### 11.6 Session Costs
+### 11.5 Tracking Tokens and Costs
 
 Group two conversation turns by session ID. Inspect each model call's token usage and calculate costs with the supplied rates, including a charged retry.
 
 **Check.** Report per-turn and session totals and exclude an unrelated nearby trace.
 
-### 11.7 Feedback and Human Review
+### 11.6 User Feedback
 
-Attach a rating to the original answer's trace ID even after a follow-up has arrived. Add selected traces to an annotation queue and compare the answer with the handbook. Record a correctness verdict and a correction where needed.
+Attach a user rating to the original answer's trace ID even after a follow-up has arrived. Inspect the rated answer and use the feedback to select traces for review.
 
-**Check.** Verify that the rating reaches the intended answer and that the reviewer checks the cited evidence.
+**Check.** Verify that the rating reaches the intended answer rather than the most recent turn.
 
-### 11.8 From Traces to Datasets
+### 11.7 Human Review
+
+Add selected traces to a Langfuse annotation queue. Compare each answer with the handbook and its cited evidence. Record a correctness verdict and a correction where needed.
+
+**Check.** Complete a review of an incorrect answer with a corrected expected answer. Confirm that a user rating alone does not count as a completed review.
+
+### 11.8 Building Datasets from Traces
 
 Follow the workshop queue-to-dataset flow. Promote completed reviews with a confirmed correct answer or human correction. Preserve the question, expected answer, source trace ID, and supporting source IDs.
 

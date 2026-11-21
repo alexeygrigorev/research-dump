@@ -1,4 +1,4 @@
-# 8. Multi-Agent Patterns with LangGraph
+# 8. Multi-Agent Patterns with LangGraph - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
 
@@ -49,16 +49,16 @@ Python 3.13, LangGraph and the LangChain stack from course 6. Supply tool fixtur
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 8.1 | Choosing an Agent Architecture | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
+| 8.1 | Workflows vs. Agents | BC `v2/04-testing/06-multi-agent/02-workflows-and-orchestrated.md` |
 | 8.2 | Graph State with LangGraph | BC `v2/04-testing/08-agentic-graphs/05-langgraph.md` |
 | 8.3 | Routing to Specialist Agents | BC `v2/04-testing/06-multi-agent/04-1a-simple-routing.md` |
 | 8.4 | Supervisor and Worker Agents | BC `v2/04-testing/06-multi-agent/05-1b-agents-as-tools.md` and `17-4b-orchestrator-workers.md` |
-| 8.5 | Evaluator Loops | BC `v2/04-testing/06-multi-agent/13-3b-fixed-evaluator.md` |
+| 8.5 | Reviewing Agent Outputs | BC `v2/04-testing/06-multi-agent/13-3b-fixed-evaluator.md` |
 | 8.6 | Parallel Agents | BC `v2/04-testing/06-multi-agent/16-4a-parallelization.md`, LZ `03-orchestration/07-multi-agent.md` |
 
 ## Detailed lesson outline
 
-### 8.1 Choosing an Agent Architecture
+### 8.1 Workflows vs. Agents
 
 Compare a known-slot lookup with the compound rehearsal request. Run the lookup function and the course 6 agent, then inspect a supplied compound-answer trace in which the agent correctly quotes policy but overlooks which slot the speaker booked.
 
@@ -82,7 +82,7 @@ Extend the graph to handle the compound request. A supervisor delegates the chan
 
 **Check.** Inspect the task sent to each worker and the proposed ticket. Match the change procedure to the returned handbook section and the booking to its schedule row. If the speaker ID is missing, the assistant should ask for it before drafting a ticket.
 
-### 8.5 Evaluator Loops
+### 8.5 Reviewing Agent Outputs
 
 Give a reviewer the proposed ticket and the two pieces of evidence. An exercise draft claims that the new time is confirmed. Use the reviewer's feedback to revise it into a request for a change. Only an accepted draft reaches the local draft store.
 

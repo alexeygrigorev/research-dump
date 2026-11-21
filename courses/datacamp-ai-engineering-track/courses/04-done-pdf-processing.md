@@ -1,4 +1,4 @@
-# 4. Processing PDFs with LLMs
+# 4. Processing PDFs with LLMs - done
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 6 lessons, 2-3 hours.
 
@@ -58,16 +58,16 @@ The Buildcamp’s books chapter extracts one page into a schema, processes the b
 
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
-| 4.1 | PDF Extraction with PyMuPDF | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
+| 4.1 | Extracting Text from PDFs | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` |
 | 4.2 | Extracting PDF Tables | `v2/02-rag-usecases-tech/04-books/02-extracting-text-from-pdfs.md` (layout motivates extraction checks); new table exercise |
-| 4.3 | Extraction with Source Evidence | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
+| 4.3 | Extracting Fields with Pydantic | `v2/02-rag-usecases-tech/04-books/03-structured-output.md` |
 | 4.4 | Handling Page Breaks | `v2/02-rag-usecases-tech/04-books/06-processing-all-pages.md` (whole-document pass); new continuation exercise |
 | 4.5 | Parallel Extraction | `v2/02-rag-usecases-tech/04-books/07-parallel-processing.md` |
-| 4.6 | Storing Extracted Records | `v2/02-rag-usecases-tech/04-books/08-rag.md` (reuse stored records); new checklist exercise |
+| 4.6 | Saving and Loading Records | `v2/02-rag-usecases-tech/04-books/08-rag.md` (reuse stored records); new checklist exercise |
 
 ## Detailed lesson outline
 
-### 4.1 PDF Extraction with PyMuPDF
+### 4.1 Extracting Text from PDFs
 
 Open the PDF edition with PyMuPDF, extract text from each page, and retain its order and document ID. Compare an ordinary paragraph, a blank page, and the submission table with the rendered PDF.
 
@@ -79,7 +79,7 @@ The organizer spots a draft deadline next to the final-slides label in a flatten
 
 **Check.** Recover both draft and final deadlines, including October 15, 2027 for final slides. A result that swaps two valid dates fails this check.
 
-### 4.3 Extraction with Source Evidence
+### 4.3 Extracting Fields with Pydantic
 
 Apply the deliverable schema from course 1 to the recovered table rows and the bio instructions. Add the section ID in Python and ask for the supporting text alongside the extracted fields. Compare parsed records with the source to catch a validly formatted date assigned to the wrong deliverable.
 
@@ -97,7 +97,7 @@ Run the model calls on the prepared sections with a small thread pool. Let one r
 
 **Check.** Use a recorded run to compare sequential and overlapping calls. Deliver results in a different order and verify that the records still match their sources and only the failed section is submitted twice.
 
-### 4.6 Storing Extracted Records
+### 4.6 Saving and Loading Records
 
 The organizer asks which materials are due by October 16, 2027 and which still need a confirmed date. Save the extracted records as JSONL and reload them. Join the deadline-table rows to the submission instructions by deliverable, keeping the source excerpt for each field. Show one checklist item per deliverable and group the undated items separately.
 

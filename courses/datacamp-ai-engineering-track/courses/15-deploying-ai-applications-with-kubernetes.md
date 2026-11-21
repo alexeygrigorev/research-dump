@@ -59,10 +59,10 @@ Use a local `kind` cluster in a Docker-capable exercise environment or a preprov
 | :---- | :---- | :---- |
 | 15.1 | Introduction to Kubernetes | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
 | 15.2 | Local Kubernetes with kind | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
-| 15.3 | Deployments and Readiness | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
+| 15.3 | Kubernetes Deployments and Readiness | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
 | 15.4 | Kubernetes Services | ML Zoomcamp `10-kubernetes/06-kubernetes-simple-service.md` |
 | 15.5 | ConfigMaps and Secrets | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 15.6 | Updates and Rollbacks | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 15.6 | Rolling Updates and Rollbacks | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
@@ -78,7 +78,7 @@ Create a local Kubernetes cluster with kind or use the preprovisioned environmen
 
 **Check.** Check node readiness and verify the image referenced by the Deployment is available.
 
-### 15.3 Deployments and Readiness
+### 15.3 Kubernetes Deployments and Readiness
 
 Write or complete the Deployment with matching labels, a container port, and a readiness probe. Use a supplied bad image or probe configuration to practice diagnosis.
 
@@ -96,7 +96,7 @@ Pass the assistant’s non-secret settings through a ConfigMap and a placeholder
 
 **Check.** Change a harmless runtime setting and verify its effect after restarting the workload. With a dummy credential, confirm the application sees the Secret reference without showing its value in normal output.
 
-### 15.6 Updates and Rollbacks
+### 15.6 Rolling Updates and Rollbacks
 
 Update to a new image tag, wait on readiness, then diagnose a supplied bad update and roll back. Use the same request as a smoke check after rollback.
 

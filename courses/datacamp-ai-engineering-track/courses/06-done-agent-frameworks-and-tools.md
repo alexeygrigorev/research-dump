@@ -1,4 +1,4 @@
-# 6. Building Agents with LangChain and Pydantic AI
+# 6. Building Agents with LangChain and Pydantic AI - DONE
 
 Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. Agents. 6 lessons, 2–3 hours.
 
@@ -50,8 +50,8 @@ Python 3.13, LangChain, its OpenAI integration, Pydantic and Pydantic AI. The ex
 | Lesson | Title | Source |
 | :---- | :---- | :---- |
 | 6.1 | Agents with LangChain | BC `v2/03-agents/06-agent-frameworks-alternatives/03-langchain.md`, LZ `01-agentic-rag/15-frameworks.md` |
-| 6.2 | Typed Lookup Tools | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md`, adapted to schedule data |
-| 6.3 | Creating and Updating Records | New workflow exercise extending the BC tool collection |
+| 6.2 | Defining Typed Tools | BC `v2/03-agents/03-agent-frameworks/03-tools-class.md`, adapted to schedule data |
+| 6.3 | Reading and Writing Data with Tools | New workflow exercise extending the BC tool collection |
 | 6.4 | Structured Agent Output | BC `v2/03-agents/02-agent-basics/05-structured-output.md` |
 | 6.5 | Streaming Agent Events | BC `v2/03-agents/03-agent-frameworks/06-event-stream-handlers.md` |
 | 6.6 | Agents with Pydantic AI | BC `v2/03-agents/03-agent-frameworks/05-pydantic-ai.md` |
@@ -64,13 +64,13 @@ Register course 5's search and fetch functions with a LangChain agent. Run the s
 
 **Check.** Compare the two traces. In each, the fetched section ID must come from the search results and appear in the answer.
 
-### 6.2 Typed Lookup Tools
+### 6.2 Defining Typed Tools
 
 Add a typed tool that takes a speaker ID and returns that speaker's rehearsal slot, time and room. Write a description that distinguishes an individual booking from general handbook policy.
 
 **Check.** Inspect the advertised schema. Call the tool for two speakers and an unknown ID. Verify that each known booking comes from the matching row and that the missing booking is reported.
 
-### 6.3 Creating and Updating Records
+### 6.3 Reading and Writing Data with Tools
 
 Implement create and update tools around the supplied draft store. Ask for a draft about a rehearsal conflict, then say “Add that I can do Friday afternoon.” Pass the first tool's draft ID into the update.
 

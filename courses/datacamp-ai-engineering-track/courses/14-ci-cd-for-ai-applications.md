@@ -58,10 +58,10 @@ The local run uses a supplied checkout and Docker-capable runner. Exercises can 
 | :---- | :---- | :---- |
 | 14.1 | Introduction to CI/CD | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 | 14.2 | Running CI Locally | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
-| 14.3 | Automating Tests | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
+| 14.3 | Running Tests in CI | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6; Buildcamp Week 4 |
 | 14.4 | CI without API Keys | Buildcamp Week 4 judge and cost exercises |
-| 14.5 | Evaluation Gates | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
-| 14.6 | Building Versioned Images | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
+| 14.5 | Enforcing Evaluation Thresholds | Buildcamp Week 6 `v2/06-evaluation/02-measure/06-running-evals.md` |
+| 14.6 | Building Docker Images | AI Dev Tools Zoomcamp 2026 deployment homework, Question 6 |
 
 ## Detailed lesson outline
 
@@ -77,7 +77,7 @@ Read the GitHub Actions-compatible workflow YAML and invoke it on the current ch
 
 **Check.** Find the push event, job, and completed command in the output.
 
-### 14.3 Automating Tests
+### 14.3 Running Tests in CI
 
 Add the existing pytest suite to the automatic workflow. Run a valid change and one that sends the wrong tool argument.
 
@@ -89,13 +89,13 @@ Run the required checks with scripted model and judge responses. Examine where c
 
 **Check.** Verify that the required run succeeds without credentials and that no secret values appear in job output.
 
-### 14.5 Evaluation Gates
+### 14.5 Enforcing Evaluation Thresholds
 
 Run a small benchmark against the current checkout with recorded model dependencies and assertions against the actual answers and citations. Attach the candidate commit to the report and pass it to the threshold command. A fixture with duplicate or omitted citations gives learners a version that fails on quality even when its ordinary tests pass.
 
 **Check.** Check that the candidate regression stops packaging and that a stale report for another commit cannot be reused.
 
-### 14.6 Building Versioned Images
+### 14.6 Building Docker Images
 
 Build the existing Dockerfile only after the required jobs pass. Tag the image with the commit ID and hand that tag to the Kubernetes exercise.
 
