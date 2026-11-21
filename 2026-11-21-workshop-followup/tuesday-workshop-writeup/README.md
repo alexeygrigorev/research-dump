@@ -10,7 +10,7 @@ Source code: [alexeygrigorev/workshop-berlin](https://github.com/alexeygrigorev/
 
 We work through four stages:
 
-1. [Spec and Frontend](01-spec-and-frontend.md) - Write `specs.md`, generate the UI, strip Supabase, and fix layout friction.
+1. [Spec and Frontend](01-spec-and-frontend.md) - Run a ChatGPT discovery interview, write `specs.md`, generate the UI, strip Supabase, and fix layout friction.
 2. [OpenAPI and Backend](02-openapi-and-backend.md) - Extract `api/openapi.yaml`, build the FastAPI backend with `uv`, and connect the frontend.
 3. [Database and Docker](03-database-and-docker.md) - Switch from an in-memory store to SQLAlchemy, SQLite, PostgreSQL, and Docker Compose.
 4. [E2E Tests, Deploy, and Agent Roles](04-e2e-deploy-and-agents.md) - Add Playwright tests, ship to a VPS with CI/CD, and set up PM, engineer, and QA agent roles.

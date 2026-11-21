@@ -1,9 +1,10 @@
 # Email Draft: Tuesday Workshop Sign-Ups
 
 - **Status:** DRAFT ONLY (do not send)
-- **Target audience:** Relay `leads` audience, tag / source `lead:full-stack-vibe-coding` (`https://materials.dtcdev.click/full-stack-vibe-coding`)
-- **Recipient counts:** Pending Relay admin API access — could not be queried from this worker because `relay operator` / `/api/admin/` returned `401 invalid_admin_api_key` with all keys in `dataops secrets` (`relay-dev.api-keys`, `relay-production.dtc-newsletter-api-key`, `ai-shipping-labs.relay.api-key`, `course-management.relay-api-key`). Remember to exclude or separately review unconfirmed (pending double opt-in) contacts before sending.
+- **Target audience:** Relay `talk-leads` audience, tag / source `lead:full-stack-vibe-coding` (`https://materials.dtcdev.click/full-stack-vibe-coding`)
+- **Recipient counts:** 9 total sign-ups in Relay (`talk-leads` audience): **6 confirmed** (`subscribed`, tagged `full-stack-vibe-coding`) and **3 pending** (unconfirmed double opt-in — exclude or review separately before sending).
 - **Attachment / Direct PDF link (no Maven email gate):** `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf` (see `pdf-hosting-plan.md`)
+- **Thursday Slides PDF (direct link):** `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/scaling-ai-agent-teams-slides.pdf`
 
 ---
 
@@ -13,9 +14,10 @@ Hi there,
 
 Thanks for joining my **Full-Stack Vibe Coding** workshop on Tuesday in Berlin and leaving your email!
 
-As promised, here is the direct download link to the kit from my Thursday talk (**Agentic Quality Control for Android Apps**) — no extra sign-up form needed:
+As promised, here is the direct download link to the kit and slides from my Thursday talk (**Scaling AI Agent Teams Without Quality Compromises** / **Agentic Quality Control for Android Apps**) — no extra sign-up form needed:
 
-- **Download the PDF:** [Agentic Quality Control for Android Apps: Summary & Working Kit (PDF)](https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf)
+- **Download the PDF kit:** [Agentic Quality Control for Android Apps: Summary & Working Kit (PDF)](https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf)
+- **Download the slides (PDF):** [Scaling AI Agent Teams Without Quality Compromises (PDF)](https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/scaling-ai-agent-teams-slides.pdf) ([Google Slides](https://docs.google.com/presentation/d/1wrH2we0J4atE3Dt2afbhygyoyATCLybGIBdfj84IMYM/edit))
 - **Watch the Thursday talk:** [Agentic Quality Control for Android Apps on YouTube](https://youtu.be/RQuBX3OTiT4)
 
 If you also want to revisit the code and prompts from Tuesday's restaurant-picker workshop:

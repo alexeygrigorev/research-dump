@@ -10,19 +10,12 @@ Attendees who already left their email via the Tuesday or Thursday QR code must 
 
 - Tuesday PDF:
   `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/tuesday-full-stack-vibe-coding-kit/full-stack-vibe-coding-kit.pdf`
-- Thursday PDF:
+- Thursday Kit PDF:
   `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/agentic-quality-control-android-kit.pdf`
+- Thursday Slides PDF:
+  `https://raw.githubusercontent.com/alexeygrigorev/research-dump/main/2026-11-21-workshop-followup/thursday-agentic-quality-control-kit/scaling-ai-agent-teams-slides.pdf`
 
-(If `alexeygrigorev/course-downloadables` is made public later, or if Orin prefers `aishippinglabs.com`, the same kit directories can be mirrored there.)
-
-## Alternative Option: `aishippinglabs.com` Static Downloads
-
-If Orin prefers hosting on `aishippinglabs.com` instead of GitHub:
-
-- Place the PDFs under `static/downloads/2026-11-berlin/` in `AI-Shipping-Labs/website`:
-  - `https://aishippinglabs.com/downloads/2026-11-berlin/full-stack-vibe-coding-kit.pdf`
-  - `https://aishippinglabs.com/downloads/2026-11-berlin/agentic-quality-control-android-kit.pdf`
-- This also avoids any `datatalks.club` DNS or CloudFront changes while keeping analytics under `aishippinglabs.com`.
+(If `alexeygrigorev/course-downloadables` is made public later, the same kit directories can be mirrored there.)
 
 ## What NOT to Use
 

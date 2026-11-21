@@ -15,17 +15,66 @@ Reference repo from the workshop: [alexeygrigorev/workshop-berlin](https://githu
 
 ## Stage 1: Spec and Frontend
 
-### [ ] 1. Product specification (focus on UX, not implementation)
+### [ ] 1. Product discovery: let the agent interview you, then write `specs.md`
+
+Start with a one-paragraph idea and let ChatGPT (or any chat model) ask the questions. This is the exact opening prompt from the workshop, for the "Where Should We Eat?" app:
 
 ```text
-I want to build <your app, for example: a team lunch restaurant-picker app where teammates suggest places and vote>.
+<App name>
 
-Help me set the scope for this project precisely. Focus on product behavior, user flows, and UX rather than implementation details or database schemas.
+<One-sentence description, for example: A collaborative restaurant voting app with ranked-choice voting, a countdown, and live results.>
 
-Ask me one question at a time and keep your output short.
+I want to help you figure out what we want to build - this is an idea and I want to make it more concrete before I build it. Ask me as many questions as you like but keep them short and ask one question at a time
 ```
 
-Save the specification to `specs.md` at the repository root. Remove any premature implementation details before handing it to a UI generator.
+Answer in a word or two. In the workshop the interview took about a dozen short questions:
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | Who is the app for? | Coworkers |
+| 2 | How often will they use it? | Daily |
+| 3 | Who can suggest restaurants? | Anyone (plus a pre-filled list of known places) |
+| 4 | How do people join a vote? | Both: a permanent team and a shared link |
+| 5 | Do saved restaurants appear in every vote? | Automatically |
+| 6 | How does a vote start? | Automatically every workday |
+| 7 | When does voting close? | 11:30 |
+| 8 | When does voting open? | 8:00 |
+| 9 | How do people vote? | Rank their top 3 |
+| 10 | Live results before closing? | Yes |
+| 11 | Are votes anonymous? | No, voter names and choices are visible |
+
+When you run out of opinions, hand the rest over:
+
+```text
+visible. make the rest of the choices for me
+```
+
+The model then returns a product spec with the decisions it made for you (mobile-first web app, teams with invite links, Borda-style points of 3/2/1 for first/second/third choice, tie-breakers, history, edge cases such as "no votes means no winner", a list of what to leave out of v1, and a definition of a successful MVP). Read it and push back where it feels wrong. In the workshop the drag-to-reorder ranking was the problem:
+
+```text
+I'm not sure if dragging will be user friendly if we have many choices
+```
+
+The model changed the interaction to tap-to-select the top 3 with search, plus "Recently visited" and "Popular with the team" sections. Only then ask for the file:
+
+```text
+now please prepare detailed specification file that I can give to my coding agent. save it to specs.md
+```
+
+If the chat can't attach the file, ask where it is ("where's the file?") or ask for the Markdown in the reply. Save the result as `specs.md` at the repository root.
+
+The generated spec also picked a technology stack (Next.js, Supabase, Vercel). Remove those implementation details, or ignore them, before handing the file to a UI generator: you want the frontend builder to focus on user flows, and you choose the backend yourself in later steps.
+
+**Decisions in the workshop spec (MVP v1):**
+
+- Mobile-first responsive web app; Google sign-in or email magic link.
+- Permanent teams with invite links; shared saved restaurant list included in every daily vote; any member can add restaurants.
+- Voting opens at 8:00 and closes at 11:30 every workday, in the team's timezone; no automatic vote on weekends.
+- Rank up to 3 restaurants (3/2/1 points); votes can be changed until 11:30; live rankings with voter names.
+- Tie-break: more first-place votes, then a random pick.
+- Screens: Today, Restaurants, History, Team.
+- Left out of v1: reservations, delivery ordering, AI recommendations, Slack integration, dietary filters, native apps.
+- Success: 5-20 coworkers can create a team, save their usual restaurants, rank their top three in under 15 seconds, and have a clear decision at 11:30.
 
 ### [ ] 2. Generate the frontend with a UI tool and export to GitHub
 
