@@ -1,26 +1,26 @@
 # 12. Evaluating RAG and Agents - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 4. Application quality. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-The assistant is running and course 11 has captured and reviewed its answers. How do we know whether a proposed change makes it better? Learners load those monitoring records, define what counts as a successful response, and turn the human judgments into automated scoring. They measure the baseline, investigate its failures, and compare a candidate on the same cases. Finally, they generate synthetic questions to fill gaps revealed by the evaluation.
+Learners use monitoring data to measure whether a change improves an agent. They define success criteria, align automated judgments with human labels, and establish a baseline. They compare versions fairly and use synthetic questions to fill coverage gaps found during evaluation.
 
 ## Learning objectives
 
-- Prepare evaluation data from reviewed monitoring records
-- Define answer-quality and task-completion criteria
-- Align an LLM judge with human labels
-- Measure baseline quality, investigate failures, and compare a candidate fairly
-- Generate and review synthetic questions to expand coverage
+- Prepare evaluation cases from reviewed monitoring data
+- Define criteria for answer quality and completed actions
+- Check an LLM judge against human labels
+- Compare versions using quality, cost, and latency evidence
+- Generate and review synthetic questions for missing coverage
 
 ## Why here
 
-Course 10 provides tests and an initial judge. Course 11 provides recorded runs, human judgments, and corrected answers. Course 12 uses those artifacts to move from inspecting individual runs to measuring quality across a dataset. The final version-comparison report becomes the input to the evaluation gate in course 14.
+Uses the traces and reviewed dataset from monitoring to build a repeatable improvement loop.
 
 ## Transformation
 
-From having reviewed examples of agent behavior to having a repeatable way to measure quality and decide whether to ship a change.
+From "I have examples of good and bad behavior" to "I can measure quality and justify a release decision."
 
 ## Theory or application
 
@@ -40,17 +40,13 @@ Separate development cases from held-out comparison cases before adjusting crite
 
 ### Model / release
 
-Python 3.13, pandas, the course 9 project, and an inexpensive model for judging and synthetic question generation. Use a Langfuse dataset export and recorded agent and judge responses for offline grading.
+Python 3.13. `pandas==3.1.1`, `openai==3.57.0`, `pydantic==2.14.4`, `langfuse==5.2.0`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
 - **BC Week 6** supplies the main progression: run scenarios, use human labels, align the judge, measure quality, then generate synthetic questions. [Buildcamp evaluation](https://github.com/alexeygrigorev/ai-bootcamp/tree/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/06-evaluation).
 - **Course 11** supplies the reviewed Langfuse traces and dataset, replacing a separate collection and labeling exercise here.
 - **LZ Module 4** supplies supporting examples for answer quality and agent evaluation. [LLM Zoomcamp evaluation](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/04-evaluation).
-
-## Exercise adapted from the Buildcamp
-
-Follow one evaluation loop: reuse monitoring data, define correctness, align a judge with human labels, measure quality, and compare a change. Each lesson produces an artifact used by the next. The synthetic-data lesson comes last so learners generate examples for an observed coverage gap rather than starting with an invented benchmark.
 
 ## Lesson outline and source map
 

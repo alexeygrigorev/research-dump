@@ -1,25 +1,25 @@
-# 4. Processing PDFs with LLMs - done
+# 4. Processing PDFs with LLMs - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 2. Retrieval and document processing. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-The conference organizer needs a submission checklist from the PDF edition of the speaker handbook. Learners recover slide and bio instructions from prose and a deadline table, extract typed records across the handbook, and trace each item on the checklist to its source.
+Learners turn PDF content into structured records that can be checked against its source. They recover text and tables, handle content split across pages, and validate fields with typed schemas. They then process independent sections in parallel and save the results for another application to use.
 
 ## Learning objectives
 
-- Extract text from a PDF and check table rows against the rendered handbook
-- Reassemble a submission instruction that crosses a page break
-- Use structured output and supporting excerpts to verify deliverables, deadlines, and upload destinations
-- Process independent sections concurrently and use the resulting records to build a deadline checklist
+- Extract PDF text and table rows while retaining source references
+- Reconstruct sections split across page boundaries
+- Extract typed fields and check them against supporting text
+- Process independent sections concurrently and save reusable records
 
 ## Why here
 
-The Markdown handbook supplied headings and source IDs. Its PDF edition puts some of the same facts in table cells or across page breaks. Learners need to recover those relationships before trusting a parsed date, a skill they will use again on invoices in the capstone.
+Extends document ingestion to layouts that require validation before their data can be trusted.
 
 ## Transformation
 
-From having a PDF to having validated records that can be traced back to the supporting excerpts.
+From "I have a PDF" to "I have validated records linked to their source."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ Learners extract sections from the conference speaker handbook PDF and check the
 
 ### Model / release
 
-Python 3.13, `pymupdf>=1.26.7`, `openai>=2.38.0` and Pydantic. Use a small OpenAI model with structured output for the demonstration and recorded responses for grading.
+Python 3.13. `PyMuPDF==2.1`, `openai==3.57.0`, `pydantic==2.14.4`. Use DataCamp-funded model API calls. Select the lowest-cost available model that meets the exercise criteria; no fixed model release is required.
 
 ### Source material
 
@@ -47,12 +47,6 @@ Python 3.13, `pymupdf>=1.26.7`, `openai>=2.38.0` and Pydantic. Use a small OpenA
 ### Notes
 
 Bundle a text-based PDF with a ruled deadline table, a submission instruction continued on the next page, and a blank page. Supply the matching handbook section IDs and recorded model calls for grading.
-
-## Exercise adapted from the Buildcamp
-
-The Buildcamp’s books chapter extracts one page into a schema, processes the book, then uses the stored results. For the speaker handbook, process one submission section at a time so a page break cannot separate a deadline from its destination. The organizer’s checklist is the test of whether the stored facts are usable.
-
-[Buildcamp PDF extraction homework](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/01-foundation/homework/01-homework.md) · [Buildcamp parallel processing lesson](https://github.com/alexeygrigorev/ai-bootcamp/blob/60cc917c776e74d3aaeffb2d24f8f93c320e4b8b/v2/02-rag-usecases-tech/04-books/07-parallel-processing.md)
 
 ## Lesson outline and source map
 

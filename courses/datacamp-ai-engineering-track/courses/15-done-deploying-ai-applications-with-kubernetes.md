@@ -1,25 +1,25 @@
 # 15. Deploying AI Applications with Kubernetes - DONE
 
-Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours.
+Part of the [DataCamp AI Engineering track plan](../README.md). Stage: 5. Production. 6 lessons, 2-3 hours. Each lesson is designed for approximately 20-25 minutes.
 
 ## Summary
 
-**Kubernetes** appears in **23.6%** of all postings (2,307 jobs; rising 18.6% → 23.8% in AI-First, 28.3% in AI-Support, and 43% in platform/infra roles). Learners deploy the containerized FastAPI/agent service from CI/CD to a local Kubernetes cluster (`kind`), supply runtime settings and credentials, then roll out a version and roll it back.
+Learners deploy a tested AI service to a local Kubernetes cluster. They define workloads and services, configure application settings and credentials, and verify readiness. They then update the service and recover a working version after a failed rollout.
 
 ## Learning objectives
 
-- Explain pods, deployments and services and write their manifests
-- Run a local cluster and deploy a containerized LLM application to it
-- Manage API keys and configuration with Secrets and ConfigMaps
-- Use readiness to verify a rolling update and restore a healthy image after a failed rollout
+- Write deployment and service manifests
+- Configure application settings and credentials
+- Verify readiness and send requests to the deployed service
+- Update a workload and roll back a failed release
 
 ## Why here
 
-Reuses the Docker image from CI/CD and covers the container orchestration skill demanded in nearly a quarter of all AI engineering jobs.
+Uses the versioned image from CI/CD and introduces the operating tasks needed after a release.
 
 ## Transformation
 
-From "I can build and test a service container" to "I can deploy, update and recover my AI application on Kubernetes."
+From "I can build a tested image" to "I can deploy, update, and recover a running service."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ Deploy the read-only speaker handbook endpoint from CI. Use readiness, a Service
 
 ### Model / release
 
-`kind` and `kubectl` (versions TBC), Docker, Python 3.13 application image from CI/CD. Small model.
+Python 3.13. No additional Python packages; uses the container from the preceding course.. Docker and local runtime tools are supplied by the exercise workspace; see [Runtime requirements](../runtime.md).
 
 ### Source material
 
@@ -51,7 +51,7 @@ Deploy the read-only speaker handbook endpoint from CI. Use readiness, a Service
 
 ### Notes
 
-Use a local `kind` cluster in a Docker-capable exercise environment or a preprovisioned cluster with a supplied application image. For environments without cluster access, grade manifest changes and have learners interpret saved `kubectl` output for a successful rollout, a failed rollout, and a rollback.
+Supply a local kind cluster or a preprovisioned isolated cluster in the exercise workspace. Learners apply manifests and inspect actual runtime output without creating a cloud account.
 
 ## Lesson outline and source map
 

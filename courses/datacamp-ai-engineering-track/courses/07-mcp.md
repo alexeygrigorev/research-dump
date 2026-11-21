@@ -4,22 +4,22 @@ Part of the [DRAFT DataCamp AI Engineering track plan](../README.md). Stage: 3. 
 
 ## Summary
 
-The speaker assistant and an organizer's lookup script both need the same handbook. Learners use MCP to discover which tools a separately running server offers and call one by its advertised name and schema. They then publish their own search and fetch functions and connect both applications to them.
+Learners expose Python tools through the Model Context Protocol and call them from multiple applications. They discover advertised tool schemas, implement a local server, and connect it to the existing agent. They learn to distinguish a tool error from a connection failure.
 
 ## Learning objectives
 
-- Trace a tool request through an MCP host, its client and the tool server.
-- Discover a server's tool names and input schemas and call one from Python.
-- Expose handbook search and fetch tools from a local server over standard input and output (stdio).
-- Connect the course 6 LangChain agent to the server and diagnose a failed lookup.
+- Explain the roles of an MCP host, client, and server
+- Discover tool schemas and call tools from a client
+- Expose Python functions through a local MCP server
+- Connect the agent to MCP tools and diagnose failed calls
 
 ## Why here
 
-Learners already own working Python tools and an agent that can call them. The organizer's script introduces a second consumer. Both can use the handbook service while the assistant keeps its own rehearsal and draft tools.
+Requires working tools and an agent from course 6. Introduces reusable tool interfaces before the multi-agent workflow course.
 
 ## Transformation
 
-Learners can publish a Python function once and use its advertised interface from two applications.
+From "my tools are tied to one application" to "I can expose and reuse them through a standard interface."
 
 ## Theory or application
 
@@ -37,7 +37,7 @@ Start with a working handbook server and an organizer's script. After inspecting
 
 ### Model / release
 
-Python 3.13, Python MCP SDK and the course 6 LangChain stack with a compatible MCP adapter. The standalone client calls need no model. Grade the agent with a scripted model. Where subprocesses are unavailable, run the learner's handlers through an in-process client/server fixture and supply a recorded stdio exchange for the transport exercise.
+Python 3.13. `mcp==1.30.0`, `langchain==1.5.2`, `langchain-openai==1.8.5`, `langchain-mcp-adapters==0.3.2`. Use DataCamp-funded model API calls; no fixed model release is required. MCP processes run locally over stdio and require no external account.
 
 ### Source material
 
