@@ -1,10 +1,12 @@
 # Agentic Quality Control for Android Apps: Summary & Working Kit
 
-The practical agentic development workflow from Alexey Grigorev's talk, distilled into a step-by-step kit with role prompts, verification loops, and a checklist for each stage.
+The practical agentic development workflow from Alexey Grigorev's talk (**Scaling AI Agent Teams Without Quality Compromises**, 114 slides), distilled into a step-by-step kit with role prompts, issue format, verification loops, and a checklist for each stage.
 
 By Alexey Grigorev. PDF version: [agentic-quality-control-android-kit.pdf](agentic-quality-control-android-kit.pdf).
 
-Talk recording: [Agentic Quality Control for Android Apps (YouTube)](https://youtu.be/RQuBX3OTiT4).
+- **Talk recording:** [Agentic Quality Control for Android Apps (YouTube)](https://youtu.be/RQuBX3OTiT4)
+- **Slides (PDF):** [scaling-ai-agent-teams-slides.pdf](scaling-ai-agent-teams-slides.pdf)
+- **Slides (Google Slides):** [Scaling AI Agent Teams Without Quality Compromises](https://docs.google.com/presentation/d/1wrH2we0J4atE3Dt2afbhygyoyATCLybGIBdfj84IMYM/edit)
 
 ## How to use it
 
@@ -13,17 +15,22 @@ Talk recording: [Agentic Quality Control for Android Apps (YouTube)](https://you
 3. Copy the role prompts below into `.claude/agents/` or your agent harness of choice (`CLAUDE.md` / `AGENTS.md`).
 4. Tick the box when the workflow step runs cleanly in your repo, not when an agent claims it is ready.
 
-Companion resources mentioned in the talk:
+Companion resources mentioned in the talk & slides:
 - Blog post: [I Built an AI Agent Team for Software Development](https://aishippingblog.com/p/i-built-an-ai-agent-team-for-software)
 - Agent definitions: [AI-Shipping-Labs/website `.claude/agents`](https://github.com/AI-Shipping-Labs/website/tree/main/.claude/agents)
 - Process doc: [AI-Shipping-Labs/website `_docs/PROCESS.md`](https://github.com/AI-Shipping-Labs/website/blob/main/_docs/PROCESS.md)
 - Tuesday workshop kit: [Full-Stack Vibe Coding Kit](../tuesday-full-stack-vibe-coding-kit/README.md)
 
-Note on slides: the presentation slides referenced at the end of the talk were not published in the YouTube description or local repositories; this kit captures the complete workflow, patterns, and prompts from the talk.
+## Why Vibe Coding Fails Without Structure
+
+Prompting "make android app pls no mistakes" and piling on features without structure fails for three reasons:
+1. **No specs** — agents fill gaps with guesses and overcomplicate the codebase.
+2. **No process** — no clear handoff between planning, implementation, and review.
+3. **No quality control** — the same agent session rubber-stamps its own work.
+
+The fix has four pillars: **Specs**, **Process**, **Quality control**, and an **Agent team**.
 
 ## Stage 1: Specifications Before Code
-
-Vague prompts ("make me an Android app") cause agents to fill gaps with guesses, overcomplicate the codebase, and burn tokens.
 
 ### [ ] 1. Brainstorm a crisp product specification
 
@@ -37,41 +44,53 @@ Help me clarify the exact user flow and edge cases. Give me options where choice
 Ask me one question at a time and keep your output short.
 ```
 
-### [ ] 2. Add a PM agent to turn ideas into testable tasks
+### [ ] 2. Add a PM agent and `issue-format.md`
 
-A PM agent sits between your raw idea and the developer agent. It writes requirements, explicitly parks **out-of-scope** items into follow-up issues, and defines testable **acceptance criteria (AC)**.
+A PM agent sits between your raw idea and the developer agent. It turns a task into a groomed, unambiguous spec with explicit **Out of scope** items and testable **Acceptance criteria (AC)**.
+
+`.claude/agents/pm.md`:
 
 ```text
-You are the PM for this repository.
-
-Read the user's request and the current codebase. Write a task spec with:
-1. Goal and user-facing requirements.
-2. Explicit "Out of scope" items (create follow-up issues for anything deferred).
-3. Testable acceptance criteria, each with a concrete `Verify:` command or check.
-
+You are the PM on this project. You turn the task into a groomed, unambiguous spec that an engineer can implement without asking questions.
+Read code to understand the current behavior and create a task definition that follows issue-format.md.
 Never write application code.
+```
+
+`issue-format.md`:
+
+```text
+Context
+<what exists today, relevant files, constraints, decisions>
+
+Requirements
+<numbered, concrete behaviours; what is in scope>
+
+Out of scope
+<what is deliberately not part of this task>
+
+Acceptance criteria
+AC1. <one verifiable statement: Given / When / Then, or an observable result>
+AC2. <...>
 ```
 
 ## Stage 2: The Implementer-Verifier Pattern
 
 Agents are lazy by default: if you ask the same session to verify its own work, it will often rubber-stamp it. Always verify in a **fresh session** with a separate agent.
 
-### [ ] 3. Implement with a fresh Developer session
+### [ ] 3. Implement with a fresh Developer session (`.claude/agents/dev.md`)
 
 ```text
-Implement the task in <task-file-or-issue> against every acceptance criterion.
+You are the software engineer on this project. You implement a groomed task so that every acceptance criterion in the task passes.
 
 Make small, focused commits explaining your decisions. When done, add implementation notes and do not mark the task accepted yourself.
 ```
 
-### [ ] 4. Verify in a fresh QA session (expect 2-4x overhead)
+### [ ] 4. Verify in a fresh QA session (`.claude/agents/qa.md`, expect 2-4x overhead)
 
 ```text
-You are the QA engineer. An external engineer implemented <task-file-or-issue> and we need independent verification.
+You are the QA engineer on this project. You decide whether an implemented task meets its acceptance criteria (AC). You do not fix code.
 
-Run every `Verify:` step in the acceptance criteria against the actual app, tests, and diffs. Check only whether the acceptance criteria are met—do not invent unrelated nitpicks.
-
-Return either:
+Run every check against the actual app, tests, and diffs. Return either:
 - ACCEPT (with exact command outputs and evidence), or
 - REJECT (listing each failing AC with reproduction steps).
 ```
@@ -86,7 +105,7 @@ Before merging, let the PM agent review the QA evidence from the user's perspect
 
 The implementer-verifier pattern works beyond code:
 
-- **Designer + Senior Designer**: Give your UI agent a shared **design system** so it stops inventing ad-hoc layouts, then have a Senior Designer agent render the screen and list every flaw.
+- **Designer + Senior Designer** (`.claude/agents/designer.md`): Audit a page for visual consistency, hierarchy, spacing, color token usage, and accessibility, and read `_docs/design-system.md` before any audit so the UI agent stops inventing ad-hoc layouts.
 - **Writer + Editor**: Dictate a rough brain dump, structure it into a draft, and run an Editor agent against a style guide to remove robotic phrasing before you edit by hand.
 
 ## Stage 3: CI/CD, On-Call, and Parallel Pipelines
@@ -142,3 +161,10 @@ Emulators miss real-device quirks. Dedicate a low-cost mini PC connected to a re
 1. Enable **Developer options** and **USB debugging** on the test phone.
 2. Attach the phone to a dedicated QA host (for example, a mini PC running the QA agent).
 3. Have the QA agent install the built APK via `adb install`, launch the app, tap through the acceptance-criteria flows, and inspect screenshots/logs before reporting `ACCEPT`.
+
+## Key Takeaways (from the Slides)
+
+1. **Use AI to help you with specs** — nail down user flows, edge cases, and testable acceptance criteria before coding.
+2. **Implementer-verifier pattern** — never let the same session rubber-stamp its own work (Dev/QA, Designer/Sr. Designer, Writer/Editor).
+3. **Create teams of agents** — specialized roles (`pm.md`, `dev.md`, `qa.md`, `designer.md`, `oncall.md`) following `_docs/PROCESS.md` (`Task -> PM -> Dev -> QA -> PM -> OnCall`).
+4. **Use an orchestrator to manage them** — run non-overlapping tasks in parallel across isolated git worktrees.
