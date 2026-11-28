@@ -15,3 +15,12 @@ Copied into this folder **2026-10-20** so Product Shipping launch materials stay
 | [inbox-20260701-product-shipping-draft.md](from-twa/inbox-20260701-product-shipping-draft.md) | `inbox/used/20260701_130457_AlexeyDTC_msg4650.md` | July 2026 inbox draft that seeded the Product Shipping concept |
 
 All nine files were present on Hetzner under `~/git/telegram-writing-assistant` at copy time (TWA had local uncommitted changes elsewhere; these paths existed and were copied as-is without a forced TWA rebase).
+
+## from-youtube/
+
+Detailed Russian briefs from YouTube transcripts (Nov 2026), for the Product Shipping course:
+
+| File | Video | Why included |
+|---|---|---|
+| [b2b-content-strategy-1m-arr.md](from-youtube/b2b-content-strategy-1m-arr.md) | https://youtu.be/Sxn1ji7vYzU — B2B content strategy for $1M ARR (Schwartz's 5 stages of awareness applied to content) | Prioritization framework «start at the bottom, go up»; stage→content playbook with bootstrap examples; «what to take for the course» section |
+| [find-1m-saas-ideas.md](from-youtube/find-1m-saas-ideas.md) | https://youtu.be/6sgCo6fMSGY — 8 ways founders found $1M SaaS ideas (survey of 200+ founders, 72% through work) | Idea-hunting map with weights; self-check questions + traps per method; founder cases per method |

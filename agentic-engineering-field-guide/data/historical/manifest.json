@@ -1,5 +1,52 @@
 {
  "dedup": "a job_id/canonical URL appears in at most one sample across all cities and months",
+ "julsep_2026_fill": {
+  "built_at": "2026-11-15",
+  "dedup_rule_t3593u": "Deduplicate by (source, job_id/url), content_hash, and repost key (normalized company + title + locations), keeping earliest posted_date (fallback earliest capture).",
+  "excluded_sources": [
+   "JobsPipe (off-limits, refund requested t3589u)",
+   "Hacker News (separate analysis t3591u)"
+  ],
+  "failed_or_empty_probes": [
+   "CC lever (0 job pages in 2026-30/34/39)",
+   "CC workable (0/10 parsed, <=4.2KB Cloudflare/JS shells)",
+   "Live public job APIs (Arbeitnow/Remotive/Himalayas/Jobicy only return Oct-Nov 2026 active jobs; Adzuna requires API key)"
+  ],
+  "month_basis": "capture (first_seen populated from archive_ref.timestamp for all new rows; posted_month also tracked)",
+  "sources": {
+   "ashby/cc": {
+    "crawls": [
+     "CC-MAIN-2026-30",
+     "CC-MAIN-2026-34",
+     "CC-MAIN-2026-39"
+    ],
+    "loaded_ge200": 292,
+    "panel": "8% deterministic hash of job pages >=7KB"
+   },
+   "builtin/cc": {
+    "crawls": [
+     "CC-MAIN-2026-30",
+     "CC-MAIN-2026-34",
+     "CC-MAIN-2026-39"
+    ],
+    "loaded_ge200": 78
+   },
+   "builtin/wb": {
+    "archive": "Wayback Machine CDX",
+    "loaded_ge200": 333,
+    "window": "20260701-20260930"
+   },
+   "greenhouse/cc": {
+    "crawls": [
+     "CC-MAIN-2026-30",
+     "CC-MAIN-2026-34",
+     "CC-MAIN-2026-39"
+    ],
+    "loaded_ge200": 1502,
+    "panel": "50% deterministic hash of company boards >=8KB + individual job pages for full description"
+   }
+  }
+ },
  "samples": {
   "berlin/2026-10.jsonl.gz": {
    "built_at": "2026-11-13T22:25:35+00:00",

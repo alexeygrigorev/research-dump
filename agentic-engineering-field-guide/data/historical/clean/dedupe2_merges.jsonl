@@ -5,7 +5,6 @@
 {"dropped": "greenhouse:6987115", "kept": "builtin:6626650", "title": "Software Developer Intern", "company_kept": "DRW", "company_dropped": "drweng"}
 {"dropped": "greenhouse:7057598", "kept": "builtin:6596861", "title": "Site Reliability Engineering Manager", "company_kept": "Wikimedia Foundation", "company_dropped": "wikimedia"}
 {"dropped": "greenhouse:6987120", "kept": "builtin:6626651", "title": "Software Developer Intern", "company_kept": "DRW", "company_dropped": "drweng"}
-{"dropped": "greenhouse:7120660", "kept": "builtin:6790397", "title": "Software Engineer - Market Data", "company_kept": "Clear Street", "company_dropped": "clearstreet"}
 {"dropped": "greenhouse:6671393003", "kept": "builtin:6805974", "title": "Senior Staff Software Engineer, Customer Experience", "company_kept": "Metropolis Technologies", "company_dropped": "metropolis"}
 {"dropped": "greenhouse:6671212003", "kept": "builtin:6805979", "title": "Senior Software Engineer, Customer Experience", "company_kept": "Metropolis Technologies", "company_dropped": "metropolis"}
 {"dropped": "greenhouse:6671250003", "kept": "builtin:6805984", "title": "Staff Software Engineer, Customer Experience", "company_kept": "Metropolis Technologies", "company_dropped": "metropolis"}
@@ -16,9 +15,7 @@
 {"dropped": "greenhouse:4589592005", "kept": "builtin:6706288", "title": "Forward Deployed Engineering Manager, GenAI Applications", "company_kept": "Scale AI", "company_dropped": "scaleai"}
 {"dropped": "greenhouse:6675504", "kept": "builtin:6876911", "title": "Backend Software Engineer - Market Data Services", "company_kept": "Clear Street", "company_dropped": "clearstreet"}
 {"dropped": "greenhouse:4495424005", "kept": "builtin:3951439", "title": "Staff Backend Engineer", "company_kept": "Uniswap Labs", "company_dropped": "uniswaplabs"}
-{"dropped": "greenhouse:4536653005", "kept": "builtin:4349111", "title": "Software Engineer, Enterprise", "company_kept": "Scale AI", "company_dropped": "scaleai"}
 {"dropped": "greenhouse:4691513007", "kept": "builtin:4549990", "title": "Staff Software Engineer, Cloud Infrastructure", "company_kept": "Temporal Technologies", "company_dropped": "temporaltechnologies"}
-{"dropped": "greenhouse:4569678005", "kept": "builtin:6315067", "title": "Senior Software Engineer, Enterprise GenAI", "company_kept": "Scale AI", "company_dropped": "scaleai"}
 {"dropped": "greenhouse:4507255101", "kept": "builtin:6354139", "title": "Java Software Engineer", "company_kept": "IMC Trading", "company_dropped": "imc"}
 {"dropped": "greenhouse:4586366005", "kept": "builtin:6642855", "title": "Senior Frontend Engineer", "company_kept": "Uniswap Labs", "company_dropped": "uniswaplabs"}
 {"dropped": "greenhouse:4587364005", "kept": "builtin:6662718", "title": "Machine Learning Engineering Manager, Enterprise", "company_kept": "Scale AI", "company_dropped": "scaleai"}
@@ -35,11 +32,8 @@
 {"dropped": "greenhouse:4498152005", "kept": "builtin:7467336", "title": "Software Engineer - iOS", "company_kept": "Underdog", "company_dropped": "underdogfantasy"}
 {"dropped": "greenhouse:4498167005", "kept": "builtin:7467335", "title": "Software Engineer - Android", "company_kept": "Underdog", "company_dropped": "underdogfantasy"}
 {"dropped": "greenhouse:4525877005", "kept": "builtin:4006968", "title": "Staff Software Engineer, Product", "company_kept": "Aptos Labs", "company_dropped": "aptoslabs"}
-{"dropped": "greenhouse:4529066005", "kept": "builtin:4043160", "title": "Software Engineer - MerusCase", "company_kept": "Join Paradigm", "company_dropped": "joinparadigm"}
-{"dropped": "greenhouse:4554972006", "kept": "builtin:4556546", "title": "Senior Embedded Software Engineer - Cyber", "company_kept": "STR", "company_dropped": "systemstechnologyresearch"}
 {"dropped": "greenhouse:4554975006", "kept": "builtin:7503760", "title": "Senior Embedded Software Engineer - Cyber", "company_kept": "STR", "company_dropped": "systemstechnologyresearch"}
 {"dropped": "greenhouse:4608650006", "kept": "builtin:7350253", "title": "Senior Mission Software Engineer", "company_kept": "STR", "company_dropped": "systemstechnologyresearch"}
-{"dropped": "greenhouse:4616083006", "kept": "builtin:7625713", "title": "Senior Software Engineer", "company_kept": "STR", "company_dropped": "systemstechnologyresearch"}
 {"dropped": "greenhouse:4742181007", "kept": "builtin:6291072", "title": "Sr. Software Engineer, API", "company_kept": "Hiro Systems", "company_dropped": "Hiro Systems PBC"}
 {"dropped": "greenhouse:4956908", "kept": "builtin:1715215", "title": "Software Engineer, Front End- Execution Management System", "company_kept": "Clear Street", "company_dropped": "clearstreet"}
 {"dropped": "greenhouse:4961366008", "kept": "builtin:7483514", "title": "Senior Back-End Software Engineer, Infra", "company_kept": "Circle.so", "company_dropped": "circleso"}
@@ -56,3 +50,4 @@
 {"dropped": "greenhouse:8226991002", "kept": "builtin:7491968", "title": "Staff Software Engineer, Pricing and Discounts", "company_kept": "Dutchie", "company_dropped": "thedutchie"}
 {"dropped": "greenhouse:8227119002", "kept": "builtin:7491974", "title": "Senior Software Engineer, Platform Infrastructure", "company_kept": "Dutchie", "company_dropped": "thedutchie"}
 {"dropped": "greenhouse:8243182002", "kept": "builtin:7642542", "title": "Senior Software Engineer, Front-End", "company_kept": "Dutchie", "company_dropped": "thedutchie"}
+{"dropped": "greenhouse:4529066005", "kept": "builtin:4043160", "title": "Software Engineer - MerusCase", "company_kept": "Join Paradigm", "company_dropped": "Paradigm"}

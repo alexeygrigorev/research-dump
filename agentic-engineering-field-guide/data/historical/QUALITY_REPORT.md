@@ -1,6 +1,6 @@
 # Quality report: raw historical vacancies (t3450u)
 
-Input: `raw/vacancies.jsonl.gz` (PR #10, 11,359 rows). Output: `clean/vacancies.jsonl.gz` (**11,292 rows**).
+Input: `raw/vacancies.jsonl.gz` (**12,584 rows** after Jul–Sep 2026 fill; 11,359 in PR #10). Output: `clean/vacancies.jsonl.gz` (**12,522 rows**; 11,292 in PR #10).
 Everything below is deterministic (no LLM, no network). Numbers: `clean/summary.json` (before/after for every metric);
 reproduce with `python scripts/clean_raw.py` (about 45 s) and `python scripts/quality.py <file>`.
 Language is a stop-word heuristic (en/de/fr/es/pt), not a classifier.
@@ -89,4 +89,22 @@ original is in `raw/`.
 7. **Non-English** (52) and **non-Latin** text: drop or keep?
 8. **Boilerplate**: strip EEO/privacy/board-tag/"about us" paragraphs before any extraction, or keep verbatim? (Affects length and token cost, not content of requirements.)
 9. **Region leftovers**: ARM/GEO/TJK/UZB/KGZ/KAZ (Caucasus/Central Asia), Puerto Rico/US Virgin Islands, Dominican Rep./Haiti stay UNKNOWN; and "Remote" rows with a country keep REMOTE only if no country resolves (remote flag is in `remote`). Bucket them?
-10. **Coverage gaps** (builtin 2026-07..09 only 24 rows, 2026-10 is 742): restrict analysis window or fill?
+10. **Coverage gaps (resolved for Jul–Sep 2026)**: see below.
+
+## Jul–Sep 2026 gap fill (t3586u, t3593u)
+
+Added deterministic, non-LLM collection from Common Crawl (`CC-MAIN-2026-30`, `34`, `39` for `builtin`, `greenhouse` 50% board panel + individual job pages, `ashby` 8% job-page panel) and Wayback Machine CDX (`builtin.com/job/*` for `20260701–20260930`). All new rows carry `first_seen` from their archive capture timestamp (`month_basis=capture`: 10,600 rows; `crawl_batch`: 1,922 rows from `CC-MAIN-2025-47`).
+
+**Repost deduplication (t3593u):** `scripts/julsep_merge.py` deduplicates in 3 stages:
+1. `(source, job_id or url)` keeping earliest `posted_date` / `first_seen`: **-368** rows.
+2. `content_hash` (`title|company|description[:2000]`): **-128** rows.
+3. Reposts/re-listings (`norm(company).replace(" ", ""), norm(title), sorted(norm(locations))`), keeping the **earliest `posted_date`** (fallback earliest `first_seen`): **-484** reposts removed.
+`clean_raw.py` additionally rejected **9** placeholder descriptions and merged **53** cross-source twins (`12,584 -> 12,522`).
+
+### Before vs. After for 2026-07, 2026-08, 2026-09
+
+| month | capture before (raw) | capture after (raw) | capture after (clean) | posted before (raw) | posted after (raw/clean) |
+|---|---|---|---|---|---|
+| 2026-07 | 13 | 597 | 596 | 3 | 446 |
+| 2026-08 | 7 | 597 | 597 | 264 | 592 |
+| 2026-09 | 4 | 581 | 581 | 268 | 328 |
