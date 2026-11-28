@@ -24,3 +24,11 @@ Detailed Russian briefs from YouTube transcripts (Nov 2026), for the Product Shi
 |---|---|---|
 | [b2b-content-strategy-1m-arr.md](from-youtube/b2b-content-strategy-1m-arr.md) | https://youtu.be/Sxn1ji7vYzU — B2B content strategy for $1M ARR (Schwartz's 5 stages of awareness applied to content) | Prioritization framework «start at the bottom, go up»; stage→content playbook with bootstrap examples; «what to take for the course» section |
 | [find-1m-saas-ideas.md](from-youtube/find-1m-saas-ideas.md) | https://youtu.be/6sgCo6fMSGY — 8 ways founders found $1M SaaS ideas (survey of 200+ founders, 72% through work) | Idea-hunting map with weights; self-check questions + traps per method; founder cases per method |
+
+## Product-search ideas
+
+Short notes on ways to find a product idea for the course.
+
+| File | Source | Why included |
+|---|---|---|
+| [product-search-ideas.md](product-search-ideas.md) | Collected links | Idea list for finding a product to build in the course |

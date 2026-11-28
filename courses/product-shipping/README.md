@@ -46,6 +46,7 @@ Older September pack text assumed **November 2, 2026 – January 24, 2027** and 
 | [guest-experts.md](guest-experts.md) | Earlier expert shortlist (reference; not confirmations) |
 | [guest-research-by-module/](guest-research-by-module/) | Module-scoped practitioner research (kept as is) |
 | [sources/INDEX.md](sources/INDEX.md) | Provenance for every archived TWA file |
+| [sources/product-search-ideas.md](sources/product-search-ideas.md) | Short idea list for finding a product to build in the course |
 | [sources/from-twa/](sources/from-twa/) | Frozen copies of Zoomcamp draft, Substack magnet source, ASL notes, inbox draft, interviews, distribution research |
 
 ### `sources/from-twa/` files
@@ -74,6 +75,7 @@ Older September pack text assumed **November 2, 2026 – January 24, 2027** and 
 
 | Date | Change |
 |---|---|
+| 2026-11-28 | Added sources/product-search-ideas.md (first entry: @scaling_shields on competitor 1-star reviews as a product-search idea) |
 | 2026-10-20 | Consolidated TWA sources under `sources/from-twa/`; added CURRENT.md; rewrote this README as SSoT index; rebased course-plan / maven-landing-copy / marketing-plan from Nov 2–Jan 24 → Nov 16–Feb 7; noted Maven page published at $1,599 |
 | 2026-10-10 | Added oversubscribed-launch-plan.md (Nov 16–Feb 7 planning basis) |
 | 2026-09-18 | Original pack prepared (Nov 2–Jan 24; Maven unpublished) |
