@@ -14,6 +14,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 | [learning/book-action-checklists](learning/book-action-checklists/README.md) | Source-linked action checklists for 11 business and product books | Growing library |
 | [podcast](podcast/README.md) | Reusable guest-research and interview-extraction methods (skill + two method docs) | Reference methods |
 | [tools/codex-headless-browser](tools/codex-headless-browser/README.md) | Tested command for browser interaction from non-interactive Codex with YOLO, prerequisites, and navigation workaround | Reference — tested Oct 2, 2026 |
+| [growth/free-developer-tools](growth/free-developer-tools/README.md) | Free developer micro-tools for AI Shipping Labs and DataTalks.Club: 30 initial ideas, SEO keyword discovery, SERP validation, prioritization and community challenge | **Research draft** Nov 28, 2026 — demand and KD not yet validated |
 | [growth/datatalks-club-youtube](growth/datatalks-club-youtube/README.md) | DataTalks.Club YouTube growth strategy to Dec 2027, plus weekly topic radar setup | Archived Sep 18, 2026 |
 | [growth/ai-shipping-blog](growth/ai-shipping-blog/README.md) | AIShippingBlog.com organic growth plan to 100k subscribers by Sep 2027 | Archived Sep 18, 2026 |
 | [strategy/monetization](strategy/monetization/README.md) | 100 ranked monetization opportunities with unit economics and a 90-day validation plan | Archived Sep 7, 2026 |
@@ -31,7 +32,7 @@ Research, course workspaces, and methods for Alexey Grigorev, organized by purpo
 
 - **Tools:** [Headless Codex browser access](tools/codex-headless-browser/README.md) — tested CLI command and observed Chrome integration behavior.
 - **Teaching:** [courses/](courses/) — the Maven course, the self-study game-launch course, and [research for a German AI education programme](courses/ai-engineering-school-germany/README.md).
-- **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog.
+- **Audience growth:** [growth/](growth/) — channel strategies for the DTC YouTube channel and the AI Shipping Blog; [free developer tools and SEO research playbook](growth/free-developer-tools/README.md).
 - **Business strategy:** [strategy/](strategy/) — monetization portfolio, AI-native company design, and the Astra prototype shortlist.
 - **Interviews & podcasts:** [podcast/](podcast/README.md) for the reusable methods; applied guest research lives in [courses/product-shipping/guest-research-by-module](courses/product-shipping/guest-research-by-module/README.md) and [strategy/ai-native-company](strategy/ai-native-company/README.md).
 - **Events & ventures:** [events/](events/) — Berlin venue research, [AI conference speaking opportunities](events/ai-conferences-2026-2027/README.md), and [conference demand-building with *Oversubscribed*](events/oversubscribed-conference-demand/README.md) — plus [Solo + AI Berlin](https://aiberlin.dtcdev.click) ([repo](https://github.com/alexeygrigorev/solo-ai-berlin)).
