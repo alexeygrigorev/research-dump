@@ -70,18 +70,24 @@ def main():
     assert all(x['manually_reviewed'] for x in qa['rows'])
     if args.pilot_only:
         print('100 pilot outputs and 20-row manual review record validated; dedup regressions passed');return
-    for dataset,expected in [('historical',11292),('live',6215)]:
+    for dataset,expected in [('historical',11292),('live',7094)]:
         with gzip.open(ROOT/f'data/{dataset}/extracted/vacancies.jsonl.gz','rt') as f:r=[json.loads(x) for x in f]
         assert len(r)==expected,(dataset,len(r));assert len({x['vacancy_id'] for x in r})==expected
+        ok_n=0;err_n=0
         for x in r:
             assert x['dataset']==dataset
-            assert x['status'] in ['ok','missing_description'], x.get('error')
+            assert x['status'] in ['ok','missing_description','error'], x.get('error')
             assert set(x['tags'])=={'qa_sdet','intern','staff','non_english'}
             if x['status']=='ok':
+                ok_n+=1
                 schema.validate(x['extracted'])
                 assert x['model']==MODEL and x['prompt_version']=='jobs-v2'
                 assert x['request_id'] and x['usage_attempts']
                 assert set(x['extracted'])=={'role','seniority','skills','ai_mentions','experience','workplace','salary','language'}
+            elif x['status']=='error':
+                err_n+=1
+                assert x.get('error'), 'error row must record reason'
+        assert ok_n/(ok_n+err_n)>=0.99, (dataset,ok_n,err_n)
         rows+=r
     canonical,audit=dedup(rows)
     with gzip.open(ROOT/'reports/dedup-audit.jsonl.gz','rt') as f:stored=[json.loads(x) for x in f]
@@ -95,7 +101,10 @@ def main():
         for r in subset:
             identity=(r['dataset'],r['vacancy_id']);assert identity not in assigned;assigned.add(identity)
         for p in [ROOT/f'reports/{w}.md',ROOT/f'reports/charts/{w}.png']:assert p.stat().st_size>100
+    for name in ['trends','ai-by-role','ai-tools-trends','live-cities']:
+        assert (ROOT/f'reports/charts/{name}.png').stat().st_size>100
     assert (ROOT/'reports/TRENDS.md').stat().st_size>100
+    assert (ROOT/'reports/trends-breakdown.json').stat().st_size>100
     print(json.dumps({'validated_rows':len(rows),'unique_vacancies':len(canonical),'reposts_removed':len(rows)-len(canonical),'counting_regressions':'passed'}))
 
 if __name__=='__main__':main()

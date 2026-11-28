@@ -31,19 +31,24 @@ def digest(text):
     return hashlib.sha256((VERSION+'\n'+text).encode()).hexdigest()
 
 
-def inputs(live):
+def inputs(live,snapshots=('2026-11-14','2026-11-25')):
     with gzip.open(ROOT/'data/historical/clean/vacancies.jsonl.gz','rt') as f:
         hist = [json.loads(line) for line in f]
     for r in hist:r['dataset']='historical'
     folder = Path(live)/'data/live'
-    details={}
-    for p in sorted((folder/'data_raw/2026-11-14').glob('*.yaml')):
-        d=yaml.load(p.read_text(), Loader=getattr(yaml,'CSafeLoader',yaml.SafeLoader));details[str(d['job_id'])]=d
     rows=[]
-    with (folder/'data/scrapes/2026-11-14/all_jobs_dedup.csv').open() as f:
-        for r in csv.DictReader(f):
-            d=details.get(r['id'],{})
-            rows.append(dict(dataset='live',vacancy_id='builtin:'+r['id'],job_id=r['id'],source='builtin',title=r['title'],company=r['company'],locations=d.get('locations') or [d.get('location') or r['location'] or r['city']],region=None,regions_all=[],remote=d.get('remote'),posted_date=str(d.get('posted_date') or ''),description=d.get('description',''),employment_type=d.get('work_type',''),url=r['link'],month_basis='live_snapshot',snapshot_date='2026-11-14'))
+    for snap in snapshots:
+        details={}
+        raw_dir=folder/'data_raw'/snap
+        if raw_dir.exists():
+            for p in sorted(raw_dir.glob('*.yaml')):
+                d=yaml.load(p.read_text(), Loader=getattr(yaml,'CSafeLoader',yaml.SafeLoader));details[str(d['job_id'])]=d
+        csv_path=folder/'data/scrapes'/snap/'all_jobs_dedup.csv'
+        if not csv_path.exists():continue
+        with csv_path.open() as f:
+            for r in csv.DictReader(f):
+                d=details.get(r['id'],{})
+                rows.append(dict(dataset='live',vacancy_id='builtin:'+r['id'],job_id=r['id'],source='builtin',title=r['title'],company=r['company'],locations=d.get('locations') or [d.get('location') or r['location'] or r['city']],region=None,regions_all=[],remote=d.get('remote'),posted_date=str(d.get('posted_date') or ''),description=d.get('description',''),employment_type=d.get('work_type',''),url=r['link'],month_basis='live_snapshot',snapshot_date=snap))
     for r in hist+rows:
         if r['dataset']=='live':
             regs=[extract_regions.loc_region(x,extract_regions) for x in r['locations']]
@@ -116,7 +121,8 @@ def normalize_result(out,text):
         name=item['name'].casefold();ev=item['evidence']
         if name in ['llm','llms'] and not re.search(r'\bllms?\b|large[ -]language',ev,re.I):notes.append('unsupported LLM label removed');continue
         if name in ['copilot','cursor','claude','chatgpt'] and name not in ev.casefold():notes.append('unsupported named tool removed');continue
-        supported.append(item)
+        supported.append({'name':item['name'],'context':item['context'],'evidence':item['evidence']})
+    d['skills']=[{'name':item['name'],'requirement':item['requirement'],'evidence':item['evidence']} for item in d['skills']]
     d['ai_mentions']=supported;out['normalization_notes']=notes;out['normalizer_version']='conservative-v1'
     return out
 

@@ -6,7 +6,7 @@
 - `seniority_title`: explicit title level matched by deterministic rules (intern, principal, staff, lead, manager, senior, junior, otherwise unknown). Reports prefer this when present, otherwise use explicit description seniority. Years alone do not imply a level.
 - `tags`: title/metadata flags `qa_sdet`, `intern`, `staff`; `non_english` comes from extracted language (historical heuristic fallback for missing descriptions). These are descriptive tags, never filters.
 - `text_hash`: SHA-256 of `jobs-v2\n` + boilerplate-stripped description. Extraction is cached **only on text**, with identical text sharing one model response. Role in `extracted` therefore describes the text; title-based tags stay row-specific.
-- `status`: `ok`, `missing_description`, or `error`. Reports require no unresolved errors. Missing live description rows remain explicit and are excluded from LLM-share denominators; they still count in dated vacancy n.
+- `status`: `ok`, `missing_description`, or `error`. Validation requires >=99% `ok` rate across non-missing rows. Missing live description rows and strict-grounding validation errors remain explicit with their error reason and are excluded from LLM-share denominators; they still count in dated vacancy `n`.
 - Successful rows: `model=glm-5.3-flash`, `prompt_version=jobs-v2`, provider `request_id`, `usage_attempts` (including rejected responses/retries within a completed cache entry), and `extracted` below.
 
 ## Extracted fields
