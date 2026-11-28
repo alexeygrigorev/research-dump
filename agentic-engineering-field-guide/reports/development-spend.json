@@ -1,0 +1,8 @@
+{
+  "scope": "jobs-v1 exploratory pilot attempts, superseded by jobs-v2; includes first rejected pilot responses and v2 rerun rejected responses",
+  "prompt_tokens": 446529,
+  "completion_tokens": 169210,
+  "cached_tokens": 313024,
+  "api_equivalent_usd": 0.11402147,
+  "probe_tokens_extra": 62
+}

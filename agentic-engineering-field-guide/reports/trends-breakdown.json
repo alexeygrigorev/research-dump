@@ -1,0 +1,309 @@
+{
+  "six_roles": {
+    "P1": {
+      "software_engineer": {
+        "n": 802,
+        "extracted_n": 794,
+        "ai_any_n": 403,
+        "ai_any_pct": 50.76,
+        "ai_dev_n": 124,
+        "ai_dev_pct": 15.62
+      },
+      "backend": {
+        "n": 244,
+        "extracted_n": 243,
+        "ai_any_n": 136,
+        "ai_any_pct": 55.97,
+        "ai_dev_n": 50,
+        "ai_dev_pct": 20.58
+      },
+      "full_stack": {
+        "n": 219,
+        "extracted_n": 214,
+        "ai_any_n": 115,
+        "ai_any_pct": 53.74,
+        "ai_dev_n": 37,
+        "ai_dev_pct": 17.29
+      },
+      "frontend": {
+        "n": 135,
+        "extracted_n": 135,
+        "ai_any_n": 56,
+        "ai_any_pct": 41.48,
+        "ai_dev_n": 20,
+        "ai_dev_pct": 14.81
+      },
+      "engineering_manager": {
+        "n": 182,
+        "extracted_n": 178,
+        "ai_any_n": 96,
+        "ai_any_pct": 53.93,
+        "ai_dev_n": 29,
+        "ai_dev_pct": 16.29
+      },
+      "software_developer": {
+        "n": 34,
+        "extracted_n": 34,
+        "ai_any_n": 12,
+        "ai_any_pct": 35.29,
+        "ai_dev_n": 2,
+        "ai_dev_pct": 5.88
+      }
+    },
+    "P2": {
+      "software_engineer": {
+        "n": 936,
+        "extracted_n": 930,
+        "ai_any_n": 566,
+        "ai_any_pct": 60.86,
+        "ai_dev_n": 246,
+        "ai_dev_pct": 26.45
+      },
+      "backend": {
+        "n": 227,
+        "extracted_n": 222,
+        "ai_any_n": 138,
+        "ai_any_pct": 62.16,
+        "ai_dev_n": 78,
+        "ai_dev_pct": 35.14
+      },
+      "full_stack": {
+        "n": 286,
+        "extracted_n": 278,
+        "ai_any_n": 178,
+        "ai_any_pct": 64.03,
+        "ai_dev_n": 91,
+        "ai_dev_pct": 32.73
+      },
+      "frontend": {
+        "n": 104,
+        "extracted_n": 102,
+        "ai_any_n": 50,
+        "ai_any_pct": 49.02,
+        "ai_dev_n": 20,
+        "ai_dev_pct": 19.61
+      },
+      "engineering_manager": {
+        "n": 166,
+        "extracted_n": 165,
+        "ai_any_n": 96,
+        "ai_any_pct": 58.18,
+        "ai_dev_n": 39,
+        "ai_dev_pct": 23.64
+      },
+      "software_developer": {
+        "n": 36,
+        "extracted_n": 36,
+        "ai_any_n": 10,
+        "ai_any_pct": 27.78,
+        "ai_dev_n": 4,
+        "ai_dev_pct": 11.11
+      }
+    },
+    "P3": {
+      "software_engineer": {
+        "n": 2158,
+        "extracted_n": 2148,
+        "ai_any_n": 1727,
+        "ai_any_pct": 80.4,
+        "ai_dev_n": 908,
+        "ai_dev_pct": 42.27
+      },
+      "backend": {
+        "n": 292,
+        "extracted_n": 289,
+        "ai_any_n": 195,
+        "ai_any_pct": 67.47,
+        "ai_dev_n": 111,
+        "ai_dev_pct": 38.41
+      },
+      "full_stack": {
+        "n": 455,
+        "extracted_n": 454,
+        "ai_any_n": 360,
+        "ai_any_pct": 79.3,
+        "ai_dev_n": 244,
+        "ai_dev_pct": 53.74
+      },
+      "frontend": {
+        "n": 114,
+        "extracted_n": 113,
+        "ai_any_n": 65,
+        "ai_any_pct": 57.52,
+        "ai_dev_n": 48,
+        "ai_dev_pct": 42.48
+      },
+      "engineering_manager": {
+        "n": 410,
+        "extracted_n": 409,
+        "ai_any_n": 315,
+        "ai_any_pct": 77.02,
+        "ai_dev_n": 158,
+        "ai_dev_pct": 38.63
+      },
+      "software_developer": {
+        "n": 77,
+        "extracted_n": 77,
+        "ai_any_n": 36,
+        "ai_any_pct": 46.75,
+        "ai_dev_n": 19,
+        "ai_dev_pct": 24.68
+      },
+      "other": {
+        "n": 181,
+        "extracted_n": 180,
+        "ai_any_n": 115,
+        "ai_any_pct": 63.89,
+        "ai_dev_n": 44,
+        "ai_dev_pct": 24.44
+      }
+    }
+  },
+  "tool_groups_all": {
+    "P1": {
+      "Claude Code": 15,
+      "Cursor": 32,
+      "GitHub Copilot / Copilot": 37,
+      "Claude (any)": 31,
+      "Agentic / AI agents": 76,
+      "AI coding / assisted dev": 68,
+      "LLM / LLMs": 142,
+      "Codex / Windsurf / Devin": 10,
+      "MCP": 13
+    },
+    "P2": {
+      "Claude Code": 52,
+      "Cursor": 47,
+      "GitHub Copilot / Copilot": 63,
+      "Claude (any)": 84,
+      "Agentic / AI agents": 158,
+      "AI coding / assisted dev": 145,
+      "LLM / LLMs": 182,
+      "Codex / Windsurf / Devin": 28,
+      "MCP": 9
+    },
+    "P3": {
+      "Claude Code": 253,
+      "Cursor": 179,
+      "GitHub Copilot / Copilot": 157,
+      "Claude (any)": 354,
+      "Agentic / AI agents": 737,
+      "AI coding / assisted dev": 657,
+      "LLM / LLMs": 598,
+      "Codex / Windsurf / Devin": 106,
+      "MCP": 100
+    }
+  },
+  "tool_groups_dev": {
+    "P1": {
+      "Claude Code": 15,
+      "Cursor": 31,
+      "GitHub Copilot / Copilot": 37,
+      "Claude (any)": 27,
+      "Agentic / AI agents": 10,
+      "AI coding / assisted dev": 60,
+      "LLM / LLMs": 31,
+      "Codex / Windsurf / Devin": 10,
+      "MCP": 5
+    },
+    "P2": {
+      "Claude Code": 52,
+      "Cursor": 47,
+      "GitHub Copilot / Copilot": 63,
+      "Claude (any)": 81,
+      "Agentic / AI agents": 63,
+      "AI coding / assisted dev": 136,
+      "LLM / LLMs": 58,
+      "Codex / Windsurf / Devin": 28,
+      "MCP": 8
+    },
+    "P3": {
+      "Claude Code": 239,
+      "Cursor": 167,
+      "GitHub Copilot / Copilot": 151,
+      "Claude (any)": 325,
+      "Agentic / AI agents": 349,
+      "AI coding / assisted dev": 628,
+      "LLM / LLMs": 113,
+      "Codex / Windsurf / Devin": 91,
+      "MCP": 50
+    }
+  },
+  "live_by_snapshot": {
+    "2026-11-14": {
+      "n": 6215,
+      "extracted_n": 6190,
+      "ai_any_n": 4528,
+      "ai_any_pct": 73.15,
+      "ai_dev_n": 2339,
+      "ai_dev_pct": 37.79
+    },
+    "2026-11-25": {
+      "n": 879,
+      "extracted_n": 871,
+      "ai_any_n": 667,
+      "ai_any_pct": 76.58,
+      "ai_dev_n": 390,
+      "ai_dev_pct": 44.78
+    }
+  },
+  "live_by_city": {
+    "New York": {
+      "n": 4989,
+      "extracted_n": 4970,
+      "ai_any_n": 3736,
+      "ai_any_pct": 75.17,
+      "ai_dev_n": 1903,
+      "ai_dev_pct": 38.29,
+      "top_dev_tools": {
+        "Claude Code": 293,
+        "Cursor": 221,
+        "GitHub Copilot / Copilot": 161,
+        "Claude (any)": 409,
+        "Agentic / AI agents": 400,
+        "AI coding / assisted dev": 668,
+        "LLM / LLMs": 195,
+        "Codex / Windsurf / Devin": 120,
+        "MCP": 38
+      }
+    },
+    "London": {
+      "n": 1458,
+      "extracted_n": 1453,
+      "ai_any_n": 1010,
+      "ai_any_pct": 69.51,
+      "ai_dev_n": 571,
+      "ai_dev_pct": 39.3,
+      "top_dev_tools": {
+        "Claude Code": 70,
+        "Cursor": 52,
+        "GitHub Copilot / Copilot": 37,
+        "Claude (any)": 97,
+        "Agentic / AI agents": 109,
+        "AI coding / assisted dev": 202,
+        "LLM / LLMs": 43,
+        "Codex / Windsurf / Devin": 29,
+        "MCP": 13
+      }
+    },
+    "Berlin": {
+      "n": 266,
+      "extracted_n": 260,
+      "ai_any_n": 173,
+      "ai_any_pct": 66.54,
+      "ai_dev_n": 98,
+      "ai_dev_pct": 37.69,
+      "top_dev_tools": {
+        "Claude Code": 15,
+        "Cursor": 16,
+        "GitHub Copilot / Copilot": 12,
+        "Claude (any)": 23,
+        "Agentic / AI agents": 18,
+        "AI coding / assisted dev": 39,
+        "LLM / LLMs": 5,
+        "Codex / Windsurf / Devin": 11,
+        "MCP": 5
+      }
+    }
+  }
+}

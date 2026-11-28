@@ -1,0 +1,16 @@
+{
+  "snapshot_date": "2026-11-25",
+  "model": "glm-5.3-flash",
+  "endpoint": "https://api.z.ai/api/coding/paas/v4/chat/completions",
+  "rows": 879,
+  "unique_texts": 865,
+  "selected": 865,
+  "ok": 857,
+  "failed": 8,
+  "prompt_tokens": 1824384,
+  "completion_tokens": 647393,
+  "cached_tokens": 311808,
+  "api_equivalent_usd": 0.55993714,
+  "billing": "Existing Coding Plan subscription; token-price equivalent is an estimate, not an invoice",
+  "elapsed_s": 214
+}
